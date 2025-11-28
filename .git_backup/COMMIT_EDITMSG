@@ -1,0 +1,35 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   aligner.py
+#	new file:   all_rewritten/clean_punct.py
+#	new file:   all_rewritten/output.json
+#	new file:   all_rewritten/summary_earthquake.json
+#	new file:   all_rewritten/summary_en.json
+#	new file:   all_rewritten/summary_finance.json
+#	new file:   all_rewritten/summary_flood.json
+#	new file:   all_rewritten/summary_public_health.json
+#	new file:   all_rewritten/summary_turmoil.json
+#	new file:   classified_disaster_news/en.json
+#	new file:   "classified_disaster_news/\345\205\254\345\205\261\345\215\253\347\224\237_01.json"
+#	new file:   "classified_disaster_news/\345\212\250\344\271\261_01.json"
+#	new file:   "classified_disaster_news/\345\234\260\351\234\207_01.json"
+#	new file:   "classified_disaster_news/\346\264\252\346\260\264_01.json"
+#	new file:   "classified_disaster_news/\351\207\221\350\236\215\345\215\261\346\234\272_01.json"
+#	new file:   config.py
+#	new file:   config_api.py
+#	new file:   config_models.py
+#	new file:   config_runtime.py
+#	new file:   conflict_injection.py
+#	new file:   conflict_injection_co.py
+#	new file:   evaluate_2.py
+#	new file:   fusion_system2direct.py
+#	new file:   seg.py
+#	new file:   seg_en.py
+#

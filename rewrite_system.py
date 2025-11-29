@@ -1354,54 +1354,167 @@ def build_and_run_graph_langgraph(news_text: str, model_config: Dict[str, Any]):
     return final_state
 
 # ---------------- main example ----------------
+# ---------------- main with command line support ----------------
 if __name__ == "__main__":
+    import argparse
     import pathlib
-    input_file = "/data1/zhc/LLM/a.test/muti_domain_news.json"
-    output_dir = pathlib.Path("./muti_outputs")
-    output_dir.mkdir(exist_ok=True)
-    model_config = get_model_deployment_config(DEFAULT_TEACHER_MODEL)
+    import sys
+    
+    # 设置命令行参数
+    parser = argparse.ArgumentParser(description='News Rewriting Agent based on LangGraph')
+    parser.add_argument('--input', '-i', type=str, required=True,
+                       help='Input JSON file containing news articles')
+    parser.add_argument('--output', '-o', type=str, default='./muti_outputs',
+                       help='Output directory for results (default: ./muti_outputs)')
+    parser.add_argument('--start-index', type=int, default=1,
+                       help='Starting index for file numbering (default: 1)')
+    parser.add_argument('--model', type=str, default=DEFAULT_TEACHER_MODEL,
+                       help=f'Model to use for rewriting (default: {DEFAULT_TEACHER_MODEL})')
+    parser.add_argument('--max-items', type=int, default=None,
+                       help='Maximum number of items to process (default: all)')
+    parser.add_argument('--debug', action='store_true',
+                       help='Enable debug mode')
+    
+    args = parser.parse_args()
+    
+    # 设置调试模式
+    if args.debug:
+        DEBUG_MODE = True
+        logging.getLogger().setLevel(logging.DEBUG)
+    
+    # 检查LangGraph是否可用
     if not LANGGRAPH_AVAILABLE:
-        raise RuntimeError("langgraph not installed. Please install langgraph and retry.")
+        print("Error: langgraph is not installed. Please install it with: pip install langgraph")
+        sys.exit(1)
+    
+    # 检查输入文件
+    input_file = pathlib.Path(args.input)
+    if not input_file.exists():
+        print(f"Error: Input file '{args.input}' does not exist")
+        sys.exit(1)
+    
+    # 创建输出目录
+    output_dir = pathlib.Path(args.output)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    # 获取模型配置
+    model_config = get_model_deployment_config(args.model)
+    if not model_config:
+        print(f"Error: Model configuration for '{args.model}' not found")
+        sys.exit(1)
+    
+    # 加载新闻数据
     try:
         with open(input_file, "r", encoding="utf-8") as f:
             news_list = json.load(f)
     except Exception as e:
-        raise RuntimeError(f"Failed to read input file: {e}")
+        print(f"Error: Failed to read input file: {e}")
+        sys.exit(1)
     
-    # 添加起始索引设置
-    start_index = 1  # 修改这个值来设置起始编号
+    # 限制处理数量
+    if args.max_items:
+        news_list = news_list[:args.max_items]
+    
+    print(f"Starting processing of {len(news_list)} news items")
+    print(f"Input file: {args.input}")
+    print(f"Output directory: {args.output}")
+    print(f"Starting index: {args.start_index}")
+    print(f"Model: {args.model}")
+    print("-" * 50)
+    
     results_summary = []
+    processed_count = 0
     
     for idx, item in enumerate(news_list):
-        current_index = idx + start_index  # 计算当前文件的编号
-        print(f"\n=== Processing news {current_index}/{len(news_list) + start_index - 1} ===")
+        current_index = idx + args.start_index
+        print(f"\n=== Processing news {current_index}/{len(news_list) + args.start_index - 1} ===")
+        
         content = item.get("content", "").strip()
         if not content:
             print(" Skip: content empty")
             continue
-        result = build_and_run_graph_langgraph(content, model_config=model_config)
+            
+        title = item.get("title", f"news_{current_index}")
+        print(f" Title: {title}")
         
-        # 修改输出文件名使用 current_index
-        output_path = output_dir / f"news_{current_index:03d}_result.json"
-        with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(result, f, ensure_ascii=False, indent=2)
+        try:
+            # 执行重写处理
+            result = build_and_run_graph_langgraph(content, model_config=model_config)
+            processed_count += 1
+            
+            # 保存完整结果
+            output_path = output_dir / f"news_{current_index:03d}_result.json"
+            with open(output_path, "w", encoding="utf-8") as f:
+                json.dump(result, f, ensure_ascii=False, indent=2)
+            
+            # 保存摘要
+            summary = result.get("summary", {"input_text": content, "top_rewrites": []})
+            summary_path = output_dir / f"news_{current_index:03d}_summary.json"
+            with open(summary_path, "w", encoding="utf-8") as f:
+                json.dump(summary, f, ensure_ascii=False, indent=2)
+            print(f" Summary saved to: {summary_path}")
+            
+            # 保存工具调用记录
+            trace_dir = output_dir / "traces"
+            trace_dir.mkdir(exist_ok=True)
+            trace_path = trace_dir / f"tool_calls_{current_index:03d}.json"
+            with open(trace_path, "w", encoding="utf-8") as f:
+                json.dump(result.get("tool_calls", []), f, ensure_ascii=False, indent=2)
+            
+            # 保存执行轨迹
+            trace_path2 = trace_dir / f"execution_trace_{current_index:03d}.json"
+            with open(trace_path2, "w", encoding="utf-8") as f:
+                json.dump(result.get("trace", []), f, ensure_ascii=False, indent=2)
+            
+            # 收集统计信息
+            best_score = result.get("best_score", 0)
+            all_passed = result.get("all_versions_passed", False)
+            results_summary.append({
+                "index": current_index,
+                "title": title,
+                "best_score": best_score,
+                "all_passed": all_passed,
+                "success_ratio": result.get("best_version", {}).get("success_ratio", 0)
+            })
+            
+            print(f" ✓ Completed - Best score: {best_score:.3f}, All passed: {all_passed}")
+            
+        except Exception as e:
+            print(f" ✗ Error processing news {current_index}: {e}")
+            logger.error(f"Error processing news {current_index}: {e}", exc_info=True)
+    
+    # 生成总体报告
+    print("\n" + "="*50)
+    print("PROCESSING SUMMARY")
+    print("="*50)
+    print(f"Total items processed: {processed_count}/{len(news_list)}")
+    
+    if results_summary:
+        avg_score = sum(r["best_score"] for r in results_summary) / len(results_summary)
+        passed_count = sum(1 for r in results_summary if r["all_passed"])
+        avg_success_ratio = sum(r["success_ratio"] for r in results_summary) / len(results_summary)
         
-        summary = result.get("summary", {"input_text": content, "top_rewrites": []})
-        summary_path = output_dir / f"news_{current_index:03d}_summary.json"
-        with open(summary_path, "w", encoding="utf-8") as f:
-            json.dump(summary, f, ensure_ascii=False, indent=2)
-        print(f"summary saved to: {summary_path}")
+        print(f"Average best score: {avg_score:.3f}")
+        print(f"Average success ratio: {avg_success_ratio:.3f}")
+        print(f"Items with all versions passed: {passed_count}/{processed_count}")
         
-        trace_dir = pathlib.Path("./rewrite_trace_outputs")
-        trace_dir.mkdir(exist_ok=True)
-        trace_path = trace_dir / f"trace_{int(time.time())}.json"
-        with open(trace_path, "w", encoding="utf-8") as f:
-            json.dump(result.get("tool_calls", []), f, ensure_ascii=False, indent=2)
-        print(f"tool_calls saved to: {trace_path}")
+        # 保存总体报告
+        report = {
+            "processing_summary": {
+                "total_processed": processed_count,
+                "total_input": len(news_list),
+                "average_score": avg_score,
+                "average_success_ratio": avg_success_ratio,
+                "passed_count": passed_count,
+                "start_index": args.start_index,
+                "model_used": args.model
+            },
+            "item_details": results_summary
+        }
         
-        out_dir = pathlib.Path(".") / "rewrite_trace_outputs"
-        out_dir.mkdir(exist_ok=True)
-        trace_path2 = out_dir / f"trace_{int(time.time())}.json"
-        with open(trace_path2, "w", encoding="utf-8") as f:
-            json.dump(result.get("trace", []), f, ensure_ascii=False, indent=2)
-        print(f"\ntrace saved to: {trace_path2}")
+        report_path = output_dir / "processing_report.json"
+        with open(report_path, "w", encoding="utf-8") as f:
+            json.dump(report, f, ensure_ascii=False, indent=2)
+        print(f"Detailed report saved to: {report_path}")
+    
+    print(f"\nAll outputs saved to: {output_dir.absolute()}")

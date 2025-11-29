@@ -46,114 +46,123 @@ if DEBUG_MODE:
 
 # ==================== 问题分类定义 ====================
 
-# 第一类：整体文本问题（Global Problems）
 GLOBAL_PROBLEMS = {
-    "逻辑连贯性断裂": {
-        "description": "描述灾难事件发展过程时，句子或段落间缺乏必要逻辑连接，导致信息支离破碎，难以理解事件全貌。",
-        "evaluation_method": "通读完整融合文本，检查段落间逻辑连接"
+    "Logical Disconnection": {
+        "description": "When describing the development process of a disaster event, sentences or paragraphs lack necessary logical connections, resulting in fragmented information that makes it difficult to understand the event as a whole.",
+        "evaluation_method": "Read the entire fused text and check for logical connections between paragraphs."
     },
-    "语言风格一致性错误": {
-        "description": "融合灾难报道时，文体、语态或用语风格发生突然变化，在正式官方通报与口语化表达之间跳跃，破坏文本整体性。",
-        "evaluation_method": "检查全文语言风格是否统一"
+    "Inconsistent Language Style": {
+        "description": "During the fusion of disaster reports, the text style, tone, or language can suddenly change, such as jumping between formal official announcements and colloquial expressions, undermining the overall textual consistency.",
+        "evaluation_method": "Examine if the language style is unified throughout the text."
     },
-    "文本结构组织混乱": {
-        "description": "融合灾难信息时，信息组织方式杂乱无章，同类信息被分散在不同部分，缺乏清晰逻辑结构和层次划分。",
-        "evaluation_method": "评估整体信息组织结构和层次"
+    "Disorganized Structure": {
+        "description": "When merging disaster information, the organization of information is chaotic and scattered, with similar information dispersed throughout different sections, lacking clear structure and hierarchy.",
+        "evaluation_method": "Evaluate the overall organization and hierarchical structure of the information."
     },
-    "时间顺序准确性错误": {
-        "description": "融合灾难事件时间线信息时，错误排列事件发生的先后顺序。",
-        "evaluation_method": "参照原始文本进行检查，检查融合后的文本的时间线逻辑是否和原始文本一致。"
+    "Incorrect Event Sequence": {
+        "description": "When merging the timeline of disaster events, the order of occurrences is presented incorrectly.",
+        "evaluation_method": "Refer to the original text and verify whether the logical sequence in the fused text is consistent with the original."
     },
-    "因果关系逻辑错误": {
-        "description": "融合灾难信息时，擅自添加或颠倒事件间的因果关系。",
-        "evaluation_method": "检查全文因果关系是否合理"
+    "Incorrect Causal Relationship": {
+        "description": "When merging disaster information, mistakenly adding or inverting causal relationships between events.",
+        "evaluation_method": "Check if the causal relationships throughout the text are reasonable."
     }
 }
 
-# 第二类：句子级别问题（Sentence-Level Problems）
+# Category 2: Sentence-Level Problems
 SENTENCE_LEVEL_PROBLEMS = {
-    "事实完整性缺失": {
-        "description": "在融合灾难事件信息时，未能包含原文本中存在的关键事实细节，如受灾范围、伤亡人数、灾害等级或救援进展，导致信息不完整，影响对灾情的全面理解。",
-        "evaluation_method": "对比句子evidence与融合文本，检查关键事实是否缺失"
+    "Lack of Factual Completeness": {
+        "description": "When merging disaster event information, key factual details present in the original text—such as affected area, casualties, disaster level, or rescue progress—are missing, resulting in incomplete understanding of the situation.",
+        "evaluation_method": "Compare sentence-level evidence and fused text to check if key facts are missing."
     },
-    "核心数据准确性错误": {
-        "description": "在融合灾难关键数据时出现数值错误，包括伤亡人数、经济损失金额、震级、风速等核心指标，导致对灾情严重程度的误判。",
-        "evaluation_method": "检查数字、时间等核心数据是否准确"
+    "Inaccurate Core Data": {
+        "description": "When merging core disaster data, numerical errors occur, including casualties, economic losses, earthquake magnitude, wind speed, and other critical indicators, leading to misjudgment of disaster severity.",
+        "evaluation_method": "Check the accuracy of numbers and core data, such as time and statistics."
     },
-    "信息来源归属错误": {
-        "description": "在融合信息时，错误地归属或混淆信息的原始来源机构、个人或出处，包括错误指定发言主体、错误引用权威机构、或错误标注信息出处。",
-        "evaluation_method": "检查人物、机构等归属是否正确"
+    "Incorrect Source Attribution": {
+        "description": "During the information fusion, the origin of information—such as original institutions, individuals, or locations—is misattributed or confused, including incorrect speaker attribution, citation authority, or source location.",
+        "evaluation_method": "Check whether attributions to people or institutions are correct."
     },
-    "虚构内容生成": {
-        "description": "在融合灾难信息时，生成与原始文本无关或矛盾的虚构内容，包括编造未发生的灾难、虚构重大伤亡或不存在的救援行动。",
-        "evaluation_method": "检查是否存在无来源支持的内容"
+    "Fabricated Content": {
+        "description": "During fusion of disaster information, content unrelated or contradictory to the original text is generated, including fabrication of non-existent disasters, major casualties, or rescue actions.",
+        "evaluation_method": "Check if any content lacks supporting sources."
     },
-    "信息表述精确性不足": {
-        "description": "融合信息时，使用模糊、不确定的词语替代原本具体、明确的信息表述，导致关键事实细节丢失。",
-        "evaluation_method": "检查具体信息是否被模糊化"
+    "Insufficient Information Precision": {
+        "description": "During information fusion, vague or uncertain language replaces specific and clear fact descriptions, resulting in lost factual details.",
+        "evaluation_method": "Check if specific details are made vague."
     },
-    "分类层级不当": {
-        "description": "融合信息时，不恰当地改变信息在分类体系中的层级位置，主要表现为将细粒度的具体类别归纳为粗粒度的上位类别，或错误地进行类别映射，导致分类信息失真。",
-        "evaluation_method": "检查分类概念是否被错误提升或降低"
+    "Incorrect Categorization": {
+        "description": "During information fusion, inappropriate changes are made to the hierarchy of information in the taxonomy, such as promoting or demoting categories incorrectly, leading to misleading categorical information.",
+        "evaluation_method": "Check if categorical concepts are promoted or demoted incorrectly."
     },
-    "内容客观性偏差": {
-        "description": "融合灾难信息时，添加不必要的、带有强烈个人或机构倾向性的评价性语言和主观判断，偏离原文本的立场，影响信息客观性。",
-        "evaluation_method": "检查是否添加主观评价"
+    "Lack of Objectivity": {
+        "description": "During fusion, unnecessary subjective or strongly opinionated language from individuals or institutions is introduced, causing deviation from the original viewpoint and affecting objectivity.",
+        "evaluation_method": "Check if subjective judgments or evaluations are added."
     },
-    "冲突信息处理不当": {
-        "description": "在融合多个来源信息时，未能识别或妥善处理来源间的明显冲突信息，包括关键事实矛盾、数据不一致、时间冲突等，导致融合结果包含未解决的矛盾或错误采纳了冲突信息。",
-        "evaluation_method": "检查conflict_resolved字段是否充分处理冲突,如认为存在冲突，必须输出冲突证据"
+    "Improper Conflict Resolution": {
+        "description": "When merging information from multiple sources, explicit conflicts—such as key factual discrepancies, data inconsistencies, or timeline contradictions—are not identified or properly handled, resulting in unresolved conflicts or erroneous synthesis in the final output.",
+        "evaluation_method": "Check if the 'conflict_resolved' field is handled sufficiently; if conflicts are detected, supporting evidence must be output."
     }
 }
 
-# ==================== 评估提示模板 ====================
+# ==================== Evaluation Prompt Template ====================
 
 GLOBAL_EVALUATE_PROMPT = """
-作为专业新闻编辑，请评估以下融合文本是否存在{problem_type}问题。
+As a professional news editor, please evaluate whether the following fused text contains the '{problem_type}' problem.
 
-## 问题描述: {problem_description}
+## Problem Description: {problem_description}
 
-## 评估要求:
-1. 仔细阅读完整融合文本，评估整体质量
-2. 判断是否存在{problem_type}问题
-3. 如果存在，请提供具体证据
-4. 如果不存在，返回空结果
+## Evaluation Requirements:
+1. Carefully read the entire original text and fused text, compare them and evaluate the overall quality.
+2. Decide whether the '{problem_type}' problem exists.
+3. If it exists, provide specific supporting evidence.
+4. If it does not exist, return an empty result.
 
-## 文本内容:
-**原始文本**: {original_text}
-**融合文本**: {fused_text}
+## Text Content:
+**Original Text**: {original_text}
+**Fused Text**: {fused_text}
 
-## 输出格式: 请以JSON格式返回评估结果，包含以下字段:
-- "problem_exists": 布尔值，表示是否存在该问题
-- "evidence": 具体证据（如果存在问题）
+##Output Requirements:
+- Answer in the same language as the input text.
 
-请开始评估：
+## Output Format: Please return the evaluation in JSON format, including the following fields:
+- "problem_exists": Boolean, indicating whether the problem exists
+- "evidence": Specific evidence (if the problem exists)
+
+
+
+Please begin the evaluation:
 """
 
 SENTENCE_EVALUATE_PROMPT = """
-作为专业新闻编辑，请评估以下融合句子是否存在{problem_type}问题。
+As a professional news editor, please evaluate whether the following fused sentence contains the '{problem_type}' problem.
 
-## 问题描述: {problem_description}
+## Problem Description: {problem_description}
 
-## 评估要求:
-1. 仔细对比融合句子与原始证据
-2. 判断是否存在{problem_type}问题
-3. 如果存在，请提供具体证据
-4. 如果不存在，返回空结果
+## Evaluation Requirements:
+1. Carefully compare the fused sentence with the original evidence.
+2. Decide whether the '{problem_type}' problem exists.
+3. If it exists, provide specific supporting evidence.
+4. If it does not exist, return an empty result.
 
-## 句子信息:
-**融合句子**: {fused_sentence}
-**原始证据**: {evidence_texts}
+## Sentence Information:
+**Fused Sentence**: {fused_sentence}
+**Original Evidence**: {evidence_texts}
 
-## 对齐信息:
-- 来源版本: {sources}
-- 冲突处理: {conflict_resolved}
+## Alignment Information:
+- Source Versions: {sources}
+- Conflict Resolution: {conflict_resolved}
 
-## 输出格式: 请以JSON格式返回评估结果，包含以下字段:
-- "problem_exists": 布尔值，表示是否存在该问题
-- "evidence": 具体证据（如果存在问题）
+##Output Requirements:
+- Answer in the same language as the input text.
 
-请开始评估：
+## Output Format: Please return the evaluation in JSON format, including the following fields:
+- "problem_exists": Boolean, indicating whether the problem exists
+- "evidence": Specific evidence (if the problem exists)
+
+
+
+Please begin the evaluation:
 """
 
 class TextSimilarityCalculator:
@@ -950,7 +959,7 @@ def main():
     parser.add_argument("--gpu-device", "-gpu", default="cuda:0", help="指定使用的GPU设备，如 cuda:0, cuda:1 等，默认 cuda:0")
     parser.add_argument("--sample", "-s", type=int, default=0, help="处理样本数量")
     args = parser.parse_args()
-    # python evaluate_2.py --input fused_with_alignment.json --output evaluation_details/动乱2gpt-4o-mini.json --strict-model deepseek-chat --cot-model deepseek-chat --similarity-model-path /data1/rjj/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 --gpu-device cuda:3
+    # python evaluate_2.py --input fused_with_alignment.json --output evaluation_details/test.json --strict-model deepseek-v3.1 --similarity-model-path /data1/rjj/models/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 --gpu-device cuda:3
     if not os.path.exists(args.input):
         print(f"❌ 输入文件不存在: {args.input}")
         sys.exit(1)

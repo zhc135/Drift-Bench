@@ -1,3 +1,5 @@
+
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
@@ -12,8 +14,8 @@ PUNCT_CHARS = "，,。.；;:：！？?!、…·•-—()（）\"'‘’“”…
 # 正则：匹配由上述标点任意字符组成且长度 >= 2 的连续序列（如 "，，，，"、",,,"、"，，。,"）
 RE_REPEAT_PUNCT = re.compile(r"[{}]{{2,}}".format(re.escape(PUNCT_CHARS)))
 
-# 额外可选清理：多余空白合并
-RE_MULTISPACE = re.compile(r"\s{2,}")
+# 仅合并除换行之外的多余空白（保留连续换行作为段落分隔）
+RE_MULTISPACE = re.compile(r"[^\S\n]{2,}")  # 匹配连续两个及以上的空白，但不包含换行符
 
 input_path="/data1/rjj/a.test/all_rewritten/summary_finance.json"
 
@@ -21,12 +23,15 @@ def clean_string(s: str) -> str:
     """
     清理字符串：
       - 删除连续两个及以上的标点序列（默认行为）
-      - 去除多余空白
-      - 去除字符串前后多余的空白和标点（可选）
+      - 合并多余的空格/制表符，但保留换行和段落分隔（\n\n）
+      - 去除字符串前后多余的空白和标点（但不去掉前后换行）
     若想把连续标点合并为单个标点而不是删除，见注释替代方案。
     """
     if not s:
         return s
+
+    # 统一换行为 '\n'（防止 Windows/mac 不同换行干扰）
+    s = s.replace("\r\n", "\n").replace("\r", "\n")
 
     # 1) 删除连续的标点序列（长度 >= 2）
     s = RE_REPEAT_PUNCT.sub("", s)
@@ -39,11 +44,11 @@ def clean_string(s: str) -> str:
     #     return seq[-1]
     # s = RE_REPEAT_PUNCT.sub(_collapse, s)
 
-    # 2) 合并多余空白为单个空格
+    # 2) 合并多余空白为单个空格，但保留换行（不把 \n\n 压成一个空格）
     s = RE_MULTISPACE.sub(" ", s)
 
-    # 3) 去除开头或结尾多余的标点或空白（可保留这一步）
-    s = s.strip(" \t\n\r" + PUNCT_CHARS)
+    # 3) 去除开头或结尾多余的标点或空白（注意：不去除换行符，以保留段落分隔）
+    s = s.strip(" \t" + PUNCT_CHARS)
 
     return s
 
@@ -76,3 +81,4 @@ if __name__ == "__main__":
         print("Usage: python clean_punct.py input.json output.json")
         sys.exit(1)
     main(sys.argv[1], sys.argv[2])
+

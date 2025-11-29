@@ -1,5 +1,7 @@
 # config_api.py
 from itertools import cycle
+import threading
+from typing import Dict, List
 
 # 多个第三方代理配置
 THIRD_PARTY_CONFIGS = [
@@ -30,6 +32,19 @@ THIRD_PARTY_CONFIGS = [
 # 创建API密钥循环器
 API_KEY_CYCLER = cycle(THIRD_PARTY_CONFIGS)
 
+_api_cycler_lock = threading.Lock()
+_api_cycler = cycle(THIRD_PARTY_CONFIGS)
+
 def get_api_config():
-    """获取下一个API配置"""
-    return next(API_KEY_CYCLER)
+    """获取下一个API配置（线程安全）"""
+    with _api_cycler_lock:
+        return next(_api_cycler)
+
+def get_all_api_configs() -> List[Dict]:
+    """获取所有API配置"""
+    return THIRD_PARTY_CONFIGS.copy()
+
+def get_api_config_by_index(index: int) -> Dict:
+    """根据索引获取API配置"""
+    configs = THIRD_PARTY_CONFIGS
+    return configs[index % len(configs)]

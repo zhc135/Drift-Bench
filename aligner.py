@@ -114,9 +114,10 @@ def extract_alignment_from_text(text: str) -> Optional[List[Dict[str, Any]]]:
 
 def build_alignment_prompt(fused_text: str, versions: List[str]) -> str:
     """
-    构造给 LLM 的对齐 prompt（中文）。包含严格的输出格式要求：
+    构造给 LLM 的对齐 prompt（中文）。改为段落级别（paragraph-level）对齐。
+    包含严格的输出格式要求：
     - 输出必须包含原始融合文章（可重复）/或者仅提供对齐 JSON，但必须提供 ALIGNMENT 分隔符和 JSON 数组。
-    - JSON 每一项包含 sent_idx, text, sources, evidence, conflict_resolved。
+    - JSON 每一项包含 para_idx, text, sources, evidence, conflict_resolved。
     """
     # 附带一个简短示例以便 LLM 模仿输出结构
     example_alignment = """
@@ -124,33 +125,33 @@ def build_alignment_prompt(fused_text: str, versions: List[str]) -> str:
 ====ALIGNMENT====
 [
   {
-    "sent_idx": 1,
-    "text": "示例句子 A。",
+    "para_idx": 1,
+    "text": "示例段落 A，即融合文章中的第一个段落整体文本。",
     "sources": [1, 2],
     "evidence": [
-      "版本1中的对应片段...",
-      "版本2中的对应片段..."
+      "版本1中的对应段落或段内摘录...",
+      "版本2中的对应段落或段内摘录..."
     ],
-    "conflict_resolved": "若存在冲突，请简要说明如何选择或为什么选用某版本；若无冲突，留空字符串。"
+    "conflict_resolved": "如果不同版本在该段落中存在事实冲突，请简要说明冲突是什么、融合文本选择了哪个版本，或说明未发现冲突。"
   },
   ...
 ]
 """
     prompt = f"""
-你是一名资深新闻编辑/信息对齐专家。任务：将下面的“融合后文章”（Fused Article）中的每一句话，与提供的三个改写版本（Version 1 / Version 2 / Version 3）对齐，输出一个 JSON 数组描述每个句子的来源和证据。
+你是一名资深新闻编辑/信息对齐专家。任务：将下面的“融合后文章”（Fused Article）中的每一个段落，与提供的三个改写版本（Version 1 / Version 2 / Version 3）对齐，输出一个 JSON 数组描述每个段落的来源和证据。
 
 严格要求（非常重要）：
 1) 只能使用提供的三份改写版本里的信息作为证据。不得添加外部事实或额外信息。
-2) 输出格式必须严格为：在一行单独写出分隔符行：{ALIGNMENT_SEPARATOR}，随后是一个 JSON 数组（可多行、可缩进），数组的每个元素对应融合文章中的一个句子（按顺序）。
+2) 输出格式必须严格为：在一行单独写出分隔符行：{ALIGNMENT_SEPARATOR}，随后是一个 JSON 数组（可多行、可缩进，按顺序）。
 3) 每个数组元素必须包含以下字段：
-   - sent_idx: 句子序号（从1开始，与融合文章中句子顺序一致）
-   - text: 该句子在融合文章中的原文（应与融合文章中句子逐字匹配）
-   - sources: 一个整数数组，包含支持该句子的源版本编号（1/2/3）
-   - evidence: 对应 sources 中每个版本的最小支持性摘录（短语/子句/完整句均可），按 sources 顺序排列；摘录应直接从对应版本文本中复制，不要改写。
-   - conflict_resolved: 如果不同版本在该句子事实上存在冲突（如日期/地点/数字不一致），请简要说明冲突是什么、你选择了哪个版本（或哪种规则），以及为何选择；如果没有冲突则填空字符串 ""。
+   - para_idx: 段落序号（从1开始，与融合文章中段落顺序一致）
+   - text: 该段落在融合文章中的原文（应与融合文章中段落逐字匹配）
+   - sources: 一个整数数组，包含支持该段落的源版本编号（1/2/3）
+   - evidence: 对应 sources 中每个版本的最小支持性摘录每个source可以对应多句话，用一个列表输出[1:[,],2:[,],3:[,]]，按 sources 顺序排列；摘录应直接从对应版本文本中复制，不要改写。
+   - conflict_resolved: 如果不同版本在该段落中存在冲突（如日期/地点/数字/事实不一致），请简要说明冲突是什么、融合文本选择了哪个版本，或说明未发现冲突。
 4) JSON 必须能被 JSON 解析器解析（即合法 JSON）。
-5) 融合文章句子划分：请按常规书面语句号/问号/感叹号/换行划分（保留融合文章中原句标点）。如果句子非常长或包含多条事实，你可以适当拆分，但请保证 text 字段精确反映融合文章中对应句子片段。
-6) 在 evidence 中，尽量只包含支持该句子最小必要片段，不要包含非支持性内容。
+5) 段落划分规则（非常重要）：请优先按照融合文章中的原始段落划分（以空行或连续换行分隔为段落边界）。如果融合文章中某一“段落”非常长且包含多条独立事实，你可以在保证 text 字段精确反映融合文章中对应段落或段落片段的前提下适当拆分，但应尽量保持与原文段落对应。text 字段必须与融合文章中所对应的段落文本逐字匹配（或为原段落的精确子片段）。
+6) 在 evidence 中，不能漏掉任何和融合文章段落内容匹配的证据。
 7) 输出仅包含分隔符行和 JSON 数组（可附带融合文章原文之前/之后不影响解析的少量文本，但强烈建议只输出分隔符 + JSON）。不要输出额外的解释、注释或其他格式化文本。
 
 现在的输入如下（请严格根据它们生成对齐 JSON）：
@@ -175,7 +176,7 @@ def build_alignment_prompt(fused_text: str, versions: List[str]) -> str:
 
 def align_single_item(item: Dict[str, Any], llm) -> Dict[str, Any]:
     """
-    对单篇新闻进行对齐：调用 LLM 得到 alignment JSON，解析并把 alignment 附回 fused_content。
+    对单篇新闻进行对齐（段落级别）：调用 LLM 得到 alignment JSON，解析并把 alignment 附回 fused_content。
     返回修改后的 item（添加 fused_content（包含 ALIGNMENT），以及 alignment 字段或 raw_alignment 字段）
     """
     fused = item.get("fused_content", "") or item.get("fused", "") or ""
@@ -288,7 +289,7 @@ def parse_args():
     p.add_argument("--workers", "-w", type=int, default=MAX_WORKERS, help="max workers for parallel alignment")
     p.add_argument("--sample", "-s", type=int, default=0, help="sample N items for quick test")
     return p.parse_args()
-# python aligner.py --input ./fused_news/fused_output.json --output fused_with_alignment.json --model deepseek-chat --workers 4
+# python aligner.py --input ./fused_news/test.json --output fused_with_alignment.json --model deepseek--workers 4
 def main():
     args = parse_args()
     model_name = args.model or DEFAULT_TEACHER_MODEL
@@ -308,5 +309,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-#   python aligner.py --input fused_news.json --output fused_with_alignment.json --model deepseek-chat --workers 4

@@ -50,6 +50,22 @@ LOCAL_MODELS = {
 
 # 第三方API模型配置
 THIRD_PARTY_MODELS = {
+    "deepseek-v3.1": {
+        "type": "third_party",
+        "model": "deepseek-v3.1"
+    },
+    "doubao-1-5-pro-256k-250115": {
+        "type": "third_party",
+        "model": "doubao-1-5-pro-256k-250115"
+    },
+    "gpt-oss-120b": {
+        "type": "third_party",
+        "model": "gpt-oss-120b"
+    },
+    "gpt-5.1": {
+        "type": "third_party",
+        "model": "gpt-5.1"
+    },
     "gpt-4o-mini": {
         "type": "third_party",
         "model": "gpt-4o-mini"
@@ -93,7 +109,11 @@ TEACHER_MODELS ={
     "gpt-4o": THIRD_PARTY_MODELS["gpt-4o"],
     "deepseek-chat": THIRD_PARTY_MODELS["deepseek-chat"],
     "qwen-plus": THIRD_PARTY_MODELS["qwen-plus"],
-    "qwen-4b": LOCAL_MODELS["qwen-4b"],  # 本地部署的教师模型
+    "qwen-4b": LOCAL_MODELS["qwen-4b"], 
+    "gpt-5.1":THIRD_PARTY_MODELS["gpt-5.1"],
+    "gpt-oss-120b":THIRD_PARTY_MODELS["gpt-oss-120b"],
+    "doubao-1-5-pro-256k-250115":THIRD_PARTY_MODELS["doubao-1-5-pro-256k-250115"],
+    "deepseek-v3.1":THIRD_PARTY_MODELS["deepseek-v3.1"],
     # "llama3-70b": LOCAL_MODELS["llama3-70b"]  # 本地部署的教师模型
 }
 
@@ -118,7 +138,23 @@ DEFAULT_SIMILARITY_MODEL = "paraphrase-multilingual-MiniLM-L12-v2"
 
 # 模型特定配置
 MODEL_CONFIGS = {
+    "deepseek-v3.1": {
+        "temperature": 0.5,
+        "max_tokens": 4000
+    },
+    "doubao-1-5-pro-256k-250115": {
+        "temperature": 0.7,
+        "max_tokens": 3000
+    },
+    "gpt-oss-120b": {
+        "temperature": 0.3,
+        "max_tokens": 8000
+    },
     "gpt-4o-mini": {
+        "temperature": 0.3,
+        "max_tokens": 2000
+    },
+    "gpt-5.1": {
         "temperature": 0.3,
         "max_tokens": 2000
     },
@@ -177,7 +213,7 @@ MODEL_CONFIGS = {
 #     --gpu-memory-utilization 0.5 \
 #     --max-model-len 4096 \
 #     --port 8005
-# CUDA_VISIBLE_DEVICES=4 \
+# CUDA_VISIBLE_DEVICES=7 \
 # python -m vllm.entrypoints.openai.api_server \
 #     --model /data1/rjj/models/Qwen/Qwen2.5-7B-Instruct \
 #     --served-model-name qwen-7b \  

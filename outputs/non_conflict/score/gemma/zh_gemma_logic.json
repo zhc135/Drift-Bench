@@ -1,0 +1,920 @@
+{
+  "summary": {
+    "total_news_scored": 150,
+    "original_average_score": 99.3,
+    "total_logical_problems": 105,
+    "average_problems_per_news": 0.7,
+    "problem_type_breakdown": {
+      "narrative_incoherence": 59,
+      "time_order_inaccuracy": 25,
+      "causal_sequence_confusion": 19,
+      "other_logical_issues": 2
+    }
+  },
+  "scores": [
+    {
+      "original_id": "223",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "031",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "032",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "006",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "117",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "121",
+      "score": 99.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1
+      }
+    },
+    {
+      "original_id": "082",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "026",
+      "score": 97.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "113",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "087",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "116",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "338",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "132",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "114",
+      "score": 98.0,
+      "problem_counts": {
+        "narrative_incoherence": 1,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "126",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "198",
+      "score": 96.0,
+      "problem_counts": {
+        "narrative_incoherence": 2,
+        "causal_sequence_confusion": 2
+      }
+    },
+    {
+      "original_id": "041",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "059",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "011",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "055",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "345",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "115",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "246",
+      "score": 95.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 2,
+        "narrative_incoherence": 2,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "187",
+      "score": 99.0,
+      "problem_counts": {
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "065",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "022",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "276",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "050",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "048",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "127",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "134",
+      "score": 95.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 2,
+        "narrative_incoherence": 2,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "074",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "355",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "152",
+      "score": 98.0,
+      "problem_counts": {
+        "narrative_incoherence": 2
+      }
+    },
+    {
+      "original_id": "096",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "077",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "402",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "131",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "250",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "029",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "221",
+      "score": 99.0,
+      "problem_counts": {
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "435",
+      "score": 99.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1
+      }
+    },
+    {
+      "original_id": "227",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "209",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "044",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "058",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "251",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "229",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "238",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "009",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "226",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "414",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "043",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "192",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "036",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "034",
+      "score": 98.0,
+      "problem_counts": {
+        "narrative_incoherence": 1,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "162",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "069",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "068",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "191",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "145",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "037",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "384",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "040",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "009",
+      "score": 97.0,
+      "problem_counts": {
+        "narrative_incoherence": 2,
+        "other_logical_issues": 1
+      }
+    },
+    {
+      "original_id": "402",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "080",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "009",
+      "score": 99.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1
+      }
+    },
+    {
+      "original_id": "159",
+      "score": 96.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 2,
+        "narrative_incoherence": 2
+      }
+    },
+    {
+      "original_id": "004",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "216",
+      "score": 99.0,
+      "problem_counts": {
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "049",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "106",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "136",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "250",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "258",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "332",
+      "score": 98.0,
+      "problem_counts": {
+        "narrative_incoherence": 2
+      }
+    },
+    {
+      "original_id": "167",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "322",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "262",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "113",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "225",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "185",
+      "score": 99.0,
+      "problem_counts": {
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "176",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "200",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "196",
+      "score": 99.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1
+      }
+    },
+    {
+      "original_id": "484",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "236",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "004",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "201",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "368",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "083",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "114",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "094",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "253",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "156",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "246",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "052",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "010",
+      "score": 98.0,
+      "problem_counts": {
+        "narrative_incoherence": 2
+      }
+    },
+    {
+      "original_id": "213",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "327",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "453",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "133",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "073",
+      "score": 99.0,
+      "problem_counts": {
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "162",
+      "score": 98.0,
+      "problem_counts": {
+        "narrative_incoherence": 1,
+        "other_logical_issues": 1
+      }
+    },
+    {
+      "original_id": "467",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "012",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "006",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "047",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "034",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "092",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "028",
+      "score": 99.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1
+      }
+    },
+    {
+      "original_id": "109",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "064",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "306",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "041",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "257",
+      "score": 98.0,
+      "problem_counts": {
+        "narrative_incoherence": 1,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "048",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "064",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "017",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "007",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "247",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "206",
+      "score": 99.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1
+      }
+    },
+    {
+      "original_id": "131",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "088",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "165",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "187",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "021",
+      "score": 98.0,
+      "problem_counts": {
+        "narrative_incoherence": 1,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "153",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "043",
+      "score": 97.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "047",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "309",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "086",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "056",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "043",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "299",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "231",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "170",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "135",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "107",
+      "score": 99.0,
+      "problem_counts": {
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "364",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "008",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "017",
+      "score": 99.0,
+      "problem_counts": {
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "189",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "254",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "023",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "039",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "301",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "070",
+      "score": 99.0,
+      "problem_counts": {
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "058",
+      "score": 95.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 2,
+        "narrative_incoherence": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,926 @@
+{
+  "summary": {
+    "total_news_scored": 150,
+    "original_average_score": 99.31,
+    "total_logical_problems": 103,
+    "average_problems_per_news": 0.69,
+    "problem_type_breakdown": {
+      "time_order_inaccuracy": 33,
+      "narrative_incoherence": 48,
+      "causal_sequence_confusion": 14,
+      "other_logical_issues": 8
+    }
+  },
+  "scores": [
+    {
+      "original_id": "019",
+      "score": 99.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1
+      }
+    },
+    {
+      "original_id": "013",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "017",
+      "score": 97.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "014",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "005",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "011",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "012",
+      "score": 98.0,
+      "problem_counts": {
+        "narrative_incoherence": 1,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "024",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "004",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "025",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "023",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "030",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "018",
+      "score": 99.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1
+      }
+    },
+    {
+      "original_id": "028",
+      "score": 96.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 2,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "015",
+      "score": 98.0,
+      "problem_counts": {
+        "narrative_incoherence": 1,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "022",
+      "score": 99.0,
+      "problem_counts": {
+        "other_logical_issues": 1
+      }
+    },
+    {
+      "original_id": "034",
+      "score": 99.0,
+      "problem_counts": {
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "036",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "035",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "045",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "006",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "032",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "039",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "038",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "042",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "040",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "026",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "043",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "016",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "037",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "054",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "056",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "051",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "055",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "050",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "064",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "044",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "061",
+      "score": 98.0,
+      "problem_counts": {
+        "narrative_incoherence": 2
+      }
+    },
+    {
+      "original_id": "052",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "048",
+      "score": 99.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1
+      }
+    },
+    {
+      "original_id": "053",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "068",
+      "score": 95.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 2,
+        "narrative_incoherence": 2,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "060",
+      "score": 97.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1,
+        "other_logical_issues": 1
+      }
+    },
+    {
+      "original_id": "066",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "059",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "076",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "046",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "073",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "075",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "063",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "065",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "070",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "069",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "074",
+      "score": 98.0,
+      "problem_counts": {
+        "narrative_incoherence": 1,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "082",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "088",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "062",
+      "score": 99.0,
+      "problem_counts": {
+        "other_logical_issues": 1
+      }
+    },
+    {
+      "original_id": "077",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "072",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "085",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "058",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "091",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "095",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "099",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "083",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "084",
+      "score": 99.0,
+      "problem_counts": {
+        "other_logical_issues": 1
+      }
+    },
+    {
+      "original_id": "086",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "105",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "098",
+      "score": 98.0,
+      "problem_counts": {
+        "narrative_incoherence": 2
+      }
+    },
+    {
+      "original_id": "092",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "106",
+      "score": 99.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1
+      }
+    },
+    {
+      "original_id": "089",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "097",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "119",
+      "score": 99.0,
+      "problem_counts": {
+        "other_logical_issues": 1
+      }
+    },
+    {
+      "original_id": "079",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "121",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "118",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "109",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "108",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "112",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "113",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "127",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "116",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "110",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "125",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "123",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "122",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "133",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "100",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "134",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "117",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "143",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "131",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "130",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "124",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "147",
+      "score": 99.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1
+      }
+    },
+    {
+      "original_id": "135",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "141",
+      "score": 99.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1
+      }
+    },
+    {
+      "original_id": "137",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "157",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "148",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "149",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "145",
+      "score": 99.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1
+      }
+    },
+    {
+      "original_id": "156",
+      "score": 98.0,
+      "problem_counts": {
+        "narrative_incoherence": 1,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "140",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "142",
+      "score": 99.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1
+      }
+    },
+    {
+      "original_id": "158",
+      "score": 99.0,
+      "problem_counts": {
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "146",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "164",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "160",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "167",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "161",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "120",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "154",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "159",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "163",
+      "score": 99.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1
+      }
+    },
+    {
+      "original_id": "162",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "other_logical_issues": 1
+      }
+    },
+    {
+      "original_id": "166",
+      "score": 98.0,
+      "problem_counts": {
+        "narrative_incoherence": 2
+      }
+    },
+    {
+      "original_id": "168",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "172",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "169",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "174",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "178",
+      "score": 99.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1
+      }
+    },
+    {
+      "original_id": "188",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "150",
+      "score": 99.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1
+      }
+    },
+    {
+      "original_id": "177",
+      "score": 99.0,
+      "problem_counts": {
+        "other_logical_issues": 1
+      }
+    },
+    {
+      "original_id": "176",
+      "score": 98.0,
+      "problem_counts": {
+        "narrative_incoherence": 2
+      }
+    },
+    {
+      "original_id": "171",
+      "score": 99.0,
+      "problem_counts": {
+        "other_logical_issues": 1
+      }
+    },
+    {
+      "original_id": "187",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "189",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "181",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "180",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "185",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "196",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "175",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "186",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "179",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "198",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "192",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "173",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "194",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "199",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "195",
+      "score": 99.0,
+      "problem_counts": {
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "200",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "191",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "narrative_incoherence": 1
+      }
+    },
+    {
+      "original_id": "204",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "193",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "203",
+      "score": 100.0,
+      "problem_counts": {}
+    },
+    {
+      "original_id": "202",
+      "score": 98.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 1,
+        "causal_sequence_confusion": 1
+      }
+    },
+    {
+      "original_id": "197",
+      "score": 96.0,
+      "problem_counts": {
+        "time_order_inaccuracy": 2,
+        "narrative_incoherence": 2
+      }
+    }
+  ]
+}

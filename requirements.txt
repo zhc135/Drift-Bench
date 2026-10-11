@@ -1,0 +1,13 @@
+jieba
+langchain
+langchain-community
+langchain-openai
+matplotlib
+numpy
+openai
+pandas
+scikit-learn
+scipy
+sentence-transformers
+torch
+tqdm

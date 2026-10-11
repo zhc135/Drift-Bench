@@ -1,0 +1,111 @@
+language,model,metric,point_estimate,ci_low,ci_high,n_news,n_boot
+en,Macro Avg,Logic Score,61.73,59.72,63.98,150,5000
+en,Macro Avg,Language Score,73.88,73.08,74.69,150,5000
+en,Macro Avg,Info Score,32.53,30.52,34.86,150,5000
+en,Macro Avg,Factuality Score,43.16,41.47,45.06,150,5000
+en,Macro Avg,Total Score,50.93,49.49,52.47,150,5000
+en,Overall,Logic Score,60.83,58.57,63.13,1350,5000
+en,Overall,Language Score,73.77,72.95,74.63,1350,5000
+en,Overall,Info Score,27.43,24.99,30.04,1350,5000
+en,Overall,Factuality Score,40.85,38.81,42.93,1350,5000
+en,Overall,Total Score,49.74,48.06,51.45,1350,5000
+en,claude-sonnet-4-5,Logic Score,75.44,69.74,81.23,150,5000
+en,claude-sonnet-4-5,Language Score,73.54,71.2,75.96,150,5000
+en,claude-sonnet-4-5,Info Score,76.14,70.87,81.41,150,5000
+en,claude-sonnet-4-5,Factuality Score,75.79,71.78,79.74,150,5000
+en,claude-sonnet-4-5,Total Score,75.03,72.28,77.68,150,5000
+en,deepseek-v3.1,Logic Score,69.42,63.0,76.14,150,5000
+en,deepseek-v3.1,Language Score,75.35,73.12,77.74,150,5000
+en,deepseek-v3.1,Info Score,35.27,27.17,44.54,150,5000
+en,deepseek-v3.1,Factuality Score,49.48,43.18,55.93,150,5000
+en,deepseek-v3.1,Total Score,56.93,51.94,61.84,150,5000
+en,gemini-2.5-flash,Logic Score,65.07,58.78,71.37,150,5000
+en,gemini-2.5-flash,Language Score,71.53,68.86,74.23,150,5000
+en,gemini-2.5-flash,Info Score,49.88,41.27,59.19,150,5000
+en,gemini-2.5-flash,Factuality Score,56.97,50.52,63.44,150,5000
+en,gemini-2.5-flash,Total Score,61.46,56.45,66.25,150,5000
+en,gemma,Logic Score,46.44,40.24,53.1,150,5000
+en,gemma,Language Score,68.46,65.98,70.96,150,5000
+en,gemma,Info Score,44.24,37.28,51.88,150,5000
+en,gemma,Factuality Score,45.33,40.42,50.47,150,5000
+en,gemma,Total Score,52.01,47.96,56.03,150,5000
+en,gpt-4o,Logic Score,70.38,63.58,77.56,150,5000
+en,gpt-4o,Language Score,77.74,75.35,80.29,150,5000
+en,gpt-4o,Info Score,16.19,11.56,22.12,150,5000
+en,gpt-4o,Factuality Score,33.76,28.23,39.87,150,5000
+en,gpt-4o,Total Score,44.58,39.51,49.92,150,5000
+en,gpt-oss-20b,Logic Score,62.13,55.61,68.78,150,5000
+en,gpt-oss-20b,Language Score,77.83,75.44,80.2,150,5000
+en,gpt-oss-20b,Info Score,20.17,15.07,26.36,150,5000
+en,gpt-oss-20b,Factuality Score,35.4,29.9,41.28,150,5000
+en,gpt-oss-20b,Total Score,46.03,41.04,51.05,150,5000
+en,llama,Logic Score,45.17,38.96,52.12,150,5000
+en,llama,Language Score,67.28,65.07,69.42,150,5000
+en,llama,Info Score,16.61,12.02,22.32,150,5000
+en,llama,Factuality Score,27.39,23.01,32.27,150,5000
+en,llama,Total Score,36.96,32.83,41.32,150,5000
+en,phi-4,Logic Score,67.21,60.71,73.71,150,5000
+en,phi-4,Language Score,73.46,71.2,75.61,150,5000
+en,phi-4,Info Score,21.56,15.86,28.59,150,5000
+en,phi-4,Factuality Score,38.07,32.31,44.39,150,5000
+en,phi-4,Total Score,47.39,42.43,52.39,150,5000
+en,qw7,Logic Score,54.34,47.74,61.27,150,5000
+en,qw7,Language Score,79.74,77.11,82.26,150,5000
+en,qw7,Info Score,12.67,9.02,17.27,150,5000
+en,qw7,Factuality Score,26.24,21.94,31.1,150,5000
+en,qw7,Total Score,38.01,33.61,42.68,150,5000
+zh,Macro Avg,Logic Score,65.19,63.02,67.5,150,5000
+zh,Macro Avg,Language Score,67.29,66.47,68.15,150,5000
+zh,Macro Avg,Info Score,44.8,42.95,46.93,150,5000
+zh,Macro Avg,Factuality Score,53.19,51.63,54.84,150,5000
+zh,Macro Avg,Total Score,57.05,55.85,58.3,150,5000
+zh,Overall,Logic Score,64.37,62.0,66.86,1350,5000
+zh,Overall,Language Score,67.28,66.47,68.07,1350,5000
+zh,Overall,Info Score,40.79,38.45,43.34,1350,5000
+zh,Overall,Factuality Score,51.24,49.38,53.19,1350,5000
+zh,Overall,Total Score,56.11,54.74,57.54,1350,5000
+zh,claude-sonnet-4-5,Logic Score,74.74,68.78,80.49,150,5000
+zh,claude-sonnet-4-5,Language Score,66.28,63.51,69.34,150,5000
+zh,claude-sonnet-4-5,Info Score,88.27,84.09,92.44,150,5000
+zh,claude-sonnet-4-5,Factuality Score,81.22,77.11,85.36,150,5000
+zh,claude-sonnet-4-5,Total Score,75.9,73.15,78.7,150,5000
+zh,deepseek-v3.1,Logic Score,73.37,67.52,79.0,150,5000
+zh,deepseek-v3.1,Language Score,68.54,66.13,70.96,150,5000
+zh,deepseek-v3.1,Info Score,48.97,43.03,55.48,150,5000
+zh,deepseek-v3.1,Factuality Score,59.94,55.54,64.39,150,5000
+zh,deepseek-v3.1,Total Score,62.68,59.44,65.9,150,5000
+zh,gemini-2.5-flash,Logic Score,76.84,71.37,82.36,150,5000
+zh,gemini-2.5-flash,Language Score,69.34,66.9,71.95,150,5000
+zh,gemini-2.5-flash,Info Score,71.04,64.62,77.56,150,5000
+zh,gemini-2.5-flash,Factuality Score,73.88,69.74,78.09,150,5000
+zh,gemini-2.5-flash,Total Score,72.34,69.28,75.35,150,5000
+zh,gemma,Logic Score,61.56,54.84,69.1,150,5000
+zh,gemma,Language Score,64.47,62.27,66.74,150,5000
+zh,gemma,Info Score,43.83,37.37,50.82,150,5000
+zh,gemma,Factuality Score,51.94,47.2,56.97,150,5000
+zh,gemma,Total Score,55.82,52.32,59.49,150,5000
+zh,gpt-4o,Logic Score,74.4,68.46,80.48,150,5000
+zh,gpt-4o,Language Score,68.78,66.43,71.12,150,5000
+zh,gpt-4o,Info Score,27.11,21.92,33.29,150,5000
+zh,gpt-4o,Factuality Score,44.91,40.24,50.12,150,5000
+zh,gpt-4o,Total Score,51.77,48.1,55.8,150,5000
+zh,gpt-oss-20b,Logic Score,66.59,60.99,72.7,150,5000
+zh,gpt-oss-20b,Language Score,65.6,63.51,67.75,150,5000
+zh,gpt-oss-20b,Info Score,36.27,30.5,42.83,150,5000
+zh,gpt-oss-20b,Factuality Score,49.14,44.39,54.21,150,5000
+zh,gpt-oss-20b,Total Score,54.11,50.47,57.77,150,5000
+zh,llama,Logic Score,48.19,41.18,55.61,150,5000
+zh,llama,Language Score,67.13,64.92,69.5,150,5000
+zh,llama,Info Score,22.43,17.72,28.19,150,5000
+zh,llama,Factuality Score,32.88,28.55,37.59,150,5000
+zh,llama,Total Score,41.71,37.93,45.66,150,5000
+zh,phi-4,Logic Score,51.17,43.33,59.32,150,5000
+zh,phi-4,Language Score,68.22,65.67,70.79,150,5000
+zh,phi-4,Info Score,36.27,29.87,43.63,150,5000
+zh,phi-4,Factuality Score,43.08,37.42,48.97,150,5000
+zh,phi-4,Total Score,50.21,45.69,54.78,150,5000
+zh,qw7,Logic Score,59.87,52.61,67.21,150,5000
+zh,qw7,Language Score,67.28,65.07,69.66,150,5000
+zh,qw7,Info Score,29.05,23.38,35.6,150,5000
+zh,qw7,Factuality Score,41.7,36.73,47.03,150,5000
+zh,qw7,Total Score,48.91,44.96,52.96,150,5000

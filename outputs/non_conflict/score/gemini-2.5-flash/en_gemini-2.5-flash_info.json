@@ -1,0 +1,761 @@
+{
+  "summary": {
+    "total_news_count": 150,
+    "total_global_issues": 157,
+    "total_paragraph_issues": 144,
+    "total_issues_across_all_news": 301,
+    "average_problems_per_news": 2.01
+  },
+  "per_news_scores": [
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 2,
+      "paragraph_issues": 2,
+      "total_issues": 4
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 2,
+      "total_issues": 2
+    },
+    {
+      "global_issues": 3,
+      "paragraph_issues": 4,
+      "total_issues": 7
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 2,
+      "total_issues": 2
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 3,
+      "total_issues": 3
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 1,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 0,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 2,
+      "total_issues": 3
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 6,
+      "paragraph_issues": 1,
+      "total_issues": 7
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 3,
+      "total_issues": 4
+    },
+    {
+      "global_issues": 2,
+      "paragraph_issues": 1,
+      "total_issues": 3
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 2,
+      "total_issues": 3
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 1,
+      "total_issues": 2
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 2,
+      "total_issues": 3
+    },
+    {
+      "global_issues": 2,
+      "paragraph_issues": 0,
+      "total_issues": 2
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 7,
+      "total_issues": 8
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 0,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 1,
+      "total_issues": 2
+    },
+    {
+      "global_issues": 2,
+      "paragraph_issues": 1,
+      "total_issues": 3
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 2,
+      "total_issues": 2
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 9,
+      "paragraph_issues": 0,
+      "total_issues": 9
+    },
+    {
+      "global_issues": 2,
+      "paragraph_issues": 3,
+      "total_issues": 5
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 5,
+      "total_issues": 5
+    },
+    {
+      "global_issues": 2,
+      "paragraph_issues": 1,
+      "total_issues": 3
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 1,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 2,
+      "paragraph_issues": 0,
+      "total_issues": 2
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 1,
+      "total_issues": 2
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 4,
+      "total_issues": 4
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 2,
+      "total_issues": 2
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 1,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 0,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 1,
+      "total_issues": 2
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 2,
+      "total_issues": 2
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 2,
+      "paragraph_issues": 1,
+      "total_issues": 3
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 0,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 1,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 0,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 2,
+      "paragraph_issues": 2,
+      "total_issues": 4
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 4,
+      "paragraph_issues": 0,
+      "total_issues": 4
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 1,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 0,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 3,
+      "paragraph_issues": 0,
+      "total_issues": 3
+    },
+    {
+      "global_issues": 2,
+      "paragraph_issues": 4,
+      "total_issues": 6
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 2,
+      "total_issues": 2
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 5,
+      "total_issues": 6
+    },
+    {
+      "global_issues": 20,
+      "paragraph_issues": 2,
+      "total_issues": 22
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 1,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 4,
+      "paragraph_issues": 3,
+      "total_issues": 7
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 12,
+      "paragraph_issues": 4,
+      "total_issues": 16
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 5,
+      "total_issues": 6
+    },
+    {
+      "global_issues": 12,
+      "paragraph_issues": 2,
+      "total_issues": 14
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 2,
+      "total_issues": 3
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 0,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 3,
+      "paragraph_issues": 0,
+      "total_issues": 3
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 1,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 3,
+      "total_issues": 3
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 0,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 1,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 1,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 1,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 2,
+      "total_issues": 2
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 3,
+      "paragraph_issues": 1,
+      "total_issues": 4
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 2,
+      "total_issues": 2
+    },
+    {
+      "global_issues": 9,
+      "paragraph_issues": 0,
+      "total_issues": 9
+    },
+    {
+      "global_issues": 2,
+      "paragraph_issues": 3,
+      "total_issues": 5
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 4,
+      "paragraph_issues": 4,
+      "total_issues": 8
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 1,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 6,
+      "paragraph_issues": 2,
+      "total_issues": 8
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 0,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 1,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 0,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 1,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 2,
+      "paragraph_issues": 2,
+      "total_issues": 4
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 2,
+      "paragraph_issues": 0,
+      "total_issues": 2
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 3,
+      "paragraph_issues": 9,
+      "total_issues": 12
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 2,
+      "paragraph_issues": 2,
+      "total_issues": 4
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 2,
+      "total_issues": 2
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 1,
+      "total_issues": 2
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 1,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 3,
+      "paragraph_issues": 1,
+      "total_issues": 4
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 1,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 2,
+      "total_issues": 2
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 2,
+      "total_issues": 2
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 4,
+      "total_issues": 5
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    },
+    {
+      "global_issues": 1,
+      "paragraph_issues": 0,
+      "total_issues": 1
+    },
+    {
+      "global_issues": 0,
+      "paragraph_issues": 0,
+      "total_issues": 0
+    }
+  ]
+}

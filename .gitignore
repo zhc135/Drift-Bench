@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Local model checkpoints are large and should usually be distributed separately.
+models/*
+
+# Keep empty directory placeholders.
+!models/**/.gitkeep
+
+# Logs and temporary checkpoints.
+*.log
+*.l
+*.tmp
+*.tar.gz

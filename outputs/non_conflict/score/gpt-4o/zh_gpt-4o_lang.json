@@ -1,0 +1,1346 @@
+{
+  "total_articles": 150,
+  "valid_articles": 150,
+  "original_average_score": 97.84,
+  "total_problems": 324,
+  "average_problems_per_news": 2.16,
+  "scores": [
+    {
+      "id": "004",
+      "score": 100.0,
+      "problem_count": 0,
+      "category_counts": {}
+    },
+    {
+      "id": "004",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "redundant_repetition": 1
+      }
+    },
+    {
+      "id": "006",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 2
+      }
+    },
+    {
+      "id": "006",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "007",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "stylistic_inconsistency": 1,
+        "awkward_expression": 2
+      }
+    },
+    {
+      "id": "008",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "inconsistent_terminology": 1,
+        "sentence_structure_problems": 2
+      }
+    },
+    {
+      "id": "009",
+      "score": 99.0,
+      "problem_count": 1,
+      "category_counts": {
+        "awkward_expression": 1
+      }
+    },
+    {
+      "id": "009",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "009",
+      "score": 99.0,
+      "problem_count": 1,
+      "category_counts": {
+        "awkward_expression": 1
+      }
+    },
+    {
+      "id": "010",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "inconsistent_terminology": 2
+      }
+    },
+    {
+      "id": "011",
+      "score": 100.0,
+      "problem_count": 0,
+      "category_counts": {}
+    },
+    {
+      "id": "012",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 2
+      }
+    },
+    {
+      "id": "017",
+      "score": 100.0,
+      "problem_count": 0,
+      "category_counts": {}
+    },
+    {
+      "id": "017",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "inconsistent_terminology": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "021",
+      "score": 99.0,
+      "problem_count": 1,
+      "category_counts": {
+        "awkward_expression": 1
+      }
+    },
+    {
+      "id": "022",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "stylistic_inconsistency": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "023",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "sentence_structure_problems": 3
+      }
+    },
+    {
+      "id": "026",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "028",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 2
+      }
+    },
+    {
+      "id": "029",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "stylistic_inconsistency": 1,
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "031",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 1,
+        "redundant_repetition": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "032",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "034",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 2
+      }
+    },
+    {
+      "id": "034",
+      "score": 96.0,
+      "problem_count": 4,
+      "category_counts": {
+        "awkward_expression": 2,
+        "inconsistent_terminology": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "036",
+      "score": 100.0,
+      "problem_count": 0,
+      "category_counts": {}
+    },
+    {
+      "id": "037",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "sentence_structure_problems": 2
+      }
+    },
+    {
+      "id": "039",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "stylistic_inconsistency": 1,
+        "awkward_expression": 1
+      }
+    },
+    {
+      "id": "040",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "stylistic_inconsistency": 1,
+        "awkward_expression": 2
+      }
+    },
+    {
+      "id": "041",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "redundant_repetition": 1,
+        "tone_mismatch": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "041",
+      "score": 99.0,
+      "problem_count": 1,
+      "category_counts": {
+        "redundant_repetition": 1
+      }
+    },
+    {
+      "id": "043",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "043",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 3
+      }
+    },
+    {
+      "id": "043",
+      "score": 99.0,
+      "problem_count": 1,
+      "category_counts": {
+        "awkward_expression": 1
+      }
+    },
+    {
+      "id": "044",
+      "score": 96.0,
+      "problem_count": 4,
+      "category_counts": {
+        "stylistic_inconsistency": 1,
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "047",
+      "score": 96.0,
+      "problem_count": 4,
+      "category_counts": {
+        "stylistic_inconsistency": 1,
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "047",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "tone_mismatch": 1
+      }
+    },
+    {
+      "id": "048",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "inconsistent_terminology": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "048",
+      "score": 100.0,
+      "problem_count": 0,
+      "category_counts": {}
+    },
+    {
+      "id": "049",
+      "score": 100.0,
+      "problem_count": 0,
+      "category_counts": {}
+    },
+    {
+      "id": "050",
+      "score": 100.0,
+      "problem_count": 0,
+      "category_counts": {}
+    },
+    {
+      "id": "052",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 1,
+        "redundant_repetition": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "055",
+      "score": 96.0,
+      "problem_count": 4,
+      "category_counts": {
+        "stylistic_inconsistency": 1,
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "056",
+      "score": 99.0,
+      "problem_count": 1,
+      "category_counts": {
+        "awkward_expression": 1
+      }
+    },
+    {
+      "id": "058",
+      "score": 96.0,
+      "problem_count": 4,
+      "category_counts": {
+        "awkward_expression": 1,
+        "redundant_repetition": 1,
+        "inconsistent_terminology": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "058",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 1,
+        "redundant_repetition": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "059",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "stylistic_inconsistency": 1,
+        "awkward_expression": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "064",
+      "score": 100.0,
+      "problem_count": 0,
+      "category_counts": {}
+    },
+    {
+      "id": "064",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "sentence_structure_problems": 2
+      }
+    },
+    {
+      "id": "065",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 1,
+        "tone_mismatch": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "068",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "069",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 2,
+        "redundant_repetition": 1
+      }
+    },
+    {
+      "id": "070",
+      "score": 99.0,
+      "problem_count": 1,
+      "category_counts": {
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "073",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 2,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "074",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "stylistic_inconsistency": 1,
+        "awkward_expression": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "077",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 1,
+        "redundant_repetition": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "080",
+      "score": 99.0,
+      "problem_count": 1,
+      "category_counts": {
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "082",
+      "score": 100.0,
+      "problem_count": 0,
+      "category_counts": {}
+    },
+    {
+      "id": "083",
+      "score": 99.0,
+      "problem_count": 1,
+      "category_counts": {
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "086",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "redundant_repetition": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "087",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "088",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 2
+      }
+    },
+    {
+      "id": "092",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "inconsistent_terminology": 2
+      }
+    },
+    {
+      "id": "094",
+      "score": 100.0,
+      "problem_count": 0,
+      "category_counts": {}
+    },
+    {
+      "id": "096",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "other_language_issues": 1
+      }
+    },
+    {
+      "id": "106",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "107",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "stylistic_inconsistency": 1,
+        "inconsistent_terminology": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "109",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 2,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "113",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "113",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "inconsistent_terminology": 2,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "114",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "114",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "stylistic_inconsistency": 1,
+        "awkward_expression": 2
+      }
+    },
+    {
+      "id": "115",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "116",
+      "score": 99.0,
+      "problem_count": 1,
+      "category_counts": {
+        "awkward_expression": 1
+      }
+    },
+    {
+      "id": "117",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "inconsistent_terminology": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "121",
+      "score": 95.0,
+      "problem_count": 5,
+      "category_counts": {
+        "awkward_expression": 2,
+        "inconsistent_terminology": 2,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "126",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 1,
+        "redundant_repetition": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "127",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 1,
+        "sentence_structure_problems": 2
+      }
+    },
+    {
+      "id": "131",
+      "score": 96.0,
+      "problem_count": 4,
+      "category_counts": {
+        "awkward_expression": 1,
+        "redundant_repetition": 2,
+        "tone_mismatch": 1
+      }
+    },
+    {
+      "id": "131",
+      "score": 95.0,
+      "problem_count": 5,
+      "category_counts": {
+        "stylistic_inconsistency": 1,
+        "awkward_expression": 2,
+        "redundant_repetition": 1,
+        "tone_mismatch": 1
+      }
+    },
+    {
+      "id": "132",
+      "score": 96.0,
+      "problem_count": 4,
+      "category_counts": {
+        "awkward_expression": 3,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "133",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 1,
+        "redundant_repetition": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "134",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 1,
+        "redundant_repetition": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "135",
+      "score": 100.0,
+      "problem_count": 0,
+      "category_counts": {}
+    },
+    {
+      "id": "136",
+      "score": 95.0,
+      "problem_count": 5,
+      "category_counts": {
+        "stylistic_inconsistency": 1,
+        "awkward_expression": 1,
+        "inconsistent_terminology": 3
+      }
+    },
+    {
+      "id": "145",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "152",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 1,
+        "redundant_repetition": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "153",
+      "score": 100.0,
+      "problem_count": 0,
+      "category_counts": {}
+    },
+    {
+      "id": "156",
+      "score": 100.0,
+      "problem_count": 0,
+      "category_counts": {}
+    },
+    {
+      "id": "159",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 2,
+        "redundant_repetition": 1
+      }
+    },
+    {
+      "id": "162",
+      "score": 96.0,
+      "problem_count": 4,
+      "category_counts": {
+        "awkward_expression": 2,
+        "redundant_repetition": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "162",
+      "score": 96.0,
+      "problem_count": 4,
+      "category_counts": {
+        "awkward_expression": 2,
+        "inconsistent_terminology": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "165",
+      "score": 100.0,
+      "problem_count": 0,
+      "category_counts": {}
+    },
+    {
+      "id": "167",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "170",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 1,
+        "redundant_repetition": 1,
+        "tone_mismatch": 1
+      }
+    },
+    {
+      "id": "176",
+      "score": 96.0,
+      "problem_count": 4,
+      "category_counts": {
+        "inconsistent_terminology": 2,
+        "sentence_structure_problems": 2
+      }
+    },
+    {
+      "id": "185",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "inconsistent_terminology": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "187",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 2,
+        "tone_mismatch": 1
+      }
+    },
+    {
+      "id": "187",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 2,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "189",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 2
+      }
+    },
+    {
+      "id": "191",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "192",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 2,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "196",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 2,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "198",
+      "score": 96.0,
+      "problem_count": 4,
+      "category_counts": {
+        "awkward_expression": 2,
+        "inconsistent_terminology": 1,
+        "tone_mismatch": 1
+      }
+    },
+    {
+      "id": "200",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "201",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "stylistic_inconsistency": 1,
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "206",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "stylistic_inconsistency": 1,
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "209",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "213",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "stylistic_inconsistency": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "216",
+      "score": 96.0,
+      "problem_count": 4,
+      "category_counts": {
+        "awkward_expression": 2,
+        "inconsistent_terminology": 2
+      }
+    },
+    {
+      "id": "221",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "223",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "225",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "inconsistent_terminology": 2,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "226",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "227",
+      "score": 99.0,
+      "problem_count": 1,
+      "category_counts": {
+        "awkward_expression": 1
+      }
+    },
+    {
+      "id": "229",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 2
+      }
+    },
+    {
+      "id": "231",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "236",
+      "score": 99.0,
+      "problem_count": 1,
+      "category_counts": {
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "238",
+      "score": 96.0,
+      "problem_count": 4,
+      "category_counts": {
+        "awkward_expression": 2,
+        "redundant_repetition": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "246",
+      "score": 96.0,
+      "problem_count": 4,
+      "category_counts": {
+        "awkward_expression": 1,
+        "inconsistent_terminology": 2,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "246",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "sentence_structure_problems": 2
+      }
+    },
+    {
+      "id": "247",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "250",
+      "score": 99.0,
+      "problem_count": 1,
+      "category_counts": {
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "250",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "tone_mismatch": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "251",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "253",
+      "score": 100.0,
+      "problem_count": 0,
+      "category_counts": {}
+    },
+    {
+      "id": "254",
+      "score": 99.0,
+      "problem_count": 1,
+      "category_counts": {
+        "awkward_expression": 1
+      }
+    },
+    {
+      "id": "257",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 1,
+        "tone_mismatch": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "258",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "262",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "stylistic_inconsistency": 1,
+        "awkward_expression": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "276",
+      "score": 99.0,
+      "problem_count": 1,
+      "category_counts": {
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "299",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 2
+      }
+    },
+    {
+      "id": "301",
+      "score": 99.0,
+      "problem_count": 1,
+      "category_counts": {
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "306",
+      "score": 99.0,
+      "problem_count": 1,
+      "category_counts": {
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "309",
+      "score": 100.0,
+      "problem_count": 0,
+      "category_counts": {}
+    },
+    {
+      "id": "322",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "327",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "inconsistent_terminology": 1
+      }
+    },
+    {
+      "id": "332",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "338",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 1,
+        "sentence_structure_problems": 2
+      }
+    },
+    {
+      "id": "345",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 2
+      }
+    },
+    {
+      "id": "355",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "stylistic_inconsistency": 1,
+        "awkward_expression": 1,
+        "redundant_repetition": 1
+      }
+    },
+    {
+      "id": "364",
+      "score": 100.0,
+      "problem_count": 0,
+      "category_counts": {}
+    },
+    {
+      "id": "368",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "stylistic_inconsistency": 1,
+        "awkward_expression": 1
+      }
+    },
+    {
+      "id": "384",
+      "score": 100.0,
+      "problem_count": 0,
+      "category_counts": {}
+    },
+    {
+      "id": "402",
+      "score": 100.0,
+      "problem_count": 0,
+      "category_counts": {}
+    },
+    {
+      "id": "402",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 2
+      }
+    },
+    {
+      "id": "414",
+      "score": 100.0,
+      "problem_count": 0,
+      "category_counts": {}
+    },
+    {
+      "id": "435",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "awkward_expression": 1,
+        "tone_mismatch": 1
+      }
+    },
+    {
+      "id": "453",
+      "score": 98.0,
+      "problem_count": 2,
+      "category_counts": {
+        "inconsistent_terminology": 1,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "467",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 2,
+        "sentence_structure_problems": 1
+      }
+    },
+    {
+      "id": "484",
+      "score": 97.0,
+      "problem_count": 3,
+      "category_counts": {
+        "awkward_expression": 1,
+        "redundant_repetition": 1,
+        "inconsistent_terminology": 1
+      }
+    }
+  ],
+  "category_summary": {
+    "stylistic_inconsistency": {
+      "english_name": "stylistic_inconsistency",
+      "chinese_name": "风格不一致",
+      "count": 20
+    },
+    "awkward_expression": {
+      "english_name": "awkward_expression",
+      "chinese_name": "表达生硬",
+      "count": 134
+    },
+    "redundant_repetition": {
+      "english_name": "redundant_repetition",
+      "chinese_name": "冗余重复",
+      "count": 23
+    },
+    "inconsistent_terminology": {
+      "english_name": "inconsistent_terminology",
+      "chinese_name": "术语不一致",
+      "count": 66
+    },
+    "tone_mismatch": {
+      "english_name": "tone_mismatch",
+      "chinese_name": "语气不匹配",
+      "count": 11
+    },
+    "sentence_structure_problems": {
+      "english_name": "sentence_structure_problems",
+      "chinese_name": "句子结构问题",
+      "count": 69
+    },
+    "other_language_issues": {
+      "english_name": "other_language_issues",
+      "chinese_name": "其他语言问题",
+      "count": 1
+    }
+  }
+}

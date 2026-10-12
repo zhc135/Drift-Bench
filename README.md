@@ -1,6 +1,13 @@
 # DRIFT-Bench
 
-DRIFT-Bench is a benchmark project for faithful and transparent disaster report information fusion. The repository is organized around two tracks:
+DRIFT-Bench (**D**isaster **R**eport **I**nformation **F**usion **T**rack
+Benchmark) evaluates whether large language models can reconstruct a faithful,
+complete, and transparent situation picture from multiple disaster reports. It
+contains 300 real-world English and Chinese events and is paired with TRACE, a
+diagnostic framework for auditing information completeness, logical coherence,
+language quality, conflict exposure, and resolution faithfulness.
+
+The benchmark covers two complementary settings:
 
 - **Non-Conflict Track**: multi-source disaster news fusion when source variants are fragmented but not intentionally contradictory.
 - **Conflict Track**: multi-source disaster news fusion when one or more controlled factual conflicts are injected and the model must expose and resolve them transparently.
@@ -8,6 +15,14 @@ DRIFT-Bench is a benchmark project for faithful and transparent disaster report 
 Both the non-conflict pipeline and the conflict-track injection, fusion,
 alignment, and evaluation scripts are organized under `code/`. See
 `code/conflict/README.md` for the conflict workflow.
+
+## Overview
+
+![Overview of DRIFT-Bench construction and TRACE evaluation](docs/assets/drift_bench_overview.png)
+
+*DRIFT-Bench constructs fragmented and controlled-conflict report variants;
+TRACE evaluates the resulting fused articles through evidence-grounded
+alignment and conflict-resolution audits.*
 
 ## Repository Layout
 

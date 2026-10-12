@@ -5,7 +5,9 @@ DRIFT-Bench is a benchmark project for faithful and transparent disaster report 
 - **Non-Conflict Track**: multi-source disaster news fusion when source variants are fragmented but not intentionally contradictory.
 - **Conflict Track**: multi-source disaster news fusion when one or more controlled factual conflicts are injected and the model must expose and resolve them transparently.
 
-At the moment, the non-conflict pipeline is organized and ready to run. The conflict-track branch is reserved in the project structure so future conflict fusion, alignment, evaluation, and scoring code can be added without changing the public layout again.
+Both the non-conflict pipeline and the conflict-track injection, fusion,
+alignment, and evaluation scripts are organized under `code/`. See
+`code/conflict/README.md` for the conflict workflow.
 
 ## Repository Layout
 
@@ -42,8 +44,14 @@ code/
   conflict/
     README.md
     fusion/
+      fusion_system_conflict.py
+      fusion_system_conflict_zh.py
     alignment/
+      conflict.py
+      aligner.py
     evaluation/
+      evaluate_conflict.py
+      evaluate_conflict_zh.py
     score/
 data/
   non_conflict/
@@ -122,7 +130,7 @@ outputs/
     score/
 ```
 
-The prepared project directory includes the non-conflict input data and the corresponding fused, aligned, evaluation, score, and analysis outputs under `data/non_conflict/` and `outputs/non_conflict/`. The conflict-track directories are placeholders until the conflict release is added.
+The prepared project directory includes the non-conflict input data and the corresponding fused, aligned, evaluation, score, and analysis outputs under `data/non_conflict/` and `outputs/non_conflict/`. Conflict-track code is available under `code/conflict/`; conflict data and generated outputs belong under `data/conflict/` and `outputs/conflict/`.
 
 The non-conflict track evaluates 300 events: 150 English and 150 Chinese. Some intermediate fused files may contain 151 entries; the scoring script excludes `id == "003"` and scores 150 events per model/language pair.
 
@@ -309,7 +317,7 @@ python score/draw1.py
 
 ## Conflict Track
 
-The conflict track is reserved under:
+The conflict track is organized under:
 
 ```text
 code/conflict/
@@ -317,16 +325,46 @@ data/conflict/
 outputs/conflict/
 ```
 
-Planned submodules:
+Implemented submodules:
 
 ```text
-code/conflict/fusion/       # conflict-aware fusion or conflict-injection fusion runners
-code/conflict/alignment/    # alignment / conflict-list grounding
+code/conflict/fusion/       # conflict-aware fusion runners
+code/conflict/alignment/    # conflict injection and source alignment
 code/conflict/evaluation/   # exposure and resolution-faithfulness audits
 code/conflict/score/        # conflict metrics and tables
 ```
 
-Expected future output layout:
+The conflict-track release adds the following runnable components:
+
+- `alignment/conflict.py`: injects controlled entity-level factual conflicts
+  into rewritten source variants.
+- `fusion/fusion_system_conflict.py`: performs English conflict-aware fusion
+  and emits a structured conflict summary.
+- `fusion/fusion_system_conflict_zh.py`: Chinese counterpart of the
+  conflict-aware fusion runner.
+- `alignment/aligner.py`: aligns fused statements with their supporting source
+  variants so conflict decisions remain auditable.
+- `evaluation/evaluate_conflict.py`: evaluates English conflict exposure and
+  resolution behavior.
+- `evaluation/evaluate_conflict_zh.py`: evaluates the same dimensions for
+  Chinese outputs.
+
+These scripts load shared model, API, and runtime settings from `code/common/`.
+Hosted-model credentials must be supplied through the environment variables
+described in [Setup](#setup); API keys are not stored in the repository.
+
+The end-to-end order is:
+
+```text
+rewritten variants
+  -> controlled conflict injection
+  -> conflict-aware fusion
+  -> source alignment
+  -> conflict evaluation
+  -> score aggregation
+```
+
+Output layout:
 
 ```text
 outputs/conflict/
@@ -336,7 +374,7 @@ outputs/conflict/
   score/
 ```
 
-The README in `code/conflict/` documents the reserved API and file-layout contract for future conflict-track code.
+The README in `code/conflict/` documents the runnable workflow and command examples.
 
 ## Reproducing From an Existing Private Data Directory
 

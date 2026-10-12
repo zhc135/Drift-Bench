@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 # coding: utf-8
 
 import hashlib
@@ -39,7 +38,7 @@ class CheckpointManager:
         self.jsonl_path = output_path + ".l" if not output_path.endswith(".l") else output_path
         self.lock = Lock()
         self.processed_keys = set()
-       
+
         if os.path.exists(self.jsonl_path):
             logger.info(f"Checking existing checkpoint: {self.jsonl_path}")
             with open(self.jsonl_path, 'r', encoding='utf-8') as f:
@@ -62,13 +61,14 @@ class CheckpointManager:
         item_id = str(item.get("id", "")).strip()
         if item_id and item_id != "None":
             return f"ID_{item_id}"
-       
+
         # 2. 提取纯净文本内容 (剥离 ALIGNMENT 分隔符)
         text = extract_fused_content_from_item(item)
         if not text:
             return ""
-           
+
         # 3. 产生指纹：移除所有空白符，取前100位
+        # 这种方式即便之前是用 hash() 生成的，只要文本内容一致，新旧逻辑就能匹配上
         fingerprint = "".join(text.split())[:100]
         return f"FP_{fingerprint}"
 
@@ -82,7 +82,6 @@ class CheckpointManager:
                 f.write(json.dumps(item, ensure_ascii=False) + '\n')
                 f.flush()
 
-
 ALIGNMENT_SEPARATOR = "====ALIGNMENT===="
 
 class AlignmentStats:
@@ -90,11 +89,11 @@ class AlignmentStats:
         self.model_name = ""
         self.call_count = 0
         self.lock = Lock()
-       
+
     def increment(self):
         with self.lock:
             self.call_count += 1
-   
+
     def get_stats(self) -> Dict[str, Any]:
         with self.lock:
             return {
@@ -102,25 +101,22 @@ class AlignmentStats:
                 "total_calls": self.call_count
             }
 
-
 alignment_stats = AlignmentStats()
-
 
 def init_llm_from_config(model_name: str):
     cfg = get_model_deployment_config(model_name)
     model_name_cfg = cfg.get("model_name", cfg.get("model", model_name))
     temperature = cfg.get("temperature", 0.0)
-    # 修改 max_tokens 为 12288
-    max_tokens = 12288
+    max_tokens = cfg.get("max_tokens", 4000)
     api_key = cfg.get("api_key", "")
     base_url = cfg.get("base_url", "https://api.openai.com/v1")
     if api_key == "EMPTY":
         api_key = "vllm"
     if DEBUG_MODE:
-        logger.info(f"init_llm_from_config: model={model_name_cfg}, temp={temperature}, max_tokens={max_tokens}, base_url={base_url}")
-   
+        logger.info(f"init_llm_from_config: model={model_name_cfg}, temp={temperature}, base_url={base_url}")
+
     alignment_stats.model_name = model_name_cfg
-   
+
     return ChatOpenAI(
         model_name=model_name_cfg,
         temperature=temperature,
@@ -130,7 +126,6 @@ def init_llm_from_config(model_name: str):
         request_timeout=REQUEST_TIMEOUT,
         max_retries=API_RETRY_LIMIT
     )
-
 
 def safe_llm_invoke(llm, messages: List[Any], max_retries: int = 3, base_delay: float = 1.0):
     for attempt in range(max_retries + 1):
@@ -145,7 +140,6 @@ def safe_llm_invoke(llm, messages: List[Any], max_retries: int = 3, base_delay: 
             else:
                 logger.error("LLM invoke exhausted retries.")
                 return None
-
 
 def extract_alignment_from_text(text: str) -> Optional[List[Dict[str, Any]]]:
     if ALIGNMENT_SEPARATOR in text:
@@ -176,11 +170,9 @@ def extract_alignment_from_text(text: str) -> Optional[List[Dict[str, Any]]]:
                 except Exception: pass
     return None
 
-
 def build_alignment_prompt(fused_text: str, versions: List[str]) -> str:
     example_alignment = """
 Example output format:
-
 ====ALIGNMENT====
 [
   {
@@ -235,7 +227,6 @@ Please begin and output ONLY the separator and the JSON array.
 """
     return prompt
 
-
 def extract_fused_content_from_item(item: Dict[str, Any]) -> str:
     fused = item.get("fused_content", "") or item.get("fused", "")
     if not fused.strip():
@@ -250,10 +241,8 @@ def extract_fused_content_from_item(item: Dict[str, Any]) -> str:
         fused = fused.split(ALIGNMENT_SEPARATOR)[0]
     return fused.strip()
 
-
 def align_single_item(item: Dict[str, Any], llm) -> Dict[str, Any]:
-    # 如果已经有 alignment 且没有错误，则直接返回（用于修复模式时跳过已成功的）
-    if "alignment" in item and item["alignment"] is not None and "alignment_error" not in item:
+    if "alignment" in item or "alignment_error" in item:
         return item
 
     fused = extract_fused_content_from_item(item)
@@ -270,7 +259,7 @@ def align_single_item(item: Dict[str, Any], llm) -> Dict[str, Any]:
                     version_text = data_item.get(k, "")
                     break
         versions.append(version_text if version_text else "")
-   
+
     while len(versions) < 3: versions.append("")
 
     prompt = build_alignment_prompt(fused, versions)
@@ -295,9 +284,6 @@ def align_single_item(item: Dict[str, Any], llm) -> Dict[str, Any]:
             json_str = json.dumps(alignment, ensure_ascii=False, indent=2)
             item["fused_content"] = fused.rstrip() + "\n" + ALIGNMENT_SEPARATOR + "\n" + json_str
             item["alignment"] = alignment
-            # 清除可能的错误标记
-            if "alignment_error" in item:
-                del item["alignment_error"]
             item["_alignment_processing_log"] = ["success", "parsed_and_attached_alignment"]
         except Exception as e:
             item["_alignment_processing_log"] = ["success_parsed_but_attach_failed", str(e)]
@@ -308,7 +294,6 @@ def align_single_item(item: Dict[str, Any], llm) -> Dict[str, Any]:
         item["alignment_error"] = "parse_failed"
 
     return item
-
 
 def load_input(file_path: str) -> List[Dict[str, Any]]:
     items = []
@@ -332,14 +317,12 @@ def load_input(file_path: str) -> List[Dict[str, Any]]:
         logger.error(f"load_input失败: {e}")
     return items
 
-
 def add_model_suffix_to_filename(file_path: str, model_name: str) -> str:
     safe_model_name = re.sub(r'[^\w\-]', '_', model_name)
     dir_name = os.path.dirname(file_path)
     base_name = os.path.basename(file_path)
     name_parts = os.path.splitext(base_name)
     return os.path.join(dir_name, f"{name_parts[0]}_{safe_model_name}.json")
-
 
 def save_output(news_list: List[Dict[str, Any]], output_path: str, stats: Optional[Dict[str, Any]] = None):
     try:
@@ -354,120 +337,30 @@ def save_output(news_list: List[Dict[str, Any]], output_path: str, stats: Option
             json.dump(output_data, f, ensure_ascii=False, indent=2)
     except Exception as e: logger.error(f"保存失败: {e}")
 
-
-def is_alignment_valid(item: Dict[str, Any]) -> bool:
-    """判断条目的对齐结果是否有效（结构化输出成功）"""
-    # 有 alignment 字段且不为 None，且没有 alignment_error
-    if "alignment" in item and item["alignment"] is not None:
-        if "alignment_error" not in item:
-            return True
-    return False
-
-
-def fix_missing_alignments(items: List[Dict[str, Any]], llm) -> Tuple[List[Dict[str, Any]], int, int]:
-    """修复缺失有效对齐的条目，返回 (修复后的列表, 修复前无效数, 修复后无效数)"""
-    before_invalid = sum(1 for item in items if not is_alignment_valid(item))
-    if before_invalid == 0:
-        logger.info("🎉 没有发现无效对齐条目，无需修复。")
-        return items, 0, 0
-
-    logger.info(f"🔧 发现 {before_invalid} 个无效对齐条目，开始针对性修复...")
-    # 只对无效条目重新处理
-    items_to_fix = [item for item in items if not is_alignment_valid(item)]
-    fixed_items = []
-    with ThreadPoolExecutor(max_workers=min(MAX_WORKERS, len(items_to_fix))) as executor:
-        futures = {executor.submit(align_single_item, item, llm): item for item in items_to_fix}
-        for fut in tqdm(as_completed(futures), total=len(futures), desc="修复对齐"):
-            try:
-                res = fut.result()
-                fixed_items.append(res)
-            except Exception as e:
-                logger.error(f"修复条目失败: {e}")
-                # 保留原条目
-                fixed_items.append(futures[fut])
-    # 构建新列表：保留有效条目 + 修复后的条目
-    new_items = []
-    for item in items:
-        if is_alignment_valid(item):
-            new_items.append(item)
-        else:
-            # 找到修复后的对应条目（通过 id 或 fused_content 匹配）
-            matched = None
-            for fixed in fixed_items:
-                # 比较 id
-                if item.get("id") is not None and fixed.get("id") == item.get("id"):
-                    matched = fixed
-                    break
-                # 比较 fused_content 的前100字符
-                orig_fused = extract_fused_content_from_item(item)
-                fixed_fused = extract_fused_content_from_item(fixed)
-                if orig_fused[:100] == fixed_fused[:100]:
-                    matched = fixed
-                    break
-            if matched is not None:
-                new_items.append(matched)
-            else:
-                # 没找到则保留原条目（可能修复失败）
-                new_items.append(item)
-    after_invalid = sum(1 for item in new_items if not is_alignment_valid(item))
-    return new_items, before_invalid, after_invalid
-
-
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--input", "-i", required=True, help="输入JSON文件路径")
-    parser.add_argument("--output", "-o", required=True, help="输出JSON文件路径")
-    parser.add_argument("--model", "-m", default=None, help="使用的模型名称")
-    parser.add_argument("--workers", "-w", type=int, default=MAX_WORKERS)
-    parser.add_argument("--sample", "-s", type=int, default=0)
-    parser.add_argument("--fix-mode", action="store_true", help="修复模式：重新对齐无效条目并更新文件")
-    p = parser.parse_args()
-
+    args = argparse.ArgumentParser()
+    args.add_argument("--input", "-i", required=True)
+    args.add_argument("--output", "-o", required=True)
+    args.add_argument("--model", "-m", default=None)
+    args.add_argument("--workers", "-w", type=int, default=MAX_WORKERS)
+    args.add_argument("--sample", "-s", type=int, default=0)
+    p = args.parse_args()
+# python aligner.py --input /data1/rjj/a.test/main_experience/fused/zh/fused_zh_deepseek-v3.1.json --output /data1/rjj/a.test/main_experience/aligned/zh/aligned_zh_deepseek-v3.1.json --model gpt-oss-120b
     llm = init_llm_from_config(p.model or DEFAULT_TEACHER_MODEL)
-    final_output_path = p.output
+    final_output_path = add_model_suffix_to_filename(p.output, alignment_stats.model_name or p.model)
 
-    # 修复模式分支
-    if p.fix_mode:
-        print("🛠️ 启动对齐修复模式...")
-        # 如果输出文件存在，则加载已有数据；否则从输入文件加载（视为全新处理）
-        if os.path.exists(final_output_path):
-            existing_data = load_input(final_output_path)
-            if not existing_data:
-                print("⚠️ 输出文件存在但无法加载数据，将从输入文件加载")
-                existing_data = load_input(p.input)
-        else:
-            print("📄 输出文件不存在，将从输入文件加载数据并执行对齐")
-            existing_data = load_input(p.input)
-        
-        if not existing_data:
-            print("❌ 无法加载任何数据，请检查输入文件")
-            sys.exit(1)
-        
-        if p.sample > 0:
-            existing_data = existing_data[:p.sample]
-            print(f"🔬 采样处理前 {p.sample} 篇新闻")
-        
-        fixed_data, before, after = fix_missing_alignments(existing_data, llm)
-        print("\n" + "="*50)
-        print("✅ 修复阶段执行完成！")
-        print(f"📊 修复前 - 无效对齐条目数量: {before}")
-        print(f"📊 修复后 - 无效对齐条目数量: {after}")
-        print(f"📈 本次成功补充修正数量: {before - after}")
-        print("="*50 + "\n")
-        # 保存修复后的完整数据
-        save_output(fixed_data, final_output_path, alignment_stats.get_stats())
-        sys.exit(0)
-
-    # 正常模式（断点续传）
+    # 初始化断点管理器
     checkpoint = CheckpointManager(final_output_path)
 
+    # 1. 加载所有输入
     raw_items = load_input(p.input)
-    if p.sample > 0:
-        raw_items = raw_items[:p.sample]
+    if p.sample > 0: raw_items = raw_items[:p.sample]
 
+    # 2. 过滤掉已处理的项 (使用稳定 Key)
     items_to_process = []
     processed_results = []
 
+    # 预加载已有的进度到内存 (为了最后保存完整的 JSON)
     if os.path.exists(checkpoint.jsonl_path):
         processed_results = load_input(checkpoint.jsonl_path)
 
@@ -477,10 +370,12 @@ def main():
 
     logger.info(f"统计: 总计 {len(raw_items)}, 跳过已完成 {len(checkpoint.processed_keys)}, 待处理 {len(items_to_process)}")
 
+    # 3. 开始批处理并实时写入
     if items_to_process:
         with ThreadPoolExecutor(max_workers=min(p.workers, len(items_to_process))) as executor:
             futures = {executor.submit(align_single_item, item, llm): item for item in items_to_process}
             iterator = tqdm(as_completed(futures), total=len(futures)) if ENABLE_PROGRESS_BAR else as_completed(futures)
+
             for fut in iterator:
                 try:
                     res = fut.result()
@@ -491,7 +386,6 @@ def main():
 
     save_output(processed_results, final_output_path, alignment_stats.get_stats())
     logger.info(f"任务结束，结果保存在: {final_output_path}")
-
 
 if __name__ == "__main__":
     main()

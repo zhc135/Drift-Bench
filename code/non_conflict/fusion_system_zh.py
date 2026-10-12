@@ -9,10 +9,11 @@ import argparse
 import re
 import random
 import numpy as np
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Tuple
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 from collections import defaultdict
+from threading import Lock
 
 # ✅ 修改导入：使用新版 langchain_openai 包
 from langchain_openai import ChatOpenAI
@@ -31,6 +32,39 @@ logger = logging.getLogger(__name__)
 class FusionMethod:
     DIRECT = "direct"
 
+# ==================== 模型使用统计类 ====================
+
+class FusionModelStats:
+    """融合模型使用情况统计"""
+
+    def __init__(self):
+        self.model_name = ""
+        self.call_count = 0
+        self.lock = Lock()
+
+    def increment(self):
+        with self.lock:
+            self.call_count += 1
+
+    def get_stats(self) -> Dict[str, Any]:
+        with self.lock:
+            return {
+                "model_name": self.model_name,
+                "total_calls": self.call_count
+            }
+
+    def print_summary(self):
+        """打印使用情况摘要"""
+        stats = self.get_stats()
+
+        print("\n" + "="*60)
+        print("📊 融合模型使用统计摘要")
+        print("="*60)
+        print(f"🤖 使用模型: {stats['model_name']}")
+        print(f"📞 总API调用次数: {stats['total_calls']}")
+        print("="*60)
+
+# ==================== 主代码 ====================
 
 def call_chat_model_and_get_text(llm, messages: List[Any]) -> str:
     """
@@ -105,9 +139,10 @@ def call_chat_model_and_get_text(llm, messages: List[Any]) -> str:
 
 
 class DirectFusionAgent:
-    def __init__(self, model_config: Dict[str, Any]):
+    def __init__(self, model_config: Dict[str, Any], model_stats: FusionModelStats):
         self.model_config = model_config
         self.model_name = model_config.get("model", "unknown")
+        self.model_stats = model_stats
         self.llm = self._initialize_llm(model_config)
         if DEBUG_MODE:
             logger.info(f"init DirectFusionAgent model={self.model_name}")
@@ -121,6 +156,10 @@ class DirectFusionAgent:
         if api_key == "EMPTY":
             api_key = "vllm"
         # ChatOpenAI 的构造在不同版本里参数名可能不同，常见为 openai_api_key/openai_api_base
+
+        # 记录模型名称到统计对象
+        self.model_stats.model_name = model_name
+
         return ChatOpenAI(
             model_name=model_name,
             temperature=temperature,
@@ -148,27 +187,28 @@ class DirectFusionAgent:
         # 精简而明确的融合 prompt（中文说明）。根据需要可改为英文或自动检测语言。
         # 该 prompt 包含角色设定、严格输出要求（不输出对齐）。
         fusion_prompt = f"""
-你是资深新闻编辑。任务：将下面提供的三份新闻改写版本合成为一篇连贯、中性的新闻报道文本。
+你是一位专业的新闻编辑。任务：将提供的三个版本的新闻稿整合为一篇简洁、中立且连贯的新闻文章。
+
 请严格遵守以下要求：
-1) 仅使用三份版本（标记为 Version 1 / Version 2 / Version 3）中出现的信息。不得添加、推断或引入任何外部事实、数据或时间点。
-2) 如果三份版本之间存在事实冲突（如日期、地点、数字等），请在文中选择最有依据或更详尽的表述；但不要在文本中解释冲突处理过程，也不要添加注释。冲突解析可在外部流程中完成，这里只需给出最终文本。
-3) 输出内容只包含最终融合后的新闻文章本身（纯文本）。不要输出任何对齐信息、JSON、注释、元数据或处理日志。
-4) 语言与输入相同（若三版主要为中文，请输出中文；若为英文，请输出英文）。文本应中性、简洁、可发布。
-5) 保持段落结构清晰，句子流畅，避免重复或矛盾表达。
-6) 如果某条信息仅出现在某一版本且表述不详，仍可在不引入新事实的前提下整合该表述（保持原话意，不扩展细节）。
+1) 仅使用三个版本（标注为版本 1 / 版本 2 / 版本 3）中提供的信息。严禁添加、推断或引入任何外部事实、数据或时间戳。
+2) 如果各版本之间存在事实不一致（如日期、地点或数字矛盾），请选择证据最充分或描述最详细的措辞；但在正文中不要解释解决冲突的过程或添加评论——分析工作将在外部完成。此处仅需生成最终整合后的文本。
+3) 输出结果必须仅包含最终整合的新闻正文（纯文本）。请勿包含任何对齐信息、JSON、注释、元数据或处理日志。
+4) 输出语言应与输入语言保持一致（如果输入主要是中文，则用中文输出；如果是英文，则用英文输出）。文字应保持中立、简洁，适合发布。
+5) 段落结构应清晰，句子流利，避免重复或自相矛盾的陈述。
+6) 如果某些信息仅出现在一个版本中且不详细，在不引入新事实的前提下仍可整合（保留原话，不要擅自展开）。
 
-下面是三份版本的原文（按顺序为 Version 1 / Version 2 / Version 3）。请基于它们产出融合后的文章并直接返回该全文。
+以下是三个版本的原文（顺序为：版本 1 / 版本 2 / 版本 3）。请基于这些内容生成融合后的文章，并直接返回完整的融合文本。
 
---- Version 1 ---
+--- 版本 1 ---
 {v1}
 
---- Version 2 ---
+--- 版本 2 ---
 {v2}
 
---- Version 3 ---
+--- 版本 3 ---
 {v3}
 
-请开始产出融合文章（仅输出最终文章文本）。
+现在请开始生成融合文章（仅输出最终的文章正文）。
 """
         messages = [
             SystemMessage(content="You are a professional news editor. Produce a single coherent news article based only on given versions; do not output alignment or JSON."),
@@ -176,6 +216,9 @@ class DirectFusionAgent:
         ]
 
         try:
+            # 记录模型调用
+            self.model_stats.increment()
+
             response_text = call_chat_model_and_get_text(self.llm, messages)
             fused_text = response_text.strip()
 
@@ -209,8 +252,11 @@ class UnifiedFusionProcessor:
         self.model_name = model_name or DEFAULT_STUDENT_MODEL
         self.model_config = get_model_deployment_config(self.model_name)
         self.fusion_method = fusion_method
-        
-        self.agent = DirectFusionAgent(self.model_config)
+
+        # 初始化模型统计
+        self.model_stats = FusionModelStats()
+
+        self.agent = DirectFusionAgent(self.model_config, self.model_stats)
         self.max_workers = MAX_WORKERS
         self.batch_size = BATCH_SIZE
 
@@ -222,7 +268,7 @@ class UnifiedFusionProcessor:
             news["fused_content"] = versions[0] if versions else news.get("input_text", "")
             news["fusion_method"] = self.fusion_method
             return news
-       
+
         result = self.agent.direct_fusion_basic(versions)
         news["fused_content"] = result.get("fused_text", "")
         # 不再生成 alignment 或 raw_alignment
@@ -231,14 +277,20 @@ class UnifiedFusionProcessor:
         news["_processing_log"] = result.get("processing_log", [])
         return news
 
-    def process_news_batch(self, news_list: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    def process_news_batch(self, news_list: List[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]], Dict[str, Any]]:
+        """
+        批量处理融合任务，返回处理结果和统计信息
+        """
         results = []
         with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
             futures = [executor.submit(self.process_single_news, n) for n in news_list]
             iterator = tqdm(as_completed(futures), total=len(futures)) if ENABLE_PROGRESS_BAR else as_completed(futures)
             for f in iterator:
                 results.append(f.result())
-        return results
+
+        # 获取统计信息
+        stats = self.model_stats.get_stats()
+        return results, stats
 
 
 class WorkflowGraph:
@@ -385,10 +437,61 @@ def load_rewritten_news(path: str) -> List[Dict[str, Any]]:
     return normalized
 # ====== end load_rewritten_news ======
 
-def save_fused_news(news: List[Dict[str, Any]], path: str):
-    os.makedirs(os.path.dirname(path) or '.', exist_ok=True)
-    with open(path, 'w', encoding='utf-8') as f:
-        json.dump(news, f, ensure_ascii=False, indent=2)
+def add_model_suffix_to_filename(file_path: str, model_name: str) -> str:
+    """
+    在文件名中添加模型名称作为后缀
+    """
+    # 清理模型名称中的特殊字符，只保留字母、数字、下划线和连字符
+    safe_model_name = re.sub(r'[^\w\-]', '_', model_name)
+
+    # 分离目录、文件名和扩展名
+    dir_name = os.path.dirname(file_path)
+    base_name = os.path.basename(file_path)
+
+    # 分离文件名和扩展名
+    name_parts = os.path.splitext(base_name)
+    file_name_without_ext = name_parts[0]
+    file_ext = name_parts[1] or ".json"
+
+    # 构建新的文件名
+    new_base_name = f"{file_name_without_ext}_{safe_model_name}{file_ext}"
+
+    # 返回完整路径
+    return os.path.join(dir_name, new_base_name)
+
+def save_fused_news(news_list: List[Dict[str, Any]], output_path: str, stats: Dict[str, Any]):
+    """
+    保存融合结果，确保fused_content中不包含ALIGNMENT内容
+    """
+    os.makedirs(os.path.dirname(output_path) or '.', exist_ok=True)
+
+    # 清理fused_content，确保不包含ALIGNMENT标记
+    cleaned_news_list = []
+    for news_item in news_list:
+        cleaned_item = news_item.copy()
+        fused_content = cleaned_item.get("fused_content", "")
+
+        # 如果fused_content包含ALIGNMENT标记，只保留标记之前的内容
+        if "====ALIGNMENT====" in fused_content:
+            parts = fused_content.split("====ALIGNMENT====")
+            cleaned_item["fused_content"] = parts[0].strip()
+        else:
+            cleaned_item["fused_content"] = fused_content.strip()
+
+        cleaned_news_list.append(cleaned_item)
+
+    # 构建包含统计信息的输出数据
+    output_data = {
+        "fusion_stats": stats,
+        "fusion_model": stats.get("model_name", "unknown"),
+        "total_items": len(cleaned_news_list),
+        "data": cleaned_news_list
+    }
+
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(output_data, f, ensure_ascii=False, indent=2)
+
+    logger.info(f"✅ 保存 {len(cleaned_news_list)} 条融合新闻到 {output_path}")
 
 
 def node_load(ctx):
@@ -408,19 +511,47 @@ def node_init(ctx):
 
 def node_fuse(ctx):
     p = ctx['processor']
-    ctx['fused'] = p.process_news_batch(ctx['news'])
+    fused_results, stats = p.process_news_batch(ctx['news'])
+    ctx['fused'] = fused_results
+    ctx['stats'] = stats
     return ctx
 
 
 def node_save(ctx):
     a = ctx['args']
-    save_fused_news(ctx['fused'], a.output)
+
+    # 获取统计信息和模型名称
+    stats = ctx['stats']
+    model_name = stats.get("model_name", "unknown")
+
+    # 在输出文件名中添加模型名称后缀
+    output_path_with_suffix = add_model_suffix_to_filename(a.output, model_name)
+
+    # 保存融合结果
+    save_fused_news(ctx['fused'], output_path_with_suffix, stats)
+
+    # 更新上下文中的输出路径
+    ctx['output_path'] = output_path_with_suffix
     return ctx
 
 
 def node_stats(ctx):
     f = ctx.get('fused', [])
-    ctx['stats'] = {'total': len(f), 'success': sum(1 for x in f if x.get('fused_content'))}
+    stats = ctx.get('stats', {})
+
+    # 计算成功融合的数量
+    success_count = sum(1 for x in f if x.get('fused_content') and x.get('fused_content', '').strip())
+
+    ctx['final_stats'] = {
+        'total': len(f),
+        'success': success_count,
+        'model_stats': stats
+    }
+
+    # 打印模型使用统计
+    if ctx.get('processor'):
+        ctx['processor'].model_stats.print_summary()
+
     return ctx
 
 
@@ -434,8 +565,7 @@ def parse_args():
     p.add_argument("--sample", "-s", type=int, default=0)
     p.add_argument("--fusion-method", "-fm", default=FusionMethod.DIRECT)
     return p.parse_args()
-    # python fusion_system_zh.py --input ../../data/non_conflict/all_rewritten/summary_finance.json --output ../../outputs/non_conflict/fused_news/fused/fused_zh_qwen_7b.json --model qwen-7b --fusion-method direct
-
+    #python fusion_system_zh.py --input /data1/rjj/a.test/data/zh.json --output /data1/rjj/a.test/main_experience/fused/en/fused_zh_phi-4.json --model phi-4 --fusion-method direct
 def main():
     args = parse_args()
     if not os.path.exists(args.input):
@@ -453,9 +583,20 @@ def main():
     wf.add_edge('fuse', 'save')
     wf.add_edge('save', 'stats')
     result = wf.run('load', ctx)
-    s = result.get('stats', {})
-    print(f"done total={s.get('total',0)} success={s.get('success',0)} output={args.output}")
 
+    s = result.get('final_stats', {})
+    output_path = result.get('output_path', args.output)
+
+    print(f"\n✅ 融合完成:")
+    print(f"   总处理: {s.get('total',0)} 条")
+    print(f"   成功融合: {s.get('success',0)} 条")
+    print(f"   输出文件: {output_path}")
+
+    # 打印模型统计
+    model_stats = s.get('model_stats', {})
+    if model_stats:
+        print(f"   使用模型: {model_stats.get('model_name', 'unknown')}")
+        print(f"   模型调用次数: {model_stats.get('total_calls', 0)}")
 
 if __name__ == "__main__":
     main()

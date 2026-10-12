@@ -130,6 +130,9 @@ data/
       summary_turmoil.json
       summary_other.json
       summary_en.json
+    fusion_eval/
+      en.json
+      zh.json
   conflict/
     README.md or released conflict-track files
 outputs/
@@ -145,7 +148,7 @@ outputs/
     score/
 ```
 
-The prepared project directory includes the non-conflict input data and the corresponding fused, aligned, evaluation, score, and analysis outputs under `data/non_conflict/` and `outputs/non_conflict/`. Conflict-track code is available under `code/conflict/`; conflict data and generated outputs belong under `data/conflict/` and `outputs/conflict/`.
+The prepared project directory includes the non-conflict input data and the corresponding fused, aligned, evaluation, score, and analysis outputs under `data/non_conflict/` and `outputs/non_conflict/`. `data/non_conflict/fusion_eval/en.json` and `data/non_conflict/fusion_eval/zh.json` are the complete non-conflict data files used for the full fusion and evaluation experiments. Conflict-track code is available under `code/conflict/`; conflict data and generated outputs belong under `data/conflict/` and `outputs/conflict/`.
 
 The non-conflict track evaluates 300 events: 150 English and 150 Chinese. Some intermediate fused files may contain 151 entries; the scoring script excludes `id == "003"` and scores 150 events per model/language pair.
 

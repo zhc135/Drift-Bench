@@ -66,7 +66,11 @@ Expected inputs:
 ```text
 data/non_conflict/classified_disaster_news/*.json
 data/non_conflict/all_rewritten/summary_*.json
+data/non_conflict/fusion_eval/en.json
+data/non_conflict/fusion_eval/zh.json
 ```
+
+`data/non_conflict/fusion_eval/en.json` and `data/non_conflict/fusion_eval/zh.json` contain the complete non-conflict English and Chinese examples used for the full fusion and evaluation experiments.
 
 Expected outputs:
 

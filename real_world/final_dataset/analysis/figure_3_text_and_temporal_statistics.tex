@@ -1,0 +1,90 @@
+\documentclass[tikz,border=4pt]{standalone}
+\usepackage{pgfplots}
+\usepgfplotslibrary{groupplots,statistics}
+\pgfplotsset{compat=1.18}
+
+\definecolor{CDr}{HTML}{CC79A7}
+\definecolor{CEq}{HTML}{D55E00}
+\definecolor{CFl}{HTML}{0072B2}
+\definecolor{CTc}{HTML}{56B4E9}
+\definecolor{CVo}{HTML}{E69F00}
+\definecolor{CWf}{HTML}{009E73}
+\definecolor{COrange}{HTML}{E69F00}
+\definecolor{CRed}{HTML}{D55E00}
+\definecolor{CBlue}{HTML}{0072B2}
+
+\begin{document}
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=1.55cm},
+  width=8.2cm,height=6.4cm,tick label style={font=\small},label style={font=\small},
+  title style={font=\small},boxplot/draw direction=y,
+  xtick={1,2,3,4,5,6},xticklabels={DR,EQ,FL,TC,VO,WF},xmin=0.5,xmax=6.5]
+\nextgroupplot[ymin=0,ymax=1600,ytick distance=400,ymajorgrids,grid style={gray!18},
+  xlabel={Disaster type},ylabel={Final article length (words)},
+  title={(a) Cleaned-text length distribution}]
+\addplot[boxplot prepared={draw position=1,
+lower whisker=119.0000,lower quartile=237.2500,
+median=554.0000,upper quartile=852.0000,
+upper whisker=1504.0000},draw=CDr,fill=CDr!25,
+thick] coordinates {};
+\addplot[boxplot prepared={draw position=2,
+lower whisker=60.0000,lower quartile=138.5000,
+median=206.0000,upper quartile=434.0000,
+upper whisker=923.0000},draw=CEq,fill=CEq!25,
+thick] coordinates {};
+\addplot[boxplot prepared={draw position=3,
+lower whisker=93.0000,lower quartile=184.0000,
+median=391.0000,upper quartile=529.0000,
+upper whisker=936.0000},draw=CFl,fill=CFl!25,
+thick] coordinates {};
+\addplot[boxplot prepared={draw position=4,
+lower whisker=102.0000,lower quartile=232.0000,
+median=391.0000,upper quartile=569.0000,
+upper whisker=1211.0000},draw=CTc,fill=CTc!25,
+thick] coordinates {};
+\addplot[boxplot prepared={draw position=5,
+lower whisker=122.0000,lower quartile=167.0000,
+median=259.0000,upper quartile=304.5000,
+upper whisker=693.0000},draw=CVo,fill=CVo!25,
+thick] coordinates {};
+\addplot[boxplot prepared={draw position=6,
+lower whisker=103.0000,lower quartile=152.0000,
+median=344.0000,upper quartile=768.0000,
+upper whisker=1008.0000},draw=CWf,fill=CWf!25,
+thick] coordinates {};
+\nextgroupplot[ymin=-5,ymax=135,ytick distance=25,ymajorgrids,grid style={gray!18},
+  xlabel={Disaster type},ylabel={Publication lag from event start (days)},
+  title={(b) Event--article temporal alignment}]
+\addplot[boxplot prepared={draw position=1,
+lower whisker=36.8813,lower quartile=72.7894,
+median=82.4445,upper quartile=112.2232,
+upper whisker=126.8480},draw=CDr,fill=CDr!25,
+thick] coordinates {};
+\addplot[boxplot prepared={draw position=2,
+lower whisker=-0.8535,lower quartile=0.2947,
+median=1.8775,upper quartile=2.9699,
+upper whisker=6.2406},draw=CEq,fill=CEq!25,
+thick] coordinates {};
+\addplot[boxplot prepared={draw position=3,
+lower whisker=0.3056,lower quartile=3.4681,
+median=6.8632,upper quartile=9.2973,
+upper whisker=40.0681},draw=CFl,fill=CFl!25,
+thick] coordinates {};
+\addplot[boxplot prepared={draw position=4,
+lower whisker=-0.3604,lower quartile=3.4422,
+median=7.2865,upper quartile=10.9569,
+upper whisker=35.5224},draw=CTc,fill=CTc!25,
+thick] coordinates {};
+\addplot[boxplot prepared={draw position=5,
+lower whisker=-0.4062,lower quartile=-0.0936,
+median=0.3750,upper quartile=2.0132,
+upper whisker=23.2222},draw=CVo,fill=CVo!25,
+thick] coordinates {};
+\addplot[boxplot prepared={draw position=6,
+lower whisker=1.0000,lower quartile=3.0000,
+median=4.5854,upper quartile=6.2747,
+upper whisker=8.6521},draw=CWf,fill=CWf!25,
+thick] coordinates {};
+\end{groupplot}
+\end{tikzpicture}
+\end{document}

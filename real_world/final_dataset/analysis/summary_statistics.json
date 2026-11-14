@@ -1,0 +1,249 @@
+{
+  "events": 50,
+  "articles": 150,
+  "articles_per_event": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "disaster_type_distribution": {
+    "DR": 4,
+    "EQ": 13,
+    "FL": 9,
+    "TC": 12,
+    "VO": 5,
+    "WF": 7
+  },
+  "year_distribution": {
+    "2023": 11,
+    "2024": 15,
+    "2025": 13,
+    "2026": 11
+  },
+  "alert_distribution": {
+    "Orange": 33,
+    "Red": 17
+  },
+  "language_distribution": {
+    "en": 150
+  },
+  "country_or_territory_labels": 69,
+  "top_country_involvement": [
+    [
+      "Mexico",
+      5
+    ],
+    [
+      "United States",
+      5
+    ],
+    [
+      "Belize",
+      4
+    ],
+    [
+      "Indonesia",
+      4
+    ],
+    [
+      "Philippines",
+      4
+    ],
+    [
+      "China",
+      4
+    ],
+    [
+      "Haiti",
+      3
+    ],
+    [
+      "Kenya",
+      2
+    ],
+    [
+      "Somalia",
+      2
+    ],
+    [
+      "Dominican Republic",
+      2
+    ],
+    [
+      "Guatemala",
+      2
+    ],
+    [
+      "Ethiopia",
+      2
+    ],
+    [
+      "Vanuatu",
+      2
+    ],
+    [
+      "Colombia",
+      2
+    ],
+    [
+      "Russia",
+      2
+    ]
+  ],
+  "unique_source_domains": 84,
+  "singleton_source_domains": 59,
+  "top_3_source_share": 0.26,
+  "top_10_source_share": 0.4067,
+  "source_hhi": 0.031289,
+  "effective_source_count": 31.96,
+  "total_final_words": 59358,
+  "article_words": {
+    "min": 60,
+    "median": 288.5,
+    "mean": 395.72,
+    "max": 1504
+  },
+  "edited_articles": 46,
+  "edited_article_share": 0.3067,
+  "words_removed_by_editing": 2346,
+  "edited_article_removal_ratio": {
+    "median": 0.094,
+    "mean": 0.1511,
+    "max": 0.7692
+  },
+  "word_count_by_type": {
+    "DR": {
+      "min": 119,
+      "q1": 237.25,
+      "median": 554.0,
+      "q3": 852.0,
+      "max": 1504
+    },
+    "EQ": {
+      "min": 60,
+      "q1": 138.5,
+      "median": 206.0,
+      "q3": 434.0,
+      "max": 923
+    },
+    "FL": {
+      "min": 93,
+      "q1": 184.0,
+      "median": 391.0,
+      "q3": 529.0,
+      "max": 936
+    },
+    "TC": {
+      "min": 102,
+      "q1": 232.0,
+      "median": 391.0,
+      "q3": 569.0,
+      "max": 1211
+    },
+    "VO": {
+      "min": 122,
+      "q1": 167.0,
+      "median": 259.0,
+      "q3": 304.5,
+      "max": 693
+    },
+    "WF": {
+      "min": 103,
+      "q1": 152.0,
+      "median": 344.0,
+      "q3": 768.0,
+      "max": 1008
+    }
+  },
+  "publication_lag_days_by_type": {
+    "DR": {
+      "min": 36.88125,
+      "q1": 72.78940972222222,
+      "median": 82.44445023148148,
+      "q3": 112.22315972222222,
+      "max": 126.84795138888889
+    },
+    "EQ": {
+      "min": -0.8534953703703704,
+      "q1": 0.2947164351851852,
+      "median": 1.877488425925926,
+      "q3": 2.9698611111111113,
+      "max": 6.240567129629629
+    },
+    "FL": {
+      "min": 0.3055555555555556,
+      "q1": 3.468072916666667,
+      "median": 6.8632175925925925,
+      "q3": 9.297297453703703,
+      "max": 40.06805555555555
+    },
+    "TC": {
+      "min": -0.36041666666666666,
+      "q1": 3.442170138888889,
+      "median": 7.286458333333333,
+      "q3": 10.956918402777777,
+      "max": 35.52236111111111
+    },
+    "VO": {
+      "min": -0.40625,
+      "q1": -0.09361689814814816,
+      "median": 0.375,
+      "q3": 2.0131944444444443,
+      "max": 23.22222222222222
+    },
+    "WF": {
+      "min": 1.0,
+      "q1": 3.0,
+      "median": 4.585416666666666,
+      "q3": 6.2746875,
+      "max": 8.652060185185185
+    }
+  }
+}

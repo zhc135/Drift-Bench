@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-11-14T09:24:22+00:00",
+  "description": "Human-validated real-world GDACS disaster news benchmark",
+  "selection_rule": "Exactly 3 human-accepted articles from distinct publisher domains per event; all five human criteria must be yes",
+  "event_count": 50,
+  "article_count": 150,
+  "all_human_accepted_article_count": 182,
+  "articles_per_event": 3,
+  "contains_original_article_text": false,
+  "unique_selected_article_ids": 150,
+  "unique_selected_source_domains": 84,
+  "edited_selected_articles": 46,
+  "event_type_distribution": {
+    "DR": 4,
+    "EQ": 13,
+    "FL": 9,
+    "TC": 12,
+    "VO": 5,
+    "WF": 7
+  },
+  "event_year_distribution": {
+    "2023": 11,
+    "2024": 15,
+    "2025": 13,
+    "2026": 11
+  },
+  "excluded_events": [
+    {
+      "event_id": "DIS-DR-B7FC2496539AC9FC",
+      "event_name": "Drought in Andorra, Albania, Austria, Bosnia  and  Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Moldova, Montenegro, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, Ukraine, ",
+      "accepted_distinct_domains": 1,
+      "required": 3,
+      "reason": "fewer_than_required_human_accepted_distinct_sources"
+    },
+    {
+      "event_id": "DIS-VO-5E34D17A7198B7DF",
+      "event_name": "Eruption  Mayon",
+      "accepted_distinct_domains": 2,
+      "required": 3,
+      "reason": "fewer_than_required_human_accepted_distinct_sources"
+    },
+    {
+      "event_id": "DIS-WF-5B40FD4DACFF12E0",
+      "event_name": "Forest fires in Greece",
+      "accepted_distinct_domains": 0,
+      "required": 3,
+      "reason": "fewer_than_required_human_accepted_distinct_sources"
+    },
+    {
+      "event_id": "DIS-VO-92322E3A98DEAA78",
+      "event_name": "Eruption  Dukono",
+      "accepted_distinct_domains": 0,
+      "required": 3,
+      "reason": "fewer_than_required_human_accepted_distinct_sources"
+    },
+    {
+      "event_id": "DIS-WF-BCB8F1F16720F365",
+      "event_name": "Forest fires in Brazil",
+      "accepted_distinct_domains": 0,
+      "required": 3,
+      "reason": "fewer_than_required_human_accepted_distinct_sources"
+    }
+  ],
+  "annotation_inputs": [
+    {
+      "file": "human_annotations_741b8b5b.json",
+      "dataset_id": "741b8b5b",
+      "exported_at": "2026-11-14T08:36:06.895Z",
+      "sha256": "0762bac9bc2b370c093c6dc08dff926bd41dfa1601166c045c1bbda137185ada",
+      "events": 50,
+      "articles": 250
+    },
+    {
+      "file": "human_annotations_f40aaee6.json",
+      "dataset_id": "f40aaee6",
+      "exported_at": "2026-11-14T08:52:42.737Z",
+      "sha256": "ec5e791213be1b14b53ac8da8d31a61f07d4592ab1963e7fe5eb93e7719f97e6",
+      "events": 5,
+      "articles": 25
+    }
+  ],
+  "files": {
+    "events": "events.csv",
+    "articles": "articles.jsonl",
+    "all_accepted_articles": "all_accepted_articles.jsonl"
+  }
+}

@@ -1,0 +1,51 @@
+﻿event_id,event_name,disaster_type,year,alert_level,countries,latitude,longitude,article_count,mean_article_words,median_publication_lag_days,edited_article_count
+DIS-DR-05DB5108D06B11D5,"Drought in Kenya, Somalia",DR,2025,Orange,"Kenya, Somalia",2.053,43.899,3,195.33,96.528,0
+DIS-DR-679FEA1BB2385001,"Drought in Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador, United States",DR,2026,Orange,"Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador, United States",18.563,-95.396,3,971.33,126.631,1
+DIS-DR-95331C640A8D5F23,"Drought in Argentina, Uruguay",DR,2025,Orange,"Argentina, Uruguay",-34.19,-60.785,3,473,82.424,0
+DIS-DR-AFA31EE64B48116C,"Drought in Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",DR,2026,Orange,"Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",9.405,31.76,3,807.33,71.503,0
+DIS-EQ-061D231B89C06F55,Earthquake in Indonesia,EQ,2026,Red,Indonesia,-8.3101,121.3517,3,476,2.512,0
+DIS-EQ-066763829BE3ECCB,Earthquake in Venezuela,EQ,2026,Red,Venezuela,10.453,-68.5139,3,312,2.955,0
+DIS-EQ-0B8C572396473E2F,Earthquake in Philippines,EQ,2026,Orange,Philippines,5.5918,125.0469,3,737,1.682,1
+DIS-EQ-215E8F00DF8640BB,Earthquake in Vanuatu,EQ,2024,Red,Vanuatu,-17.6859,168.0338,3,165.67,1.877,2
+DIS-EQ-5F5B462AEECB9248,Earthquake in Colombia,EQ,2026,Red,Colombia,4.8436,-76.2422,3,374.67,2.2,0
+DIS-EQ-6BF369AD07AE2B79,Earthquake in Russia,EQ,2024,Orange,Russia,52.9242,160.1413,3,230,0.201,1
+DIS-EQ-8898526AC62C2D4E,Earthquake in Afghanistan,EQ,2023,Red,Afghanistan,34.6102,61.9242,3,464.33,5.203,0
+DIS-EQ-9B6BA4BB2AA99BC0,Earthquake in Russia,EQ,2025,Orange,Russia,53.1928,160.5129,3,189.67,0.221,0
+DIS-EQ-A090E31EAEC779A4,Earthquake in Myanmar,EQ,2025,Red,Myanmar,22.0128,95.9216,3,127.67,3.401,0
+DIS-EQ-A947A835F7B3D6D6,Earthquake in Afghanistan,EQ,2025,Red,Afghanistan,36.5894,67.4843,3,283.67,0.421,1
+DIS-EQ-D5B3F2D9E21ED076,Earthquake in Colombia,EQ,2025,Orange,Colombia,4.5125,-73.1444,3,130.33,0.014,1
+DIS-EQ-D92070E5955A79E3,Earthquake in Türkiye,EQ,2023,Red,Türkiye,37.1736,37.032,3,192.33,6.069,1
+DIS-FL-183D2FA7B8C467BC,"Flood in Austria, Czech Republic, Germany, Poland, Romania, Slovakia",FL,2024,Orange,"Austria, Czech Republic, Germany, Poland, Romania, Slovakia",49.8591,16.9561,3,351.67,3.149,3
+DIS-FL-1A08C19C1E76C71C,Flood in Sri Lanka,FL,2025,Orange,Sri Lanka,7.2143,80.6401,3,614.33,3.747,1
+DIS-FL-4C54433BEEFF58C1,Flood in China,FL,2023,Orange,China,30.1534,120.076,3,564.33,7.465,0
+DIS-FL-8C25C506BBC8AAA0,Flood in Nepal,FL,2026,Red,Nepal,27.2953,85.3649,3,390.67,9.324,2
+DIS-FL-9D9396C252019933,Flood in Somalia,FL,2023,Orange,Somalia,8.3677,49.0834,3,285,38.958,1
+DIS-FL-B5747E11FE6292D1,Flood in China,FL,2025,Red,China,22.3506,114.1849,3,351.33,0.314,1
+DIS-FL-F2D7E7186E2B427C,Flood in Brazil,FL,2024,Orange,Brazil,-8.1356,-35.8566,3,316.67,14.335,1
+DIS-FL-F8EB202E94DFDFD8,Flood in Spain,FL,2024,Orange,Spain,39.4178,-2.6232,3,363.67,7.102,1
+DIS-FL-FBA0768858756EBE,Flood in China,FL,2026,Orange,China,25.0767,117.0123,3,363.33,6.676,1
+DIS-TC-0D9AD02EDD032B2F,Tropical Cyclone BERYL-24,TC,2024,Red,"Haiti, Grenada, Jamaica, Trinidad and Tobago, Saint Vincent and the Grenadines, Mexico, Belize, United States",33.9,-93.7,3,503.67,13.13,1
+DIS-TC-5853FF10B3FE20A1,Tropical Cyclone FILIPO-24,TC,2024,Orange,"Mozambique, South Africa, Eswatini, Zimbabwe, Malawi",-33.09,41.87,3,163,9.201,1
+DIS-TC-645431B1C94BA5D5,Tropical Cyclone JUDY-23,TC,2023,Red,Vanuatu,-26.1,179.8,3,298.33,4.255,0
+DIS-TC-72D3203160CA8005,Tropical Cyclone REMAL-24,TC,2024,Orange,"Bangladesh, India, Bhutan",21.7,88.4,3,371,2.425,2
+DIS-TC-91BD849EA4EB02C0,Tropical Cyclone HILARY-23,TC,2023,Orange,Mexico,44.6,-115.5,3,627.33,5.015,1
+DIS-TC-94AFE7992468F6D2,Tropical Cyclone FRANKLIN-23,TC,2023,Orange,"Bermuda, Turks and Caicos Islands, Dominican Republic, Haiti",39.5,-53.8,3,871.33,10.125,2
+DIS-TC-A2D3B0D252724B03,Tropical Cyclone GAMANE-24,TC,2024,Orange,Madagascar,-13.83,48.09,3,228.33,3.649,1
+DIS-TC-CF5DD552378301D4,Tropical Cyclone FREDDY-23,TC,2023,Red,"Mozambique, Madagascar",-17.5,36.9,3,539.67,35.475,0
+DIS-TC-D95B325C6704F1ED,Tropical Cyclone ALBERTO-24,TC,2024,Orange,"Guatemala, Mexico, United States, Belize",22.3,-102.0,3,438,0.003,1
+DIS-TC-DDBC85C7FE908343,Tropical Cyclone KHANUN-23,TC,2023,Orange,Japan,38.7,127.4,3,331.33,15.176,0
+DIS-VO-01EC8A26015FDC43,Eruption  Kanlaon,VO,2024,Orange,Philippines,10.412,123.132,3,205.33,-0.376,2
+DIS-VO-0C863C7350BE8B58,Eruption  Lewotobi,VO,2025,Orange,Indonesia,-8.542,122.775,3,272.33,0.108,3
+DIS-VO-1232690C92C19F48,Eruption  Kanlaon,VO,2025,Orange,Philippines,10.412,123.132,3,172.33,0.375,0
+DIS-VO-24ADAC7AA8E28D60,Eruption  Lewotobi,VO,2024,Orange,Indonesia,-8.542,122.775,3,398.67,20.775,1
+DIS-VO-915620177CCAAF87,Eruption  Krakatau,VO,2026,Orange,Indonesia,-6.1009,105.4233,3,401.33,1.567,1
+DIS-WF-010B5CE5E018449B,Forest fires in Greece,WF,2024,Red,Greece,38.1512,23.926,3,294,4.535,0
+DIS-WF-25917D49F1D30A6B,Forest fires in Albania,WF,2025,Orange,Albania,40.25,19.5897,3,227.67,6.56,0
+DIS-WF-5C7448B3CC211D80,Forest fires in Spain,WF,2026,Orange,Spain,40.3594,-4.5405,3,974.33,5.254,1
+DIS-WF-6BA3D29F09AA00AC,Forest fires in Greece,WF,2023,Orange,Greece,40.9741,25.9573,3,600.67,4.539,0
+DIS-WF-A311BCABDC0FD269,Forest fires in United States,WF,2025,Orange,United States,34.0804,-118.5698,3,325.33,3.0,2
+DIS-WF-BF04DB61D8313B71,Forest fires in France,WF,2026,Red,France,44.8463,-1.0329,3,420.67,5.677,0
+DIS-WF-CFB799140D500670,Forest fires in Algeria,WF,2023,Orange,Algeria,36.7724,4.7743,3,233,2.504,2
+DIS-EQ-4E9B7E7396DD3077,Earthquake in Ethiopia,EQ,2025,Orange,Ethiopia,9.2986,40.4246,3,173.33,0.29,1
+DIS-TC-66D31CB1B439C911,Tropical Cyclone HELENE-24,TC,2024,Red,"United States, Mexico, Belize",37.5,-85.5,3,494.33,2.209,2
+DIS-TC-696A630622795903,Tropical Cyclone MAN-YI-24,TC,2024,Red,"Philippines, China, Guam",18.1,112.1,3,489.33,8.99,3

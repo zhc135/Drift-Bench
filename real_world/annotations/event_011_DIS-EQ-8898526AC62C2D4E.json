@@ -1,0 +1,1449 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-8898526AC62C2D4E",
+  "event_rank": 11,
+  "event_metadata": {
+    "event_name": "Earthquake in Afghanistan",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2023-10-07T06:41:02+00:00",
+    "event_end_time": "2023-10-07T06:41:02+00:00",
+    "locations": [
+      "Afghanistan"
+    ],
+    "latitude": 34.6102,
+    "longitude": 61.9242,
+    "place_names_in_reports": [
+      "Herat",
+      "Zindajan",
+      "Injil",
+      "Gulran",
+      "Kushki Robat-e-Sangi",
+      "Chahak",
+      "Nayeb Rafi",
+      "Iran",
+      "Herat city"
+    ],
+    "gdacs_id": "1394952",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "10 月 7 日发生首个 6.3 级地震，10 月 11 日另一个 6.3 级地震。两次灾情不能使用同一统计范围。"
+    ],
+    "dataset_place_name": "Earthquake in Afghanistan",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-DB8F6D3254D35BFA",
+      "event_id": "DIS-EQ-8898526AC62C2D4E",
+      "event_rank": 11,
+      "article_rank": 1,
+      "title": "Afghan Officials Lower Earthquakes' Death Toll",
+      "publisher": "voanews",
+      "identified_publisher": "VOA",
+      "source_domain": "voanews.com",
+      "url": "https://www.voanews.com/a/afghan-officials-lower-earthquakes-death-toll-/7307620.html",
+      "published_at": "2023-10-12T11:22:35+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "正文说明 UNICEF 发言人与当地工作人员向 VOA 回应，且 VOA 求证联合国数字。",
+      "content": "Afghanistan's Taliban government Thursday lowered the death toll from a series of recent earthquakes that struck western districts to about 1,000, revising the previous figure of more than 2,000 fatalities.\n\nThe Afghan Public Health Ministry posted the latest toll on X, formerly Twitter, saying around 2,400 people had been injured since Saturday, when the first 6.3-magnitude quake rattled several districts in the western Herat province, bordering Iran.\n\nA UNICEF spokesperson told VOA Thursday that \"over 90% of those reported killed\" were women and children, saying casualty \"numbers are still in flux.\" The United Nations documented the death of around 1,300 people and nearly 1,700 injured as of Thursday. VOA reached out to U.N. officials to seek a clarification about the discrepancy but did not receive a response immediately.\n\nRepeated aftershocks hit the Afghan disaster zone before it was shaken by another 6.3-magnitude quake Wednesday that was followed by three substantial tremors.\n\nStrong Earthquake Hits Western Afghanistan\n\nThe latest United Nations situation report said that Wednesday's earthquake and aftershocks affected villages in the Injil, Gulran, and Kushki Robat-e-Sangi districts of Herat, injuring at least 140 people. \"Chahak village in Injil district, with 1,250 residents, has been completely destroyed along with five neighboring villages,\" it said.\n\nProvincial officials reported at least one death and injuries to over 150 people from the latest quake.\n\nSiddig Ibrahim, UNICEF field officer for western Afghanistan, told VOA earlier this week that when the first earthquake hit, people thought it was an explosion and ran into their homes.\n\n\"Unfortunately, the earthquake continued, and houses started collapsing,” Ibrahim said. “Women and children are often at home, tending to the household and caring for children, so when structures collapse, they are the most at risk.\"\n\nUNICEF launched a new appeal for Afghanistan on Wednesday, calling for an initial $20 million to respond to the quakes.\n\nThe World Health Organization has reported damage to 21 health facilities in 10 districts, with half caused by the October 11 tremors. So far, WHO and other agencies have provided health care services to more than 5,600 people in several highly affected districts, mainly in Zindajan, which was close to the epicenter of Saturday's quake.\n\nAfghan hospitals, already severely underequipped and underfunded, were quickly overwhelmed. Providing shelter to quake victims on a large scale would be a challenge for the Taliban government.\n\n\"That area suffers from extreme cold, and staying outdoors for affected families after the evening is tough,\" Public Health Minister Qalandar Ebad told reporters Wednesday.\n\n\"They can live in tents for one month, but beyond that, it would probably be very difficult,\" he said.\n\nThe government has provided medicine, equipment, food, drinking water, tents, and other necessities for the victims but they still need more help, Ebad said. He praised international aid organizations for supporting his government in bringing much-needed relief goods to quake victims.\n\nTaliban chief spokesperson Zabihullah Mujahid said that several countries had also sent relief items to displaced families in Herat.\n\nThis story has been updated to include U.N. estimates of the number of earthquake casualties.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "Afghanistan's Taliban government Thursday lowered the death toll from a series of recent earthquakes that struck western districts to about 1,000, revising the previous figure of more than 2,000 fatalities.\n\n",
+          "start_offset": 0,
+          "end_offset": 208,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "casualties",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "revised_deaths",
+              "value": {
+                "value": 1000,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "previous_deaths",
+              "value": {
+                "value": 2000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "Taliban government",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "The Afghan Public Health Ministry posted the latest toll on X, formerly Twitter, saying around 2,400 people had been injured since Saturday, when the first 6.3-magnitude quake rattled several districts in the western Herat province, bordering Iran.\n\n",
+          "start_offset": 208,
+          "end_offset": 458,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "injuries",
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "injured",
+              "value": {
+                "value": 2400,
+                "qualifier": "around"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "first_quake_magnitude",
+              "value": 6.3,
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Afghan Public Health Ministry",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "A UNICEF spokesperson told VOA Thursday that \"over 90% of those reported killed\" were women and children, saying casualty \"numbers are still in flux.\" The United Nations documented the death of around 1,300 people and nearly 1,700 injured as of Thursday. VOA reached out to U.N. officials to seek a clarification about the discrepancy but did not receive a response immediately.\n\n",
+          "start_offset": 458,
+          "end_offset": 838,
+          "sentence_ids": [
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "affected_population",
+            "uncertainty"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "women_and_children_share_of_reported_dead",
+              "value": {
+                "value": 90,
+                "qualifier": "greater_than"
+              },
+              "unit": "%"
+            },
+            {
+              "attribute": "un_deaths",
+              "value": {
+                "value": 1300,
+                "qualifier": "around"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "un_injured",
+              "value": {
+                "value": 1700,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "un_cutoff",
+              "value": "Thursday",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "Repeated aftershocks hit the Afghan disaster zone before it was shaken by another 6.3-magnitude quake Wednesday that was followed by three substantial tremors.\n\n",
+          "start_offset": 838,
+          "end_offset": 999,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "secondary_hazard",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "wednesday_quake_magnitude",
+              "value": 6.3,
+              "unit": null
+            },
+            {
+              "attribute": "substantial_tremors_after_wednesday",
+              "value": 3,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "Strong Earthquake Hits Western Afghanistan\n\n",
+          "start_offset": 999,
+          "end_offset": 1043,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "The latest United Nations situation report said that Wednesday's earthquake and aftershocks affected villages in the Injil, Gulran, and Kushki Robat-e-Sangi districts of Herat, injuring at least 140 people. \"Chahak village in Injil district, with 1,250 residents, has been completely destroyed along with five neighboring villages,\" it said.\n\n",
+          "start_offset": 1043,
+          "end_offset": 1386,
+          "sentence_ids": [
+            8,
+            9
+          ],
+          "fact_types": [
+            "injuries",
+            "damage",
+            "location",
+            "affected_population"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "injured_in_wednesday_quake_or_aftershocks",
+              "value": {
+                "value": 140,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "chahak_population",
+              "value": 1250,
+              "unit": "people"
+            },
+            {
+              "attribute": "additional_villages_destroyed",
+              "value": 5,
+              "unit": "villages"
+            },
+            {
+              "attribute": "attribution",
+              "value": "UN situation report",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "Provincial officials reported at least one death and injuries to over 150 people from the latest quake.\n\n",
+          "start_offset": 1386,
+          "end_offset": 1491,
+          "sentence_ids": [
+            10
+          ],
+          "fact_types": [
+            "injuries",
+            "casualties"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_latest_quake_dead",
+              "value": {
+                "value": 1,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "reported_latest_quake_injured",
+              "value": {
+                "value": 150,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "provincial officials",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F008",
+          "span_text": "Siddig Ibrahim, UNICEF field officer for western Afghanistan, told VOA earlier this week that when the first earthquake hit, people thought it was an explosion and ran into their homes.\n\n\"Unfortunately, the earthquake continued, and houses started collapsing,” Ibrahim said. “Women and children are often at home, tending to the household and caring for children, so when structures collapse, they are the most at risk.\"\n\n",
+          "start_offset": 1491,
+          "end_offset": 1913,
+          "sentence_ids": [
+            11,
+            12,
+            13
+          ],
+          "fact_types": [
+            "cause",
+            "uncertainty",
+            "affected_population",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "Siddig Ibrahim, UNICEF",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F009",
+          "span_text": "UNICEF launched a new appeal for Afghanistan on Wednesday, calling for an initial $20 million to respond to the quakes.\n\n",
+          "start_offset": 1913,
+          "end_offset": 2034,
+          "sentence_ids": [
+            14
+          ],
+          "fact_types": [
+            "aid",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "unicef_appeal",
+              "value": 20000000,
+              "unit": "USD"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F010",
+          "span_text": "The World Health Organization has reported damage to 21 health facilities in 10 districts, with half caused by the October 11 tremors. So far, WHO and other agencies have provided health care services to more than 5,600 people in several highly affected districts, mainly in Zindajan, which was close to the epicenter of Saturday's quake.\n\n",
+          "start_offset": 2034,
+          "end_offset": 2374,
+          "sentence_ids": [
+            15,
+            16
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "health_facilities_damaged",
+              "value": 21,
+              "unit": "facilities"
+            },
+            {
+              "attribute": "districts",
+              "value": 10,
+              "unit": "districts"
+            },
+            {
+              "attribute": "facilities_damage_from_october_11",
+              "value": "half",
+              "unit": null
+            },
+            {
+              "attribute": "people_provided_health_services",
+              "value": {
+                "value": 5600,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "WHO",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F011",
+          "span_text": "Afghan hospitals, already severely underequipped and underfunded, were quickly overwhelmed. Providing shelter to quake victims on a large scale would be a challenge for the Taliban government.\n\n\"That area suffers from extreme cold, and staying outdoors for affected families after the evening is tough,\" Public Health Minister Qalandar Ebad told reporters Wednesday.\n\n\"They can live in tents for one month, but beyond that, it would probably be very difficult,\" he said.\n\n",
+          "start_offset": 2374,
+          "end_offset": 2846,
+          "sentence_ids": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "fact_types": [
+            "humanitarian_needs",
+            "weather",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "need",
+              "value": "durable shelter in cold weather",
+              "unit": null
+            },
+            {
+              "attribute": "tent_duration_posited_by_health_minister",
+              "value": 1,
+              "unit": "month"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F012",
+          "span_text": "The government has provided medicine, equipment, food, drinking water, tents, and other necessities for the victims but they still need more help, Ebad said. He praised international aid organizations for supporting his government in bringing much-needed relief goods to quake victims.\n\nTaliban chief spokesperson Zabihullah Mujahid said that several countries had also sent relief items to displaced families in Herat.\n\n",
+          "start_offset": 2846,
+          "end_offset": 3267,
+          "sentence_ids": [
+            21,
+            22,
+            23
+          ],
+          "fact_types": [
+            "aid",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_relief",
+              "value": [
+                "medicines",
+                "equipment",
+                "food",
+                "drinking water",
+                "tents"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F013",
+          "span_text": "This story has been updated to include U.N. estimates of the number of earthquake casualties.",
+          "start_offset": 3267,
+          "end_offset": 3360,
+          "sentence_ids": [
+            24
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "5ef5eda4a02c6593e398c85cd41239ea1c67346899c09c696628ac7cd32f7ada",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-0A2EC4254B0644AD",
+      "event_id": "DIS-EQ-8898526AC62C2D4E",
+      "event_rank": 11,
+      "article_rank": 2,
+      "title": "Humanitarian Assistance in response to Afghanistan earthquake",
+      "publisher": "globalsecurity",
+      "identified_publisher": null,
+      "source_domain": "globalsecurity.org",
+      "url": "https://www.globalsecurity.org/military/library/news/2023/10/mil-231011-aumfa02.htm",
+      "published_at": "2023-10-12T11:34:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "republished",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "以澳政府第一人称陈述援助拨款和立场，疑为澳政府公告再刊。",
+      "content": "The Australian Government will provide $1 million to support the people of Afghanistan following the deadly earthquake which struck Herat Province.\n\nThe earthquake has exacerbated the dire humanitarian crisis in Afghanistan, where 29.2 million people are already in desperate need.\n\nAustralia's assistance will be directed through the Afghanistan Humanitarian Fund (AHF), led by the UN Office for the Coordination of Humanitarian Affairs.\n\nThe AHF provides emergency shelter, health, food and protection for vulnerable people. No Australian funding will benefit or legitimise the Taliban regime.\n\nAustralia has already committed $50 million in 2023-24 to the ongoing crisis in Afghanistan.\n\n\"We are deeply troubled by the loss of life and destruction in Afghanistan.\n\n\"Australia's support will be delivered through independent agencies to provide basic needs such as shelter, food and medicine.\n\n\"Australia stands with the people of Afghanistan.\"\n\n\"This earthquake has exacerbated the ongoing humanitarian crisis in Afghanistan, where almost 30 million people are already in desperate need.\n\n\"We are working closely with our humanitarian partners who have initiated relief efforts, deploying medical and trauma support to regional hospitals, as well as providing emergency shelter, supplies and food assistance to affected areas.\"\n\n\"Our thoughts are with the victims of this tragic earthquake, their families, and the rescue personnel.\n\n\"We urge the Taliban to respect, protect and fulfil the human rights of the people of Afghanistan, especially women and girls, ethnic and religious minorities.\"",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "The Australian Government will provide $1 million to support the people of Afghanistan following the deadly earthquake which struck Herat Province.\n\nThe earthquake has exacerbated the dire humanitarian crisis in Afghanistan, where 29.2 million people are already in desperate need.\n\nAustralia's assistance will be directed through the Afghanistan Humanitarian Fund (AHF), led by the UN Office for the Coordination of Humanitarian Affairs.\n\n",
+          "start_offset": 0,
+          "end_offset": 440,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "aid",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "new_australian_commitment_as_printed",
+              "value": "$1 million",
+              "unit": null
+            },
+            {
+              "attribute": "national_preexisting_humanitarian_needs_population",
+              "value": 29200000,
+              "unit": "people"
+            },
+            {
+              "attribute": "fund",
+              "value": "Afghanistan Humanitarian Fund led by OCHA",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "The AHF provides emergency shelter, health, food and protection for vulnerable people. No Australian funding will benefit or legitimise the Taliban regime.\n\nAustralia has already committed $50 million in 2023-24 to the ongoing crisis in Afghanistan.\n\n",
+          "start_offset": 440,
+          "end_offset": 691,
+          "sentence_ids": [
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "fund_services",
+              "value": [
+                "emergency shelter",
+                "health",
+                "food",
+                "protection"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "preexisting_commitment_as_printed",
+              "value": "$50 million in 2023-24",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "\"We are deeply troubled by the loss of life and destruction in Afghanistan.\n\n\"Australia's support will be delivered through independent agencies to provide basic needs such as shelter, food and medicine.\n\n\"Australia stands with the people of Afghanistan.\"\n\n",
+          "start_offset": 691,
+          "end_offset": 948,
+          "sentence_ids": [
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "aid",
+            "public_reaction"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "delivery",
+              "value": "independent agencies",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "\"This earthquake has exacerbated the ongoing humanitarian crisis in Afghanistan, where almost 30 million people are already in desperate need.\n\n\"We are working closely with our humanitarian partners who have initiated relief efforts, deploying medical and trauma support to regional hospitals, as well as providing emergency shelter, supplies and food assistance to affected areas.\"\n\n",
+          "start_offset": 948,
+          "end_offset": 1332,
+          "sentence_ids": [
+            10,
+            11
+          ],
+          "fact_types": [
+            "aid",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "national_preexisting_humanitarian_needs_population",
+              "value": {
+                "value": 30000000,
+                "qualifier": "almost"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "deployed_support",
+              "value": [
+                "medical and trauma support",
+                "emergency shelter",
+                "supplies",
+                "food"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "\"Our thoughts are with the victims of this tragic earthquake, their families, and the rescue personnel.\n\n\"We urge the Taliban to respect, protect and fulfil the human rights of the people of Afghanistan, especially women and girls, ethnic and religious minorities.\"",
+          "start_offset": 1332,
+          "end_offset": 1597,
+          "sentence_ids": [
+            12,
+            13
+          ],
+          "fact_types": [
+            "public_reaction",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "654374404b56c88cddf6aa1a7000ea28c2c4f77b0cfc52bb8630521e5dd2ddd3",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-CAB8D7A696C759A3",
+      "event_id": "DIS-EQ-8898526AC62C2D4E",
+      "event_rank": 11,
+      "article_rank": 3,
+      "title": "Thousands of Afghans out in cold after deadly quakes",
+      "publisher": "TheFrontierPost-en",
+      "identified_publisher": "AFP",
+      "source_domain": "thefrontierpost.com",
+      "url": "https://thefrontierpost.com/thousands-of-afghans-out-in-cold-after-deadly-quakes/",
+      "published_at": "2023-10-12T13:25:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "地区电头标注 AFP，多名当事人直接向 AFP 发言。",
+      "content": "HEART (AFP): Thousands of Afghans who survived a powerful earthquake that killed more than 2,00 people were bracing for a winter of homelessness, as rescuers made last-ditch efforts to find survivors.\n\nVolunteers have worked with spades and pickaxes in Herat province since Saturday’s deadly magnitude 6.3 quake — followed by powerful aftershocks — while others dug graves instead.\n\nThe United Nations said more than 12,000 people, from some 1,700 families, are estimated to have been affected.\n\nIt said “100 percent” of homes were destroyed in 11 villages of Zenda Jan district.\n\nZareen, in the village of Nayeb Rafi, where 11 of his family members were killed in the crush of falling masonry, said aid tents would not withstand the winter storms.\n\n“If the government doesn’t take us away or help us, we will be stuck here,” the man in his 70s told AFP.\n\nProviding shelter on a large scale will be a challenge for Afghanistan’s Taliban authorities, who seized power in August 2021, and have fractious relations with international aid organisations.\n\n“Not a single house is left, not even a room where we could stay at night,” said 40-year-old Mohammad Naeem, who told AFP he lost 12 relatives including his mother.\n\n“We can’t live here anymore. You can see, our family got martyred here. How could we live here?”\n\n– Discharged patients homeless –\n\nIn the provincial capital of Herat city — 30 kilometres (19 miles) southeast of the quake epicentres in hard-to-reach Zenda Jan district — Doctors Without Borders said the injured now faced a new ordeal.\n\n“More than 340 patients discharged yesterday don’t want to leave the hospital as they have no homes to return to,” the charity said on social media site X.\n\nLocal and national officials gave conflicting counts of the number of dead and injured, but the disaster ministry has said 2,053 people died.\n\n“We can’t give exact numbers for dead and wounded as it is in flux,” said disaster management ministry spokesman Mullah Janan Sayeq.\n\nThe UN said Tuesday the death toll stood at nearly 1,300 with nearly 500 more still missing, the majority of them women.\n\nAfghanistan is frequently hit by deadly earthquakes, but the weekend disaster is the worst to strike the impoverished country in more than 25 years.\n\nTaliban authorities have banned women from working for UN and non-governmental organisations (NGOs) in Afghanistan, making it difficult to assess family needs in deeply conservative parts of the country.\n\nAmnesty International said the Taliban government should ensure that rescue and relief efforts are carried out “without discrimination” and guarantee unrestricted access to the affected regions to humanitarian agencies.\n\n“It is critical that all assistance meets the needs of the most at-risk groups who often face compounded challenges in crisis situations, including women,” said South Asia regional researcher Zaman Sultani.\n\nMost rural homes in Afghanistan are made of mud and built around wooden support poles, with little in the way of modern steel reinforcement.\n\nMulti-generational extended families generally live under the same roof, meaning disasters such as Saturday’s quake can devastate local communities.\n\nAfghanistan is already suffering a dire humanitarian crisis, with the widespread withdrawal of foreign aid following the Taliban’s return to power.\n\nSave the Children called the quakes “a crisis on top of a crisis”.\n\nHerat province — home to around 1.9 million people on the border with Iran — has also been hit by a years-long drought that has crippled many hardscrabble farm communities.\n\nThe country is prone to quakes, especially in the Hindu Kush mountain range, which lies near the junction of the Eurasian and Indian tectonic plates.\n\nMore than 1,000 people were killed and tens of thousands left homeless in June last year after a 5.9-magnitude quake struck the impoverished province of Paktika.\n\nMore than 4,000 people died in a magnitude 6.5 quake that struck Takhar province in 1998.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "HEART (AFP): Thousands of Afghans who survived a powerful earthquake that killed more than 2,00 people were bracing for a winter of homelessness, as rescuers made last-ditch efforts to find survivors.\n\n",
+          "start_offset": 0,
+          "end_offset": 202,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "casualties",
+            "disaster_occurrence",
+            "evacuation",
+            "humanitarian_needs"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "printed_death_toll",
+              "value": "more than 2,00",
+              "unit": null
+            },
+            {
+              "attribute": "numerical_interpretation",
+              "value": "unclear malformed number",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "Volunteers have worked with spades and pickaxes in Herat province since Saturday’s deadly magnitude 6.3 quake — followed by powerful aftershocks — while others dug graves instead.\n\n",
+          "start_offset": 202,
+          "end_offset": 383,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "saturday_quake_magnitude",
+              "value": 6.3,
+              "unit": null
+            },
+            {
+              "attribute": "location",
+              "value": "Herat Province",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "The United Nations said more than 12,000 people, from some 1,700 families, are estimated to have been affected.\n\nIt said “100 percent” of homes were destroyed in 11 villages of Zenda Jan district.\n\n",
+          "start_offset": 383,
+          "end_offset": 581,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "affected_population",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "estimated_affected_people",
+              "value": {
+                "value": 12000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "estimated_affected_families",
+              "value": {
+                "value": 1700,
+                "qualifier": "some"
+              },
+              "unit": "families"
+            },
+            {
+              "attribute": "villages_with_all_homes_destroyed",
+              "value": 11,
+              "unit": "villages"
+            },
+            {
+              "attribute": "attribution",
+              "value": "UN",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "Zareen, in the village of Nayeb Rafi, where 11 of his family members were killed in the crush of falling masonry, said aid tents would not withstand the winter storms.\n\n“If the government doesn’t take us away or help us, we will be stuck here,” the man in his 70s told AFP.\n\nProviding shelter on a large scale will be a challenge for Afghanistan’s Taliban authorities, who seized power in August 2021, and have fractious relations with international aid organisations.\n\n“Not a single house is left, not even a room where we could stay at night,” said 40-year-old Mohammad Naeem, who told AFP he lost 12 relatives including his mother.\n\n“We can’t live here anymore. You can see, our family got martyred here. How could we live here?”\n\n",
+          "start_offset": 581,
+          "end_offset": 1315,
+          "sentence_ids": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "casualties",
+            "humanitarian_needs",
+            "public_reaction",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "zareen_family_deaths",
+              "value": 11,
+              "unit": "people"
+            },
+            {
+              "attribute": "naeem_family_deaths",
+              "value": 12,
+              "unit": "people"
+            },
+            {
+              "attribute": "need",
+              "value": "shelter adequate for winter",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "– Discharged patients homeless –\n\n",
+          "start_offset": 1315,
+          "end_offset": 1349,
+          "sentence_ids": [
+            12
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "In the provincial capital of Herat city — 30 kilometres (19 miles) southeast of the quake epicentres in hard-to-reach Zenda Jan district — Doctors Without Borders said the injured now faced a new ordeal.\n\n“More than 340 patients discharged yesterday don’t want to leave the hospital as they have no homes to return to,” the charity said on social media site X.\n\n",
+          "start_offset": 1349,
+          "end_offset": 1711,
+          "sentence_ids": [
+            13,
+            14
+          ],
+          "fact_types": [
+            "injuries",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "discharged_patients_without_homes",
+              "value": {
+                "value": 340,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "Doctors Without Borders",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "Local and national officials gave conflicting counts of the number of dead and injured, but the disaster ministry has said 2,053 people died.\n\n“We can’t give exact numbers for dead and wounded as it is in flux,” said disaster management ministry spokesman Mullah Janan Sayeq.\n\n",
+          "start_offset": 1711,
+          "end_offset": 1988,
+          "sentence_ids": [
+            15,
+            16
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "uncertainty"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths_reported_by_ministry",
+              "value": 2053,
+              "unit": "people"
+            },
+            {
+              "attribute": "ministry_note",
+              "value": "counts in flux",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F008",
+          "span_text": "The UN said Tuesday the death toll stood at nearly 1,300 with nearly 500 more still missing, the majority of them women.\n\n",
+          "start_offset": 1988,
+          "end_offset": 2110,
+          "sentence_ids": [
+            17
+          ],
+          "fact_types": [
+            "casualties",
+            "missing_persons"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "un_deaths",
+              "value": {
+                "value": 1300,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "un_missing",
+              "value": {
+                "value": 500,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "time",
+              "value": "Tuesday",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F009",
+          "span_text": "Afghanistan is frequently hit by deadly earthquakes, but the weekend disaster is the worst to strike the impoverished country in more than 25 years.\n\n",
+          "start_offset": 2110,
+          "end_offset": 2260,
+          "sentence_ids": [
+            18
+          ],
+          "fact_types": [
+            "disaster_occurrence"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F010",
+          "span_text": "Taliban authorities have banned women from working for UN and non-governmental organisations (NGOs) in Afghanistan, making it difficult to assess family needs in deeply conservative parts of the country.\n\nAmnesty International said the Taliban government should ensure that rescue and relief efforts are carried out “without discrimination” and guarantee unrestricted access to the affected regions to humanitarian agencies.\n\n“It is critical that all assistance meets the needs of the most at-risk groups who often face compounded challenges in crisis situations, including women,” said South Asia regional researcher Zaman Sultani.\n\n",
+          "start_offset": 2260,
+          "end_offset": 2894,
+          "sentence_ids": [
+            19,
+            20,
+            21
+          ],
+          "fact_types": [
+            "humanitarian_needs",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_response_constraint",
+              "value": "restrictions on women working for UN and NGOs",
+              "unit": null
+            },
+            {
+              "attribute": "requested_action",
+              "value": "non-discriminatory relief and unrestricted humanitarian access",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F011",
+          "span_text": "Most rural homes in Afghanistan are made of mud and built around wooden support poles, with little in the way of modern steel reinforcement.\n\nMulti-generational extended families generally live under the same roof, meaning disasters such as Saturday’s quake can devastate local communities.\n\nAfghanistan is already suffering a dire humanitarian crisis, with the widespread withdrawal of foreign aid following the Taliban’s return to power.\n\nSave the Children called the quakes “a crisis on top of a crisis”.\n\n",
+          "start_offset": 2894,
+          "end_offset": 3403,
+          "sentence_ids": [
+            22,
+            23,
+            24,
+            25
+          ],
+          "fact_types": [
+            "cause",
+            "damage",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F012",
+          "span_text": "Herat province — home to around 1.9 million people on the border with Iran — has also been hit by a years-long drought that has crippled many hardscrabble farm communities.\n\n",
+          "start_offset": 3403,
+          "end_offset": 3577,
+          "sentence_ids": [
+            26
+          ],
+          "fact_types": [
+            "location",
+            "affected_population",
+            "weather"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "herat_population",
+              "value": {
+                "value": 1900000,
+                "qualifier": "around"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "preexisting_hazard",
+              "value": "multi-year drought",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F013",
+          "span_text": "The country is prone to quakes, especially in the Hindu Kush mountain range, which lies near the junction of the Eurasian and Indian tectonic plates.\n\nMore than 1,000 people were killed and tens of thousands left homeless in June last year after a 5.9-magnitude quake struck the impoverished province of Paktika.\n\nMore than 4,000 people died in a magnitude 6.5 quake that struck Takhar province in 1998.",
+          "start_offset": 3577,
+          "end_offset": 3980,
+          "sentence_ids": [
+            27,
+            28,
+            29
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "cause",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "pactika_prior_magnitude",
+              "value": 5.9,
+              "unit": null
+            },
+            {
+              "attribute": "pactika_prior_deaths",
+              "value": {
+                "value": 1000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "takhar_1998_magnitude",
+              "value": 6.5,
+              "unit": null
+            },
+            {
+              "attribute": "takhar_1998_deaths",
+              "value": {
+                "value": 4000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "03f5116582b96acc0e9d7e1371f1594040ef88a0d83f7e1dea490a2904c577dd",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "10 月 7 日主震震级 6.3",
+        "fact_type": "disaster_magnitude",
+        "attribute": "saturday_quake_magnitude",
+        "supporting_spans": [
+          "A001_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 6.3,
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": 6.3,
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "阿富汗方面向下修订死亡人数",
+        "fact_type": "casualties",
+        "attribute": "afghan_official_death_toll",
+        "supporting_spans": [
+          "A003_F007",
+          "A001_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F007",
+            "value": 2053,
+            "unit": "people",
+            "attribution": "disaster ministry"
+          },
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 1000,
+              "qualifier": "about"
+            },
+            "unit": "people",
+            "attribution": "Taliban government"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "temporal_update",
+        "temporal_relation": "earlier_later",
+        "annotation_note": "VOA 明确报道早期的超过 2000 被向下修订；AFP 援引 2053 的具体发报时间未列。排印数字 2,00 不参与计算。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "联合国死亡数在两篇接近 1300",
+        "fact_type": "casualties",
+        "attribute": "un_death_toll",
+        "supporting_spans": [
+          "A001_F003",
+          "A003_F008"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": {
+              "value": 1300,
+              "qualifier": "around",
+              "cutoff": "Thursday"
+            },
+            "unit": "people",
+            "attribution": "UN"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F008",
+            "value": {
+              "value": 1300,
+              "qualifier": "nearly",
+              "cutoff": "Tuesday"
+            },
+            "unit": "people",
+            "attribution": "UN"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "同日阿富汗卫生部与联合国伤者数字范围和统计线不同",
+        "fact_type": "injuries",
+        "attribute": "reported_injured",
+        "supporting_spans": [
+          "A001_F002",
+          "A001_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": {
+              "value": 2400,
+              "qualifier": "around"
+            },
+            "unit": "people",
+            "attribution": "Afghan Public Health Ministry"
+          },
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": {
+              "value": 1700,
+              "qualifier": "nearly"
+            },
+            "unit": "people",
+            "attribution": "UN"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": "同篇 VOA 并列两个估计，未能核实两家机构的纳入范围。"
+      },
+      {
+        "cluster_id": "FC005",
+        "cluster_description": "灾后紧缺可御寒的长期安置",
+        "fact_type": "humanitarian_needs",
+        "attribute": "shelter_needs",
+        "supporting_spans": [
+          "A001_F011",
+          "A002_F004",
+          "A003_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F011",
+            "value": "hospitals overwhelmed and durable shelter essential",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": "partners providing emergency shelter",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": "tents unlikely to withstand winter storms",
+            "unit": null,
+            "attribution": "Zareen"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC006",
+        "cluster_description": "澳大利亚宣布通过 AHF 提供专项援助",
+        "fact_type": "aid",
+        "attribute": "australian_quake_aid",
+        "supporting_spans": [
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "$1 million",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005",
+        "FC006"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "important_facts": [
+        "FC005",
+        "FC006"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2023-10-07",
+          "time_precision": "当地日期",
+          "description": "赫拉特地区首场 6.3 级地震，随后多次余震。",
+          "supporting_spans": [
+            "A001_F002",
+            "A003_F002"
+          ]
+        },
+        {
+          "time": "2023-10-10",
+          "time_precision": "星期按报道日期对应",
+          "description": "AFP 转述联合国近 1300 名死者和近 500 名失踪者估算。",
+          "supporting_spans": [
+            "A003_F008"
+          ]
+        },
+        {
+          "time": "2023-10-11",
+          "time_precision": "当地日期",
+          "description": "另一次 6.3 级地震及余震造成更多伤者和破坏。",
+          "supporting_spans": [
+            "A001_F004",
+            "A001_F006"
+          ]
+        },
+        {
+          "time": "2023-10-12",
+          "time_precision": "报道日期",
+          "description": "VOA 报道阿富汗官方下修死亡数，联合国数字仍在变动。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "UNICEF 工作人员指出，房屋倒塌时在家的女性和儿童面临更大风险。",
+          "supporting_spans": [
+            "A001_F008"
+          ]
+        },
+        {
+          "description": "受损住房与冬季寒冷使临时庇护更难满足长期需求。",
+          "supporting_spans": [
+            "A001_F011",
+            "A003_F004",
+            "A003_F006"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "赫拉特连续发生强震，伤亡数字由多机构报告且随时更新。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A001_F003",
+            "A001_F004",
+            "A003_F007"
+          ]
+        },
+        {
+          "description": "村庄毁坏与医院受损，国际组织及澳大利亚投入救助，庇护需求持续。",
+          "supporting_spans": [
+            "A001_F006",
+            "A001_F010",
+            "A002_F001",
+            "A003_F003",
+            "A003_F004"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "limitations": [
+      "A003 首句死亡人数存在排印错误，原文保留；未根据其他句子自行订正。"
+    ]
+  }
+}

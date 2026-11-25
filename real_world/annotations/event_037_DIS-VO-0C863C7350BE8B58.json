@@ -1,0 +1,910 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-VO-0C863C7350BE8B58",
+  "event_rank": 37,
+  "event_metadata": {
+    "event_name": "Eruption  Lewotobi",
+    "disaster_type": "volcanic_eruption",
+    "disaster_type_code": "VO",
+    "event_start_time": "2025-06-17T09:45:00+00:00",
+    "event_end_time": "2025-08-01T13:10:00+00:00",
+    "locations": [
+      "Indonesia"
+    ],
+    "latitude": -8.542,
+    "longitude": 122.775,
+    "place_names_in_reports": [
+      "Lewotobi Laki-Laki",
+      "Flores",
+      "East Nusa Tenggara",
+      "Indonesia",
+      "Bali"
+    ],
+    "gdacs_id": "1000117",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "All three reports give 17:35 local time. The CSV start differs from the reported eruption time by ten minutes. Earlier eruptions are excluded from this event."
+    ],
+    "dataset_place_name": "Eruption  Lewotobi",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-1E78BB5A9ECCA3DF",
+      "event_id": "DIS-VO-0C863C7350BE8B58",
+      "event_rank": 37,
+      "article_rank": 1,
+      "title": "Indonesia Volcano Spews Colossal Ash Tower, Alert Level Raised",
+      "publisher": "menafn",
+      "identified_publisher": null,
+      "source_domain": "menafn.com",
+      "url": "https://menafn.com/1109685722/Indonesia-Volcano-Spews-Colossal-Ash-Tower-Alert-Level-Raised",
+      "published_at": "2025-06-17T00:00:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "MENAFN and NDTV have nearly identical text and use the same institutional statement. The original byline is missing.",
+      "content": "Jakarta: A volcano in eastern Indonesia spewed a colossal ash tower into the sky on Tuesday, authorities said, after they raised its alert level to the highest of a four-tiered system.\n\nMount Lewotobi Laki-Laki, a 1,584-metre-high twin-peaked volcano on the tourist island of Flores, erupted at 5:35 pm local time (0935 GMT), the volcanology agency said in a statement.\n\n\"The height of the eruption column was observed at approximately 10,000 metres above the summit. The ash column was observed to be grey with thick intensity,\" it said, after the alert level was raised.\n\nThere were no immediate reports of damages or casualties.\n\nGeology agency head Muhammad Wafid said residents and tourists should avoid carrying out any activities within at least seven kilometres of the volcano's crater.\n\nBut he warned of the possibility of hazardous lahar floods -- a type of mud or debris flow of volcanic materials -- if heavy rain occurs, particularly for communities near to rivers.\n\nHe also urged residents to wear face masks to protect themselves from volcanic ash.\n\nIn November, Mount Lewotobi Laki-Laki erupted multiple times killing nine people and forcing thousands to evacuate, as well as the cancellation of scores of international flights to Bali.\n\nThere were no immediate reports of cancelled flights after Tuesday's eruption.\n\nLaki-Laki, which means man in Indonesian, is twinned with the calmer but taller 1,703-metre (5,587-foot) volcano named Perempuan, after the Indonesian word for woman.\n\nIndonesia, a vast archipelago nation, experiences frequent seismic and volcanic activity due to its position on the Pacific \"Ring of Fire\".",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "Jakarta: A volcano in eastern Indonesia spewed a colossal ash tower into the sky on Tuesday, authorities said, after they raised its alert level to the highest of a four-tiered system.\n\nMount Lewotobi Laki-Laki, a 1,584-metre-high twin-peaked volcano on the tourist island of Flores, erupted at 5:35 pm local time (0935 GMT), the volcanology agency said in a statement.\n\n",
+          "start_offset": 0,
+          "end_offset": 371,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "alert_level",
+              "value": 4,
+              "unit": null
+            },
+            {
+              "attribute": "time_local",
+              "value": "17:35",
+              "unit": null
+            },
+            {
+              "attribute": "time_utc",
+              "value": "09:35",
+              "unit": null
+            },
+            {
+              "attribute": "volcano_elevation",
+              "value": 1584,
+              "unit": "m"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "\"The height of the eruption column was observed at approximately 10,000 metres above the summit. The ash column was observed to be grey with thick intensity,\" it said, after the alert level was raised.\n\n",
+          "start_offset": 371,
+          "end_offset": 574,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "ash_height_above_summit",
+              "value": {
+                "value": 10000,
+                "qualifier": "approximately"
+              },
+              "unit": "m"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "There were no immediate reports of damages or casualties.\n\n",
+          "start_offset": 574,
+          "end_offset": 633,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "damage",
+            "casualties"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "damage_or_casualties",
+              "value": "no immediate reports",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "Geology agency head Muhammad Wafid said residents and tourists should avoid carrying out any activities within at least seven kilometres of the volcano's crater.\n\nBut he warned of the possibility of hazardous lahar floods -- a type of mud or debris flow of volcanic materials -- if heavy rain occurs, particularly for communities near to rivers.\n\nHe also urged residents to wear face masks to protect themselves from volcanic ash.\n\n",
+          "start_offset": 633,
+          "end_offset": 1065,
+          "sentence_ids": [
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "crater_buffer",
+              "value": {
+                "value": 7,
+                "qualifier": "at_least"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "hazard",
+              "value": "rain-triggered lahars",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "In November, Mount Lewotobi Laki-Laki erupted multiple times killing nine people and forcing thousands to evacuate, as well as the cancellation of scores of international flights to Bali.\n\n",
+          "start_offset": 1065,
+          "end_offset": 1254,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "evacuation",
+            "infrastructure"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "earlier November eruptions",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": 9,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "There were no immediate reports of cancelled flights after Tuesday's eruption.\n\n",
+          "start_offset": 1254,
+          "end_offset": 1334,
+          "sentence_ids": [
+            10
+          ],
+          "fact_types": [
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "flight_cancellations",
+              "value": "none immediately reported",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "Laki-Laki, which means man in Indonesian, is twinned with the calmer but taller 1,703-metre (5,587-foot) volcano named Perempuan, after the Indonesian word for woman.\n\nIndonesia, a vast archipelago nation, experiences frequent seismic and volcanic activity due to its position on the Pacific \"Ring of Fire\".",
+          "start_offset": 1334,
+          "end_offset": 1641,
+          "sentence_ids": [
+            11,
+            12
+          ],
+          "fact_types": [
+            "location"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "perempuan_elevation",
+              "value": 1703,
+              "unit": "m"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "4a76cf30755c2459ff8ab7f087f5ed484198fba9c83bc5b93ce9f92932d3845b",
+        "removed_word_count": 69,
+        "removed_word_ratio": 0.21036585365853658
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-0FF065813E14EF2E",
+      "event_id": "DIS-VO-0C863C7350BE8B58",
+      "event_rank": 37,
+      "article_rank": 2,
+      "title": "Indonesia Volcano Spews Colossal Ash Tower, Seen 10,000 Metres Above Summit",
+      "publisher": "ndtvnews",
+      "identified_publisher": null,
+      "source_domain": "ndtv.com",
+      "url": "https://www.ndtv.com/world-news/indonesia-volcano-spews-colossal-ash-tower-seen-10-000-metres-above-summit-8691372",
+      "published_at": "2025-06-17T12:20:23+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "MENAFN and NDTV have nearly identical text and use the same institutional statement. The original byline is missing.",
+      "content": "A volcano in eastern Indonesia spewed a colossal ash tower into the sky on Tuesday, authorities said, after they raised its alert level to the highest of a four-tiered system.Mount Lewotobi Laki-Laki, a 1,584-metre-high twin-peaked volcano on the tourist island of Flores, erupted at 5:35 pm local time (0935 GMT), the volcanology agency said in a statement.\"The height of the eruption column was observed at approximately 10,000 metres above the summit. The ash column was observed to be grey with thick intensity,\" it said, after the alert level was raised.There were no immediate reports of damages or casualties.Geology agency head Muhammad Wafid said residents and tourists should avoid carrying out any activities within at least seven kilometres of the volcano's crater.But he warned of the possibility of hazardous lahar floods -- a type of mud or debris flow of volcanic materials -- if heavy rain occurs, particularly for communities near to rivers.&nbsp;He also urged residents to wear face masks to protect themselves from volcanic ash.&nbsp;In November, Mount Lewotobi Laki-Laki erupted multiple times killing nine people and forcing thousands to evacuate, as well as the cancellation of scores of international flights to Bali.There were no immediate reports of cancelled flights after Tuesday's eruption.Laki-Laki, which means man in Indonesian, is twinned with the calmer but taller 1,703-metre (5,587-foot) volcano named Perempuan, after the Indonesian word for woman.Indonesia, a vast archipelago nation, experiences frequent seismic and volcanic activity due to its position on the Pacific \"Ring of Fire\".",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "A volcano in eastern Indonesia spewed a colossal ash tower into the sky on Tuesday, authorities said, after they raised its alert level to the highest of a four-tiered system.Mount Lewotobi Laki-Laki, a 1,584-metre-high twin-peaked volcano on the tourist island of Flores, erupted at 5:35 pm local time (0935 GMT), the volcanology agency said in a statement.\"",
+          "start_offset": 0,
+          "end_offset": 359,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "alert_level",
+              "value": 4,
+              "unit": null
+            },
+            {
+              "attribute": "time_local",
+              "value": "17:35",
+              "unit": null
+            },
+            {
+              "attribute": "time_utc",
+              "value": "09:35",
+              "unit": null
+            },
+            {
+              "attribute": "volcano_elevation",
+              "value": 1584,
+              "unit": "m"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "The height of the eruption column was observed at approximately 10,000 metres above the summit. The ash column was observed to be grey with thick intensity,\" it said, after the alert level was raised.",
+          "start_offset": 359,
+          "end_offset": 559,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "ash_height_above_summit",
+              "value": {
+                "value": 10000,
+                "qualifier": "approximately"
+              },
+              "unit": "m"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "There were no immediate reports of damages or casualties.",
+          "start_offset": 559,
+          "end_offset": 616,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "damage",
+            "casualties"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "damage_or_casualties",
+              "value": "no immediate reports",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "Geology agency head Muhammad Wafid said residents and tourists should avoid carrying out any activities within at least seven kilometres of the volcano's crater.But he warned of the possibility of hazardous lahar floods -- a type of mud or debris flow of volcanic materials -- if heavy rain occurs, particularly for communities near to rivers.&nbsp;He also urged residents to wear face masks to protect themselves from volcanic ash.&nbsp;In November, Mount Lewotobi Laki-Laki erupted multiple times killing nine people and forcing thousands to evacuate, as well as the cancellation of scores of international flights to Bali.",
+          "start_offset": 616,
+          "end_offset": 1241,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "crater_buffer",
+              "value": {
+                "value": 7,
+                "qualifier": "at_least"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "hazard",
+              "value": "rain-triggered lahars",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "There were no immediate reports of cancelled flights after Tuesday's eruption.",
+          "start_offset": 1241,
+          "end_offset": 1319,
+          "sentence_ids": [
+            8
+          ],
+          "fact_types": [
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "flight_cancellations",
+              "value": "none immediately reported",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "Laki-Laki, which means man in Indonesian, is twinned with the calmer but taller 1,703-metre (5,587-foot) volcano named Perempuan, after the Indonesian word for woman.Indonesia, a vast archipelago nation, experiences frequent seismic and volcanic activity due to its position on the Pacific \"Ring of Fire\".",
+          "start_offset": 1319,
+          "end_offset": 1624,
+          "sentence_ids": [
+            9,
+            10
+          ],
+          "fact_types": [
+            "location"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "perempuan_elevation",
+              "value": 1703,
+              "unit": "m"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "6322fcc5f90fdeb5ef578afc9a9d2d3982b0444f44e07ced8a0a39e50cf793b9",
+        "removed_word_count": 20,
+        "removed_word_ratio": 0.07142857142857142
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-187D8383274808AF",
+      "event_id": "DIS-VO-0C863C7350BE8B58",
+      "event_rank": 37,
+      "article_rank": 3,
+      "title": "Mt. Lewotobi Laki-Laki erupts, triggers top-level aviation alert in Indonesia",
+      "publisher": "xinhuanet-english",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20250617/70a2ef213bad4a41a50410d5f538d5e0/c.html",
+      "published_at": "2025-06-17T13:35:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "Xinhua's Jakarta dispatch uses PVMBG material and gives details of the aviation alert.",
+      "content": "This photo provided by Indonesia's Center for Volcanology and Geological Hazard Mitigation (PVMBG) shows volcanic materials spewing from Mount Lewotobi Laki-Laki in East Nusa Tenggara, Indonesia, on June 17, 2025. Mount Lewotobi Laki-Laki in Indonesia's East Nusa Tenggara Province erupted on Tuesday, spewing a column of ash up to 10 km into the sky and triggering the highest aviation alert, the Volcanology and Geological Disaster Mitigation Center reported. Communities are prohibited from engaging in any activities within a radius of 7 km from the crater, and 8 km in the southwest and northeast sectors. (PVMBG/Handout via Xinhua)\n\nJAKARTA, June 17 (Xinhua) -- Mount Lewotobi Laki-Laki in Indonesia's East Nusa Tenggara Province erupted on Tuesday, spewing a column of ash up to 10 km into the sky and triggering the highest aviation alert, the Volcanology and Geological Disaster Mitigation Center reported.\n\nThe eruption occurred at 5:35 p.m. local time, with thick gray clouds moving northward, northeastward, eastward, southeastward, southward, southwestward, and northwestward from the crater.\n\nA Volcano Observatory Notice for Aviation has been raised to red level, the highest alert, prohibiting aircraft from flying below 6,000 meters in the vicinity of the volcano. Aircraft should also remain alert to the presence of volcanic ash, which can disrupt flights.\n\nCommunities are prohibited from engaging in any activities within a radius of 7 km from the crater, and 8 km in the southwest and northeast sectors.\n\nResidents living around the volcano are advised to be aware of the potential for rain-induced lava floods in rivers originating from the crater during periods of heavy rainfall. People in areas affected by ashfall are urged to wear masks or nose-and-mouth coverings to protect their respiratory systems from volcanic ash.\n\nThe 1,584-meter-high mountain is one of 127 active volcanoes in Indonesia.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "This photo provided by Indonesia's Center for Volcanology and Geological Hazard Mitigation (PVMBG) shows volcanic materials spewing from Mount Lewotobi Laki-Laki in East Nusa Tenggara, Indonesia, on June 17, 2025. Mount Lewotobi Laki-Laki in Indonesia's East Nusa Tenggara Province erupted on Tuesday, spewing a column of ash up to 10 km into the sky and triggering the highest aviation alert, the Volcanology and Geological Disaster Mitigation Center reported. Communities are prohibited from engaging in any activities within a radius of 7 km from the crater, and 8 km in the southwest and northeast sectors. (PVMBG/Handout via Xinhua)\n\n",
+          "start_offset": 0,
+          "end_offset": 639,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "JAKARTA, June 17 (Xinhua) -- Mount Lewotobi Laki-Laki in Indonesia's East Nusa Tenggara Province erupted on Tuesday, spewing a column of ash up to 10 km into the sky and triggering the highest aviation alert, the Volcanology and Geological Disaster Mitigation Center reported.\n\nThe eruption occurred at 5:35 p.m. local time, with thick gray clouds moving northward, northeastward, eastward, southeastward, southward, southwestward, and northwestward from the crater.\n\n",
+          "start_offset": 639,
+          "end_offset": 1107,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "ash_height",
+              "value": {
+                "value": 10,
+                "qualifier": "up_to"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "time_local",
+              "value": "17:35",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "A Volcano Observatory Notice for Aviation has been raised to red level, the highest alert, prohibiting aircraft from flying below 6,000 meters in the vicinity of the volcano. Aircraft should also remain alert to the presence of volcanic ash, which can disrupt flights.\n\n",
+          "start_offset": 1107,
+          "end_offset": 1377,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "aviation_alert",
+              "value": "red",
+              "unit": null
+            },
+            {
+              "attribute": "flight_lower_altitude_limit_near_volcano",
+              "value": 6000,
+              "unit": "m"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "Communities are prohibited from engaging in any activities within a radius of 7 km from the crater, and 8 km in the southwest and northeast sectors.\n\n",
+          "start_offset": 1377,
+          "end_offset": 1527,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "response",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "general_radius",
+              "value": 7,
+              "unit": "km"
+            },
+            {
+              "attribute": "sector_radius_sw_ne",
+              "value": 8,
+              "unit": "km"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "Residents living around the volcano are advised to be aware of the potential for rain-induced lava floods in rivers originating from the crater during periods of heavy rainfall. People in areas affected by ashfall are urged to wear masks or nose-and-mouth coverings to protect their respiratory systems from volcanic ash.\n\n",
+          "start_offset": 1527,
+          "end_offset": 1850,
+          "sentence_ids": [
+            10,
+            11
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "hazard",
+              "value": "rain-induced lahars and ashfall",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "The 1,584-meter-high mountain is one of 127 active volcanoes in Indonesia.",
+          "start_offset": 1850,
+          "end_offset": 1924,
+          "sentence_ids": [
+            12
+          ],
+          "fact_types": [
+            "disaster_magnitude"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "volcano_elevation",
+              "value": 1584,
+              "unit": "m"
+            },
+            {
+              "attribute": "active_volcanoes_national",
+              "value": 127,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "61eaac2370a6cbf6f01e4ae0e8c461a058c440cde9fa7cfe71551aef9b796029",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "The eruption occurred at 17:35 local time",
+        "fact_type": "timeline",
+        "attribute": "eruption_time",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "17:35 local",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "17:35 local",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "17:35 local",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "The ash column reached approximately 10 km",
+        "fact_type": "disaster_magnitude",
+        "attribute": "ash_column",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": {
+              "value": 10000,
+              "qualifier": "approximately",
+              "reference": "summit"
+            },
+            "unit": "m",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": {
+              "value": 10000,
+              "qualifier": "approximately",
+              "reference": "summit"
+            },
+            "unit": "m",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "value": 10,
+              "qualifier": "up_to",
+              "reference": "into sky"
+            },
+            "unit": "km",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "The exclusion notice gives a general radius and wider restrictions in specific directions",
+        "fact_type": "response",
+        "attribute": "exclusion_zone",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F004",
+          "A003_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": "at least 7 km",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": "at least 7 km",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": "7 km generally; 8 km to southwest and northeast",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "The highest aviation alert is compatible with the initial absence of reported cancellations",
+        "fact_type": "response",
+        "attribute": "aviation_response",
+        "supporting_spans": [
+          "A001_F006",
+          "A002_F005",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F006",
+            "value": "no immediate reports of cancellations",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F005",
+            "value": "no immediate reports of cancellations",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "red aviation alert; no aircraft below 6,000 m nearby",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-06-17T17:35+08:00",
+          "time_precision": "Local time to the minute",
+          "description": "Lewotobi Laki-Laki erupted, producing an ash column approximately 10 km high.",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A002_F001",
+            "A003_F002"
+          ]
+        },
+        {
+          "time": "2025-06-17",
+          "time_precision": "Local date",
+          "description": "The aviation alert rose to red, and ground exclusion zones were announced.",
+          "supporting_spans": [
+            "A003_F003",
+            "A003_F004"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "Authorities warned that heavy rain could wash volcanic material into rivers and generate lahars.",
+          "supporting_spans": [
+            "A001_F004",
+            "A003_F005"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "The eruption on Flores produced a tall ash column. Aviation and ground restrictions and warnings of rain-triggered lahars were in effect.",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A003_F002",
+            "A003_F003",
+            "A003_F004",
+            "A003_F005"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "Two reports are nearly verbatim republications. Fatalities from the earlier November episode are excluded."
+    ]
+  }
+}

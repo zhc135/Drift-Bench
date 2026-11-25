@@ -1,0 +1,694 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-9B6BA4BB2AA99BC0",
+  "event_rank": 12,
+  "event_metadata": {
+    "event_name": "Earthquake in Russia",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2025-09-18T18:58:12+00:00",
+    "event_end_time": "2025-09-18T18:58:12+00:00",
+    "locations": [
+      "Russia"
+    ],
+    "latitude": 53.1928,
+    "longitude": 160.5129,
+    "place_names_in_reports": [
+      "Kamchatka Peninsula",
+      "Petropavlovsk-Kamchatsky",
+      "Vilyuchinsk",
+      "Kuril Islands"
+    ],
+    "gdacs_id": "1500811",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "18:58 GMT and 21:58 Moscow time denote the same instant. A003 gives neither epicenter coordinates nor an exact mainshock time."
+    ],
+    "dataset_place_name": "Earthquake in Russia",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-B1EDDAFE04C9ECD0",
+      "event_id": "DIS-EQ-9B6BA4BB2AA99BC0",
+      "event_rank": 12,
+      "article_rank": 1,
+      "title": "US cancels tsunami threat imposed after earthquake in Kamchatka",
+      "publisher": "itartass_en",
+      "identified_publisher": "TASS",
+      "source_domain": "tass.com",
+      "url": "https://tass.com/world/2018679",
+      "published_at": "2025-09-19T00:10:10+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "An explicit TASS dateline cites the Russian geophysical service and USGS.",
+      "content": "WASHINGTON, September 19. /TASS/. The US National Oceanic and Atmospheric Administration (NOAA) has cancelled the threat of a tsunami imposed after an earthquake in Kamchatka, the US Geological Survey said.\n\nA magnitude 7.4 earthquake hit Kamchatka at 9:58 p.m. Moscow time on September 18, the Geophysical Service of the Russian Academy of Sciences said. Residents of Petropavlovsk-Kamchatsky and Vilyuchinsk felt tremors with a force of 6 points.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "WASHINGTON, September 19. /TASS/. The US National Oceanic and Atmospheric Administration (NOAA) has cancelled the threat of a tsunami imposed after an earthquake in Kamchatka, the US Geological Survey said.\n\n",
+          "start_offset": 0,
+          "end_offset": 208,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "tsunami_threat",
+              "value": "cancelled after the Kamchatka earthquake",
+              "unit": null
+            },
+            {
+              "attribute": "authority",
+              "value": "NOAA via USGS",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "A magnitude 7.4 earthquake hit Kamchatka at 9:58 p.m. Moscow time on September 18, the Geophysical Service of the Russian Academy of Sciences said. Residents of Petropavlovsk-Kamchatsky and Vilyuchinsk felt tremors with a force of 6 points.",
+          "start_offset": 208,
+          "end_offset": 448,
+          "sentence_ids": [
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.4,
+              "unit": null
+            },
+            {
+              "attribute": "moscow_time",
+              "value": "2025-09-18 21:58",
+              "unit": null
+            },
+            {
+              "attribute": "felt_intensity",
+              "value": 6,
+              "unit": "points"
+            },
+            {
+              "attribute": "felt_in",
+              "value": [
+                "Petropavlovsk-Kamchatsky",
+                "Vilyuchinsk"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Russian Academy of Sciences Geophysical Service",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "8a56dd127d0f337bb19f653d5850d436c4e6a86dc0d6bede45706900f05a28c6",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-609462DE59534929",
+      "event_id": "DIS-EQ-9B6BA4BB2AA99BC0",
+      "event_rank": 12,
+      "article_rank": 2,
+      "title": "Daily World Briefing, Sept. 19",
+      "publisher": "xinhuanet-english",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20250919/8f99c92eb8f34da3aecd99cf32d8f1d3/c.html",
+      "published_at": "2025-09-19T00:16:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "The Xinhua briefing includes the earthquake and several unrelated items. Its earthquake report shares a Russian monitoring source with TASS.",
+      "content": "7.4-magnitude quake hits off east coast of Russia's Kamchatka, tsunami alert issued\n\nA 7.4-magnitude earthquake struck off the eastern coast of the Kamchatka Peninsula, Russia, the local geophysical service said on Thursday.\n\nThe quake occurred at 1858 GMT with its epicenter located about 149 km from Petropavlovsk-Kamchatsky, the regional capital, at a depth of 39 km, according to the Kamchatka branch of the Russian Academy of Sciences' Geophysical Survey.\n\nTrump ends UK tour with disagreement over Palestine, amid loud protest\n\nU.S. President Donald Trump said on Thursday that he disagrees with British Prime Minister Keir Starmer over Britain's plan to recognize a Palestinian state.\n\n\"I have a disagreement with the prime minister on that score,\" Trump told a joint press conference before ending his second state visit to Britain, when asked about Britain's recognition plan. \"One of our few disagreements, actually.\"\n\nYemen's Houthis claim multiple attacks on Israeli cities\n\nYemen's Houthi group said it launched a long-range \"hypersonic ballistic missile\" and three drones on three cities in Israel on Thursday night.\n\nIn a televised statement aired by Houthi-run al-Masirah TV, the group's military spokesman Yahya Sarea said the missile targeted a military target in the city of Jaffa (Tel Aviv), while the three drones hit targets in the city of Beer Sheva and the port city of Eilat.\n\nIsrael strikes Hezbollah targets in S. Lebanon\n\nThe Israeli army carried out several airstrikes Thursday evening across southern Lebanon, targeting villages including Mays el Jabal, Dibbine, and Kfar Tebnit, the National News Agency (NNA) reported.\n\nThe strikes came after Israeli army spokesperson Avichay Adraee warned on X of attacks on Hezbollah infrastructure in response to its alleged attempts to rebuild activities in the region.\n\nMan killed by police after attacking children in southern France\n\nA man attacked children outside a school in the southern French town of La Seyne-sur-Mer Thursday afternoon before being killed by police, French news channel BFMTV reported.\n\nThe man attacked children outside the Pierre Semard school and then confronted the police officers arriving to the scene, BFMTV reported, citing police sources, without giving further details on the condition of the children targeted by the attacker or his motives. ",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "7.4-magnitude quake hits off east coast of Russia's Kamchatka, tsunami alert issued\n\nA 7.4-magnitude earthquake struck off the eastern coast of the Kamchatka Peninsula, Russia, the local geophysical service said on Thursday.\n\nThe quake occurred at 1858 GMT with its epicenter located about 149 km from Petropavlovsk-Kamchatsky, the regional capital, at a depth of 39 km, according to the Kamchatka branch of the Russian Academy of Sciences' Geophysical Survey.\n\n",
+          "start_offset": 0,
+          "end_offset": 462,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline",
+            "secondary_hazard"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.4,
+              "unit": null
+            },
+            {
+              "attribute": "origin_time",
+              "value": "2025-09-18 18:58 GMT",
+              "unit": null
+            },
+            {
+              "attribute": "epicenter_distance_from_petropavlovsk",
+              "value": {
+                "value": 149,
+                "qualifier": "about"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "depth",
+              "value": 39,
+              "unit": "km"
+            },
+            {
+              "attribute": "attribution",
+              "value": "Kamchatka branch of Russian Academy of Sciences Geophysical Survey",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "Trump ends UK tour with disagreement over Palestine, amid loud protest\n\nU.S. President Donald Trump said on Thursday that he disagrees with British Prime Minister Keir Starmer over Britain's plan to recognize a Palestinian state.\n\n\"I have a disagreement with the prime minister on that score,\" Trump told a joint press conference before ending his second state visit to Britain, when asked about Britain's recognition plan. \"One of our few disagreements, actually.\"\n\n",
+          "start_offset": 462,
+          "end_offset": 929,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "unrelated item about UK visit",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "Yemen's Houthis claim multiple attacks on Israeli cities\n\nYemen's Houthi group said it launched a long-range \"hypersonic ballistic missile\" and three drones on three cities in Israel on Thursday night.\n\nIn a televised statement aired by Houthi-run al-Masirah TV, the group's military spokesman Yahya Sarea said the missile targeted a military target in the city of Jaffa (Tel Aviv), while the three drones hit targets in the city of Beer Sheva and the port city of Eilat.\n\n",
+          "start_offset": 929,
+          "end_offset": 1402,
+          "sentence_ids": [
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "disaster_occurrence"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "unrelated news item about claims of attacks",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "Israel strikes Hezbollah targets in S. Lebanon\n\nThe Israeli army carried out several airstrikes Thursday evening across southern Lebanon, targeting villages including Mays el Jabal, Dibbine, and Kfar Tebnit, the National News Agency (NNA) reported.\n\nThe strikes came after Israeli army spokesperson Avichay Adraee warned on X of attacks on Hezbollah infrastructure in response to its alleged attempts to rebuild activities in the region.\n\n",
+          "start_offset": 1402,
+          "end_offset": 1841,
+          "sentence_ids": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "fact_types": [
+            "disaster_occurrence"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "unrelated news item about Lebanon",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "Man killed by police after attacking children in southern France\n\nA man attacked children outside a school in the southern French town of La Seyne-sur-Mer Thursday afternoon before being killed by police, French news channel BFMTV reported.\n\nThe man attacked children outside the Pierre Semard school and then confronted the police officers arriving to the scene, BFMTV reported, citing police sources, without giving further details on the condition of the children targeted by the attacker or his motives. ",
+          "start_offset": 1841,
+          "end_offset": 2349,
+          "sentence_ids": [
+            16,
+            17,
+            18
+          ],
+          "fact_types": [
+            "disaster_occurrence"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "unrelated news item about France",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "6488bd0aa0ee7dea3dcd5a76aa381fcdb7e3bfad279f3e296fc022931de682dd",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-A3481A44F6B1E911",
+      "event_id": "DIS-EQ-9B6BA4BB2AA99BC0",
+      "event_rank": 12,
+      "article_rank": 3,
+      "title": "Kamchatka's Earthquake Reverberates: Tremors and Tsunami Threats | Science-Environment",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/science-environment/3633032-kamchatkas-earthquake-reverberates-tremors-and-tsunami-threats",
+      "published_at": "2025-09-19T05:50:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "The body refers generally to USGS and local authorities. No independent reporting or wire-service credit is shown.",
+      "content": "A powerful earthquake measuring 7.8 on the Richter scale has rattled Russia's Kamchatka region, according to reports from the U.S. Geological Survey and local authorities. The quake, occurring at a depth of 10 km, prompted tsunami warnings for the precariously situated peninsula.\n\nThe regional governor, Vladimir Solodov, announced an immediate state of high readiness across emergency services, despite no initial reports of damage. Tsunami advisories were also issued for neighboring regions, including sections of the Kuril Islands, but were later lifted as conditions stabilized.\n\nThis seismic event is the latest in a series of significant geological occurrences in Kamchatka, an area known for its volatile seismic activity. Just recently, in July, the region experienced a magnitude 8.8 quake, which activated tsunami alerts stretching to French Polynesia and Chile, followed by a volcanic eruption.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "A powerful earthquake measuring 7.8 on the Richter scale has rattled Russia's Kamchatka region, according to reports from the U.S. Geological Survey and local authorities. The quake, occurring at a depth of 10 km, prompted tsunami warnings for the precariously situated peninsula.\n\n",
+          "start_offset": 0,
+          "end_offset": 282,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "secondary_hazard",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.8,
+              "unit": null
+            },
+            {
+              "attribute": "depth",
+              "value": 10,
+              "unit": "km"
+            },
+            {
+              "attribute": "reported_attribution",
+              "value": "USGS and local authorities",
+              "unit": null
+            },
+            {
+              "attribute": "origin_time",
+              "value": "not stated",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "The regional governor, Vladimir Solodov, announced an immediate state of high readiness across emergency services, despite no initial reports of damage. Tsunami advisories were also issued for neighboring regions, including sections of the Kuril Islands, but were later lifted as conditions stabilized.\n\n",
+          "start_offset": 282,
+          "end_offset": 586,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "response",
+            "damage",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "preparedness",
+              "value": "emergency services placed on high readiness",
+              "unit": null
+            },
+            {
+              "attribute": "damage",
+              "value": "none initially reported",
+              "unit": null
+            },
+            {
+              "attribute": "kuril_advisories",
+              "value": "issued then lifted",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "This seismic event is the latest in a series of significant geological occurrences in Kamchatka, an area known for its volatile seismic activity. Just recently, in July, the region experienced a magnitude 8.8 quake, which activated tsunami alerts stretching to French Polynesia and Chile, followed by a volcanic eruption.",
+          "start_offset": 586,
+          "end_offset": 907,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "secondary_hazard"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "historical_scope",
+              "value": "separate July Kamchatka earthquake",
+              "unit": null
+            },
+            {
+              "attribute": "july_magnitude",
+              "value": 8.8,
+              "unit": null
+            },
+            {
+              "attribute": "historical_tsunami_alert_reach",
+              "value": [
+                "French Polynesia",
+                "Chile"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "7acfc146150f035612656185820856876d81e86032dfb383c62c3f52f136207f",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "Two articles cite a Russian geophysical agency for magnitude 7.4",
+        "fact_type": "disaster_magnitude",
+        "attribute": "russian_agency_magnitude",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 7.4,
+            "unit": null,
+            "attribution": "Russian Academy of Sciences Geophysical Service"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 7.4,
+            "unit": null,
+            "attribution": "Kamchatka branch"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "The third article gives a different magnitude and depth",
+        "fact_type": "disaster_magnitude",
+        "attribute": "reported_magnitude_across_sources",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 7.4,
+            "unit": null,
+            "attribution": "Russian Academy of Sciences Geophysical Service"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 7.4,
+            "unit": null,
+            "attribution": "Kamchatka branch"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": 7.8,
+            "unit": null,
+            "attribution": "USGS and local authorities as reported"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "A003 gives no origin time, coordinates, or specific bulletin. A nearby earthquake or different catalog estimates remain possible."
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "Two reports give different depths and attributions",
+        "fact_type": "disaster_magnitude",
+        "attribute": "reported_depth",
+        "supporting_spans": [
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 39,
+            "unit": "km",
+            "attribution": "Kamchatka branch"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": 10,
+            "unit": "km",
+            "attribution": "USGS and local authorities as reported"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "The evidence is insufficient to match the earthquake records and agency estimation methods."
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "Several reports record the issuing or lifting of tsunami advisories",
+        "fact_type": "response",
+        "attribute": "tsunami_warning",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "NOAA threat cancelled",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "alert issued",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "Kuril advisories issued and later lifted",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "The geographic coverage differs."
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "important_facts": [
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-09-18T18:58Z",
+          "time_precision": "Minute (GMT)",
+          "description": "The Russian Academy of Sciences geophysical service reported an earthquake off the Kamchatka Peninsula.",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F001"
+          ]
+        },
+        {
+          "time": "After the mainshock",
+          "time_precision": "Relative time",
+          "description": "A tsunami advisory was issued. NOAA later cancelled its threat bulletin.",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F001"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "Reports linked the tsunami advisory to the earthquake near Kamchatka.",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F001",
+            "A003_F001"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "The Kamchatka earthquake prompted tsunami advisories. A Russian agency reported magnitude 7.4. The third article gives a different magnitude and depth, with insufficient evidence to match the observations.",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A002_F001",
+            "A003_F001"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "A002's world briefing includes unrelated news, which is retained in the source text and excluded from event alignment."
+    ]
+  }
+}

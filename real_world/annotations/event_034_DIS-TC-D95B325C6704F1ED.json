@@ -1,0 +1,938 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-TC-D95B325C6704F1ED",
+  "event_rank": 34,
+  "event_metadata": {
+    "event_name": "Tropical Cyclone ALBERTO-24",
+    "disaster_type": "tropical_cyclone",
+    "disaster_type_code": "TC",
+    "event_start_time": "2024-06-17T21:00:00+00:00",
+    "event_end_time": "2024-06-20T21:00:00+00:00",
+    "locations": [
+      "Guatemala",
+      "Mexico",
+      "United States",
+      "Belize"
+    ],
+    "latitude": 22.3,
+    "longitude": -102,
+    "place_names_in_reports": [
+      "Gulf of Mexico",
+      "northeastern Mexico",
+      "Texas",
+      "Brownsville",
+      "Port Lavaca",
+      "San Luis Pass",
+      "Rio Grande",
+      "Puerto de Altamira",
+      "North Texas"
+    ],
+    "gdacs_id": "1001066",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "The listed publication time predates A002's Wednesday 11:00 ET update. The storm naming follows the update noted in the article."
+    ],
+    "dataset_place_name": "Tropical Cyclone ALBERTO-24",
+    "dataset_event_note": "适合时间任务\n"
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-20A0B38BDF78569D",
+      "event_id": "DIS-TC-D95B325C6704F1ED",
+      "event_rank": 34,
+      "article_rank": 1,
+      "title": "'Rare' disturbance is tracking toward Florida as potential tropical storm brews in the Gulf of Mexico: NHC",
+      "publisher": "fox35orlando",
+      "identified_publisher": "FOX 35 Orlando",
+      "source_domain": "fox35orlando.com",
+      "url": "https://www.fox35orlando.com/news/nhc-watching-potential-future-tropical-storm-second-disturbance-could-track-toward-florida",
+      "published_at": "2024-06-17T12:21:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "The body credits the FOX 35 weather team and two of its meteorologists.",
+      "content": "The FOX 35 Storm Team is tracking a tropical system in the Gulf of Mexico and another wave approaching Florida from the east.\n\nORLANDO, Fla. - The National Hurricane Center is keeping a close eye on two systems for possible development this week.\n\nThe disturbance (Tropical Wave 91L) positioned in the southwest Gulf of Mexico could become the first named storm of the 2024 Atlantic hurricane season. The NHC said it has a 70% chance of development over the next seven days.\n\n\"Environmental conditions appear conducive for additional gradual development, and a tropical depression or tropical storm is likely to form by midweek while it moves slowly westward or west-northwestward toward the western Gulf coast,\" the NHC said in an update Monday.\n\nMORE NEWS: Undetected tornado touches down in Crystal River, Florida\n\nIf the disturbance were to strengthen into a storm, it would be named Alberto . Current models forecast the system to track into Mexico, bringing flooding rain and winds up to 55 mph at landfall later this week.\n\nForecasters are also monitoring a rare area of low pressure located several hundred miles east of Florida and the Bahamas in the southwestern Atlantic Ocean.\n\nFOX 35 Storm Team Meteorologist Brooks Garner said the low is trying to develop along an old cold front in the western Atlantic. Garner said that could be the seed for a future tropical or subtropical system, set to make a run for Florida late this week.\n\nIt has a 30% chance of formation over the next seven days, according to the NHC.\n\nThere's also an upper level low atop of that developing tropical system, which Garner said is the opposite of what the systems need to further develop. (They need high pressure aloft.)\n\nThe current setup will obstruct any chance of rapid advancement of this system. This will keep the system much weaker than the earlier appeared potential from over the weekend, when the threat first became apparent.\n\nIf the area were to develop, such an event would be \"extremely rare\" for June, said FOX 35 Storm Team Meteorologist Noah Bergren. \"Historically, only three storms have made landfall from the east in June,\" he added. \"The most recent was Tropical Storm Danny in 2021, which hit South Carolina.\"\n\nRELATED: 'Extremely rare' tropical system could form off Florida's Atlantic Coast midweek\n\nThis unusual weather pattern is due to a massive heat dome over New England, creating an east-to-west flow over the southwest Atlantic Ocean.\n\nRegardless of development, the tropical activity will cause breezy conditions on Thursday and Friday in Central Florida, with a higher chance for rain, potentially rough surf and slightly higher than normal tides.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "The FOX 35 Storm Team is tracking a tropical system in the Gulf of Mexico and another wave approaching Florida from the east.\n\nORLANDO, Fla. - The National Hurricane Center is keeping a close eye on two systems for possible development this week.\n\nThe disturbance (Tropical Wave 91L) positioned in the southwest Gulf of Mexico could become the first named storm of the 2024 Atlantic hurricane season. The NHC said it has a 70% chance of development over the next seven days.\n\n\"Environmental conditions appear conducive for additional gradual development, and a tropical depression or tropical storm is likely to form by midweek while it moves slowly westward or west-northwestward toward the western Gulf coast,\" the NHC said in an update Monday.\n\n",
+          "start_offset": 0,
+          "end_offset": 748,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "developing_system",
+              "value": "Tropical Wave 91L",
+              "unit": null
+            },
+            {
+              "attribute": "seven_day_development_probability",
+              "value": 70,
+              "unit": "%"
+            },
+            {
+              "attribute": "attribution",
+              "value": "NHC",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "MORE NEWS: Undetected tornado touches down in Crystal River, Florida\n\n",
+          "start_offset": 748,
+          "end_offset": 818,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "If the disturbance were to strengthen into a storm, it would be named Alberto . Current models forecast the system to track into Mexico, bringing flooding rain and winds up to 55 mph at landfall later this week.\n\n",
+          "start_offset": 818,
+          "end_offset": 1031,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "prospective_name",
+              "value": "Alberto",
+              "unit": null
+            },
+            {
+              "attribute": "forecast_landfall_wind",
+              "value": {
+                "value": 55,
+                "qualifier": "up_to"
+              },
+              "unit": "mph"
+            },
+            {
+              "attribute": "forecast_landfall_region",
+              "value": "Mexico",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "Forecasters are also monitoring a rare area of low pressure located several hundred miles east of Florida and the Bahamas in the southwestern Atlantic Ocean.\n\nFOX 35 Storm Team Meteorologist Brooks Garner said the low is trying to develop along an old cold front in the western Atlantic. Garner said that could be the seed for a future tropical or subtropical system, set to make a run for Florida late this week.\n\nIt has a 30% chance of formation over the next seven days, according to the NHC.\n\nThere's also an upper level low atop of that developing tropical system, which Garner said is the opposite of what the systems need to further develop. (They need high pressure aloft.)\n\nThe current setup will obstruct any chance of rapid advancement of this system. This will keep the system much weaker than the earlier appeared potential from over the weekend, when the threat first became apparent.\n\nIf the area were to develop, such an event would be \"extremely rare\" for June, said FOX 35 Storm Team Meteorologist Noah Bergren. \"Historically, only three storms have made landfall from the east in June,\" he added. \"The most recent was Tropical Storm Danny in 2021, which hit South Carolina.\"\n\n",
+          "start_offset": 1031,
+          "end_offset": 2226,
+          "sentence_ids": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "uncertainty"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "separate disturbance east of Florida",
+              "unit": null
+            },
+            {
+              "attribute": "seven_day_development_probability",
+              "value": 30,
+              "unit": "%"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "RELATED: 'Extremely rare' tropical system could form off Florida's Atlantic Coast midweek\n\n",
+          "start_offset": 2226,
+          "end_offset": 2317,
+          "sentence_ids": [
+            20
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "This unusual weather pattern is due to a massive heat dome over New England, creating an east-to-west flow over the southwest Atlantic Ocean.\n\nRegardless of development, the tropical activity will cause breezy conditions on Thursday and Friday in Central Florida, with a higher chance for rain, potentially rough surf and slightly higher than normal tides.",
+          "start_offset": 2317,
+          "end_offset": 2673,
+          "sentence_ids": [
+            21,
+            22
+          ],
+          "fact_types": [
+            "cause",
+            "weather"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "separate Florida weather context",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "c7e01fecd21faf620d8b6a0685d03c67957d8981fe2a82d0c9d7f551f51fb4b7",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-09081826E8A41423",
+      "event_id": "DIS-TC-D95B325C6704F1ED",
+      "event_rank": 34,
+      "article_rank": 2,
+      "title": "Potential Tropical Cyclone 1 brings tropical storm conditions to Texas on Wednesday",
+      "publisher": "foxweather",
+      "identified_publisher": "FOX Weather",
+      "source_domain": "foxweather.com",
+      "url": "https://www.foxweather.com/weather-news/tracking-potential-tropical-cyclone-one-possible-alberto",
+      "published_at": "2024-06-17T21:04:11+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "FOX Weather supplies the graphics and editorial content. The forecasts share NHC data with other reports.",
+      "content": "As of Wednesday at 11 a.m. ET, Potential Tropical Cyclone One has strengthened into Tropical Storm Alberto. Continuous coverage of Tropical Storm Alberto has moved here. Potential Tropical Cyclone One continues to spin across the Gulf of Mexico and is expected to bring tropical storm conditions to Texas starting Wednesday, including heavy rain, flooding and high wind gusts. A potential tropical cyclone is a designation used by the National Hurricane Center (NHC) to indicate a disturbance that is not yet a tropical cyclone but has the potential to bring that kind of weather to the U.S. within 48 hours. The National Hurricane Center (NHC) says the system is expected to strengthen and will likely get the first name on the list for the 2024 season – Alberto. Here’s everything you need to know about Potential Tropical Cyclone One. Where is Potential Tropical Cyclone 1? Potential Tropical Cyclone One is located in the western Gulf of Mexico, about 315 miles southeast of Brownsville, Texas. WHAT’S THE DIFFERENCE BETWEEN A TROPICAL DEPRESSION, TROPICAL STORM AND HURRICANE? The position and latest statistics of Potential Tropical Cyclone One.(FOX Weather) What is the forecast for Potential Tropical Cyclone 1? Potential Tropical Cyclone One is expected to become a tropical storm on Wednesday by the time it reaches the coast of northeastern Mexico late Wednesday night or early Thursday. A LOOK AT HOW THE HURRICANE FORECAST CONE WILL BE DIFFERENT IN 2024 The forecast cone for Potential Tropical Cyclone One.(FOX Weather) What are the impacts of Potential Tropical Cyclone 1? A Tropical Storm Warning remains in effect for the Texas coast from San Luis Pass to the mouth of the Rio Grande. A Tropical Storm Warning has also been issued for parts of Mexico's coast from the mouth of the Rio Grande to Puerto de Altamira. 2024 ATLANTIC HURRICANE SEASON GUIDE: HERE’S WHAT TO KNOW ABOUT THIS YEAR’S STORMS Tropical weather alerts for Potential Tropical Cyclone One.(FOX Weather) Flood alerts have been issued along the Gulf Coast from the U.S.-Mexico border to the Mississippi-Alabama border due to the threat of heavy rain as well as the combination of storm surge and high tide. The Flood Watches extend the length of the Texas coastline from Brownsville through Corpus Christi and into the Galveston area. HOW TO PREPARE FOR HURRICANE SEASON Flood alerts have been issued for a large part of Texas.(FOX Weather) Coastal flood alerts have also been issued and extend from the U.S.-Mexico border to the Mississippi-Alabama border. Coastal Flood Warnings are in effect from Port Mansfield to Port Lavaca, Galveston and Sabine Pass in Texas. Coastal Flood Advisories extend farther east and include communities along the Louisiana coast, as well as Gulfport and Biloxi in Mississippi. 7 FACTS YOU SHOULD KNOW ABOUT FLASH FLOODS Coastal flood alerts.(FOX Weather) The NHC says that the combination of storm surge and high tide will cause areas of the coastline that normally remain dry to be flooded by rising water moving inland from the shoreline. Water could reach the following heights if the peak storm surge occurs at the time of high tide: Sargent, Texas to Sabine Pass, Texas: 2-4 feet Galveston Bay: 2-4 feet Mouth of the Rio Grande River, Texas to Sargent: 1-3 feet Sabine Pass to Vermilion/Cameron Parish Line, Louisiana: 1-3 feet DOWNLOAD THE FREE FOX WEATHER APP This graphic shows the storm surge forecast.(FOX Weather) Potential Tropical Cyclone One is expected to dump a lot of rain across portions of Texas and northern Mexico. The NHC says rainfall totals of 5-10 inches are possible in South Texas and northeastern Mexico, with some locally higher amounts of 15 inches possible. \\\"This rainfall will likely produce considerable flash and urban flooding along with new and renewed river flooding,\\\" the NHC said. In addition, mudslides are possible in the higher terrain of northeastern Mexico. This graphic shows the forecast rain totals.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "As of Wednesday at 11 a.m. ET, Potential Tropical Cyclone One has strengthened into Tropical Storm Alberto. ",
+          "start_offset": 0,
+          "end_offset": 108,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "updated_status",
+              "value": "Tropical Storm Alberto",
+              "unit": null
+            },
+            {
+              "attribute": "time",
+              "value": "Wednesday 11:00 ET",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "Continuous coverage of Tropical Storm Alberto has moved here. ",
+          "start_offset": 108,
+          "end_offset": 170,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "Potential Tropical Cyclone One continues to spin across the Gulf of Mexico and is expected to bring tropical storm conditions to Texas starting Wednesday, including heavy rain, flooding and high wind gusts. A potential tropical cyclone is a designation used by the National Hurricane Center (NHC) to indicate a disturbance that is not yet a tropical cyclone but has the potential to bring that kind of weather to the U.S. within 48 hours. The National Hurricane Center (NHC) says the system is expected to strengthen and will likely get the first name on the list for the 2024 season – Alberto. ",
+          "start_offset": 170,
+          "end_offset": 765,
+          "sentence_ids": [
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "disaster_magnitude",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "earlier Potential Tropical Cyclone One forecast",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "Here’s everything you need to know about Potential Tropical Cyclone One. Where is Potential Tropical Cyclone 1? ",
+          "start_offset": 765,
+          "end_offset": 877,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "Potential Tropical Cyclone One is located in the western Gulf of Mexico, about 315 miles southeast of Brownsville, Texas. ",
+          "start_offset": 877,
+          "end_offset": 999,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "distance_southeast_of_brownsville",
+              "value": {
+                "value": 315,
+                "qualifier": "about"
+              },
+              "unit": "mi"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "WHAT’S THE DIFFERENCE BETWEEN A TROPICAL DEPRESSION, TROPICAL STORM AND HURRICANE? The position and latest statistics of Potential Tropical Cyclone One.(FOX Weather) What is the forecast for Potential Tropical Cyclone 1? ",
+          "start_offset": 999,
+          "end_offset": 1220,
+          "sentence_ids": [
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "Potential Tropical Cyclone One is expected to become a tropical storm on Wednesday by the time it reaches the coast of northeastern Mexico late Wednesday night or early Thursday. ",
+          "start_offset": 1220,
+          "end_offset": 1399,
+          "sentence_ids": [
+            13
+          ],
+          "fact_types": [
+            "weather",
+            "location",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "northeastern_mexico_coast_arrival",
+              "value": "late Wednesday night or early Thursday forecast",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "A LOOK AT HOW THE HURRICANE FORECAST CONE WILL BE DIFFERENT IN 2024 The forecast cone for Potential Tropical Cyclone One.(FOX Weather) What are the impacts of Potential Tropical Cyclone 1? ",
+          "start_offset": 1399,
+          "end_offset": 1588,
+          "sentence_ids": [
+            14,
+            15
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F009",
+          "span_text": "A Tropical Storm Warning remains in effect for the Texas coast from San Luis Pass to the mouth of the Rio Grande. A Tropical Storm Warning has also been issued for parts of Mexico's coast from the mouth of the Rio Grande to Puerto de Altamira. ",
+          "start_offset": 1588,
+          "end_offset": 1832,
+          "sentence_ids": [
+            16,
+            17
+          ],
+          "fact_types": [
+            "response",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "texas_tropical_storm_warning",
+              "value": "San Luis Pass to the Rio Grande mouth",
+              "unit": null
+            },
+            {
+              "attribute": "mexico_warning",
+              "value": "Rio Grande mouth to Puerto de Altamira",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F010",
+          "span_text": "2024 ATLANTIC HURRICANE SEASON GUIDE: HERE’S WHAT TO KNOW ABOUT THIS YEAR’S STORMS Tropical weather alerts for Potential Tropical Cyclone One.(",
+          "start_offset": 1832,
+          "end_offset": 1975,
+          "sentence_ids": [
+            18
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F011",
+          "span_text": "FOX Weather) Flood alerts have been issued along the Gulf Coast from the U.S.-Mexico border to the Mississippi-Alabama border due to the threat of heavy rain as well as the combination of storm surge and high tide. The Flood Watches extend the length of the Texas coastline from Brownsville through Corpus Christi and into the Galveston area. HOW TO PREPARE FOR HURRICANE SEASON Flood alerts have been issued for a large part of Texas.(FOX Weather) Coastal flood alerts have also been issued and extend from the U.S.-Mexico border to the Mississippi-Alabama border. Coastal Flood Warnings are in effect from Port Mansfield to Port Lavaca, Galveston and Sabine Pass in Texas. Coastal Flood Advisories extend farther east and include communities along the Louisiana coast, as well as Gulfport and Biloxi in Mississippi. ",
+          "start_offset": 1975,
+          "end_offset": 2793,
+          "sentence_ids": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard",
+            "weather"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "coastal_flood_alert_extent",
+              "value": "Mexico border to Mississippi–Alabama border",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F012",
+          "span_text": "7 FACTS YOU SHOULD KNOW ABOUT FLASH FLOODS Coastal flood alerts.(",
+          "start_offset": 2793,
+          "end_offset": 2858,
+          "sentence_ids": [
+            25
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F013",
+          "span_text": "FOX Weather) The NHC says that the combination of storm surge and high tide will cause areas of the coastline that normally remain dry to be flooded by rising water moving inland from the shoreline. Water could reach the following heights if the peak storm surge occurs at the time of high tide: Sargent, Texas to Sabine Pass, Texas: 2-4 feet Galveston Bay: 2-4 feet Mouth of the Rio Grande River, Texas to Sargent: 1-3 feet Sabine Pass to Vermilion/Cameron Parish Line, Louisiana: 1-3 feet DOWNLOAD THE FREE FOX WEATHER APP This graphic shows the storm surge forecast.(",
+          "start_offset": 2858,
+          "end_offset": 3428,
+          "sentence_ids": [
+            26,
+            27
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "disaster_magnitude",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "storm_surge_warning",
+              "value": "peak surge and high tide may combine",
+              "unit": null
+            },
+            {
+              "attribute": "galveston_bay_surge_range",
+              "value": [
+                2,
+                4
+              ],
+              "unit": "ft"
+            },
+            {
+              "attribute": "rio_grande_to_sargent_range",
+              "value": [
+                1,
+                3
+              ],
+              "unit": "ft"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F014",
+          "span_text": "FOX Weather) Potential Tropical Cyclone One is expected to dump a lot of rain across portions of Texas and northern Mexico. The NHC says rainfall totals of 5-10 inches are possible in South Texas and northeastern Mexico, with some locally higher amounts of 15 inches possible. \\\"This rainfall will likely produce considerable flash and urban flooding along with new and renewed river flooding,\\\" the NHC said. In addition, mudslides are possible in the higher terrain of northeastern Mexico. ",
+          "start_offset": 3428,
+          "end_offset": 3920,
+          "sentence_ids": [
+            28,
+            29,
+            30,
+            31
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude",
+            "secondary_hazard"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "projected_rain",
+              "value": [
+                5,
+                10
+              ],
+              "unit": "in"
+            },
+            {
+              "attribute": "local_rain_maximum",
+              "value": 15,
+              "unit": "in"
+            },
+            {
+              "attribute": "area",
+              "value": "South Texas and northeastern Mexico",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "NHC",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F015",
+          "span_text": "This graphic shows the forecast rain totals.",
+          "start_offset": 3920,
+          "end_offset": 3964,
+          "sentence_ids": [
+            32
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "e31a73dcf18131cbcb677cdfadd308972443316f9c3cf6685474b720703462d4",
+        "removed_word_count": 2,
+        "removed_word_ratio": 0.0030441400304414
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-E30529DBAAEFDE73",
+      "event_id": "DIS-TC-D95B325C6704F1ED",
+      "event_rank": 34,
+      "article_rank": 3,
+      "title": "Moisture from Gulf of Mexico sticks around, North Texas remains muggy and hot Tuesday will be another hot day with temperatures topping out in the low 90s but feeling more like 100 degrees thanks to the continued tropical moisture in North Texas. 1M ago",
+      "publisher": "cbslocal",
+      "identified_publisher": "CBS",
+      "source_domain": "cbsnews.com",
+      "url": "https://www.cbsnews.com/texas/news/moisture-from-gulf-of-mexico-sticks-around-north-texas-remains-muggy-and-hot/",
+      "published_at": "2024-06-18T00:00:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "CBS North Texas local forecast without a reporter byline.",
+      "content": "NORTH TEXAS – Tuesday will be another hot day with temperatures topping out in the low 90s but feeling more like 100 degrees thanks to the continued tropical moisture in North Texas.The southerly surface flow keeps the Gulf moisture in North Texas, so it will be muggy the next few days.The rain chance on Tuesday is at just 10% for mainly the southeast sides of North Texas. However, rain chances increase to 20%-30% for Wednesday, factoring in the potential track of a system in the southwestern Gulf of Mexico that could become Tropical Storm Alberto. The chance of rain is higher the further south you go across the Lonestar State. A tropical storm warning is now in effect from Port Lavaca to Brownsville. The National Hurricane Center said moderate coastal flooding could begin along the coast as soon as Tuesday morning and continue through the middle of the week. The situation was forecast to worsen on Wednesday for people in the tropical storm warning area. Wednesday in North Texas looks to be muggy but cooler with highs only in the upper 80s. An area of high pressure is then expected to take control in the upper levels, and summer heat returns. High temperatures for the end of the weekend and starting next week warm to near 100 degrees.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "NORTH TEXAS – Tuesday will be another hot day with temperatures topping out in the low 90s but feeling more like 100 degrees thanks to the continued tropical moisture in North Texas.The southerly surface flow keeps the Gulf moisture in North Texas, so it will be muggy the next few days.The rain chance on Tuesday is at just 10% for mainly the southeast sides of North Texas. ",
+          "start_offset": 0,
+          "end_offset": 376,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "north_texas_tuesday_rain_chance",
+              "value": 10,
+              "unit": "%"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "However, rain chances increase to 20%-30% for Wednesday, factoring in the potential track of a system in the southwestern Gulf of Mexico that could become Tropical Storm Alberto. The chance of rain is higher the further south you go across the Lonestar State. A tropical storm warning is now in effect from Port Lavaca to Brownsville. The National Hurricane Center said moderate coastal flooding could begin along the coast as soon as Tuesday morning and continue through the middle of the week. The situation was forecast to worsen on Wednesday for people in the tropical storm warning area. ",
+          "start_offset": 376,
+          "end_offset": 969,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "weather",
+            "uncertainty",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "north_texas_wednesday_rain_chance",
+              "value": [
+                20,
+                30
+              ],
+              "unit": "%"
+            },
+            {
+              "attribute": "warning_extent",
+              "value": "Port Lavaca to Brownsville",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "Wednesday in North Texas looks to be muggy but cooler with highs only in the upper 80s. An area of high pressure is then expected to take control in the upper levels, and summer heat returns. High temperatures for the end of the weekend and starting next week warm to near 100 degrees.",
+          "start_offset": 969,
+          "end_offset": 1254,
+          "sentence_ids": [
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "weather"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "662a707125df7cbb765f1560a726234e711f7abb67359ffd952d8c575d0dae08",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "A disturbance in the southwestern Gulf of Mexico developed into Alberto",
+        "fact_type": "disaster_occurrence",
+        "attribute": "storm_development",
+        "supporting_spans": [
+          "A001_F001",
+          "A003_F002",
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "91L may develop and be named Alberto",
+            "unit": null,
+            "attribution": "NHC"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "may become Alberto",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "Tropical Storm Alberto on Wednesday 11:00 ET",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "temporal_update",
+        "temporal_relation": "earlier_later",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "Two reports describe Texas coastal warnings with different coverage",
+        "fact_type": "response",
+        "attribute": "texas_warning_extent",
+        "supporting_spans": [
+          "A002_F009",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F009",
+            "value": "San Luis Pass to the Rio Grande mouth",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "Port Lavaca to Brownsville",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "The warning update times, observation times, and boundaries differ."
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "Rain and flooding were forecast for northeastern Mexico and Texas",
+        "fact_type": "weather",
+        "attribute": "rain_and_flood_forecast",
+        "supporting_spans": [
+          "A001_F003",
+          "A002_F014",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": "flooding rain expected in Mexico",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F014",
+            "value": "5–10 in with local maximum 15 in in south Texas and northeast Mexico",
+            "unit": null,
+            "attribution": "NHC"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "moderate coastal flooding possible",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "critical_facts": [
+        "FC001"
+      ],
+      "important_facts": [
+        "FC002",
+        "FC003"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2024-06-17/2024-06-18",
+          "time_precision": "Publication date",
+          "description": "Meteorological agencies monitored a Gulf disturbance and issued coastal forecasts.",
+          "supporting_spans": [
+            "A001_F001",
+            "A003_F002"
+          ]
+        },
+        {
+          "time": "2024-06-19T11:00-04:00",
+          "time_precision": "Local time to the minute",
+          "description": "FOX Weather updated the article to confirm the name Tropical Storm Alberto.",
+          "supporting_spans": [
+            "A002_F001"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "Storm surge combined with high tide could flood normally dry coastal areas.",
+          "supporting_spans": [
+            "A002_F013"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "A Gulf of Mexico disturbance strengthened into Alberto, bringing forecasts of heavy rain and flooding to northeastern Mexico and the US Gulf Coast.",
+          "supporting_spans": [
+            "A001_F003",
+            "A002_F001",
+            "A002_F009",
+            "A002_F014",
+            "A003_F002"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "The sources mainly provide forecasts and offer no post-storm casualty or damage counts. A001 also discusses a separate system east of Florida."
+    ]
+  }
+}

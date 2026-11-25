@@ -1,0 +1,727 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-4E9B7E7396DD3077",
+  "event_rank": 48,
+  "event_metadata": {
+    "event_name": "Earthquake in Ethiopia",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2025-01-03T17:01:45+00:00",
+    "event_end_time": "2025-01-03T17:01:45+00:00",
+    "locations": [
+      "Ethiopia"
+    ],
+    "latitude": 9.2986,
+    "longitude": 40.4246,
+    "place_names_in_reports": [
+      "Ethiopia",
+      "Afar",
+      "Mount Dofan/Dofen",
+      "Awash Fentale",
+      "Segento",
+      "Asbe Teferi",
+      "Addis Ababa"
+    ],
+    "gdacs_id": "1460546",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "A003 distinguishes Friday's magnitude-5.5 earthquake from Saturday's magnitude-5.8 event."
+    ],
+    "dataset_place_name": "Earthquake in Ethiopia",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-1B074F2A2B98688F",
+      "event_id": "DIS-EQ-4E9B7E7396DD3077",
+      "event_rank": 48,
+      "article_rank": 1,
+      "title": "Earthquake Today: 5.5 Magnitude Quake Strikes Ethiopia, Raises Concern Over Volcanic Eruption",
+      "publisher": "menafn",
+      "identified_publisher": null,
+      "source_domain": "menafn.com",
+      "url": "https://menafn.com/1109053704/Earthquake-Today-55-Magnitude-Quake-Strikes-Ethiopia-Raises-Concern-Over-Volcanic-Eruption",
+      "published_at": "2025-01-03T00:00:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "republished",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "MENAFN credits Anadolu Ajansi, EMSC, and Fana in several places. The original publication chain is unclear.",
+      "content": "The quake was at a depth of 10 km (6.21 miles), EMSC said.\n\nEarlier in the day, Anadolu Ajansi reported a volcanic eruption at Ethiopia's central Mount Dofan. The region has recently experienced frequent minor tremors, according to local media reports.\n\nThese frequent tremors have raised concern over a potential major disaster, especially in the Awash Fentale region, which is approximately 142 miles (230 kilometres) from Addis Ababa.\n\nIn recent weeks, the region has experienced more than a dozen minor earthquakes, prompting residents to look at the issue with concern.\n\nRegional Administrator Abdu Ali has said the authorities are making efforts to prevent casualties by relocating at-risk residents to safer areas, the state-owned Fana Broadcasting Corporation reported.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "The quake was at a depth of 10 km (6.21 miles), EMSC said.\n\n",
+          "start_offset": 0,
+          "end_offset": 60,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_magnitude"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "friday_depth",
+              "value": 10,
+              "unit": "km"
+            },
+            {
+              "attribute": "attribution",
+              "value": "EMSC",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "Earlier in the day, Anadolu Ajansi reported a volcanic eruption at Ethiopia's central Mount Dofan. The region has recently experienced frequent minor tremors, according to local media reports.\n\n",
+          "start_offset": 60,
+          "end_offset": 254,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "secondary_hazard",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "dofan_activity",
+              "value": "eruption reported by Anadolu Ajansi",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "These frequent tremors have raised concern over a potential major disaster, especially in the Awash Fentale region, which is approximately 142 miles (230 kilometres) from Addis Ababa.\n\nIn recent weeks, the region has experienced more than a dozen minor earthquakes, prompting residents to look at the issue with concern.\n\n",
+          "start_offset": 254,
+          "end_offset": 576,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "location",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "distance_of_awash_fentale_from_addis_ababa",
+              "value": {
+                "value": 230,
+                "qualifier": "approximately"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "prior_minor_earthquakes",
+              "value": {
+                "value": 12,
+                "qualifier": "greater_than"
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "Regional Administrator Abdu Ali has said the authorities are making efforts to prevent casualties by relocating at-risk residents to safer areas, the state-owned Fana Broadcasting Corporation reported.",
+          "start_offset": 576,
+          "end_offset": 777,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "evacuation",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "Abdu Ali via Fana",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "082cf08a19dcf7b3ca17f8f54002fd6d492271cf7fc44b7a683a8658dc344a2d",
+        "removed_word_count": 69,
+        "removed_word_ratio": 0.3689839572192513
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-81D2A2526D24120D",
+      "event_id": "DIS-EQ-4E9B7E7396DD3077",
+      "event_rank": 48,
+      "article_rank": 2,
+      "title": "Magnitude 5.5 quake strikes Ethiopia, volcano erupts",
+      "publisher": "enca",
+      "identified_publisher": null,
+      "source_domain": "enca.com",
+      "url": "https://www.enca.com/news-top-stories/magnitude-55-quake-strikes-ethiopia-volcano-erupts",
+      "published_at": "2025-01-04T00:00:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "eNCA's Nairobi-datelined article relies on seismic agencies and Ethiopian media. The original byline is missing.",
+      "content": "NAIROBI - A magnitude 5.5 earthquake struck northern Ethiopia on Friday, where a volcano erupted after months of increased seismic activity, the European-Mediterranean Seismological Centre (EMSC) and local media said.\n\nThe EMSC said the quake, which occurred at a depth of about 10 kilometres, hit some 55 kilometres northwest of the city of Asbe Teferi.\n\nNo injuries have been reported so far.\n\nA nearby volcano also erupted after months of intense seismic activity, according to local media.\n\nAden Bela, a local official, told the Ethiopian broadcaster EBC that the volcanic eruption had taken place near Segento in the northeast Afar region.\n\nThe crater had stopped releasing smoke, but lava was still flowing out of the volcano, Bela added. People and cattle have been evacuated, he said, without giving numbers.\n\nThe US Geological Survey since late September has recorded more than 67 earthquakes in the area, particularly in the Fantale region, part of the Great Rift Valley, according to the Addis Standard.\n\nResidents in affected areas told the newspaper that more than 30 houses had collapsed where tremors have become more frequent and more violent.\n\n\"Houses are collapsing day by day,\" one local resident told the newspaper.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "NAIROBI - A magnitude 5.5 earthquake struck northern Ethiopia on Friday, where a volcano erupted after months of increased seismic activity, the European-Mediterranean Seismological Centre (EMSC) and local media said.\n\nThe EMSC said the quake, which occurred at a depth of about 10 kilometres, hit some 55 kilometres northwest of the city of Asbe Teferi.\n\n",
+          "start_offset": 0,
+          "end_offset": 356,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 5.5,
+              "unit": null
+            },
+            {
+              "attribute": "depth",
+              "value": {
+                "value": 10,
+                "qualifier": "about"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "distance_nw_of_asbe_teferi",
+              "value": {
+                "value": 55,
+                "qualifier": "some"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "attribution",
+              "value": "EMSC",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "No injuries have been reported so far.\n\n",
+          "start_offset": 356,
+          "end_offset": 396,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "injuries"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "injury_status",
+              "value": "none reported so far",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "A nearby volcano also erupted after months of intense seismic activity, according to local media.\n\nAden Bela, a local official, told the Ethiopian broadcaster EBC that the volcanic eruption had taken place near Segento in the northeast Afar region.\n\nThe crater had stopped releasing smoke, but lava was still flowing out of the volcano, Bela added. People and cattle have been evacuated, he said, without giving numbers.\n\n",
+          "start_offset": 396,
+          "end_offset": 818,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "secondary_hazard",
+            "evacuation",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "volcanic_activity",
+              "value": "eruption and lava reported",
+              "unit": null
+            },
+            {
+              "attribute": "scope",
+              "value": "near Segento in Afar",
+              "unit": null
+            },
+            {
+              "attribute": "evacuated",
+              "value": "people and cattle; no count provided",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "The US Geological Survey since late September has recorded more than 67 earthquakes in the area, particularly in the Fantale region, part of the Great Rift Valley, according to the Addis Standard.\n\nResidents in affected areas told the newspaper that more than 30 houses had collapsed where tremors have become more frequent and more violent.\n\n\"Houses are collapsing day by day,\" one local resident told the newspaper.",
+          "start_offset": 818,
+          "end_offset": 1235,
+          "sentence_ids": [
+            8,
+            9,
+            10
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "damage",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "earthquakes_since_late_september",
+              "value": {
+                "value": 67,
+                "qualifier": "greater_than"
+              },
+              "unit": null
+            },
+            {
+              "attribute": "houses_collapsed",
+              "value": {
+                "value": 30,
+                "qualifier": "greater_than"
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "a259152cbfb40d29a32ef812f37fdab1b1b996679f7f5fca8e9fb838af8a51ec",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-6B7BC63ABE2BCDDA",
+      "event_id": "DIS-EQ-4E9B7E7396DD3077",
+      "event_rank": 48,
+      "article_rank": 3,
+      "title": "Ethiopia: Thousands evacuate over volcanic eruption fears",
+      "publisher": "deutschewelle-en",
+      "identified_publisher": null,
+      "source_domain": "dw.com",
+      "url": "https://www.dw.com/en/ethiopia-thousands-evacuate-over-volcanic-eruption-fears/a-71214223",
+      "published_at": "2025-01-04T01:57:20+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "DW relays Reuters, Fana, the Ethiopian Geological Institute, and monitoring agencies without an independent byline.",
+      "content": "Authorities have begun to evacuate residents in northeastern Ethiopia after a volcano showed signs of potentially dangerous activity , officials said Friday.\n\nCivilians from the Afar region were relocated to temporary shelters, according to the state-owned Fana Broadcasting, which quoted a regional administrator in the area.\n\nShiferaw Teklemariam, Commissioner of the Ethiopian Disaster Risk Management Commission, said it was premature to describe the activity as an eruption, adding that authorities were exercising caution.\n\n\"The community; some are already leaving those areas. We are also preparing to do it in a well-organized manner. It [moving the community] will be done based on predictions ,\" he told Reuters.\n\nThe Ethiopian Geological Institute shared a video on its Facebook page showing what appeared to be dust and smoke rising from the long-dormant volcano of Mount Dofen.\n\nHowever, not all triggers of volcanic activity lead to full-blown eruptions.\n\nA magnitude 5.8 earthquake, which occurred at a depth of about 10 kilometers (6 miles), hit Ethiopia on Saturday, according to the US Geological Survey and the German Research Center for Geosciences.\n\nThe same area also saw a magnitude 5.5 quake on Friday, said the European-Mediterranean Seismological Center.\n\nDozens of earthquakes and tremors have been recorded in the area in recent months.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "Authorities have begun to evacuate residents in northeastern Ethiopia after a volcano showed signs of potentially dangerous activity , officials said Friday.\n\nCivilians from the Afar region were relocated to temporary shelters, according to the state-owned Fana Broadcasting, which quoted a regional administrator in the area.\n\n",
+          "start_offset": 0,
+          "end_offset": 328,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "evacuation",
+            "response",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "area",
+              "value": "Afar",
+              "unit": null
+            },
+            {
+              "attribute": "destination",
+              "value": "temporary shelters",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "Shiferaw Teklemariam, Commissioner of the Ethiopian Disaster Risk Management Commission, said it was premature to describe the activity as an eruption, adding that authorities were exercising caution.\n\n\"The community; some are already leaving those areas. We are also preparing to do it in a well-organized manner. It [moving the community] will be done based on predictions ,\" he told Reuters.\n\nThe Ethiopian Geological Institute shared a video on its Facebook page showing what appeared to be dust and smoke rising from the long-dormant volcano of Mount Dofen.\n\nHowever, not all triggers of volcanic activity lead to full-blown eruptions.\n\n",
+          "start_offset": 328,
+          "end_offset": 970,
+          "sentence_ids": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "uncertainty",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "activity",
+              "value": [
+                "dust and smoke in geological institute video",
+                "commissioner said premature to classify as eruption"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "A magnitude 5.8 earthquake, which occurred at a depth of about 10 kilometers (6 miles), hit Ethiopia on Saturday, according to the US Geological Survey and the German Research Center for Geosciences.\n\nThe same area also saw a magnitude 5.5 quake on Friday, said the European-Mediterranean Seismological Center.\n\n",
+          "start_offset": 970,
+          "end_offset": 1282,
+          "sentence_ids": [
+            9,
+            10
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "saturday_magnitude",
+              "value": 5.8,
+              "unit": null
+            },
+            {
+              "attribute": "saturday_depth",
+              "value": {
+                "value": 10,
+                "qualifier": "about"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "friday_magnitude",
+              "value": 5.5,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "Dozens of earthquakes and tremors have been recorded in the area in recent months.",
+          "start_offset": 1282,
+          "end_offset": 1364,
+          "sentence_ids": [
+            11
+          ],
+          "fact_types": [
+            "disaster_occurrence"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "29bf03e362e71598205017603d0c3fb88c8b775246c38e3a529952611e778a9f",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "Friday's earthquake was reported at magnitude 5.5",
+        "fact_type": "disaster_magnitude",
+        "attribute": "friday_magnitude",
+        "supporting_spans": [
+          "A002_F001",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 5.5,
+            "unit": null,
+            "attribution": "EMSC"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": 5.5,
+            "unit": null,
+            "attribution": "EMSC"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": "A003 separately reports a magnitude-5.8 earthquake on Saturday. A001 gives Friday's 5.5 magnitude in the headline."
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "Friday's earthquake depth was about 10 km",
+        "fact_type": "disaster_magnitude",
+        "attribute": "friday_depth",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 10,
+            "unit": "km",
+            "attribution": "EMSC"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "value": 10,
+              "qualifier": "about"
+            },
+            "unit": "km",
+            "attribution": "EMSC"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "Reports do not consistently confirm whether the volcanic activity was an eruption",
+        "fact_type": "secondary_hazard",
+        "attribute": "eruption_confirmation",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F003",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": "eruption reported by Anadolu",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": "local official reported eruption and lava",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "commissioner said premature to classify as eruption",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "Risk, observation time, and terminology require verification. A lack of confirmation does not amount to a denial."
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "Residents were relocated as a precaution",
+        "fact_type": "evacuation",
+        "attribute": "evacuation",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F003",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": "authorities relocating at-risk people",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": "people and cattle evacuated; no counts",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": "Afar residents relocated to temporary shelters",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001"
+      ],
+      "important_facts": [
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-01-03",
+          "time_precision": "Local date",
+          "description": "A magnitude-5.5 earthquake struck Friday, and Ethiopian authorities began relocating residents as a precaution.",
+          "supporting_spans": [
+            "A001_F004",
+            "A002_F001",
+            "A003_F001",
+            "A003_F003"
+          ]
+        },
+        {
+          "time": "2025-01-04",
+          "time_precision": "Local date",
+          "description": "A separate magnitude-5.8 earthquake was reported in the same area.",
+          "supporting_spans": [
+            "A003_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "Signs of volcanic activity and frequent tremors prompted precautionary relocation.",
+          "supporting_spans": [
+            "A001_F003",
+            "A001_F004",
+            "A003_F001"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "Earthquakes and volcanic activity in northeastern Ethiopia prompted precautionary evacuations. Official confirmation of an eruption was still pending.",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F001",
+            "A002_F003",
+            "A003_F001",
+            "A003_F002"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "Magnitudes for separate earthquakes do not conflict. Collapsed-home figures cover an earlier period of earthquake swarm activity."
+    ]
+  }
+}

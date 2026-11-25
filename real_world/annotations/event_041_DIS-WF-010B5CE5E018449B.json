@@ -1,0 +1,736 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-WF-010B5CE5E018449B",
+  "event_rank": 41,
+  "event_metadata": {
+    "event_name": "Forest fires in Greece",
+    "disaster_type": "wildfire",
+    "disaster_type_code": "WF",
+    "event_start_time": "2024-08-11T00:00:00+00:00",
+    "event_end_time": "2024-08-13T00:00:00+00:00",
+    "locations": [
+      "Greece"
+    ],
+    "latitude": 38.1512,
+    "longitude": 23.926,
+    "place_names_in_reports": [
+      "Greece",
+      "Varnavas",
+      "Athens",
+      "Penteli",
+      "Vrilissia",
+      "Cyprus",
+      "North Macedonia"
+    ],
+    "gdacs_id": "1021078",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "The Greek fire began on August 11. The Cypriot firefighting team returned on August 14."
+    ],
+    "dataset_place_name": "Forest fires in Greece",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-A4A580359D987593",
+      "event_id": "DIS-WF-010B5CE5E018449B",
+      "event_rank": 41,
+      "article_rank": 1,
+      "title": "Cypriot firefighters return from North Macedonia, after battling blaze for five days",
+      "publisher": "cyprus-mail",
+      "identified_publisher": null,
+      "source_domain": "cyprus-mail.com",
+      "url": "https://cyprus-mail.com/2024/08/14/cypriot-firefighters-return-from-north-macedonia-after-battling-blaze-for-five-days/",
+      "published_at": "2024-08-14T14:11:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "Cyprus Mail includes a separate interview with the forestry director.",
+      "content": "The Cypriot firefighting mission to North Macedonia to respond to forest fires has been completed, leaving the best impressions for its operational excellence and is returning to Cyprus, the Director of the Forestry Department, Savvas Iezekiel, told said on Wednesday. Regarding the assistance to Greece, he said it was scuttled as it was impossible to immediately meet the request to send manpower with firefighting equipment, as it would have taken time to transport the ground firefighters by sea and since in the meantime the fires seemed to be handled by the Greek firefighting forces, there was no real reason to do so. Specifically, regarding the two Air Tractor AT-802 firefighting planes of the Forestry Department, with four crew and five ground support personnel, which went to North Macedonia for five days of firefighting assistance, Ezekiel said that the mission was carried out. He added that “we had very good successes”, saying that the operational mode of action was impressive, as “we improved systems and helped the Republic of North Macedonia during the five days requested by the EU and today (14 August after noon) they are returning to Cyprus with their crews”. He went on to say that they operated for five days in different areas, put out several fire fronts. Asked if the fires in North Macedonia have been extinguished, he said that there are still fires, as they have broken out in beech and oak forests in which extinguishing fires is very difficult and requires too many ground forces and not aircraft He explained that the Air Tractors are returning with their crews and will land at Paphos airport, while the supporting personnel will return later by air, on a commercial flight from Skopje via Athens or Thessaloniki.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "The Cypriot firefighting mission to North Macedonia to respond to forest fires has been completed, leaving the best impressions for its operational excellence and is returning to Cyprus, the Director of the Forestry Department, Savvas Iezekiel, told said on Wednesday. ",
+          "start_offset": 0,
+          "end_offset": 269,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "response",
+            "aid",
+            "weather"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "Cyprus aid to North Macedonia",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "Regarding the assistance to Greece, he said it was scuttled as it was impossible to immediately meet the request to send manpower with firefighting equipment, as it would have taken time to transport the ground firefighters by sea and since in the meantime the fires seemed to be handled by the Greek firefighting forces, there was no real reason to do so. ",
+          "start_offset": 269,
+          "end_offset": 626,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "Greece",
+              "unit": null
+            },
+            {
+              "attribute": "assistance_status",
+              "value": "not dispatched",
+              "unit": null
+            },
+            {
+              "attribute": "constraint",
+              "value": "ground firefighters and equipment would require sea transport",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "Specifically, regarding the two Air Tractor AT-802 firefighting planes of the Forestry Department, with four crew and five ground support personnel, which went to North Macedonia for five days of firefighting assistance, Ezekiel said that the mission was carried out. He added that “we had very good successes”, saying that the operational mode of action was impressive, as “we improved systems and helped the Republic of North Macedonia during the five days requested by the EU and today (14 August after noon) they are returning to Cyprus with their crews”. He went on to say that they operated for five days in different areas, put out several fire fronts. Asked if the fires in North Macedonia have been extinguished, he said that there are still fires, as they have broken out in beech and oak forests in which extinguishing fires is very difficult and requires too many ground forces and not aircraft He explained that the Air Tractors are returning with their crews and will land at Paphos airport, while the supporting personnel will return later by air, on a commercial flight from Skopje via Athens or Thessaloniki.",
+          "start_offset": 626,
+          "end_offset": 1751,
+          "sentence_ids": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "weather"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "North Macedonia",
+              "unit": null
+            },
+            {
+              "attribute": "aircraft",
+              "value": 2,
+              "unit": "planes"
+            },
+            {
+              "attribute": "crew",
+              "value": 4,
+              "unit": "people"
+            },
+            {
+              "attribute": "ground_support",
+              "value": 5,
+              "unit": "people"
+            },
+            {
+              "attribute": "duration",
+              "value": 5,
+              "unit": "days"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "ab87cc076a7f91f4cd3ae1d5c72976e11c6787e8947ad6df50493eb7b29e9ddd",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-97C06B551341AC3F",
+      "event_id": "DIS-WF-010B5CE5E018449B",
+      "event_rank": 41,
+      "article_rank": 2,
+      "title": "Faulty Cable Suspected in Greece's Worst Wildfire | Science-Environment",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/science-environment/3053003-faulty-cable-suspected-in-greeces-worst-wildfire",
+      "published_at": "2024-08-15T12:50:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "Uses the same quotations, investigative leads, and figures as Reuters. The source chain is unclear.",
+      "content": "Investigators suspect that a faulty power cable might be the cause of Greece's worst wildfire this year, according to sources close to the probe. The blaze, which killed one woman and torched 10,000 hectares near Athens, began on August 11.\n\nThe fire started in a forest near Varnavas town, 35 km from the capital, spreading rapidly into northern suburbs of Athens. Investigators have interviewed local residents, including a 76-year-old man who suggested that a loose cable on a wooden electricity pillar outside his home could have ignited the blaze.\n\nClimate change, high temperatures, and gale-force winds have exacerbated wildfire risks in Greece, which saw over 8,000 forest fires in 2023. Engineers are investigating, but the power network operator HEDNO claims no evidence of a malfunction. Despite milder winds calming the blaze, officials warn that flare-ups are still possible.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "Investigators suspect that a faulty power cable might be the cause of Greece's worst wildfire this year, according to sources close to the probe. The blaze, which killed one woman and torched 10,000 hectares near Athens, began on August 11.\n\n",
+          "start_offset": 0,
+          "end_offset": 242,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "cause",
+            "casualties",
+            "damage"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "suspected_cause",
+              "value": "faulty power cable",
+              "unit": null
+            },
+            {
+              "attribute": "fire_start",
+              "value": "August 11",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": 1,
+              "unit": "person"
+            },
+            {
+              "attribute": "burned_area",
+              "value": 10000,
+              "unit": "ha"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "The fire started in a forest near Varnavas town, 35 km from the capital, spreading rapidly into northern suburbs of Athens. Investigators have interviewed local residents, including a 76-year-old man who suggested that a loose cable on a wooden electricity pillar outside his home could have ignited the blaze.\n\n",
+          "start_offset": 242,
+          "end_offset": 554,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "location",
+            "cause",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "start_location",
+              "value": "near Varnavas",
+              "unit": null
+            },
+            {
+              "attribute": "distance_from_athens",
+              "value": 35,
+              "unit": "km"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "Climate change, high temperatures, and gale-force winds have exacerbated wildfire risks in Greece, which saw over 8,000 forest fires in 2023. ",
+          "start_offset": 554,
+          "end_offset": 696,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_occurrence",
+            "cause"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "greek_2023_fires",
+              "value": {
+                "value": 8000,
+                "qualifier": "greater_than"
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "Engineers are investigating, but the power network operator HEDNO claims no evidence of a malfunction. Despite milder winds calming the blaze, officials warn that flare-ups are still possible.",
+          "start_offset": 696,
+          "end_offset": 888,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "cause",
+            "response",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "power_operator_position",
+              "value": "no evidence of malfunction",
+              "unit": null
+            },
+            {
+              "attribute": "flare_up_risk",
+              "value": "remains",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "9664915b9f8ed7cc0a5ef74964f94228661913ec8c6448423c011db1d97e982c",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-D73DBD3425159257",
+      "event_id": "DIS-WF-010B5CE5E018449B",
+      "event_rank": 41,
+      "article_rank": 3,
+      "title": "Faulty power cable may have caused Greece's worst wildfire this year | Dunya News",
+      "publisher": "dunyanews",
+      "identified_publisher": "Reuters",
+      "source_domain": "dunyanews.tv",
+      "url": "https://dunyanews.tv/en/World/831025-faulty-power-cable-may-have-caused-greeces-worst-wildfire-this-year",
+      "published_at": "2024-08-15T14:03:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "The Athens dateline credits Reuters.",
+      "content": "Summary Faulty power cable may have caused Greece's worst wildfire this year\n\nATHENS (Reuters) - Investigators suspect a faulty power cable may have caused Greece's worst wildfire this year, said sources close to a probe over the blaze that killed one woman and torched 10,000 hectares near Athens, covering a total area about the size of Paris.\n\nThe blaze, which began on Aug. 11, broke out from a forest off Varnavas town, 35 km (22 miles) from the capital and into Athens' northern suburbs, some of which had never seen a wildfire before, within a day.\n\nAuthorities have questioned Varnavas residents as part of their investigation into what caused the blaze. A 76-year-old man said a wooden electricity pillar outside his home, which had a loose cable fastened to it with a hanger, could have triggered it, officials said.\n\nThat scenario was the leading one in the probe, which should be concluded over the coming months, an official with knowledge of the investigation said. Arson was also being considered.\n\nA fire brigade official who declined to be named said an area close to the electricity pole had been determined as the starting point of the blaze.\n\nWildfires have been a common feature of Greek summers for years, with many attributed to voluntary or involuntary arson, short-circuits, or occasionally, natural causes. The country registered more than 8,000 forest fires in 2023.\n\nIn recent years, the risk of such fires has been raised by climate change, which has brought hotter weather and less rain.\n\nA prosecutor has deployed engineers to look into the latest wildfire's cause.\n\nGreece's power network operator HEDNO, said it had found no evidence of a malfunction.\n\n\"We do not indicate that anything wrong such as a short-circuit happened,\" an official at HEDNO told Reuters adding that only the relevant authorities were responsible for determining the fire's cause.\n\nLocal media cited residents who had heard explosions before the fire broke out. Others said there were initially two fires.\n\nMilder winds have calmed the blaze which covered a distance of 40 kilometres (24.85 miles) before reaching the Athens suburbs of Penteli and Vrilissia, where one woman was killed.\n\nStill, flare-ups were possible, officials have warned, as winds are expected to pick up again.\n\nSunday's fast-moving fire broke out amid a week-long high-fire risk alert due to high temperatures and gale-force winds.\n\nGreece had its warmest winter on record this year and was on track for its hottest summer with scant rain in many areas, a recipe for fire disasters, according to firefighters.\n\n\"The fire started very far from here, probably from a power line, and in no time it burned everything,\" 78-year-old Varnavas resident Giannis Tsiminis told Reuters on Wednesday.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "Summary Faulty power cable may have caused Greece's worst wildfire this year\n\n",
+          "start_offset": 0,
+          "end_offset": 78,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "ATHENS (Reuters) - Investigators suspect a faulty power cable may have caused Greece's worst wildfire this year, said sources close to a probe over the blaze that killed one woman and torched 10,000 hectares near Athens, covering a total area about the size of Paris.\n\nThe blaze, which began on Aug. 11, broke out from a forest off Varnavas town, 35 km (22 miles) from the capital and into Athens' northern suburbs, some of which had never seen a wildfire before, within a day.\n\n",
+          "start_offset": 78,
+          "end_offset": 557,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "cause",
+            "casualties",
+            "damage",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": 1,
+              "unit": "person"
+            },
+            {
+              "attribute": "burned_area",
+              "value": 10000,
+              "unit": "ha"
+            },
+            {
+              "attribute": "start_date",
+              "value": "August 11",
+              "unit": null
+            },
+            {
+              "attribute": "distance_from_athens",
+              "value": 35,
+              "unit": "km"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "Authorities have questioned Varnavas residents as part of their investigation into what caused the blaze. A 76-year-old man said a wooden electricity pillar outside his home, which had a loose cable fastened to it with a hanger, could have triggered it, officials said.\n\nThat scenario was the leading one in the probe, which should be concluded over the coming months, an official with knowledge of the investigation said. Arson was also being considered.\n\nA fire brigade official who declined to be named said an area close to the electricity pole had been determined as the starting point of the blaze.\n\n",
+          "start_offset": 557,
+          "end_offset": 1163,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "response",
+            "uncertainty",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_hypotheses",
+              "value": [
+                "loose electric cable",
+                "arson"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "witness_age",
+              "value": 76,
+              "unit": "years"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "Wildfires have been a common feature of Greek summers for years, with many attributed to voluntary or involuntary arson, short-circuits, or occasionally, natural causes. The country registered more than 8,000 forest fires in 2023.\n\nIn recent years, the risk of such fires has been raised by climate change, which has brought hotter weather and less rain.\n\n",
+          "start_offset": 1163,
+          "end_offset": 1519,
+          "sentence_ids": [
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_occurrence",
+            "cause"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "greek_2023_fires",
+              "value": {
+                "value": 8000,
+                "qualifier": "greater_than"
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "A prosecutor has deployed engineers to look into the latest wildfire's cause.\n\nGreece's power network operator HEDNO, said it had found no evidence of a malfunction.\n\n\"We do not indicate that anything wrong such as a short-circuit happened,\" an official at HEDNO told Reuters adding that only the relevant authorities were responsible for determining the fire's cause.\n\nLocal media cited residents who had heard explosions before the fire broke out. Others said there were initially two fires.\n\n",
+          "start_offset": 1519,
+          "end_offset": 2014,
+          "sentence_ids": [
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "fact_types": [
+            "response",
+            "uncertainty",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "hedno_position",
+              "value": "no evidence of a malfunction",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "Milder winds have calmed the blaze which covered a distance of 40 kilometres (24.85 miles) before reaching the Athens suburbs of Penteli and Vrilissia, where one woman was killed.\n\nStill, flare-ups were possible, officials have warned, as winds are expected to pick up again.\n\nSunday's fast-moving fire broke out amid a week-long high-fire risk alert due to high temperatures and gale-force winds.\n\nGreece had its warmest winter on record this year and was on track for its hottest summer with scant rain in many areas, a recipe for fire disasters, according to firefighters.\n\n\"The fire started very far from here, probably from a power line, and in no time it burned everything,\" 78-year-old Varnavas resident Giannis Tsiminis told Reuters on Wednesday.",
+          "start_offset": 2014,
+          "end_offset": 2768,
+          "sentence_ids": [
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "fact_types": [
+            "weather",
+            "damage",
+            "casualties",
+            "cause",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "spread_distance",
+              "value": 40,
+              "unit": "km"
+            },
+            {
+              "attribute": "fatality_location_scope",
+              "value": "Athens suburbs as described",
+              "unit": null
+            },
+            {
+              "attribute": "risk",
+              "value": "possible flare-ups",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "012149106f82ee8a473dbce176d02e62e6cdd994847d6a03244b22222c2fdc2e",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "The Greek wildfire spread from Varnavas toward northern Athens",
+        "fact_type": "location",
+        "attribute": "fire_path",
+        "supporting_spans": [
+          "A002_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "Varnavas to Athens' northern suburbs",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "Varnavas to Athens' northern suburbs",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "Reports give one death and 10,000 hectares burned",
+        "fact_type": "damage",
+        "attribute": "reported_loss",
+        "supporting_spans": [
+          "A002_F001",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "deaths": 1,
+              "burned_ha": 10000
+            },
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "deaths": 1,
+              "burned_ha": 10000
+            },
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": "The reports appear to share a source."
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "An electrical cable fault was one hypothesis under investigation",
+        "fact_type": "cause",
+        "attribute": "ignition_cause",
+        "supporting_spans": [
+          "A002_F001",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "faulty power cable suspected",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "loose cable leading hypothesis; arson also considered",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "The grid operator reported no evidence of a fault. The ignition cause remains unconfirmed."
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2024-08-11",
+          "time_precision": "Local date",
+          "description": "A wildfire near Varnavas spread toward the northern suburbs of Athens.",
+          "supporting_spans": [
+            "A002_F001",
+            "A002_F002",
+            "A003_F002"
+          ]
+        },
+        {
+          "time": "2024-08-15",
+          "time_precision": "Publication date",
+          "description": "Media reported an investigation into the cause and continued risk of flare-ups.",
+          "supporting_spans": [
+            "A002_F004",
+            "A003_F005",
+            "A003_F006"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "Hotter, drier conditions and strong winds increased fire risk. The electrical cable hypothesis remains under investigation.",
+          "supporting_spans": [
+            "A002_F001",
+            "A002_F003",
+            "A002_F004",
+            "A003_F005",
+            "A003_F006"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "The wildfire near Athens burned a large area and killed one person. The cause remains undetermined.",
+          "supporting_spans": [
+            "A002_F001",
+            "A003_F002",
+            "A003_F005"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "A001 focuses on a separate fire in North Macedonia. Only the passage on assistance to Greece was used as event evidence."
+    ]
+  }
+}

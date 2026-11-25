@@ -1,0 +1,737 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-TC-5853FF10B3FE20A1",
+  "event_rank": 27,
+  "event_metadata": {
+    "event_name": "Tropical Cyclone FILIPO-24",
+    "disaster_type": "tropical_cyclone",
+    "disaster_type_code": "TC",
+    "event_start_time": "2024-03-03T06:00:00+00:00",
+    "event_end_time": "2024-03-14T12:00:00+00:00",
+    "locations": [
+      "Mozambique",
+      "South Africa",
+      "Eswatini",
+      "Zimbabwe",
+      "Malawi"
+    ],
+    "latitude": -33.09,
+    "longitude": 41.87,
+    "place_names_in_reports": [
+      "Mozambique",
+      "Mogincual",
+      "Nampula",
+      "Gaza",
+      "Inhambane",
+      "Sofala",
+      "Zambézia",
+      "Inhassoro",
+      "Mozambique Channel",
+      "Indian Ocean"
+    ],
+    "gdacs_id": "1001053",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "The sequence of the lightning report and Filipo's landfall follows the source wording. The time of the lightning strike is unknown."
+    ],
+    "dataset_place_name": "Tropical Cyclone FILIPO-24",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-54646D002AF498B3",
+      "event_id": "DIS-TC-5853FF10B3FE20A1",
+      "event_rank": 27,
+      "article_rank": 1,
+      "title": "Lightning kills four people in Mozambique 2 mins",
+      "publisher": "myjoyonline",
+      "identified_publisher": null,
+      "source_domain": "myjoyonline.com",
+      "url": "https://www.myjoyonline.com/lightning-kills-four-people-in-mozambique/",
+      "published_at": "2024-03-11T15:36:34+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "Follows the same sequence as Africanews, including three nearly identical sentences. The original byline is unknown.",
+      "content": "Four people have died and three others are wounded after being struck by lightning in Mozambique, which is now bracing for Storm Filipo .\n\nThe lightning strikes happened in the northern town of Mogincual, in Nampula province.\n\nMeanwhile, the southern and central provinces of Gaza, Inhambane, Sofala and Zambézia have been placed on alert for severe thunderstorms expected later on Monday.\n\nStorm Filipo has now reached the Mozambican coast and could evolve into a severe tropical storm, before dispersing back out to sea.\n\nIncreased rainfall has already been recorded and there are fears of mudslides. Boats and vessels are being warned by Mozambique's National Institute of Meteorology (Inam) to take precautions.\n\nNatural disasters are common in Mozambique, particularly during the rainy and cyclone season which runs between October and April.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "Four people have died and three others are wounded after being struck by lightning in Mozambique, which is now bracing for Storm Filipo .\n\nThe lightning strikes happened in the northern town of Mogincual, in Nampula province.\n\n",
+          "start_offset": 0,
+          "end_offset": 227,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "secondary_hazard",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "lightning_deaths",
+              "value": 4,
+              "unit": "people"
+            },
+            {
+              "attribute": "lightning_injuries",
+              "value": 3,
+              "unit": "people"
+            },
+            {
+              "attribute": "location",
+              "value": "Mogincual, Nampula",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "Meanwhile, the southern and central provinces of Gaza, Inhambane, Sofala and Zambézia have been placed on alert for severe thunderstorms expected later on Monday.\n\nStorm Filipo has now reached the Mozambican coast and could evolve into a severe tropical storm, before dispersing back out to sea.\n\n",
+          "start_offset": 227,
+          "end_offset": 524,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "weather_alert_regions",
+              "value": [
+                "Gaza",
+                "Inhambane",
+                "Sofala",
+                "Zambézia"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "Increased rainfall has already been recorded and there are fears of mudslides. Boats and vessels are being warned by Mozambique's National Institute of Meteorology (Inam) to take precautions.\n\n",
+          "start_offset": 524,
+          "end_offset": 717,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "Natural disasters are common in Mozambique, particularly during the rainy and cyclone season which runs between October and April.",
+          "start_offset": 717,
+          "end_offset": 847,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "weather",
+            "timeline"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "cyclone_season",
+              "value": "October to April",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "2545c1ae7a570cff607a7bbbff5103b33104124c2b4420ff531b20cc283e57b6",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-4C2AE0B2B4AC1A15",
+      "event_id": "DIS-TC-5853FF10B3FE20A1",
+      "event_rank": 27,
+      "article_rank": 2,
+      "title": "Lightning kills four people in Mozambique | Africanews",
+      "publisher": "en-africanews",
+      "identified_publisher": null,
+      "source_domain": "africanews.com",
+      "url": "https://www.africanews.com/2024/03/12/lightning-kills-four-people-in-mozambique/",
+      "published_at": "2024-03-12T10:50:08+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "Shares several verbatim sentences with MyJoyOnline. First publication is unknown.",
+      "content": "Four individuals lost their lives and three others sustained injuries from lightning strikes in the town of Mogincual, Nampula province in Mozambique.\n\nThe nation braces for Storm Filipo, with the southern and central provinces on alert for severe thunderstorms. Filipo has made landfall and may intensify into a severe tropical storm before dissipating at sea.\n\nIncreased rainfall has already been recorded and there are fears of mudslides. Boats and vessels are being warned by Mozambique's National Institute of Meteorology (Inam) to take precautions.\n\nNatural disasters are common in Mozambique, particularly during the rainy and cyclone season which runs between October and April.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "Four individuals lost their lives and three others sustained injuries from lightning strikes in the town of Mogincual, Nampula province in Mozambique.\n\n",
+          "start_offset": 0,
+          "end_offset": 152,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "secondary_hazard",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "lightning_deaths",
+              "value": 4,
+              "unit": "people"
+            },
+            {
+              "attribute": "lightning_injuries",
+              "value": 3,
+              "unit": "people"
+            },
+            {
+              "attribute": "location",
+              "value": "Mogincual, Nampula",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "The nation braces for Storm Filipo, with the southern and central provinces on alert for severe thunderstorms. Filipo has made landfall and may intensify into a severe tropical storm before dissipating at sea.\n\n",
+          "start_offset": 152,
+          "end_offset": 363,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "typhoon_status",
+              "value": "made landfall",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "Increased rainfall has already been recorded and there are fears of mudslides. Boats and vessels are being warned by Mozambique's National Institute of Meteorology (Inam) to take precautions.\n\n",
+          "start_offset": 363,
+          "end_offset": 556,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "Natural disasters are common in Mozambique, particularly during the rainy and cyclone season which runs between October and April.",
+          "start_offset": 556,
+          "end_offset": 686,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "weather",
+            "timeline"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "cyclone_season",
+              "value": "October to April",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "2912f1e9e9be7a818b3c71fb5fdcade3494d52e093d7e985db590f786476c3e7",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-1D27F2EAA499DAA3",
+      "event_id": "DIS-TC-5853FF10B3FE20A1",
+      "event_rank": 27,
+      "article_rank": 3,
+      "title": "Tropical Cyclone Filipo in the Mozambique Channel",
+      "publisher": "earth",
+      "identified_publisher": null,
+      "source_domain": "earth.com",
+      "url": "https://www.earth.com/image/tropical-cyclone-filipo-in-the-mozambique-channel/",
+      "published_at": "2024-03-13T12:00:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "Earth.com relays NASA imagery and an Oxfam statement, with no verifiable byline.",
+      "content": "Today's Image of the Day from NASA Earth Observatory features Tropical Cyclone Filipo, which made landfall on the morning of March 12\n\nToday’s Image of the Day from NASA Earth Observatory features Tropical Cyclone Filipo, which made landfall on the morning of March 12 near the coastal town of Inhassoro, Mozambique.\n\n“In March 2024, low wind shear in the Mozambique Channel allowed Tropical Cyclone Filipo to strengthen off the coast of southeast Africa,” said NASA.\n\n“Around the time of this image, Filipo carried maximum wind speeds of about 80 kilometers (50 miles) per hour – equivalent to a tropical storm on the Saffir-Simpson wind scale.”\n\nOxfam International noted that the storm comes just a year after Cyclone Freddy impacted parts of Mozambique and Malawi. Millions of people in this region have nothing to eat but wild roots after losing their crops to repeated extreme weather.\n\n“Consecutive disasters have made it almost impossible for affected communities to recover and rebuild their lives. Whatever little crops people have tried planting in this growing season have been damaged either due to El Nino-induced six weeks of dry spells or by flash floods,” said Machinda Marongwe, Oxfam in Southern Africa Programme Director.\n\nFilipo ultimately weakened as it moved across land on March 12, but continued to deliver strong winds and heavy rainfall in the Inhambane and Gaza provinces.\n\nAccording to NASA, the storm was expected to turn southeast and move back over the Indian Ocean by March 14.\n\nThe image was captured by the MODIS (Moderate Resolution Imaging Spectroradiometer) on NASA’s Terra satellite.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "Today's Image of the Day from NASA Earth Observatory features Tropical Cyclone Filipo, which made landfall on the morning of March 12\n\n",
+          "start_offset": 0,
+          "end_offset": 135,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "Today’s Image of the Day from NASA Earth Observatory features Tropical Cyclone Filipo, which made landfall on the morning of March 12 near the coastal town of Inhassoro, Mozambique.\n\n",
+          "start_offset": 135,
+          "end_offset": 318,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "landfall",
+              "value": "March 12 morning near Inhassoro",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "NASA Earth Observatory",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "“In March 2024, low wind shear in the Mozambique Channel allowed Tropical Cyclone Filipo to strengthen off the coast of southeast Africa,” said NASA.\n\n“Around the time of this image, Filipo carried maximum wind speeds of about 80 kilometers (50 miles) per hour – equivalent to a tropical storm on the Saffir-Simpson wind scale.”\n\n",
+          "start_offset": 318,
+          "end_offset": 648,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "maximum_wind",
+              "value": {
+                "value": 80,
+                "qualifier": "about"
+              },
+              "unit": "km/h"
+            },
+            {
+              "attribute": "driver",
+              "value": "low wind shear",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "NASA",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "Oxfam International noted that the storm comes just a year after Cyclone Freddy impacted parts of Mozambique and Malawi. Millions of people in this region have nothing to eat but wild roots after losing their crops to repeated extreme weather.\n\n“Consecutive disasters have made it almost impossible for affected communities to recover and rebuild their lives. Whatever little crops people have tried planting in this growing season have been damaged either due to El Nino-induced six weeks of dry spells or by flash floods,” said Machinda Marongwe, Oxfam in Southern Africa Programme Director.\n\n",
+          "start_offset": 648,
+          "end_offset": 1243,
+          "sentence_ids": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "humanitarian_needs",
+            "recovery",
+            "damage",
+            "weather"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reference_storm",
+              "value": "Cyclone Freddy, previous year",
+              "unit": null
+            },
+            {
+              "attribute": "dry_spell",
+              "value": 6,
+              "unit": "weeks"
+            },
+            {
+              "attribute": "attribution",
+              "value": "Oxfam",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "Filipo ultimately weakened as it moved across land on March 12, but continued to deliver strong winds and heavy rainfall in the Inhambane and Gaza provinces.\n\nAccording to NASA, the storm was expected to turn southeast and move back over the Indian Ocean by March 14.\n\n",
+          "start_offset": 1243,
+          "end_offset": 1512,
+          "sentence_ids": [
+            9,
+            10
+          ],
+          "fact_types": [
+            "weather",
+            "timeline",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "affected_provinces",
+              "value": [
+                "Inhambane",
+                "Gaza"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "expected_return_to_indian_ocean",
+              "value": "by March 14",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "The image was captured by the MODIS (Moderate Resolution Imaging Spectroradiometer) on NASA’s Terra satellite.",
+          "start_offset": 1512,
+          "end_offset": 1622,
+          "sentence_ids": [
+            11
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "a338a5fd1a4c0132ead58807b252b89044f10634da8ee57209270e6ffc48f6c1",
+        "removed_word_count": 39,
+        "removed_word_ratio": 0.13131313131313133
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "Deaths and injuries from lightning in Mogincual",
+        "fact_type": "casualties",
+        "attribute": "mogincual_lightning_deaths",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 4,
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 4,
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": "The report describes storm preparations. Filipo's role in the incident is unconfirmed."
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "People injured by lightning in Mogincual",
+        "fact_type": "injuries",
+        "attribute": "mogincual_lightning_injuries",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 3,
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 3,
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "The storm reached the Mozambique coast and made landfall",
+        "fact_type": "disaster_occurrence",
+        "attribute": "filipo_landfall",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": "reached the coast",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "made landfall",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "March 12 morning near Inhassoro",
+            "unit": null,
+            "attribution": "NASA Earth Observatory"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "The storm brought heavy rain as it passed",
+        "fact_type": "weather",
+        "attribute": "rainfall",
+        "supporting_spans": [
+          "A001_F003",
+          "A002_F003",
+          "A003_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": "rainfall increased",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": "rainfall increased",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F005",
+            "value": "heavy rain in Inhambane and Gaza",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC003"
+      ],
+      "important_facts": [
+        "FC002",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2024-03-11",
+          "time_precision": "Publication date",
+          "description": "Media reported lightning casualties and warnings of severe thunderstorms.",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002"
+          ]
+        },
+        {
+          "time": "2024-03-12",
+          "time_precision": "Local date",
+          "description": "Filipo made landfall near Inhassoro in the morning and weakened while crossing land.",
+          "supporting_spans": [
+            "A003_F002",
+            "A003_F005"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "NASA attributed intensification over the channel to low wind shear.",
+          "supporting_spans": [
+            "A003_F003"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "Filipo made landfall in Mozambique, bringing strong winds and heavy rain. Preparedness coverage also reported lightning casualties elsewhere.",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A003_F002",
+            "A003_F005"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "The lightning casualties are excluded from confirmed Filipo casualty figures."
+    ]
+  }
+}

@@ -1,0 +1,887 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-FL-8C25C506BBC8AAA0",
+  "event_rank": 20,
+  "event_metadata": {
+    "event_name": "Flood in Nepal",
+    "disaster_type": "flood",
+    "disaster_type_code": "FL",
+    "event_start_time": "2026-08-26T01:00:00+00:00",
+    "event_end_time": "2026-09-01T14:00:00+00:00",
+    "locations": [
+      "Nepal"
+    ],
+    "latitude": 27.2953,
+    "longitude": 85.3649,
+    "place_names_in_reports": [
+      "Nepal",
+      "Rasuwa",
+      "Bhotekoshi",
+      "Trishuli-3A Hydropower Project",
+      "Kathmandu",
+      "Chhauni",
+      "Nuwakot",
+      "Tibet"
+    ],
+    "gdacs_id": "1104124",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "Reports say flooding blocked the tunnel on August 26. Nine days refers to searching or making contact, and ten days to the reported entrapment. A003 says the rescue took place Thursday morning without assigning a calendar date in the annotation."
+    ],
+    "dataset_place_name": "Flood in Nepal",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-6B7ABCE178910552",
+      "event_id": "DIS-FL-8C25C506BBC8AAA0",
+      "event_rank": 20,
+      "article_rank": 1,
+      "title": "Nepal floods could cost insurers over $130 mln even before death, injury claims | International",
+      "publisher": "devdiscourse",
+      "identified_publisher": "Reuters",
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/international/3972476-nepal-floods-could-cost-insurers-over-130-mln-even-before-death-injury-claims",
+      "published_at": "2026-09-04T07:29:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "The story credits Ashwin Manikandan at the end and explicitly names Reuters interviews twice. Devdiscourse is the host.",
+      "content": "The ‌devastating ​flood in Nepal last week could result in commercial insurance losses exceeding 20 billion Nepali rupees ($132.3 million), with hydropower projects accounting for most claims, according to a top official at one of the country's leading insurers.\n\nThe insurance cover, when paid out, ‌covers losses borne by the operators of the power plants. Life insurance, personal accident and workers' compensation claims are expected separately as authorities verify deaths and missing persons in inaccessible areas.\n\nThe disaster on Nepal's border with China's Tibet region caused an estimated $2.56 billion in economic losses in the Himalayan nation of 30 million people, the country's disaster authority chief told ‌Reuters on Friday, leaving more than 1,200 dead and many more missing. Eleven Nepali hydropower projects lie in the affected region, some covered by standard commercial insurance ‌policies that are still being assessed, Toton Chakraborty, CEO of Oriental Insurance Company Nepal, told Reuters.\n\nOriental Insurance Nepal, a unit of the New Delhi-based Indian insurer, is among the leading insurers in the region. \"Hydropower projects along the affected river corridor have suffered the largest damage. In many cases, access roads and above-ground infrastructure have been washed away,\" he said.\n\nProjects including Rasuwagadhi, Upper Trishuli-3A, Chilime and Devighat, were directly affected, ⁠while assessments ​at five others are ongoing, he said. Data from ⁠the Nepal Insurance Authority show the regulator has so far received 583 flood-related claims worth 25.87 billion Nepalese rupees ($171.13 million) as of August 31.\n\nChakraborty said these figures largely reflect insured exposure rather than final ⁠claims, which will only be clear once detailed surveys are completed. Claims could rise further if repairs delay project commissioning, as some policies compensate developers for lost revenue resulting from postponed commercial ​operations, he said.\n\nNepal's non-life insurance market is small by global standards. The country's 14 non-life insurers generated premiums of about 5.3 billion Nepali rupees ($35.06 million) ⁠during July-August, regulatory data showed, compared with 314 billion Indian rupees ($3.3 billion) written by Indian insurers during a similar period. The market is supported by domestic reinsurers Nepal Re and Himalayan Re, alongside international players including India's GIC Re ⁠and ​Germany's Hannover Re.\n\nREINSURERS WARY OF HIMALAYAN RISK The floods could have lasting implications for insurance coverage of Himalayan infrastructure, four industry executives said.\n\nThe Himalayan region faces severe risks from earthquakes and any future glacial floods, a senior U.N. official told Reuters this week. \"The recent mountain floods in South Asia may lead insurers to further review ⁠hydropower and infrastructure risks, particularly in highly exposed locations,\" said Benjamin Ng, power leader for Asia at Aon, an international insurance broker.\n\nInsurers may increasingly impose exclusions, lower sub-limits and ⁠narrow coverage, resulting in higher premiums ⁠and more selective underwriting, Ng said. Other recent Himalayan catastrophes include the 2023 glacial lake outburst flood in India's Sikkim and the flash flood in the northern Indian state of Uttrakhand in 2021.\n\nThe latest floods could reshape industry views on risk accumulation and ‌glacial lake outburst flood exposure, ‌said Sanjay Mokashi, chief underwriting officer at Indian state-owned reinsurer GIC Re. ($1 = 151.1700 Nepalese rupees)\n\n(Reporting ​by Ashwin Manikandan; Editing by Raju Gopalakrishnan)",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "The ‌devastating ​flood in Nepal last week could result in commercial insurance losses exceeding 20 billion Nepali rupees ($132.3 million), with hydropower projects accounting for most claims, according to a top official at one of the country's leading insurers.\n\nThe insurance cover, when paid out, ‌covers losses borne by the operators of the power plants. Life insurance, personal accident and workers' compensation claims are expected separately as authorities verify deaths and missing persons in inaccessible areas.\n\n",
+          "start_offset": 0,
+          "end_offset": 523,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "economic_loss",
+            "injuries",
+            "missing_persons",
+            "casualties"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "estimated_commercial_loss",
+              "value": {
+                "value": 20000000000,
+                "qualifier": "greater_than"
+              },
+              "unit": "NPR"
+            },
+            {
+              "attribute": "reported_equivalent",
+              "value": 132300000,
+              "unit": "USD"
+            },
+            {
+              "attribute": "excluded_claim_lines",
+              "value": [
+                "life insurance",
+                "personal accident",
+                "workers' compensation"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "The disaster on Nepal's border with China's Tibet region caused an estimated $2.56 billion in economic losses in the Himalayan nation of 30 million people, the country's disaster authority chief told ‌Reuters on Friday, leaving more than 1,200 dead and many more missing. Eleven Nepali hydropower projects lie in the affected region, some covered by standard commercial insurance ‌policies that are still being assessed, Toton Chakraborty, CEO of Oriental Insurance Company Nepal, told Reuters.\n\n",
+          "start_offset": 523,
+          "end_offset": 1019,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "economic_loss",
+            "casualties",
+            "damage"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "economic_loss_estimate",
+              "value": 2560000000,
+              "unit": "USD"
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 1200,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "hydropower_projects_in_affected_region",
+              "value": 11,
+              "unit": "projects"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "Oriental Insurance Nepal, a unit of the New Delhi-based Indian insurer, is among the leading insurers in the region. \"Hydropower projects along the affected river corridor have suffered the largest damage. In many cases, access roads and above-ground infrastructure have been washed away,\" he said.\n\nProjects including Rasuwagadhi, Upper Trishuli-3A, Chilime and Devighat, were directly affected, ⁠while assessments ​at five others are ongoing, he said. ",
+          "start_offset": 1019,
+          "end_offset": 1473,
+          "sentence_ids": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "affected_projects",
+              "value": [
+                "Rasuwagadhi",
+                "Upper Trishuli-3A",
+                "Chilime",
+                "Devighat"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "additional_projects_under_assessment",
+              "value": 5,
+              "unit": "projects"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "Data from ⁠the Nepal Insurance Authority show the regulator has so far received 583 flood-related claims worth 25.87 billion Nepalese rupees ($171.13 million) as of August 31.\n\nChakraborty said these figures largely reflect insured exposure rather than final ⁠claims, which will only be clear once detailed surveys are completed. Claims could rise further if repairs delay project commissioning, as some policies compensate developers for lost revenue resulting from postponed commercial ​operations, he said.\n\n",
+          "start_offset": 1473,
+          "end_offset": 1984,
+          "sentence_ids": [
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "economic_loss",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "filed_claims",
+              "value": 583,
+              "unit": "claims"
+            },
+            {
+              "attribute": "filed_claim_value",
+              "value": 25870000000,
+              "unit": "NPR"
+            },
+            {
+              "attribute": "claim_cutoff",
+              "value": "2026-08-31",
+              "unit": null
+            },
+            {
+              "attribute": "final_payout_status",
+              "value": "not settled",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "Nepal's non-life insurance market is small by global standards. The country's 14 non-life insurers generated premiums of about 5.3 billion Nepali rupees ($35.06 million) ⁠during July-August, regulatory data showed, compared with 314 billion Indian rupees ($3.3 billion) written by Indian insurers during a similar period. The market is supported by domestic reinsurers Nepal Re and Himalayan Re, alongside international players including India's GIC Re ⁠and ​Germany's Hannover Re.\n\n",
+          "start_offset": 1984,
+          "end_offset": 2467,
+          "sentence_ids": [
+            13,
+            14,
+            15
+          ],
+          "fact_types": [
+            "economic_loss"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "non_life_insurers",
+              "value": 14,
+              "unit": null
+            },
+            {
+              "attribute": "july_august_premiums_approximate",
+              "value": 5300000000,
+              "unit": "NPR"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "REINSURERS WARY OF HIMALAYAN RISK The floods could have lasting implications for insurance coverage of Himalayan infrastructure, four industry executives said.\n\nThe Himalayan region faces severe risks from earthquakes and any future glacial floods, a senior U.N. official told Reuters this week. \"The recent mountain floods in South Asia may lead insurers to further review ⁠hydropower and infrastructure risks, particularly in highly exposed locations,\" said Benjamin Ng, power leader for Asia at Aon, an international insurance broker.\n\nInsurers may increasingly impose exclusions, lower sub-limits and ⁠narrow coverage, resulting in higher premiums ⁠and more selective underwriting, Ng said. Other recent Himalayan catastrophes include the 2023 glacial lake outburst flood in India's Sikkim and the flash flood in the northern Indian state of Uttrakhand in 2021.\n\nThe latest floods could reshape industry views on risk accumulation and ‌glacial lake outburst flood exposure, ‌said Sanjay Mokashi, chief underwriting officer at Indian state-owned reinsurer GIC Re. ",
+          "start_offset": 2467,
+          "end_offset": 3534,
+          "sentence_ids": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "fact_types": [
+            "economic_loss",
+            "secondary_hazard",
+            "uncertainty"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "($1 = 151.1700 Nepalese rupees)\n\n(Reporting ​by Ashwin Manikandan; Editing by Raju Gopalakrishnan)",
+          "start_offset": 3534,
+          "end_offset": 3632,
+          "sentence_ids": [
+            22,
+            23
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "d67b9c3f8a836cb7fe753a54729062533ff4396462206033d0bc81e7a216970f",
+        "removed_word_count": 16,
+        "removed_word_ratio": 0.029304029304029304
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-9CC011B18FEB0BD1",
+      "event_id": "DIS-FL-8C25C506BBC8AAA0",
+      "event_rank": 20,
+      "article_rank": 2,
+      "title": "“This is a miracle!”: Family of Kabir Maharjan after his rescue from Trishuli Hydro 3A project site - The Tribune",
+      "publisher": "tribuneindia",
+      "identified_publisher": "ANI",
+      "source_domain": "tribuneindia.com",
+      "url": "https://www.tribuneindia.com/news/world/this-is-a-miracle-family-of-kabir-maharjan-after-his-rescue-from-trishuli-hydro-3a-project-site/",
+      "published_at": "2026-09-04T08:47:13+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "ANI dateline, with additional reporting credited to the Kathmandu Post and Nepal's military.",
+      "content": "Kathmandu [Nepal], September 4 (ANI): In a highly emotional moment of profound relief, the family members of Kabir Maharjan expressed great happiness upon his rescue from a tunnel at the Trishuli 3A hydropower project.Speaking to the media, Maharjan’s cousin sister said the family had lost hope at one point but was overwhelmed with joy after his safe return.“We are very happy. We are here to meet him. We don't have a limit to our happiness. He had been trapped in the tunnel for 10 days.“This is a miracle. We had once given up hope, but today we don't have any limit to our happiness.“At the time when the news came, I had just performed the puja. I then called my other sisters and thanked God for bringing my brother safely back.”Citing Shri Ram Neupane, a lawmaker from the Rastriya Swatantra Party, the Kathmandu Post reported that the two men have been identified as Sanjay Sah, a mechanical foreman and Kabir Maharjan, a mechanical supervisor.They have been airlifted to Kathmandu.As per Army officials, Sah will be treated at Birendra Army Hospital in Chhauni while Maharjan will be taken to the National Trauma Centre.The details of their rescue were also shared by the Nepalese Army in a post on X.https://x.com/NepaliArmyHQ/status/2095761515089666544?s=20As developments follow, Rescue workers have established communication with people believed to be trapped inside the tunnel of the Trishuli 3A hydropower project, nine days after the disaster struck the Himalayan nation.The tunnel was sealed by flooding triggered by the Bhotekoshi River in Rasuwa on August 26. According to the rescue team, voices of more than one person were heard from inside the tunnel during the operation on Friday.Rescuers reportedly told those inside, “Don’t panic, we are rescuing you,” to which they responded, “Yes.”A rescue team comprising personnel from the Nepali Army and Armed Police Force has entered the tunnel and intensified the search and rescue operation. Direct communication with the trapped individuals is being viewed as a significant and encouraging development in the ongoing rescue effort.Rescue and relief efforts continue to take place in Nepal.Earlier on Friday, a pregnant woman was airlifted to Kathmandu from the flood-affected area of Army Camp in Bidur from Nuwakot.Search and rescue operations have been continuing for nine days to locate and rescue people believed to be trapped inside the tunnel of the Trishuli 3A Hydropower Project.Meanwhile, as developments follow, the death toll in the Nepal floods has risen to 1290, according to the Nepal Police.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "Kathmandu [Nepal], September 4 (ANI): In a highly emotional moment of profound relief, the family members of Kabir Maharjan expressed great happiness upon his rescue from a tunnel at the Trishuli 3A hydropower project.Speaking to the media, Maharjan’s cousin sister said the family had lost hope at one point but was overwhelmed with joy after his safe return.“We are very happy. We are here to meet him. We don't have a limit to our happiness. He had been trapped in the tunnel for 10 days.“This is a miracle. We had once given up hope, but today we don't have any limit to our happiness.“At the time when the news came, I had just performed the puja. I then called my other sisters and thanked God for bringing my brother safely back.”",
+          "start_offset": 0,
+          "end_offset": 737,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "fact_types": [
+            "public_reaction",
+            "timeline",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "person",
+              "value": "Kabir Maharjan",
+              "unit": null
+            },
+            {
+              "attribute": "trapped_duration",
+              "value": 10,
+              "unit": "days"
+            },
+            {
+              "attribute": "attribution",
+              "value": "relative speaking to media",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "Citing Shri Ram Neupane, a lawmaker from the Rastriya Swatantra Party, the Kathmandu Post reported that the two men have been identified as Sanjay Sah, a mechanical foreman and Kabir Maharjan, a mechanical supervisor.They have been airlifted to Kathmandu.As per Army officials, Sah will be treated at Birendra Army Hospital in Chhauni while Maharjan will be taken to the National Trauma Centre.The details of their rescue were also shared by the Nepalese Army in a post on X.https://x.com/NepaliArmyHQ/status/2095761515089666544?",
+          "start_offset": 737,
+          "end_offset": 1266,
+          "sentence_ids": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "fact_types": [
+            "response",
+            "injuries"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "rescued",
+              "value": [
+                "Sanjay Sah",
+                "Kabir Maharjan"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "destination",
+              "value": "Kathmandu",
+              "unit": null
+            },
+            {
+              "attribute": "reported_transfer_plan",
+              "value": {
+                "Sanjay Sah": "Birendra Army Hospital",
+                "Kabir Maharjan": "National Trauma Centre"
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "s=20As developments follow, Rescue workers have established communication with people believed to be trapped inside the tunnel of the Trishuli 3A hydropower project, nine days after the disaster struck the Himalayan nation.The tunnel was sealed by flooding triggered by the Bhotekoshi River in Rasuwa on August 26. According to the rescue team, voices of more than one person were heard from inside the tunnel during the operation on Friday.Rescuers reportedly told those inside, “Don’t panic, we are rescuing you,” to which they responded, “Yes.”",
+          "start_offset": 1266,
+          "end_offset": 1813,
+          "sentence_ids": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "response",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "flood_date",
+              "value": "2026-08-26",
+              "unit": null
+            },
+            {
+              "attribute": "river",
+              "value": "Bhotekoshi",
+              "unit": null
+            },
+            {
+              "attribute": "communication_after_disaster",
+              "value": 9,
+              "unit": "days"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "A rescue team comprising personnel from the Nepali Army and Armed Police Force has entered the tunnel and intensified the search and rescue operation. Direct communication with the trapped individuals is being viewed as a significant and encouraging development in the ongoing rescue effort.Rescue and relief efforts continue to take place in Nepal.Earlier on Friday, a pregnant woman was airlifted to Kathmandu from the flood-affected area of Army Camp in Bidur from Nuwakot.Search and rescue operations have been continuing for nine days to locate and rescue people believed to be trapped inside the tunnel of the Trishuli 3A Hydropower Project.",
+          "start_offset": 1813,
+          "end_offset": 2460,
+          "sentence_ids": [
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "fact_types": [
+            "response",
+            "evacuation"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "response",
+              "value": [
+                "Nepali Army",
+                "Armed Police Force"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "additional_airlift",
+              "value": "pregnant woman from Nuwakot",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "Meanwhile, as developments follow, the death toll in the Nepal floods has risen to 1290, according to the Nepal Police.",
+          "start_offset": 2460,
+          "end_offset": 2579,
+          "sentence_ids": [
+            24
+          ],
+          "fact_types": [
+            "casualties"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": 1290,
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "Nepal Police",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "f9941dd9e25e310f24204e0070a007c7e5c14ce0422c9a2b99bd886f9fd53eeb",
+        "removed_word_count": 27,
+        "removed_word_ratio": 0.058823529411764705
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-009B2E547F9A88EE",
+      "event_id": "DIS-FL-8C25C506BBC8AAA0",
+      "event_rank": 20,
+      "article_rank": 3,
+      "title": "Two workers rescued alive after 10 days in Trishuli-3A tunnel",
+      "publisher": "thehimalayantimes",
+      "identified_publisher": "The Himalayan Times",
+      "source_domain": "thehimalayantimes.com",
+      "url": "https://thehimalayantimes.com/nepal/two-workers-rescued-alive-after-10-days-in-trishuli-3a-tunnel",
+      "published_at": "2026-09-04T11:48:13+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "Kathmandu dateline with separate quotations from Nepal's military spokesperson and a prime ministerial adviser. No shared ANI copy was identified.",
+      "content": "Key Takeaways: Workers Sanjay Sah and Kabir Maharjan rescued alive after 10 days Nepal Army, Police, Armed Police Force and experts led the operation Sah stable, Maharjan critical; both admitted to Birendra Army Hospital Rescue part of wider search efforts after devastating Rasuwa flood KATHMANDU, SEPTEMBER 4\n\nTwo workers trapped inside a tunnel of the Trishuli-3A Hydropower Project since the devastating Bhotekoshi flood have been rescued alive 10 days after they went missing.\n\nThe two, Sanjay Sah and Kabir Maharjan, were rescued Thursday morning by a joint team led by the Nepal Army, with personnel from the Nepal Police, Armed Police Force and technical experts.\n\nNepal Army spokesperson Rajaram Basnet confirmed both workers were found alive inside the project tunnel.\n\nAccording to Dipa Dahal, press and research expert to the Prime Minister, Sah is in stable condition, while Maharjan is in serious condition. Maharjan, rescued second, was taken to Birendra Army Hospital in Chhauni for intensive treatment. Sah, though stable, is also being taken to the hospital for further examination.\n\nRescue teams had been making continuous efforts since the flood struck, amid fears that people were trapped inside the hydropower project. The successful rescue comes as part of a wider search and rescue operation following the devastating flood in Rasuwa.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "Key Takeaways: Workers Sanjay Sah and Kabir Maharjan rescued alive after 10 days Nepal Army, Police, Armed Police Force and experts led the operation Sah stable, Maharjan critical; both admitted to Birendra Army Hospital Rescue part of wider search efforts after devastating Rasuwa flood KATHMANDU, SEPTEMBER 4\n\n",
+          "start_offset": 0,
+          "end_offset": 312,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "Two workers trapped inside a tunnel of the Trishuli-3A Hydropower Project since the devastating Bhotekoshi flood have been rescued alive 10 days after they went missing.\n\nThe two, Sanjay Sah and Kabir Maharjan, were rescued Thursday morning by a joint team led by the Nepal Army, with personnel from the Nepal Police, Armed Police Force and technical experts.\n\nNepal Army spokesperson Rajaram Basnet confirmed both workers were found alive inside the project tunnel.\n\n",
+          "start_offset": 312,
+          "end_offset": 780,
+          "sentence_ids": [
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "response",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "rescued",
+              "value": [
+                "Sanjay Sah",
+                "Kabir Maharjan"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "trapped_duration",
+              "value": 10,
+              "unit": "days"
+            },
+            {
+              "attribute": "reported_rescue_time",
+              "value": "Thursday morning",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Rajaram Basnet confirming both alive",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "According to Dipa Dahal, press and research expert to the Prime Minister, Sah is in stable condition, while Maharjan is in serious condition. Maharjan, rescued second, was taken to Birendra Army Hospital in Chhauni for intensive treatment. Sah, though stable, is also being taken to the hospital for further examination.\n\n",
+          "start_offset": 780,
+          "end_offset": 1102,
+          "sentence_ids": [
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "injuries",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "sah_condition",
+              "value": "stable",
+              "unit": null
+            },
+            {
+              "attribute": "maharjan_condition",
+              "value": "serious",
+              "unit": null
+            },
+            {
+              "attribute": "maharjan_destination",
+              "value": "Birendra Army Hospital",
+              "unit": null
+            },
+            {
+              "attribute": "sah_destination",
+              "value": "being taken to the hospital",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "Rescue teams had been making continuous efforts since the flood struck, amid fears that people were trapped inside the hydropower project. The successful rescue comes as part of a wider search and rescue operation following the devastating flood in Rasuwa.",
+          "start_offset": 1102,
+          "end_offset": 1358,
+          "sentence_ids": [
+            8,
+            9
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "90ffdad398dff2b5c65ff255d6b636f2b9cdffb3e40150a3476a3d3b8223ecf4",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "The Nepal flood fatality counts are compatible",
+        "fact_type": "casualties",
+        "attribute": "death_toll",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": {
+              "value": 1200,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": "disaster authority chief (article context)"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F005",
+            "value": 1290,
+            "unit": "people",
+            "attribution": "Nepal Police"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "Two tunnel workers were rescued",
+        "fact_type": "response",
+        "attribute": "rescued_workers",
+        "supporting_spans": [
+          "A002_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": [
+              "Sanjay Sah",
+              "Kabir Maharjan"
+            ],
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": [
+              "Sanjay Sah",
+              "Kabir Maharjan"
+            ],
+            "unit": null,
+            "attribution": "Nepal Army"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "Reports differ on Maharjan's planned transfer and the hospital where he was treated",
+        "fact_type": "response",
+        "attribute": "maharjan_hospital_transfer",
+        "supporting_spans": [
+          "A002_F002",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "planned for National Trauma Centre",
+            "unit": null,
+            "attribution": "Army officials"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "taken to Birendra Army Hospital",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "The transfer plan and reported destination may reflect different stages and are insufficient to establish a conflict."
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "The face value of filed claims differs from projected final insured losses",
+        "fact_type": "economic_loss",
+        "attribute": "insurance_exposure",
+        "supporting_spans": [
+          "A001_F001",
+          "A001_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 20000000000,
+              "qualifier": "greater_than"
+            },
+            "unit": "NPR",
+            "attribution": "Oriental Insurance Nepal"
+          },
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": {
+              "filed_claim_value": 25870000000
+            },
+            "unit": "NPR",
+            "attribution": "Nepal Insurance Authority"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2026-08-26",
+          "time_precision": "Local date",
+          "description": "Flooding from the Bhotekoshi River blocked the hydroelectric project tunnel.",
+          "supporting_spans": [
+            "A002_F003",
+            "A003_F002"
+          ]
+        },
+        {
+          "time": "2026-08-31",
+          "time_precision": "Reporting cutoff",
+          "description": "The insurance regulator had received 583 flood claims.",
+          "supporting_spans": [
+            "A001_F004"
+          ]
+        },
+        {
+          "time": "About ten days after the flood",
+          "time_precision": "Relative time",
+          "description": "A military-led joint team rescued the two workers, who were transferred for treatment.",
+          "supporting_spans": [
+            "A002_F002",
+            "A003_F002",
+            "A003_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "Flooding blocked the Trishuli-3A tunnel, damaged several hydropower facilities, and generated substantial insurance claims.",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F003",
+            "A002_F003"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "Flooding caused severe human and economic losses and damaged hydropower facilities. Rescuers freed two trapped workers.",
+          "supporting_spans": [
+            "A001_F002",
+            "A001_F003",
+            "A002_F005",
+            "A003_F002"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "Estimated economic losses, commercial insured losses, and the value of filed claims are distinct measures."
+    ]
+  }
+}

@@ -1,0 +1,866 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-FL-F8EB202E94DFDFD8",
+  "event_rank": 24,
+  "event_metadata": {
+    "event_name": "Flood in Spain",
+    "disaster_type": "flood",
+    "disaster_type_code": "FL",
+    "event_start_time": "2024-10-27T15:00:00+00:00",
+    "event_end_time": "2024-11-04T11:00:00+00:00",
+    "locations": [
+      "Spain"
+    ],
+    "latitude": 39.4178,
+    "longitude": -2.6232,
+    "place_names_in_reports": [
+      "Valencia",
+      "Paiporta",
+      "Chiva",
+      "Castellón",
+      "Bonaire shopping centre",
+      "Madrid"
+    ],
+    "gdacs_id": "1102983",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "Tuesday was October 29 and the royals visited on Sunday, November 3. Death counts, body recovery, and deployment plans have different cutoffs."
+    ],
+    "dataset_place_name": "Flood in Spain",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-E02CF867E0B90D54",
+      "event_id": "DIS-FL-F8EB202E94DFDFD8",
+      "event_rank": 24,
+      "article_rank": 1,
+      "title": "Royal Visit Sparks Outrage Amid Valencia's Flood Disaster | Science-Environment",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/science-environment/3144606-royal-visit-sparks-outrage-amid-valencias-flood-disaster",
+      "published_at": "2024-11-03T14:44:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "The article summarizes the royal visit and regional disputes. The cleaned text lacks a clear original byline.",
+      "content": "Amid rising tensions in Valencia's flood-stricken suburb of Paiporta, Spanish King Felipe, Queen Letizia, and Prime Minister Pedro Sanchez faced furious residents during their Sunday visit. The community, grappling with last week's devastating floods, voiced anger over delayed alerts and emergency responses, with some resorting to mud-slinging at the officials.\n\nExpressing grievances, a young man confronted the king, lamenting the known risks that went unaddressed. While Felipe stayed to engage with the aggrieved populace, Prime Minister Sanchez made a swift exit. Despite the chaos, the royal couple offered consolation—a gesture met with mixed reactions amidst chants labeling them 'murderers.'\n\nAs the regional and central governments exchange blame over alert responsibilities, Spain conducts a massive relief operation. The floods claimed over 217 lives, predominantly in Valencia. This disaster, exacerbated by climate change, is Europe's deadliest single-country flood event since 1967 in Portugal, drawing attention to global climate concerns.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "Amid rising tensions in Valencia's flood-stricken suburb of Paiporta, Spanish King Felipe, Queen Letizia, and Prime Minister Pedro Sanchez faced furious residents during their Sunday visit. The community, grappling with last week's devastating floods, voiced anger over delayed alerts and emergency responses, with some resorting to mud-slinging at the officials.\n\nExpressing grievances, a young man confronted the king, lamenting the known risks that went unaddressed. While Felipe stayed to engage with the aggrieved populace, Prime Minister Sanchez made a swift exit. Despite the chaos, the royal couple offered consolation—a gesture met with mixed reactions amidst chants labeling them 'murderers.'\n\n",
+          "start_offset": 0,
+          "end_offset": 704,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "public_reaction",
+            "timeline",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "visit",
+              "value": "King Felipe, Queen Letizia and Pedro Sánchez visited Paiporta on Sunday",
+              "unit": null
+            },
+            {
+              "attribute": "grievances",
+              "value": "delayed warnings and emergency response",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "As the regional and central governments exchange blame over alert responsibilities, Spain conducts a massive relief operation. The floods claimed over 217 lives, predominantly in Valencia. This disaster, exacerbated by climate change, is Europe's deadliest single-country flood event since 1967 in Portugal, drawing attention to global climate concerns.",
+          "start_offset": 704,
+          "end_offset": 1057,
+          "sentence_ids": [
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "response",
+            "casualties",
+            "cause"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 217,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "main_region",
+              "value": "Valencia",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "deef607e1879d6c324a24ceb6b6027b004e6802f5d4aca1b5488e07a01614dea",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-21576182762570DC",
+      "event_id": "DIS-FL-F8EB202E94DFDFD8",
+      "event_rank": 24,
+      "article_rank": 2,
+      "title": "Mud flies as Spain''s king and queen visit flood-hit region",
+      "publisher": "news-yahoo",
+      "identified_publisher": null,
+      "source_domain": "yahoo.com",
+      "url": "https://www.yahoo.com/news/mud-flies-spains-king-queen-172724219.html",
+      "published_at": "2024-11-03T17:27:24+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "Yahoo hosts the article, which relays RTVE repeatedly. The original wire-service credit is unavailable.",
+      "content": "Spain's king and queen and their entourage which included Prime Minister Pedro Sánchez were met with hostility and pelted with mud on Sunday during a visit to the flood-ravaged Valencia region.\n\nAuthorities said the death toll has risen to 217 following Tuesday's deadly storms and flash floods. With many people still missing, the death toll is expected to increase.\n\nIn the town of Paiporta, near Valencia, some locals reportedly shouted \"murderers\" and \"resign\" at the visiting delegation, which consisted of King Felipe VI, Queen Letizia, Sánchez and Carlos Mazón, president of the Valencia regional government.\n\nOthers yelled \"Grab a shovel and lend a hand,\" according to TV broadcasts.\n\nThe atmosphere in the town, which is among the worst affected, was very tense, the state broadcaster RTVE reported. The royal couple tried to talk to the people who approached the group and to calm them.\n\nState television RTVE broadcast the event live and showed Queen Letizia, her face and hands covered in mud, talking to a woman, visibly shaken, with mud on her hair and clothes.\n\nKing Felipe VI also tried to comfort residents and also hugged two younger residents, as RTVE showed. After the first mud was thrown, he continued his attempts, with his security people putting up an umbrella to protect him.\n\nBut they finally took him to a safe place. In view of the extremely tense situation, the planned visit to the town of Chiva was also postponed, RTVE reported.\n\nThe royal visit came five days after the severe storms battered the east and south of Spain.\n\nMany people from the devastated communities felt completely abandoned in the first hours and days after the disaster, with cars and furniture piled up on the muddy streets of villages left without drinking water, food, electricity or telecommunications.\n\nMany mayors took matters into their own hands and organized initial assistance for their inhabitants in the villages, which were cut off from the road network.\n\nSupport also came from volunteers who walked from the city of Valencia to the nearby villages with salvage equipment and donations of food, bottled water and clothing.\n\nSevere weather continues to affect Spain's Mediterranean coast. An orange alert - the second-highest level - is in effect in parts of the Valencia region, including the province of Castellón, where heavy rainfall may occur.\n\nRecovery efforts are now in their sixth day. The search is particularly difficult in tunnels and flooded underground or multi-storey car parks.\n\nOn Saturday, Sánchez said a further 5,000 soldiers and 5,000 police officers would be deployed. The Spanish central government in Madrid says more than 3,600 military personnel are currently deployed in the worst-affected areas near the city of Valencia.\n\nPreviously, there had been harsh criticism, especially from the affected towns, which had been left to their own devices in the first few days.\n\nIn many of the worst-hit 15 or so villages, roads are still blocked by piled-up cars or stranded household goods and covered in thick mud.\n\nHelp has now started to arrive in many of these villages, thanks in part to the efforts of many volunteers, and the power supply is also largely functioning again.\n\nIn the area west and south of the city of Valencia, an otherwise usually dry riverbed was turned into a raging torrent by the heavy rainfall on Tuesday and rushed towards the sea through several villages, causing severe damage.\n\nSpanish King Felipe VI visits an area affected by the heavy floods in Valencia region. At least 213 people were killed in Tuesday's storms and floods in Spain's southern and eastern regions, most of them in the Valencia region.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "Spain's king and queen and their entourage which included Prime Minister Pedro Sánchez were met with hostility and pelted with mud on Sunday during a visit to the flood-ravaged Valencia region.\n\n",
+          "start_offset": 0,
+          "end_offset": 195,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "public_reaction",
+            "timeline",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "royal_visit_location",
+              "value": "Valencia region",
+              "unit": null
+            },
+            {
+              "attribute": "royal_visit_day",
+              "value": "Sunday",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "Authorities said the death toll has risen to 217 following Tuesday's deadly storms and flash floods. With many people still missing, the death toll is expected to increase.\n\n",
+          "start_offset": 195,
+          "end_offset": 369,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "casualties",
+            "missing_persons",
+            "uncertainty"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_deaths",
+              "value": 217,
+              "unit": "people"
+            },
+            {
+              "attribute": "missing",
+              "value": "many",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "authorities",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "In the town of Paiporta, near Valencia, some locals reportedly shouted \"murderers\" and \"resign\" at the visiting delegation, which consisted of King Felipe VI, Queen Letizia, Sánchez and Carlos Mazón, president of the Valencia regional government.\n\nOthers yelled \"Grab a shovel and lend a hand,\" according to TV broadcasts.\n\nThe atmosphere in the town, which is among the worst affected, was very tense, the state broadcaster RTVE reported. The royal couple tried to talk to the people who approached the group and to calm them.\n\nState television RTVE broadcast the event live and showed Queen Letizia, her face and hands covered in mud, talking to a woman, visibly shaken, with mud on her hair and clothes.\n\nKing Felipe VI also tried to comfort residents and also hugged two younger residents, as RTVE showed. After the first mud was thrown, he continued his attempts, with his security people putting up an umbrella to protect him.\n\nBut they finally took him to a safe place. In view of the extremely tense situation, the planned visit to the town of Chiva was also postponed, RTVE reported.\n\n",
+          "start_offset": 369,
+          "end_offset": 1463,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "public_reaction",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "visit_location",
+              "value": "Paiporta",
+              "unit": null
+            },
+            {
+              "attribute": "postponed_visit",
+              "value": "Chiva",
+              "unit": null
+            },
+            {
+              "attribute": "reported_by",
+              "value": "RTVE",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "The royal visit came five days after the severe storms battered the east and south of Spain.\n\nMany people from the devastated communities felt completely abandoned in the first hours and days after the disaster, with cars and furniture piled up on the muddy streets of villages left without drinking water, food, electricity or telecommunications.\n\nMany mayors took matters into their own hands and organized initial assistance for their inhabitants in the villages, which were cut off from the road network.\n\nSupport also came from volunteers who walked from the city of Valencia to the nearby villages with salvage equipment and donations of food, bottled water and clothing.\n\n",
+          "start_offset": 1463,
+          "end_offset": 2142,
+          "sentence_ids": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "humanitarian_needs",
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "disruptions",
+              "value": [
+                "roads",
+                "drinking water",
+                "food",
+                "electricity",
+                "telecommunications"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "Severe weather continues to affect Spain's Mediterranean coast. An orange alert - the second-highest level - is in effect in parts of the Valencia region, including the province of Castellón, where heavy rainfall may occur.\n\n",
+          "start_offset": 2142,
+          "end_offset": 2367,
+          "sentence_ids": [
+            17,
+            18
+          ],
+          "fact_types": [
+            "response",
+            "weather",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "alert",
+              "value": "orange",
+              "unit": null
+            },
+            {
+              "attribute": "scope",
+              "value": "parts of Valencia including Castellón",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "Recovery efforts are now in their sixth day. The search is particularly difficult in tunnels and flooded underground or multi-storey car parks.\n\n",
+          "start_offset": 2367,
+          "end_offset": 2512,
+          "sentence_ids": [
+            19,
+            20
+          ],
+          "fact_types": [
+            "response",
+            "missing_persons"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "search_constraints",
+              "value": "tunnels and flooded car parks",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "On Saturday, Sánchez said a further 5,000 soldiers and 5,000 police officers would be deployed. The Spanish central government in Madrid says more than 3,600 military personnel are currently deployed in the worst-affected areas near the city of Valencia.\n\n",
+          "start_offset": 2512,
+          "end_offset": 2768,
+          "sentence_ids": [
+            21,
+            22
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "planned_more_soldiers",
+              "value": 5000,
+              "unit": "people"
+            },
+            {
+              "attribute": "planned_more_police",
+              "value": 5000,
+              "unit": "people"
+            },
+            {
+              "attribute": "currently_deployed_military",
+              "value": {
+                "value": 3600,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "Previously, there had been harsh criticism, especially from the affected towns, which had been left to their own devices in the first few days.\n\nIn many of the worst-hit 15 or so villages, roads are still blocked by piled-up cars or stranded household goods and covered in thick mud.\n\nHelp has now started to arrive in many of these villages, thanks in part to the efforts of many volunteers, and the power supply is also largely functioning again.\n\nIn the area west and south of the city of Valencia, an otherwise usually dry riverbed was turned into a raging torrent by the heavy rainfall on Tuesday and rushed towards the sea through several villages, causing severe damage.\n\n",
+          "start_offset": 2768,
+          "end_offset": 3447,
+          "sentence_ids": [
+            23,
+            24,
+            25,
+            26
+          ],
+          "fact_types": [
+            "public_reaction",
+            "infrastructure",
+            "damage",
+            "recovery",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "badly_affected_villages",
+              "value": {
+                "value": 15,
+                "qualifier": "about"
+              },
+              "unit": "villages"
+            },
+            {
+              "attribute": "cause",
+              "value": "heavy rain turned usually dry riverbed into torrent",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F009",
+          "span_text": "Spanish King Felipe VI visits an area affected by the heavy floods in Valencia region. At least 213 people were killed in Tuesday's storms and floods in Spain's southern and eastern regions, most of them in the Valencia region.",
+          "start_offset": 3447,
+          "end_offset": 3674,
+          "sentence_ids": [
+            27,
+            28
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "08b60cffcfbb22d90c379bfd74498c7a192d23206cab074a58cb437d3c01a74d",
+        "removed_word_count": 5,
+        "removed_word_ratio": 0.008223684210526315
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-0A85230232566659",
+      "event_id": "DIS-FL-F8EB202E94DFDFD8",
+      "event_rank": 24,
+      "article_rank": 3,
+      "title": "Rescue teams drain underground garages in search for missing people in Valencia",
+      "publisher": "euronews-en",
+      "identified_publisher": null,
+      "source_domain": "euronews.com",
+      "url": "https://www.euronews.com/my-europe/2024/11/03/rescue-teams-drain-underground-garages-in-search-for-missing-people-in-valencia",
+      "published_at": "2024-11-03T20:49:33+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "Euronews provides no original byline or evidence of shared copy.",
+      "content": "Roughly 5,000 additional soldiers arrived from Madrid and other parts of Spain to assist in the search for missing people following last week's deadly floods, nearly doubling the 4,500 who are already there. An additional 5,000 troops are still expected to arrive.At least 214 bodies have so far been recovered, mostly in the eastern Valencia region, after Spain was hit by the deadliest natural disaster the country has seen in decades, where tsunami-like floods swept across the southeast. Military units and firefighters joined forces to drain water and mud from underground garages, so that rescue teams can continue their search for bodies.The parking lot of the Bonaire shopping centre, the biggest mall in Valencia, has a capacity of 5,700 parking spaces and was flooded with more than three meters of water. Until now, emergency service workers and soldiers have entered the flooded lots, often continuing their search into the night, working with limited light, in kayaks or by foot with water up to their necks.Emergency troops have so far rescued about 4,800 people and helped more than 30,000, according to Prime Minister Pedro Sánchez. Citizens warned to stay at home Feeling abandoned by the government, a wave of volunteers armed with buckets, shovels, and brooms took to the streets to join clean-up efforts. However, an additional warning was sent out requesting people to stay at home and off the roads as more heavy rain is expected to hit the region. The government has been under scrutiny for their lack of preparedness and management of the crisis. The Valencia regional government only sent out flood warnings to mobile phones at 8pm on Tuesday, after flooding had already started in some places and the national weather agency issued a red alert indicating heavy rains.Earlier on Sunday, a crowd of angry residents hurled mud at the Spanish King and Queen and government officials, who were visiting the city of Paiporta on the outskirts of Valencia, one of the worst-affected cities in the region.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "Roughly 5,000 additional soldiers arrived from Madrid and other parts of Spain to assist in the search for missing people following last week's deadly floods, nearly doubling the 4,500 who are already there. An additional 5,000 troops are still expected to arrive.",
+          "start_offset": 0,
+          "end_offset": 264,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "reported_additional_arrived_soldiers",
+              "value": {
+                "value": 5000,
+                "qualifier": "roughly"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "military_already_there",
+              "value": 4500,
+              "unit": "people"
+            },
+            {
+              "attribute": "expected_additional_troops",
+              "value": 5000,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "At least 214 bodies have so far been recovered, mostly in the eastern Valencia region, after Spain was hit by the deadliest natural disaster the country has seen in decades, where tsunami-like floods swept across the southeast. ",
+          "start_offset": 264,
+          "end_offset": 492,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "casualties"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "recovered_bodies",
+              "value": {
+                "value": 214,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "Military units and firefighters joined forces to drain water and mud from underground garages, so that rescue teams can continue their search for bodies.The parking lot of the Bonaire shopping centre, the biggest mall in Valencia, has a capacity of 5,700 parking spaces and was flooded with more than three meters of water. Until now, emergency service workers and soldiers have entered the flooded lots, often continuing their search into the night, working with limited light, in kayaks or by foot with water up to their necks.Emergency troops have so far rescued about 4,800 people and helped more than 30,000, according to Prime Minister Pedro Sánchez. ",
+          "start_offset": 492,
+          "end_offset": 1149,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure",
+            "damage",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "bonaire_capacity",
+              "value": 5700,
+              "unit": "parking spaces"
+            },
+            {
+              "attribute": "bonaire_water_depth",
+              "value": {
+                "value": 3,
+                "qualifier": "greater_than"
+              },
+              "unit": "m"
+            },
+            {
+              "attribute": "rescued",
+              "value": {
+                "value": 4800,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "helped",
+              "value": {
+                "value": 30000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "Citizens warned to stay at home Feeling abandoned by the government, a wave of volunteers armed with buckets, shovels, and brooms took to the streets to join clean-up efforts. However, an additional warning was sent out requesting people to stay at home and off the roads as more heavy rain is expected to hit the region. The government has been under scrutiny for their lack of preparedness and management of the crisis. The Valencia regional government only sent out flood warnings to mobile phones at 8pm on Tuesday, after flooding had already started in some places and the national weather agency issued a red alert indicating heavy rains.Earlier on Sunday, a crowd of angry residents hurled mud at the Spanish King and Queen and government officials, who were visiting the city of Paiporta on the outskirts of Valencia, one of the worst-affected cities in the region.",
+          "start_offset": 1149,
+          "end_offset": 2022,
+          "sentence_ids": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "response",
+            "public_reaction",
+            "weather",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "phone_warning_time",
+              "value": "Tuesday 20:00",
+              "unit": null
+            },
+            {
+              "attribute": "warning_context",
+              "value": "flooding already started in some places",
+              "unit": null
+            },
+            {
+              "attribute": "royal_visit_location",
+              "value": "Paiporta",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "86c393a4995814c4ce02d8bfd7b4ffc44da334e330b89da23380f934168a2943",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "Reported death tolls and counts of recovered bodies use different measures",
+        "fact_type": "casualties",
+        "attribute": "death_toll_and_recovered_bodies",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": {
+              "value": 217,
+              "qualifier": "greater_than",
+              "scope": "death toll"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": {
+              "value": 217,
+              "scope": "death toll"
+            },
+            "unit": "people",
+            "attribution": "authorities"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "value": 214,
+              "qualifier": "at_least",
+              "scope": "recovered bodies"
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "The first two reports give no common death-count cutoff. Recovered bodies are a separate measure."
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "Residents protested during the royal visit to Paiporta",
+        "fact_type": "public_reaction",
+        "attribute": "paiporta_royal_visit",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "Sunday, angry residents and mud",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "Sunday, hostility and mud",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": "Sunday, angry residents threw mud",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "More rescue personnel were deployed to Valencia",
+        "fact_type": "response",
+        "attribute": "personnel_deployment",
+        "supporting_spans": [
+          "A002_F007",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F007",
+            "value": "plans for 5,000 more soldiers and 5,000 police; more than 3,600 military currently deployed in worst-hit areas near Valencia city",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": "about 5,000 soldiers arrived, in addition to 4,500 already there; 5,000 more expected",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "Personnel types, deployment areas, and actual arrival counts differ."
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "Flooded underground garages hampered searches",
+        "fact_type": "response",
+        "attribute": "garage_search_operations",
+        "supporting_spans": [
+          "A002_F006",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F006",
+            "value": "search difficult in garages and tunnels",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "military and firefighters draining garages",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001"
+      ],
+      "important_facts": [
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2024-10-29",
+          "time_precision": "Local date",
+          "description": "Heavy rain caused flooding, and the regional government sent phone alerts that evening.",
+          "supporting_spans": [
+            "A002_F008",
+            "A003_F004"
+          ]
+        },
+        {
+          "time": "2024-11-03",
+          "time_precision": "Local date",
+          "description": "Residents protested during the royal visit to Paiporta. Search and rescue continued.",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F001",
+            "A003_F003",
+            "A003_F004"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "Heavy rain caused waterways to rise rapidly. Cars, mud, and standing water blocked access and hampered searches.",
+          "supporting_spans": [
+            "A002_F008",
+            "A003_F003"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "Flooding caused many deaths, and searches for missing people continued. Residents voiced anger about the response and warnings during the royal visit.",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A002_F002",
+            "A003_F003",
+            "A003_F004"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "A002's final photo caption says at least 213, while the body says 217. Both occur within one article and do not count as separate reports."
+    ]
+  }
+}

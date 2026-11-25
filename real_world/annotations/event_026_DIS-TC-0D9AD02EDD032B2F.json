@@ -1,0 +1,816 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-TC-0D9AD02EDD032B2F",
+  "event_rank": 26,
+  "event_metadata": {
+    "event_name": "Tropical Cyclone BERYL-24",
+    "disaster_type": "tropical_cyclone",
+    "disaster_type_code": "TC",
+    "event_start_time": "2024-06-28T21:00:00+00:00",
+    "event_end_time": "2024-07-09T09:00:00+00:00",
+    "locations": [
+      "Haiti",
+      "Grenada",
+      "Jamaica",
+      "Trinidad and Tobago",
+      "Saint Vincent and the Grenadines",
+      "Mexico",
+      "Belize",
+      "United States"
+    ],
+    "latitude": 33.9,
+    "longitude": -93.7,
+    "place_names_in_reports": [
+      "Caribbean",
+      "Jamaica",
+      "Texas",
+      "Louisiana",
+      "Grenada",
+      "Venezuela",
+      "Saint Vincent and the Grenadines",
+      "Tamaulipas",
+      "Tampico",
+      "Ciudad Madero",
+      "Altamira",
+      "Portland",
+      "St Mary",
+      "St Elizabeth"
+    ],
+    "gdacs_id": "1001067",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "The death tolls have no shared cutoff. The Mexican crocodile figures span both Alberto and Beryl."
+    ],
+    "dataset_place_name": "Tropical Cyclone BERYL-24",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-BB14BFC123826F27",
+      "event_id": "DIS-TC-0D9AD02EDD032B2F",
+      "event_rank": 26,
+      "article_rank": 1,
+      "title": "At Least 200 Crocodiles Crawl Into Cities as Heavy Rains Hit Northern Mexico, Near Texas",
+      "publisher": "usnews",
+      "identified_publisher": "Associated Press",
+      "source_domain": "usnews.com",
+      "url": "https://www.usnews.com/news/world/articles/2024-07-11/at-least-200-crocodiles-crawl-into-cities-as-heavy-rains-hit-northern-mexico-near-texas",
+      "published_at": "2024-07-11T00:00:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "The body carries an explicit AP dateline. US News is the host.",
+      "content": "MEXICO CITY (AP) — Heavy rains associated with Hurricane Beryl and the earlier Tropical Storm Alberto have led at least 200 crocodiles to enter urban areas in the northern Mexican state of Tamaulipas, across from Texas, state and federal authorities said this week.So far, authorities say they have captured and relocated around 200 of the big reptiles since Alberto pelted the region with rain in June. Beryl brushed the same area before making landfall in south Texas earlier this week.Authorities said the heavy rains raised water levels in coastal lagoons, leading the animals to crawl into cities like Tampico and the nearby cities of Ciudad Madero and Altamira, where at least 165 crocodiles have been captured and relocated.The head of Tamaulipas state environment department, Karina Lizeth Saldívar, said in a statement that “the recent rains have increased the water levels in the lagoon systems, which had led to an increase in the sightings of crocodiles.”The federal Attorney General's Office for Environmental Protection said about 40 more crocodiles had been captured in the area in June and were relocated to appropriate habitat outside populated areas. The problem may continue, the office said, noting that “as the water levels go down in places like streets and drainage canals that were flooded, crocodiles will turn up and sightings will certainly increase.”The problem came to light this week when social media users posted videos of several crocodiles tied up in urban areas. That “caused an uproar in social media,” the department said.Crocodiles are a protected species in Mexico. Attacks by them in Mexico are rare but have occurred.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "MEXICO CITY (AP) — Heavy rains associated with Hurricane Beryl and the earlier Tropical Storm Alberto have led at least 200 crocodiles to enter urban areas in the northern Mexican state of Tamaulipas, across from Texas, state and federal authorities said this week.So far, authorities say they have captured and relocated around 200 of the big reptiles since Alberto pelted the region with rain in June. Beryl brushed the same area before making landfall in south Texas earlier this week.",
+          "start_offset": 0,
+          "end_offset": 488,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "secondary_hazard",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "crocodiles_entering_urban_areas",
+              "value": {
+                "value": 200,
+                "qualifier": "at_least"
+              },
+              "unit": "animals"
+            },
+            {
+              "attribute": "relocated_since_alberto",
+              "value": {
+                "value": 200,
+                "qualifier": "around"
+              },
+              "unit": "animals"
+            },
+            {
+              "attribute": "drivers",
+              "value": [
+                "Beryl",
+                "Alberto"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "Authorities said the heavy rains raised water levels in coastal lagoons, leading the animals to crawl into cities like Tampico and the nearby cities of Ciudad Madero and Altamira, where at least 165 crocodiles have been captured and relocated.The head of Tamaulipas state environment department, Karina Lizeth Saldívar, said in a statement that “the recent rains have increased the water levels in the lagoon systems, which had led to an increase in the sightings of crocodiles.”The federal Attorney General's Office for Environmental Protection said about 40 more crocodiles had been captured in the area in June and were relocated to appropriate habitat outside populated areas. The problem may continue, the office said, noting that “as the water levels go down in places like streets and drainage canals that were flooded, crocodiles will turn up and sightings will certainly increase.”",
+          "start_offset": 488,
+          "end_offset": 1378,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "cause",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "captured_in_three_cities",
+              "value": {
+                "value": 165,
+                "qualifier": "at_least"
+              },
+              "unit": "animals"
+            },
+            {
+              "attribute": "additional_captured_in_june",
+              "value": {
+                "value": 40,
+                "qualifier": "about"
+              },
+              "unit": "animals"
+            },
+            {
+              "attribute": "mechanism",
+              "value": "increased lagoon water levels",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "The problem came to light this week when social media users posted videos of several crocodiles tied up in urban areas. That “caused an uproar in social media,” the department said.Crocodiles are a protected species in Mexico. Attacks by them in Mexico are rare but have occurred.",
+          "start_offset": 1378,
+          "end_offset": 1658,
+          "sentence_ids": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "106c93fe2e4e852101e5d689d9d6677a65a468382196311950ca3c99ad0647c0",
+        "removed_word_count": 32,
+        "removed_word_ratio": 0.10631229235880399
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-DA0E8CAC32B0D714",
+      "event_id": "DIS-TC-0D9AD02EDD032B2F",
+      "event_rank": 26,
+      "article_rank": 2,
+      "title": "Hurricane Beryl Sets Tone for Hyperactive Season, CSU Experts Warn",
+      "publisher": "stvincenttimes",
+      "identified_publisher": null,
+      "source_domain": "stvincenttimes.com",
+      "url": "https://www.stvincenttimes.com/hurricane-beryl-sets-tone-for-hyperactive-season-csu-experts-warn/",
+      "published_at": "2024-07-12T00:07:25+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "Relays CSU, WMO, and government bulletins without the original byline.",
+      "content": "Following the havoc wreaked by Hurricane Beryl in the Caribbean and sections of the United States, weather experts at the Colorado State University (CSU) have updated their forecast for the 2024 Atlantic Hurricane Season.\n\nSenior research scientist at CSU, Dr. Phil Klotzbach, and his team are now predicting 25 named storms, of which 12 would reach hurricane strength and six that would become major hurricanes.\n\nThe original prediction was 23 named storms, 11 hurricanes, and five major hurricanes.\n\n“We have slightly increased our forecast and continue to call for an extremely active Atlantic hurricane season in 2024,” the researchers said in a statement this week.\n\nHurricane Beryl, a deep tropical Category 5 hurricane, is also a likely harbinger of a hyperactive season.\n\n“Beryl became a record-breaking early-season hurricane last week. It took only 42 hours to strengthen from a tropical depression to a major hurricane. Experts at the World Meteorological Organization say there has never been a category 5 Atlantic hurricane this early in the year before, with most major storms forming closer to September. The rapid development of Beryl is being described by some as a “historic” event.\n\nAlthough the tropics have remained relatively quiet since Beryl’s rampage, the forecasters are warning that the region should not let its guard down since the hurricane season is nowhere near its peak and conditions are favorable for the development of severe storms.\n\n“Sea surface temperatures averaged across the hurricane Main Development Region of the tropical Atlantic and Caribbean remain near record warm levels,” the forecasters said in their statement.\n\n“Extremely warm sea surface temperatures provide a much more conducive dynamic and thermodynamic environment for hurricane formation and intensification.”\n\nThey are also anticipating a cooler neutral La Niña during the peak of the hurricane season, resulting in what they say are reduced levels of tropical Atlantic vertical wind shear. A high level of wind shear prevents the development of storms.\n\nWith these in mind, the forecasters say the probability of major hurricanes making landfall in the US and Caribbean has increased.\n\n“We anticipate a well above-average probability for major hurricane landfalls along the continental United States coastline and in the Caribbean,” they warned. “As with all hurricane seasons, coastal residents are reminded that it only takes one hurricane making landfall to make it an active season. Thorough preparations should be made every season, regardless of predicted activity.”\n\nDominica was spared the bulk of Beryl’s wrath but by the time the hurricane died away, it had made three devastating landfalls leaving in its wake a trail of deadly destruction. At least nine people have been reported killed in the Caribbean, including two in Jamaica, three in Venezuela, three in Grenada, and one person in Saint Vincent and the Grenadines.\n\nAuthorities say at least six people were killed in Texas as a result of the storm, while one person died in Louisiana, add ing that the figures could rise.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "Following the havoc wreaked by Hurricane Beryl in the Caribbean and sections of the United States, weather experts at the Colorado State University (CSU) have updated their forecast for the 2024 Atlantic Hurricane Season.\n\nSenior research scientist at CSU, Dr. Phil Klotzbach, and his team are now predicting 25 named storms, of which 12 would reach hurricane strength and six that would become major hurricanes.\n\nThe original prediction was 23 named storms, 11 hurricanes, and five major hurricanes.\n\n“We have slightly increased our forecast and continue to call for an extremely active Atlantic hurricane season in 2024,” the researchers said in a statement this week.\n\n",
+          "start_offset": 0,
+          "end_offset": 672,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "weather",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "updated_storms_hurricanes_major",
+              "value": [
+                25,
+                12,
+                6
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "previous_storms_hurricanes_major",
+              "value": [
+                23,
+                11,
+                5
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "CSU",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "Hurricane Beryl, a deep tropical Category 5 hurricane, is also a likely harbinger of a hyperactive season.\n\n“Beryl became a record-breaking early-season hurricane last week. It took only 42 hours to strengthen from a tropical depression to a major hurricane. Experts at the World Meteorological Organization say there has never been a category 5 Atlantic hurricane this early in the year before, with most major storms forming closer to September. The rapid development of Beryl is being described by some as a “historic” event.\n\n",
+          "start_offset": 672,
+          "end_offset": 1202,
+          "sentence_ids": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "weather",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "peak_category",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "attribute": "intensification_to_major",
+              "value": 42,
+              "unit": "hours"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "Although the tropics have remained relatively quiet since Beryl’s rampage, the forecasters are warning that the region should not let its guard down since the hurricane season is nowhere near its peak and conditions are favorable for the development of severe storms.\n\n“Sea surface temperatures averaged across the hurricane Main Development Region of the tropical Atlantic and Caribbean remain near record warm levels,” the forecasters said in their statement.\n\n“Extremely warm sea surface temperatures provide a much more conducive dynamic and thermodynamic environment for hurricane formation and intensification.”\n\nThey are also anticipating a cooler neutral La Niña during the peak of the hurricane season, resulting in what they say are reduced levels of tropical Atlantic vertical wind shear. A high level of wind shear prevents the development of storms.\n\nWith these in mind, the forecasters say the probability of major hurricanes making landfall in the US and Caribbean has increased.\n\n“We anticipate a well above-average probability for major hurricane landfalls along the continental United States coastline and in the Caribbean,” they warned. “As with all hurricane seasons, coastal residents are reminded that it only takes one hurricane making landfall to make it an active season. Thorough preparations should be made every season, regardless of predicted activity.”\n\n",
+          "start_offset": 1202,
+          "end_offset": 2586,
+          "sentence_ids": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "fact_types": [
+            "weather",
+            "uncertainty",
+            "cause",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "conditions",
+              "value": [
+                "near-record warm sea surfaces",
+                "projected reduced vertical wind shear"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "Dominica was spared the bulk of Beryl’s wrath but by the time the hurricane died away, it had made three devastating landfalls leaving in its wake a trail of deadly destruction. At least nine people have been reported killed in the Caribbean, including two in Jamaica, three in Venezuela, three in Grenada, and one person in Saint Vincent and the Grenadines.\n\nAuthorities say at least six people were killed in Texas as a result of the storm, while one person died in Louisiana, add ing that the figures could rise.",
+          "start_offset": 2586,
+          "end_offset": 3101,
+          "sentence_ids": [
+            19,
+            20,
+            21
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "location",
+            "casualties"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "caribbean_deaths",
+              "value": {
+                "value": 9,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "death_breakdown",
+              "value": {
+                "Jamaica": 2,
+                "Venezuela": 3,
+                "Grenada": 3,
+                "Saint Vincent and the Grenadines": 1,
+                "Texas_lower_bound": 6,
+                "Louisiana": 1
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "3c99a82490c5a1ba68ebca27a9df671840c068fdc2accdfc2383a14107574e71",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-97CEC3C2482D4796",
+      "event_id": "DIS-TC-0D9AD02EDD032B2F",
+      "event_rank": 26,
+      "article_rank": 3,
+      "title": "12.07.2024 Jamaica - Hurricane Beryl destroys crops, leaves islanders facing food shortages Jamaicans will contend with food shortages in theaftermath of Hurricane Beryl, which is estimated to have destroyed over $6.4 million in food crops and supporting infrastructure, officials in Jamaica said on Monday.",
+      "publisher": "agroinsurance",
+      "identified_publisher": "ABC News (attributed by publisher)",
+      "source_domain": "agroinsurance.com",
+      "url": "https://agroinsurance.com/en/News/Jamaica---Hurricane-Bery1",
+      "published_at": "2024-07-12T13:57:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "republished",
+      "source_independence": "syndicated",
+      "source_independence_reason": "The closing credit names abcnews.go.com.",
+      "content": "Jamaicans will contend with food shortages in the aftermath of Hurricane Beryl, which is estimated to have destroyed over $6.4 million in food crops and supporting infrastructure, officials in Jamaica said on Monday.\n\nFloyd Green, Jamaica’s agriculture minister, said preliminary assessments indicate significant damage to crops including vegetables, tubers such as yam and cassava, and fruits like breadfruit, ackee, mangoes and bananas, which are popular food sources.\n\nHe said livestock and fishing sectors were also impacted significantly by the record-breaking storm that unleashed tumultuous winds and rainfall as it traveled westward just off Jamaica’s south coast last week on route to the Cayman Islands, Mexico, and Texas.\n\n“We have seen about 85% of our bananas and our plantain lines go down in Portland and St Mary,” Green said after visiting farms in the southern parish of St Elizabeth.\n\nYam farmers in southern Trelawny have asked for assistance as they report significant damage to their operation.\n\n“We do understand that it needs a quick response at this time and we know our farmers are out there and thankfully, they are resilient,” Green said. “They are planning to get back to farming and we at the ministry (of agriculture and fisheries) will be willing to assist them.”\n\nThe Jamaican agriculture minister said farmers who grow crops in greenhouses in the parishes of Clarendon, Manchester and St Elizabeth have been hard-hit.\n\n“This is going to be a massive blow for our vegetable (crop) lines,\" said Green.\n\nSmall-scale poultry farmers have sustained major damage to chicken houses, he said.\n\nOn Monday, Glendon Harris, a former president of the farmers’ lobby Jamaica Agricultural Society, forecast that the damage to the agricultural sector will result in a disruption to the food chain supply on the island.\n\n“We are going to see a shortage of some of our basic food items,” Harris said. “St Elizabeth is the known breadbasket, and Manchester is close behind, so based on the hit they have taken, it is going to affect the ready food for the market across the island.”\n\nThe Jamaican government is continuing its assessment of the damage wrought by Hurricane Beryl, which caused widespread damage mainly along the south coast of Jamaica. Beryl diminished into tropical storm, hitting Texas on Monday, after hitting Mexico, Jamaica, Barbados and St. Vincent and the Grenadines. Three people were reported dead in Grenada, three in St. Vincent and the Grenadines, three in Venezuela and two in Jamaica.\n\nThe United Nations spokesman, Stephane Dujarric, said on Monday that the organization is supporting authorities to help with access to clean water, shelter, food and health services by sending teams to Saint Vincent and the Grenadines, Grenada and Jamaica.\n\nSource - https://abcnews.go.com/\n\nThe ScaleAgData project is pleased to invite you to our second stakeholder event. Building on the discussions and connections formed during our first webinar, this event will focus on fostering collaboration among stakeholders, providing updates on our project’s progress, and outlining future opportunities for engagement.\n\nThe first frosty nights of May have significantly worsened estimates of damage to Moldova's fruit sector from spring frosts. According to initial assessments by fruit market operators, between a quarter and a third of the country's total orchard area was seriously affected.\n\nFor commercial fishermen, a sudden fishery closure can mean losing an entire season's income while bills keep coming. Vessel payments, insurance, moorage fees, and other operating expenses don't disappear when a fishery shuts down, and federal disaster assistance can take years to reach the people who need it.\n\nBart Fischer and Joe Outlaw write in Southern Ag Today: We all know that production agriculture is notoriously risky, with crop insurance having become the cornerstone of the farm safety net.\n\nThe AI-driven crop-insurance company’s founder and CEO Avi Basu says agri insurance has been an ‘important learning ground’.\n\nBetter seeds, integrated pest management and mechanisation to improve productivity while reducing resource use and emissions.\n\nThe emergency registration of two per cent strychnine had little impact on crop protection in Wheatland County this year, according to Premium Ag partner Matt Gosling.\n\nPeru has declared a 60-day state of emergency across 1,380 districts in 191 provinces following forecasts of rainfall associated with the 2026–27 El Niño. The measure, announced on November 3, covers several potato-growing regions, including Puno, Cusco, Junín, Huánuco, and Ayacucho.\n\nA Scotland-wide Avian Influenza Prevention Zone (AIPZ) has been introduced following an increase in cases of bird flu in wild and kept birds.\n\nTwo-day programme to focus on effective implementation of PMFBY and speedy settlement of farmers’ claims.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "Jamaicans will contend with food shortages in the aftermath of Hurricane Beryl, which is estimated to have destroyed over $6.4 million in food crops and supporting infrastructure, officials in Jamaica said on Monday.\n\nFloyd Green, Jamaica’s agriculture minister, said preliminary assessments indicate significant damage to crops including vegetables, tubers such as yam and cassava, and fruits like breadfruit, ackee, mangoes and bananas, which are popular food sources.\n\nHe said livestock and fishing sectors were also impacted significantly by the record-breaking storm that unleashed tumultuous winds and rainfall as it traveled westward just off Jamaica’s south coast last week on route to the Cayman Islands, Mexico, and Texas.\n\n“We have seen about 85% of our bananas and our plantain lines go down in Portland and St Mary,” Green said after visiting farms in the southern parish of St Elizabeth.\n\n",
+          "start_offset": 0,
+          "end_offset": 903,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "damage",
+            "economic_loss",
+            "humanitarian_needs"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "food_crop_and_infrastructure_damage_as_printed",
+              "value": "> $6.4 million",
+              "unit": null
+            },
+            {
+              "attribute": "banana_plantain_damage_share_in_portland_and_st_mary",
+              "value": {
+                "value": 85,
+                "qualifier": "about"
+              },
+              "unit": "%"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "Yam farmers in southern Trelawny have asked for assistance as they report significant damage to their operation.\n\n“We do understand that it needs a quick response at this time and we know our farmers are out there and thankfully, they are resilient,” Green said. “They are planning to get back to farming and we at the ministry (of agriculture and fisheries) will be willing to assist them.”\n\nThe Jamaican agriculture minister said farmers who grow crops in greenhouses in the parishes of Clarendon, Manchester and St Elizabeth have been hard-hit.\n\n“This is going to be a massive blow for our vegetable (crop) lines,\" said Green.\n\nSmall-scale poultry farmers have sustained major damage to chicken houses, he said.\n\n",
+          "start_offset": 903,
+          "end_offset": 1619,
+          "sentence_ids": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "fact_types": [
+            "response",
+            "aid",
+            "damage",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "affected_groups",
+              "value": [
+                "yam farmers",
+                "greenhouse farmers",
+                "small-scale poultry farmers"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "On Monday, Glendon Harris, a former president of the farmers’ lobby Jamaica Agricultural Society, forecast that the damage to the agricultural sector will result in a disruption to the food chain supply on the island.\n\n“We are going to see a shortage of some of our basic food items,” Harris said. “St Elizabeth is the known breadbasket, and Manchester is close behind, so based on the hit they have taken, it is going to affect the ready food for the market across the island.”\n\n",
+          "start_offset": 1619,
+          "end_offset": 2099,
+          "sentence_ids": [
+            11,
+            12,
+            13
+          ],
+          "fact_types": [
+            "economic_loss",
+            "humanitarian_needs",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "supply_forecast",
+              "value": "basic food shortages",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Glendon Harris",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "The Jamaican government is continuing its assessment of the damage wrought by Hurricane Beryl, which caused widespread damage mainly along the south coast of Jamaica. Beryl diminished into tropical storm, hitting Texas on Monday, after hitting Mexico, Jamaica, Barbados and St. Vincent and the Grenadines. Three people were reported dead in Grenada, three in St. Vincent and the Grenadines, three in Venezuela and two in Jamaica.\n\n",
+          "start_offset": 2099,
+          "end_offset": 2530,
+          "sentence_ids": [
+            14,
+            15,
+            16
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "damage",
+            "casualties",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "death_breakdown",
+              "value": {
+                "Grenada": 3,
+                "Saint Vincent and the Grenadines": 3,
+                "Venezuela": 3,
+                "Jamaica": 2
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "The United Nations spokesman, Stephane Dujarric, said on Monday that the organization is supporting authorities to help with access to clean water, shelter, food and health services by sending teams to Saint Vincent and the Grenadines, Grenada and Jamaica.\n\n",
+          "start_offset": 2530,
+          "end_offset": 2788,
+          "sentence_ids": [
+            17
+          ],
+          "fact_types": [
+            "aid",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "un_assistance_targets",
+              "value": [
+                "Saint Vincent and the Grenadines",
+                "Grenada",
+                "Jamaica"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Stephane Dujarric",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "Source - https://abcnews.go.com/\n\nThe ScaleAgData project is pleased to invite you to our second stakeholder event. Building on the discussions and connections formed during our first webinar, this event will focus on fostering collaboration among stakeholders, providing updates on our project’s progress, and outlining future opportunities for engagement.\n\nThe first frosty nights of May have significantly worsened estimates of damage to Moldova's fruit sector from spring frosts. According to initial assessments by fruit market operators, between a quarter and a third of the country's total orchard area was seriously affected.\n\nFor commercial fishermen, a sudden fishery closure can mean losing an entire season's income while bills keep coming. Vessel payments, insurance, moorage fees, and other operating expenses don't disappear when a fishery shuts down, and federal disaster assistance can take years to reach the people who need it.\n\nBart Fischer and Joe Outlaw write in Southern Ag Today: We all know that production agriculture is notoriously risky, with crop insurance having become the cornerstone of the farm safety net.\n\nThe AI-driven crop-insurance company’s founder and CEO Avi Basu says agri insurance has been an ‘important learning ground’.\n\nBetter seeds, integrated pest management and mechanisation to improve productivity while reducing resource use and emissions.\n\nThe emergency registration of two per cent strychnine had little impact on crop protection in Wheatland County this year, according to Premium Ag partner Matt Gosling.\n\nPeru has declared a 60-day state of emergency across 1,380 districts in 191 provinces following forecasts of rainfall associated with the 2026–27 El Niño. The measure, announced on November 3, covers several potato-growing regions, including Puno, Cusco, Junín, Huánuco, and Ayacucho.\n\nA Scotland-wide Avian Influenza Prevention Zone (AIPZ) has been introduced following an increase in cases of bird flu in wild and kept birds.\n\nTwo-day programme to focus on effective implementation of PMFBY and speedy settlement of farmers’ claims.",
+          "start_offset": 2788,
+          "end_offset": 4885,
+          "sentence_ids": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "ddeda1d04fce4724f42e86b7eb34c9b4ba86a22031b95347564ed9243af9184f",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "The death tolls agree in three locations",
+        "fact_type": "casualties",
+        "attribute": "deaths_jamaica_grenada_venezuela",
+        "supporting_spans": [
+          "A002_F004",
+          "A003_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": {
+              "Jamaica": 2,
+              "Grenada": 3,
+              "Venezuela": 3
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": {
+              "Jamaica": 2,
+              "Grenada": 3,
+              "Venezuela": 3
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "Saint Vincent and the Grenadines has reported counts of one and three deaths",
+        "fact_type": "casualties",
+        "attribute": "saint_vincent_deaths",
+        "supporting_spans": [
+          "A002_F004",
+          "A003_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": 1,
+            "unit": "person",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": 3,
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "The cutoff, inclusion criteria, and original bulletin versions are unavailable."
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "Agricultural damage and risk of food shortages in Jamaica",
+        "fact_type": "humanitarian_needs",
+        "attribute": "jamaica_food_supply_risk",
+        "supporting_spans": [
+          "A003_F001",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": "> $6.4 million in damaged crops and supporting infrastructure",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "basic food shortages expected",
+            "unit": null,
+            "attribution": "Glendon Harris"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "Crocodiles entered urban areas in parts of Mexico",
+        "fact_type": "secondary_hazard",
+        "attribute": "crocodile_incursions",
+        "supporting_spans": [
+          "A001_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 200,
+              "qualifier": "at_least"
+            },
+            "unit": "animals",
+            "attribution": "state and federal authorities"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "June to early July",
+          "time_precision": "Relative time window",
+          "description": "Alberto and Beryl affected Tamaulipas in succession. Beryl continued into southern Texas.",
+          "supporting_spans": [
+            "A001_F001"
+          ]
+        },
+        {
+          "time": "2024-07-12",
+          "time_precision": "Publication date",
+          "description": "Media reported casualties, crop losses in Jamaica, and an updated Atlantic seasonal outlook.",
+          "supporting_spans": [
+            "A002_F001",
+            "A002_F004",
+            "A003_F001"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "Heavy rain raised coastal lagoon levels, causing crocodiles to enter urban areas.",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002"
+          ]
+        },
+        {
+          "description": "Damage to Jamaican agriculture could briefly disrupt food supplies.",
+          "supporting_spans": [
+            "A003_F001",
+            "A003_F003"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "Beryl caused deaths, secondary hazards, and agricultural losses in several places.",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F004",
+            "A003_F001",
+            "A003_F004"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "Unrelated web recommendations follow A003's source credit. They are preserved in the source text and excluded from event alignment."
+    ]
+  }
+}

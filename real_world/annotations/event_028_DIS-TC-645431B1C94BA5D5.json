@@ -1,0 +1,888 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-TC-645431B1C94BA5D5",
+  "event_rank": 28,
+  "event_metadata": {
+    "event_name": "Tropical Cyclone JUDY-23",
+    "disaster_type": "tropical_cyclone",
+    "disaster_type_code": "TC",
+    "event_start_time": "2023-02-27T00:00:00+00:00",
+    "event_end_time": "2023-03-03T06:00:00+00:00",
+    "locations": [
+      "Vanuatu"
+    ],
+    "latitude": -26.1,
+    "longitude": 179.8,
+    "place_names_in_reports": [
+      "Vanuatu",
+      "Port Vila",
+      "Tanna",
+      "Sanma",
+      "Espiritu Santo",
+      "Luganville",
+      "Port Olry"
+    ],
+    "gdacs_id": "1000965",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "Judy preceded Kevin. Nearby earthquakes are contemporaneous background, and reports with different epicenters are kept separate."
+    ],
+    "dataset_place_name": "Tropical Cyclone JUDY-23",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-4B507DD58395D16D",
+      "event_id": "DIS-TC-645431B1C94BA5D5",
+      "event_rank": 28,
+      "article_rank": 1,
+      "title": "Vanuatu hit with magnitude-6.5 earthquake as second major cyclone in two days bears down on Port Vila Vanuatu's capital is bracing for its second major cyclone in two days, after part of the country was hit with a magnitude-6.5 earthquake on Friday morning.",
+      "publisher": "radioaustralianews-my",
+      "identified_publisher": null,
+      "source_domain": "abc.net.au",
+      "url": "https://www.abc.net.au/news/2023-03-03/vanuatu-cyclone-kevin-earthquake-hits-north/102049550",
+      "published_at": "2023-03-03T03:29:42+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "Quotes a journalist speaking to ABC. Radio Australia is the identified host, and the original byline is unavailable.",
+      "content": "The projected movement of the cyclone at 6pm on Friday. ( Supplied )\n\nVanuatu's capital is bracing for its second major tropical cyclone in two days, after one part of the country was hit with a magnitude-6.5 earthquake on Friday morning.\n\nThe eye of Cyclone Kevin is set to pass the capital Port Vila on Friday night, with wind gusts up to 130 kilometres per hour forecast.\n\nThe cyclone will build to a category 4 on Saturday as it passes the capital and travels south-east.\n\nIt comes just two days after the country was hit by category 4 Cyclone Judy, causing widespread damage and flooding.\n\nThe northern parts of Vanuatu have already felt the full brunt of the cyclone as it builds in severity.\n\nFlash flooding has hit Tanna in southern Vanuatu, with more flooding expected over the coming days. ( Facebook: Vanutau Business Resilience Council )\n\nCarol Rovo, an emergency coordinator in the northern province of Sanma, said they were experiencing gale-force winds and heavy rainfall.\n\n\"Some parts of our island, especially the north-west and western coast, they must have a lot of damage,\" she said.\n\n\"But at the moment, due to network and communication [issues], we have not reached those areas.\"\n\nThe US Geological Survey reported a magnitude-6.5 earthquake just after 5am local time on Friday morning off the northern island of Espiritu Santo.\n\nThe quake was 10km deep. No tsunami warning was issued.\n\nThe island, which has a population of about 40,000, is isolated in parts, and authorities say communication in some areas is limited. But so far no major reports of damage have been reported.\n\n\"Everything was fine so far,\" Ms Rovo said.\n\nMs Rovo said emergency teams would have a better idea of the full damage from the cyclone and the earthquake — if any — over the coming days\n\nPort Vila-based journalist Dan McGarry told the ABC locals had spent a \"frantic morning\" cleaning debris ahead of Cyclone Kevin's expected arrival on Friday night.\n\n\"I think we're ready as we can be,\" he said. \"Across town you could hear hammers and chainsaws.\"\n\nMcGarry said the power had been out for more than 24 hours for many people, and getting clean running water was \"a challenge\".\n\n\"The longer it goes on, the harder it gets for the most vulnerable,\" he said.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "The projected movement of the cyclone at 6pm on Friday. ( Supplied )\n\n",
+          "start_offset": 0,
+          "end_offset": 70,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "Vanuatu's capital is bracing for its second major tropical cyclone in two days, after one part of the country was hit with a magnitude-6.5 earthquake on Friday morning.\n\nThe eye of Cyclone Kevin is set to pass the capital Port Vila on Friday night, with wind gusts up to 130 kilometres per hour forecast.\n\nThe cyclone will build to a category 4 on Saturday as it passes the capital and travels south-east.\n\n",
+          "start_offset": 70,
+          "end_offset": 477,
+          "sentence_ids": [
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "timeline",
+            "disaster_magnitude"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "kevin_forecast_gust",
+              "value": {
+                "value": 130,
+                "qualifier": "up_to"
+              },
+              "unit": "km/h"
+            },
+            {
+              "attribute": "kevin_forecast_category",
+              "value": 4,
+              "unit": null
+            },
+            {
+              "attribute": "quake_context_magnitude",
+              "value": 6.5,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "It comes just two days after the country was hit by category 4 Cyclone Judy, causing widespread damage and flooding.\n\n",
+          "start_offset": 477,
+          "end_offset": 595,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "damage",
+            "secondary_hazard"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "judy_category",
+              "value": 4,
+              "unit": null
+            },
+            {
+              "attribute": "judy_impacts",
+              "value": "widespread damage and flooding",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "The northern parts of Vanuatu have already felt the full brunt of the cyclone as it builds in severity.\n\nFlash flooding has hit Tanna in southern Vanuatu, with more flooding expected over the coming days. ",
+          "start_offset": 595,
+          "end_offset": 800,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "damage",
+            "weather",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "( Facebook: Vanutau Business Resilience Council )\n\n",
+          "start_offset": 800,
+          "end_offset": 851,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "Carol Rovo, an emergency coordinator in the northern province of Sanma, said they were experiencing gale-force winds and heavy rainfall.\n\n\"Some parts of our island, especially the north-west and western coast, they must have a lot of damage,\" she said.\n\n\"But at the moment, due to network and communication [issues], we have not reached those areas.\"\n\n",
+          "start_offset": 851,
+          "end_offset": 1203,
+          "sentence_ids": [
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "weather",
+            "damage",
+            "infrastructure",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "Carol Rovo, emergency coordinator",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "The US Geological Survey reported a magnitude-6.5 earthquake just after 5am local time on Friday morning off the northern island of Espiritu Santo.\n\nThe quake was 10km deep. No tsunami warning was issued.\n\n",
+          "start_offset": 1203,
+          "end_offset": 1409,
+          "sentence_ids": [
+            13,
+            14,
+            15
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "secondary_hazard",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "separate offshore earthquake",
+              "unit": null
+            },
+            {
+              "attribute": "magnitude",
+              "value": 6.5,
+              "unit": null
+            },
+            {
+              "attribute": "depth",
+              "value": 10,
+              "unit": "km"
+            },
+            {
+              "attribute": "tsunami_warning",
+              "value": "none issued",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "USGS",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F008",
+          "span_text": "The island, which has a population of about 40,000, is isolated in parts, and authorities say communication in some areas is limited. But so far no major reports of damage have been reported.\n\n\"Everything was fine so far,\" Ms Rovo said.\n\nMs Rovo said emergency teams would have a better idea of the full damage from the cyclone and the earthquake — if any — over the coming days\n\n",
+          "start_offset": 1409,
+          "end_offset": 1789,
+          "sentence_ids": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "fact_types": [
+            "affected_population",
+            "damage",
+            "uncertainty"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "espiritu_santo_population",
+              "value": {
+                "value": 40000,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F009",
+          "span_text": "Port Vila-based journalist Dan McGarry told the ABC locals had spent a \"frantic morning\" cleaning debris ahead of Cyclone Kevin's expected arrival on Friday night.\n\n\"I think we're ready as we can be,\" he said. \"Across town you could hear hammers and chainsaws.\"\n\nMcGarry said the power had been out for more than 24 hours for many people, and getting clean running water was \"a challenge\".\n\n\"The longer it goes on, the harder it gets for the most vulnerable,\" he said.",
+          "start_offset": 1789,
+          "end_offset": 2257,
+          "sentence_ids": [
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "fact_types": [
+            "recovery",
+            "response",
+            "infrastructure",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "outage_duration_for_many",
+              "value": {
+                "value": 24,
+                "qualifier": "greater_than"
+              },
+              "unit": "hours"
+            },
+            {
+              "attribute": "attribution",
+              "value": "Dan McGarry",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "1b85f49c26b4ecbfacc192eeae4008e272a2c2ca306a8926be8d5b8394e131c7",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-AC8DA9BF3223609F",
+      "event_id": "DIS-TC-645431B1C94BA5D5",
+      "event_rank": 28,
+      "article_rank": 2,
+      "title": "Vanuatu quest for ICJ climate ruling backed by 100 nations | PINA",
+      "publisher": "pina",
+      "identified_publisher": null,
+      "source_domain": "pina.com.fj",
+      "url": "https://pina.com.fj/2023/03/03/vanuatu-quest-for-icj-climate-ruling-backed-by-100-nations/",
+      "published_at": "2023-03-03T06:07:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "PINA quotes government statements and USGS. The original byline is unavailable.",
+      "content": "More than 100 countries have backed a plan by Vanuatu to enlist the UN’s top court in tackling climate change, after what the nation’s officials on Thursday described as a “herculean” diplomatic effort.\n\nWith rising sea levels threatening its future, Vanuatu has spearheaded a drive for the court to define what legal responsibility countries have for the changing climate and its impacts.\n\nThe 105 nations backing the move will co-sponsor a resolution at this year’s UN General Assembly.\n\nCanada, Australia and the United Kingdom are among those on board, as well as Pacific nations like Kiribati and Marshall Islands, which also face rising sea levels.\n\nBut neither China nor the United States — two of the world’s biggest carbon dioxide emitters — have pledged support.\n\nNor have larger developing nations, like Indonesia and India, that rely on coal.\n\nAn opinion by the International Court of Justice (ICJ) would not be binding, but would help set a legal precedent.\n\nVanuatu was lashed by Cyclone Judy on Wednesday, with torrential rains and fierce winds uprooting trees, tearing roofs from buildings and flooding roads.\n\nThe archipelago, home to 320,000, is threatened by a second tropical storm in as many days with Cyclone Kelvin expected to pass near Vanuatu on Friday.\n\nGovernment spokesman Joe Harry Karu welcomed the support, adding that these latest cyclones highlight the threat facing Vanuatu.\n\n“The effects of climate change are clear to see when you look at the latest damage caused by the cyclone,” he said.\n\nMeanwhile, an earthquake of 6.8 magnitude struck west of Luganville, Vanuatu region on Friday, the U.S Geological Survey (USGS) said.\n\nThe quake struck 95 km (59.03 miles) west of Luganville and 33 km below the earth’s surface, USGS added.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "More than 100 countries have backed a plan by Vanuatu to enlist the UN’s top court in tackling climate change, after what the nation’s officials on Thursday described as a “herculean” diplomatic effort.\n\nWith rising sea levels threatening its future, Vanuatu has spearheaded a drive for the court to define what legal responsibility countries have for the changing climate and its impacts.\n\nThe 105 nations backing the move will co-sponsor a resolution at this year’s UN General Assembly.\n\nCanada, Australia and the United Kingdom are among those on board, as well as Pacific nations like Kiribati and Marshall Islands, which also face rising sea levels.\n\nBut neither China nor the United States — two of the world’s biggest carbon dioxide emitters — have pledged support.\n\nNor have larger developing nations, like Indonesia and India, that rely on coal.\n\nAn opinion by the International Court of Justice (ICJ) would not be binding, but would help set a legal precedent.\n\n",
+          "start_offset": 0,
+          "end_offset": 972,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "ICJ climate resolution context",
+              "unit": null
+            },
+            {
+              "attribute": "co_sponsors",
+              "value": 105,
+              "unit": "countries"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "Vanuatu was lashed by Cyclone Judy on Wednesday, with torrential rains and fierce winds uprooting trees, tearing roofs from buildings and flooding roads.\n\n",
+          "start_offset": 972,
+          "end_offset": 1127,
+          "sentence_ids": [
+            8
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "damage",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "judy_impact_day",
+              "value": "Wednesday",
+              "unit": null
+            },
+            {
+              "attribute": "impacts",
+              "value": [
+                "uprooted trees",
+                "damaged roofs",
+                "flooded roads"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "The archipelago, home to 320,000, is threatened by a second tropical storm in as many days with Cyclone Kelvin expected to pass near Vanuatu on Friday.\n\nGovernment spokesman Joe Harry Karu welcomed the support, adding that these latest cyclones highlight the threat facing Vanuatu.\n\n“The effects of climate change are clear to see when you look at the latest damage caused by the cyclone,” he said.\n\n",
+          "start_offset": 1127,
+          "end_offset": 1527,
+          "sentence_ids": [
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "affected_population",
+            "weather",
+            "secondary_hazard",
+            "public_reaction"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "population",
+              "value": 320000,
+              "unit": "people"
+            },
+            {
+              "attribute": "second_storm_name_as_printed",
+              "value": "Kelvin",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "Meanwhile, an earthquake of 6.8 magnitude struck west of Luganville, Vanuatu region on Friday, the U.S Geological Survey (USGS) said.\n\nThe quake struck 95 km (59.03 miles) west of Luganville and 33 km below the earth’s surface, USGS added.",
+          "start_offset": 1527,
+          "end_offset": 1766,
+          "sentence_ids": [
+            12,
+            13
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "separate earthquake as reported",
+              "unit": null
+            },
+            {
+              "attribute": "magnitude",
+              "value": 6.8,
+              "unit": null
+            },
+            {
+              "attribute": "depth",
+              "value": 33,
+              "unit": "km"
+            },
+            {
+              "attribute": "distance_west_of_luganville",
+              "value": 95,
+              "unit": "km"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "50e6a44ca70c5a44ca8546659ccb48158c409daa901dc5697488cc51dd35d2e6",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-5417B804382EFF5E",
+      "event_id": "DIS-TC-645431B1C94BA5D5",
+      "event_rank": 28,
+      "article_rank": 3,
+      "title": "Vanuatu braces tropical cyclone Kevin following emergency declaration - People's Daily Online",
+      "publisher": "peopledaily",
+      "identified_publisher": "Xinhua",
+      "source_domain": "en.people.cn",
+      "url": "http://en.people.cn/n3/2023/0303/c90000-10215713.html",
+      "published_at": "2023-03-03T07:18:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "People's Daily Online published Xinhua's Suva-datelined dispatch.",
+      "content": "SUVA, March 3 (Xinhua) -- A state of emergency has been declared in Vanuatu after ravaged by the category 4 tropical cyclone Judy. The South Pacific island nation now braces the second tropical cyclone Kevin, which has intensified to category 3.\n\nAccording to Radio New Zealand on Friday, Vanuatu's Prime Minister Ishmael Kalsakau said that the state of emergency, which takes effect from Thursday night, will allow the islands most affected by Judy to receive help immediately.\n\nTropical cyclone Judy has caused extensive damage to Vanuatu, uprooting trees and cutting off telecommunication in parts of the nation, including the capital city of Port Vila.\n\nWhile people are still cleaning up after Judy, it is reported that tropical cyclone Kevin will bring more destruction, and warnings have already been issued for strong winds, heavy rainfalls and rough swells.\n\nThe severe weather has triggered suspension of both domestic and international flights while ships, boats and small fishing rafts are advised not to go out to sea.\n\nSome essential services like the banks will be temporarily closed on Friday.\n\nMeanwhile, a magnitude 6.5 earthquake struck northern Vanuatu, just off the island of Espiritu Santo early Friday morning.\n\nThe U.S. Geological Survey (USGS) reports the quake was 86 km WSW of Port Olry. It was 10km below the earth's surface, but no tsunami warning has been issued.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "SUVA, March 3 (Xinhua) -- A state of emergency has been declared in Vanuatu after ravaged by the category 4 tropical cyclone Judy. The South Pacific island nation now braces the second tropical cyclone Kevin, which has intensified to category 3.\n\nAccording to Radio New Zealand on Friday, Vanuatu's Prime Minister Ishmael Kalsakau said that the state of emergency, which takes effect from Thursday night, will allow the islands most affected by Judy to receive help immediately.\n\n",
+          "start_offset": 0,
+          "end_offset": 480,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "judy_category",
+              "value": 4,
+              "unit": null
+            },
+            {
+              "attribute": "emergency_effective",
+              "value": "Thursday night",
+              "unit": null
+            },
+            {
+              "attribute": "kevin_current_category",
+              "value": 3,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "Tropical cyclone Judy has caused extensive damage to Vanuatu, uprooting trees and cutting off telecommunication in parts of the nation, including the capital city of Port Vila.\n\nWhile people are still cleaning up after Judy, it is reported that tropical cyclone Kevin will bring more destruction, and warnings have already been issued for strong winds, heavy rainfalls and rough swells.\n\n",
+          "start_offset": 480,
+          "end_offset": 868,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "damage",
+            "weather",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "judy_impacts",
+              "value": "trees uprooted and telecommunications severed, including in Port Vila",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "The severe weather has triggered suspension of both domestic and international flights while ships, boats and small fishing rafts are advised not to go out to sea.\n\nSome essential services like the banks will be temporarily closed on Friday.\n\n",
+          "start_offset": 868,
+          "end_offset": 1111,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "infrastructure",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "flight_status",
+              "value": "domestic and international flights suspended",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "Meanwhile, a magnitude 6.5 earthquake struck northern Vanuatu, just off the island of Espiritu Santo early Friday morning.\n\nThe U.S. Geological Survey (USGS) reports the quake was 86 km WSW of Port Olry. It was 10km below the earth's surface, but no tsunami warning has been issued.",
+          "start_offset": 1111,
+          "end_offset": 1393,
+          "sentence_ids": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "secondary_hazard",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "separate earthquake off Espiritu Santo",
+              "unit": null
+            },
+            {
+              "attribute": "magnitude",
+              "value": 6.5,
+              "unit": null
+            },
+            {
+              "attribute": "depth",
+              "value": 10,
+              "unit": "km"
+            },
+            {
+              "attribute": "distance_wsw_of_port_olry",
+              "value": 86,
+              "unit": "km"
+            },
+            {
+              "attribute": "tsunami_warning",
+              "value": "none issued",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "75cf0a1310b43cd4647fb07339ad291b589d0b2a6cbb46de1356574d697d6ec4",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "Judy was reported as a Category 4 tropical cyclone",
+        "fact_type": "disaster_magnitude",
+        "attribute": "judy_category",
+        "supporting_spans": [
+          "A001_F003",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": 4,
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": 4,
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "Judy caused flooding and infrastructure damage",
+        "fact_type": "damage",
+        "attribute": "judy_impacts",
+        "supporting_spans": [
+          "A001_F003",
+          "A002_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": "widespread damage and flooding",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "uprooted trees, damaged roofs and flooded roads",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "uprooted trees and telecommunications outages",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "Vanuatu declared a state of emergency after Judy",
+        "fact_type": "response",
+        "attribute": "emergency_declaration",
+        "supporting_spans": [
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": "effective Thursday night",
+            "unit": null,
+            "attribution": "PM Ishmael Kalsakau via RNZ"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "The second storm's intensity reports refer to observed and forecast stages",
+        "fact_type": "disaster_magnitude",
+        "attribute": "second_cyclone_category",
+        "supporting_spans": [
+          "A001_F002",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": {
+              "category": 4,
+              "scope": "Saturday forecast"
+            },
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "category": 3,
+              "scope": "current at publication"
+            },
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "PINA calls the second storm Kelvin."
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2023-03-01",
+          "time_precision": "Local date",
+          "description": "Judy brought wind, rain, and infrastructure damage to Vanuatu on Wednesday.",
+          "supporting_spans": [
+            "A001_F003",
+            "A002_F002",
+            "A003_F002"
+          ]
+        },
+        {
+          "time": "2023-03-02",
+          "time_precision": "Local date",
+          "description": "The state of emergency for Judy took effect Thursday night.",
+          "supporting_spans": [
+            "A003_F001"
+          ]
+        },
+        {
+          "time": "2023-03-03",
+          "time_precision": "Local date",
+          "description": "Cleanup continued while residents prepared for the second storm.",
+          "supporting_spans": [
+            "A001_F009",
+            "A003_F002"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "Judy's wind and rain toppled trees, flooded roads, and disrupted communications.",
+          "supporting_spans": [
+            "A002_F002",
+            "A003_F002"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "Category 4 Judy struck Vanuatu, prompting an emergency declaration. A second storm and a concurrent earthquake complicated assessment and response.",
+          "supporting_spans": [
+            "A001_F003",
+            "A001_F007",
+            "A002_F002",
+            "A003_F001",
+            "A003_F002"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "The magnitude-6.5 and magnitude-6.8 earthquake reports give different epicenters and depths. They are kept separate and excluded from Judy's losses."
+    ]
+  }
+}

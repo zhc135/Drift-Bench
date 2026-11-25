@@ -1,0 +1,930 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-WF-BF04DB61D8313B71",
+  "event_rank": 46,
+  "event_metadata": {
+    "event_name": "Forest fires in France",
+    "disaster_type": "wildfire",
+    "disaster_type_code": "WF",
+    "event_start_time": "2026-07-22T00:00:00+00:00",
+    "event_end_time": "2026-08-01T00:00:00+00:00",
+    "locations": [
+      "France"
+    ],
+    "latitude": 44.8463,
+    "longitude": -1.0329,
+    "place_names_in_reports": [
+      "France",
+      "Gironde",
+      "Landes",
+      "Bordeaux",
+      "Biscarrosse",
+      "Parentis-en-Born",
+      "Lège-Cap-Ferret",
+      "Spain",
+      "Romania"
+    ],
+    "gdacs_id": "1029628",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "en",
+      "it"
+    ],
+    "time_precision_notes": [
+      "Romania's extended rotation was a continuation of existing aid. It is separate from EU aircraft totals."
+    ],
+    "dataset_place_name": "Forest fires in France",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-E46E6C49A2EFE21C",
+      "event_id": "DIS-WF-BF04DB61D8313B71",
+      "event_rank": 46,
+      "article_rank": 1,
+      "title": "Mission of Romanian firefighters'' contingent in France, extended for two more weeks",
+      "publisher": "stiripesurse",
+      "identified_publisher": null,
+      "source_domain": "stiripesurse.ro",
+      "url": "https://www.stiripesurse.ro/mission-of-romanian-firefighters-contingent-in-france-extended-for-two-more-weeks_3907254",
+      "published_at": "2026-07-28T06:35:33+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "The cleaned Stiripesurse article relays the Romanian government and has no clear byline.",
+      "content": "Romania is extending for another two weeks the mission of its firefighters' contingent in France under a decision taken on Monday by the National Emergency Management Committee (CNSU).According to the government, following the request made by the French authorities by activating the European Union Civil Protection Mechanism, CNSU approved, in Monday's meeting, the extension for another two weeks of Romania's participation in the support mission for extinguishing vegetation and forest fires in France.Under the coordination of the Emergency Management Department (DSU), the mission will continue by replacing the contingent currently in France with a new contingent of firefighters from the General Emergency Management Inspectorate (IGSU), which will take over operational responsibilities in the areas affected by the fires.The decision is said to reflect Romania's solidarity with European partners and its commitment to contributing to the management of emergencies within the European Union Civil Protection Mechanism.Romanian firefighters will continue to act alongside international teams to contain the effects of wildfires and protect communities in risk areas.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "Romania is extending for another two weeks the mission of its firefighters' contingent in France under a decision taken on Monday by the National Emergency Management Committee (CNSU).According to the government, following the request made by the French authorities by activating the European Union Civil Protection Mechanism, CNSU approved, in Monday's meeting, the extension for another two weeks of Romania's participation in the support mission for extinguishing vegetation and forest fires in France.",
+          "start_offset": 0,
+          "end_offset": 505,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "mission_extension",
+              "value": 2,
+              "unit": "weeks"
+            },
+            {
+              "attribute": "requesting_country",
+              "value": "France",
+              "unit": null
+            },
+            {
+              "attribute": "mechanism",
+              "value": "EU Civil Protection Mechanism",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "Under the coordination of the Emergency Management Department (DSU), the mission will continue by replacing the contingent currently in France with a new contingent of firefighters from the General Emergency Management Inspectorate (IGSU), which will take over operational responsibilities in the areas affected by the fires.The decision is said to reflect Romania's solidarity with European partners and its commitment to contributing to the management of emergencies within the European Union Civil Protection Mechanism.Romanian firefighters will continue to act alongside international teams to contain the effects of wildfires and protect communities in risk areas.",
+          "start_offset": 505,
+          "end_offset": 1174,
+          "sentence_ids": [
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "response",
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "method",
+              "value": "rotate Romanian firefighting contingent",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "ca40fefc5d592355ff3b6f76931db7798d08c41289c0458d1fd124e269f58a43",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-C08271B37851E843",
+      "event_id": "DIS-WF-BF04DB61D8313B71",
+      "event_rank": 46,
+      "article_rank": 2,
+      "title": "Spagna e Francia ancora tra le fiamme: 300mila evacuati e decine di migliaia di ettari in fumo - Geagency",
+      "publisher": "geagency",
+      "identified_publisher": null,
+      "source_domain": "geagency.it",
+      "url": "https://geagency.it/in-primo-piano/spagna-e-francia-ancora-tra-le-fiamme-300mila-evacuati-e-decine-di-migliaia-di-ettari-in-fumo/",
+      "published_at": "2026-07-27T12:27:32+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "it",
+      "language_label_issue": "The original label is en. The title and body are in Italian.",
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "Geagency combines civil protection reporting from several areas. Its EU section and A003 rely on the same European Commission material.",
+      "content": "Non si sono ancora estinti i roghi nelle regioni della Gironda e di Madrid. Bruxelles ha attivato il meccanismo di protezione civile europeo\n\n(Foto: profilo X dei @BomberosMad)\n\nOltre 42mila ettari devastati nella sola Gironda, più di 28mila quelli bruciati nella sola regione di Madrid. Il bilancio dei roghi boschivi che da giorni devastano Francia e Spagna è sempre più elevato. Nella penisola iberica, dall’inizio dell’anno sono già andati in fumo 172.396,10 ettari di superficie, a causa di 35 incendi di grandi dimensioni. Tra i roghi più estesi di questi giorni si contano quello di Guadalajara (oltre 32.000 ettari), l’incendio tra Ávila e Madrid (15.000 ettari) e quello di Saragozza/Aragona (circa 14.400 ettari).\n\nQuello nella Gironda, in Francia, è ormai il rogo più devastante che la Francia abbia conosciuto negli ultimi cinquant’anni, superando di gran lunga quello di Landiras – nella stessa zona – che nel luglio 2022 aveva bruciato 12.552 ettari. Dall’inizio dell’anno, sul territorio nazionale francese sono andati in fumo circa 40.000 ettari di vegetazione.\n\nSPAGNA. Sul fronte spagnolo, si contano almeno 84 vigili del fuoco feriti ma nessuna vittima tra la popolazione civile. Una ventina di persone ha avuto bisogno di ossigeno nella Comunità Valenciana. Sul campo stanno lavorando senza sosta migliaia di soccorritori. I dati diffusi dai posti di comando avanzati e dalla Protezione Civile indicano una cifra record di evacuati: si tratta di circa 90.000 persone coinvolte (89.763 censiti in 46 diversi nuclei di popolazione). I picchi più critici si registrano nella provincia di Ávila (con circa 30.000 evacuati solo nella valle del Tiétar) e nella Comunità di Madrid, dove tra le altre cose è stato necessario evacuare d’urgenza oltre 1.300 anziani e disabili da 5 diverse residenze sanitarie assistenziali. Altri 12 comuni sono stati evacuati a Castellón (nella zona del parco naturale della Sierra de Espadán).\n\nUn dato numerico totale e definitivo sugli edifici coinvolti non è ancora stato formalizzato dal Governo centrale perché molti fronti sono considerati “fuori dalla capacità di estinzione” e non è possibile fare una conta sicura sul terreno. Tuttavia, le delegazioni del governo di Madrid e Castellón segnalano la distruzione di decine di case, aziende agricole, rimesse e stalle. La viabilità è pesantemente compromessa: la Dirección General de Tráfico (DGT) segnala lo stop alla circolazione e la chiusura di 43 strade secondarie in tutto il Paese per motivi di sicurezza.\n\nIl presidente spagnolo, Pedro Sanchez , ha annunciato uno stanziamento di altri 10 mln per realizzare rifugi climatici e la costituzione di un gruppo di esperti scientifici contro “improvvisazione, pregiudizi o bufale diffuse sui social media”. “Servono soluzioni urgenti per costruire una Spagna più sicura e vivibile, preparata alle sfide future. Il Patto di Stato di fronte all’emergenza climatica è una priorità nazionale – ha spiegato in conferenza stampa – che riguarda tutti noi. Questa battaglia non si vincerà con un governo che agisce da solo. Si vincerà con un Paese unito, consapevole di ciò che è in gioco e determinato a proteggere il proprio territorio, il proprio futuro e la vita dei propri cittadini”.\n\nFRANCIA. Il fronte principale in Gironda è progredito in modo violentissimo nel fine settimana a causa di un raro fenomeno di “orage de feu” (una tempesta di fuoco che auto-alimenta i propri venti), stabilizzandosi solo parzialmente nelle ultime ore. Altri 3.500 ettari sono bruciati nel confinante dipartimento delle Landes, tra Biscarrosse e Parentis-en-Born. Il numero delle persone costrette a lasciare le loro case è senza precedenti: s i tratta di una delle più grandi operazioni di evacuazione di massa mai organizzate in Francia per un incendio forestale. Le persone allontanate hanno raggiunto quota 220.000 nel solo dipartimento della Gironde. Interi comuni a ridosso della cintura di Bordeaux (come Marcheprime, Cestas, Le Barp, Biganos) e di Cap Ferret sono stati evacuati o posti in pre-evacuazione d’urgenza. A questi si aggiungono 40.000 sfollati nel dipartimento delle Landes.\n\nGrazie alla tempestività dei piani di evacuazione preventiva della Sécurité Civile , non si registra nessuna vittima civile . Il bilancio è purtroppo pesante sul fronte dei soccorritori: si contano 75 vigili del fuoco feriti in totale (di cui 42 nel fronte principale della Gironde e 5 nelle Landes), con una decina di pompieri ospedalizzati per ustioni più serie o intossicazioni gravi da fumo.\n\nLa Préfecture della Gironde ha confermato che il fuoco, estremamente imprevedibile, ha superato le linee di difesa inghiottendo e distruggendo interamente 240 abitazioni (oltre a auto private e rimesse agricole) nei settori più colpiti tra Lège-Cap-Ferret e Marcheprime.\n\nL’AIUTO INTERNAZIONALE. L’Ue ha mobilitato aiuti nell’ambito del Meccanismo di protezione civile europeo. In Francia, l’Ue ha dispiegato sette aerei e quattro elicotteri provenienti da Repubblica Ceca, Croazia, Germania, Portogallo, Slovacchia, Svezia e Turchia. La maggior parte di questi velivoli fa parte della flotta antincendio rescEU. In Spagna, l’Ue ha mobilitato sei aerei provenienti da Grecia, Italia e Turchia, e ha dispiegato 134 membri del personale e 41 veicoli provenienti dal Portogallo. Anche il servizio satellitare Copernicus dell’Ue sta fornendo mappe di emergenza aggiornate per sostenere l’intervento sul campo. Il Centro di coordinamento della risposta alle emergenze dell’Ue rimane in stretto contatto con le autorità francesi e spagnole per valutare quale ulteriore sostegno possa essere potenzialmente mobilitato, mentre un funzionario di collegamento della Commissione europea si trova a Bordeaux per aiutare le autorità nazionali a coordinare l’assistenza dell’Ue.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "Non si sono ancora estinti i roghi nelle regioni della Gironda e di Madrid. Bruxelles ha attivato il meccanismo di protezione civile europeo\n\n",
+          "start_offset": 0,
+          "end_offset": 142,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "(Foto: profilo X dei @BomberosMad)\n\n",
+          "start_offset": 142,
+          "end_offset": 178,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "Oltre 42mila ettari devastati nella sola Gironda, più di 28mila quelli bruciati nella sola regione di Madrid. Il bilancio dei roghi boschivi che da giorni devastano Francia e Spagna è sempre più elevato. Nella penisola iberica, dall’inizio dell’anno sono già andati in fumo 172.396,10 ettari di superficie, a causa di 35 incendi di grandi dimensioni. Tra i roghi più estesi di questi giorni si contano quello di Guadalajara (oltre 32.000 ettari), l’incendio tra Ávila e Madrid (15.000 ettari) e quello di Saragozza/Aragona (circa 14.400 ettari).\n\nQuello nella Gironda, in Francia, è ormai il rogo più devastante che la Francia abbia conosciuto negli ultimi cinquant’anni, superando di gran lunga quello di Landiras – nella stessa zona – che nel luglio 2022 aveva bruciato 12.552 ettari. Dall’inizio dell’anno, sul territorio nazionale francese sono andati in fumo circa 40.000 ettari di vegetazione.\n\n",
+          "start_offset": 178,
+          "end_offset": 1079,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "damage",
+            "disaster_magnitude"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "gironde_burned",
+              "value": {
+                "value": 42000,
+                "qualifier": "greater_than"
+              },
+              "unit": "ha"
+            },
+            {
+              "attribute": "madrid_burned",
+              "value": {
+                "value": 28000,
+                "qualifier": "greater_than"
+              },
+              "unit": "ha"
+            },
+            {
+              "attribute": "historic_landiras_area",
+              "value": 12552,
+              "unit": "ha"
+            },
+            {
+              "attribute": "france_ytd_as_printed",
+              "value": {
+                "value": 40000,
+                "qualifier": "about"
+              },
+              "unit": "ha"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "SPAGNA. ",
+          "start_offset": 1079,
+          "end_offset": 1087,
+          "sentence_ids": [
+            10
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "Sul fronte spagnolo, si contano almeno 84 vigili del fuoco feriti ma nessuna vittima tra la popolazione civile. Una ventina di persone ha avuto bisogno di ossigeno nella Comunità Valenciana. Sul campo stanno lavorando senza sosta migliaia di soccorritori. I dati diffusi dai posti di comando avanzati e dalla Protezione Civile indicano una cifra record di evacuati: si tratta di circa 90.000 persone coinvolte (89.763 censiti in 46 diversi nuclei di popolazione). I picchi più critici si registrano nella provincia di Ávila (con circa 30.000 evacuati solo nella valle del Tiétar) e nella Comunità di Madrid, dove tra le altre cose è stato necessario evacuare d’urgenza oltre 1.300 anziani e disabili da 5 diverse residenze sanitarie assistenziali. Altri 12 comuni sono stati evacuati a Castellón (nella zona del parco naturale della Sierra de Espadán).\n\nUn dato numerico totale e definitivo sugli edifici coinvolti non è ancora stato formalizzato dal Governo centrale perché molti fronti sono considerati “fuori dalla capacità di estinzione” e non è possibile fare una conta sicura sul terreno. Tuttavia, le delegazioni del governo di Madrid e Castellón segnalano la distruzione di decine di case, aziende agricole, rimesse e stalle. La viabilità è pesantemente compromessa: la Dirección General de Tráfico (DGT) segnala lo stop alla circolazione e la chiusura di 43 strade secondarie in tutto il Paese per motivi di sicurezza.\n\n",
+          "start_offset": 1087,
+          "end_offset": 2516,
+          "sentence_ids": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "fact_types": [
+            "injuries",
+            "evacuation",
+            "damage",
+            "infrastructure",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "Spain",
+              "unit": null
+            },
+            {
+              "attribute": "registered_evacuees",
+              "value": 89763,
+              "unit": "people"
+            },
+            {
+              "attribute": "secondary_roads_closed",
+              "value": 43,
+              "unit": "roads"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "Il presidente spagnolo, Pedro Sanchez , ha annunciato uno stanziamento di altri 10 mln per realizzare rifugi climatici e la costituzione di un gruppo di esperti scientifici contro “improvvisazione, pregiudizi o bufale diffuse sui social media”. “Servono soluzioni urgenti per costruire una Spagna più sicura e vivibile, preparata alle sfide future. Il Patto di Stato di fronte all’emergenza climatica è una priorità nazionale – ha spiegato in conferenza stampa – che riguarda tutti noi. Questa battaglia non si vincerà con un governo che agisce da solo. Si vincerà con un Paese unito, consapevole di ciò che è in gioco e determinato a proteggere il proprio territorio, il proprio futuro e la vita dei propri cittadini”.\n\n",
+          "start_offset": 2516,
+          "end_offset": 3237,
+          "sentence_ids": [
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "Spain",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "FRANCIA. ",
+          "start_offset": 3237,
+          "end_offset": 3246,
+          "sentence_ids": [
+            25
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "Il fronte principale in Gironda è progredito in modo violentissimo nel fine settimana a causa di un raro fenomeno di “orage de feu” (una tempesta di fuoco che auto-alimenta i propri venti), stabilizzandosi solo parzialmente nelle ultime ore. Altri 3.500 ettari sono bruciati nel confinante dipartimento delle Landes, tra Biscarrosse e Parentis-en-Born. ",
+          "start_offset": 3246,
+          "end_offset": 3599,
+          "sentence_ids": [
+            26,
+            27
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "secondary_hazard",
+            "weather",
+            "damage"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "gironde_firestorm",
+              "value": "generated its own winds",
+              "unit": null
+            },
+            {
+              "attribute": "landes_area_burned",
+              "value": 3500,
+              "unit": "ha"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F009",
+          "span_text": "Il numero delle persone costrette a lasciare le loro case è senza precedenti: s i tratta di una delle più grandi operazioni di evacuazione di massa mai organizzate in Francia per un incendio forestale. Le persone allontanate hanno raggiunto quota 220.000 nel solo dipartimento della Gironde. Interi comuni a ridosso della cintura di Bordeaux (come Marcheprime, Cestas, Le Barp, Biganos) e di Cap Ferret sono stati evacuati o posti in pre-evacuazione d’urgenza. A questi si aggiungono 40.000 sfollati nel dipartimento delle Landes.\n\n",
+          "start_offset": 3599,
+          "end_offset": 4131,
+          "sentence_ids": [
+            28,
+            29,
+            30,
+            31
+          ],
+          "fact_types": [
+            "evacuation",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "gironde_evacuated",
+              "value": 220000,
+              "unit": "people"
+            },
+            {
+              "attribute": "landes_displaced",
+              "value": 40000,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F010",
+          "span_text": "Grazie alla tempestività dei piani di evacuazione preventiva della Sécurité Civile , non si registra nessuna vittima civile . Il bilancio è purtroppo pesante sul fronte dei soccorritori: si contano 75 vigili del fuoco feriti in totale (di cui 42 nel fronte principale della Gironde e 5 nelle Landes), con una decina di pompieri ospedalizzati per ustioni più serie o intossicazioni gravi da fumo.\n\nLa Préfecture della Gironde ha confermato che il fuoco, estremamente imprevedibile, ha superato le linee di difesa inghiottendo e distruggendo interamente 240 abitazioni (oltre a auto private e rimesse agricole) nei settori più colpiti tra Lège-Cap-Ferret e Marcheprime.\n\n",
+          "start_offset": 4131,
+          "end_offset": 4800,
+          "sentence_ids": [
+            32,
+            33,
+            34
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "evacuation",
+            "damage"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "civilian_deaths",
+              "value": "none reported",
+              "unit": null
+            },
+            {
+              "attribute": "firefighters_injured_total",
+              "value": 75,
+              "unit": "people"
+            },
+            {
+              "attribute": "firefighters_injured_gironde_main_front",
+              "value": 42,
+              "unit": "people"
+            },
+            {
+              "attribute": "firefighters_injured_landes",
+              "value": 5,
+              "unit": "people"
+            },
+            {
+              "attribute": "destroyed_homes",
+              "value": 240,
+              "unit": "homes"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F011",
+          "span_text": "L’AIUTO INTERNAZIONALE. ",
+          "start_offset": 4800,
+          "end_offset": 4824,
+          "sentence_ids": [
+            35
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F012",
+          "span_text": "L’Ue ha mobilitato aiuti nell’ambito del Meccanismo di protezione civile europeo. In Francia, l’Ue ha dispiegato sette aerei e quattro elicotteri provenienti da Repubblica Ceca, Croazia, Germania, Portogallo, Slovacchia, Svezia e Turchia. La maggior parte di questi velivoli fa parte della flotta antincendio rescEU. ",
+          "start_offset": 4824,
+          "end_offset": 5141,
+          "sentence_ids": [
+            36,
+            37,
+            38
+          ],
+          "fact_types": [
+            "response",
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "france_aircraft",
+              "value": [
+                7,
+                4
+              ],
+              "unit": "planes and helicopters"
+            },
+            {
+              "attribute": "mechanism",
+              "value": "EU Civil Protection Mechanism",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F013",
+          "span_text": "In Spagna, l’Ue ha mobilitato sei aerei provenienti da Grecia, Italia e Turchia, e ha dispiegato 134 membri del personale e 41 veicoli provenienti dal Portogallo. ",
+          "start_offset": 5141,
+          "end_offset": 5304,
+          "sentence_ids": [
+            39
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "Spain",
+              "unit": null
+            },
+            {
+              "attribute": "planes",
+              "value": 6,
+              "unit": null
+            },
+            {
+              "attribute": "portuguese_personnel",
+              "value": 134,
+              "unit": null
+            },
+            {
+              "attribute": "portuguese_vehicles",
+              "value": 41,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F014",
+          "span_text": "Anche il servizio satellitare Copernicus dell’Ue sta fornendo mappe di emergenza aggiornate per sostenere l’intervento sul campo. Il Centro di coordinamento della risposta alle emergenze dell’Ue rimane in stretto contatto con le autorità francesi e spagnole per valutare quale ulteriore sostegno possa essere potenzialmente mobilitato, mentre un funzionario di collegamento della Commissione europea si trova a Bordeaux per aiutare le autorità nazionali a coordinare l’assistenza dell’Ue.",
+          "start_offset": 5304,
+          "end_offset": 5792,
+          "sentence_ids": [
+            40,
+            41
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "bf44e64b3b5ea1352448462003c209b1b331b2bee3e887c016d9dfea73a56e31",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-7C3665AA851CEDC3",
+      "event_id": "DIS-WF-BF04DB61D8313B71",
+      "event_rank": 46,
+      "article_rank": 3,
+      "title": "Emergenza incendi, la Commissione Ue attiva il meccanismo di Protezione Civile europeo per Francia e Spagna",
+      "publisher": "italpress",
+      "identified_publisher": "Italpress",
+      "source_domain": "italpress.com",
+      "url": "https://www.italpress.com/emergenza-incendi-la-commissione-ue-attiva-il-meccanismo-di-protezione-civile-europeo-per-francia-e-spagna/",
+      "published_at": "2026-07-27T16:15:17+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "it",
+      "language_label_issue": "The original label is en. The title and body are in Italian.",
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "ITALPRESS Brussels dateline. The EU coverage draws on the same European Commission statement as A002.",
+      "content": "BRUXELLES (BELGIO) (ITALPRESS) – L’Unione europea ha provveduto all’invio di aerei e vigili del fuoco in Francia e Spagna per fronteggiare gli incendi che stanno devastando i paesi . Lo riferisce una nota della Commissione europea, precisando che L’Ue ha fornito assistenza sia alla Francia che alla Spagna nell’ambito del Meccanismo di protezione civile europeo. Gli incendi boschivi nei due Paesi hanno innescato una delle più grandi operazioni di evacuazione in Europa, costringendo oltre 300.000 persone ad abbandonare le proprie case in Francia e Spagna.\n\nIn Francia, l’Ue ha schierato sette aerei e quattro elicotteri provenienti da Repubblica Ceca, Croazia, Germania, Portogallo, Slovacchia, Svezia e Turchia. La maggior parte di questi velivoli fa parte della flotta antincendio rescEU. In Spagna, l’Ue ha mobilitato sei aerei provenienti da Grecia, Italia e Turchia e ha schierato 134 persone e 41 veicoli dal Portogallo. Il servizio satellitare Copernicus dell’Ue sta inoltre fornendo mappe di emergenza a supporto degli interventi sul campo. Il Centro di coordinamento della risposta alle emergenze dell’UE rimane in stretto contatto con le autorità francesi e spagnole per valutare quale ulteriore supporto possa essere mobilitato, e un funzionario di collegamento della Commissione europea si trova a Bordeaux per aiutare le autorità nazionali a coordinare l’assistenza.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "BRUXELLES (BELGIO) (ITALPRESS) – L’Unione europea ha provveduto all’invio di aerei e vigili del fuoco in Francia e Spagna per fronteggiare gli incendi che stanno devastando i paesi . Lo riferisce una nota della Commissione europea, precisando che L’Ue ha fornito assistenza sia alla Francia che alla Spagna nell’ambito del Meccanismo di protezione civile europeo. Gli incendi boschivi nei due Paesi hanno innescato una delle più grandi operazioni di evacuazione in Europa, costringendo oltre 300.000 persone ad abbandonare le proprie case in Francia e Spagna.\n\n",
+          "start_offset": 0,
+          "end_offset": 561,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "aid",
+            "response",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "france_spain_evacuated",
+              "value": {
+                "value": 300000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "European Commission",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "In Francia, l’Ue ha schierato sette aerei e quattro elicotteri provenienti da Repubblica Ceca, Croazia, Germania, Portogallo, Slovacchia, Svezia e Turchia. La maggior parte di questi velivoli fa parte della flotta antincendio rescEU. ",
+          "start_offset": 561,
+          "end_offset": 795,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "france_aircraft",
+              "value": [
+                7,
+                4
+              ],
+              "unit": "planes and helicopters"
+            },
+            {
+              "attribute": "mechanism",
+              "value": "rescEU and EU Civil Protection Mechanism",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "In Spagna, l’Ue ha mobilitato sei aerei provenienti da Grecia, Italia e Turchia e ha schierato 134 persone e 41 veicoli dal Portogallo. ",
+          "start_offset": 795,
+          "end_offset": 931,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "Spain",
+              "unit": null
+            },
+            {
+              "attribute": "planes",
+              "value": 6,
+              "unit": null
+            },
+            {
+              "attribute": "portuguese_personnel",
+              "value": 134,
+              "unit": null
+            },
+            {
+              "attribute": "portuguese_vehicles",
+              "value": 41,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "Il servizio satellitare Copernicus dell’Ue sta inoltre fornendo mappe di emergenza a supporto degli interventi sul campo. Il Centro di coordinamento della risposta alle emergenze dell’UE rimane in stretto contatto con le autorità francesi e spagnole per valutare quale ulteriore supporto possa essere mobilitato, e un funzionario di collegamento della Commissione europea si trova a Bordeaux per aiutare le autorità nazionali a coordinare l’assistenza.",
+          "start_offset": 931,
+          "end_offset": 1383,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "mapping_support",
+              "value": "Copernicus",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "89a424460bf805e446a5409d57d7e7d11dc5b3d99bca93766acdafa5666cb95d",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "The EU deployed seven fixed-wing aircraft and four helicopters to France",
+        "fact_type": "aid",
+        "attribute": "eu_aircraft_france",
+        "supporting_spans": [
+          "A002_F012",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F012",
+            "value": {
+              "planes": 7,
+              "helicopters": 4
+            },
+            "unit": null,
+            "attribution": "European Commission"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "planes": 7,
+              "helicopters": 4
+            },
+            "unit": null,
+            "attribution": "European Commission"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "France requested assistance and Romania extended its firefighting mission",
+        "fact_type": "response",
+        "attribute": "eu_coordinated_support",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F012",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "Romanian rotation extended for two weeks",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F012",
+            "value": "EU air assets deployed",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "EU air assets deployed",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "About 220,000 people evacuated in Gironde",
+        "fact_type": "evacuation",
+        "attribute": "gironde_evacuations",
+        "supporting_spans": [
+          "A002_F009"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F009",
+            "value": 220000,
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "Reported burned areas in Gironde and across France year to date appear inconsistent",
+        "fact_type": "damage",
+        "attribute": "french_burned_area_scope",
+        "supporting_spans": [
+          "A002_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": {
+              "gironde_lower_bound_exclusive": 42000,
+              "france_ytd_approximate": 40000
+            },
+            "unit": "ha",
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": "The same article gives more than 42,000 hectares for Gironde and about 40,000 for France year to date. The cutoffs and sources are unspecified, so both figures are retained with this caveat."
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC003"
+      ],
+      "important_facts": [
+        "FC002",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2026-07-27",
+          "time_precision": "Publication date",
+          "description": "The reports said wildfires continued in France and Spain and that the EU deployed aircraft.",
+          "supporting_spans": [
+            "A002_F003",
+            "A002_F012",
+            "A003_F001",
+            "A003_F002"
+          ]
+        },
+        {
+          "time": "2026-07-28",
+          "time_precision": "Publication date",
+          "description": "The report covered Romania's decision to extend its support mission in France.",
+          "supporting_spans": [
+            "A001_F001"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "Reports describe a firestorm in Gironde that generated its own winds and accelerated the spread of the fire front.",
+          "supporting_spans": [
+            "A002_F008"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "Wildfires in southwestern France forced mass evacuations. The EU coordinated aircraft and firefighters, and Romania extended its assistance.",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F009",
+            "A003_F002"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "A002 and A003 are predominantly in Italian. Reported losses and casualties in Spain are excluded from the French figures."
+    ]
+  }
+}

@@ -1,0 +1,1141 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-066763829BE3ECCB",
+  "event_rank": 6,
+  "event_metadata": {
+    "event_name": "Earthquake in Venezuela",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2026-06-24T22:05:12+00:00",
+    "event_end_time": "2026-06-24T22:05:12+00:00",
+    "locations": [
+      "Venezuela"
+    ],
+    "latitude": 10.453,
+    "longitude": -68.5139,
+    "place_names_in_reports": [
+      "Venezuela",
+      "Aragua",
+      "La Guaira",
+      "Caracas",
+      "Simón Bolívar International Airport",
+      "Madrid Airport",
+      "Istanbul"
+    ],
+    "gdacs_id": "1548377",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "All three reports appeared on June 27. They give no common cutoff for deaths, injuries, and missing persons."
+    ],
+    "dataset_place_name": "Earthquake in Venezuela",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-8A1DBE6809BD21DD",
+      "event_id": "DIS-EQ-066763829BE3ECCB",
+      "event_rank": 6,
+      "article_rank": 1,
+      "title": "Another powerful magnitude 4.8 earthquake hits near Venezuela",
+      "publisher": "aljazeera-en",
+      "identified_publisher": "Al Jazeera",
+      "source_domain": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/6/27/another-powerful-4-8-magnitude-earthquake-hits-near-venezuela",
+      "published_at": "2026-06-27T19:38:14+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "Al Jazeera cites EMSC and local authorities. The body shows no interviews credited to PA or BBC.",
+      "content": "Another powerful earthquake has been detected off the coast of Venezuela.\n\nThe European-Mediterranean Seismological Centre (EMSC) said the magnitude 4.8 quake was detected at 3:20pm local time (19:20 GMT) near Venezuela’s northern Aragua state.\n\nThere have been reports of several aftershocks and smaller quakes after Venezuela was hit by two major earthquakes on Wednesday , one with a magnitude of 7.2 and the other 7.5.\n\nRescuers were still racing to rescue possible survivors of those earthquakes when Saturday’s seismic activity hit.\n\nAt least 1,430 people have been confirmed dead so far after Wednesday’s quakes. Another 51,000 have been reported missing.\n\nAuthorities have said that recovering survivors will become increasingly unlikely if they are not found within the first 72 hours after an earthquake strikes. Many people are believed to be buried under the rubble from collapsed buildings, and the death toll is expected to climb.\n\nThe latest earthquake was located 70km (43.4 miles) west of Venezuela’s capital, Caracas. No damage related to that quake was immediately reported.\n\nWednesday’s earthquakes caused the most devastating damage in La Guaira state, with some neighbourhoods in Caracas also hard-hit.\n\nResidents, meanwhile, have complained of a lack of organisation in the government’s recovery efforts , with the situation made worse by mobile and internet outages in some areas.\n\nOn Saturday, Venezuela’s government said 1,600 members of foreign rescue teams had arrived in the country.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "Another powerful earthquake has been detected off the coast of Venezuela.\n\nThe European-Mediterranean Seismological Centre (EMSC) said the magnitude 4.8 quake was detected at 3:20pm local time (19:20 GMT) near Venezuela’s northern Aragua state.\n\n",
+          "start_offset": 0,
+          "end_offset": 246,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 4.8,
+              "unit": null
+            },
+            {
+              "attribute": "time_local",
+              "value": "15:20",
+              "unit": null
+            },
+            {
+              "attribute": "time_gmt",
+              "value": "19:20",
+              "unit": null
+            },
+            {
+              "attribute": "location",
+              "value": "near Aragua",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "EMSC",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "There have been reports of several aftershocks and smaller quakes after Venezuela was hit by two major earthquakes on Wednesday , one with a magnitude of 7.2 and the other 7.5.\n\n",
+          "start_offset": 246,
+          "end_offset": 424,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "secondary_hazard"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "wednesday_quake_magnitudes",
+              "value": [
+                7.2,
+                7.5
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "Rescuers were still racing to rescue possible survivors of those earthquakes when Saturday’s seismic activity hit.\n\n",
+          "start_offset": 424,
+          "end_offset": 540,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "At least 1,430 people have been confirmed dead so far after Wednesday’s quakes. Another 51,000 have been reported missing.\n\n",
+          "start_offset": 540,
+          "end_offset": 664,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "casualties",
+            "missing_persons"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 1430,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "reported_missing",
+              "value": 51000,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "Authorities have said that recovering survivors will become increasingly unlikely if they are not found within the first 72 hours after an earthquake strikes. Many people are believed to be buried under the rubble from collapsed buildings, and the death toll is expected to climb.\n\n",
+          "start_offset": 664,
+          "end_offset": 946,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "response",
+            "casualties",
+            "missing_persons",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "survivor_window",
+              "value": 72,
+              "unit": "hours"
+            },
+            {
+              "attribute": "scope",
+              "value": "authority assessment of falling survival likelihood",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "The latest earthquake was located 70km (43.4 miles) west of Venezuela’s capital, Caracas. No damage related to that quake was immediately reported.\n\n",
+          "start_offset": 946,
+          "end_offset": 1095,
+          "sentence_ids": [
+            9,
+            10
+          ],
+          "fact_types": [
+            "location",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "distance_west_of_caracas",
+              "value": 70,
+              "unit": "km"
+            },
+            {
+              "attribute": "latest_quake_damage",
+              "value": "none immediately reported",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "Wednesday’s earthquakes caused the most devastating damage in La Guaira state, with some neighbourhoods in Caracas also hard-hit.\n\n",
+          "start_offset": 1095,
+          "end_offset": 1226,
+          "sentence_ids": [
+            11
+          ],
+          "fact_types": [
+            "damage",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "hardest_hit_areas",
+              "value": [
+                "La Guaira",
+                "some Caracas neighborhoods"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F008",
+          "span_text": "Residents, meanwhile, have complained of a lack of organisation in the government’s recovery efforts , with the situation made worse by mobile and internet outages in some areas.\n\n",
+          "start_offset": 1226,
+          "end_offset": 1406,
+          "sentence_ids": [
+            12
+          ],
+          "fact_types": [
+            "public_reaction",
+            "infrastructure",
+            "response",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F009",
+          "span_text": "On Saturday, Venezuela’s government said 1,600 members of foreign rescue teams had arrived in the country.",
+          "start_offset": 1406,
+          "end_offset": 1512,
+          "sentence_ids": [
+            13
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "arrived_foreign_rescuers",
+              "value": 1600,
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "Venezuelan government",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "ca184d8b6c6d6b3591133878304b21860958dbc20c381266f81913ed6191666c",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-22154581FEE2AB30",
+      "event_id": "DIS-EQ-066763829BE3ECCB",
+      "event_rank": 6,
+      "article_rank": 2,
+      "title": "Crisis-response team stranded trying to aid Venezuela earthquake rescue effort",
+      "publisher": "news-yahoo-uk",
+      "identified_publisher": "Press Association",
+      "source_domain": "uk.news.yahoo.com",
+      "url": "https://uk.news.yahoo.com/crisis-response-team-stranded-trying-210036815.html",
+      "published_at": "2026-06-27T21:00:36+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "Yahoo hosts the article, which explicitly identifies the Press Association interview. The photo credit is Serve On/PA.",
+      "content": "A specialist team of British crisis-response volunteers heading to Venezuela to help after the devastating earthquake has been stuck in Madrid airport for more than 24 hours.\n\nServe On, a UK-based charity, has a team of 11 people and one dog trying to get to Venezuela's capital, Caracas, after it was devastated by back-to-back high magnitude earthquakes on Wednesday.\n\nVenezuela is still waiting for relief services to arrive as the specialist team of British crisis-response volunteers has been held in Madrid airport since Friday evening (Serve On/PA)\n\nThe team possesses seismic and acoustic equipment that can sense movement of deeply buried victims, and their team leader, Vernon Young, told the Press Association they are desperate to get out to Venezuela \"as soon as possible\".\n\nThe confirmed death toll from the 7.2 and 7.5 magnitude quakes surpassed 1,430 on Saturday, with at least 68,900 people reported as missing.\n\nHowever, Simon Bolivar International Airport, the only international airport that serves Caracas, was also ravaged by the earthquakes, so travel into the country is \"severely affected\".\n\nMr Young, 57, who has responded to disasters in the British Virgin Islands, Turkey and Syria during 14 years volunteering for Serve On, said: \"These things are always time critical. We're a light team and can move quickly. The sooner you get there, the more chance you have of saving lives.\n\n\"Every situation is different, in Turkey they were pulling live victims out 14 days after the earthquake. We hope we can get out there and make a difference.\n\n\"We're a technical rescue team and can potentially find deeply entombed victims just by their movement. We still believe we will make a decent contribution if we get there in the next day or two.\n\n\"The British Government Fire Service Team are en route now, they're a heavy team with 68 people and we've got links with them. But we don't hear much (from Venezuela), we don't know how they're doing.\"\n\nGiven there are no direct flights from the UK to Venezuela, the team has been at Madrid Airport since 9pm on Friday, after connecting flights from Istanbul were cancelled.\n\nFlights from Madrid have also been cancelled, leaving the volunteers stranded due to their reliance on civilian transport.\n\nThe team hopes to help use their search and rescue experience and equipment to find survivors buried under rubble in Venezuela (Serve On/PA)\n\nMr Young, who is Serve On's international operations lead and training lead on top of his job as a construction project manager, added: \"We've been reaching out to any other type of flights, military flights and lots of different ways.\n\n\"We have 11 out in deployment but twice that back in the UK working really hard to try to help us get there. We're not alone – there's a French team and two Spanish teams facing the same problems.\n\n\"We've been in contact with the Government and we know they're doing all they can, we have evidence of that. They're out to help us.\n\n\"It's the saving lives aspect that motivates me. Serve On as an organisation has proved we can affect people's lives deeply by saving people.\n\n\"We all understand that things are difficult, we're frustrated and we want to be out there now.\"\n\nMatt Hasdell, a 24-year-old volunteer in the team, said: \"It's escalated quite quickly.\n\n\"There's been a lot of logistics and making contact with other international teams and finding out different ways into the country.\n\n\"We don't have infinite money, so it's trying to manage our finances. Our priority is to go into the dangerous zone and save as many lives as possible.\n\n\"Our team has been working as hard as possible to get us on the ground.\"",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "A specialist team of British crisis-response volunteers heading to Venezuela to help after the devastating earthquake has been stuck in Madrid airport for more than 24 hours.\n\nServe On, a UK-based charity, has a team of 11 people and one dog trying to get to Venezuela's capital, Caracas, after it was devastated by back-to-back high magnitude earthquakes on Wednesday.\n\n",
+          "start_offset": 0,
+          "end_offset": 371,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "delay",
+              "value": {
+                "value": 24,
+                "qualifier": "greater_than"
+              },
+              "unit": "hours"
+            },
+            {
+              "attribute": "group",
+              "value": "Serve On",
+              "unit": null
+            },
+            {
+              "attribute": "volunteers",
+              "value": 11,
+              "unit": "people"
+            },
+            {
+              "attribute": "rescue_dogs",
+              "value": 1,
+              "unit": "dog"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "Venezuela is still waiting for relief services to arrive as the specialist team of British crisis-response volunteers has been held in Madrid airport since Friday evening (Serve On/PA)\n\n",
+          "start_offset": 371,
+          "end_offset": 557,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "The team possesses seismic and acoustic equipment that can sense movement of deeply buried victims, and their team leader, Vernon Young, told the Press Association they are desperate to get out to Venezuela \"as soon as possible\".\n\n",
+          "start_offset": 557,
+          "end_offset": 788,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "equipment",
+              "value": "seismic and acoustic detectors",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Vernon Young",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "The confirmed death toll from the 7.2 and 7.5 magnitude quakes surpassed 1,430 on Saturday, with at least 68,900 people reported as missing.\n\n",
+          "start_offset": 788,
+          "end_offset": 930,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "casualties",
+            "missing_persons"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "magnitudes",
+              "value": [
+                7.2,
+                7.5
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 1430,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "reported_missing",
+              "value": {
+                "value": 68900,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "However, Simon Bolivar International Airport, the only international airport that serves Caracas, was also ravaged by the earthquakes, so travel into the country is \"severely affected\".\n\n",
+          "start_offset": 930,
+          "end_offset": 1117,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "airport",
+              "value": "Simón Bolívar International Airport",
+              "unit": null
+            },
+            {
+              "attribute": "impact",
+              "value": "travel severely affected",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "Mr Young, 57, who has responded to disasters in the British Virgin Islands, Turkey and Syria during 14 years volunteering for Serve On, said: \"These things are always time critical. We're a light team and can move quickly. The sooner you get there, the more chance you have of saving lives.\n\n\"Every situation is different, in Turkey they were pulling live victims out 14 days after the earthquake. We hope we can get out there and make a difference.\n\n\"We're a technical rescue team and can potentially find deeply entombed victims just by their movement. We still believe we will make a decent contribution if we get there in the next day or two.\n\n",
+          "start_offset": 1117,
+          "end_offset": 1765,
+          "sentence_ids": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "fact_types": [
+            "response",
+            "uncertainty"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "turkey_anecdote_days_to_live_rescue",
+              "value": 14,
+              "unit": "days"
+            },
+            {
+              "attribute": "attribution",
+              "value": "Vernon Young",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "\"The British Government Fire Service Team are en route now, they're a heavy team with 68 people and we've got links with them. But we don't hear much (from Venezuela), we don't know how they're doing.\"\n\n",
+          "start_offset": 1765,
+          "end_offset": 1968,
+          "sentence_ids": [
+            14,
+            15
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "uk_government_fire_service_team_size",
+              "value": 68,
+              "unit": "people"
+            },
+            {
+              "attribute": "deployment_status",
+              "value": "en route",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Vernon Young",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "Given there are no direct flights from the UK to Venezuela, the team has been at Madrid Airport since 9pm on Friday, after connecting flights from Istanbul were cancelled.\n\nFlights from Madrid have also been cancelled, leaving the volunteers stranded due to their reliance on civilian transport.\n\n",
+          "start_offset": 1968,
+          "end_offset": 2265,
+          "sentence_ids": [
+            16,
+            17
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "stranded_since",
+              "value": "Friday 21:00",
+              "unit": null
+            },
+            {
+              "attribute": "constraints",
+              "value": "cancelled connecting and onward flights",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F009",
+          "span_text": "The team hopes to help use their search and rescue experience and equipment to find survivors buried under rubble in Venezuela (Serve On/PA)\n\n",
+          "start_offset": 2265,
+          "end_offset": 2407,
+          "sentence_ids": [
+            18
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F010",
+          "span_text": "Mr Young, who is Serve On's international operations lead and training lead on top of his job as a construction project manager, added: \"We've been reaching out to any other type of flights, military flights and lots of different ways.\n\n\"We have 11 out in deployment but twice that back in the UK working really hard to try to help us get there. We're not alone – there's a French team and two Spanish teams facing the same problems.\n\n\"We've been in contact with the Government and we know they're doing all they can, we have evidence of that. They're out to help us.\n\n",
+          "start_offset": 2407,
+          "end_offset": 2976,
+          "sentence_ids": [
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "fact_types": [
+            "response",
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "other_teams_delayed",
+              "value": {
+                "French": 1,
+                "Spanish": 2
+              },
+              "unit": "teams"
+            },
+            {
+              "attribute": "attribution",
+              "value": "Vernon Young",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F011",
+          "span_text": "\"It's the saving lives aspect that motivates me. Serve On as an organisation has proved we can affect people's lives deeply by saving people.\n\n\"We all understand that things are difficult, we're frustrated and we want to be out there now.\"\n\n",
+          "start_offset": 2976,
+          "end_offset": 3217,
+          "sentence_ids": [
+            24,
+            25,
+            26
+          ],
+          "fact_types": [
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F012",
+          "span_text": "Matt Hasdell, a 24-year-old volunteer in the team, said: \"It's escalated quite quickly.\n\n\"There's been a lot of logistics and making contact with other international teams and finding out different ways into the country.\n\n\"We don't have infinite money, so it's trying to manage our finances. Our priority is to go into the dangerous zone and save as many lives as possible.\n\n\"Our team has been working as hard as possible to get us on the ground.\"",
+          "start_offset": 3217,
+          "end_offset": 3664,
+          "sentence_ids": [
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "fact_types": [
+            "public_reaction",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "Matt Hasdell",
+              "unit": null
+            },
+            {
+              "attribute": "volunteer_age",
+              "value": 24,
+              "unit": "years"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "21f2ab8e1fa17cc31ae3ef1d8f8a0a05e71d98fe0595d08043736651d87926f0",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-000744B67A405441",
+      "event_id": "DIS-EQ-066763829BE3ECCB",
+      "event_rank": 6,
+      "article_rank": 3,
+      "title": "Panic attacks and fractures - Venezuela hospital treats earthquake victims",
+      "publisher": "bbc",
+      "identified_publisher": "BBC",
+      "source_domain": "bbc.co.uk",
+      "url": "https://www.bbc.co.uk/news/videos/cm2d0rjg4l3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-06-27T21:43:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "The body identifies BBC reporter Vanessa Silva reporting from outside a hospital in Caracas.",
+      "content": "The fallout from two deadly earthquakes in Venezuela on Wednesday continue to be felt across the country.\n\nOfficials said the death toll has reached 1,430 with 3,238 injured. Rescue operations are still underway, though the window of time where it is still likely to find people alive is closing.\n\nThe BBC's Vanessa Silva reports from outside a hospital in Caracas, where friends and families of missing people are turning up in hope of finding their loved ones there.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "The fallout from two deadly earthquakes in Venezuela on Wednesday continue to be felt across the country.\n\n",
+          "start_offset": 0,
+          "end_offset": 107,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "Officials said the death toll has reached 1,430 with 3,238 injured. Rescue operations are still underway, though the window of time where it is still likely to find people alive is closing.\n\n",
+          "start_offset": 107,
+          "end_offset": 298,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "response",
+            "uncertainty"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": 1430,
+              "unit": "people"
+            },
+            {
+              "attribute": "injured",
+              "value": 3238,
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "officials",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "The BBC's Vanessa Silva reports from outside a hospital in Caracas, where friends and families of missing people are turning up in hope of finding their loved ones there.",
+          "start_offset": 298,
+          "end_offset": 468,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "response",
+            "missing_persons",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "reported_location",
+              "value": "hospital in Caracas",
+              "unit": null
+            },
+            {
+              "attribute": "reporter",
+              "value": "Vanessa Silva",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "2ae20d46c46da7ef07b36e693712a7591c75eefdb44da18e99d6841e4e43b0d1",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "Magnitudes of the two strong earthquakes on Wednesday",
+        "fact_type": "disaster_magnitude",
+        "attribute": "wednesday_main_quake_magnitudes",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": [
+              7.2,
+              7.5
+            ],
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": [
+              7.2,
+              7.5
+            ],
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "Reports put the death toll from the two earthquakes at roughly 1,430",
+        "fact_type": "casualties",
+        "attribute": "main_quakes_death_toll",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F004",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": {
+              "value": 1430,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": {
+              "value": 1430,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": 1430,
+            "unit": "people",
+            "attribution": "officials"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "The exact count and the higher lower bound reported later may reflect different cutoffs. The evidence is insufficient to confirm a conflict at the same time."
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "Two reports give substantially different numbers of missing people",
+        "fact_type": "missing_persons",
+        "attribute": "reported_missing",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": 51000,
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": {
+              "value": 68900,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "Both articles appeared on Saturday. The underlying records, cutoffs, and revision history are unverified. Publication order alone cannot establish the correct value."
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "BBC reports the official injury count",
+        "fact_type": "injuries",
+        "attribute": "reported_injured",
+        "supporting_spans": [
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": 3238,
+            "unit": "people",
+            "attribution": "officials"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC005",
+        "cluster_description": "A separate magnitude-4.8 earthquake struck Saturday",
+        "fact_type": "disaster_magnitude",
+        "attribute": "saturday_tremor_magnitude",
+        "supporting_spans": [
+          "A001_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 4.8,
+            "unit": null,
+            "attribution": "EMSC"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC006",
+        "cluster_description": "Some international rescuers arrived while individual teams faced flight disruptions",
+        "fact_type": "aid",
+        "attribute": "international_response",
+        "supporting_spans": [
+          "A001_F009",
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F009",
+            "value": 1600,
+            "unit": "people",
+            "attribution": "Venezuelan government"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "UK Serve On team stranded at Madrid airport",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "The aggregate count of arrivals and the delay of one team describe different groups."
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005",
+        "FC006"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "important_facts": [
+        "FC005",
+        "FC006"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2026-06-24",
+          "time_precision": "Local date",
+          "description": "Magnitude-7.2 and magnitude-7.5 earthquakes struck Venezuela in succession.",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F004",
+            "A003_F001"
+          ]
+        },
+        {
+          "time": "2026-06-26",
+          "time_precision": "Inferred from weekday and publication date",
+          "description": "The Serve On team was stranded at Madrid airport from Friday evening.",
+          "supporting_spans": [
+            "A002_F008"
+          ]
+        },
+        {
+          "time": "2026-06-27T19:20Z",
+          "time_precision": "Minute (GMT)",
+          "description": "EMSC reported a magnitude-4.8 earthquake near Aragua.",
+          "supporting_spans": [
+            "A001_F001"
+          ]
+        },
+        {
+          "time": "2026-06-27",
+          "time_precision": "Publication date",
+          "description": "Reports continued to update casualties and missing people as search and rescue continued.",
+          "supporting_spans": [
+            "A001_F004",
+            "A002_F004",
+            "A003_F002"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "Airport damage and cancelled flights prevented Serve On from arriving.",
+          "supporting_spans": [
+            "A002_F005",
+            "A002_F008"
+          ]
+        },
+        {
+          "description": "Mobile and internet outages compounded the coordination problems described by residents.",
+          "supporting_spans": [
+            "A001_F008"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "Wednesday's earthquakes severely affected La Guaira and parts of Caracas. Search and rescue continued on Saturday, when another earthquake occurred.",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A001_F003",
+            "A001_F007"
+          ]
+        },
+        {
+          "description": "The death toll, official injury figures, and different missing-person counts retain their original reporting scopes.",
+          "supporting_spans": [
+            "A001_F004",
+            "A002_F004",
+            "A003_F002"
+          ]
+        },
+        {
+          "description": "Some international rescue personnel arrived while other specialist teams faced delays.",
+          "supporting_spans": [
+            "A001_F009",
+            "A002_F001",
+            "A002_F005"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "Official casualty and missing-person registers were not checked. No common statistical cutoff was established."
+    ]
+  }
+}

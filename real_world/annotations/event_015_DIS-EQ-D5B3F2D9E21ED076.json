@@ -1,0 +1,771 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-D5B3F2D9E21ED076",
+  "event_rank": 15,
+  "event_metadata": {
+    "event_name": "Earthquake in Colombia",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2025-06-08T13:08:06+00:00",
+    "event_end_time": "2025-06-08T13:08:06+00:00",
+    "locations": [
+      "Colombia"
+    ],
+    "latitude": 4.5125,
+    "longitude": -73.1444,
+    "place_names_in_reports": [
+      "Colombia",
+      "Bogota",
+      "Paratebueno",
+      "Ansermanuevo"
+    ],
+    "gdacs_id": "1485124",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "The event CSV records 2025-06-08T13:08:06Z. Both AFP republications say Saturday at 09:08 local time. Xinhua cites GFZ for Sunday at 13:08:07 GMT."
+    ],
+    "dataset_place_name": "Earthquake in Colombia",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-4C7D550829BA9273",
+      "event_id": "DIS-EQ-D5B3F2D9E21ED076",
+      "event_rank": 15,
+      "article_rank": 1,
+      "title": "Powerful 6.3 Magnitude Quake Shakes Bogota",
+      "publisher": "menafn",
+      "identified_publisher": "AFP",
+      "source_domain": "menafn.com",
+      "url": "https://menafn.com/1109649503/Powerful-63-Magnitude-Quake-Shakes-Bogota",
+      "published_at": "2025-06-08T00:00:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "The body explicitly identifies AFP reporters and their verification efforts. The two hosted versions are nearly identical.",
+      "content": "BogotaÌ: A powerful, shallow 6.3-magnitude earthquake shook the Colombian capital of Bogota early Saturday, according to AFP reporters on the ground and the United States Geological Survey.\n\nThe shallow quake struck at 9:08 local time near the city of Paratebueno in central Colombia, some 170 kilometers (105 miles) east of Bogota, the USGS said.\n\nBuildings shook, sirens blared around the capital and people rushed out into the streets, while social media users posted videos of swinging lights and furniture, though the images could not be immediately verified by AFP.\n\nScores of people gathered in parks and outside buildings in their pajamas, with parents trying to calm frightened kids and others looking for pets that had run away.\n\n\"This was very strong,\" said an elderly lady in Bogota trying to make her way down several flights of steps.\n\nCentral Colombia is in a zone of high seismic activity. A 6.2 magnitude quake there in 1999, not far from Ansermanuevo, claimed nearly 1,200 lives.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "BogotaÌ: A powerful, shallow 6.3-magnitude earthquake shook the Colombian capital of Bogota early Saturday, according to AFP reporters on the ground and the United States Geological Survey.\n\n",
+          "start_offset": 0,
+          "end_offset": 192,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 6.3,
+              "unit": null
+            },
+            {
+              "attribute": "reported_day",
+              "value": "Saturday",
+              "unit": null
+            },
+            {
+              "attribute": "reference",
+              "value": "AFP and USGS",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "The shallow quake struck at 9:08 local time near the city of Paratebueno in central Colombia, some 170 kilometers (105 miles) east of Bogota, the USGS said.\n\n",
+          "start_offset": 192,
+          "end_offset": 350,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_local_time",
+              "value": "09:08",
+              "unit": null
+            },
+            {
+              "attribute": "epicenter_near",
+              "value": "Paratebueno",
+              "unit": null
+            },
+            {
+              "attribute": "distance_east_of_bogota",
+              "value": {
+                "value": 170,
+                "qualifier": "some"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "attribution",
+              "value": "USGS",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "Buildings shook, sirens blared around the capital and people rushed out into the streets, while social media users posted videos of swinging lights and furniture, though the images could not be immediately verified by AFP.\n\nScores of people gathered in parks and outside buildings in their pajamas, with parents trying to calm frightened kids and others looking for pets that had run away.\n\n\"This was very strong,\" said an elderly lady in Bogota trying to make her way down several flights of steps.\n\n",
+          "start_offset": 350,
+          "end_offset": 851,
+          "sentence_ids": [
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "affected_population",
+            "public_reaction",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "observed_reactions",
+              "value": [
+                "buildings shook",
+                "sirens sounded",
+                "people gathered outdoors"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "video_status",
+              "value": "AFP could not immediately verify",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "Central Colombia is in a zone of high seismic activity. A 6.2 magnitude quake there in 1999, not far from Ansermanuevo, claimed nearly 1,200 lives.",
+          "start_offset": 851,
+          "end_offset": 998,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "separate 1999 earthquake",
+              "unit": null
+            },
+            {
+              "attribute": "magnitude",
+              "value": 6.2,
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 1200,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "3f4441f0dd35638b16fa4f35c23aa7f0311239efe7817fb65bdec2a39f368016",
+        "removed_word_count": 69,
+        "removed_word_ratio": 0.2936170212765957
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-BAF9D4C341B0293E",
+      "event_id": "DIS-EQ-D5B3F2D9E21ED076",
+      "event_rank": 15,
+      "article_rank": 2,
+      "title": "Urgent: 6.5-magnitude quake hits Colombia -- GFZ",
+      "publisher": "english-news-cn",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20250608/14cad382594d4d76bc08bac1d65eb811/c.html",
+      "published_at": "2025-06-08T13:28:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "Xinhua's Beijing-datelined report is based on a GFZ bulletin, separate from AFP's on-the-ground reporting.",
+      "content": "BEIJING, June 8 (Xinhua) -- An earthquake with a magnitude of 6.5 jolted Colombia at 13:08:07 GMT on Sunday (21:08:07 Beijing Time), the GFZ German Research Centre for Geosciences said.\n\nThe epicenter, with a depth of 10.0 km, was initially determined to be at 4.47 degrees north latitude and 73.07 degrees west longitude. ",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "BEIJING, June 8 (Xinhua) -- An earthquake with a magnitude of 6.5 jolted Colombia at 13:08:07 GMT on Sunday (21:08:07 Beijing Time), the GFZ German Research Centre for Geosciences said.\n\n",
+          "start_offset": 0,
+          "end_offset": 187,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 6.5,
+              "unit": null
+            },
+            {
+              "attribute": "origin_time",
+              "value": "2025-06-08T13:08:07Z",
+              "unit": null
+            },
+            {
+              "attribute": "reported_day",
+              "value": "Sunday",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "GFZ",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "The epicenter, with a depth of 10.0 km, was initially determined to be at 4.47 degrees north latitude and 73.07 degrees west longitude. ",
+          "start_offset": 187,
+          "end_offset": 323,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "location",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "depth",
+              "value": 10,
+              "unit": "km"
+            },
+            {
+              "attribute": "epicenter_latitude",
+              "value": 4.47,
+              "unit": "degrees north"
+            },
+            {
+              "attribute": "epicenter_longitude",
+              "value": 73.07,
+              "unit": "degrees west"
+            },
+            {
+              "attribute": "determination",
+              "value": "initial",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "241472d4a86aa2b8b7f976811d06a0ae898be40fe9d1c100e9cae61829cfbab8",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-FD7D11467F37732F",
+      "event_id": "DIS-EQ-D5B3F2D9E21ED076",
+      "event_rank": 15,
+      "article_rank": 3,
+      "title": "Powerful 6.3 magnitude quake shakes Colombia Just now 1m read",
+      "publisher": "gulfnews",
+      "identified_publisher": "AFP",
+      "source_domain": "gulfnews.com",
+      "url": "https://gulfnews.com/world/americas/powerful-63-magnitude-earthquake-shakes-colombia-1.500156324",
+      "published_at": "2025-06-08T14:06:54+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "The body explicitly identifies AFP reporters and their verification efforts. The two hosted versions are nearly identical.",
+      "content": "A powerful, shallow 6.3-magnitude earthquake shook the Colombian capital of Bogota early Saturday, according to AFP reporters on the ground and the United States Geological Survey.The shallow quake struck at 9:08 local time near the city of Paratebueno in central Colombia, some 170 kilometers (105 miles) east of Bogota, the USGS said.Buildings shook, sirens blared around the capital and people rushed out into the streets, while social media users posted videos of swinging lights and furniture, though the images could not be immediately verified by AFP.Scores of people gathered in parks and outside buildings in their pajamas, with parents trying to calm frightened kids and others looking for pets that had run away.\"This was very strong,\" said an elderly lady in Bogota trying to make her way down several flights of steps. Central Colombia is in a zone of high seismic activity. A 6.2 magnitude quake there in 1999, not far from Ansermanuevo, claimed nearly 1,200 lives.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "A powerful, shallow 6.3-magnitude earthquake shook the Colombian capital of Bogota early Saturday, according to AFP reporters on the ground and the United States Geological Survey.",
+          "start_offset": 0,
+          "end_offset": 180,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 6.3,
+              "unit": null
+            },
+            {
+              "attribute": "reported_day",
+              "value": "Saturday",
+              "unit": null
+            },
+            {
+              "attribute": "reference",
+              "value": "AFP and USGS",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "The shallow quake struck at 9:08 local time near the city of Paratebueno in central Colombia, some 170 kilometers (105 miles) east of Bogota, the USGS said.",
+          "start_offset": 180,
+          "end_offset": 336,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_local_time",
+              "value": "09:08",
+              "unit": null
+            },
+            {
+              "attribute": "epicenter_near",
+              "value": "Paratebueno",
+              "unit": null
+            },
+            {
+              "attribute": "distance_east_of_bogota",
+              "value": {
+                "value": 170,
+                "qualifier": "some"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "attribution",
+              "value": "USGS",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "Buildings shook, sirens blared around the capital and people rushed out into the streets, while social media users posted videos of swinging lights and furniture, though the images could not be immediately verified by AFP.Scores of people gathered in parks and outside buildings in their pajamas, with parents trying to calm frightened kids and others looking for pets that had run away.\"This was very strong,\" said an elderly lady in Bogota trying to make her way down several flights of steps. ",
+          "start_offset": 336,
+          "end_offset": 832,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "affected_population",
+            "public_reaction",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "observed_reactions",
+              "value": [
+                "buildings shook",
+                "sirens sounded",
+                "people gathered outdoors"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "video_status",
+              "value": "AFP could not immediately verify",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "Central Colombia is in a zone of high seismic activity. A 6.2 magnitude quake there in 1999, not far from Ansermanuevo, claimed nearly 1,200 lives.",
+          "start_offset": 832,
+          "end_offset": 979,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "separate 1999 earthquake",
+              "unit": null
+            },
+            {
+              "attribute": "magnitude",
+              "value": 6.2,
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 1200,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "874b0e1f35eb07cd90d71e3c96bc77dc988b60803c42e633ee51eebf8075c632",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "The same earthquake was reported at magnitudes 6.3 and 6.5",
+        "fact_type": "disaster_magnitude",
+        "attribute": "reported_magnitude",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 6.3,
+            "unit": null,
+            "attribution": "AFP / USGS"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 6.5,
+            "unit": null,
+            "attribution": "GFZ"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": 6.3,
+            "unit": null,
+            "attribution": "AFP / USGS"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "Different agencies provided the estimates, with no common magnitude method given. The two AFP articles use the same wire copy."
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "The reports disagree on whether the earthquake occurred on Saturday or Sunday",
+        "fact_type": "timeline",
+        "attribute": "reported_weekday",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "Saturday",
+            "unit": null,
+            "attribution": "AFP"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "Sunday",
+            "unit": null,
+            "attribution": "GFZ"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": "Saturday",
+            "unit": null,
+            "attribution": "AFP"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "conflicting",
+        "temporal_relation": "same_time",
+        "annotation_note": "The stated weekdays are incompatible for the same event. AFP's timing could also reflect a time-zone or editorial issue. The original bulletins and revisions were not consulted, so the gold value remains null."
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "GFZ initially estimated a depth of 10 km",
+        "fact_type": "disaster_magnitude",
+        "attribute": "depth",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F002",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "shallow",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": 10,
+            "unit": "km",
+            "attribution": "GFZ"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": "shallow",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "Bogotá residents went outside after feeling the shaking",
+        "fact_type": "public_reaction",
+        "attribute": "public_reaction",
+        "supporting_spans": [
+          "A001_F003",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": "people left buildings and gathered outdoors",
+            "unit": null,
+            "attribution": "AFP"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "people left buildings and gathered outdoors",
+            "unit": null,
+            "attribution": "AFP"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": "The repeated wire copy does not provide independent corroboration."
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001"
+      ],
+      "important_facts": [
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-06-08T13:08:07Z",
+          "time_precision": "Second (GMT)",
+          "description": "GFZ reported the earthquake in Colombia and gave preliminary depth and coordinates.",
+          "supporting_spans": [
+            "A002_F001",
+            "A002_F002"
+          ]
+        },
+        {
+          "time": "During and after shaking",
+          "time_precision": "Relative time",
+          "description": "AFP described shaking buildings, alarms, and residents gathering outdoors in Bogotá.",
+          "supporting_spans": [
+            "A001_F003",
+            "A003_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "AFP reported that strong shaking prompted Bogotá residents to move from buildings into streets and parks.",
+          "supporting_spans": [
+            "A001_F003",
+            "A003_F003"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "A shallow earthquake shook Bogotá. AFP and GFZ-based reports differ on the magnitude and timing.",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A002_F001",
+            "A002_F002",
+            "A003_F001"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": true,
+      "total_conflicts": 1,
+      "conflicts": [
+        {
+          "conflict_id": "C001",
+          "cluster_id": "FC002",
+          "attribute": "reported_weekday",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F001",
+            "A003_F001"
+          ],
+          "source_values": [
+            {
+              "article_id": "A001",
+              "fact_span_id": "A001_F001",
+              "value": "Saturday",
+              "unit": null,
+              "attribution": "AFP"
+            },
+            {
+              "article_id": "A002",
+              "fact_span_id": "A002_F001",
+              "value": "Sunday",
+              "unit": null,
+              "attribution": "GFZ"
+            },
+            {
+              "article_id": "A003",
+              "fact_span_id": "A003_F001",
+              "value": "Saturday",
+              "unit": null,
+              "attribution": "AFP"
+            }
+          ],
+          "classification": "confirmed_conflict",
+          "resolution_status": "unresolved",
+          "gold_value": null,
+          "resolution_reason": "The stated weekdays are incompatible for the same event. AFP's timing could also reflect a time-zone or editorial issue. The original bulletins and revisions were not consulted, so the gold value remains null."
+        }
+      ],
+      "unresolved_conflicts": [
+        "C001"
+      ]
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "The 1999 casualty figures are background. Both AFP copies retain their original encoding and punctuation."
+    ]
+  }
+}

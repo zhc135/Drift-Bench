@@ -1,0 +1,1772 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-061D231B89C06F55",
+  "event_rank": 5,
+  "event_metadata": {
+    "event_name": "Earthquake in Indonesia",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2026-08-14T21:58:21+00:00",
+    "event_end_time": "2026-08-14T21:58:21+00:00",
+    "locations": [
+      "Indonesia"
+    ],
+    "latitude": -8.3101,
+    "longitude": 121.3517,
+    "place_names_in_reports": [
+      "Flores",
+      "East Nusa Tenggara",
+      "Ende",
+      "Sikka",
+      "Manggarai",
+      "East Manggarai",
+      "Reo",
+      "Palue Island",
+      "Ruteng",
+      "Denpasar",
+      "Jakarta"
+    ],
+    "gdacs_id": "1558059",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "The CSV gives August 14 in UTC. The reports describe early August 15 local time. No common cutoff is given for the running totals."
+    ],
+    "dataset_place_name": "Earthquake in Indonesia",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-45F36DA2B0E1FF46",
+      "event_id": "DIS-EQ-061D231B89C06F55",
+      "event_rank": 5,
+      "article_rank": 1,
+      "title": "China ready to offer assistance after Indonesia earthquake",
+      "publisher": "xinhuanet-english",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20260817/3b51aafb502e4b2985b3d6ce0e39dfce/c.html",
+      "published_at": "2026-08-17T08:21:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "Xinhua dateline covering a regular Chinese Foreign Ministry briefing.",
+      "content": "BEIJING, Aug. 17 (Xinhua) -- China is concerned about the earthquake in Indonesia and is ready to provide assistance in accordance with Indonesia's needs, Chinese foreign ministry spokesperson Lin Jian said Monday.\n\n\"We express our deep condolences to the victims and sincere sympathies to the families of the deceased and the injured,\" Lin said at a daily media briefing in response to the 7.7-magnitude earthquake that struck Flores Island, Indonesia, on Aug. 15.\n\nIt is understood that some Chinese citizens have been injured in the earthquake, Lin said, adding that the Chinese Consulate General in Denpasar has activated its emergency mechanism to provide assistance to those affected. ",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "BEIJING, Aug. 17 (Xinhua) -- China is concerned about the earthquake in Indonesia and is ready to provide assistance in accordance with Indonesia's needs, Chinese foreign ministry spokesperson Lin Jian said Monday.\n\n",
+          "start_offset": 0,
+          "end_offset": 216,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "assistance_status",
+              "value": "China ready to assist according to Indonesia’s needs",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Lin Jian",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "\"We express our deep condolences to the victims and sincere sympathies to the families of the deceased and the injured,\" Lin said at a daily media briefing in response to the 7.7-magnitude earthquake that struck Flores Island, Indonesia, on Aug. 15.\n\n",
+          "start_offset": 216,
+          "end_offset": 467,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.7,
+              "unit": null
+            },
+            {
+              "attribute": "location",
+              "value": "Flores Island",
+              "unit": null
+            },
+            {
+              "attribute": "local_date",
+              "value": "2026-08-15",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "It is understood that some Chinese citizens have been injured in the earthquake, Lin said, adding that the Chinese Consulate General in Denpasar has activated its emergency mechanism to provide assistance to those affected. ",
+          "start_offset": 467,
+          "end_offset": 691,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "injuries",
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "injured_nationality",
+              "value": "Chinese nationals",
+              "unit": null
+            },
+            {
+              "attribute": "count",
+              "value": "some",
+              "unit": null
+            },
+            {
+              "attribute": "response",
+              "value": "Chinese Consulate General in Denpasar activated emergency mechanism",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "e0eeee2e29bccd419b963052fbed32ff1ea23fe58ac5e0b01c40b32be0eef53a",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-92C15C1F1542AE8F",
+      "event_id": "DIS-EQ-061D231B89C06F55",
+      "event_rank": 5,
+      "article_rank": 2,
+      "title": "Powerful aftershock hits Indonesian communities still waiting for aid as earthquake death toll rises to 68",
+      "publisher": "news-yahoo-uk",
+      "identified_publisher": null,
+      "source_domain": "uk.news.yahoo.com",
+      "url": "https://uk.news.yahoo.com/powerful-aftershock-hits-indonesian-communities-062707917.html",
+      "published_at": "2026-08-17T10:38:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "The Yahoo-hosted article quotes AP interviews with Reo residents. Quotes and details overlap with A003, and the complete provenance is unverified.",
+      "content": "The death toll from Saturday's earthquake in Indonesia has risen to at least ‌68, as powerful aftershocks continued to strike fear into communities on the island of Flores where thousands of people are still waiting for aid .\n\nA magnitude-5.9 tremor was recorded at a depth of about 10km by Germany 's GFZ Research Centre for Geosciences on Monday, though there were no immediate reports of further casualties.\n\nThe agency has recorded at least 995 aftershocks since Saturday, 46 of which were powerful enough to be felt by residents. The strongest before Monday's measured 6.2.\n\nIndonesia on Monday marked its 81st Independence Day, which residents of Flores spent mourning, searching for relatives and waiting for supplies to reach them.\n\nPresident Prabowo Subianto asked the nation to pray for people affected by the disaster in East Nusa Tenggara and other parts of the country, as well as leading a nationwide moment of silence honouring Indonesia's independence heroes.\n\nThe province's governor declared a 14-day state of emergency on Sunday, with the earthquake death toll continuing to climb as rescue teams work through debris. Officials expect it to rise further as they reach more villages cut off by landslides. Most of the deaths were recorded in the districts of Sikka, Manggarai and East Manggarai.\n\nThe magnitude-7.7 earthquake that struck on Saturday morning had its epicentre about 68km north-west of Ende, a town on the south coast of Flores, according to the US Geological Survey.\n\nFlores lies in East Nusa Tenggara, a province of scattered islands at the eastern end of the Indonesian archipelago.\n\nAt least 200 people were injured and more than 2,000 homes were damaged across East Nusa Tenggara province, nearly 250 of them destroyed on Flores alone, the National Disaster Management Agency said. About 5,000 people are in temporary shelters.\n\nVillagers rest in a tent on an open field in Marapokot, Nagekeo, East Nusa Tenggara (AFP/Getty)\n\nThousands more spent Sunday night under tarpaulins beside their collapsed houses rather than risk going indoors.\n\nMore than 3,500 military and police personnel have been deployed and 275 tonnes of aid sent into the disaster zone, but the terrain has slowed deliveries to the worst-affected communities.\n\n\"We are continuing to collect reports of damage and casualties, but there are communication disruptions,\" said the East Nusa Tenggara police chief, Rudi Darmoko, who described severe structural damage and collapsed buildings, with power cuts hampering communications.\n\nLandslides have blocked sections of the Trans-Flores highway in Ende regency, the road that runs about 435 miles across the island from Labuan Bajo to Larantuka. Rescue officials have warned the death toll could rise, with villages across six regencies buried or cut off, and the disaster agency has sent a helicopter to carry supplies and support possible evacuations.\n\n\"My house is just rubble now,\" Rasyid Jafar, a clothing trader in the village of Reo, the worst-hit part of Manggarai regency, told the Associated Press. \"We need food, medicine and clean water urgently.\"\n\nSurvivors say what has arrived is not enough to live on. \"We have nothing left. Why isn't there a public kitchen?\" Mariana Tewu, another Reo villager, told the news agency.\n\nLocal television showed patients being wheeled out of several hospitals as a precaution, with staff moving beds and oxygen cylinders outside and setting up temporary treatment areas.\n\nSaturday's quake prompted a tsunami warning and sent coastal residents to higher ground before it was lifted when no significant change in sea levels was detected. Flores was struck by a tsunami after an earthquake in 1992 that killed about 2,500 people.\n\nIndonesia sits on the Pacific Ring of Fire, the belt of seismic activity around the edges of the ocean, and records frequent earthquakes and volcanic eruptions. An earthquake on Sulawesi in 2018 killed more than 4,400 people, and the magnitude 9.1 quake off Sumatra in 2004 caused a tsunami that killed about 230,000 people across a dozen countries.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "The death toll from Saturday's earthquake in Indonesia has risen to at least ‌68, as powerful aftershocks continued to strike fear into communities on the island of Flores where thousands of people are still waiting for aid .\n\n",
+          "start_offset": 0,
+          "end_offset": 227,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "casualties",
+            "humanitarian_needs",
+            "aid"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 68,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "A magnitude-5.9 tremor was recorded at a depth of about 10km by Germany 's GFZ Research Centre for Geosciences on Monday, though there were no immediate reports of further casualties.\n\n",
+          "start_offset": 227,
+          "end_offset": 412,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "secondary_hazard",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "aftershock_magnitude",
+              "value": 5.9,
+              "unit": null
+            },
+            {
+              "attribute": "depth",
+              "value": {
+                "value": 10,
+                "qualifier": "about"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "attribution",
+              "value": "GFZ",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "The agency has recorded at least 995 aftershocks since Saturday, 46 of which were powerful enough to be felt by residents. The strongest before Monday's measured 6.2.\n\n",
+          "start_offset": 412,
+          "end_offset": 580,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "aftershocks",
+              "value": {
+                "value": 995,
+                "qualifier": "at_least"
+              },
+              "unit": "events"
+            },
+            {
+              "attribute": "felt_aftershocks",
+              "value": 46,
+              "unit": "events"
+            },
+            {
+              "attribute": "strongest_before_monday_magnitude",
+              "value": 6.2,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "Indonesia on Monday marked its 81st Independence Day, which residents of Flores spent mourning, searching for relatives and waiting for supplies to reach them.\n\nPresident Prabowo Subianto asked the nation to pray for people affected by the disaster in East Nusa Tenggara and other parts of the country, as well as leading a nationwide moment of silence honouring Indonesia's independence heroes.\n\n",
+          "start_offset": 580,
+          "end_offset": 977,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "public_reaction",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "occasion",
+              "value": "81st Independence Day",
+              "unit": null
+            },
+            {
+              "attribute": "speaker",
+              "value": "Prabowo Subianto",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "The province's governor declared a 14-day state of emergency on Sunday, with the earthquake death toll continuing to climb as rescue teams work through debris. Officials expect it to rise further as they reach more villages cut off by landslides. Most of the deaths were recorded in the districts of Sikka, Manggarai and East Manggarai.\n\n",
+          "start_offset": 977,
+          "end_offset": 1315,
+          "sentence_ids": [
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "casualties",
+            "response",
+            "secondary_hazard",
+            "location",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "emergency_duration",
+              "value": 14,
+              "unit": "days"
+            },
+            {
+              "attribute": "districts_with_most_deaths",
+              "value": [
+                "Sikka",
+                "Manggarai",
+                "East Manggarai"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "The magnitude-7.7 earthquake that struck on Saturday morning had its epicentre about 68km north-west of Ende, a town on the south coast of Flores, according to the US Geological Survey.\n\nFlores lies in East Nusa Tenggara, a province of scattered islands at the eastern end of the Indonesian archipelago.\n\n",
+          "start_offset": 1315,
+          "end_offset": 1620,
+          "sentence_ids": [
+            10,
+            11
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.7,
+              "unit": null
+            },
+            {
+              "attribute": "epicenter_distance",
+              "value": {
+                "value": 68,
+                "qualifier": "about"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "epicenter_direction",
+              "value": "northwest of Ende",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "USGS",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "At least 200 people were injured and more than 2,000 homes were damaged across East Nusa Tenggara province, nearly 250 of them destroyed on Flores alone, the National Disaster Management Agency said. About 5,000 people are in temporary shelters.\n\n",
+          "start_offset": 1620,
+          "end_offset": 1867,
+          "sentence_ids": [
+            12,
+            13
+          ],
+          "fact_types": [
+            "injuries",
+            "damage",
+            "evacuation",
+            "affected_population"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "injured",
+              "value": {
+                "value": 200,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "damaged_homes",
+              "value": {
+                "value": 2000,
+                "qualifier": "greater_than"
+              },
+              "unit": "homes"
+            },
+            {
+              "attribute": "destroyed_homes_on_flores",
+              "value": {
+                "value": 250,
+                "qualifier": "nearly"
+              },
+              "unit": "homes"
+            },
+            {
+              "attribute": "temporary_shelter_population",
+              "value": {
+                "value": 5000,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "National Disaster Management Agency named for injuries and damage",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "Villagers rest in a tent on an open field in Marapokot, Nagekeo, East Nusa Tenggara (AFP/Getty)\n\n",
+          "start_offset": 1867,
+          "end_offset": 1964,
+          "sentence_ids": [
+            14
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F009",
+          "span_text": "Thousands more spent Sunday night under tarpaulins beside their collapsed houses rather than risk going indoors.\n\n",
+          "start_offset": 1964,
+          "end_offset": 2078,
+          "sentence_ids": [
+            15
+          ],
+          "fact_types": [
+            "affected_population",
+            "evacuation"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "people_sheltering_outdoors",
+              "value": "thousands",
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F010",
+          "span_text": "More than 3,500 military and police personnel have been deployed and 275 tonnes of aid sent into the disaster zone, but the terrain has slowed deliveries to the worst-affected communities.\n\n",
+          "start_offset": 2078,
+          "end_offset": 2268,
+          "sentence_ids": [
+            16
+          ],
+          "fact_types": [
+            "response",
+            "aid",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "deployed_personnel",
+              "value": {
+                "value": 3500,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "aid_sent",
+              "value": 275,
+              "unit": "tonnes"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F011",
+          "span_text": "\"We are continuing to collect reports of damage and casualties, but there are communication disruptions,\" said the East Nusa Tenggara police chief, Rudi Darmoko, who described severe structural damage and collapsed buildings, with power cuts hampering communications.\n\nLandslides have blocked sections of the Trans-Flores highway in Ende regency, the road that runs about 435 miles across the island from Labuan Bajo to Larantuka. Rescue officials have warned the death toll could rise, with villages across six regencies buried or cut off, and the disaster agency has sent a helicopter to carry supplies and support possible evacuations.\n\n",
+          "start_offset": 2268,
+          "end_offset": 2908,
+          "sentence_ids": [
+            17,
+            18,
+            19
+          ],
+          "fact_types": [
+            "response",
+            "damage",
+            "infrastructure",
+            "secondary_hazard",
+            "uncertainty",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "communications_constraints",
+              "value": "power cuts and disrupted communications",
+              "unit": null
+            },
+            {
+              "attribute": "main_highway_blocked",
+              "value": "Trans-Flores Highway",
+              "unit": null
+            },
+            {
+              "attribute": "main_highway_length",
+              "value": {
+                "value": 435,
+                "qualifier": "about"
+              },
+              "unit": "miles"
+            },
+            {
+              "attribute": "regencies_with_buried_or_cut_off_villages",
+              "value": 6,
+              "unit": "regencies"
+            },
+            {
+              "attribute": "response",
+              "value": "helicopter to carry supplies and support potential evacuations",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F012",
+          "span_text": "\"My house is just rubble now,\" Rasyid Jafar, a clothing trader in the village of Reo, the worst-hit part of Manggarai regency, told the Associated Press. \"We need food, medicine and clean water urgently.\"\n\nSurvivors say what has arrived is not enough to live on. \"We have nothing left. Why isn't there a public kitchen?\" Mariana Tewu, another Reo villager, told the news agency.\n\n",
+          "start_offset": 2908,
+          "end_offset": 3288,
+          "sentence_ids": [
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "fact_types": [
+            "damage",
+            "humanitarian_needs",
+            "public_reaction"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "place",
+              "value": "Reo, Manggarai",
+              "unit": null
+            },
+            {
+              "attribute": "urgent_needs",
+              "value": [
+                "food",
+                "medicine",
+                "clean water"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "residents quoted via AP",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F013",
+          "span_text": "Local television showed patients being wheeled out of several hospitals as a precaution, with staff moving beds and oxygen cylinders outside and setting up temporary treatment areas.\n\n",
+          "start_offset": 3288,
+          "end_offset": 3472,
+          "sentence_ids": [
+            26
+          ],
+          "fact_types": [
+            "response",
+            "evacuation",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "response",
+              "value": "precautionary evacuation of patients at several hospitals and temporary treatment areas",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F014",
+          "span_text": "Saturday's quake prompted a tsunami warning and sent coastal residents to higher ground before it was lifted when no significant change in sea levels was detected. ",
+          "start_offset": 3472,
+          "end_offset": 3636,
+          "sentence_ids": [
+            27
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "response",
+            "evacuation"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "tsunami_warning",
+              "value": "issued then lifted",
+              "unit": null
+            },
+            {
+              "attribute": "reported_reason",
+              "value": "no significant sea-level change detected",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F015",
+          "span_text": "Flores was struck by a tsunami after an earthquake in 1992 that killed about 2,500 people.\n\nIndonesia sits on the Pacific Ring of Fire, the belt of seismic activity around the edges of the ocean, and records frequent earthquakes and volcanic eruptions. An earthquake on Sulawesi in 2018 killed more than 4,400 people, and the magnitude 9.1 quake off Sumatra in 2004 caused a tsunami that killed about 230,000 people across a dozen countries.",
+          "start_offset": 3636,
+          "end_offset": 4077,
+          "sentence_ids": [
+            28,
+            29,
+            30
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "disaster_occurrence",
+            "casualties",
+            "cause",
+            "disaster_magnitude"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "1992_flores_tsunami_deaths",
+              "value": {
+                "value": 2500,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "2018_sulawesi_deaths",
+              "value": {
+                "value": 4400,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "2004_sumatra_magnitude",
+              "value": 9.1,
+              "unit": null
+            },
+            {
+              "attribute": "2004_tsunami_deaths",
+              "value": {
+                "value": 230000,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "526744da38172a8237c4a6c92870920c58145d21d19dcb1af85c69a96434861c",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-B9338EBB6F3040C6",
+      "event_id": "DIS-EQ-061D231B89C06F55",
+      "event_rank": 5,
+      "article_rank": 3,
+      "title": "Thousands in Indonesia await aid after quake kills 68, overshadowing Independence Day",
+      "publisher": "newsnow-co-uk",
+      "identified_publisher": null,
+      "source_domain": "asiaone.com",
+      "url": "https://www.asiaone.com/asia/thousands-indonesia-await-aid-after-quake-kills-55-overshadowing-independence-day",
+      "published_at": "2026-08-17T10:16:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "The NewsNow-hosted article carries a Reo dateline and shares quotes explicitly attributed to AP in A002. The complete byline is missing.",
+      "content": "REO, Indonesia — Thousands of people waited for aid on the Indonesian island of Flores on Monday (Aug 17) as the country marked its 81st Independence Day, two days after a powerful earthquake killed at least 68 people, injured more than 200 others and damaged thousands of homes.\n\nMany residents on Flores island in East Nusa Tenggara province spent the day mourning victims while military teams tried to deliver food, clean water and clothing to inaccessible communities by plane.\n\nThe Saturday morning quake left widespread damage, with buildings collapsed onto parked cars, homes shattered and trees and boulders blocking roads.\n\n\"My house is just rubble now,\" said Rasyid Jafar, a clothing trader in the village of Reo, the hardest-hit area in Manggarai regency. \"We need food, medicine and clean water urgently.\"\n\nDuring Indonesia's Independence Day ceremony in the capital, Jakarta, President Prabowo Subianto asked participants to pray for people affected by disasters in East Nusa Tenggara and other parts of the country, while leading a nationwide moment of silence honoring the nation's independence heroes.\n\nMore than 4,500 homes were damaged when the quake struck Flores island early Saturday. Some 19,000 people were forced into temporary shelters and 213 people were injured, according to the National Disaster Management Agency or BNPB.\n\nThe disaster also damaged 122 health facilities, 252 schools and 84 places of worship.\n\nThe province's governor declared a 14-day state of emergency on Sunday.\n\nThe quake occurred at a depth of 10 kilometres shortly before 6am (7am SGT) Saturday, according to the US Geological Survey, and residents fled in panic as tsunami warnings were issued but later lifted.\n\nAuthorities have since recorded 1,576 aftershocks into Monday, though only 54 were felt by residents.\n\nThousands of people on Flores camped outside collapsed homes under tarpaulin tents overnight into Monday, sleeping outside because of the danger of more aftershocks.\n\nFor many residents, the disaster revived painful memories of a powerful earthquake and tsunami that struck Flores in 1992, killing about 2,500 people.\n\nAs thousands of survivors remain in need of food, shelter and medical treatment, the government said more than 1,800 military and police personnel have been deployed across the disaster zone, supported by 10 aircraft and several vessels, to distribute more than 100 metric tons of emergency aid.\n\nNearly 5,400 food packages, two field hospital tents, medicines and clothing were being delivered to communities across the disaster zone, as logistical challenges slowed deliveries to some hard-hit communities, national disaster agency Deputy Chief Abdul Muhari said in a video statement.\n\nAuthorities set up two emergency field hospitals in the worst-hit town of Ruteng to treat earthquake victims after local hospitals were damaged, with two crisis management teams overseeing a health emergency operation centre, Muhari said.\n\nHe also said rescue teams continued searching for victims in the affected areas, although no residents have reported any family members still missing.\n\nAid workers reached tiny Palue Island, one of the areas closest to the earthquake's epicentre, late Sunday, after a difficult sea and land journey through landslide-hit terrain, authorities said. Thousands of residents remained in urgent need of assistance.\n\n\"The roads are steep and many were blocked by landslides. It was a near-death journey,\" said the deputy police chief of Sikka regency, Marselus Yugo Amboro, whose team was among the first to reach the island with emergency supplies.\n\nHe said initial assessments revealed extensive damage, with one villager killed, two seriously injured and nearly 150 homes destroyed.\n\nIndonesia, an archipelago of more than 17,000 islands, is prone to earthquakes and volcanic eruptions because of its location on the Pacific \"Ring of Fire\", a horseshoe-shaped arc of seismic faults and volcanoes.\n\nIn 2018, a magnitude 7.5 earthquake triggered a tsunami on the island of Sulawesi that killed more than 4,400 people. In 2004, a magnitude 9.1 quake off Sumatra unleashed a tsunami that killed about 230,000 people in a dozen countries, nearly 170,000 in Aceh province alone.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "REO, Indonesia — Thousands of people waited for aid on the Indonesian island of Flores on Monday (Aug 17) as the country marked its 81st Independence Day, two days after a powerful earthquake killed at least 68 people, injured more than 200 others and damaged thousands of homes.\n\n",
+          "start_offset": 0,
+          "end_offset": 281,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "damage",
+            "humanitarian_needs",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 68,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injured",
+              "value": {
+                "value": 200,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "Many residents on Flores island in East Nusa Tenggara province spent the day mourning victims while military teams tried to deliver food, clean water and clothing to inaccessible communities by plane.\n\nThe Saturday morning quake left widespread damage, with buildings collapsed onto parked cars, homes shattered and trees and boulders blocking roads.\n\n",
+          "start_offset": 281,
+          "end_offset": 633,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "damage",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "\"My house is just rubble now,\" said Rasyid Jafar, a clothing trader in the village of Reo, the hardest-hit area in Manggarai regency. \"We need food, medicine and clean water urgently.\"\n\n",
+          "start_offset": 633,
+          "end_offset": 819,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "damage",
+            "humanitarian_needs",
+            "public_reaction"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "place",
+              "value": "Reo, Manggarai",
+              "unit": null
+            },
+            {
+              "attribute": "urgent_needs",
+              "value": [
+                "food",
+                "medicine",
+                "clean water"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Rasyid Jafar",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "During Indonesia's Independence Day ceremony in the capital, Jakarta, President Prabowo Subianto asked participants to pray for people affected by disasters in East Nusa Tenggara and other parts of the country, while leading a nationwide moment of silence honoring the nation's independence heroes.\n\n",
+          "start_offset": 819,
+          "end_offset": 1119,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "public_reaction",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "speaker",
+              "value": "Prabowo Subianto",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "More than 4,500 homes were damaged when the quake struck Flores island early Saturday. Some 19,000 people were forced into temporary shelters and 213 people were injured, according to the National Disaster Management Agency or BNPB.\n\nThe disaster also damaged 122 health facilities, 252 schools and 84 places of worship.\n\n",
+          "start_offset": 1119,
+          "end_offset": 1441,
+          "sentence_ids": [
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "damage",
+            "injuries",
+            "evacuation",
+            "affected_population"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "damaged_homes",
+              "value": {
+                "value": 4500,
+                "qualifier": "greater_than"
+              },
+              "unit": "homes"
+            },
+            {
+              "attribute": "people_in_temporary_shelters",
+              "value": {
+                "value": 19000,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injured",
+              "value": 213,
+              "unit": "people"
+            },
+            {
+              "attribute": "damaged_health_facilities",
+              "value": 122,
+              "unit": "facilities"
+            },
+            {
+              "attribute": "damaged_schools",
+              "value": 252,
+              "unit": "schools"
+            },
+            {
+              "attribute": "damaged_places_of_worship",
+              "value": 84,
+              "unit": "places"
+            },
+            {
+              "attribute": "injury_and_shelter_attribution",
+              "value": "BNPB",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "The province's governor declared a 14-day state of emergency on Sunday.\n\n",
+          "start_offset": 1441,
+          "end_offset": 1514,
+          "sentence_ids": [
+            10
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "emergency_duration",
+              "value": 14,
+              "unit": "days"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "The quake occurred at a depth of 10 kilometres shortly before 6am (7am SGT) Saturday, according to the US Geological Survey, and residents fled in panic as tsunami warnings were issued but later lifted.\n\n",
+          "start_offset": 1514,
+          "end_offset": 1718,
+          "sentence_ids": [
+            11
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "timeline",
+            "disaster_magnitude",
+            "secondary_hazard",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "mainshock_depth",
+              "value": 10,
+              "unit": "km"
+            },
+            {
+              "attribute": "local_time",
+              "value": "shortly before 06:00 Saturday",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "USGS",
+              "unit": null
+            },
+            {
+              "attribute": "tsunami_warning",
+              "value": "issued then lifted",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F008",
+          "span_text": "Authorities have since recorded 1,576 aftershocks into Monday, though only 54 were felt by residents.\n\n",
+          "start_offset": 1718,
+          "end_offset": 1821,
+          "sentence_ids": [
+            12
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "aftershocks",
+              "value": 1576,
+              "unit": "events"
+            },
+            {
+              "attribute": "felt_aftershocks",
+              "value": 54,
+              "unit": "events"
+            },
+            {
+              "attribute": "attribution",
+              "value": "authorities",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F009",
+          "span_text": "Thousands of people on Flores camped outside collapsed homes under tarpaulin tents overnight into Monday, sleeping outside because of the danger of more aftershocks.\n\nFor many residents, the disaster revived painful memories of a powerful earthquake and tsunami that struck Flores in 1992, killing about 2,500 people.\n\n",
+          "start_offset": 1821,
+          "end_offset": 2140,
+          "sentence_ids": [
+            13,
+            14
+          ],
+          "fact_types": [
+            "affected_population",
+            "evacuation",
+            "secondary_hazard",
+            "casualties"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "people_camping_outdoors",
+              "value": "thousands",
+              "unit": "people"
+            },
+            {
+              "attribute": "1992_flores_tsunami_deaths",
+              "value": {
+                "value": 2500,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F010",
+          "span_text": "As thousands of survivors remain in need of food, shelter and medical treatment, the government said more than 1,800 military and police personnel have been deployed across the disaster zone, supported by 10 aircraft and several vessels, to distribute more than 100 metric tons of emergency aid.\n\nNearly 5,400 food packages, two field hospital tents, medicines and clothing were being delivered to communities across the disaster zone, as logistical challenges slowed deliveries to some hard-hit communities, national disaster agency Deputy Chief Abdul Muhari said in a video statement.\n\nAuthorities set up two emergency field hospitals in the worst-hit town of Ruteng to treat earthquake victims after local hospitals were damaged, with two crisis management teams overseeing a health emergency operation centre, Muhari said.\n\n",
+          "start_offset": 2140,
+          "end_offset": 2968,
+          "sentence_ids": [
+            15,
+            16,
+            17
+          ],
+          "fact_types": [
+            "response",
+            "humanitarian_needs",
+            "aid",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deployed_personnel",
+              "value": {
+                "value": 1800,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "support_aircraft",
+              "value": 10,
+              "unit": "aircraft"
+            },
+            {
+              "attribute": "aid",
+              "value": {
+                "value": 100,
+                "qualifier": "greater_than"
+              },
+              "unit": "metric tonnes"
+            },
+            {
+              "attribute": "food_packages",
+              "value": {
+                "value": 5400,
+                "qualifier": "nearly"
+              },
+              "unit": "packages"
+            },
+            {
+              "attribute": "field_hospital_tents",
+              "value": 2,
+              "unit": "tents"
+            },
+            {
+              "attribute": "ruteng_field_hospitals",
+              "value": 2,
+              "unit": "hospitals"
+            },
+            {
+              "attribute": "ruteng_crisis_management_teams",
+              "value": 2,
+              "unit": "teams"
+            },
+            {
+              "attribute": "response_attribution",
+              "value": "government and BNPB Deputy Chief Abdul Muhari",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F011",
+          "span_text": "He also said rescue teams continued searching for victims in the affected areas, although no residents have reported any family members still missing.\n\n",
+          "start_offset": 2968,
+          "end_offset": 3120,
+          "sentence_ids": [
+            18
+          ],
+          "fact_types": [
+            "response",
+            "missing_persons"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "missing_persons_status",
+              "value": "Muhari said no residents have reported family members still missing",
+              "unit": null
+            },
+            {
+              "attribute": "search_status",
+              "value": "ongoing",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F012",
+          "span_text": "Aid workers reached tiny Palue Island, one of the areas closest to the earthquake's epicentre, late Sunday, after a difficult sea and land journey through landslide-hit terrain, authorities said. Thousands of residents remained in urgent need of assistance.\n\n\"The roads are steep and many were blocked by landslides. It was a near-death journey,\" said the deputy police chief of Sikka regency, Marselus Yugo Amboro, whose team was among the first to reach the island with emergency supplies.\n\n",
+          "start_offset": 3120,
+          "end_offset": 3613,
+          "sentence_ids": [
+            19,
+            20,
+            21,
+            22
+          ],
+          "fact_types": [
+            "aid",
+            "humanitarian_needs",
+            "secondary_hazard",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "place",
+              "value": "Palue Island",
+              "unit": null
+            },
+            {
+              "attribute": "aid_arrival",
+              "value": "late Sunday",
+              "unit": null
+            },
+            {
+              "attribute": "people_still_in_need",
+              "value": "thousands",
+              "unit": "people"
+            },
+            {
+              "attribute": "access_constraints",
+              "value": "steep roads and landslides",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F013",
+          "span_text": "He said initial assessments revealed extensive damage, with one villager killed, two seriously injured and nearly 150 homes destroyed.\n\n",
+          "start_offset": 3613,
+          "end_offset": 3749,
+          "sentence_ids": [
+            23
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "initial assessments from Palue Island",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": 1,
+              "unit": "person"
+            },
+            {
+              "attribute": "serious_injuries",
+              "value": 2,
+              "unit": "people"
+            },
+            {
+              "attribute": "destroyed_homes",
+              "value": {
+                "value": 150,
+                "qualifier": "nearly"
+              },
+              "unit": "homes"
+            },
+            {
+              "attribute": "attribution",
+              "value": "Marselus Yugo Amboro",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F014",
+          "span_text": "Indonesia, an archipelago of more than 17,000 islands, is prone to earthquakes and volcanic eruptions because of its location on the Pacific \"Ring of Fire\", a horseshoe-shaped arc of seismic faults and volcanoes.\n\nIn 2018, a magnitude 7.5 earthquake triggered a tsunami on the island of Sulawesi that killed more than 4,400 people. In 2004, a magnitude 9.1 quake off Sumatra unleashed a tsunami that killed about 230,000 people in a dozen countries, nearly 170,000 in Aceh province alone.",
+          "start_offset": 3749,
+          "end_offset": 4237,
+          "sentence_ids": [
+            24,
+            25,
+            26
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "disaster_magnitude",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "2018_sulawesi_magnitude",
+              "value": 7.5,
+              "unit": null
+            },
+            {
+              "attribute": "2018_sulawesi_deaths",
+              "value": {
+                "value": 4400,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "2004_sumatra_magnitude",
+              "value": 9.1,
+              "unit": null
+            },
+            {
+              "attribute": "2004_tsunami_deaths",
+              "value": {
+                "value": 230000,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "2004_aceh_deaths",
+              "value": {
+                "value": 170000,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "9046fa346cb3d459d96f2d7cfb533fca8eb1bb19b86c657a2e4d5b45f049c780",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "Magnitude of the Flores Island mainshock",
+        "fact_type": "disaster_magnitude",
+        "attribute": "mainshock_magnitude",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F006"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 7.7,
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F006",
+            "value": 7.7,
+            "unit": null,
+            "attribution": "USGS"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "Two reports say at least 68 people died",
+        "fact_type": "casualties",
+        "attribute": "reported_deaths",
+        "supporting_spans": [
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "value": 68,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "value": 68,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "Lower bound and specific count for injuries",
+        "fact_type": "injuries",
+        "attribute": "reported_injuries",
+        "supporting_spans": [
+          "A002_F007",
+          "A003_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F007",
+            "value": {
+              "value": 200,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": "BNPB"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F005",
+            "value": 213,
+            "unit": "people",
+            "attribution": "BNPB"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "Damaged-home counts differ in scope and lower bound",
+        "fact_type": "damage",
+        "attribute": "damaged_homes",
+        "supporting_spans": [
+          "A002_F007",
+          "A003_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F007",
+            "value": {
+              "value": 2000,
+              "qualifier": "greater_than",
+              "scope": "East Nusa Tenggara"
+            },
+            "unit": "homes",
+            "attribution": "BNPB"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F005",
+            "value": {
+              "value": 4500,
+              "qualifier": "greater_than",
+              "scope": "Flores"
+            },
+            "unit": "homes",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "Both lower bounds can hold. The actual coverage and cutoff are unknown."
+      },
+      {
+        "cluster_id": "FC005",
+        "cluster_description": "Counts of total and felt aftershocks differ",
+        "fact_type": "secondary_hazard",
+        "attribute": "aftershock_tallies",
+        "supporting_spans": [
+          "A002_F003",
+          "A003_F008"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": {
+              "total_lower_bound": 995,
+              "felt": 46
+            },
+            "unit": "events",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F008",
+            "value": {
+              "total": 1576,
+              "felt": 54
+            },
+            "unit": "events",
+            "attribution": "authorities"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "Monitoring criteria and cutoffs differ, and the estimates may have been updated."
+      },
+      {
+        "cluster_id": "FC006",
+        "cluster_description": "Reported numbers of people in temporary shelters differ",
+        "fact_type": "evacuation",
+        "attribute": "shelter_population",
+        "supporting_spans": [
+          "A002_F007",
+          "A003_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F007",
+            "value": {
+              "value": 5000,
+              "qualifier": "about"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F005",
+            "value": {
+              "value": 19000,
+              "qualifier": "about"
+            },
+            "unit": "people",
+            "attribution": "BNPB"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "The reports do not provide enough information about shelter coverage and cutoffs to establish comparability."
+      },
+      {
+        "cluster_id": "FC007",
+        "cluster_description": "The provincial government declared a 14-day state of emergency",
+        "fact_type": "response",
+        "attribute": "emergency_duration",
+        "supporting_spans": [
+          "A002_F005",
+          "A003_F006"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F005",
+            "value": 14,
+            "unit": "days",
+            "attribution": "provincial governor"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F006",
+            "value": 14,
+            "unit": "days",
+            "attribution": "provincial governor"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC008",
+        "cluster_description": "The post-earthquake tsunami warning was lifted",
+        "fact_type": "response",
+        "attribute": "tsunami_warning",
+        "supporting_spans": [
+          "A002_F014",
+          "A003_F007"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F014",
+            "value": "issued then lifted",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F007",
+            "value": "issued then lifted",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC009",
+        "cluster_description": "Deployment and aid figures use different thresholds or cutoffs",
+        "fact_type": "aid",
+        "attribute": "response_scale",
+        "supporting_spans": [
+          "A002_F010",
+          "A003_F010"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F010",
+            "value": {
+              "personnel_lower_bound_exclusive": 3500,
+              "aid_tonnes": 275
+            },
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F010",
+            "value": {
+              "personnel_lower_bound_exclusive": 1800,
+              "aid_metric_tonnes_lower_bound_exclusive": 100
+            },
+            "unit": null,
+            "attribution": "government"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "The personnel lower bounds are compatible. The aid reports give no common cutoff or logistics scope."
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005",
+        "FC006",
+        "FC007",
+        "FC008",
+        "FC009"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC006"
+      ],
+      "important_facts": [
+        "FC005",
+        "FC007",
+        "FC008",
+        "FC009"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2026-08-15",
+          "time_precision": "Local date",
+          "description": "The mainshock struck near Flores Island. A tsunami warning was issued and later lifted.",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F006",
+            "A002_F014",
+            "A003_F007"
+          ]
+        },
+        {
+          "time": "2026-08-16",
+          "time_precision": "Local date",
+          "description": "The governor declared a 14-day state of emergency.",
+          "supporting_spans": [
+            "A002_F005",
+            "A003_F006"
+          ]
+        },
+        {
+          "time": "2026-08-16",
+          "time_precision": "Local date with approximate time of day",
+          "description": "Rescuers reached Palue Island late on Sunday.",
+          "supporting_spans": [
+            "A003_F012"
+          ]
+        },
+        {
+          "time": "2026-08-17",
+          "time_precision": "Local date",
+          "description": "At least 68 people died. Some communities were still awaiting aid, and GFZ recorded a magnitude-5.9 aftershock.",
+          "supporting_spans": [
+            "A002_F001",
+            "A002_F002",
+            "A003_F001"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "Terrain and landslides blocked some roads and delayed deliveries.",
+          "supporting_spans": [
+            "A002_F010",
+            "A002_F011",
+            "A003_F012"
+          ]
+        },
+        {
+          "description": "The risk of aftershocks led some residents to spend the night outdoors.",
+          "supporting_spans": [
+            "A002_F009",
+            "A003_F009"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "The mainshock and aftershocks caused deaths, injuries, and home damage. The scale of temporary sheltering remains unverified.",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F001",
+            "A002_F007",
+            "A003_F005"
+          ]
+        },
+        {
+          "description": "The province launched emergency operations. Some remote communities still lacked food, water, and medical supplies.",
+          "supporting_spans": [
+            "A002_F005",
+            "A002_F012",
+            "A003_F006",
+            "A003_F010",
+            "A003_F012"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "The republication chain has not been independently verified. A later article may repeat an earlier count."
+    ]
+  }
+}

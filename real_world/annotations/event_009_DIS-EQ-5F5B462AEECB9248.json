@@ -1,0 +1,970 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-5F5B462AEECB9248",
+  "event_rank": 9,
+  "event_metadata": {
+    "event_name": "Earthquake in Colombia",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2026-08-10T12:34:28+00:00",
+    "event_end_time": "2026-08-10T12:34:28+00:00",
+    "locations": [
+      "Colombia"
+    ],
+    "latitude": 4.8436,
+    "longitude": -76.2422,
+    "place_names_in_reports": [
+      "Colombia",
+      "Cali",
+      "Doral",
+      "South Florida"
+    ],
+    "gdacs_id": "1557236",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "The sources do not report aftershocks or subsequent impacts. The August 12 flights were planned."
+    ],
+    "dataset_place_name": "Earthquake in Colombia",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-42A7B3C62FEC1ACF",
+      "event_id": "DIS-EQ-5F5B462AEECB9248",
+      "event_rank": 9,
+      "article_rank": 1,
+      "title": "UN humanitarian office reiterates support for Colombia earthquake response",
+      "publisher": "xinhuanet-english",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20260813/ccdd6b6341f9494b965be092ce3505fa/c.html",
+      "published_at": "2026-08-12T21:40:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "Xinhua dateline relaying OCHA and UN spokesperson statements.",
+      "content": "UNITED NATIONS, Aug. 12 (Xinhua) -- The UN Office for the Coordination of Humanitarian Affairs (OCHA) and its partners continue to support the government-led response to the devastating earthquake in Colombia, said the office on Wednesday.\n\nLatest reports indicate that more than 200 people have been killed and 2,500 others injured. Widespread damage to homes and public infrastructure has also been reported, OCHA said in its daily news update.\n\nHumanitarian assessments are ongoing, particularly in the hardest-hit areas, where disruptions to communications, transport and public services continue to hinder relief efforts. Emergency shelter, food assistance, access to safe drinking water and health care for affected communities are among the top priorities, the office said.\n\nThe United Nations and its partners are also mobilizing resources. The World Food Programme is sending food, while the World Health Organization is dispatching medical supplies from its warehouses in the country, OCHA said.\n\nFarhan Haq, deputy spokesperson for UN Secretary-General Antonio Guterres, said Wednesday that an allocation from the UN Central Emergency Response Fund is in the works.\n\nThe United Nations will launch an appeal for quake relief in Colombia once information is available about the extent of damage, said Haq, noting that the needs are expected to be very severe. ",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "UNITED NATIONS, Aug. 12 (Xinhua) -- The UN Office for the Coordination of Humanitarian Affairs (OCHA) and its partners continue to support the government-led response to the devastating earthquake in Colombia, said the office on Wednesday.\n\n",
+          "start_offset": 0,
+          "end_offset": 241,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "OCHA",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "Latest reports indicate that more than 200 people have been killed and 2,500 others injured. Widespread damage to homes and public infrastructure has also been reported, OCHA said in its daily news update.\n\n",
+          "start_offset": 241,
+          "end_offset": 448,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "damage"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 200,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injured",
+              "value": 2500,
+              "unit": "people"
+            },
+            {
+              "attribute": "damage",
+              "value": [
+                "homes",
+                "public infrastructure"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "OCHA update",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "Humanitarian assessments are ongoing, particularly in the hardest-hit areas, where disruptions to communications, transport and public services continue to hinder relief efforts. Emergency shelter, food assistance, access to safe drinking water and health care for affected communities are among the top priorities, the office said.\n\n",
+          "start_offset": 448,
+          "end_offset": 782,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "humanitarian_needs",
+            "infrastructure",
+            "response",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "response_constraints",
+              "value": [
+                "communications",
+                "transport",
+                "public services"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "priority_needs",
+              "value": [
+                "emergency shelter",
+                "food",
+                "safe drinking water",
+                "health care"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "The United Nations and its partners are also mobilizing resources. The World Food Programme is sending food, while the World Health Organization is dispatching medical supplies from its warehouses in the country, OCHA said.\n\n",
+          "start_offset": 782,
+          "end_offset": 1007,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "wfp_response",
+              "value": "send food",
+              "unit": null
+            },
+            {
+              "attribute": "who_response",
+              "value": "dispatch medical supplies from in-country stocks",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "Farhan Haq, deputy spokesperson for UN Secretary-General Antonio Guterres, said Wednesday that an allocation from the UN Central Emergency Response Fund is in the works.\n\nThe United Nations will launch an appeal for quake relief in Colombia once information is available about the extent of damage, said Haq, noting that the needs are expected to be very severe. ",
+          "start_offset": 1007,
+          "end_offset": 1370,
+          "sentence_ids": [
+            9,
+            10
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "allocation_status",
+              "value": "CERF allocation in preparation",
+              "unit": null
+            },
+            {
+              "attribute": "appeal_status",
+              "value": "planned after damage information is available",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Farhan Haq",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "bc8cf45b29d17c9cf778ce818dc47dae2acb5d91c5af3f7325476a976c0c7179",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-FAA798C6CDA08C18",
+      "event_id": "DIS-EQ-5F5B462AEECB9248",
+      "event_rank": 9,
+      "article_rank": 2,
+      "title": "Trump Administration Mobilizes Aid Following Colombia Earthquake",
+      "publisher": "foreignpolicywatchdog",
+      "identified_publisher": null,
+      "source_domain": "foreignpolicywatchdog.com",
+      "url": "https://foreignpolicywatchdog.com/united-states/trump-administration-mobilizes-aid-following-colombia-earthquake",
+      "published_at": "2026-08-12T05:45:29+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "The article uses a US State Department statement and includes analysis. The cleaned copy lacks a clear byline.",
+      "content": "Reporting in a government statement , The United States has mobilized a life-saving response to the devastating 7.4 magnitude earthquake that struck regions of Colombia on August 10th (state.gov). Within hours of the event, the Department of State announced $15.5 million in emergency assistance, underscoring the administration’s priority toward immediate action in the critical hours following natural disasters within its hemisphere. This initial deployment signals a commitment to addressing the most pressing humanitarian needs arising from the disaster – a commitment that remains conditional on ongoing assessments and evolving requirements.\n\nThe Department of State’s response follows prior meetings between President Abelardo de la Espriella and U.S. officials, focused on Colombia’s vulnerabilities to seismic activity. The statement does not mention specific agreements or prior dialogues that preceded the immediate deployment. It references the activation of a Disaster Assistance Response Team (DART), a standard mechanism for delivering rapid humanitarian assistance following significant natural disasters. This DART’s formation aligns with existing Departmental structures for coordinating international disaster relief, and leverages established partnerships within the State Department.\n\nThe administration’s immediate focus on emergency shelter, food, and protection assistance reflects a prioritization of basic needs in the immediate aftermath. The deployment of the DART – incorporating humanitarian experts – indicates an intent to provide technical support alongside direct aid. This suggests a calculated approach: leveraging established international partnerships through organizations like Catholic Relief Services (CRS), the International Organization for Migration, Miyamoto International, the UN World Food Program, and World Vision, as well as the $3.8 billion contribution to OCHA. The activation of the Colombia Pooled Fund, drawing on existing OCHA funding, demonstrates a strategy to maximize efficiency and scale of response, particularly in light of pre-existing humanitarian needs within Colombia.\n\nThe rapid deployment carries implications for regional stability. While focused on immediate relief, the U.S. presence will undoubtedly influence diplomatic interactions with the Colombian government and potentially other regional actors. The provision of assistance through trusted partners – organizations with established operational networks – suggests a desire to minimize bureaucratic hurdles and maximize impact on the ground. The mobilization also reinforces the State Department’s role as a key player in coordinating international humanitarian efforts, particularly within the Western Hemisphere.\n\nShould the visit yield further assessment of structural damage, the administration’s response will depend heavily on the evolving needs identified by the DART. If the earthquake exacerbates existing vulnerabilities – specifically regarding displacement and access to basic services – the initial $15.5 million may prove insufficient. The continued reliance on OCHA’s Pooled Fund indicates a preparedness for sustained engagement, contingent upon further assessments of Colombia’s humanitarian requirements.\n\nThe Department of State’s immediate response to the Colombia earthquake demonstrates a commitment to providing life-saving assistance. However, the statement does not address the long-term recovery needs or the potential for sustained engagement within Colombia – leaving open the question of how this initial deployment will translate into durable support for the country’s rebuilding efforts.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "Reporting in a government statement , The United States has mobilized a life-saving response to the devastating 7.4 magnitude earthquake that struck regions of Colombia on August 10th (state.gov). Within hours of the event, the Department of State announced $15.5 million in emergency assistance, underscoring the administration’s priority toward immediate action in the critical hours following natural disasters within its hemisphere. This initial deployment signals a commitment to addressing the most pressing humanitarian needs arising from the disaster – a commitment that remains conditional on ongoing assessments and evolving requirements.\n\n",
+          "start_offset": 0,
+          "end_offset": 650,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "aid",
+            "response",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.4,
+              "unit": null
+            },
+            {
+              "attribute": "earthquake_date",
+              "value": "2026-08-10",
+              "unit": null
+            },
+            {
+              "attribute": "emergency_assistance_announced",
+              "value": 15500000,
+              "unit": "USD"
+            },
+            {
+              "attribute": "attribution",
+              "value": "U.S. Department of State",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "The Department of State’s response follows prior meetings between President Abelardo de la Espriella and U.S. officials, focused on Colombia’s vulnerabilities to seismic activity. The statement does not mention specific agreements or prior dialogues that preceded the immediate deployment. It references the activation of a Disaster Assistance Response Team (DART), a standard mechanism for delivering rapid humanitarian assistance following significant natural disasters. This DART’s formation aligns with existing Departmental structures for coordinating international disaster relief, and leverages established partnerships within the State Department.\n\n",
+          "start_offset": 650,
+          "end_offset": 1307,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "response",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deployed_team",
+              "value": "Disaster Assistance Response Team",
+              "unit": null
+            },
+            {
+              "attribute": "statement_detail",
+              "value": "no specific prior agreements mentioned",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "The administration’s immediate focus on emergency shelter, food, and protection assistance reflects a prioritization of basic needs in the immediate aftermath. The deployment of the DART – incorporating humanitarian experts – indicates an intent to provide technical support alongside direct aid. This suggests a calculated approach: leveraging established international partnerships through organizations like Catholic Relief Services (CRS), the International Organization for Migration, Miyamoto International, the UN World Food Program, and World Vision, as well as the $3.8 billion contribution to OCHA. The activation of the Colombia Pooled Fund, drawing on existing OCHA funding, demonstrates a strategy to maximize efficiency and scale of response, particularly in light of pre-existing humanitarian needs within Colombia.\n\n",
+          "start_offset": 1307,
+          "end_offset": 2138,
+          "sentence_ids": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "aid",
+            "humanitarian_needs",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "aid_priorities",
+              "value": [
+                "shelter",
+                "food",
+                "protection"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "broader_ocha_contribution",
+              "value": 3800000000,
+              "unit": "USD"
+            },
+            {
+              "attribute": "fund",
+              "value": "Colombia Pooled Fund",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "The rapid deployment carries implications for regional stability. While focused on immediate relief, the U.S. presence will undoubtedly influence diplomatic interactions with the Colombian government and potentially other regional actors. The provision of assistance through trusted partners – organizations with established operational networks – suggests a desire to minimize bureaucratic hurdles and maximize impact on the ground. The mobilization also reinforces the State Department’s role as a key player in coordinating international humanitarian efforts, particularly within the Western Hemisphere.\n\n",
+          "start_offset": 2138,
+          "end_offset": 2746,
+          "sentence_ids": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "fact_types": [
+            "economic_loss",
+            "response",
+            "uncertainty"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "uncertain",
+          "structured_attributes": [
+            {
+              "attribute": "status",
+              "value": "author analysis of potential diplomatic and implementation effects",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "Should the visit yield further assessment of structural damage, the administration’s response will depend heavily on the evolving needs identified by the DART. If the earthquake exacerbates existing vulnerabilities – specifically regarding displacement and access to basic services – the initial $15.5 million may prove insufficient. The continued reliance on OCHA’s Pooled Fund indicates a preparedness for sustained engagement, contingent upon further assessments of Colombia’s humanitarian requirements.\n\nThe Department of State’s immediate response to the Colombia earthquake demonstrates a commitment to providing life-saving assistance. However, the statement does not address the long-term recovery needs or the potential for sustained engagement within Colombia – leaving open the question of how this initial deployment will translate into durable support for the country’s rebuilding efforts.",
+          "start_offset": 2746,
+          "end_offset": 3648,
+          "sentence_ids": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "fact_types": [
+            "recovery",
+            "humanitarian_needs",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "uncertain",
+          "structured_attributes": [
+            {
+              "attribute": "status",
+              "value": "author analysis of contingent response scale and long-term rebuilding needs",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "d4e7a624a620c1446aa472617cbbe392e5c52934c2179f0d08ff5b585485e1f4",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-C1562AF601DA3EAA",
+      "event_id": "DIS-EQ-5F5B462AEECB9248",
+      "event_rank": 9,
+      "article_rank": 3,
+      "title": "Volunteers continue sorting through supplies for Colombia earthquake victims Cargo planes loaded with supplies were expected to depart for Colombia from South Florida on Wednesday. 0M ago",
+      "publisher": "cbslocal",
+      "identified_publisher": "CBS",
+      "source_domain": "cbsnews.com",
+      "url": "https://www.cbsnews.com/miami/news/colombia-earthquake-aid-donations-south-florida-gem/",
+      "published_at": "2026-08-12T17:22:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "CBS includes on-the-ground quotes from Doral volunteers and GEM that are absent from the other reports.",
+      "content": "Donations are pouring in and South Florida organizations are working to get much-needed aid to Colombia after a powerful and deadly earthquake struck the South American nation on Monday.\n\nVolunteers inside Doral-based Global Empowerment Mission (GEM) have been working to sort through supplies before they're loaded onto cargo planes and delivered to those who need it most.\n\nGEM said it's looking for more volunteers to help, as well as cash donations and camping gear to help earthquake victims in Colombia .\n\nAnd the volunteers are coming from all over the region to help, not just here in South Florida.\n\n\"We're out here helping Colombia, especially Cali. That's our city,\" volunteer Juan Caicedo said.\n\nThe volunteers are doing what they can to help. Cali is one of the cities in western Colombia that was hardest hit by the massive quake.\n\n\"We actually have donated,\" Caicedo continued. \"We sent money to our families, to our friends. Obviously, it's easier for them to buy resources over there than us. But, we are here today. You know, we are going to help out packing. We actually have bought a lot of, you know, food, first-aid kits as well.\"\n\nCarlos Jara was the first to drop off goods on Wednesday morning. He volunteered to help after the catastrophic earthquakes in Venezuela at the end of June.\n\n\"Venezuela or Colombia is brothers,\" he said. \"Two countries is brothers.\"\n\nBut unlike Venezuela, Francine De La Rosa, with GEM, said they're working closely with the Colombian government – and cash is king.\n\n\"We want to buy supplies and goods in Colombia so that we can get them to the hands of the victims more quickly and more efficiently, and will then, of course, that also allows us to help the local economy,\" she said. \"We need hands. There are a lot of supplies to be sorted. There are two warehouses where people can come out and volunteer, and there is still a lot of work to be done.\"\n\nAnd if you can donate goods, camping gear is a top priority.\n\n\"That includes tarps, tents, blankets,\" she continued. \"They all have to be new. First aid supplies and hygiene.\"\n\nDe La Rosa said aid flights could depart for Colombia on Wednesday.\n\n\"We know that there will be these types of disasters. We just don't know when or where, so we actually work 365 days a year to plan for this, and that's what allows us, you know, to be most effective when it comes to immediate response,\" De La Rosa said.\n\nCheck out the Global Empowerment Mission website for more information on donations they're seeking.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "Donations are pouring in and South Florida organizations are working to get much-needed aid to Colombia after a powerful and deadly earthquake struck the South American nation on Monday.\n\nVolunteers inside Doral-based Global Empowerment Mission (GEM) have been working to sort through supplies before they're loaded onto cargo planes and delivered to those who need it most.\n\nGEM said it's looking for more volunteers to help, as well as cash donations and camping gear to help earthquake victims in Colombia .\n\nAnd the volunteers are coming from all over the region to help, not just here in South Florida.\n\n",
+          "start_offset": 0,
+          "end_offset": 609,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "organization",
+              "value": "Global Empowerment Mission",
+              "unit": null
+            },
+            {
+              "attribute": "activity",
+              "value": "sort supplies in Doral for cargo delivery",
+              "unit": null
+            },
+            {
+              "attribute": "needed",
+              "value": [
+                "volunteers",
+                "cash",
+                "camping gear"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "\"We're out here helping Colombia, especially Cali. That's our city,\" volunteer Juan Caicedo said.\n\nThe volunteers are doing what they can to help. Cali is one of the cities in western Colombia that was hardest hit by the massive quake.\n\n",
+          "start_offset": 609,
+          "end_offset": 846,
+          "sentence_ids": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "damage",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "hard_hit_city",
+              "value": "Cali",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "\"We actually have donated,\" Caicedo continued. \"We sent money to our families, to our friends. Obviously, it's easier for them to buy resources over there than us. But, we are here today. You know, we are going to help out packing. We actually have bought a lot of, you know, food, first-aid kits as well.\"\n\nCarlos Jara was the first to drop off goods on Wednesday morning. He volunteered to help after the catastrophic earthquakes in Venezuela at the end of June.\n\n\"Venezuela or Colombia is brothers,\" he said. \"Two countries is brothers.\"\n\n",
+          "start_offset": 846,
+          "end_offset": 1388,
+          "sentence_ids": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "fact_types": [
+            "aid",
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "volunteer",
+              "value": "Juan Caicedo",
+              "unit": null
+            },
+            {
+              "attribute": "reported_donations",
+              "value": [
+                "money",
+                "food",
+                "first-aid kits"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "other_event",
+              "value": "late-June Venezuela earthquakes mentioned by Carlos Jara",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "But unlike Venezuela, Francine De La Rosa, with GEM, said they're working closely with the Colombian government – and cash is king.\n\n\"We want to buy supplies and goods in Colombia so that we can get them to the hands of the victims more quickly and more efficiently, and will then, of course, that also allows us to help the local economy,\" she said. \"We need hands. There are a lot of supplies to be sorted. There are two warehouses where people can come out and volunteer, and there is still a lot of work to be done.\"\n\n",
+          "start_offset": 1388,
+          "end_offset": 1910,
+          "sentence_ids": [
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "strategy",
+              "value": "buy goods locally in Colombia and sort donated goods at two warehouses",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Francine De La Rosa, GEM",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "And if you can donate goods, camping gear is a top priority.\n\n\"That includes tarps, tents, blankets,\" she continued. \"They all have to be new. First aid supplies and hygiene.\"\n\n",
+          "start_offset": 1910,
+          "end_offset": 2087,
+          "sentence_ids": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "fact_types": [
+            "aid",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "priority_items",
+              "value": [
+                "new tarps",
+                "new tents",
+                "new blankets",
+                "first-aid supplies",
+                "hygiene items"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "De La Rosa said aid flights could depart for Colombia on Wednesday.\n\n\"We know that there will be these types of disasters. We just don't know when or where, so we actually work 365 days a year to plan for this, and that's what allows us, you know, to be most effective when it comes to immediate response,\" De La Rosa said.\n\n",
+          "start_offset": 2087,
+          "end_offset": 2412,
+          "sentence_ids": [
+            28,
+            29,
+            30
+          ],
+          "fact_types": [
+            "aid",
+            "timeline",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "tentative_departure",
+              "value": "Wednesday",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Francine De La Rosa",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "Check out the Global Empowerment Mission website for more information on donations they're seeking.",
+          "start_offset": 2412,
+          "end_offset": 2511,
+          "sentence_ids": [
+            31
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "7851d0ae27c78d2b85cc1c031dab5ffec79701a822d44309a7c3da08781e15c5",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "A US statement provided the reported magnitude and date",
+        "fact_type": "disaster_magnitude",
+        "attribute": "mainshock_magnitude",
+        "supporting_spans": [
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 7.4,
+            "unit": null,
+            "attribution": "U.S. Department of State"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "The UN update reported more than 200 deaths",
+        "fact_type": "casualties",
+        "attribute": "reported_deaths",
+        "supporting_spans": [
+          "A001_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": {
+              "value": 200,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": "OCHA update"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "The UN update reported 2,500 injuries",
+        "fact_type": "injuries",
+        "attribute": "reported_injuries",
+        "supporting_spans": [
+          "A001_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 2500,
+            "unit": "people",
+            "attribution": "OCHA update"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "Temporary shelter and food were part of the emergency response",
+        "fact_type": "humanitarian_needs",
+        "attribute": "priority_needs",
+        "supporting_spans": [
+          "A001_F003",
+          "A002_F003",
+          "A003_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": [
+              "emergency shelter",
+              "food assistance",
+              "safe drinking water",
+              "health care"
+            ],
+            "unit": null,
+            "attribution": "OCHA"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": [
+              "emergency shelter",
+              "food",
+              "protection"
+            ],
+            "unit": null,
+            "attribution": "U.S. response priorities"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F005",
+            "value": [
+              "tarps",
+              "tents",
+              "blankets",
+              "first aid",
+              "hygiene"
+            ],
+            "unit": null,
+            "attribution": "GEM"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC005",
+        "cluster_description": "The US announced $15.5 million in initial emergency assistance",
+        "fact_type": "aid",
+        "attribute": "us_emergency_assistance_announced",
+        "supporting_spans": [
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 15500000,
+            "unit": "USD",
+            "attribution": "U.S. Department of State"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": "The article separately mentions a $3.8 billion contribution to OCHA, which is excluded from this earthquake-specific amount."
+      },
+      {
+        "cluster_id": "FC006",
+        "cluster_description": "UN agencies mobilized supplies",
+        "fact_type": "aid",
+        "attribute": "un_resource_mobilization",
+        "supporting_spans": [
+          "A001_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": [
+              "WFP food",
+              "WHO medical supplies"
+            ],
+            "unit": null,
+            "attribution": "OCHA"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005",
+        "FC006"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "important_facts": [
+        "FC004",
+        "FC005",
+        "FC006"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2026-08-10",
+          "time_precision": "Local date",
+          "description": "A strong earthquake struck Colombia. The US State Department announced emergency aid within hours.",
+          "supporting_spans": [
+            "A002_F001",
+            "A003_F001"
+          ]
+        },
+        {
+          "time": "2026-08-12",
+          "time_precision": "Publication date and planned activity",
+          "description": "The UN continued providing support. Volunteers in Florida sorted supplies, and flights were expected to depart that day.",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F004",
+            "A003_F001",
+            "A003_F006"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "Disruptions to communications, transport, and public services hampered relief efforts.",
+          "supporting_spans": [
+            "A001_F003"
+          ]
+        },
+        {
+          "description": "A GEM representative said buying supplies in Colombia would speed delivery and support the local economy.",
+          "supporting_spans": [
+            "A003_F004"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "A strong earthquake caused severe casualties and damaged housing and public infrastructure in Colombia.",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F001",
+            "A003_F002"
+          ]
+        },
+        {
+          "description": "The UN, the US government, and volunteer organizations provided aid through different channels.",
+          "supporting_spans": [
+            "A001_F004",
+            "A002_F001",
+            "A002_F002",
+            "A003_F001"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "The reports give no common casualty cutoff. The other two do not independently corroborate the OCHA figures."
+    ]
+  }
+}

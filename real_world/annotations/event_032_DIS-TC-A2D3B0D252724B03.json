@@ -1,0 +1,889 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-TC-A2D3B0D252724B03",
+  "event_rank": 32,
+  "event_metadata": {
+    "event_name": "Tropical Cyclone GAMANE-24",
+    "disaster_type": "tropical_cyclone",
+    "disaster_type_code": "TC",
+    "event_start_time": "2024-03-25T18:00:00+00:00",
+    "event_end_time": "2024-03-28T00:00:00+00:00",
+    "locations": [
+      "Madagascar"
+    ],
+    "latitude": -13.83,
+    "longitude": 48.09,
+    "place_names_in_reports": [
+      "Madagascar",
+      "Vohémar",
+      "northeast Madagascar"
+    ],
+    "gdacs_id": "1001057",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "BNGRC 周四晚报告与周五通报分开。周五离岛为预报，周四陆上消散为另一篇转述。"
+    ],
+    "dataset_place_name": "Tropical Cyclone GAMANE-24",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-8DF48F16A00C1154",
+      "event_id": "DIS-TC-A2D3B0D252724B03",
+      "event_rank": 32,
+      "article_rank": 1,
+      "title": "Eleven dead, thousands affected as Cyclone Gamane batters Madagascar",
+      "publisher": "aljazeera-en",
+      "identified_publisher": null,
+      "source_domain": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2024/3/28/eleven-dead-thousands-affected-as-cyclone-gamane-batters-madagascar?traffic_source=rss",
+      "published_at": "2024-03-28T13:41:54+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "Al Jazeera 白描含官方声明，未明确稿件署名。",
+      "content": "At least 11 people have been killed and hundreds of homes destroyed as Cyclone Gamane smashed into northern Madagascar, according to officials.\n\nThe storm was projected to skim the Indian Ocean island, but changed course and hit the island’s Vohemar district in the early hours of Wednesday.\n\nVideo images showed torrents of water rushing through villages and people making human chains in waist-deep water while trying to help those trapped in their houses escape the deluge. Numerous routes and bridges were flooded and cut off.\n\nSix people drowned and five others were killed by collapsing houses or falling trees, with some 7,000 people affected overall.\n\n“It’s rare to have a cyclone like this. Its movement is nearly stationary,” General Elack Andriakaja, director general of the BNGRC national disaster management office, said in a statement.\n\n“When the system stops in one place, it devastates all the infrastructure. And that has serious consequences for the population. And significant flooding”, he said.\n\nThe full extent of the damage is still unclear, because many villages in the region were cut off from the rest of the country, making access difficult for rescue teams.\n\nThe cyclone moved across the island with an average wind speed of 150km/h (93mph) and heavy rainfall. In some places, winds of 210km/h (130mph) were measured.\n\nGamane has been reclassified as a tropical storm and was expected to leave the island on Friday afternoon, according to meteorologists.\n\nLocated off the coast of southeastern Africa, Madagascar is regularly affected by severe weather. A year ago, tropical Cyclone Freddy devastated the country as well as the neighbouring mainland countries of Mozambique and Malawi. More than 500 people lost their lives.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "At least 11 people have been killed and hundreds of homes destroyed as Cyclone Gamane smashed into northern Madagascar, according to officials.\n\nThe storm was projected to skim the Indian Ocean island, but changed course and hit the island’s Vohemar district in the early hours of Wednesday.\n\n",
+          "start_offset": 0,
+          "end_offset": 293,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "damage",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 11,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "destroyed_homes",
+              "value": "hundreds",
+              "unit": null
+            },
+            {
+              "attribute": "landfall_area",
+              "value": "Vohemar, early Wednesday",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "Video images showed torrents of water rushing through villages and people making human chains in waist-deep water while trying to help those trapped in their houses escape the deluge. Numerous routes and bridges were flooded and cut off.\n\nSix people drowned and five others were killed by collapsing houses or falling trees, with some 7,000 people affected overall.\n\n",
+          "start_offset": 293,
+          "end_offset": 660,
+          "sentence_ids": [
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "response",
+            "damage",
+            "infrastructure",
+            "casualties",
+            "affected_population"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "drowned",
+              "value": 6,
+              "unit": "people"
+            },
+            {
+              "attribute": "deaths_in_collapses_or_treefalls",
+              "value": 5,
+              "unit": "people"
+            },
+            {
+              "attribute": "affected",
+              "value": {
+                "value": 7000,
+                "qualifier": "some"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "“It’s rare to have a cyclone like this. Its movement is nearly stationary,” General Elack Andriakaja, director general of the BNGRC national disaster management office, said in a statement.\n\n“When the system stops in one place, it devastates all the infrastructure. And that has serious consequences for the population. And significant flooding”, he said.\n\nThe full extent of the damage is still unclear, because many villages in the region were cut off from the rest of the country, making access difficult for rescue teams.\n\n",
+          "start_offset": 660,
+          "end_offset": 1187,
+          "sentence_ids": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard",
+            "cause",
+            "infrastructure",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "storm_movement",
+              "value": "nearly stationary",
+              "unit": null
+            },
+            {
+              "attribute": "access",
+              "value": "cut-off villages hindered assessments",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "The cyclone moved across the island with an average wind speed of 150km/h (93mph) and heavy rainfall. In some places, winds of 210km/h (130mph) were measured.\n\nGamane has been reclassified as a tropical storm and was expected to leave the island on Friday afternoon, according to meteorologists.\n\n",
+          "start_offset": 1187,
+          "end_offset": 1484,
+          "sentence_ids": [
+            12,
+            13,
+            14
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "average_wind",
+              "value": 150,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "winds_measured_some_places",
+              "value": 210,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "friday_departure",
+              "value": "forecast",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "Located off the coast of southeastern Africa, Madagascar is regularly affected by severe weather. A year ago, tropical Cyclone Freddy devastated the country as well as the neighbouring mainland countries of Mozambique and Malawi. More than 500 people lost their lives.",
+          "start_offset": 1484,
+          "end_offset": 1752,
+          "sentence_ids": [
+            15,
+            16,
+            17
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "historical Freddy context",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 500,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "8e0809de1c948d6e4c686fe8f1d4b2071140078d53ebef0905b00814fe2353bd",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-7BA3B07AA1BA8906",
+      "event_id": "DIS-TC-A2D3B0D252724B03",
+      "event_rank": 32,
+      "article_rank": 2,
+      "title": "Madagascar cyclone Gamane kills at least 11, displaces thousands, government says | Science-Environment",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/science-environment/2872588-madagascar-cyclone-gamane-kills-at-least-11-displaces-thousands-government-says",
+      "published_at": "2024-03-29T09:35:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "正文后半与 Deccan Herald 大段近乎逐字相同，未保留稿源署名。",
+      "content": "A tropical cyclone that swept across the island of Madagascar this week killed at least 11 people and displaced thousands more, according to the country's disaster management office. Tropical cyclone Gamane, which crossed the northeast of Madagascar on Wednesday and Thursday, displaced more than 18,000 people with three others still missing, the National Bureau of Risk and Disaster Management (BNGRC) said in a report late on Thursday.\n\nGamane made landfall north of Vohémar in northeast Madagascar on Wednesday morning with average winds of 150 km per hour and gusts of 210 km per hour, BNGRC said. It slowly dissipated on Thursday afternoon while still over land, the disaster management office said, having dumped heavy rain and caused flooding in many localities.\n\nRoads and bridges collapsed in the north of Madagascar, BNRGC said. Photographs posted on the disaster management office's Facebook page showed its personnel wading in knee-deep water as they helped residents retrieve belongings from their flooded homes.\n\nGamane is the first this year in Madagascar's cyclone and storm season. Early last year, cyclone Freddy and tropical storm Cheneso killed at least 37 people and forced thousands from their homes.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "A tropical cyclone that swept across the island of Madagascar this week killed at least 11 people and displaced thousands more, according to the country's disaster management office. Tropical cyclone Gamane, which crossed the northeast of Madagascar on Wednesday and Thursday, displaced more than 18,000 people with three others still missing, the National Bureau of Risk and Disaster Management (BNGRC) said in a report late on Thursday.\n\n",
+          "start_offset": 0,
+          "end_offset": 440,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "missing_persons",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 11,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "displaced",
+              "value": {
+                "value": 18000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "missing",
+              "value": 3,
+              "unit": "people"
+            },
+            {
+              "attribute": "report_time",
+              "value": "late Thursday",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "BNGRC",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "Gamane made landfall north of Vohémar in northeast Madagascar on Wednesday morning with average winds of 150 km per hour and gusts of 210 km per hour, BNGRC said. It slowly dissipated on Thursday afternoon while still over land, the disaster management office said, having dumped heavy rain and caused flooding in many localities.\n\n",
+          "start_offset": 440,
+          "end_offset": 772,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "average_wind",
+              "value": 150,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "gusts",
+              "value": 210,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "dissipated",
+              "value": "Thursday afternoon over land",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "Roads and bridges collapsed in the north of Madagascar, BNRGC said. Photographs posted on the disaster management office's Facebook page showed its personnel wading in knee-deep water as they helped residents retrieve belongings from their flooded homes.\n\n",
+          "start_offset": 772,
+          "end_offset": 1028,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "Gamane is the first this year in Madagascar's cyclone and storm season. Early last year, cyclone Freddy and tropical storm Cheneso killed at least 37 people and forced thousands from their homes.",
+          "start_offset": 1028,
+          "end_offset": 1223,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "historical_scope",
+              "value": "Freddy and Cheneso",
+              "unit": null
+            },
+            {
+              "attribute": "historical_deaths",
+              "value": {
+                "value": 37,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "e4779ffcbb6c3dcda1f285ec9d4e98a361bf1f83ae6276f92c0c63142b8f13ef",
+        "removed_word_count": 16,
+        "removed_word_ratio": 0.07729468599033816
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-7A9CEA411F5D30C0",
+      "event_id": "DIS-TC-A2D3B0D252724B03",
+      "event_rank": 32,
+      "article_rank": 3,
+      "title": "Madagascar cyclone Gamane kills at least 11, displaces thousands: Officials",
+      "publisher": "deccanherald",
+      "identified_publisher": null,
+      "source_domain": "deccanherald.com",
+      "url": "https://www.deccanherald.com/world/madagascar-cyclone-gamane-kills-at-least-11-displaces-thousands-officials-2957602",
+      "published_at": "2024-03-29T10:17:29+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "与 Devdiscourse 高度同文，开头伤亡数字更新且插入站内推荐。",
+      "content": "Antananarivo: A tropical cyclone that swept across the island of Madagascar this week killed at least 18 people and displaced thousands more, the country's disaster management office said on Friday. Tropical cyclone Gamane, which crossed the northeast of Madagascar on Wednesday and Thursday, displaced more than 20,000 people, the National Bureau of Risk and Disaster Management (BNGRC) said in a report. Three others were injured and four were still missing, it added. .Romania found drone fragments near border with Ukraine: Report. Gamane made landfall north of Vohémar in northeast Madagascar on Wednesday morning with average winds of 150 km per hour and gusts of 210 km per hour, BNGRC said late on Thursday. It slowly dissipated on Thursday afternoon while still over land, the disaster management office said, having dumped heavy rain and caused flooding in many localities. Roads and bridges collapsed in the north of Madagascar, BNRGC said. .Magnitude 5.8 earthquake hits Greece. Photographs posted on the disaster management office's Facebook page showed its personnel wading in knee-deep water as they helped residents retrieve belongings from their flooded homes. Gamane is the first this year in Madagascar's cyclone and storm season. Early last year, cyclone Freddy and tropical storm Cheneso killed at least 37 people and forced thousands from their homes.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "Antananarivo: A tropical cyclone that swept across the island of Madagascar this week killed at least 18 people and displaced thousands more, the country's disaster management office said on Friday. Tropical cyclone Gamane, which crossed the northeast of Madagascar on Wednesday and Thursday, displaced more than 20,000 people, the National Bureau of Risk and Disaster Management (BNGRC) said in a report. Three others were injured and four were still missing, it added. .",
+          "start_offset": 0,
+          "end_offset": 472,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "missing_persons",
+            "evacuation",
+            "injuries"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 18,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "displaced",
+              "value": {
+                "value": 20000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injured",
+              "value": 3,
+              "unit": "people"
+            },
+            {
+              "attribute": "missing",
+              "value": 4,
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "BNGRC",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "Romania found drone fragments near border with Ukraine: Report. ",
+          "start_offset": 472,
+          "end_offset": 536,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "Gamane made landfall north of Vohémar in northeast Madagascar on Wednesday morning with average winds of 150 km per hour and gusts of 210 km per hour, BNGRC said late on Thursday. It slowly dissipated on Thursday afternoon while still over land, the disaster management office said, having dumped heavy rain and caused flooding in many localities. Roads and bridges collapsed in the north of Madagascar, BNRGC said. .",
+          "start_offset": 536,
+          "end_offset": 953,
+          "sentence_ids": [
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "disaster_magnitude",
+            "timeline",
+            "damage",
+            "infrastructure"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "average_wind",
+              "value": 150,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "gusts",
+              "value": 210,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "dissipated",
+              "value": "Thursday afternoon over land",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "Magnitude 5.8 earthquake hits Greece. ",
+          "start_offset": 953,
+          "end_offset": 991,
+          "sentence_ids": [
+            8
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "Photographs posted on the disaster management office's Facebook page showed its personnel wading in knee-deep water as they helped residents retrieve belongings from their flooded homes. ",
+          "start_offset": 991,
+          "end_offset": 1178,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "response",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "Gamane is the first this year in Madagascar's cyclone and storm season. Early last year, cyclone Freddy and tropical storm Cheneso killed at least 37 people and forced thousands from their homes.",
+          "start_offset": 1178,
+          "end_offset": 1373,
+          "sentence_ids": [
+            10,
+            11
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "historical_scope",
+              "value": "Freddy and Cheneso",
+              "unit": null
+            },
+            {
+              "attribute": "historical_deaths",
+              "value": {
+                "value": 37,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "8ae2b4b9c8f4ddefb253bda62da5aaf4904cac1c83ed8406d69a86d83601d2ef",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "死亡下限从 11 人更新为至少 18 人",
+        "fact_type": "casualties",
+        "attribute": "death_toll",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 11,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "value": 11,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": "BNGRC late Thursday"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "value": 18,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": "BNGRC Friday"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "temporal_update",
+        "temporal_relation": "earlier_later",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "部分安置和流离失所数据扩大",
+        "fact_type": "evacuation",
+        "attribute": "displaced",
+        "supporting_spans": [
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "value": 18000,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": "BNGRC late Thursday"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "value": 20000,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": "BNGRC Friday"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "temporal_update",
+        "temporal_relation": "earlier_later",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "报道风速平均 150 公里每小时，高值达 210",
+        "fact_type": "disaster_magnitude",
+        "attribute": "reported_winds",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F002",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": {
+              "mean": 150,
+              "measured_high": 210
+            },
+            "unit": "km/h",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": {
+              "mean": 150,
+              "gusts": 210
+            },
+            "unit": "km/h",
+            "attribution": "BNGRC"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": {
+              "mean": 150,
+              "gusts": 210
+            },
+            "unit": "km/h",
+            "attribution": "BNGRC"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "风暴离岛预测与报告消散不可直接互斥",
+        "fact_type": "weather",
+        "attribute": "storm_end",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F002",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": "expected to leave Friday afternoon",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "reported dissipated Thursday afternoon over land",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "reported dissipated Thursday afternoon over land",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2024-03-27",
+          "time_precision": "当地日期",
+          "description": "Gamane 在 Vohémar 附近登陆。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F002",
+            "A003_F003"
+          ]
+        },
+        {
+          "time": "2024-03-28",
+          "time_precision": "当地日期",
+          "description": "BNGRC 报告风暴消散及 11 人死亡。",
+          "supporting_spans": [
+            "A002_F001",
+            "A002_F002"
+          ]
+        },
+        {
+          "time": "2024-03-29",
+          "time_precision": "报道日期",
+          "description": "周五通报称至少 18 人死亡，流离失所超过两万人。",
+          "supporting_spans": [
+            "A003_F001"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "停滞天气带来大量降水，洪水冲断交通，救援难以及时进入村庄。",
+          "supporting_spans": [
+            "A001_F002",
+            "A001_F003",
+            "A002_F003"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "Gamane 登陆后引发洪灾和人员死亡，后续通报扩大了伤亡及流离失所的数字。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F001",
+            "A002_F002",
+            "A003_F001",
+            "A003_F003"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "limitations": [
+      "A003 标题沿用 11 人，正文转述周五通报 18 人，保留原题但以两条时点记录。"
+    ]
+  }
+}

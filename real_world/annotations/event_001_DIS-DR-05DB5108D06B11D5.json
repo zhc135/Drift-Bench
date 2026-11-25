@@ -1,0 +1,1151 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-DR-05DB5108D06B11D5",
+  "event_rank": 1,
+  "event_metadata": {
+    "event_name": "Drought in Kenya, Somalia",
+    "disaster_type": "extreme_weather",
+    "disaster_type_code": "DR",
+    "event_start_time": "2025-05-21T00:00:00+00:00",
+    "event_end_time": "2026-03-30T00:00:00+00:00",
+    "locations": [
+      "Kenya",
+      "Somalia"
+    ],
+    "latitude": 2.053,
+    "longitude": 43.899,
+    "place_names_in_reports": [
+      "Horn of Africa",
+      "Kenya",
+      "Somalia",
+      "Ethiopia",
+      "Uganda",
+      "South Sudan",
+      "Sudan",
+      "Rwanda",
+      "Burundi",
+      "Tanzania",
+      "Djibouti",
+      "Eritrea",
+      "Addis Ababa"
+    ],
+    "gdacs_id": "1017863",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "GDACS 日期按 CSV 原样保留。预测季节、过去数年和会议报道日期分别记录，不能互作同一灾情统计时点。"
+    ],
+    "dataset_place_name": "Drought in Kenya, Somalia",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-CB13E6B7EA7634CE",
+      "event_id": "DIS-DR-05DB5108D06B11D5",
+      "event_rank": 1,
+      "article_rank": 1,
+      "title": "Regional bloc warns of heavy rainfall in Horn of Africa from July to September",
+      "publisher": "english-news-cn",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20250627/dcd3931bf846473ba8e24a45076140f7/c.html",
+      "published_at": "2025-06-26T21:09:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "正文导语署名 Xinhua，具有独立电头；A002 也引述 ICPAC，机构信息来源有重合。",
+      "content": "NAIROBI, June 26 (Xinhua) -- The period from July to September is expected to bring heavy rainfall across the larger part of the Horn of Africa region, the Climate Prediction and Applications Center (ICPAC) of the Intergovernmental Authority on Development (IGAD), a regional bloc, said on Thursday.\n\nICPAC said in its latest forecast that heavier-than-usual rains will be experienced, especially in July, across Kenya, Somalia, Ethiopia, Uganda, South Sudan, and Sudan.\n\nThe institution noted that the corresponding temperature pattern during the period will be warmer than average. \"The warmer conditions are expected over northern and southern Sudan, South Sudan, central to southern Ethiopia, Somalia, Kenya, Uganda, Rwanda, Burundi, and Tanzania.\"\n\nHowever, some parts of the region will be drier and cooler than usual during this period, it said.\n\nDrier-than-usual conditions are expected in areas in South Sudan, Ethiopia, and Somalia, ICPAC said, adding that normal-to-cooler-than-normal temperature conditions will be recorded over northwestern Somalia, northern Ethiopia, southern Djibouti, Eritrea, central Sudan, and cross-border areas of Kenya, Uganda, and South Sudan.\n\nThe Horn of Africa is experiencing climate extremes that range from droughts to floods, affecting livelihoods, according to Mohamed Ware, deputy executive secretary of IGAD.\n\nOver the years, the period from July to September will be dry, enabling maize, the main staple crop planted across the region in April, to mature, dry, and be harvested. The onset of the rains due to climate change means the sequence will be affected, hurting food security. ",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "NAIROBI, June 26 (Xinhua) -- The period from July to September is expected to bring heavy rainfall across the larger part of the Horn of Africa region, the Climate Prediction and Applications Center (ICPAC) of the Intergovernmental Authority on Development (IGAD), a regional bloc, said on Thursday.\n\n",
+          "start_offset": 0,
+          "end_offset": 301,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "weather",
+            "timeline",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "forecast_period",
+              "value": "July to September",
+              "unit": null
+            },
+            {
+              "attribute": "forecast_scope",
+              "value": "larger part of the Horn of Africa",
+              "unit": null
+            },
+            {
+              "attribute": "rainfall_forecast",
+              "value": "heavy",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "ICPAC / IGAD",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "ICPAC said in its latest forecast that heavier-than-usual rains will be experienced, especially in July, across Kenya, Somalia, Ethiopia, Uganda, South Sudan, and Sudan.\n\n",
+          "start_offset": 301,
+          "end_offset": 472,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "weather",
+            "timeline",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "rainfall_forecast",
+              "value": "heavier than usual",
+              "unit": null
+            },
+            {
+              "attribute": "peak_month",
+              "value": "July",
+              "unit": null
+            },
+            {
+              "attribute": "countries",
+              "value": [
+                "Kenya",
+                "Somalia",
+                "Ethiopia",
+                "Uganda",
+                "South Sudan",
+                "Sudan"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "ICPAC",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "The institution noted that the corresponding temperature pattern during the period will be warmer than average. \"The warmer conditions are expected over northern and southern Sudan, South Sudan, central to southern Ethiopia, Somalia, Kenya, Uganda, Rwanda, Burundi, and Tanzania.\"\n\n",
+          "start_offset": 472,
+          "end_offset": 754,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "weather",
+            "location"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "temperature_forecast",
+              "value": "warmer than average",
+              "unit": null
+            },
+            {
+              "attribute": "forecast_locations",
+              "value": "northern and southern Sudan, South Sudan, central to southern Ethiopia, Somalia, Kenya, Uganda, Rwanda, Burundi, and Tanzania",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "However, some parts of the region will be drier and cooler than usual during this period, it said.\n\n",
+          "start_offset": 754,
+          "end_offset": 854,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "weather"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "forecast",
+              "value": "drier and cooler than usual in some parts of the region",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "Drier-than-usual conditions are expected in areas in South Sudan, Ethiopia, and Somalia, ICPAC said, adding that normal-to-cooler-than-normal temperature conditions will be recorded over northwestern Somalia, northern Ethiopia, southern Djibouti, Eritrea, central Sudan, and cross-border areas of Kenya, Uganda, and South Sudan.\n\n",
+          "start_offset": 854,
+          "end_offset": 1184,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "weather",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "drier_forecast_locations",
+              "value": "areas in South Sudan, Ethiopia, and Somalia",
+              "unit": null
+            },
+            {
+              "attribute": "temperature_forecast",
+              "value": "normal to cooler than normal",
+              "unit": null
+            },
+            {
+              "attribute": "cooler_forecast_locations",
+              "value": "northwestern Somalia, northern Ethiopia, southern Djibouti, Eritrea, central Sudan, and cross-border areas of Kenya, Uganda, and South Sudan",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "ICPAC",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "The Horn of Africa is experiencing climate extremes that range from droughts to floods, affecting livelihoods, according to Mohamed Ware, deputy executive secretary of IGAD.\n\n",
+          "start_offset": 1184,
+          "end_offset": 1359,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "affected_population"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "hazards",
+              "value": [
+                "droughts",
+                "floods"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "impact",
+              "value": "livelihoods affected",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Mohamed Ware, IGAD",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "Over the years, the period from July to September will be dry, enabling maize, the main staple crop planted across the region in April, to mature, dry, and be harvested. ",
+          "start_offset": 1359,
+          "end_offset": 1529,
+          "sentence_ids": [
+            8
+          ],
+          "fact_types": [
+            "weather",
+            "timeline"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "historically_dry_months",
+              "value": "July to September",
+              "unit": null
+            },
+            {
+              "attribute": "maize_planting_month",
+              "value": "April",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F008",
+          "span_text": "The onset of the rains due to climate change means the sequence will be affected, hurting food security. ",
+          "start_offset": 1529,
+          "end_offset": 1634,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "cause",
+            "humanitarian_needs",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "proposed_cause",
+              "value": "climate change",
+              "unit": null
+            },
+            {
+              "attribute": "anticipated_impact",
+              "value": "disrupted maize drying and harvest sequence and harm to food security",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "82d35cb1e41187ab9f78c3c172e3e0acf64ad3f4c1a0fe5f2ae975fb6f0be3eb",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-BDE928F8897ACF79",
+      "event_id": "DIS-DR-05DB5108D06B11D5",
+      "event_rank": 1,
+      "article_rank": 2,
+      "title": "Capital FM » Climate threats jeopardize growth, investments in greater Horn of Africa: IGAD",
+      "publisher": "kenyamoja",
+      "identified_publisher": "Capital FM",
+      "source_domain": "capitalfm.co.ke",
+      "url": "https://www.capitalfm.co.ke/news/2025/08/climate-threats-jeopardize-growth-investments-in-greater-horn-of-africa-igad/",
+      "published_at": "2025-08-25T12:40:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "republished",
+      "source_independence": "syndicated",
+      "source_independence_reason": "网页标题以 Capital FM » 标明稿源，数据集的承载网站为 KenyaMoja。",
+      "content": "NAIROBI, Kenya, Aug 25 – The Greater Horn of Africa is grappling with escalating climate threats, as prolonged droughts, devastating floods, and erratic rainfall patterns continue to undermine food security, water access, and economic stability across the region.\n\nAccording to the IGAD Climate Prediction and Applications Centre (ICPAC), unpredictable weather has disrupted agriculture, displaced millions, and strained already fragile economies in recent years.\n\nEthiopia, Somalia, and Kenya have endured consecutive droughts that decimated livestock and left millions dependent on humanitarian aid.\n\nMeanwhile, flash floods in South Sudan and Uganda have destroyed infrastructure, triggered disease outbreaks, and reversed hard-won development gains.\n\nAnalysts warn that these shocks are occurring with greater frequency and intensity, testing the resilience of both governments and communities.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "NAIROBI, Kenya, Aug 25 – The Greater Horn of Africa is grappling with escalating climate threats, as prolonged droughts, devastating floods, and erratic rainfall patterns continue to undermine food security, water access, and economic stability across the region.\n\n",
+          "start_offset": 0,
+          "end_offset": 265,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "humanitarian_needs",
+            "economic_loss"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "hazards",
+              "value": [
+                "prolonged droughts",
+                "floods",
+                "erratic rainfall"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "impact",
+              "value": "food security, access to water, and economic stability",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "According to the IGAD Climate Prediction and Applications Centre (ICPAC), unpredictable weather has disrupted agriculture, displaced millions, and strained already fragile economies in recent years.\n\n",
+          "start_offset": 265,
+          "end_offset": 465,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "affected_population",
+            "damage",
+            "economic_loss"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "displaced_population",
+              "value": "millions",
+              "unit": "people"
+            },
+            {
+              "attribute": "impact_time_scope",
+              "value": "recent years",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "ICPAC",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "Ethiopia, Somalia, and Kenya have endured consecutive droughts that decimated livestock and left millions dependent on humanitarian aid.\n\n",
+          "start_offset": 465,
+          "end_offset": 603,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "damage",
+            "humanitarian_needs"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "drought_affected_countries",
+              "value": [
+                "Ethiopia",
+                "Somalia",
+                "Kenya"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "impact",
+              "value": "livestock losses",
+              "unit": null
+            },
+            {
+              "attribute": "aid_dependent_population",
+              "value": "millions",
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "Meanwhile, flash floods in South Sudan and Uganda have destroyed infrastructure, triggered disease outbreaks, and reversed hard-won development gains.\n\n",
+          "start_offset": 603,
+          "end_offset": 755,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "infrastructure",
+            "secondary_hazard",
+            "damage"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "flood_locations",
+              "value": [
+                "South Sudan",
+                "Uganda"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "flood_impact",
+              "value": "infrastructure destruction, disease outbreaks and reversal of development gains",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "Analysts warn that these shocks are occurring with greater frequency and intensity, testing the resilience of both governments and communities.",
+          "start_offset": 755,
+          "end_offset": 898,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "trend",
+              "value": "greater frequency and intensity",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "unnamed analysts",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "d7165d644564d0ce11052270be2dfd652b45b74d8f969b2d48a7a5f6e6ed94a7",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-5C6DE24DB632E619",
+      "event_id": "DIS-DR-05DB5108D06B11D5",
+      "event_rank": 1,
+      "article_rank": 3,
+      "title": "African Youth Not Just Inheritors of Climate Crisis But Builders of Solutions: DPM Temesgen",
+      "publisher": "ena",
+      "identified_publisher": "Ethiopian News Agency",
+      "source_domain": "ena.et",
+      "url": "https://www.ena.et/web/eng/w/eng_7268484",
+      "published_at": "2025-09-05T10:09:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "正文导语署名 ENA 且报道具体会议与发言，未见与其余两篇共享稿件。",
+      "content": "Addis Ababa, September 5, 2025 (ENA) -- Deputy Prime Minister Temesgen Tiruneh underscored Ethiopia's transition into a renewable energy hub, sharing clean power with neighboring countries like Djibouti, Kenya, Sudan, and Tanzania.\n\nA two- day conference focused on empowering youth to take an active role in addressing climate change and promoting sustainable development in Africa has convened place in Addis Ababa.\n\nIn his opening remarks, Temesgen cited the paradox of Africa's situation—despite contributing less than four percent of global emissions, the continent faces severe climate challenges such as droughts, floods, and rising food insecurity.\n\n\"Africa is not only vulnerable; Africa is hopeful. More than sixty percent of our people are under the age of twenty-five,\" he stated, urging the youth to harness their creativity and determination in the fight against climate change.\n\nTemesgen stated that Ethiopia's Green Legacy Initiative has mobilized over 20 million citizens annually to plant trees, aiming to reach 50 billion seedlings by 2026.\n\n\"This is one of the largest reforestation efforts in the world,\" he noted, emphasizing its role in restoring land, creating jobs, and supporting biodiversity.\n\nTemesgen also underscored Ethiopia's transition into a renewable energy hub, sharing clean power with neighboring countries like Djibouti, Kenya, Sudan, and Tanzania.\n\n\"These are not just national milestones; they are continental examples of what can be achieved when governments, youth, and communities collaborate with vision.\"",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "Addis Ababa, September 5, 2025 (ENA) -- Deputy Prime Minister Temesgen Tiruneh underscored Ethiopia's transition into a renewable energy hub, sharing clean power with neighboring countries like Djibouti, Kenya, Sudan, and Tanzania.\n\n",
+          "start_offset": 0,
+          "end_offset": 233,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "infrastructure",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "energy_exporter",
+              "value": "Ethiopia",
+              "unit": null
+            },
+            {
+              "attribute": "energy_recipients_mentioned",
+              "value": [
+                "Djibouti",
+                "Kenya",
+                "Sudan",
+                "Tanzania"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Temesgen Tiruneh",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "A two- day conference focused on empowering youth to take an active role in addressing climate change and promoting sustainable development in Africa has convened place in Addis Ababa.\n\n",
+          "start_offset": 233,
+          "end_offset": 419,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "response",
+            "location",
+            "timeline"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "conference_duration",
+              "value": 2,
+              "unit": "days"
+            },
+            {
+              "attribute": "conference_location",
+              "value": "Addis Ababa",
+              "unit": null
+            },
+            {
+              "attribute": "conference_goal",
+              "value": "youth participation in climate action and sustainable development",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "In his opening remarks, Temesgen cited the paradox of Africa's situation—despite contributing less than four percent of global emissions, the continent faces severe climate challenges such as droughts, floods, and rising food insecurity.\n\n",
+          "start_offset": 419,
+          "end_offset": 658,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "share_of_global_emissions",
+              "value": {
+                "value": 4,
+                "qualifier": "less_than"
+              },
+              "unit": "%"
+            },
+            {
+              "attribute": "geographical_scope",
+              "value": "Africa",
+              "unit": null
+            },
+            {
+              "attribute": "hazards",
+              "value": [
+                "droughts",
+                "floods",
+                "rising food insecurity"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Temesgen Tiruneh",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "\"Africa is not only vulnerable; Africa is hopeful. More than sixty percent of our people are under the age of twenty-five,\" he stated, urging the youth to harness their creativity and determination in the fight against climate change.\n\n",
+          "start_offset": 658,
+          "end_offset": 894,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "affected_population",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "population_share",
+              "value": {
+                "value": 60,
+                "qualifier": "greater_than"
+              },
+              "unit": "%"
+            },
+            {
+              "attribute": "age_scope",
+              "value": {
+                "value": 25,
+                "qualifier": "less_than"
+              },
+              "unit": "years"
+            },
+            {
+              "attribute": "attribution",
+              "value": "Temesgen Tiruneh",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "Temesgen stated that Ethiopia's Green Legacy Initiative has mobilized over 20 million citizens annually to plant trees, aiming to reach 50 billion seedlings by 2026.\n\n",
+          "start_offset": 894,
+          "end_offset": 1061,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "response",
+            "timeline"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "annual_citizens_mobilized",
+              "value": {
+                "value": 20000000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "seedling_target",
+              "value": 50000000000,
+              "unit": "seedlings"
+            },
+            {
+              "attribute": "target_year",
+              "value": 2026,
+              "unit": null
+            },
+            {
+              "attribute": "program",
+              "value": "Ethiopia Green Legacy Initiative",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "\"This is one of the largest reforestation efforts in the world,\" he noted, emphasizing its role in restoring land, creating jobs, and supporting biodiversity.\n\n",
+          "start_offset": 1061,
+          "end_offset": 1221,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "response",
+            "recovery"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_program_benefits",
+              "value": [
+                "land restoration",
+                "jobs",
+                "biodiversity"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "Temesgen also underscored Ethiopia's transition into a renewable energy hub, sharing clean power with neighboring countries like Djibouti, Kenya, Sudan, and Tanzania.\n\n",
+          "start_offset": 1221,
+          "end_offset": 1389,
+          "sentence_ids": [
+            8
+          ],
+          "fact_types": [
+            "infrastructure",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "energy_exporter",
+              "value": "Ethiopia",
+              "unit": null
+            },
+            {
+              "attribute": "energy_recipients_mentioned",
+              "value": [
+                "Djibouti",
+                "Kenya",
+                "Sudan",
+                "Tanzania"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": "重复 A003_F001 所述清洁电力合作。"
+        },
+        {
+          "fact_span_id": "A003_F008",
+          "span_text": "\"These are not just national milestones; they are continental examples of what can be achieved when governments, youth, and communities collaborate with vision.\"",
+          "start_offset": 1389,
+          "end_offset": 1550,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": "发言者对合作的评价。"
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "b59d340c8bb87018037a19821f70eeee1b282b5931ce481b140c0cc06faf0ecb",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "非洲之角的干旱与洪涝背景",
+        "fact_type": "disaster_occurrence",
+        "attribute": "regional_climate_hazards",
+        "supporting_spans": [
+          "A001_F006",
+          "A002_F001",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F006",
+            "value": "droughts and floods affecting livelihoods",
+            "unit": null,
+            "attribution": "Mohamed Ware"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "prolonged droughts and devastating floods affecting livelihoods and basic needs",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "droughts and floods affecting Africa",
+            "unit": null,
+            "attribution": "Temesgen Tiruneh"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "A003 的地理范围是全非洲，三者未采用统一灾害统计。"
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "肯尼亚、索马里及埃塞俄比亚经历连续干旱",
+        "fact_type": "disaster_occurrence",
+        "attribute": "countries_with_consecutive_drought",
+        "supporting_spans": [
+          "A002_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": [
+              "Ethiopia",
+              "Somalia",
+              "Kenya"
+            ],
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "连续干旱导致牲畜损失和大范围援助依赖",
+        "fact_type": "humanitarian_needs",
+        "attribute": "drought_aid_dependency",
+        "supporting_spans": [
+          "A002_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": "millions dependent on humanitarian aid",
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "7 至 9 月雨量预测存在区域差异",
+        "fact_type": "weather",
+        "attribute": "seasonal_rainfall_forecast",
+        "supporting_spans": [
+          "A001_F001",
+          "A001_F002",
+          "A001_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "heavy rainfall across much of the Horn of Africa",
+            "unit": null,
+            "attribution": "ICPAC"
+          },
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": "heavier than usual across several countries, particularly July",
+            "unit": null,
+            "attribution": "ICPAC"
+          },
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F005",
+            "value": "drier in areas in South Sudan, Ethiopia, and Somalia",
+            "unit": null,
+            "attribution": "ICPAC"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "same_time",
+        "annotation_note": "区域总体与部分地区预测可同时成立。"
+      },
+      {
+        "cluster_id": "FC005",
+        "cluster_description": "异常天气威胁农业或粮食安全",
+        "fact_type": "humanitarian_needs",
+        "attribute": "food_security_impact",
+        "supporting_spans": [
+          "A001_F008",
+          "A002_F001",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F008",
+            "value": "potential disruption of the maize cycle and harm to food security",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "ongoing deterioration in regional food security",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "rising food insecurity across Africa",
+            "unit": null,
+            "attribution": "Temesgen Tiruneh"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC006",
+        "cluster_description": "天气扰动造成部分人口流离失所",
+        "fact_type": "affected_population",
+        "attribute": "displaced_population",
+        "supporting_spans": [
+          "A002_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "millions",
+            "unit": "people",
+            "attribution": "ICPAC"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": "报道将该项影响归于过去数年的不可预测天气，未给出本次干旱单独数字。"
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005",
+        "FC006"
+      ],
+      "critical_facts": [
+        "FC002"
+      ],
+      "important_facts": [
+        "FC001",
+        "FC003",
+        "FC004",
+        "FC005",
+        "FC006"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-06-26",
+          "time_precision": "日（报道日期）",
+          "description": "新华社刊载 ICPAC 对 7—9 月的区域预测。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A001_F005"
+          ]
+        },
+        {
+          "time": "2025-08-25",
+          "time_precision": "日（报道日期）",
+          "description": "Capital FM 报道连续干旱及其对牲畜和援助需求的影响。",
+          "supporting_spans": [
+            "A002_F001",
+            "A002_F003"
+          ]
+        },
+        {
+          "time": "2025-09-05",
+          "time_precision": "日（报道日期）",
+          "description": "ENA 报道非洲青年气候会议开幕及埃塞俄比亚副总理的发言。",
+          "supporting_spans": [
+            "A003_F001",
+            "A003_F002",
+            "A003_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "Capital FM 将牲畜损失和人道援助依赖归于连续干旱。",
+          "supporting_spans": [
+            "A002_F003"
+          ]
+        },
+        {
+          "description": "新华社报道提出季节降雨变化将扰乱玉米成熟、干燥与收获周期并威胁粮食安全。",
+          "supporting_spans": [
+            "A001_F007",
+            "A001_F008"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "肯尼亚和索马里经历连续干旱，粮食安全、生计和人道援助需求受到影响。",
+          "supporting_spans": [
+            "A001_F006",
+            "A002_F001",
+            "A002_F003"
+          ]
+        },
+        {
+          "description": "季节预测显示非洲之角雨量变化存在区域差异。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A001_F005"
+          ]
+        },
+        {
+          "description": "埃塞俄比亚副总理在非洲气候会议发言中将干旱列为全非洲气候挑战之一。",
+          "supporting_spans": [
+            "A003_F002",
+            "A003_F003"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "limitations": [
+      "三篇报道均未提供该 GDACS 事件的统一旱情等级或统计截止时点。"
+    ]
+  }
+}

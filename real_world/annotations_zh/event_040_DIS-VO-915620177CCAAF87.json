@@ -1,0 +1,891 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-VO-915620177CCAAF87",
+  "event_rank": 40,
+  "event_metadata": {
+    "event_name": "喀拉喀托火山喷发",
+    "disaster_type": "volcanic_eruption",
+    "disaster_type_code": "VO",
+    "event_start_time": "2026-09-04T21:00:00+00:00",
+    "event_end_time": "2026-09-04T21:00:00+00:00",
+    "locations": [
+      "印度尼西亚"
+    ],
+    "latitude": -6.1009,
+    "longitude": 105.4233,
+    "place_names_in_reports": [
+      "阿纳克喀拉喀托火山",
+      "爪哇岛",
+      "苏门答腊岛",
+      "万丹省",
+      "雅加达",
+      "苏加诺-哈达国际机场",
+      "巽他海峡"
+    ],
+    "gdacs_id": "1000148",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "星期日为9月6日，星期一为9月7日。预计恢复开放的时间与累计中断情况分别记录。"
+    ],
+    "dataset_place_name": "喀拉喀托火山喷发",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-D0963504C58F71A8",
+      "event_id": "DIS-VO-915620177CCAAF87",
+      "event_rank": 40,
+      "article_rank": 1,
+      "title": "印度尼西亚阿纳克喀拉喀托火山喷发导致航班、学校活动及捕鱼暂停",
+      "publisher": "bworldcom",
+      "identified_publisher": "Reuters material",
+      "source_domain": "bworldonline.com",
+      "url": "https://bworldonline.com/world/2026/09/06/774792/indonesias-anak-krakatau-eruption-halts-flights-schools-fishing/",
+      "published_at": "2026-09-06T09:38:22+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "A001 明确注明路透社采访。A002 采用相似的叙述顺序、引语和关键数字。清理后的文本缺少原始署名。",
+      "content": "印度尼西亚丹格朗——星期日，印度尼西亚阿纳克喀拉喀托火山喷发导致六个机场暂停航班运营，雅加达主要机场数百个航班受到影响，此前一些学校活动和捕鱼活动已暂停。\n\n苏加诺-哈达国际机场在 Instagram 发帖称，由于火山灰，航班运营暂停至下午1:30（格林尼治标准时间06:30），导致数百名旅客滞留机场。\n\n机场运营商 Angkasa Pura 在声明中表示，暂停已影响301个航班，其中包括58个国际航班。新加坡航空表示，已取消当天剩余时间往返雅加达的航班。\n\n交通部表示，阿纳克喀拉喀托火山位于印度尼西亚广阔岛链中的爪哇岛与苏门答腊岛之间，大致处于中间位置，自星期五晚间起持续喷发，星期日凌晨在机场检测到火山灰。\n\n旅客滞留苏加诺-哈达国际机场 印度尼西亚气象机构 BMKG 在网站上发帖称，火山灰在爪哇岛一侧达到20,000英尺（6,000米），在苏门答腊岛一侧及爪哇岛万丹省部分地区达到50,000英尺（15,000米）。\n\n一次国内航班被取消后，58岁的苏哈迪来到苏加诺-哈达机场，希望上午能搭乘转机航班前往婆罗洲岛印度尼西亚部分的萨马林达出差。\n\n只使用单名的苏哈迪告诉路透社：“我以为雅加达到萨马林达的航班还有，原来它也被取消了。”\n\n21岁的法国公民埃洛安·塔塞收到 Batik Air 短信，得知前往北苏拉威西度假目的地万鸦老的航班延误，但他说不清楚延误将持续多久。\n\n他说：“如果他们告诉我航班被取消，我想我会尝试在雅加达找一家酒店。”\n\n机场运营商表示，正与航空公司协调，为受影响旅客提供食品和简餐，以及前往酒店的巴士。\n\n灾害减灾机构 BNPB 表示，将于星期日开展人工影响天气作业以促进降雨，可能包括人工增雨。\n\nBNPB 负责人苏哈良托在记者会上说：“如果雨下得足够大，昨天以来持续扰乱我们日常生活的火山灰将很快被冲走。”\n\n五座印度尼西亚火山处于三级警报发言人贝尔顿·潘贾伊坦表示，BNPB“敦促公众保持冷静，同时提高警惕。发生降灰时，建议戴口罩和护目装备，减少户外活动、遮盖水源，并谨慎驾驶，因为火山灰可能降低能见度”。\n\n交通部表示，巽他海峡渡轮运营正常，敦促船只与阿纳克喀拉喀托火山口保持至少3公里（2英里）距离，并对火山灰及其他喷出物等火山危险保持警惕。\n\n据当地媒体《罗盘报》报道，若干学校在学生和居民因火山灰出现眼睛刺激症状后，于星期六取消活动，渔民也取消捕鱼行程。\n\n火山监测机构 PVMBG 表示，距阿纳克喀拉喀托约850公里（530英里）的东爪哇省塞梅鲁火山星期日也喷发，火山灰柱高达山顶上方1公里（3,300英尺）。该机构建议居民与火山口保持至少5公里（3英里）距离，并警告距山顶最远17公里（10英里）处可能出现炽热火山灰云和熔岩流。\n\n印度尼西亚位于环太平洋火山地震带，地震及火山喷发频繁。阿纳克喀拉喀托自7月2日起处于次高级别的三级警报。塞梅鲁火山及另外三座火山默拉皮、勒沃托比拉基拉基和锡纳朋也处于三级警报。\n\n灾害减灾机构表示，该火山不存在迫在眉睫的海啸风险。 2018年，阿纳克喀拉喀托火山喷发引发的海啸在爪哇岛和苏门答腊岛造成400多人死亡。\n\n阿纳克喀拉喀托意为喀拉喀托之子，这座火山在一个世纪前出现在曾经由喀拉喀托（当时称 Krakatoa）占据的区域。老火山在1883年的大规模喷发中毁灭，系列海啸造成36,000多人死亡。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "印度尼西亚丹格朗——星期日，印度尼西亚阿纳克喀拉喀托火山喷发导致六个机场暂停航班运营，雅加达主要机场数百个航班受到影响，此前一些学校活动和捕鱼活动已暂停。\n\n苏加诺-哈达国际机场在 Instagram 发帖称，由于火山灰，航班运营暂停至下午1:30（格林尼治标准时间06:30），导致数百名旅客滞留机场。\n\n机场运营商 Angkasa Pura 在声明中表示，暂停已影响301个航班，其中包括58个国际航班。新加坡航空表示，已取消当天剩余时间往返雅加达的航班。\n\n",
+          "start_offset": 0,
+          "end_offset": 232,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "infrastructure",
+            "damage",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "closed_airports",
+              "value": 6,
+              "unit": null
+            },
+            {
+              "attribute": "soekarno_hatta_suspension_until",
+              "value": "当地时间13:30/格林尼治标准时间06:30",
+              "unit": null
+            },
+            {
+              "attribute": "flights_impacted",
+              "value": 301,
+              "unit": "flights"
+            },
+            {
+              "attribute": "international_flights_impacted",
+              "value": 58,
+              "unit": "flights"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "交通部表示，阿纳克喀拉喀托火山位于印度尼西亚广阔岛链中的爪哇岛与苏门答腊岛之间，大致处于中间位置，自星期五晚间起持续喷发，星期日凌晨在机场检测到火山灰。\n\n旅客滞留苏加诺-哈达国际机场 印度尼西亚气象机构 BMKG 在网站上发帖称，火山灰在爪哇岛一侧达到20,000英尺（6,000米），在苏门答腊岛一侧及爪哇岛万丹省部分地区达到50,000英尺（15,000米）。\n\n",
+          "start_offset": 232,
+          "end_offset": 417,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "weather",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "activity_since",
+              "value": "星期五晚间",
+              "unit": null
+            },
+            {
+              "attribute": "ash_height_java_side",
+              "value": 6000,
+              "unit": "m"
+            },
+            {
+              "attribute": "ash_height_sumatra_side_and_parts_of_banten",
+              "value": 15000,
+              "unit": "m"
+            },
+            {
+              "attribute": "attribution",
+              "value": "火山灰高度数据来自 BMKG",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "一次国内航班被取消后，58岁的苏哈迪来到苏加诺-哈达机场，希望上午能搭乘转机航班前往婆罗洲岛印度尼西亚部分的萨马林达出差。\n\n只使用单名的苏哈迪告诉路透社：“我以为雅加达到萨马林达的航班还有，原来它也被取消了。”\n\n21岁的法国公民埃洛安·塔塞收到 Batik Air 短信，得知前往北苏拉威西度假目的地万鸦老的航班延误，但他说不清楚延误将持续多久。\n\n他说：“如果他们告诉我航班被取消，我想我会尝试在雅加达找一家酒店。”\n\n机场运营商表示，正与航空公司协调，为受影响旅客提供食品和简餐，以及前往酒店的巴士。\n\n",
+          "start_offset": 417,
+          "end_offset": 673,
+          "sentence_ids": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "public_reaction",
+            "response",
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "灾害减灾机构 BNPB 表示，将于星期日开展人工影响天气作业以促进降雨，可能包括人工增雨。\n\nBNPB 负责人苏哈良托在记者会上说：“如果雨下得足够大，昨天以来持续扰乱我们日常生活的火山灰将很快被冲走。”\n\n五座印度尼西亚火山处于三级警报发言人贝尔顿·潘贾伊坦表示，BNPB“敦促公众保持冷静，同时提高警惕。发生降灰时，建议戴口罩和护目装备，减少户外活动、遮盖水源，并谨慎驾驶，因为火山灰可能降低能见度”。\n\n",
+          "start_offset": 673,
+          "end_offset": 878,
+          "sentence_ids": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "planned_action",
+              "value": "BNPB 计划人工影响天气以促进降雨",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "交通部表示，巽他海峡渡轮运营正常，敦促船只与阿纳克喀拉喀托火山口保持至少3公里（2英里）距离，并对火山灰及其他喷出物等火山危险保持警惕。\n\n据当地媒体《罗盘报》报道，若干学校在学生和居民因火山灰出现眼睛刺激症状后，于星期六取消活动，渔民也取消捕鱼行程。\n\n",
+          "start_offset": 878,
+          "end_offset": 1006,
+          "sentence_ids": [
+            17,
+            18
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure",
+            "secondary_hazard",
+            "injuries"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "marine_exclusion",
+              "value": {
+                "value": 3,
+                "qualifier": "at_least"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "ferry_status",
+              "value": "运营正常",
+              "unit": null
+            },
+            {
+              "attribute": "school_and_fishing_activity",
+              "value": "部分暂停",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "火山监测机构 PVMBG 表示，距阿纳克喀拉喀托约850公里（530英里）的东爪哇省塞梅鲁火山星期日也喷发，火山灰柱高达山顶上方1公里（3,300英尺）。该机构建议居民与火山口保持至少5公里（3英里）距离，并警告距山顶最远17公里（10英里）处可能出现炽热火山灰云和熔岩流。\n\n",
+          "start_offset": 1006,
+          "end_offset": 1145,
+          "sentence_ids": [
+            19,
+            20
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "secondary_hazard",
+            "disaster_magnitude"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "另一次塞梅鲁火山喷发",
+              "unit": null
+            },
+            {
+              "attribute": "column_height",
+              "value": 1,
+              "unit": "km"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "印度尼西亚位于环太平洋火山地震带，地震及火山喷发频繁。阿纳克喀拉喀托自7月2日起处于次高级别的三级警报。塞梅鲁火山及另外三座火山默拉皮、勒沃托比拉基拉基和锡纳朋也处于三级警报。\n\n灾害减灾机构表示，该火山不存在迫在眉睫的海啸风险。 ",
+          "start_offset": 1145,
+          "end_offset": 1261,
+          "sentence_ids": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "anak_krakatau_alert",
+              "value": 3,
+              "unit": null
+            },
+            {
+              "attribute": "alert_since",
+              "value": "7月2日",
+              "unit": null
+            },
+            {
+              "attribute": "imminent_tsunami_status",
+              "value": "无迫在眉睫的风险",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F008",
+          "span_text": "2018年，阿纳克喀拉喀托火山喷发引发的海啸在爪哇岛和苏门答腊岛造成400多人死亡。\n\n阿纳克喀拉喀托意为喀拉喀托之子，这座火山在一个世纪前出现在曾经由喀拉喀托（当时称 Krakatoa）占据的区域。老火山在1883年的大规模喷发中毁灭，系列海啸造成36,000多人死亡。",
+          "start_offset": 1261,
+          "end_offset": 1397,
+          "sentence_ids": [
+            25,
+            26,
+            27
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "secondary_hazard"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "历史海啸及喀拉喀托背景",
+              "unit": null
+            },
+            {
+              "attribute": "2018_deaths",
+              "value": {
+                "value": 400,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "1883_deaths",
+              "value": {
+                "value": 36000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "ae4e7b1f669ad802ff2a3aac986944f70bd4d6ac0ee1fdd9152c770f407562aa",
+        "removed_word_count": 1,
+        "removed_word_ratio": 0.0014641288433382138
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-D6582D72CCB010CC",
+      "event_id": "DIS-VO-915620177CCAAF87",
+      "event_rank": 40,
+      "article_rank": 2,
+      "title": "阿纳克喀拉喀托：火山喷发扰乱数百个航班",
+      "publisher": "news-yahoo-uk",
+      "identified_publisher": "Reuters material",
+      "source_domain": "uk.news.yahoo.com",
+      "url": "https://uk.news.yahoo.com/anak-krakatau-volcano-eruption-disrupts-103600699.html",
+      "published_at": "2026-09-06T10:36:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "A001 明确注明路透社采访。A002 采用相似的叙述顺序、引语和关键数字。清理后的文本缺少原始署名。",
+      "content": "印度尼西亚阿纳克喀拉喀托火山喷发后，数百个航班被暂停。\n\n交通部表示，这座大致位于爪哇岛与苏门答腊岛中间的火山于星期五晚间开始喷发，星期日凌晨在雅加达主要机场检测到火山灰。\n\n六个机场暂停航班，苏加诺-哈达国际机场暂停运营至当地时间下午5:30，数百名旅客滞留。\n\n据机场运营商 Angkasa Pura 称，共有301个航班受到影响，其中包括58个国际航班。\n\n新加坡航空及马来西亚航空表示，已取消当天剩余时间往返雅加达的航班。\n\n交通部表示，巽他海峡渡轮运营正常，敦促船只与阿纳克喀拉喀托火山口保持至少3公里（2英里）距离，并对包括火山灰在内的火山危险保持警惕。\n\n气象机构 BMKG 表示，火山灰在爪哇岛一侧达到20,000英尺（6,000米），在苏门答腊岛一侧及爪哇岛万丹省部分地区达到50,000英尺（15,000米）。\n\n灾害减灾机构 BNPB 表示，将于星期日开展人工影响天气作业以促进降雨，可能包括人工增雨。\n\nBNPB 负责人苏哈良托在记者会上说：“如果雨下得足够大，昨天以来持续扰乱我们日常生活的火山灰将很快被冲走。”\n\n公众被敦促保持冷静，同时提高警惕，在出现降灰时戴口罩及护目装备，并谨慎驾驶。\n\n当地媒体《罗盘报》报道，部分学校于星期六下午取消活动，渔民取消捕鱼行程。\n\n阿纳克喀拉喀托自7月2日起处于次高级别的三级警报。灾害减灾机构表示，该火山不存在迫在眉睫的海啸风险。\n\n印度尼西亚另有四座火山也处于三级警报：东爪哇省塞梅鲁火山、默拉皮火山、勒沃托比拉基拉基火山及锡纳朋火山。\n\n印度尼西亚位于环太平洋火山地震带，地震及火山喷发频繁。\n\n2018年，阿纳克喀拉喀托火山喷发引发的海啸在爪哇岛和苏门答腊岛造成400多人死亡。\n\n阿纳克喀拉喀托意为喀拉喀托之子，在一个世纪前出现在曾经由喀拉喀托（当时称 Krakatoa）占据的区域。\n\n老火山在1883年的大规模喷发中毁灭，系列海啸造成36,000多人死亡。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "印度尼西亚阿纳克喀拉喀托火山喷发后，数百个航班被暂停。\n\n交通部表示，这座大致位于爪哇岛与苏门答腊岛中间的火山于星期五晚间开始喷发，星期日凌晨在雅加达主要机场检测到火山灰。\n\n六个机场暂停航班，苏加诺-哈达国际机场暂停运营至当地时间下午5:30，数百名旅客滞留。\n\n据机场运营商 Angkasa Pura 称，共有301个航班受到影响，其中包括58个国际航班。\n\n新加坡航空及马来西亚航空表示，已取消当天剩余时间往返雅加达的航班。\n\n",
+          "start_offset": 0,
+          "end_offset": 217,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "infrastructure",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "closed_airports",
+              "value": 6,
+              "unit": null
+            },
+            {
+              "attribute": "soekarno_hatta_suspension_until",
+              "value": "当地时间17:30",
+              "unit": null
+            },
+            {
+              "attribute": "flights_impacted",
+              "value": 301,
+              "unit": "flights"
+            },
+            {
+              "attribute": "international_flights_impacted",
+              "value": 58,
+              "unit": "flights"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "交通部表示，巽他海峡渡轮运营正常，敦促船只与阿纳克喀拉喀托火山口保持至少3公里（2英里）距离，并对包括火山灰在内的火山危险保持警惕。\n\n气象机构 BMKG 表示，火山灰在爪哇岛一侧达到20,000英尺（6,000米），在苏门答腊岛一侧及爪哇岛万丹省部分地区达到50,000英尺（15,000米）。\n\n",
+          "start_offset": 217,
+          "end_offset": 367,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "marine_exclusion",
+              "value": {
+                "value": 3,
+                "qualifier": "at_least"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "ash_java",
+              "value": 6000,
+              "unit": "m"
+            },
+            {
+              "attribute": "ash_sumatra_and_parts_of_banten",
+              "value": 15000,
+              "unit": "m"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "灾害减灾机构 BNPB 表示，将于星期日开展人工影响天气作业以促进降雨，可能包括人工增雨。\n\nBNPB 负责人苏哈良托在记者会上说：“如果雨下得足够大，昨天以来持续扰乱我们日常生活的火山灰将很快被冲走。”\n\n公众被敦促保持冷静，同时提高警惕，在出现降灰时戴口罩及护目装备，并谨慎驾驶。\n\n当地媒体《罗盘报》报道，部分学校于星期六下午取消活动，渔民取消捕鱼行程。\n\n",
+          "start_offset": 367,
+          "end_offset": 549,
+          "sentence_ids": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "planned_action",
+              "value": "BNPB 计划人工影响天气以促进降雨",
+              "unit": null
+            },
+            {
+              "attribute": "school_and_fishing_activity",
+              "value": "部分暂停",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "阿纳克喀拉喀托自7月2日起处于次高级别的三级警报。灾害减灾机构表示，该火山不存在迫在眉睫的海啸风险。\n\n印度尼西亚另有四座火山也处于三级警报：东爪哇省塞梅鲁火山、默拉皮火山、勒沃托比拉基拉基火山及锡纳朋火山。\n\n印度尼西亚位于环太平洋火山地震带，地震及火山喷发频繁。\n\n",
+          "start_offset": 549,
+          "end_offset": 684,
+          "sentence_ids": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "alert",
+              "value": 3,
+              "unit": null
+            },
+            {
+              "attribute": "tsunami_risk",
+              "value": "无迫在眉睫的风险",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "2018年，阿纳克喀拉喀托火山喷发引发的海啸在爪哇岛和苏门答腊岛造成400多人死亡。\n\n阿纳克喀拉喀托意为喀拉喀托之子，在一个世纪前出现在曾经由喀拉喀托（当时称 Krakatoa）占据的区域。\n\n老火山在1883年的大规模喷发中毁灭，系列海啸造成36,000多人死亡。",
+          "start_offset": 684,
+          "end_offset": 818,
+          "sentence_ids": [
+            16,
+            17,
+            18
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "secondary_hazard"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "历史海啸",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "cbbe0513ebf242e2590872833267218a3a960f49a240773d6d9744ac648bd29b",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-501216AFA0215A2B",
+      "event_id": "DIS-VO-915620177CCAAF87",
+      "event_rank": 40,
+      "article_rank": 3,
+      "title": "全球 2026年9月7日 火山混乱：火山灰云扰乱印度尼西亚航空旅行",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/business/3973613-volcanic-chaos-ash-clouds-disrupt-indonesian-air-travel",
+      "published_at": "2026-09-07T08:02:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "Devdiscourse 的后续报道引用交通部长，没有可核实的正文署名。",
+      "content": "据交通部长称，星期一，由于阿纳克喀拉喀托火山喷发产生的火山灰，印度尼西亚七个机场关闭，其中包括两个服务雅加达的主要机场，影响超过270,000名旅客。\n\n发生于爪哇岛和苏门答腊岛之间的喷发自上星期五以来已使火山灰扩散至雅加达及周边地区，导致大量航班取消和延误。截至星期一，中断已影响2,300个航班，恢复时间仍不确定。\n\n危机持续之际，总统普拉博沃·苏比延多主持召开视频会议，讨论喷发及8月地震等近期其他灾害，强调需要提高防灾减灾预算。持续发展的局势凸显印度尼西亚位于地震活跃的环太平洋火山地震带所面临的脆弱处境。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "据交通部长称，星期一，由于阿纳克喀拉喀托火山喷发产生的火山灰，印度尼西亚七个机场关闭，其中包括两个服务雅加达的主要机场，影响超过270,000名旅客。\n\n发生于爪哇岛和苏门答腊岛之间的喷发自上星期五以来已使火山灰扩散至雅加达及周边地区，导致大量航班取消和延误。截至星期一，中断已影响2,300个航班，恢复时间仍不确定。\n\n",
+          "start_offset": 0,
+          "end_offset": 161,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "infrastructure",
+            "affected_population",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "monday_airports_closed",
+              "value": 7,
+              "unit": null
+            },
+            {
+              "attribute": "monday_travelers_affected",
+              "value": {
+                "value": 270000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "monday_flights_disrupted",
+              "value": 2300,
+              "unit": "flights"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "危机持续之际，总统普拉博沃·苏比延多主持召开视频会议，讨论喷发及8月地震等近期其他灾害，强调需要提高防灾减灾预算。持续发展的局势凸显印度尼西亚位于地震活跃的环太平洋火山地震带所面临的脆弱处境。",
+          "start_offset": 161,
+          "end_offset": 257,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "0436f5745905c55de5d2380f184677f4d0b911572131bf4140d7e5e7ad0320f0",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "火山灰促使多个机场关闭，星期一影响进一步扩大",
+        "fact_type": "infrastructure",
+        "attribute": "airport_closures",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 6,
+              "day": "星期日"
+            },
+            "unit": "airports",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "value": 6,
+              "day": "星期日"
+            },
+            "unit": "airports",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "value": 7,
+              "day": "星期一"
+            },
+            "unit": "airports",
+            "attribution": "transport minister"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "temporal_update",
+        "temporal_relation": "earlier_later",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "两篇报道对星期日主要机场暂停运营的结束时间给出不同说法",
+        "fact_type": "timeline",
+        "attribute": "soekarno_hatta_suspension_until",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "当地时间13:30/格林尼治标准时间06:30",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "当地时间17:30",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "暂停时间可能已延长，原始通知未经查阅。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "主要机场星期日报告301个航班受影响，至星期一累计影响范围扩大",
+        "fact_type": "infrastructure",
+        "attribute": "flight_disruptions",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 301,
+              "scope": "星期日，雅加达主要机场"
+            },
+            "unit": "flights",
+            "attribution": "Angkasa Pura"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "value": 301,
+              "scope": "星期日，雅加达主要机场"
+            },
+            "unit": "flights",
+            "attribution": "Angkasa Pura"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "value": 2300,
+              "scope": "星期一，更广泛的中断"
+            },
+            "unit": "flights",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "爪哇岛和苏门答腊岛一侧的火山灰云高度有所不同",
+        "fact_type": "disaster_magnitude",
+        "attribute": "ash_height_by_sector",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": {
+              "java": 6000,
+              "sumatra_and_some_banten": 15000
+            },
+            "unit": "m",
+            "attribution": "BMKG"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": {
+              "java": 6000,
+              "sumatra_and_some_banten": 15000
+            },
+            "unit": "m",
+            "attribution": "BMKG"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC003"
+      ],
+      "important_facts": [
+        "FC002",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2026-09-04",
+          "time_precision": "Inferred from the reported weekday",
+          "description": "据报道阿纳克喀拉喀托自星期五晚间开始喷发。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F001",
+            "A003_F001"
+          ]
+        },
+        {
+          "time": "2026-09-06",
+          "time_precision": "Local date",
+          "description": "扩散的火山灰扰乱六个机场的运营。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F001"
+          ]
+        },
+        {
+          "time": "2026-09-07",
+          "time_precision": "Local date",
+          "description": "媒体报道更多机场关闭，受影响航班数量增加。",
+          "supporting_spans": [
+            "A003_F001"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "扩散的火山灰扰乱航班，并促使学校及捕鱼活动暂时调整。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F005",
+            "A002_F001",
+            "A002_F003"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "阿纳克喀拉喀托火山喷发导致印度尼西亚多个机场关闭。据报影响自周末至星期一不断扩大。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A002_F001",
+            "A003_F001"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "各报道共享的航班数据只提供一个证据来源。塞梅鲁及历史海啸属于背景信息。"
+    ]
+  }
+}

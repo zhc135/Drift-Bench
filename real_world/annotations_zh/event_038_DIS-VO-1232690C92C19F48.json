@@ -1,0 +1,689 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-VO-1232690C92C19F48",
+  "event_rank": 38,
+  "event_metadata": {
+    "event_name": "坎拉翁火山喷发",
+    "disaster_type": "volcanic_eruption",
+    "disaster_type_code": "VO",
+    "event_start_time": "2025-04-07T22:13:00+00:00",
+    "event_end_time": "2025-04-29T15:35:00+00:00",
+    "locations": [
+      "菲律宾"
+    ],
+    "latitude": 10.412,
+    "longitude": 123.132,
+    "place_names_in_reports": [
+      "坎拉翁火山",
+      "内格罗斯岛",
+      "西内格罗斯省",
+      "东内格罗斯省",
+      "菲律宾"
+    ],
+    "gdacs_id": "1000112",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "喷发发生于当地时间4月8日星期二上午。CSV 使用协调世界时4月7日作为开始日期。"
+    ],
+    "dataset_place_name": "坎拉翁火山喷发",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-6EB8BEE0074AD7F0",
+      "event_id": "DIS-VO-1232690C92C19F48",
+      "event_rank": 38,
+      "article_rank": 1,
+      "title": "坎拉翁火山猛烈苏醒 约3分钟前 菲律宾",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/science-environment/3338331-mount-kanlaons-fiery-awakening",
+      "published_at": "2025-04-08T01:08:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "文章在结构、巴科尔科尔采访材料和数据方面与 A002 非常相似。没有明确原始署名。",
+      "content": "据地震机构报道，星期二上午，菲律宾中部坎拉翁火山发生显著喷发，火山灰烟羽高达空中4,000米。自2024年12月该地点先前发生爆炸性喷发事件以来，菲律宾火山地震研究所（Phivolcs）一直维持三级警报。\n\n这一五级警报系统中的第三级表明熔岩流危险增加，并可能在数周内发生灾害性喷发。坎拉翁火山横跨中部西内格罗斯省及东内格罗斯省，是菲律宾24座活火山之一，该国经常发生此类地质活动。\n\nPhivolcs 所长特雷西托·巴科尔科尔在广播采访中指出，警报级别可能随岩浆上升速度改变。快速上升可能促使警报提高至四级，意味着喷发迫近，而岩浆运动较慢可能使警报降至二级。菲律宾位于环太平洋火山地震带，容易发生火山喷发和地震。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "据地震机构报道，星期二上午，菲律宾中部坎拉翁火山发生显著喷发，火山灰烟羽高达空中4,000米。自2024年12月该地点先前发生爆炸性喷发事件以来，菲律宾火山地震研究所（Phivolcs）一直维持三级警报。\n\n",
+          "start_offset": 0,
+          "end_offset": 104,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "response",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "ash_plume",
+              "value": 4000,
+              "unit": "m"
+            },
+            {
+              "attribute": "alert_level",
+              "value": 3,
+              "unit": null
+            },
+            {
+              "attribute": "alert_since",
+              "value": "2024年12月",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "这一五级警报系统中的第三级表明熔岩流危险增加，并可能在数周内发生灾害性喷发。坎拉翁火山横跨中部西内格罗斯省及东内格罗斯省，是菲律宾24座活火山之一，该国经常发生此类地质活动。\n\n",
+          "start_offset": 104,
+          "end_offset": 193,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard",
+            "location",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "alert_scale_max",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "attribute": "active_volcanoes_national",
+              "value": 24,
+              "unit": null
+            },
+            {
+              "attribute": "location",
+              "value": [
+                "西内格罗斯省",
+                "东内格罗斯省"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "Phivolcs 所长特雷西托·巴科尔科尔在广播采访中指出，警报级别可能随岩浆上升速度改变。快速上升可能促使警报提高至四级，意味着喷发迫近，而岩浆运动较慢可能使警报降至二级。菲律宾位于环太平洋火山地震带，容易发生火山喷发和地震。",
+          "start_offset": 193,
+          "end_offset": 307,
+          "sentence_ids": [
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "response",
+            "uncertainty",
+            "secondary_hazard",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "potential_alerts",
+              "value": [
+                2,
+                4
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "determining_factor",
+              "value": "岩浆上升速度",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "特雷西托·巴科尔科尔",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "18e42815c71265ff9f6e48936ca9b7f70541980df008212e1c173c2418d55da9",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-25F4838FFDA596C8",
+      "event_id": "DIS-VO-1232690C92C19F48",
+      "event_rank": 38,
+      "article_rank": 2,
+      "title": "5 地震机构：菲律宾坎拉翁火山恢复喷发",
+      "publisher": "chinadailyhk",
+      "identified_publisher": null,
+      "source_domain": "chinadailyhk.com",
+      "url": "https://www.chinadailyhk.com/hk/article/608898",
+      "published_at": "2025-04-08T07:13:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "具有马尼拉发稿地的文章援引与 A001 相同的 DWPM 采访。消息来源链尚未确认。",
+      "content": "马尼拉——地震机构表示，星期二上午，菲律宾中部一座火山喷发，喷出约4,000米（2.5英里）高的含灰烟羽。\n\n菲律宾火山地震研究所（Phivolcs）称，坎拉翁火山仍维持三级警报，该警报级别自2024年12月较早一次爆炸性喷发后一直生效。\n\n坎拉翁火山是一座横跨这个东南亚国家中部西内格罗斯省和东内格罗斯省的活火山，也是菲律宾约24座活火山之一。\n\n阅读更多：火山气体袭击首都，菲律宾发布健康警告\n\nPhivolcs 所长特雷西托·巴科尔科尔告诉 DWPM 广播电台，根据岩浆上升至地表的速度，未来几天警报级别可能提高或降低。\n\n巴科尔科尔说，岩浆上升速度加快可能引发更猛烈喷发，促使警报提升至四级，而岩浆运动放缓或暂停可能使警报降至二级。\n\n阅读更多：火山学家称马荣火山喷发可能持续数月\n\n这个东南亚国家位于火山活动及地震频繁的环太平洋火山地震带上。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "马尼拉——地震机构表示，星期二上午，菲律宾中部一座火山喷发，喷出约4,000米（2.5英里）高的含灰烟羽。\n\n菲律宾火山地震研究所（Phivolcs）称，坎拉翁火山仍维持三级警报，该警报级别自2024年12月较早一次爆炸性喷发后一直生效。\n\n坎拉翁火山是一座横跨这个东南亚国家中部西内格罗斯省和东内格罗斯省的活火山，也是菲律宾约24座活火山之一。\n\n",
+          "start_offset": 0,
+          "end_offset": 175,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "response",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "ash_plume",
+              "value": {
+                "value": 4000,
+                "qualifier": "around"
+              },
+              "unit": "m"
+            },
+            {
+              "attribute": "current_alert_level",
+              "value": 3,
+              "unit": null
+            },
+            {
+              "attribute": "alert_since",
+              "value": "2024年12月",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "阅读更多：火山气体袭击首都，菲律宾发布健康警告\n\n",
+          "start_offset": 175,
+          "end_offset": 200,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "Phivolcs 所长特雷西托·巴科尔科尔告诉 DWPM 广播电台，根据岩浆上升至地表的速度，未来几天警报级别可能提高或降低。\n\n巴科尔科尔说，岩浆上升速度加快可能引发更猛烈喷发，促使警报提升至四级，而岩浆运动放缓或暂停可能使警报降至二级。\n\n",
+          "start_offset": 200,
+          "end_offset": 322,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "response",
+            "uncertainty",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "potential_alerts",
+              "value": [
+                2,
+                4
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "source",
+              "value": "特雷西托·巴科尔科尔接受 DWPM 采访",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "阅读更多：火山学家称马荣火山喷发可能持续数月\n\n",
+          "start_offset": 322,
+          "end_offset": 346,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "这个东南亚国家位于火山活动及地震频繁的环太平洋火山地震带上。",
+          "start_offset": 346,
+          "end_offset": 376,
+          "sentence_ids": [
+            8
+          ],
+          "fact_types": [
+            "disaster_occurrence"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "2dc6ca860831193046e9db00e63cefa200f6af236cc60e385243b9d416de10eb",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-4B11CD89E2E954CA",
+      "event_id": "DIS-VO-1232690C92C19F48",
+      "event_rank": 38,
+      "article_rank": 3,
+      "title": "菲律宾坎拉翁火山喷发，火山灰落入村庄",
+      "publisher": "euronews-en",
+      "identified_publisher": null,
+      "source_domain": "euronews.com",
+      "url": "https://www.euronews.com/2025/04/08/volcanic-eruption-of-philippines-mount-kanlaon-rains-ash-on-villages",
+      "published_at": "2025-04-08T08:37:20+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "欧洲新闻台提及附近村庄降灰及伤亡情况，但没有明确独立署名。",
+      "content": "星期二，菲律宾最活跃的火山之一发生喷发，火山灰高达空中4,000米。位于中部内格罗斯岛的坎拉翁火山是该国24座最活跃火山之一，其爆炸性喷发使附近村庄遭遇降灰，引发健康担忧。不过，尚无伤亡的即时报告。这座高2,435米的火山上一次喷发发生在去年10月，迫使数百名村民逃往紧急避难所。目前火山处于三级警报，五级是最高级别。菲律宾是最容易遭受自然灾害的国家之一，通常每年遭受约20场台风和风暴袭击，且位于所谓环太平洋火山地震带，这个环绕太平洋的火山和地震活跃区域链长约40,233公里。据《国家地理》称，全球90%的地震发生在这里，全球75%的火山也位于这里。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "星期二，菲律宾最活跃的火山之一发生喷发，火山灰高达空中4,000米。位于中部内格罗斯岛的坎拉翁火山是该国24座最活跃火山之一，其爆炸性喷发使附近村庄遭遇降灰，引发健康担忧。不过，尚无伤亡的即时报告。",
+          "start_offset": 0,
+          "end_offset": 99,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "secondary_hazard",
+            "casualties"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "ash_height",
+              "value": {
+                "value": 4000,
+                "qualifier": "up_to"
+              },
+              "unit": "m"
+            },
+            {
+              "attribute": "villages",
+              "value": "据报出现降灰",
+              "unit": null
+            },
+            {
+              "attribute": "casualties",
+              "value": "尚无即时报告",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "这座高2,435米的火山上一次喷发发生在去年10月，迫使数百名村民逃往紧急避难所。",
+          "start_offset": 99,
+          "end_offset": 140,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "evacuation"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "historical_scope",
+              "value": "据称上一次喷发为去年10月",
+              "unit": null
+            },
+            {
+              "attribute": "volcano_elevation",
+              "value": 2435,
+              "unit": "m"
+            },
+            {
+              "attribute": "evacuees",
+              "value": "数百人",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "目前火山处于三级警报，五级是最高级别。菲律宾是最容易遭受自然灾害的国家之一，通常每年遭受约20场台风和风暴袭击，且位于所谓环太平洋火山地震带，这个环绕太平洋的火山和地震活跃区域链长约40,233公里。据《国家地理》称，全球90%的地震发生在这里，全球75%的火山也位于这里。",
+          "start_offset": 140,
+          "end_offset": 277,
+          "sentence_ids": [
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "response",
+            "disaster_magnitude",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "alert_level",
+              "value": 3,
+              "unit": null
+            },
+            {
+              "attribute": "alert_scale_max",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "attribute": "typical_annual_typhoons_and_storms",
+              "value": {
+                "value": 20,
+                "qualifier": "about"
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "7f344d8daf7f6a2146c17392a706b241603c87f739b7bb299f0bf5d197fc6fdb",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "三篇报道均称火山灰柱约达4,000米",
+        "fact_type": "disaster_magnitude",
+        "attribute": "ash_plume_height",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 4000,
+            "unit": "m",
+            "attribution": "PHIVOLCS"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "value": 4000,
+              "qualifier": "around"
+            },
+            "unit": "m",
+            "attribution": "PHIVOLCS"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "value": 4000,
+              "qualifier": "up_to"
+            },
+            "unit": "m",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "警报维持三级",
+        "fact_type": "response",
+        "attribute": "current_alert",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 3,
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 3,
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": 3,
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "附近村庄降灰及初步伤亡报道",
+        "fact_type": "secondary_hazard",
+        "attribute": "village_ashfall",
+        "supporting_spans": [
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": "附近村庄降灰；暂无伤亡即时报告",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "对较早喷发的引用给出不同日期",
+        "fact_type": "timeline",
+        "attribute": "historical_eruption_reference",
+        "supporting_spans": [
+          "A002_F001",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "自2024年12月爆炸性喷发后维持警报",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "上一次喷发据称为去年10月",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "supplementary",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "尚不清楚两个引用是否涉及同一次较早喷发。"
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003"
+      ],
+      "supplementary_facts": [
+        "FC004"
+      ],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-04-08",
+          "time_precision": "Local date",
+          "description": "坎拉翁火山再次喷发，产生约4,000米高的火山灰柱。警报维持三级。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F001",
+            "A003_F001",
+            "A003_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "PHIVOLCS 工作人员表示，岩浆上升速度将影响警报级别是提高还是降低。",
+          "supporting_spans": [
+            "A001_F003",
+            "A002_F003"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "坎拉翁火山星期二喷发，火山灰落入附近村庄。警报维持三级。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F001",
+            "A003_F001",
+            "A003_F003"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "各报道对先前喷发的引用存在差异，保留原始措辞。"
+    ]
+  }
+}

@@ -1,0 +1,1020 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-VO-24ADAC7AA8E28D60",
+  "event_rank": 39,
+  "event_metadata": {
+    "event_name": "勒沃托比火山喷发",
+    "disaster_type": "volcanic_eruption",
+    "disaster_type_code": "VO",
+    "event_start_time": "2024-10-14T18:40:00+00:00",
+    "event_end_time": "2024-11-13T00:00:00+00:00",
+    "locations": [
+      "印度尼西亚"
+    ],
+    "latitude": -8.542,
+    "longitude": 122.775,
+    "place_names_in_reports": [
+      "弗洛勒斯岛",
+      "东弗洛勒斯",
+      "东努沙登加拉省",
+      "霍肯",
+      "克拉坦洛",
+      "乌兰吉唐",
+      "伊勒布拉",
+      "蒂特赫纳",
+      "勒沃拉加"
+    ],
+    "gdacs_id": "1000099",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "AHA 中心给出UTC+7时区11月3日22:57。CBC 称星期一午夜刚过。两种说法均保留，因为可能是在不同时区描述相近时段。11月7日的火山灰柱来自后续喷发。"
+    ],
+    "dataset_place_name": "勒沃托比火山喷发",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-B9CC6CE7939885F2",
+      "event_id": "DIS-VO-24ADAC7AA8E28D60",
+      "event_rank": 39,
+      "article_rank": 1,
+      "title": "快报：第01号——印度尼西亚勒沃托比拉基拉基火山喷发——2024年11月4日——AHA中心",
+      "publisher": "ahacentre",
+      "identified_publisher": "AHA Centre",
+      "source_domain": "ahacentre.org",
+      "url": "https://ahacentre.org/flash-update/flash-update-no-01-lewotobi-laki-laki-volcano-eruption-in-indonesia-4-november-2024/",
+      "published_at": "2024-11-04T11:56:42+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "AHA 中心发布初始报告，援引 PVMBG、BNPB 和 ASEAN DMRS。",
+      "content": "快报第1号——勒沃托比拉基拉基火山喷发\n\n监测国家：印度尼西亚\n\n概况：据印度尼西亚火山学和地质灾害减灾中心（PVMBG）称，勒沃托比拉基拉基火山于11月3日星期日22:57（UTC+7）喷发。未观测到喷发柱高度。地震仪记录到该次喷发的最大振幅为47.3毫米，持续1,450秒。 基于目视和仪器观测，火山活动显著增加。因此，PVMBG 于11月3日23:00（UTC+7）将勒沃托比拉基拉基火山警报提升至四级。东弗洛勒斯政府已宣布从2024年11月3日至12月31日进入应急响应状态。\n\n初步分析：据东盟灾害监测和响应系统（DMRS）估计，10公里范围内有72,200人（18,700户家庭）及价值1.62亿美元的基础设施（总重置价值）*更可能受到不利影响。\n\n影响：截至 BNPB 11月4日10:19（UTC+7）的报告（数据收集仍在进行）；\n\nAHA 中心将继续监测进一步事态发展，并发布必要更新。\n\n东盟灾害监测与响应系统（DMRS）、东盟灾害信息网络（ADINet）；太平洋灾害中心（PDC Global）；",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "快报第1号——勒沃托比拉基拉基火山喷发\n\n监测国家：印度尼西亚\n\n",
+          "start_offset": 0,
+          "end_offset": 33,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "概况：据印度尼西亚火山学和地质灾害减灾中心（PVMBG）称，勒沃托比拉基拉基火山于11月3日星期日22:57（UTC+7）喷发。未观测到喷发柱高度。地震仪记录到该次喷发的最大振幅为47.3毫米，持续1,450秒。 ",
+          "start_offset": 33,
+          "end_offset": 140,
+          "sentence_ids": [
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "eruption_time",
+              "value": "2024年11月3日22:57（UTC+7）",
+              "unit": null
+            },
+            {
+              "attribute": "height",
+              "value": "未观测到",
+              "unit": null
+            },
+            {
+              "attribute": "maximum_amplitude",
+              "value": 47.3,
+              "unit": "mm"
+            },
+            {
+              "attribute": "duration",
+              "value": 1450,
+              "unit": "s"
+            },
+            {
+              "attribute": "attribution",
+              "value": "PVMBG",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "基于目视和仪器观测，火山活动显著增加。因此，PVMBG 于11月3日23:00（UTC+7）将勒沃托比拉基拉基火山警报提升至四级。东弗洛勒斯政府已宣布从2024年11月3日至12月31日进入应急响应状态。\n\n",
+          "start_offset": 140,
+          "end_offset": 244,
+          "sentence_ids": [
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "response",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "alert_level",
+              "value": 4,
+              "unit": null
+            },
+            {
+              "attribute": "alert_time",
+              "value": "2024年11月3日23:00（UTC+7）",
+              "unit": null
+            },
+            {
+              "attribute": "flores_timur_emergency_window",
+              "value": "2024年11月3日至12月31日",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "初步分析：据东盟灾害监测和响应系统（DMRS）估计，10公里范围内有72,200人（18,700户家庭）及价值1.62亿美元的基础设施（总重置价值）*更可能受到不利影响。\n\n",
+          "start_offset": 244,
+          "end_offset": 331,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "affected_population",
+            "economic_loss",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "within_10km_population",
+              "value": 72200,
+              "unit": "people"
+            },
+            {
+              "attribute": "within_10km_households",
+              "value": 18700,
+              "unit": "households"
+            },
+            {
+              "attribute": "exposed_infrastructure_replacement_value",
+              "value": 162000000,
+              "unit": "USD"
+            },
+            {
+              "attribute": "measure",
+              "value": "初步风险暴露估计",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "影响：截至 BNPB 11月4日10:19（UTC+7）的报告（数据收集仍在进行）；\n\nAHA 中心将继续监测进一步事态发展，并发布必要更新。\n\n",
+          "start_offset": 331,
+          "end_offset": 404,
+          "sentence_ids": [
+            10,
+            11
+          ],
+          "fact_types": [
+            "response",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "report_cutoff",
+              "value": "2024年11月4日10:19（UTC+7）",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "东盟灾害监测与响应系统（DMRS）、东盟灾害信息网络（ADINet）；太平洋灾害中心（PDC Global）；",
+          "start_offset": 404,
+          "end_offset": 459,
+          "sentence_ids": [
+            12
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "a751ea734051671bf55e294738f8bf82177e1b0e938870634c964bdfcbb0261c",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-327A5BE4823C3E6C",
+      "event_id": "DIS-VO-24ADAC7AA8E28D60",
+      "event_rank": 39,
+      "article_rank": 2,
+      "title": "印度尼西亚火山喷发造成至少10人死亡",
+      "publisher": "CBC",
+      "identified_publisher": null,
+      "source_domain": "cbc.ca",
+      "url": "https://www.cbc.ca/news/world/indonesia-deadly-volcano-1.7372672?cmp=rss",
+      "published_at": "2024-11-04T13:15:19+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "CBC 包含 PVMBG/美联社图片及数个机构的声明，但没有完整通讯社署名。",
+      "content": "“我们非常惊慌”，印度尼西亚致命火山喷发后目击者说道\n\n印度尼西亚国家抗灾管理机构星期一表示，随着偏远弗洛勒斯岛的系列火山喷发范围扩大，至少10人死亡。\n\n勒沃托比拉基拉基火山监测站官员菲尔曼·优素福表示，星期一午夜刚过发生的火山喷发向空中喷出高达2,000米的浓密褐色火山灰，炽热的火山灰袭击附近村庄，烧毁数所房屋，其中包括一所天主教修女院。\n\n国家抗灾管理机构发言人阿卜杜勒·穆哈里表示，救援人员仍在寻找被埋在倒塌房屋下的更多遗体。他说，所有遗体，包括一名儿童的遗体，均在距火山口4公里半径内发现。\n\n印度尼西亚火山学和地质灾害减灾中心提供的照片中，星期一凌晨勒沃托比拉基拉基火山喷发使天空发光。（PVMBG/美联社）\n\n在从上周开始的一系列喷发后，当局星期一还提高勒沃托比拉基拉基火山的危险级别并扩大危险区域。\n\n随着喷发更加频繁，该国火山监测机构星期一午夜后将火山警报提升至最高级别，并将禁入区扩大了一倍以上，至7公里半径。\n\n优素福说，火山物质被抛至距火山口最远6公里处，火山碎屑覆盖附近村庄和城镇，迫使居民逃离。\n\n监督该天主教徒占多数岛屿上修女院的圣加布里埃尔基金会负责人阿古斯塔·帕尔马表示，霍肯村一名修女死亡、另一名失踪。\n\n帕尔马说：“我们的修女在黑暗中顶着火山灰雨惊慌地跑了出来。”\n\n星期一，在东努沙登加拉省东弗洛勒斯县克拉坦洛村，勒沃托比拉基拉基火山夜间喷发后可以看到一座倒塌的建筑。（Arnold Wellianto/法新社/Getty Images）\n\n社交媒体上流传的照片和视频显示，数吨火山碎屑覆盖霍肯等村庄房屋直至屋顶，炽热的火山物质还使房屋起火。\n\n该机构表示，乌兰吉唐地区附近的六个村庄普卢莱拉、纳沃科特、霍肯贾亚、克拉坦洛、博鲁和博鲁克当至少有10,000人受到喷发影响。\n\n在伊勒布拉地区，四个村庄受到影响，即杜利帕利村、诺博、努拉贝伦及里昂里塔；在蒂特赫纳地区，同样影响四个村庄，即孔加村、科巴索马、博康沃洛马唐和瓦托瓦拉。\n\n星期一，东弗洛勒斯县克拉坦洛村，勒沃托比拉基拉基火山夜间喷发后涌出浓烟。（Arnold Wellianto/法新社/Getty Images）\n\n勒沃托比拉基拉基是东努沙登加拉省东弗洛勒斯地区一对层状火山之一，当地称它们为丈夫山和妻子山，“Laki laki”意为男人。与之成对的是勒沃托比佩伦普安火山，即女人山。\n\n1月，在勒沃托比拉基拉基火山开始喷发、喷出浓密云团并迫使政府关闭岛上的弗朗斯塞达机场后，约6,500人撤离。未报告伤亡或重大损坏，但由于地震活动，该机场自那时起一直关闭。\n\n印度尼西亚火山喷发：为何这座火山会产生闪电 | About That\n\n能源和矿产资源部地质部门负责人穆罕默德·瓦菲德星期一在视频会议上表示，由于火山口内岩浆堵塞，1月喷发与星期一喷发性质不同。这种堵塞使可探测的地震活动减少，同时积聚压力。\n\n瓦菲德表示：“自星期五以来的喷发是由于隐藏能量的积累。”\n\n这是印度尼西亚短短数周内第二次火山喷发。西苏门答腊省的马拉皮火山是该国最活跃火山之一，于10月27日喷发，至少三次喷出浓密火山灰柱，火山碎屑覆盖附近村庄，但没有伤亡报告。\n\n马拉皮火山去年晚些时候的一次喷发造成20多人死亡。\n\n为您的早晨和夜晚增添一点“美好”。\n\n环境正在变化，这份每周通讯将为您介绍我们对此所做的工作。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "“我们非常惊慌”，印度尼西亚致命火山喷发后目击者说道\n\n",
+          "start_offset": 0,
+          "end_offset": 28,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "印度尼西亚国家抗灾管理机构星期一表示，随着偏远弗洛勒斯岛的系列火山喷发范围扩大，至少10人死亡。\n\n勒沃托比拉基拉基火山监测站官员菲尔曼·优素福表示，星期一午夜刚过发生的火山喷发向空中喷出高达2,000米的浓密褐色火山灰，炽热的火山灰袭击附近村庄，烧毁数所房屋，其中包括一所天主教修女院。\n\n国家抗灾管理机构发言人阿卜杜勒·穆哈里表示，救援人员仍在寻找被埋在倒塌房屋下的更多遗体。他说，所有遗体，包括一名儿童的遗体，均在距火山口4公里半径内发现。\n\n",
+          "start_offset": 28,
+          "end_offset": 253,
+          "sentence_ids": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "disaster_magnitude",
+            "damage",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 10,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "ash_height",
+              "value": {
+                "value": 2000,
+                "qualifier": "as_high_as"
+              },
+              "unit": "m"
+            },
+            {
+              "attribute": "bodies_found_within_radius",
+              "value": 4,
+              "unit": "km"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "印度尼西亚火山学和地质灾害减灾中心提供的照片中，星期一凌晨勒沃托比拉基拉基火山喷发使天空发光。（PVMBG/美联社）\n\n",
+          "start_offset": 253,
+          "end_offset": 313,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "在从上周开始的一系列喷发后，当局星期一还提高勒沃托比拉基拉基火山的危险级别并扩大危险区域。\n\n随着喷发更加频繁，该国火山监测机构星期一午夜后将火山警报提升至最高级别，并将禁入区扩大了一倍以上，至7公里半径。\n\n优素福说，火山物质被抛至距火山口最远6公里处，火山碎屑覆盖附近村庄和城镇，迫使居民逃离。\n\n",
+          "start_offset": 313,
+          "end_offset": 464,
+          "sentence_ids": [
+            8,
+            9,
+            10
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard",
+            "disaster_magnitude",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "alert",
+              "value": "最高级别",
+              "unit": null
+            },
+            {
+              "attribute": "exclusion_radius",
+              "value": 7,
+              "unit": "km"
+            },
+            {
+              "attribute": "volcanic_material_distance",
+              "value": {
+                "value": 6,
+                "qualifier": "up_to"
+              },
+              "unit": "km"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "监督该天主教徒占多数岛屿上修女院的圣加布里埃尔基金会负责人阿古斯塔·帕尔马表示，霍肯村一名修女死亡、另一名失踪。\n\n帕尔马说：“我们的修女在黑暗中顶着火山灰雨惊慌地跑了出来。”\n\n",
+          "start_offset": 464,
+          "end_offset": 554,
+          "sentence_ids": [
+            11,
+            12
+          ],
+          "fact_types": [
+            "casualties",
+            "missing_persons",
+            "public_reaction"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "nun_dead",
+              "value": 1,
+              "unit": "person"
+            },
+            {
+              "attribute": "nun_missing",
+              "value": 1,
+              "unit": "person"
+            },
+            {
+              "attribute": "location",
+              "value": "霍肯",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "星期一，在东努沙登加拉省东弗洛勒斯县克拉坦洛村，勒沃托比拉基拉基火山夜间喷发后可以看到一座倒塌的建筑。（Arnold Wellianto/法新社/Getty Images）\n\n",
+          "start_offset": 554,
+          "end_offset": 642,
+          "sentence_ids": [
+            13,
+            14
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "社交媒体上流传的照片和视频显示，数吨火山碎屑覆盖霍肯等村庄房屋直至屋顶，炽热的火山物质还使房屋起火。\n\n该机构表示，乌兰吉唐地区附近的六个村庄普卢莱拉、纳沃科特、霍肯贾亚、克拉坦洛、博鲁和博鲁克当至少有10,000人受到喷发影响。\n\n在伊勒布拉地区，四个村庄受到影响，即杜利帕利村、诺博、努拉贝伦及里昂里塔；在蒂特赫纳地区，同样影响四个村庄，即孔加村、科巴索马、博康沃洛马唐和瓦托瓦拉。\n\n",
+          "start_offset": 642,
+          "end_offset": 837,
+          "sentence_ids": [
+            15,
+            16,
+            17
+          ],
+          "fact_types": [
+            "damage",
+            "affected_population",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "wulanggitang_affected",
+              "value": {
+                "value": 10000,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "星期一，东弗洛勒斯县克拉坦洛村，勒沃托比拉基拉基火山夜间喷发后涌出浓烟。（Arnold Wellianto/法新社/Getty Images）\n\n",
+          "start_offset": 837,
+          "end_offset": 910,
+          "sentence_ids": [
+            18,
+            19
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F009",
+          "span_text": "勒沃托比拉基拉基是东努沙登加拉省东弗洛勒斯地区一对层状火山之一，当地称它们为丈夫山和妻子山，“Laki laki”意为男人。与之成对的是勒沃托比佩伦普安火山，即女人山。\n\n1月，在勒沃托比拉基拉基火山开始喷发、喷出浓密云团并迫使政府关闭岛上的弗朗斯塞达机场后，约6,500人撤离。未报告伤亡或重大损坏，但由于地震活动，该机场自那时起一直关闭。\n\n",
+          "start_offset": 910,
+          "end_offset": 1083,
+          "sentence_ids": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "fact_types": [
+            "location",
+            "disaster_occurrence",
+            "evacuation",
+            "infrastructure"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "火山地理背景及历史上的1月喷发事件",
+              "unit": null
+            },
+            {
+              "attribute": "january_evacuated",
+              "value": {
+                "value": 6500,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F010",
+          "span_text": "印度尼西亚火山喷发：为何这座火山会产生闪电 | About That\n\n",
+          "start_offset": 1083,
+          "end_offset": 1119,
+          "sentence_ids": [
+            24
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F011",
+          "span_text": "能源和矿产资源部地质部门负责人穆罕默德·瓦菲德星期一在视频会议上表示，由于火山口内岩浆堵塞，1月喷发与星期一喷发性质不同。这种堵塞使可探测的地震活动减少，同时积聚压力。\n\n瓦菲德表示：“自星期五以来的喷发是由于隐藏能量的积累。”\n\n",
+          "start_offset": 1119,
+          "end_offset": 1235,
+          "sentence_ids": [
+            25,
+            26
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "穆罕默德·瓦菲德",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F012",
+          "span_text": "这是印度尼西亚短短数周内第二次火山喷发。西苏门答腊省的马拉皮火山是该国最活跃火山之一，于10月27日喷发，至少三次喷出浓密火山灰柱，火山碎屑覆盖附近村庄，但没有伤亡报告。\n\n马拉皮火山去年晚些时候的一次喷发造成20多人死亡。\n\n",
+          "start_offset": 1235,
+          "end_offset": 1349,
+          "sentence_ids": [
+            27,
+            28,
+            29
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "另一次马拉皮火山喷发",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F013",
+          "span_text": "为您的早晨和夜晚增添一点“美好”。\n\n环境正在变化，这份每周通讯将为您介绍我们对此所做的工作。",
+          "start_offset": 1349,
+          "end_offset": 1396,
+          "sentence_ids": [
+            30,
+            31,
+            32
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "3ca130af8d09e2ddc10e5a7d38cc3c6a14e45a11a8c2c70150871c60f8820aa0",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-3C0E71DFF3107DEA",
+      "event_id": "DIS-VO-24ADAC7AA8E28D60",
+      "event_rank": 39,
+      "article_rank": 3,
+      "title": "印度尼西亚火山喷出巨大火山灰柱",
+      "publisher": "menafn",
+      "identified_publisher": "AFP",
+      "source_domain": "menafn.com",
+      "url": "https://menafn.com/1108860473/Indonesia-Volcano-Belches-Colossal-Ash-Tower",
+      "published_at": "2024-11-07T00:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "清理后的正文明确提及在场的法新社记者，并遵循法新社现场报道。",
+      "content": "印度尼西亚东弗洛勒斯：星期四，印度尼西亚东部一座火山喷发超过六次，在闪电背景下向空中喷出五英里高的巨大火山灰柱，附近居民惊慌逃离。\n\n勒沃托比拉基拉基火山在星期一和星期二喷发，造成9人死亡，并迫使居民从7公里（4.3英里）禁入区转移。\n\n据一个观测站称，该国火山学机构报告星期四发生七次喷发，其中最大的一次喷出五英里（8公里）高的火山灰柱。\n\n有些人表示，这是他们见过的勒沃托比拉基拉基火山最大规模的喷发。\n\n居住在禁入区之外的41岁阿纳斯塔西娅·阿德里亚尼说：“自我住在勒沃拉加村以来，这是第一次见到这么大的喷发。”\n\n“我当时正在社区厨房（为撤离者）做饭，喷发时我跑回家。我非常害怕。”\n\n官员已将旅游胜地弗洛勒斯岛上这座高1,703米（5,587英尺）的双峰火山的警报提升至最高级别。\n\n星期四新一轮喷发后，暂无附近村庄发生损坏的即时报告。\n\n但据一名法新社记者称，可以看到居民和学童从家中跑出，他还补充说观察到了火山闪电。\n\n星期四上午最新喷发持续隆隆作响，临时避难所的当地居民感到焦虑。\n\n56岁的撤离者安东尼乌斯·普卡说：“想到我们的村庄就很难过，看到持续喷发我们也惊慌不已。从昨晚到今天早上，我们一直很担忧。”\n\n拉基拉基在印度尼西亚语中意为“男人”，与另一座较为平静、以印度尼西亚语中“女人”命名的火山成对。\n\n印度尼西亚是一个广阔的群岛国家，由于位于环太平洋火山地震带上，经常发生地震及火山活动。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "印度尼西亚东弗洛勒斯：星期四，印度尼西亚东部一座火山喷发超过六次，在闪电背景下向空中喷出五英里高的巨大火山灰柱，附近居民惊慌逃离。\n\n勒沃托比拉基拉基火山在星期一和星期二喷发，造成9人死亡，并迫使居民从7公里（4.3英里）禁入区转移。\n\n据一个观测站称，该国火山学机构报告星期四发生七次喷发，其中最大的一次喷出五英里（8公里）高的火山灰柱。\n\n",
+          "start_offset": 0,
+          "end_offset": 172,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "casualties",
+            "evacuation",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "thursday_eruptions",
+              "value": 7,
+              "unit": null
+            },
+            {
+              "attribute": "thursday_ash_height",
+              "value": 8,
+              "unit": "km"
+            },
+            {
+              "attribute": "reported_deaths_monday_and_tuesday",
+              "value": 9,
+              "unit": "people"
+            },
+            {
+              "attribute": "exclusion_radius",
+              "value": 7,
+              "unit": "km"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "有些人表示，这是他们见过的勒沃托比拉基拉基火山最大规模的喷发。\n\n居住在禁入区之外的41岁阿纳斯塔西娅·阿德里亚尼说：“自我住在勒沃拉加村以来，这是第一次见到这么大的喷发。”\n\n“我当时正在社区厨房（为撤离者）做饭，喷发时我跑回家。我非常害怕。”\n\n",
+          "start_offset": 172,
+          "end_offset": 297,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "官员已将旅游胜地弗洛勒斯岛上这座高1,703米（5,587英尺）的双峰火山的警报提升至最高级别。\n\n星期四新一轮喷发后，暂无附近村庄发生损坏的即时报告。\n\n但据一名法新社记者称，可以看到居民和学童从家中跑出，他还补充说观察到了火山闪电。\n\n",
+          "start_offset": 297,
+          "end_offset": 417,
+          "sentence_ids": [
+            8,
+            9,
+            10
+          ],
+          "fact_types": [
+            "response",
+            "disaster_magnitude",
+            "damage",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "alert",
+              "value": "最高",
+              "unit": null
+            },
+            {
+              "attribute": "volcano_elevation_as_reported",
+              "value": 1703,
+              "unit": "m"
+            },
+            {
+              "attribute": "new_damage",
+              "value": "星期四喷发后暂无即时报告",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "星期四上午最新喷发持续隆隆作响，临时避难所的当地居民感到焦虑。\n\n56岁的撤离者安东尼乌斯·普卡说：“想到我们的村庄就很难过，看到持续喷发我们也惊慌不已。从昨晚到今天早上，我们一直很担忧。”\n\n",
+          "start_offset": 417,
+          "end_offset": 514,
+          "sentence_ids": [
+            11,
+            12,
+            13
+          ],
+          "fact_types": [
+            "evacuation",
+            "public_reaction"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "拉基拉基在印度尼西亚语中意为“男人”，与另一座较为平静、以印度尼西亚语中“女人”命名的火山成对。\n\n印度尼西亚是一个广阔的群岛国家，由于位于环太平洋火山地震带上，经常发生地震及火山活动。",
+          "start_offset": 514,
+          "end_offset": 607,
+          "sentence_ids": [
+            14,
+            15
+          ],
+          "fact_types": [
+            "location",
+            "disaster_occurrence"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "d75ccc9f8cd3cac2eac1c2996bf063ebe81418ce7e895ea30c21cbfeac0a91c5",
+        "removed_word_count": 69,
+        "removed_word_ratio": 0.1885245901639344
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "报道的死亡人数因阶段不同而异，分别为9人和至少10人",
+        "fact_type": "casualties",
+        "attribute": "reported_death_toll",
+        "supporting_spans": [
+          "A002_F002",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": {
+              "value": 10,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": "National Disaster Management Agency"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": 9,
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "未提供共同截止时间或去重后的统计值。"
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "各报道对最高警报级别说法一致",
+        "fact_type": "response",
+        "attribute": "alert_level",
+        "supporting_spans": [
+          "A001_F003",
+          "A002_F004",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": 4,
+            "unit": null,
+            "attribution": "PVMBG"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": "最高",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "最高",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "火山灰柱观测涵盖不同喷发时间",
+        "fact_type": "disaster_magnitude",
+        "attribute": "ash_height",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F002",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": "PVMBG 11月3日报告中未观测到",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": {
+              "value": 2000,
+              "scope": "星期一凌晨"
+            },
+            "unit": "m",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "value": 8000,
+              "scope": "星期四"
+            },
+            "unit": "m",
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "7公里禁入区",
+        "fact_type": "evacuation",
+        "attribute": "exclusion_radius",
+        "supporting_spans": [
+          "A002_F004",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": 7,
+            "unit": "km",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": 7,
+            "unit": "km",
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2024-11-03T22:57+07:00",
+          "time_precision": "Minute",
+          "description": "PVMBG 记录了一次喷发，数分钟后提升警报等级。",
+          "supporting_spans": [
+            "A001_F002",
+            "A001_F003"
+          ]
+        },
+        {
+          "time": "2024-11-04",
+          "time_precision": "Publication date",
+          "description": "CBC 报道死亡、附近村庄损坏及救援行动。",
+          "supporting_spans": [
+            "A002_F002",
+            "A002_F004",
+            "A002_F007"
+          ]
+        },
+        {
+          "time": "2024-11-07",
+          "time_precision": "Local date",
+          "description": "火山观测站又记录七次喷发，最高火山灰柱约达8公里。",
+          "supporting_spans": [
+            "A003_F001"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "炽热火山物质落在村庄，使部分房屋起火。",
+          "supporting_spans": [
+            "A002_F002",
+            "A002_F007"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "勒沃托比拉基拉基火山反复喷发，造成居民伤亡风险并促使居民撤离。警报提升至最高级别。",
+          "supporting_spans": [
+            "A001_F002",
+            "A001_F003",
+            "A002_F002",
+            "A002_F004",
+            "A003_F001"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "10公里范围内居住的人口属于风险暴露估计值，实际受影响人数属于另一项指标。"
+    ]
+  }
+}

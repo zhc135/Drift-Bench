@@ -1,0 +1,968 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-FL-B5747E11FE6292D1",
+  "event_rank": 22,
+  "event_metadata": {
+    "event_name": "Flood in China",
+    "disaster_type": "flood",
+    "disaster_type_code": "FL",
+    "event_start_time": "2025-09-23T01:00:00+00:00",
+    "event_end_time": "2025-09-25T01:00:00+00:00",
+    "locations": [
+      "China"
+    ],
+    "latitude": 22.3506,
+    "longitude": 114.1849,
+    "place_names_in_reports": [
+      "Hong Kong",
+      "Guangdong",
+      "Guangzhou",
+      "Zhuhai",
+      "Xuwen",
+      "Shenzhen",
+      "Jiangmen",
+      "Guangxi",
+      "Beihai",
+      "Hainan",
+      "Macau",
+      "Taiwan"
+    ],
+    "gdacs_id": "1103514",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "三篇为登陆前预警；预计最大风、预计阵风和即时强度各自单列。"
+    ],
+    "dataset_place_name": "Flood in China",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-571D9B886136BC04",
+      "event_id": "DIS-FL-B5747E11FE6292D1",
+      "event_rank": 22,
+      "article_rank": 1,
+      "title": "Bracing for a super typhoon",
+      "publisher": "chinadailyhk",
+      "identified_publisher": "China Daily Hong Kong",
+      "source_domain": "chinadailyhk.com",
+      "url": "https://www.chinadailyhk.com/hk/article/620458",
+      "published_at": "2025-09-23T08:20:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "HONG KONG 电头与本地准备情况，正文未标独立记者署名。",
+      "content": "HONG KONG - Shop windows were taped up. Pumping robots were deployed. Flood barriers were installed. Hong Kong went on full alert on Tuesday as Super Typhoon Ragasa , the world's most powerful tropical cyclone so far this year, edged closer to the city and was expected to bring strong winds, torrential rains and flooding.\n\nThe Hong Kong Observatory issued the gale or storm signal No 8 at 2:20 pm. Hurricane-force winds were expected offshore and on high ground, with frequent heavy squally showers and thunderstorms.\n\nALSO READ: HK girds for a super typhoon\n\nResidents in Guangzhou, capital of Guangdong province, were also in preparation for the super typhoon's impact, stocking up on food and daily necessities at supermarkets. The Guangzhou municipal government had announced a citywide \"five suspensions\" measure — halting classes, work, production, transport, and business operations— to ensure the safety of people's lives and property.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "HONG KONG - Shop windows were taped up. Pumping robots were deployed. Flood barriers were installed. Hong Kong went on full alert on Tuesday as Super Typhoon Ragasa , the world's most powerful tropical cyclone so far this year, edged closer to the city and was expected to bring strong winds, torrential rains and flooding.\n\n",
+          "start_offset": 0,
+          "end_offset": 325,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "response",
+            "weather",
+            "secondary_hazard"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "typhoon",
+              "value": "Ragasa",
+              "unit": null
+            },
+            {
+              "attribute": "preparations",
+              "value": [
+                "pumping robots",
+                "flood barriers",
+                "taped windows"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "The Hong Kong Observatory issued the gale or storm signal No 8 at 2:20 pm. Hurricane-force winds were expected offshore and on high ground, with frequent heavy squally showers and thunderstorms.\n\n",
+          "start_offset": 325,
+          "end_offset": 521,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "response",
+            "weather",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "warning_signal",
+              "value": 8,
+              "unit": null
+            },
+            {
+              "attribute": "issue_time",
+              "value": "14:20",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Hong Kong Observatory",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "ALSO READ: HK girds for a super typhoon\n\n",
+          "start_offset": 521,
+          "end_offset": 562,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "Residents in Guangzhou, capital of Guangdong province, were also in preparation for the super typhoon's impact, stocking up on food and daily necessities at supermarkets. The Guangzhou municipal government had announced a citywide \"five suspensions\" measure — halting classes, work, production, transport, and business operations— to ensure the safety of people's lives and property.",
+          "start_offset": 562,
+          "end_offset": 945,
+          "sentence_ids": [
+            8,
+            9
+          ],
+          "fact_types": [
+            "response",
+            "public_reaction",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "guangzhou_suspensions",
+              "value": [
+                "classes",
+                "work",
+                "production",
+                "transport",
+                "business"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "cbaa016b2e41d96dbdbe7805b93675b7629310671b311c48704dd38cd6339fc3",
+        "removed_word_count": 14,
+        "removed_word_ratio": 0.0875
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-617AC559FB97B0FC",
+      "event_id": "DIS-FL-B5747E11FE6292D1",
+      "event_rank": 22,
+      "article_rank": 2,
+      "title": "Hong Kong Braces for Impact: Super Typhoon Ragasa Approaches | Science-Environment",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/science-environment/3637573-hong-kong-braces-for-impact-super-typhoon-ragasa-approaches",
+      "published_at": "2025-09-23T08:32:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "综合香港天文台和地区准备，未保留原始署名。",
+      "content": "As Super Typhoon Ragasa advances, Hong Kong finds itself in shutdown mode. Residents have been advised to stay home, and authorities have suspended most passenger flights until Thursday. Supermarkets experienced panic buying as people rushed to secure necessities, while windows were taped to minimize the risk of shattering.\n\nPacking winds of up to 220 km/h, Ragasa poses a critical threat to the Guangdong coast, according to the Hong Kong Observatory. Evacuations and warnings have been issued, with Ragasa forecasted to maintain its intensity as it targets Hong Kong, mainland China, and Taiwan, potentially making landfall on Wednesday.\n\nMore than 700 flights have been disrupted across the region, including areas like Macau and Taiwan. The Hong Kong Observatory predicts substantial winds and rainfall, prompting flood control measures in China. Residents prepared by using sandbags and stockpiling goods, while local authorities set up emergency shelters and prepared for emergency situations.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "As Super Typhoon Ragasa advances, Hong Kong finds itself in shutdown mode. Residents have been advised to stay home, and authorities have suspended most passenger flights until Thursday. Supermarkets experienced panic buying as people rushed to secure necessities, while windows were taped to minimize the risk of shattering.\n\n",
+          "start_offset": 0,
+          "end_offset": 327,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure",
+            "public_reaction"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "flight_suspension_window",
+              "value": "until Thursday",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "Packing winds of up to 220 km/h, Ragasa poses a critical threat to the Guangdong coast, according to the Hong Kong Observatory. Evacuations and warnings have been issued, with Ragasa forecasted to maintain its intensity as it targets Hong Kong, mainland China, and Taiwan, potentially making landfall on Wednesday.\n\n",
+          "start_offset": 327,
+          "end_offset": 643,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "weather",
+            "response",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "winds",
+              "value": {
+                "value": 220,
+                "qualifier": "up_to"
+              },
+              "unit": "km/h"
+            },
+            {
+              "attribute": "landfall_timing",
+              "value": "possibly Wednesday",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Hong Kong Observatory",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "More than 700 flights have been disrupted across the region, including areas like Macau and Taiwan. The Hong Kong Observatory predicts substantial winds and rainfall, prompting flood control measures in China. Residents prepared by using sandbags and stockpiling goods, while local authorities set up emergency shelters and prepared for emergency situations.",
+          "start_offset": 643,
+          "end_offset": 1001,
+          "sentence_ids": [
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "infrastructure",
+            "weather",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "flights_disrupted",
+              "value": {
+                "value": 700,
+                "qualifier": "greater_than"
+              },
+              "unit": "flights"
+            },
+            {
+              "attribute": "scope",
+              "value": "region including Macau and Taiwan",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "7a6ff2ee8b73c98d88105b82ab59b3f1b92a6cb24f24bee99881fbde0fe22985",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-1A8D00CB8E85EE3C",
+      "event_id": "DIS-FL-B5747E11FE6292D1",
+      "event_rank": 22,
+      "article_rank": 3,
+      "title": "China Focus: Over 370,000 relocated as Guangdong raises typhoon alert to top level",
+      "publisher": "xinhuanet-english",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20250923/148151976b844747a2ffeae28b715469/c.html",
+      "published_at": "2025-09-23T10:00:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "新华社广州电，使用广东省现场和部门资料。",
+      "content": "GUANGZHOU, Sept. 23 (Xinhua) -- South China's Guangdong Province raised its wind emergency response to the highest level at 10 a.m. Tuesday, as Typhoon Ragasa is forecast to make landfall along the central or western coastal areas of the province as a strong or super strong typhoon within 24 hours.\n\nA total of 371,644 people have been relocated across the province, said the Guangdong provincial emergency management department on Tuesday. Meteorologists have warned that Ragasa is moving rapidly while maintaining its strength, making it the most powerful typhoon to hit China this year.\n\nSo far, 80,231 fishing boats have been secured in ports, and 12,246 offshore workers are taking shelter onshore across the province.\n\nTyphoon Ragasa entered the South China Sea late Monday and is forecast to move northwest at a speed of about 20 km per hour. It is expected to land in the coastal areas from Zhuhai City to Xuwen County on Wednesday, packing winds of 40 to 55 meters per second, according to the provincial meteorological observatory.\n\nThe typhoon is expected to bring rainstorms and strong winds, with some areas facing extreme precipitation, while regions directly in the path of its center could experience gusts of up to 60 meters per second.\n\nSome regions in eastern Jiangsu and Anhui provinces will also experience heavy rainfall due to the typhoon's influence, according to the National Meteorological Center.\n\nChinese authorities on Tuesday allocated some 60,000 items from central disaster relief supplies to Guangdong. The disaster aid package, comprising tents, folding beds, summer quilts, emergency lighting and family emergency kits, will support local disaster relief efforts and assist those affected.\n\nThe Guangdong provincial flood, drought and wind control headquarters have urged all localities and departments to act with the highest standards, strictest requirements and most concrete measures, and have ordered major affected areas to suspend classes, work, production, public transportation and business operations. Cities including the provincial capital of Guangzhou, Zhuhai, Shenzhen and Jiangmen have implemented these suspensions.\n\nThe Shenzhen branch of China National Offshore Oil Corporation (CNOOC) has put its 31 offshore platforms in the eastern South China Sea into \"typhoon-production mode\" -- unmanned, satellite-controlled operations that maintain oil output while keeping crews safely onshore.\n\nBy Monday evening, the company had carried out 290 helicopter flights and 12 vessel trips to evacuate all 5,192 offshore personnel. Every rig is now either in port or safely anchored to ride out the storm, said Qiu Zhimin, emergency manager at CNOOC Shenzhen.\n\nSome highway sections and bridges in Zhuhai have been closed, and the Zhuhai Port of the Hong Kong-Zhuhai-Macao Bridge has suspended outbound passenger clearance, with the main bridge closed simultaneously.\n\nIn Zhuhai's Xiangzhou District, evacuations are underway along Qinglyu Road, targeting seafront high-rises and ageing estates that bore the brunt of Typhoon Hato in 2017, when driving rain and seawater backflow ruined facades and flooded underground garages.\n\nWeather forecasters warn that Typhoon Ragasa, coinciding with an astronomical high tide, could match or exceed Hato in intensity. On Monday, district authorities ordered all residents and tourists in coastal, hillside, and low-lying areas to move to shelters or higher ground by 6:00 p.m. Tuesday. The city has already temporarily shut down schools, factories, businesses, transport and ports.\n\nThe neighboring Guangxi Zhuang Autonomous Region is next in the storm's path. The regional meteorological bureau expects Ragasa to cross into the region between Yulin and Beihai cities during the early hours of Thursday, or curve westward along the Beibu Gulf coast. At 11:00 a.m. Tuesday, Guangxi raised its typhoon emergency response to Level III.\n\nAll passenger and ferry ships in the coastal waters of Guangxi have been suspended.\n\nMaritime authorities in Guangxi's Beihai City have restricted the Beihai-Weizhou Island passenger ship route to disembarkation only, with no boarding allowed, and the evacuation of the remaining 6,000 tourists from Weizhou Island to Beihai is scheduled for completion on Tuesday.\n\nGuangxi Power Grid has gone on full war footing ahead of the typhoon, with over 300 repair teams comprising more than 6,000 staff, alongside more than 3,000 mobile generators, 27 water-pumping units, and around 800 lighting sets kept ready to minimize damage.\n\nTyphoon Ragasa is also expected to impact the island province of Hainan, with the provincial capital Haikou to suspend classes, ferry services, park operations, work and business activities starting later on Tuesday or Wednesday. All train services to and from the island will be canceled on Wednesday.\n\nChina has a four-tier emergency response system, with Level I being the most severe response. ■",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "GUANGZHOU, Sept. 23 (Xinhua) -- South China's Guangdong Province raised its wind emergency response to the highest level at 10 a.m. Tuesday, as Typhoon Ragasa is forecast to make landfall along the central or western coastal areas of the province as a strong or super strong typhoon within 24 hours.\n\n",
+          "start_offset": 0,
+          "end_offset": 301,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "response",
+            "weather",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "guangdong_wind_response",
+              "value": "highest",
+              "unit": null
+            },
+            {
+              "attribute": "issue_time",
+              "value": "Tuesday 10:00",
+              "unit": null
+            },
+            {
+              "attribute": "forecast_landfall_window",
+              "value": 24,
+              "unit": "hours"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "A total of 371,644 people have been relocated across the province, said the Guangdong provincial emergency management department on Tuesday. Meteorologists have warned that Ragasa is moving rapidly while maintaining its strength, making it the most powerful typhoon to hit China this year.\n\nSo far, 80,231 fishing boats have been secured in ports, and 12,246 offshore workers are taking shelter onshore across the province.\n\n",
+          "start_offset": 301,
+          "end_offset": 726,
+          "sentence_ids": [
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "evacuation",
+            "affected_population",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "guangdong_relocated",
+              "value": 371644,
+              "unit": "people"
+            },
+            {
+              "attribute": "fishing_boats_secured",
+              "value": 80231,
+              "unit": "boats"
+            },
+            {
+              "attribute": "offshore_workers_taking_shelter",
+              "value": 12246,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "Typhoon Ragasa entered the South China Sea late Monday and is forecast to move northwest at a speed of about 20 km per hour. It is expected to land in the coastal areas from Zhuhai City to Xuwen County on Wednesday, packing winds of 40 to 55 meters per second, according to the provincial meteorological observatory.\n\nThe typhoon is expected to bring rainstorms and strong winds, with some areas facing extreme precipitation, while regions directly in the path of its center could experience gusts of up to 60 meters per second.\n\nSome regions in eastern Jiangsu and Anhui provinces will also experience heavy rainfall due to the typhoon's influence, according to the National Meteorological Center.\n\n",
+          "start_offset": 726,
+          "end_offset": 1426,
+          "sentence_ids": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "weather",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "forecast_movement_speed",
+              "value": {
+                "value": 20,
+                "qualifier": "about"
+              },
+              "unit": "km/h"
+            },
+            {
+              "attribute": "landfall_wind_range",
+              "value": [
+                40,
+                55
+              ],
+              "unit": "m/s"
+            },
+            {
+              "attribute": "predicted_max_gust",
+              "value": 60,
+              "unit": "m/s"
+            },
+            {
+              "attribute": "forecast_landfall_area",
+              "value": "Zhuhai to Xuwen",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "Chinese authorities on Tuesday allocated some 60,000 items from central disaster relief supplies to Guangdong. The disaster aid package, comprising tents, folding beds, summer quilts, emergency lighting and family emergency kits, will support local disaster relief efforts and assist those affected.\n\n",
+          "start_offset": 1426,
+          "end_offset": 1727,
+          "sentence_ids": [
+            11,
+            12
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "allocated_relief_items",
+              "value": {
+                "value": 60000,
+                "qualifier": "some"
+              },
+              "unit": "items"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "The Guangdong provincial flood, drought and wind control headquarters have urged all localities and departments to act with the highest standards, strictest requirements and most concrete measures, and have ordered major affected areas to suspend classes, work, production, public transportation and business operations. Cities including the provincial capital of Guangzhou, Zhuhai, Shenzhen and Jiangmen have implemented these suspensions.\n\n",
+          "start_offset": 1727,
+          "end_offset": 2169,
+          "sentence_ids": [
+            13,
+            14
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "five_suspensions",
+              "value": [
+                "classes",
+                "work",
+                "production",
+                "public transport",
+                "business"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "The Shenzhen branch of China National Offshore Oil Corporation (CNOOC) has put its 31 offshore platforms in the eastern South China Sea into \"typhoon-production mode\" -- unmanned, satellite-controlled operations that maintain oil output while keeping crews safely onshore.\n\nBy Monday evening, the company had carried out 290 helicopter flights and 12 vessel trips to evacuate all 5,192 offshore personnel. Every rig is now either in port or safely anchored to ride out the storm, said Qiu Zhimin, emergency manager at CNOOC Shenzhen.\n\n",
+          "start_offset": 2169,
+          "end_offset": 2704,
+          "sentence_ids": [
+            15,
+            16,
+            17
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure",
+            "evacuation"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "offshore_platforms",
+              "value": 31,
+              "unit": "platforms"
+            },
+            {
+              "attribute": "helicopter_flights",
+              "value": 290,
+              "unit": "flights"
+            },
+            {
+              "attribute": "vessel_trips",
+              "value": 12,
+              "unit": "trips"
+            },
+            {
+              "attribute": "cnooc_evacuated",
+              "value": 5192,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "Some highway sections and bridges in Zhuhai have been closed, and the Zhuhai Port of the Hong Kong-Zhuhai-Macao Bridge has suspended outbound passenger clearance, with the main bridge closed simultaneously.\n\nIn Zhuhai's Xiangzhou District, evacuations are underway along Qinglyu Road, targeting seafront high-rises and ageing estates that bore the brunt of Typhoon Hato in 2017, when driving rain and seawater backflow ruined facades and flooded underground garages.\n\nWeather forecasters warn that Typhoon Ragasa, coinciding with an astronomical high tide, could match or exceed Hato in intensity. On Monday, district authorities ordered all residents and tourists in coastal, hillside, and low-lying areas to move to shelters or higher ground by 6:00 p.m. Tuesday. The city has already temporarily shut down schools, factories, businesses, transport and ports.\n\n",
+          "start_offset": 2704,
+          "end_offset": 3567,
+          "sentence_ids": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "fact_types": [
+            "infrastructure",
+            "evacuation",
+            "response",
+            "secondary_hazard",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "routes_affected",
+              "value": "Zhuhai roads and Hong Kong-Zhuhai-Macao Bridge",
+              "unit": null
+            },
+            {
+              "attribute": "comparison",
+              "value": "2017 Typhoon Hato",
+              "unit": null
+            },
+            {
+              "attribute": "district_evacuation_deadline",
+              "value": "Tuesday 18:00",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F008",
+          "span_text": "The neighboring Guangxi Zhuang Autonomous Region is next in the storm's path. The regional meteorological bureau expects Ragasa to cross into the region between Yulin and Beihai cities during the early hours of Thursday, or curve westward along the Beibu Gulf coast. At 11:00 a.m. Tuesday, Guangxi raised its typhoon emergency response to Level III.\n\n",
+          "start_offset": 3567,
+          "end_offset": 3918,
+          "sentence_ids": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "fact_types": [
+            "weather",
+            "timeline",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "guangxi_response_level",
+              "value": "III",
+              "unit": null
+            },
+            {
+              "attribute": "issue_time",
+              "value": "Tuesday 11:00",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F009",
+          "span_text": "All passenger and ferry ships in the coastal waters of Guangxi have been suspended.\n\nMaritime authorities in Guangxi's Beihai City have restricted the Beihai-Weizhou Island passenger ship route to disembarkation only, with no boarding allowed, and the evacuation of the remaining 6,000 tourists from Weizhou Island to Beihai is scheduled for completion on Tuesday.\n\nGuangxi Power Grid has gone on full war footing ahead of the typhoon, with over 300 repair teams comprising more than 6,000 staff, alongside more than 3,000 mobile generators, 27 water-pumping units, and around 800 lighting sets kept ready to minimize damage.\n\n",
+          "start_offset": 3918,
+          "end_offset": 4545,
+          "sentence_ids": [
+            28,
+            29,
+            30
+          ],
+          "fact_types": [
+            "evacuation",
+            "infrastructure",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "weizhou_tourists_to_evaculate",
+              "value": 6000,
+              "unit": "people"
+            },
+            {
+              "attribute": "power_repair_teams",
+              "value": {
+                "value": 300,
+                "qualifier": "greater_than"
+              },
+              "unit": "teams"
+            },
+            {
+              "attribute": "power_repair_staff",
+              "value": {
+                "value": 6000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "mobile_generators",
+              "value": {
+                "value": 3000,
+                "qualifier": "greater_than"
+              },
+              "unit": "units"
+            },
+            {
+              "attribute": "pumps",
+              "value": 27,
+              "unit": "units"
+            },
+            {
+              "attribute": "lighting_sets",
+              "value": {
+                "value": 800,
+                "qualifier": "around"
+              },
+              "unit": "sets"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F010",
+          "span_text": "Typhoon Ragasa is also expected to impact the island province of Hainan, with the provincial capital Haikou to suspend classes, ferry services, park operations, work and business activities starting later on Tuesday or Wednesday. All train services to and from the island will be canceled on Wednesday.\n\nChina has a four-tier emergency response system, with Level I being the most severe response. ",
+          "start_offset": 4545,
+          "end_offset": 4943,
+          "sentence_ids": [
+            31,
+            32,
+            33
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "hainan_train_services",
+              "value": "cancelled Wednesday",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F011",
+          "span_text": "■",
+          "start_offset": 4943,
+          "end_offset": 4944,
+          "sentence_ids": [
+            34
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "8aee5a50ed106293f54b4237173aa38596fc445b0df5009686731cdeb7e09071",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "台风预计周三接近或登陆华南",
+        "fact_type": "timeline",
+        "attribute": "forecast_landfall",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F002",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "approaching Hong Kong on Tuesday",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "potential landfall Wednesday",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "Wednesday coastal landfall from Zhuhai to Xuwen",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "风速数据所指阶段有别",
+        "fact_type": "disaster_magnitude",
+        "attribute": "wind_measurements",
+        "supporting_spans": [
+          "A002_F002",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": {
+              "value": 220,
+              "qualifier": "up_to",
+              "scope": "reported current winds"
+            },
+            "unit": "km/h",
+            "attribution": "Hong Kong Observatory"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": {
+              "value": [
+                40,
+                55
+              ],
+              "scope": "forecast landfall winds"
+            },
+            "unit": "m/s",
+            "attribution": "Guangdong meteorological observatory"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "广东已转移逾 37 万人",
+        "fact_type": "evacuation",
+        "attribute": "guangdong_relocated",
+        "supporting_spans": [
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": 371644,
+            "unit": "people",
+            "attribution": "Guangdong provincial emergency management department"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "广州实施五停",
+        "fact_type": "response",
+        "attribute": "guangzhou_suspensions",
+        "supporting_spans": [
+          "A001_F004",
+          "A003_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": "classes, work, production, transport and business",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F005",
+            "value": "classes, work, production, public transport and business",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "important_facts": [
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-09-23",
+          "time_precision": "当地日",
+          "description": "广东和香港分别提升应急响应，进行疏散和航运停运。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F001",
+            "A003_F001",
+            "A003_F002"
+          ]
+        },
+        {
+          "time": "2025-09-24",
+          "time_precision": "预测日",
+          "description": "预报台风可能在广东沿海登陆。",
+          "supporting_spans": [
+            "A002_F002",
+            "A003_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "Ragasa 带来的风暴和降雨风险推动转移、停运和防洪准备。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F002",
+            "A003_F001",
+            "A003_F002"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "超强台风迫近，广东与香港提高戒备并实施大规模预防性转移和停运。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A002_F001",
+            "A003_F002",
+            "A003_F005"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "limitations": [
+      "材料主要提供预报和响应措施，未报告风暴过后实测洪水或伤亡。"
+    ]
+  }
+}

@@ -1,0 +1,970 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-5F5B462AEECB9248",
+  "event_rank": 9,
+  "event_metadata": {
+    "event_name": "哥伦比亚地震",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2026-08-10T12:34:28+00:00",
+    "event_end_time": "2026-08-10T12:34:28+00:00",
+    "locations": [
+      "哥伦比亚"
+    ],
+    "latitude": 4.8436,
+    "longitude": -76.2422,
+    "place_names_in_reports": [
+      "哥伦比亚",
+      "卡利",
+      "多拉尔",
+      "佛罗里达州南部"
+    ],
+    "gdacs_id": "1557236",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "消息来源未报道余震或后续影响。8月12日的航班尚处于计划阶段。"
+    ],
+    "dataset_place_name": "哥伦比亚地震",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-42A7B3C62FEC1ACF",
+      "event_id": "DIS-EQ-5F5B462AEECB9248",
+      "event_rank": 9,
+      "article_rank": 1,
+      "title": "联合国人道主义事务协调厅重申支持哥伦比亚地震响应工作",
+      "publisher": "xinhuanet-english",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20260813/ccdd6b6341f9494b965be092ce3505fa/c.html",
+      "published_at": "2026-08-12T21:40:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "新华社发稿地信息表明，报道转述 OCHA 及联合国发言人的声明。",
+      "content": "新华社联合国8月12日电——联合国人道主义事务协调厅（OCHA）星期三表示，该厅及其合作伙伴继续支持哥伦比亚政府主导的毁灭性地震响应工作。\n\nOCHA 在每日新闻更新中称，最新报告显示已有超过200人死亡、2,500人受伤，住宅和公共基础设施也据报遭到广泛破坏。\n\n人道主义评估仍在进行，特别是在受灾最严重的地区，通信、交通和公共服务中断继续阻碍救援工作。该厅表示，提供紧急住所、粮食援助、安全饮用水及医疗服务是受灾社区的主要优先事项。\n\nOCHA 表示，联合国及其合作伙伴也在调动资源。世界粮食计划署正在运送食品，世界卫生组织则从该国境内仓库调运医疗物资。\n\n联合国秘书长安东尼奥·古特雷斯的副发言人法尔汉·哈克星期三表示，联合国中央应急基金的一笔拨款正在筹备中。\n\n哈克表示，一旦获得损失范围的信息，联合国将发起哥伦比亚地震救援募捐呼吁，并指出预计需求将十分严峻。 ",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "新华社联合国8月12日电——联合国人道主义事务协调厅（OCHA）星期三表示，该厅及其合作伙伴继续支持哥伦比亚政府主导的毁灭性地震响应工作。\n\n",
+          "start_offset": 0,
+          "end_offset": 71,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "OCHA",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "OCHA 在每日新闻更新中称，最新报告显示已有超过200人死亡、2,500人受伤，住宅和公共基础设施也据报遭到广泛破坏。\n\n",
+          "start_offset": 71,
+          "end_offset": 133,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "damage"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 200,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injured",
+              "value": 2500,
+              "unit": "people"
+            },
+            {
+              "attribute": "damage",
+              "value": [
+                "住宅",
+                "公共基础设施"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "OCHA 最新通报",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "人道主义评估仍在进行，特别是在受灾最严重的地区，通信、交通和公共服务中断继续阻碍救援工作。该厅表示，提供紧急住所、粮食援助、安全饮用水及医疗服务是受灾社区的主要优先事项。\n\n",
+          "start_offset": 133,
+          "end_offset": 220,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "humanitarian_needs",
+            "infrastructure",
+            "response",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "response_constraints",
+              "value": [
+                "通信",
+                "交通",
+                "公共服务"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "priority_needs",
+              "value": [
+                "紧急住所",
+                "食物",
+                "安全饮用水",
+                "医疗服务"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "OCHA 表示，联合国及其合作伙伴也在调动资源。世界粮食计划署正在运送食品，世界卫生组织则从该国境内仓库调运医疗物资。\n\n",
+          "start_offset": 220,
+          "end_offset": 281,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "wfp_response",
+              "value": "运送食品",
+              "unit": null
+            },
+            {
+              "attribute": "who_response",
+              "value": "从该国境内库存调运医疗物资",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "联合国秘书长安东尼奥·古特雷斯的副发言人法尔汉·哈克星期三表示，联合国中央应急基金的一笔拨款正在筹备中。\n\n哈克表示，一旦获得损失范围的信息，联合国将发起哥伦比亚地震救援募捐呼吁，并指出预计需求将十分严峻。 ",
+          "start_offset": 281,
+          "end_offset": 385,
+          "sentence_ids": [
+            9,
+            10
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "allocation_status",
+              "value": "中央应急基金拨款正在筹备",
+              "unit": null
+            },
+            {
+              "attribute": "appeal_status",
+              "value": "在获得损失信息后计划开展",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "法尔汉·哈克",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "bc8cf45b29d17c9cf778ce818dc47dae2acb5d91c5af3f7325476a976c0c7179",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-FAA798C6CDA08C18",
+      "event_id": "DIS-EQ-5F5B462AEECB9248",
+      "event_rank": 9,
+      "article_rank": 2,
+      "title": "特朗普政府在哥伦比亚地震后调动援助",
+      "publisher": "foreignpolicywatchdog",
+      "identified_publisher": null,
+      "source_domain": "foreignpolicywatchdog.com",
+      "url": "https://foreignpolicywatchdog.com/united-states/trump-administration-mobilizes-aid-following-colombia-earthquake",
+      "published_at": "2026-08-12T05:45:29+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "文章采用美国国务院声明并包含分析。清理后的稿件缺乏明确署名。",
+      "content": "据政府声明报道，美国已针对8月10日袭击哥伦比亚多个地区的毁灭性7.4级地震采取挽救生命的响应行动（state.gov）。地震发生后数小时内，美国国务院宣布提供1,550万美元紧急援助，凸显本届政府在本半球自然灾害发生后的关键数小时优先立即采取行动。这一初始部署体现了满足灾害造成的最迫切人道主义需求的承诺，而这一承诺仍取决于持续评估和不断变化的需求。\n\n美国国务院的响应发生在哥伦比亚总统阿韦拉尔多·德拉埃斯普列利亚与美国官员此前举行的会议之后，会议重点讨论哥伦比亚面临地震活动的脆弱性。声明未提及立即部署前的具体协议或此前对话。声明提到启动灾害援助响应团队（DART），这是重大自然灾害发生后提供快速人道主义援助的标准机制。该 DART 的组建符合国务院现有国际救灾协调架构，并利用国务院内部已建立的合作伙伴关系。\n\n政府立即将重点放在紧急住所、食品和保护援助上，体现灾害刚发生后对基本需求的优先考虑。部署包括人道主义专家在内的 DART 表明有意在直接援助之外提供技术支持。这体现出一种经过考虑的做法，即利用天主教救济服务机构（CRS）、国际移民组织、Miyamoto International、联合国世界粮食计划署和世界宣明会等组织建立的国际合作关系，以及向 OCHA 提供的38亿美元捐款。启用利用现有 OCHA 资金的哥伦比亚联合基金，体现了最大限度提高响应效率和规模的策略，尤其是考虑到哥伦比亚既有的人道主义需求。\n\n快速部署对地区稳定具有影响。尽管重点在于立即救灾，美国的存在无疑将影响与哥伦比亚政府的外交互动，并可能影响其他地区行为体。通过可信伙伴，即具有成熟运营网络的组织提供援助，表明希望尽量减少官僚障碍并最大化当地影响。这一动员也强化了国务院在协调国际人道主义工作中的关键角色，特别是在西半球。\n\n如果访问带来进一步的建筑结构损失评估，政府的响应将在很大程度上取决于 DART 确定的不断变化的需求。如果地震加剧现有的脆弱性，特别是人口流离失所和基本服务获取方面，最初的1,550万美元可能不足。继续依赖 OCHA 联合基金表明已为持续参与做好准备，但仍取决于对哥伦比亚人道主义需求的进一步评估。\n\n国务院针对哥伦比亚地震的立即响应表明了提供挽救生命援助的承诺。然而，声明未涉及哥伦比亚的长期恢复需求或持续参与的可能性，因此，这次初步部署如何转化为支持该国重建工作的持久援助仍是一个悬而未决的问题。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "据政府声明报道，美国已针对8月10日袭击哥伦比亚多个地区的毁灭性7.4级地震采取挽救生命的响应行动（state.gov）。地震发生后数小时内，美国国务院宣布提供1,550万美元紧急援助，凸显本届政府在本半球自然灾害发生后的关键数小时优先立即采取行动。这一初始部署体现了满足灾害造成的最迫切人道主义需求的承诺，而这一承诺仍取决于持续评估和不断变化的需求。\n\n",
+          "start_offset": 0,
+          "end_offset": 178,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "aid",
+            "response",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.4,
+              "unit": null
+            },
+            {
+              "attribute": "earthquake_date",
+              "value": "2026-08-10",
+              "unit": null
+            },
+            {
+              "attribute": "emergency_assistance_announced",
+              "value": 15500000,
+              "unit": "USD"
+            },
+            {
+              "attribute": "attribution",
+              "value": "美国国务院",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "美国国务院的响应发生在哥伦比亚总统阿韦拉尔多·德拉埃斯普列利亚与美国官员此前举行的会议之后，会议重点讨论哥伦比亚面临地震活动的脆弱性。声明未提及立即部署前的具体协议或此前对话。声明提到启动灾害援助响应团队（DART），这是重大自然灾害发生后提供快速人道主义援助的标准机制。该 DART 的组建符合国务院现有国际救灾协调架构，并利用国务院内部已建立的合作伙伴关系。\n\n",
+          "start_offset": 178,
+          "end_offset": 361,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "response",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deployed_team",
+              "value": "灾害援助响应团队",
+              "unit": null
+            },
+            {
+              "attribute": "statement_detail",
+              "value": "未提及具体的事先协议",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "政府立即将重点放在紧急住所、食品和保护援助上，体现灾害刚发生后对基本需求的优先考虑。部署包括人道主义专家在内的 DART 表明有意在直接援助之外提供技术支持。这体现出一种经过考虑的做法，即利用天主教救济服务机构（CRS）、国际移民组织、Miyamoto International、联合国世界粮食计划署和世界宣明会等组织建立的国际合作关系，以及向 OCHA 提供的38亿美元捐款。启用利用现有 OCHA 资金的哥伦比亚联合基金，体现了最大限度提高响应效率和规模的策略，尤其是考虑到哥伦比亚既有的人道主义需求。\n\n",
+          "start_offset": 361,
+          "end_offset": 617,
+          "sentence_ids": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "aid",
+            "humanitarian_needs",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "aid_priorities",
+              "value": [
+                "住所",
+                "食物",
+                "保护"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "broader_ocha_contribution",
+              "value": 3800000000,
+              "unit": "USD"
+            },
+            {
+              "attribute": "fund",
+              "value": "哥伦比亚联合基金",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "快速部署对地区稳定具有影响。尽管重点在于立即救灾，美国的存在无疑将影响与哥伦比亚政府的外交互动，并可能影响其他地区行为体。通过可信伙伴，即具有成熟运营网络的组织提供援助，表明希望尽量减少官僚障碍并最大化当地影响。这一动员也强化了国务院在协调国际人道主义工作中的关键角色，特别是在西半球。\n\n",
+          "start_offset": 617,
+          "end_offset": 762,
+          "sentence_ids": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "fact_types": [
+            "economic_loss",
+            "response",
+            "uncertainty"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "uncertain",
+          "structured_attributes": [
+            {
+              "attribute": "status",
+              "value": "作者对潜在外交及落实效果的分析",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "如果访问带来进一步的建筑结构损失评估，政府的响应将在很大程度上取决于 DART 确定的不断变化的需求。如果地震加剧现有的脆弱性，特别是人口流离失所和基本服务获取方面，最初的1,550万美元可能不足。继续依赖 OCHA 联合基金表明已为持续参与做好准备，但仍取决于对哥伦比亚人道主义需求的进一步评估。\n\n国务院针对哥伦比亚地震的立即响应表明了提供挽救生命援助的承诺。然而，声明未涉及哥伦比亚的长期恢复需求或持续参与的可能性，因此，这次初步部署如何转化为支持该国重建工作的持久援助仍是一个悬而未决的问题。",
+          "start_offset": 762,
+          "end_offset": 1012,
+          "sentence_ids": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "fact_types": [
+            "recovery",
+            "humanitarian_needs",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "uncertain",
+          "structured_attributes": [
+            {
+              "attribute": "status",
+              "value": "作者对有条件的响应规模和长期重建需求的分析",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "d4e7a624a620c1446aa472617cbbe392e5c52934c2179f0d08ff5b585485e1f4",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-C1562AF601DA3EAA",
+      "event_id": "DIS-EQ-5F5B462AEECB9248",
+      "event_rank": 9,
+      "article_rank": 3,
+      "title": "志愿者继续整理哥伦比亚地震受害者所需物资；预计载有物资的货机星期三将从佛罗里达州南部飞往哥伦比亚；0分钟前",
+      "publisher": "cbslocal",
+      "identified_publisher": "CBS",
+      "source_domain": "cbsnews.com",
+      "url": "https://www.cbsnews.com/miami/news/colombia-earthquake-aid-donations-south-florida-gem/",
+      "published_at": "2026-08-12T17:22:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "CBS 包含对多拉尔志愿者及 GEM 的现场采访引语，其他报道中没有这些引语。",
+      "content": "星期一，一场强烈且致命的地震袭击了南美国家哥伦比亚后，捐赠物资不断涌入，佛罗里达州南部的组织正努力将急需的援助送往哥伦比亚。\n\n总部位于多拉尔的全球赋权使命组织（GEM）的志愿者们一直在整理物资，随后将其装上货机，送到最需要的人手中。\n\nGEM 表示，正在寻找更多志愿者协助，也需要现金捐赠和露营装备，以帮助哥伦比亚地震受害者。\n\n来自整个地区的志愿者纷纷前来帮忙，其中也包括佛罗里达州南部以外的志愿者。\n\n志愿者胡安·凯塞多说：“我们来这里帮助哥伦比亚，尤其是卡利。那是我们的城市。”\n\n志愿者们尽其所能提供帮助。卡利是哥伦比亚西部遭受此次强烈地震最严重的城市之一。\n\n凯塞多接着说：“事实上我们已经捐了款。我们将钱寄给家人和朋友。显然他们在那里购买物资比我们更方便。不过今天我们在这里。我们会帮忙打包。事实上我们还买了很多食品和急救包。”\n\n卡洛斯·哈拉是星期三早晨第一个送来物资的人。6月底委内瑞拉遭遇灾难性地震后，他曾自愿提供帮助。\n\n他说：“委内瑞拉和哥伦比亚是兄弟，两国是兄弟。”\n\n不过，GEM 的弗朗辛·德拉罗萨表示，与委内瑞拉的情况不同，他们正在与哥伦比亚政府密切合作，现金至关重要。\n\n她说：“我们希望在哥伦比亚购买物资和商品，这样就可以更快速、更高效地把它们交到受害者手中，当然这也能帮助当地经济。我们需要人手。有大量物资需要整理。人们可以到两个仓库做志愿者，还有很多工作要做。”\n\n如果能够捐赠物资，露营装备是主要优先事项。\n\n她继续说道：“这包括防水布、帐篷和毯子。它们都必须是新的。还有急救用品和卫生用品。”\n\n德拉罗萨表示，援助航班可能在星期三飞往哥伦比亚。\n\n德拉罗萨说：“我们知道会发生这类灾害，只是不知道何时何地发生，因此我们实际上每年365天都在为此进行规划，这让我们在立即响应方面能够最高效。”\n\n请访问全球赋权使命组织的网站，了解他们寻求的捐赠物资的更多信息。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "星期一，一场强烈且致命的地震袭击了南美国家哥伦比亚后，捐赠物资不断涌入，佛罗里达州南部的组织正努力将急需的援助送往哥伦比亚。\n\n总部位于多拉尔的全球赋权使命组织（GEM）的志愿者们一直在整理物资，随后将其装上货机，送到最需要的人手中。\n\nGEM 表示，正在寻找更多志愿者协助，也需要现金捐赠和露营装备，以帮助哥伦比亚地震受害者。\n\n来自整个地区的志愿者纷纷前来帮忙，其中也包括佛罗里达州南部以外的志愿者。\n\n",
+          "start_offset": 0,
+          "end_offset": 204,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "organization",
+              "value": "全球赋权使命组织（GEM）",
+              "unit": null
+            },
+            {
+              "attribute": "activity",
+              "value": "在多拉尔整理物资以便货运",
+              "unit": null
+            },
+            {
+              "attribute": "needed",
+              "value": [
+                "志愿者",
+                "现金",
+                "露营装备"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "志愿者胡安·凯塞多说：“我们来这里帮助哥伦比亚，尤其是卡利。那是我们的城市。”\n\n志愿者们尽其所能提供帮助。卡利是哥伦比亚西部遭受此次强烈地震最严重的城市之一。\n\n",
+          "start_offset": 204,
+          "end_offset": 286,
+          "sentence_ids": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "damage",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "hard_hit_city",
+              "value": "卡利",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "凯塞多接着说：“事实上我们已经捐了款。我们将钱寄给家人和朋友。显然他们在那里购买物资比我们更方便。不过今天我们在这里。我们会帮忙打包。事实上我们还买了很多食品和急救包。”\n\n卡洛斯·哈拉是星期三早晨第一个送来物资的人。6月底委内瑞拉遭遇灾难性地震后，他曾自愿提供帮助。\n\n他说：“委内瑞拉和哥伦比亚是兄弟，两国是兄弟。”\n\n",
+          "start_offset": 286,
+          "end_offset": 448,
+          "sentence_ids": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "fact_types": [
+            "aid",
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "volunteer",
+              "value": "胡安·凯塞多",
+              "unit": null
+            },
+            {
+              "attribute": "reported_donations",
+              "value": [
+                "资金",
+                "食物",
+                "急救包"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "other_event",
+              "value": "卡洛斯·哈拉提到6月末委内瑞拉地震",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "不过，GEM 的弗朗辛·德拉罗萨表示，与委内瑞拉的情况不同，他们正在与哥伦比亚政府密切合作，现金至关重要。\n\n她说：“我们希望在哥伦比亚购买物资和商品，这样就可以更快速、更高效地把它们交到受害者手中，当然这也能帮助当地经济。我们需要人手。有大量物资需要整理。人们可以到两个仓库做志愿者，还有很多工作要做。”\n\n",
+          "start_offset": 448,
+          "end_offset": 603,
+          "sentence_ids": [
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "strategy",
+              "value": "在哥伦比亚本地购买商品并在两个仓库整理捐赠物资",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "弗朗辛·德拉罗萨，GEM",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "如果能够捐赠物资，露营装备是主要优先事项。\n\n她继续说道：“这包括防水布、帐篷和毯子。它们都必须是新的。还有急救用品和卫生用品。”\n\n",
+          "start_offset": 603,
+          "end_offset": 670,
+          "sentence_ids": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "fact_types": [
+            "aid",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "priority_items",
+              "value": [
+                "新防水布",
+                "新帐篷",
+                "新毯子",
+                "急救用品",
+                "卫生用品"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "德拉罗萨表示，援助航班可能在星期三飞往哥伦比亚。\n\n德拉罗萨说：“我们知道会发生这类灾害，只是不知道何时何地发生，因此我们实际上每年365天都在为此进行规划，这让我们在立即响应方面能够最高效。”\n\n",
+          "start_offset": 670,
+          "end_offset": 769,
+          "sentence_ids": [
+            28,
+            29,
+            30
+          ],
+          "fact_types": [
+            "aid",
+            "timeline",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "tentative_departure",
+              "value": "星期三",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "弗朗辛·德拉罗萨",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "请访问全球赋权使命组织的网站，了解他们寻求的捐赠物资的更多信息。",
+          "start_offset": 769,
+          "end_offset": 801,
+          "sentence_ids": [
+            31
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "7851d0ae27c78d2b85cc1c031dab5ffec79701a822d44309a7c3da08781e15c5",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "美国的一份声明提供了报道中的地震震级和日期",
+        "fact_type": "disaster_magnitude",
+        "attribute": "mainshock_magnitude",
+        "supporting_spans": [
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 7.4,
+            "unit": null,
+            "attribution": "U.S. Department of State"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "联合国通报称超过200人死亡",
+        "fact_type": "casualties",
+        "attribute": "reported_deaths",
+        "supporting_spans": [
+          "A001_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": {
+              "value": 200,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": "OCHA update"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "联合国通报称2,500人受伤",
+        "fact_type": "injuries",
+        "attribute": "reported_injuries",
+        "supporting_spans": [
+          "A001_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 2500,
+            "unit": "people",
+            "attribution": "OCHA update"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "临时住所和食品属于应急响应的一部分",
+        "fact_type": "humanitarian_needs",
+        "attribute": "priority_needs",
+        "supporting_spans": [
+          "A001_F003",
+          "A002_F003",
+          "A003_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": [
+              "紧急住所",
+              "食品援助",
+              "安全饮用水",
+              "医疗服务"
+            ],
+            "unit": null,
+            "attribution": "OCHA"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": [
+              "紧急住所",
+              "食物",
+              "保护"
+            ],
+            "unit": null,
+            "attribution": "U.S. response priorities"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F005",
+            "value": [
+              "防水布",
+              "帐篷",
+              "毯子",
+              "急救",
+              "卫生用品"
+            ],
+            "unit": null,
+            "attribution": "GEM"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC005",
+        "cluster_description": "美国宣布提供1,550万美元初始紧急援助",
+        "fact_type": "aid",
+        "attribute": "us_emergency_assistance_announced",
+        "supporting_spans": [
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 15500000,
+            "unit": "USD",
+            "attribution": "U.S. Department of State"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": "该文章另行提到向 OCHA 提供的38亿美元捐款，该款项不计入本次地震专项金额。"
+      },
+      {
+        "cluster_id": "FC006",
+        "cluster_description": "联合国机构调集物资",
+        "fact_type": "aid",
+        "attribute": "un_resource_mobilization",
+        "supporting_spans": [
+          "A001_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": [
+              "WFP 食品",
+              "WHO 医疗物资"
+            ],
+            "unit": null,
+            "attribution": "OCHA"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005",
+        "FC006"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "important_facts": [
+        "FC004",
+        "FC005",
+        "FC006"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2026-08-10",
+          "time_precision": "Local date",
+          "description": "哥伦比亚发生强烈地震，美国国务院在数小时内宣布提供紧急援助。",
+          "supporting_spans": [
+            "A002_F001",
+            "A003_F001"
+          ]
+        },
+        {
+          "time": "2026-08-12",
+          "time_precision": "Publication date and planned activity",
+          "description": "联合国继续提供支持。佛罗里达州的志愿者整理物资，预计航班当天飞离。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F004",
+            "A003_F001",
+            "A003_F006"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "通信、交通及公共服务中断阻碍了救灾工作。",
+          "supporting_spans": [
+            "A001_F003"
+          ]
+        },
+        {
+          "description": "GEM 代表表示，在哥伦比亚购买物资将加快运送并支持当地经济。",
+          "supporting_spans": [
+            "A003_F004"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "哥伦比亚一场强烈地震造成严重人员伤亡，住宅及公共基础设施受损。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F001",
+            "A003_F002"
+          ]
+        },
+        {
+          "description": "联合国、美国政府和志愿者组织通过不同渠道提供援助。",
+          "supporting_spans": [
+            "A001_F004",
+            "A002_F001",
+            "A002_F002",
+            "A003_F001"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "报道未提供共同伤亡统计截止时间，另外两篇报道未对 OCHA 的数据提供独立佐证。"
+    ]
+  }
+}

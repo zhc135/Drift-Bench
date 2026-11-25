@@ -1,0 +1,1637 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-0B8C572396473E2F",
+  "event_rank": 7,
+  "event_metadata": {
+    "event_name": "菲律宾地震",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2026-06-07T23:37:40+00:00",
+    "event_end_time": "2026-06-07T23:37:40+00:00",
+    "locations": [
+      "菲律宾"
+    ],
+    "latitude": 5.5918,
+    "longitude": 125.0469,
+    "place_names_in_reports": [
+      "棉兰老岛",
+      "索克斯克萨尔根区",
+      "桑托斯将军城",
+      "萨兰加尼省",
+      "格兰",
+      "马阿西姆",
+      "达沃区",
+      "西达沃省",
+      "南哥打巴托省",
+      "巴卢特岛",
+      "三宝颜半岛",
+      "马尼拉大都会",
+      "哥打巴托海沟"
+    ],
+    "gdacs_id": "1544720",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "主震发生在菲律宾当地时间6月8日上午。CSV 使用协调世界时。A001 给出当天15:00的失踪人数统计，A003 没有相应截止时间。"
+    ],
+    "dataset_place_name": "菲律宾地震",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-7B51AA3ECB43F633",
+      "event_id": "DIS-EQ-0B8C572396473E2F",
+      "event_rank": 7,
+      "article_rank": 1,
+      "title": "棉兰老岛地震死亡人数升至38人；政府优先保障医疗援助和恢复通信连接",
+      "publisher": "bworldcom",
+      "identified_publisher": "BusinessWorld",
+      "source_domain": "bworldonline.com",
+      "url": "https://bworldonline.com/the-nation/2026/06/09/755631/mindanao-quake-deaths-rise-to-38-govt-prioritizes-medical-aid-connectivity/",
+      "published_at": "2026-06-09T13:03:51+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "正文署名为埃丽卡·梅·P·西纳金和谢尔丁·乔伊·塔拉维拉，并包含一项更正。",
+      "content": "菲律宾灾害管理机构星期二确认，星期一上午袭击菲律宾南部棉兰老岛的7.8级强烈地震已造成至少38人死亡、478人受伤。\n\n国家减灾与管理委员会（NDRRMC）在截至下午3时的灾情报告中表示，搜救行动进入第二天，仍有5人失踪。\n\n在早些时候的报告中，该委员会表示，索克斯克萨尔根区伤亡最为严重，有33人死亡，达沃区记录到4人死亡。\n\n据该机构称，受灾各省的物流中断状况仍在持续。\n\n据报灾后桑托斯将军城国际机场无法运营，虽然部分地区供电已恢复，但截至星期二上午，几个偏远地区仍然停电。\n\n初步评估显示，基础设施损失价值为1,500万菲律宾比索，三宝颜半岛、达沃区及索克斯克萨尔根区共有127项基础设施据报受损。\n\n据 NDRRMC 称，超过88,000人受到此次灾害影响。\n\n约20,690人离开家园，目前有超过19,600人在39个指定疏散中心内避难。\n\n该地区仍处于高度戒备状态，自星期一以来已记录超过840次余震，最强余震达到6.7级。\n\n当局已在182个城市和市镇停课，并在123个地方行政区暂停政府工作。\n\nNDRRMC 指出，由于棉兰老岛各地仍在进行实地核查，伤亡及损失统计数据仍可能发生变化。\n\n菲律宾总统府表示，政府正在优先提供医疗援助并恢复重灾地区的通信连接，以便接触与外界隔绝的受害者。\n\n星期二，总统小费迪南德·马科斯与内阁和地方官员举行灾情简报会，以协调跨机构灾害响应。\n\n总统府新闻官克拉丽莎·A·卡斯特罗在记者会上表示，马科斯计划视察棉兰老岛受灾地区，亲自评估情况，但尚未宣布正式访问日期。\n\n截至星期二上午，社会福利与发展部（DSWD）已向三宝颜半岛、达沃区和索克斯克萨尔根区的受灾家庭调配2,045份家庭食品包、2,705箱即食餐及360件非食品物资。\n\n她说：“DSWD 与菲律宾空军和海岸警卫队合作，向车辆无法到达的地区空运援助物资。”\n\n她说：“我们不应该担心食品和食品包无法送达受地震影响的同胞。”\n\n卡斯特罗女士表示，随着建筑结构检查继续进行，政府也在等待工程师的检查结果，以确定进一步的安全规程。\n\n与此同时，能源部长莎伦·S·加林表示，地震受损电力基础设施的修复仍在进行，地震导致棉兰老岛850,000户家庭停电。\n\n加林女士说：“我们了解在紧急情况下电力是多么关键，向公众保证，我们正在调动一切可用资源，安全且尽快恢复供电。”\n\n能源部（DoE）已指示所有相关能源行业参与方优先恢复对公共安全和应急响应至关重要的设施的全部电力服务，包括医院、疏散中心、供水设施、通信系统和其他重要设施。\n\n在配电层面，南哥打巴托第一电力合作社等一些电力合作社在实施全面停电后已恢复正常运营。\n\n南达沃电力合作社和南哥打巴托第二电力合作社仍遭遇局部停电，正在对157,263户家庭开展供电恢复工作。\n\n达沃照明与电力公司服务的约500户家庭仍遭遇局部停电。\n\n据菲律宾国家电网公司称，棉兰老岛西南部所有受影响的输电线路均已全面恢复。\n\n“大地震”——与此同时，能源部表示，菲律宾能源行业保证，已制定措施应对可能袭击马尼拉大都会及附近地区的“大地震”。\n\n能源部副部长威廉·费利克斯·B·富恩特韦利亚表示，能源行业正在开展桌面演练，为预计将袭击大马尼拉地区的大地震做好准备。\n\n他在星期二记者会上表示：“石油和电力领域的每个参与方都有关于如何应对的任务安排。”\n\n富恩特韦利亚先生说，该部门计划开展一系列桌面演练以加强应急准备。桌面演练是一种模拟，主要相关方集聚一处，讨论如何应对假设的紧急情况或危机场景。\n\n据日本国际协力机构、马尼拉大都会发展局和菲律宾火山地震研究所2004年的联合研究预测，一场7.2级强烈地震将袭击马尼拉大都会。\n\n根据该研究，西谷断层发生的大地震可能损坏马尼拉大都会约40%的住宅建筑，可能造成34,000人死亡和114,000人受伤。\n\n西谷断层穿过塔吉格市、蒙廷卢帕市、帕拉尼亚克市、奎松市、帕西格市、马卡蒂市、马里基纳市以及黎刹省、拉古纳省、甲米地省和布拉干省。\n\n能源部能源韧性特遣工作组的主管科学研究专家玛格诺利亚·B·奥尔维多表示，能源行业于2019年开始为“大地震”做准备。\n\n奥尔维多女士说，政府正在与发电公司、电力合作社及输电运营商等关键相关方协调。——埃丽卡·梅·P·西纳金和谢尔丁·乔伊·塔拉维拉\n\n本文早期版本错误地将死亡人数写为48人。正确数字是38人。报道已更新以反映这一更正。我们对此错误表示遗憾。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "菲律宾灾害管理机构星期二确认，星期一上午袭击菲律宾南部棉兰老岛的7.8级强烈地震已造成至少38人死亡、478人受伤。\n\n国家减灾与管理委员会（NDRRMC）在截至下午3时的灾情报告中表示，搜救行动进入第二天，仍有5人失踪。\n\n",
+          "start_offset": 0,
+          "end_offset": 113,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "casualties",
+            "injuries",
+            "missing_persons",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.8,
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 38,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injured",
+              "value": 478,
+              "unit": "people"
+            },
+            {
+              "attribute": "missing",
+              "value": 5,
+              "unit": "people"
+            },
+            {
+              "attribute": "missing_cutoff",
+              "value": "星期二15:00",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "NDRRMC",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "在早些时候的报告中，该委员会表示，索克斯克萨尔根区伤亡最为严重，有33人死亡，达沃区记录到4人死亡。\n\n",
+          "start_offset": 113,
+          "end_offset": 165,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "casualties",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "soccsksargen_deaths_in_earlier_report",
+              "value": 33,
+              "unit": "people"
+            },
+            {
+              "attribute": "davao_deaths_in_earlier_report",
+              "value": 4,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "据该机构称，受灾各省的物流中断状况仍在持续。\n\n据报灾后桑托斯将军城国际机场无法运营，虽然部分地区供电已恢复，但截至星期二上午，几个偏远地区仍然停电。\n\n初步评估显示，基础设施损失价值为1,500万菲律宾比索，三宝颜半岛、达沃区及索克斯克萨尔根区共有127项基础设施据报受损。\n\n",
+          "start_offset": 165,
+          "end_offset": 305,
+          "sentence_ids": [
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "economic_loss"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "airport_status",
+              "value": "无法运营",
+              "unit": null
+            },
+            {
+              "attribute": "initial_infrastructure_cost",
+              "value": 15000000,
+              "unit": "PHP"
+            },
+            {
+              "attribute": "reported_damaged_infrastructure",
+              "value": 127,
+              "unit": "items"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "据 NDRRMC 称，超过88,000人受到此次灾害影响。\n\n约20,690人离开家园，目前有超过19,600人在39个指定疏散中心内避难。\n\n",
+          "start_offset": 305,
+          "end_offset": 377,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "affected_population",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "affected",
+              "value": {
+                "value": 88000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "displaced",
+              "value": {
+                "value": 20690,
+                "qualifier": "approximately"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "staying_in_centers",
+              "value": {
+                "value": 19600,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "designated_centers",
+              "value": 39,
+              "unit": "centers"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "该地区仍处于高度戒备状态，自星期一以来已记录超过840次余震，最强余震达到6.7级。\n\n",
+          "start_offset": 377,
+          "end_offset": 421,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "aftershocks",
+              "value": {
+                "value": 840,
+                "qualifier": "greater_than"
+              },
+              "unit": "events"
+            },
+            {
+              "attribute": "strongest_aftershock_magnitude",
+              "value": 6.7,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "当局已在182个城市和市镇停课，并在123个地方行政区暂停政府工作。\n\n",
+          "start_offset": 421,
+          "end_offset": 457,
+          "sentence_ids": [
+            10
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "school_suspension_localities",
+              "value": 182,
+              "unit": null
+            },
+            {
+              "attribute": "work_suspension_localities",
+              "value": 123,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "NDRRMC 指出，由于棉兰老岛各地仍在进行实地核查，伤亡及损失统计数据仍可能发生变化。\n\n",
+          "start_offset": 457,
+          "end_offset": 503,
+          "sentence_ids": [
+            11
+          ],
+          "fact_types": [
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "validation",
+              "value": "实地核查正在进行",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F008",
+          "span_text": "菲律宾总统府表示，政府正在优先提供医疗援助并恢复重灾地区的通信连接，以便接触与外界隔绝的受害者。\n\n星期二，总统小费迪南德·马科斯与内阁和地方官员举行灾情简报会，以协调跨机构灾害响应。\n\n总统府新闻官克拉丽莎·A·卡斯特罗在记者会上表示，马科斯计划视察棉兰老岛受灾地区，亲自评估情况，但尚未宣布正式访问日期。\n\n",
+          "start_offset": 503,
+          "end_offset": 659,
+          "sentence_ids": [
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "fact_types": [
+            "response",
+            "aid",
+            "infrastructure",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "priorities",
+              "value": [
+                "医疗援助",
+                "恢复通信连接"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "visit_date",
+              "value": "尚未宣布",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F009",
+          "span_text": "截至星期二上午，社会福利与发展部（DSWD）已向三宝颜半岛、达沃区和索克斯克萨尔根区的受灾家庭调配2,045份家庭食品包、2,705箱即食餐及360件非食品物资。\n\n她说：“DSWD 与菲律宾空军和海岸警卫队合作，向车辆无法到达的地区空运援助物资。”\n\n她说：“我们不应该担心食品和食品包无法送达受地震影响的同胞。”\n\n卡斯特罗女士表示，随着建筑结构检查继续进行，政府也在等待工程师的检查结果，以确定进一步的安全规程。\n\n",
+          "start_offset": 659,
+          "end_offset": 870,
+          "sentence_ids": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "fact_types": [
+            "aid",
+            "infrastructure",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "family_food_packs",
+              "value": 2045,
+              "unit": null
+            },
+            {
+              "attribute": "ready_to_eat_meal_boxes",
+              "value": 2705,
+              "unit": null
+            },
+            {
+              "attribute": "nonfood_items",
+              "value": 360,
+              "unit": null
+            },
+            {
+              "attribute": "delivery",
+              "value": "道路无法通达时进行空运",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F010",
+          "span_text": "与此同时，能源部长莎伦·S·加林表示，地震受损电力基础设施的修复仍在进行，地震导致棉兰老岛850,000户家庭停电。\n\n加林女士说：“我们了解在紧急情况下电力是多么关键，向公众保证，我们正在调动一切可用资源，安全且尽快恢复供电。”\n\n能源部（DoE）已指示所有相关能源行业参与方优先恢复对公共安全和应急响应至关重要的设施的全部电力服务，包括医院、疏散中心、供水设施、通信系统和其他重要设施。\n\n",
+          "start_offset": 870,
+          "end_offset": 1067,
+          "sentence_ids": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "fact_types": [
+            "infrastructure",
+            "recovery",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "households_affected_by_blackouts",
+              "value": 850000,
+              "unit": "households"
+            },
+            {
+              "attribute": "restoration_priorities",
+              "value": [
+                "医院",
+                "疏散中心",
+                "供水",
+                "通信"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F011",
+          "span_text": "在配电层面，南哥打巴托第一电力合作社等一些电力合作社在实施全面停电后已恢复正常运营。\n\n南达沃电力合作社和南哥打巴托第二电力合作社仍遭遇局部停电，正在对157,263户家庭开展供电恢复工作。\n\n达沃照明与电力公司服务的约500户家庭仍遭遇局部停电。\n\n据菲律宾国家电网公司称，棉兰老岛西南部所有受影响的输电线路均已全面恢复。\n\n",
+          "start_offset": 1067,
+          "end_offset": 1231,
+          "sentence_ids": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "fact_types": [
+            "infrastructure",
+            "recovery"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "households_with_restoration_ongoing_for_two_cooperatives",
+              "value": 157263,
+              "unit": "households"
+            },
+            {
+              "attribute": "estimated_partial_interruptions_davao_light",
+              "value": 500,
+              "unit": "households"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F012",
+          "span_text": "“大地震”——与此同时，能源部表示，菲律宾能源行业保证，已制定措施应对可能袭击马尼拉大都会及附近地区的“大地震”。\n\n能源部副部长威廉·费利克斯·B·富恩特韦利亚表示，能源行业正在开展桌面演练，为预计将袭击大马尼拉地区的大地震做好准备。\n\n他在星期二记者会上表示：“石油和电力领域的每个参与方都有关于如何应对的任务安排。”\n\n富恩特韦利亚先生说，该部门计划开展一系列桌面演练以加强应急准备。桌面演练是一种模拟，主要相关方集聚一处，讨论如何应对假设的紧急情况或危机场景。\n\n",
+          "start_offset": 1231,
+          "end_offset": 1467,
+          "sentence_ids": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "独立的马尼拉大都会防灾准备情景",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F013",
+          "span_text": "据日本国际协力机构、马尼拉大都会发展局和菲律宾火山地震研究所2004年的联合研究预测，一场7.2级强烈地震将袭击马尼拉大都会。\n\n根据该研究，西谷断层发生的大地震可能损坏马尼拉大都会约40%的住宅建筑，可能造成34,000人死亡和114,000人受伤。\n\n西谷断层穿过塔吉格市、蒙廷卢帕市、帕拉尼亚克市、奎松市、帕西格市、马卡蒂市、马里基纳市以及黎刹省、拉古纳省、甲米地省和布拉干省。\n\n",
+          "start_offset": 1467,
+          "end_offset": 1661,
+          "sentence_ids": [
+            35,
+            36,
+            37
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "location",
+            "damage",
+            "casualties",
+            "injuries",
+            "uncertainty"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "模拟的西谷断层情景，非棉兰老岛事件",
+              "unit": null
+            },
+            {
+              "attribute": "projected_magnitude",
+              "value": 7.2,
+              "unit": null
+            },
+            {
+              "attribute": "potential_residential_damage_share",
+              "value": {
+                "value": 40,
+                "qualifier": "approximately"
+              },
+              "unit": "%"
+            },
+            {
+              "attribute": "potential_deaths",
+              "value": 34000,
+              "unit": "people"
+            },
+            {
+              "attribute": "potential_injuries",
+              "value": 114000,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F014",
+          "span_text": "能源部能源韧性特遣工作组的主管科学研究专家玛格诺利亚·B·奥尔维多表示，能源行业于2019年开始为“大地震”做准备。\n\n奥尔维多女士说，政府正在与发电公司、电力合作社及输电运营商等关键相关方协调。——埃丽卡·梅·P·西纳金和谢尔丁·乔伊·塔拉维拉\n\n",
+          "start_offset": 1661,
+          "end_offset": 1786,
+          "sentence_ids": [
+            38,
+            39,
+            40,
+            41
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "metro_manila_preparedness_since",
+              "value": 2019,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F015",
+          "span_text": "本文早期版本错误地将死亡人数写为48人。正确数字是38人。报道已更新以反映这一更正。我们对此错误表示遗憾。",
+          "start_offset": 1786,
+          "end_offset": 1839,
+          "sentence_ids": [
+            42,
+            43,
+            44,
+            45
+          ],
+          "fact_types": [
+            "casualties",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "corrected_deaths",
+              "value": 38,
+              "unit": "people"
+            },
+            {
+              "attribute": "explicitly_retracted_earlier_number",
+              "value": 48,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "214d85c68553ba7ad7153898c8ddedd5b5709d6abf3d20707d2b67a6d30c030b",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-15A69F9B617DDA05",
+      "event_id": "DIS-EQ-0B8C572396473E2F",
+      "event_rank": 7,
+      "article_rank": 2,
+      "title": "小马科斯：优先保障棉兰老岛疏散人员及患者安全",
+      "publisher": "philstar",
+      "identified_publisher": "The Philippine Star",
+      "source_domain": "philstar.com",
+      "url": "https://www.philstar.com/headlines/2026/06/10/2534105/prioritize-safety-evacuees-patients-mindanao-marcos-jr",
+      "published_at": "2026-06-09T16:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "有马尼拉发稿地及当地官员的引语。现有正文缺乏足以确定稿件归属的署名。",
+      "content": "菲律宾马尼拉电——马科斯总统昨天命令相关政府机构，优先保障流离失所的家庭以及星期一袭击棉兰老岛部分地区的7.8级地震中受影响医院患者的安全和福祉。\n\n马科斯在总统府主持召开灾情简报会，评估正在进行的政府响应以及地震灾区民众的情况。\n\n总统通讯事务副部长克莱尔·卡斯特罗表示，总统计划访问棉兰老岛，但她没有立即提供细节。\n\n卡斯特罗表示，总统指示能源部长莎伦·加林加快恢复医院供电。\n\n她说，在灾情简报会上，马科斯通过 Zoom 与桑托斯将军城市长洛雷莉·帕奎奥交谈，讨论现场情况及其迫切需求。\n\n与此同时，社会福利与发展部（DSWD）部长雷克斯·加查利安报告称，该部门正与菲律宾空军及菲律宾海岸警卫队密切合作，向陆路仍无法到达的地区空运救灾物资。\n\n卫生部也已为地震受害者调配充足的医疗援助和物资，教育部则持续与地方政府单位协调，以确保受影响学校学生的安全和福祉。\n\n信息通信技术部部长亨利·阿古达报告，受灾地区通信连接保持稳定。\n\n卡斯特罗说，能源部报告棉兰老岛许多地区已经恢复供电。\n\n与此同时，DSWD 部长加查利安检查了该部门第9外勤办公室和第12外勤办公室的两个移动指挥中心（MCC）的运作情况，确保及时提供现场灾害响应最新信息。\n\n他在桑托斯将军城告诉当地记者：“总统指示我们，在这里的当地居民从灾后影响中恢复之前不要离开，尤其是这场强烈地震中幸运生还的受害者及其家人。”\n\nDSWD 迄今已向受害者提供价值超过423万菲律宾比索的人道主义援助。其第9外勤办公室已向萨兰加尼省因海啸警报流离失所的1,000多户家庭分发即食食品包。\n\n公共工程部长文斯·迪松表示，将尽快开始修复星期一地震后受损的公共基础设施。\n\n迪松于星期一下午乘飞机抵达桑托斯将军城，昨天继续检查南哥打巴托及达沃地区的主要道路和桥梁。\n\n在达沃市，迪松检查了布卡纳大桥，并向驾车者保证桥梁安全，因为地震影响仅限于桥梁引道的轻微非结构性缺陷，例如护栏受损和表面混凝土开裂。\n\n桑托斯将军城至特博利至苏拉拉公路沿线的基础设施状况严重得多，地震引发的山体滑坡完全切断了公路一个重要路段。由于地质条件严重不稳定，迪松排除了在原址重建的可能。\n\n为绕开受损地段，迪松命令公共工程和公路部（DPWH）工程师开展技术评估，设计一条安全移至对侧山坡的永久绕行道路。\n\n私人承包商 JDRC 已向现场部署重型设备，开始紧急开通工作，而 DPWH 现场人员则在沿公路的次生滑坡区域开展清理工作。\n\n贸易和工业部表示，已进入灾难状态的桑托斯将军城现在对基本商品实施价格冻结。\n\n贸易和工业部长克里斯蒂娜·罗克昨天告诉记者，价格冻结将持续60天。\n\n价格冻结涵盖罐装鱼及其他海产品、加工牛奶、咖啡、洗衣皂或清洁皂、蜡烛、面包、碘盐、方便面及瓶装水。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "菲律宾马尼拉电——马科斯总统昨天命令相关政府机构，优先保障流离失所的家庭以及星期一袭击棉兰老岛部分地区的7.8级地震中受影响医院患者的安全和福祉。\n\n马科斯在总统府主持召开灾情简报会，评估正在进行的政府响应以及地震灾区民众的情况。\n\n总统通讯事务副部长克莱尔·卡斯特罗表示，总统计划访问棉兰老岛，但她没有立即提供细节。\n\n",
+          "start_offset": 0,
+          "end_offset": 161,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "response",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.8,
+              "unit": null
+            },
+            {
+              "attribute": "priority",
+              "value": "流离失所家庭及医院患者的安全",
+              "unit": null
+            },
+            {
+              "attribute": "visit_date",
+              "value": "未提供细节",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "卡斯特罗表示，总统指示能源部长莎伦·加林加快恢复医院供电。\n\n她说，在灾情简报会上，马科斯通过 Zoom 与桑托斯将军城市长洛雷莉·帕奎奥交谈，讨论现场情况及其迫切需求。\n\n",
+          "start_offset": 161,
+          "end_offset": 248,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "order",
+              "value": "加快恢复医院供电",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "与此同时，社会福利与发展部（DSWD）部长雷克斯·加查利安报告称，该部门正与菲律宾空军及菲律宾海岸警卫队密切合作，向陆路仍无法到达的地区空运救灾物资。\n\n卫生部也已为地震受害者调配充足的医疗援助和物资，教育部则持续与地方政府单位协调，以确保受影响学校学生的安全和福祉。\n\n",
+          "start_offset": 248,
+          "end_offset": 384,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "response",
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "delivery",
+              "value": "DSWD 与空军和海岸警卫队合作空运",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "信息通信技术部部长亨利·阿古达报告，受灾地区通信连接保持稳定。\n\n卡斯特罗说，能源部报告棉兰老岛许多地区已经恢复供电。\n\n",
+          "start_offset": 384,
+          "end_offset": 445,
+          "sentence_ids": [
+            8,
+            9
+          ],
+          "fact_types": [
+            "infrastructure",
+            "recovery"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "aggregate_connectivity_status",
+              "value": "据 DICT 报告保持稳定",
+              "unit": null
+            },
+            {
+              "attribute": "power_restoration",
+              "value": "许多地区已恢复",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "与此同时，DSWD 部长加查利安检查了该部门第9外勤办公室和第12外勤办公室的两个移动指挥中心（MCC）的运作情况，确保及时提供现场灾害响应最新信息。\n\n他在桑托斯将军城告诉当地记者：“总统指示我们，在这里的当地居民从灾后影响中恢复之前不要离开，尤其是这场强烈地震中幸运生还的受害者及其家人。”\n\n",
+          "start_offset": 445,
+          "end_offset": 594,
+          "sentence_ids": [
+            10,
+            11
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "mobile_command_centers_inspected",
+              "value": 2,
+              "unit": "centers"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "DSWD 迄今已向受害者提供价值超过423万菲律宾比索的人道主义援助。其第9外勤办公室已向萨兰加尼省因海啸警报流离失所的1,000多户家庭分发即食食品包。\n\n",
+          "start_offset": 594,
+          "end_offset": 673,
+          "sentence_ids": [
+            12,
+            13
+          ],
+          "fact_types": [
+            "aid",
+            "evacuation",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "aid_value",
+              "value": {
+                "value": 4230000,
+                "qualifier": "greater_than"
+              },
+              "unit": "PHP"
+            },
+            {
+              "attribute": "sarangani_families_receiving_food_packs",
+              "value": {
+                "value": 1000,
+                "qualifier": "greater_than"
+              },
+              "unit": "families"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "公共工程部长文斯·迪松表示，将尽快开始修复星期一地震后受损的公共基础设施。\n\n迪松于星期一下午乘飞机抵达桑托斯将军城，昨天继续检查南哥打巴托及达沃地区的主要道路和桥梁。\n\n在达沃市，迪松检查了布卡纳大桥，并向驾车者保证桥梁安全，因为地震影响仅限于桥梁引道的轻微非结构性缺陷，例如护栏受损和表面混凝土开裂。\n\n",
+          "start_offset": 673,
+          "end_offset": 827,
+          "sentence_ids": [
+            14,
+            15,
+            16
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "recovery"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "bucana_bridge_status",
+              "value": "安全；引道存在轻微非结构性损伤",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "桑托斯将军城至特博利至苏拉拉公路沿线的基础设施状况严重得多，地震引发的山体滑坡完全切断了公路一个重要路段。由于地质条件严重不稳定，迪松排除了在原址重建的可能。\n\n为绕开受损地段，迪松命令公共工程和公路部（DPWH）工程师开展技术评估，设计一条安全移至对侧山坡的永久绕行道路。\n\n私人承包商 JDRC 已向现场部署重型设备，开始紧急开通工作，而 DPWH 现场人员则在沿公路的次生滑坡区域开展清理工作。\n\n",
+          "start_offset": 827,
+          "end_offset": 1029,
+          "sentence_ids": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "fact_types": [
+            "infrastructure",
+            "secondary_hazard",
+            "cause",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "route",
+              "value": "桑托斯将军城至特博利至苏拉拉公路",
+              "unit": null
+            },
+            {
+              "attribute": "blocked_by",
+              "value": "山体滑坡",
+              "unit": null
+            },
+            {
+              "attribute": "planned_action",
+              "value": "永久绕行道路评估",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F009",
+          "span_text": "贸易和工业部表示，已进入灾难状态的桑托斯将军城现在对基本商品实施价格冻结。\n\n贸易和工业部长克里斯蒂娜·罗克昨天告诉记者，价格冻结将持续60天。\n\n价格冻结涵盖罐装鱼及其他海产品、加工牛奶、咖啡、洗衣皂或清洁皂、蜡烛、面包、碘盐、方便面及瓶装水。",
+          "start_offset": 1029,
+          "end_offset": 1152,
+          "sentence_ids": [
+            21,
+            22,
+            23
+          ],
+          "fact_types": [
+            "response",
+            "economic_loss"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "price_freeze_duration",
+              "value": 60,
+              "unit": "days"
+            },
+            {
+              "attribute": "location",
+              "value": "桑托斯将军城",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "484b699b93f8003755965d161cd9b102a12e7bdd20b3e4d67ce995f76f4cee01",
+        "removed_word_count": 47,
+        "removed_word_ratio": 0.07208588957055215
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-13B2B24F01454CC3",
+      "event_id": "DIS-EQ-0B8C572396473E2F",
+      "event_rank": 7,
+      "article_rank": 3,
+      "title": "菲律宾地震造成至少37人死亡，32,000人流离失所",
+      "publisher": "AsiaOne",
+      "identified_publisher": "AsiaOne",
+      "source_domain": "asiaone.com",
+      "url": "https://www.asiaone.com/asia/32000-people-displaced-philippine-earthquake-killed-least-37",
+      "published_at": "2026-06-10T03:58:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "文章援引菲律宾火山地震研究所（PHIVOLCS）所长向美联社发表的评论，但未明确注明通讯社来源。",
+      "content": "桑托斯将军城电——星期二（6月9日），救援人员在菲律宾南部搜查倒塌建筑，确保没有人仍被困。一天前，该国半个世纪以来最强烈的地震之一造成至少37人死亡、32,000多人流离失所。\n\n在星期一上午发生7.8级地震的地点附近，南部各省的官方记录仅认定4人失踪，但民防办公室承认，数座倒塌和严重受损的建筑必须经过彻底检查，以寻找可能的幸存者或受害者。\n\n地震震中位于菲律宾人口第二多的岛屿棉兰老岛近海，造成近500人受伤、32,000多人流离失所，其中大多数人逃往紧急避难所。\n\n许多离开家园的人担心发生海啸。菲律宾测得高出潮位达1.4米的波浪，但据报道，海啸造成的唯一破坏是一个沿海村庄中六间架空棚屋受损。\n\n较小的波浪冲上印度尼西亚和帕劳海岸，并远至日本南部。\n\n地震造成一系列破坏，包括桑托斯将军城，这座拥有70多万人口的活跃沿海城市是该国的金枪鱼之都，至少13人死于建筑倒塌和落下的碎片。\n\n民防办公室的拉斐尔利托·亚历杭德罗称，萨兰加尼省至少18人死亡，其中多数死于山体滑坡，滑坡掩埋了山坡城镇格兰的房屋。\n\n灾害响应官员说，其他死亡事件发生在南部的南哥打巴托省、西达沃省以及巴卢特岛。\n\n根据政府初步损失评估，多个省份约2,500所房屋和117座政府建筑及设施受损。\n\n桑托斯将军城国际机场连续第二天关闭，导致63个国内航班取消，执行人道主义任务的航班除外。\n\n地震灾区约6,000所公立学校的建筑需要在复课前进行评估。\n\n地震发生在两个月暑假后全国开学第一天，许多伤者是满怀兴奋地聚集参加晨间升旗仪式的年轻学生。\n\n当局警告，出现裂缝的建筑可能因余震而倒塌，其中一些余震强烈到具有危险性。\n\n亚历杭德罗说：“我们不能强制学校立即复课，因为必须确保建筑的完整性。”\n\n星期一地震震中位于海上，震源深度33公里，距萨兰加尼省马阿西姆镇西南约32公里。\n\n菲律宾火山地震研究所所长特雷西托·巴科尔科尔表示，此次地震由哥打巴托海沟的运动引发，是自1976年8月17日同一海底凹陷引发8.1级地震并激起海啸以来最强的一次。\n\n巴科尔科尔说，那次地震和高达8至10米的海啸吞没了数个城镇及省份，约8,000人死亡。\n\n巴科尔科尔告诉美联社，菲律宾地震研究所计划于8月安装标识，纪念1976年地震及海啸的周年，以提醒易受灾的城镇和城市需要始终保持警惕。\n\n1990年一次同样为7.8级的地震造成1,000多人死亡、数千人受伤，并给北部多个省市造成广泛破坏。\n\n小费迪南德·马科斯总统从马尼拉派遣高级国防及减灾官员，帮助监督搜救行动、向地震受害者分发数万份食品包及建筑材料，并评估桥梁、道路和其他基础设施的损坏情况。\n\n菲律宾的条约盟友美国表示，正与马尼拉协调，并准备支持菲律宾的响应工作。法国、日本和新西兰也表示支持。\n\n菲律宾位于环太平洋火山地震带上，即环绕该大洋的弧形地震断层带，因此常遭遇地震和火山喷发。\n\n这个群岛国家每年还受到约20场台风和热带风暴侵袭，使其成为世界上最易受灾的国家之一。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "桑托斯将军城电——星期二（6月9日），救援人员在菲律宾南部搜查倒塌建筑，确保没有人仍被困。一天前，该国半个世纪以来最强烈的地震之一造成至少37人死亡、32,000多人流离失所。\n\n在星期一上午发生7.8级地震的地点附近，南部各省的官方记录仅认定4人失踪，但民防办公室承认，数座倒塌和严重受损的建筑必须经过彻底检查，以寻找可能的幸存者或受害者。\n\n地震震中位于菲律宾人口第二多的岛屿棉兰老岛近海，造成近500人受伤、32,000多人流离失所，其中大多数人逃往紧急避难所。\n\n",
+          "start_offset": 0,
+          "end_offset": 236,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "missing_persons",
+            "disaster_magnitude",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 37,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "missing",
+              "value": 4,
+              "unit": "people"
+            },
+            {
+              "attribute": "magnitude",
+              "value": 7.8,
+              "unit": null
+            },
+            {
+              "attribute": "injuries",
+              "value": {
+                "value": 500,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "displaced",
+              "value": {
+                "value": 32000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "许多离开家园的人担心发生海啸。菲律宾测得高出潮位达1.4米的波浪，但据报道，海啸造成的唯一破坏是一个沿海村庄中六间架空棚屋受损。\n\n较小的波浪冲上印度尼西亚和帕劳海岸，并远至日本南部。\n\n",
+          "start_offset": 236,
+          "end_offset": 330,
+          "sentence_ids": [
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "evacuation",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "max_tsunami_height_above_tide",
+              "value": 1.4,
+              "unit": "m"
+            },
+            {
+              "attribute": "stilt_shanties_damaged",
+              "value": 6,
+              "unit": "structures"
+            },
+            {
+              "attribute": "other_wave_arrivals",
+              "value": [
+                "印度尼西亚",
+                "帕劳",
+                "日本南部"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "地震造成一系列破坏，包括桑托斯将军城，这座拥有70多万人口的活跃沿海城市是该国的金枪鱼之都，至少13人死于建筑倒塌和落下的碎片。\n\n民防办公室的拉斐尔利托·亚历杭德罗称，萨兰加尼省至少18人死亡，其中多数死于山体滑坡，滑坡掩埋了山坡城镇格兰的房屋。\n\n灾害响应官员说，其他死亡事件发生在南部的南哥打巴托省、西达沃省以及巴卢特岛。\n\n",
+          "start_offset": 330,
+          "end_offset": 496,
+          "sentence_ids": [
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "casualties",
+            "location",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "general_santos_deaths",
+              "value": {
+                "value": 13,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "sarangani_deaths",
+              "value": {
+                "value": 18,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "general_santos_population",
+              "value": {
+                "value": 700000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "根据政府初步损失评估，多个省份约2,500所房屋和117座政府建筑及设施受损。\n\n桑托斯将军城国际机场连续第二天关闭，导致63个国内航班取消，执行人道主义任务的航班除外。\n\n",
+          "start_offset": 496,
+          "end_offset": 583,
+          "sentence_ids": [
+            10,
+            11
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "houses_damaged",
+              "value": {
+                "value": 2500,
+                "qualifier": "about"
+              },
+              "unit": "houses"
+            },
+            {
+              "attribute": "government_buildings_or_facilities_damaged",
+              "value": 117,
+              "unit": "structures"
+            },
+            {
+              "attribute": "cancelled_domestic_flights",
+              "value": 63,
+              "unit": "flights"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "地震灾区约6,000所公立学校的建筑需要在复课前进行评估。\n\n地震发生在两个月暑假后全国开学第一天，许多伤者是满怀兴奋地聚集参加晨间升旗仪式的年轻学生。\n\n当局警告，出现裂缝的建筑可能因余震而倒塌，其中一些余震强烈到具有危险性。\n\n亚历杭德罗说：“我们不能强制学校立即复课，因为必须确保建筑的完整性。”\n\n",
+          "start_offset": 583,
+          "end_offset": 736,
+          "sentence_ids": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure",
+            "injuries",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "public_school_buildings_to_be_assessed",
+              "value": {
+                "value": 6000,
+                "qualifier": "about"
+              },
+              "unit": "buildings"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "星期一地震震中位于海上，震源深度33公里，距萨兰加尼省马阿西姆镇西南约32公里。\n\n菲律宾火山地震研究所所长特雷西托·巴科尔科尔表示，此次地震由哥打巴托海沟的运动引发，是自1976年8月17日同一海底凹陷引发8.1级地震并激起海啸以来最强的一次。\n\n",
+          "start_offset": 736,
+          "end_offset": 861,
+          "sentence_ids": [
+            16,
+            17
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "location",
+            "disaster_magnitude",
+            "cause"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "depth",
+              "value": 33,
+              "unit": "km"
+            },
+            {
+              "attribute": "distance_southwest_of_maasim",
+              "value": {
+                "value": 32,
+                "qualifier": "about"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "tectonic_source",
+              "value": "哥打巴托海沟",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "特雷西托·巴科尔科尔，PHIVOLCS",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "巴科尔科尔说，那次地震和高达8至10米的海啸吞没了数个城镇及省份，约8,000人死亡。\n\n巴科尔科尔告诉美联社，菲律宾地震研究所计划于8月安装标识，纪念1976年地震及海啸的周年，以提醒易受灾的城镇和城市需要始终保持警惕。\n\n1990年一次同样为7.8级的地震造成1,000多人死亡、数千人受伤，并给北部多个省市造成广泛破坏。\n\n",
+          "start_offset": 861,
+          "end_offset": 1026,
+          "sentence_ids": [
+            18,
+            19,
+            20
+          ],
+          "fact_types": [
+            "casualties",
+            "secondary_hazard",
+            "response",
+            "disaster_magnitude"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "1976_deaths",
+              "value": {
+                "value": 8000,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "1976_wave_height_range",
+              "value": [
+                8,
+                10
+              ],
+              "unit": "m"
+            },
+            {
+              "attribute": "1990_deaths",
+              "value": {
+                "value": 1000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F008",
+          "span_text": "小费迪南德·马科斯总统从马尼拉派遣高级国防及减灾官员，帮助监督搜救行动、向地震受害者分发数万份食品包及建筑材料，并评估桥梁、道路和其他基础设施的损坏情况。\n\n菲律宾的条约盟友美国表示，正与马尼拉协调，并准备支持菲律宾的响应工作。法国、日本和新西兰也表示支持。\n\n",
+          "start_offset": 1026,
+          "end_offset": 1157,
+          "sentence_ids": [
+            21,
+            22,
+            23
+          ],
+          "fact_types": [
+            "response",
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "external_support_expressed",
+              "value": [
+                "美国",
+                "法国",
+                "日本",
+                "新西兰"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F009",
+          "span_text": "菲律宾位于环太平洋火山地震带上，即环绕该大洋的弧形地震断层带，因此常遭遇地震和火山喷发。\n\n这个群岛国家每年还受到约20场台风和热带风暴侵袭，使其成为世界上最易受灾的国家之一。",
+          "start_offset": 1157,
+          "end_offset": 1245,
+          "sentence_ids": [
+            24,
+            25
+          ],
+          "fact_types": [
+            "secondary_hazard"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "annual_typhoons_and_tropical_storms",
+              "value": {
+                "value": 20,
+                "qualifier": "about"
+              },
+              "unit": "events"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "596b3a8e123b1f01df5bd9963ef11e9a98a015bdf30e8ccd93fb3d8004fa1315",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "棉兰老岛附近主震震级",
+        "fact_type": "disaster_magnitude",
+        "attribute": "mainshock_magnitude",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 7.8,
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 7.8,
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": 7.8,
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "报道的死亡人数均为下限",
+        "fact_type": "casualties",
+        "attribute": "death_toll_lower_bound",
+        "supporting_spans": [
+          "A001_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 38,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": "NDRRMC"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "value": 37,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "这些下限相容。A001 明确撤回此前的48人死亡数据。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "具体及近似受伤人数",
+        "fact_type": "injuries",
+        "attribute": "injuries",
+        "supporting_spans": [
+          "A001_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 478,
+            "unit": "people",
+            "attribution": "NDRRMC"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "value": 500,
+              "qualifier": "nearly"
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "官方失踪人数反映不同截止时间或报道标准",
+        "fact_type": "missing_persons",
+        "attribute": "missing_persons",
+        "supporting_spans": [
+          "A001_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 5,
+              "cutoff": "星期二15:00"
+            },
+            "unit": "people",
+            "attribution": "NDRRMC"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": 4,
+            "unit": "people",
+            "attribution": "official records"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "A003 未提供可比截止时间，因此无法确认冲突。"
+      },
+      {
+        "cluster_id": "FC005",
+        "cluster_description": "报道的流离失所人数不同",
+        "fact_type": "evacuation",
+        "attribute": "displaced_people",
+        "supporting_spans": [
+          "A001_F004",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": {
+              "value": 20690,
+              "qualifier": "approximately"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "value": 32000,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "差异可能反映统计更新或覆盖范围差别。"
+      },
+      {
+        "cluster_id": "FC006",
+        "cluster_description": "航空出行中断",
+        "fact_type": "infrastructure",
+        "attribute": "general_santos_airport_status",
+        "supporting_spans": [
+          "A001_F003",
+          "A003_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": "无法运营",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": "连续第二天关闭，人道主义航班除外",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC007",
+        "cluster_description": "政府向道路无法到达地区提供空运支持",
+        "fact_type": "aid",
+        "attribute": "airlift_response",
+        "supporting_spans": [
+          "A001_F009",
+          "A002_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F009",
+            "value": "DSWD 与空军和海岸警卫队合作",
+            "unit": null,
+            "attribution": "Castro"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": "DSWD 与空军和海岸警卫队合作",
+            "unit": null,
+            "attribution": "Gatchalian"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005",
+        "FC006",
+        "FC007"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005"
+      ],
+      "important_facts": [
+        "FC006",
+        "FC007"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2026-06-08",
+          "time_precision": "Local date",
+          "description": "棉兰老岛近海发生7.8级主震，部分沿海地区受到海啸影响。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F001",
+            "A003_F002",
+            "A003_F006"
+          ]
+        },
+        {
+          "time": "2026-06-09",
+          "time_precision": "Local date",
+          "description": "当局继续搜救。学校停课或等待评估，政府协调医疗援助、电力恢复和物资供应。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F006",
+            "A001_F008",
+            "A002_F001",
+            "A003_F005"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "PHIVOLCS 所长将近海主震归因于哥打巴托海沟沿线运动。",
+          "supporting_spans": [
+            "A003_F006"
+          ]
+        },
+        {
+          "description": "地震引发的山体滑坡切断道路，促使 DPWH 评估绕行路线。",
+          "supporting_spans": [
+            "A002_F008"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "7.8级地震导致死亡、受伤及大范围疏散。伤亡及失踪人数仍在核实。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F007",
+            "A003_F001"
+          ]
+        },
+        {
+          "description": "机场、道路和供电服务中断。政府提供空运及紧急基础设施修复。",
+          "supporting_spans": [
+            "A001_F003",
+            "A001_F009",
+            "A002_F003",
+            "A002_F008",
+            "A003_F004"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "马尼拉大都会地震数据涉及单独的假设情景。A001 最初错误报道48人死亡，随后更正。"
+    ]
+  }
+}

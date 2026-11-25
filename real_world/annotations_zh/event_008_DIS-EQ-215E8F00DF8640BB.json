@@ -1,0 +1,1084 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-215E8F00DF8640BB",
+  "event_rank": 8,
+  "event_metadata": {
+    "event_name": "瓦努阿图地震",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2024-12-17T01:47:25+00:00",
+    "event_end_time": "2024-12-17T01:47:25+00:00",
+    "locations": [
+      "瓦努阿图"
+    ],
+    "latitude": -17.6859,
+    "longitude": 168.0338,
+    "place_names_in_reports": [
+      "瓦努阿图",
+      "维拉港",
+      "埃法特岛",
+      "维拉港国际机场",
+      "努美阿"
+    ],
+    "gdacs_id": "1458084",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "主震于2024年12月17日发生。报道发布顺序无法确定伤亡数据更新的顺序。"
+    ],
+    "dataset_place_name": "瓦努阿图地震",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-3BF4CE137F43BC11",
+      "event_id": "DIS-EQ-215E8F00DF8640BB",
+      "event_rank": 8,
+      "article_rank": 1,
+      "title": "国际援助紧急抵达地震灾区瓦努阿图 | 商业",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/business/3199828-international-aid-rushed-to-earthquake-hit-vanuatu",
+      "published_at": "2024-12-18T22:31:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "Devdiscourse 概述国际援助及当地居民的情况。清理后的正文没有明确署名。",
+      "content": "澳大利亚救援及医疗队已抵达瓦努阿图，为遭遇毁灭性7.3级地震的当地提供支持。地震造成至少14人死亡、数百人受伤。 澳大利亚外交部长黄英贤宣布，澳大利亚将帮助受损的维拉港国际机场恢复运营。\n\n澳大利亚的援助包括遣返约150名本国公民。其他全球援助包括美国和法国的应急队伍，法国派出一架配备卫星通信设备的军用直升机及军事工程人员。不过，技术问题导致新西兰救援队抵达时间延迟。\n\n瓦努阿图的供电及通信中断阻碍了救援工作。 联合国儿童基金会（UNICEF）表示，水污染也是一项严重问题。 当地居民卡丽莎·雅各贝不得不使用发电机供电，尽管局面混乱，部分商店试图开门营业，显示出有限的恢复迹象。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "澳大利亚救援及医疗队已抵达瓦努阿图，为遭遇毁灭性7.3级地震的当地提供支持。地震造成至少14人死亡、数百人受伤。 ",
+          "start_offset": 0,
+          "end_offset": 57,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "casualties",
+            "injuries",
+            "aid",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.3,
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 14,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injuries",
+              "value": "数百人",
+              "unit": "people"
+            },
+            {
+              "attribute": "aid_team_origin",
+              "value": "澳大利亚",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "澳大利亚外交部长黄英贤宣布，澳大利亚将帮助受损的维拉港国际机场恢复运营。\n\n",
+          "start_offset": 57,
+          "end_offset": 95,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "airport",
+              "value": "维拉港国际机场",
+              "unit": null
+            },
+            {
+              "attribute": "assistance_commitment",
+              "value": "澳大利亚将协助恢复运营",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "黄英贤",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "澳大利亚的援助包括遣返约150名本国公民。其他全球援助包括美国和法国的应急队伍，法国派出一架配备卫星通信设备的军用直升机及军事工程人员。不过，技术问题导致新西兰救援队抵达时间延迟。\n\n",
+          "start_offset": 95,
+          "end_offset": 187,
+          "sentence_ids": [
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "citizens_to_repatriate",
+              "value": {
+                "value": 150,
+                "qualifier": "approximately"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "international_response_countries",
+              "value": [
+                "澳大利亚",
+                "美国",
+                "法国",
+                "新西兰"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "new_zealand_delay",
+              "value": "技术问题",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "瓦努阿图的供电及通信中断阻碍了救援工作。 ",
+          "start_offset": 187,
+          "end_offset": 208,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "infrastructure",
+            "aid",
+            "response",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "constraints",
+              "value": [
+                "供电中断",
+                "通信中断"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "联合国儿童基金会（UNICEF）表示，水污染也是一项严重问题。 ",
+          "start_offset": 208,
+          "end_offset": 240,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "humanitarian_needs",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "concern",
+              "value": "水污染",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "UNICEF",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "当地居民卡丽莎·雅各贝不得不使用发电机供电，尽管局面混乱，部分商店试图开门营业，显示出有限的恢复迹象。",
+          "start_offset": 240,
+          "end_offset": 291,
+          "sentence_ids": [
+            8
+          ],
+          "fact_types": [
+            "recovery",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "resident",
+              "value": "卡丽莎·雅各贝",
+              "unit": null
+            },
+            {
+              "attribute": "power_workaround",
+              "value": "发电机",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "abccf197a8d9b9643e57d9da6a2d75de932d8886d689b364ffe44bad53bbed36",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-1F3E402582530F08",
+      "event_id": "DIS-EQ-215E8F00DF8640BB",
+      "event_rank": 8,
+      "article_rank": 2,
+      "title": "新西兰一架救援飞机发生故障，第二架抵达瓦努阿图",
+      "publisher": "radionz",
+      "identified_publisher": "RNZ",
+      "source_domain": "rnz.co.nz",
+      "url": "https://www.rnz.co.nz/news/national/537080/live-nz-hercules-arrives-in-vanuatu-after-breakdown",
+      "published_at": "2024-12-18T22:51:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "RNZ 播放器和超链接表明 RNZ 为承载网站，正文未提供可核实的署名。",
+      "content": "“瓦努阿图地震死亡人数预计将继续上升”的音频播放器已为打印而移除。\n\n访问页面播放音频：https://www.rnz.co.nz/news/eyJhbGciOiJIUzI1NiJ9._v0.KrRTFtoPsaA8nSDloPZ4KejQJr59ANQpD9ULgGwzaM0/world/537080%2Fsecond-nz-rescue-plane-arrives-in-vanuatu-as-one-breaks-down\n\n随着新西兰国防军抵达维拉港，今天仍在继续搜寻被困在废墟和山体滑坡中的人员。\n\n新西兰国防军因一架较旧的大力神运输机出现故障而延迟抵达瓦努阿图。\n\n工党表示这一情况令人尴尬，但一架新的大力神运输机已经降落维拉港，第二架正在前往努美阿的途中。\n\n自星期二发生大地震以来，人们已经感受到超过300次余震。\n\n官方死亡人数下调至9人，不过预计还将上升。遇难者中有两名中国公民。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "“瓦努阿图地震死亡人数预计将继续上升”的音频播放器已为打印而移除。\n\n访问页面播放音频：https://www.rnz.co.nz/news/eyJhbGciOiJIUzI1NiJ9._v0.KrRTFtoPsaA8nSDloPZ4KejQJr59ANQpD9ULgGwzaM0/world/537080%2Fsecond-nz-rescue-plane-arrives-in-vanuatu-as-one-breaks-down\n\n",
+          "start_offset": 0,
+          "end_offset": 217,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "随着新西兰国防军抵达维拉港，今天仍在继续搜寻被困在废墟和山体滑坡中的人员。\n\n",
+          "start_offset": 217,
+          "end_offset": 256,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "location",
+              "value": "维拉港",
+              "unit": null
+            },
+            {
+              "attribute": "activity",
+              "value": "搜寻被废墟和山体滑坡困住的人员",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "新西兰国防军因一架较旧的大力神运输机出现故障而延迟抵达瓦努阿图。\n\n工党表示这一情况令人尴尬，但一架新的大力神运输机已经降落维拉港，第二架正在前往努美阿的途中。\n\n",
+          "start_offset": 256,
+          "end_offset": 338,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "delay_reason",
+              "value": "较旧的大力神运输机出现故障",
+              "unit": null
+            },
+            {
+              "attribute": "arrival",
+              "value": "新的大力神运输机降落维拉港",
+              "unit": null
+            },
+            {
+              "attribute": "additional_flight",
+              "value": "第二架飞机正在前往努美阿",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "自星期二发生大地震以来，人们已经感受到超过300次余震。\n\n",
+          "start_offset": 338,
+          "end_offset": 368,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "felt_aftershocks",
+              "value": {
+                "value": 300,
+                "qualifier": "greater_than"
+              },
+              "unit": "events"
+            },
+            {
+              "attribute": "time_scope",
+              "value": "自星期二以来",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "官方死亡人数下调至9人，不过预计还将上升。遇难者中有两名中国公民。",
+          "start_offset": 368,
+          "end_offset": 401,
+          "sentence_ids": [
+            8,
+            9
+          ],
+          "fact_types": [
+            "casualties",
+            "uncertainty"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "revised_official_deaths",
+              "value": 9,
+              "unit": "people"
+            },
+            {
+              "attribute": "reported_chinese_nationals_among_dead",
+              "value": 2,
+              "unit": "people"
+            },
+            {
+              "attribute": "revision_direction",
+              "value": "下调",
+              "unit": null
+            },
+            {
+              "attribute": "expectation",
+              "value": "死亡人数可能上升",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "11a69ac6f192a8a0af75cb4ad6d0dd443f4e3f524124f7d0b88a8031ad8a84bd",
+        "removed_word_count": 28,
+        "removed_word_ratio": 0.1761006289308176
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-7FE70CCABAD7EF44",
+      "event_id": "DIS-EQ-215E8F00DF8640BB",
+      "event_rank": 8,
+      "article_rank": 3,
+      "title": "联合国：瓦努阿图遭遇强震后请求国际援助",
+      "publisher": "menafn",
+      "identified_publisher": "Xinhua (attributed in article)",
+      "source_domain": "menafn.com",
+      "url": "https://menafn.com/1109010265/Vanuatu-Asks-For-International-Assistance-After-Massive-Quake-UN",
+      "published_at": "2024-12-19T00:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "republished",
+      "source_independence": "syndicated",
+      "source_independence_reason": "MENAFN 明确将伤亡信息归于新华社，并援引联合国材料。完整转载链无法获得。",
+      "content": "星期二发生7.3级地震后，瓦努阿图政府宣布进入为期7天的紧急状态。 新华社报道，已确认至少14人死亡、200多人受伤。当局预计死亡人数还将上升。\n\n联合国秘书长发言人斯特凡·杜加里克告诉记者，为补充国内响应行动，政府已经请求国际援助。\n\n据地方当局称，地震造成广泛损坏，包括医院、住宅和公共建筑、道路、蓄水设施及燃气管道。\n\n埃法特岛附近村庄也出现山体滑坡，许多地区的通信被切断。\n\n联合国人道主义事务协调厅（OCHA）报告称，首都维拉港国际机场因航站楼及道路网络受损而出现运营延误，跑道仍可使用。机场继续对所有商业航班关闭。\n\n山体滑坡也阻碍了通往港口的通道，限制必需物资和人员运输。\n\nOCHA 表示，联合国及合作伙伴正在调动资源进行响应，并向地震灾区部署响应团队，其中包括联合国灾害评估与协调小组。\n\n联合国人道主义工作者表示，当前迫切需求包括医疗物资、医疗设施修复、流动医疗队、配备重型清理设备的搜救队伍及安全饮用水。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "星期二发生7.3级地震后，瓦努阿图政府宣布进入为期7天的紧急状态。 ",
+          "start_offset": 0,
+          "end_offset": 34,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.3,
+              "unit": null
+            },
+            {
+              "attribute": "state_of_emergency_duration",
+              "value": 7,
+              "unit": "days"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "新华社报道，已确认至少14人死亡、200多人受伤。当局预计死亡人数还将上升。\n\n",
+          "start_offset": 34,
+          "end_offset": 74,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "uncertainty"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 14,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injuries",
+              "value": {
+                "value": 200,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "新华社援引有关当局",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "联合国秘书长发言人斯特凡·杜加里克告诉记者，为补充国内响应行动，政府已经请求国际援助。\n\n",
+          "start_offset": 74,
+          "end_offset": 119,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "assistance_status",
+              "value": "瓦努阿图政府提出请求",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "斯特凡·杜加里克",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "据地方当局称，地震造成广泛损坏，包括医院、住宅和公共建筑、道路、蓄水设施及燃气管道。\n\n埃法特岛附近村庄也出现山体滑坡，许多地区的通信被切断。\n\n",
+          "start_offset": 119,
+          "end_offset": 192,
+          "sentence_ids": [
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "damage",
+              "value": [
+                "医院",
+                "住宅和公共建筑",
+                "道路",
+                "蓄水设施",
+                "燃气管道"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "landslides",
+              "value": "埃法特岛附近村庄",
+              "unit": null
+            },
+            {
+              "attribute": "communications_loss",
+              "value": "许多地区",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "联合国人道主义事务协调厅（OCHA）报告称，首都维拉港国际机场因航站楼及道路网络受损而出现运营延误，跑道仍可使用。机场继续对所有商业航班关闭。\n\n",
+          "start_offset": 192,
+          "end_offset": 265,
+          "sentence_ids": [
+            8,
+            9
+          ],
+          "fact_types": [
+            "infrastructure",
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "runway",
+              "value": "可使用",
+              "unit": null
+            },
+            {
+              "attribute": "commercial_operations",
+              "value": "关闭",
+              "unit": null
+            },
+            {
+              "attribute": "delays",
+              "value": "航站楼和道路网络受损",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "OCHA",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "山体滑坡也阻碍了通往港口的通道，限制必需物资和人员运输。\n\n",
+          "start_offset": 265,
+          "end_offset": 295,
+          "sentence_ids": [
+            10
+          ],
+          "fact_types": [
+            "infrastructure",
+            "aid",
+            "secondary_hazard",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "seaport_access",
+              "value": "受山体滑坡阻碍",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "OCHA 表示，联合国及合作伙伴正在调动资源进行响应，并向地震灾区部署响应团队，其中包括联合国灾害评估与协调小组。\n\n",
+          "start_offset": 295,
+          "end_offset": 354,
+          "sentence_ids": [
+            11,
+            12
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "response_team",
+              "value": "联合国灾害评估与协调小组",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "OCHA",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F008",
+          "span_text": "联合国人道主义工作者表示，当前迫切需求包括医疗物资、医疗设施修复、流动医疗队、配备重型清理设备的搜救队伍及安全饮用水。",
+          "start_offset": 354,
+          "end_offset": 413,
+          "sentence_ids": [
+            13
+          ],
+          "fact_types": [
+            "humanitarian_needs",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "needs",
+              "value": [
+                "医疗物资",
+                "医疗设施修复",
+                "流动医疗队",
+                "配备重型设备的搜救队伍",
+                "安全饮用水"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "联合国人道主义工作者",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "a3d71c12b026f1f1f2406d6783096664e9e5df1f064b69f8399dab1fae888ca8",
+        "removed_word_count": 69,
+        "removed_word_ratio": 0.23469387755102042
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "瓦努阿图主震的震级",
+        "fact_type": "disaster_magnitude",
+        "attribute": "mainshock_magnitude",
+        "supporting_spans": [
+          "A001_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 7.3,
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": 7.3,
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "报道的死亡人数包括至少14人的估计值及下调至9人的修订值",
+        "fact_type": "casualties",
+        "attribute": "reported_death_toll",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F005",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 14,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F005",
+            "value": {
+              "value": 9,
+              "revision_direction": "下调"
+            },
+            "unit": "people",
+            "attribution": "official toll as reported by RNZ"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "value": 14,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": "Xinhua citing authorities"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "A002 明确报道官方下调了死亡人数。没有共同截止时间或完整修订历史。A003 尽管发布时间较晚，仍可能采用了较早的数据。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "据报道有数百人受伤",
+        "fact_type": "injuries",
+        "attribute": "reported_injuries",
+        "supporting_spans": [
+          "A001_F001",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "数百人",
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "value": 200,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": "Xinhua"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "新西兰救援队的部署或抵达出现延误",
+        "fact_type": "aid",
+        "attribute": "nz_response_delay",
+        "supporting_spans": [
+          "A001_F003",
+          "A002_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": "技术问题",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": "较旧的大力神运输机出现故障",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC005",
+        "cluster_description": "受损情况导致维拉港机场运营中断",
+        "fact_type": "infrastructure",
+        "attribute": "airport_disruption",
+        "supporting_spans": [
+          "A001_F002",
+          "A003_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": "机场受损；澳大利亚将协助恢复运营",
+            "unit": null,
+            "attribution": "Penny Wong"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F005",
+            "value": "跑道可使用，但商业服务关闭",
+            "unit": null,
+            "attribution": "OCHA"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC006",
+        "cluster_description": "地震后安全饮用水是迫切需求",
+        "fact_type": "humanitarian_needs",
+        "attribute": "safe_drinking_water",
+        "supporting_spans": [
+          "A001_F005",
+          "A003_F008"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F005",
+            "value": "水污染令人担忧",
+            "unit": null,
+            "attribution": "UNICEF"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F008",
+            "value": "迫切需要安全饮用水",
+            "unit": null,
+            "attribution": "UN humanitarians"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005",
+        "FC006"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "important_facts": [
+        "FC004",
+        "FC005",
+        "FC006"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2024-12-17",
+          "time_precision": "Local date",
+          "description": "瓦努阿图发生7.3级主震。",
+          "supporting_spans": [
+            "A001_F001",
+            "A003_F001"
+          ]
+        },
+        {
+          "time": "2024-12-18",
+          "time_precision": "Publication date (UTC)",
+          "description": "澳大利亚救援及医疗人员抵达。新西兰也报告在飞机故障后抵达。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F002",
+            "A002_F003"
+          ]
+        },
+        {
+          "time": "2024-12-19",
+          "time_precision": "Publication date (UTC)",
+          "description": "报道转述政府请求国际援助及联合国的协调工作。",
+          "supporting_spans": [
+            "A003_F003",
+            "A003_F007"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "技术故障导致新西兰救援人员延迟抵达。",
+          "supporting_spans": [
+            "A001_F003",
+            "A002_F003"
+          ]
+        },
+        {
+          "description": "机场航站楼及道路受损，加上山体滑坡阻碍港口通道，影响人员和物资运输。",
+          "supporting_spans": [
+            "A003_F005",
+            "A003_F006"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "主震造成人员死亡及多人受伤。死亡人数保留各篇报道及其所引用官方修订数据的归属。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F005",
+            "A003_F002"
+          ]
+        },
+        {
+          "description": "政府宣布进入紧急状态并请求国际援助。多个国家及联合国提供支持。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F002",
+            "A003_F001",
+            "A003_F003",
+            "A003_F007"
+          ]
+        },
+        {
+          "description": "交通、电力、通信和饮用水均受到影响。",
+          "supporting_spans": [
+            "A001_F004",
+            "A001_F005",
+            "A003_F004",
+            "A003_F005",
+            "A003_F006",
+            "A003_F008"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "未将任何单一死亡人数设定为标准答案。报道未提供相应原始公告或统计截止时间。"
+    ]
+  }
+}

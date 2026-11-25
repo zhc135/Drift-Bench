@@ -1,0 +1,910 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-VO-0C863C7350BE8B58",
+  "event_rank": 37,
+  "event_metadata": {
+    "event_name": "勒沃托比火山喷发",
+    "disaster_type": "volcanic_eruption",
+    "disaster_type_code": "VO",
+    "event_start_time": "2025-06-17T09:45:00+00:00",
+    "event_end_time": "2025-08-01T13:10:00+00:00",
+    "locations": [
+      "印度尼西亚"
+    ],
+    "latitude": -8.542,
+    "longitude": 122.775,
+    "place_names_in_reports": [
+      "勒沃托比拉基拉基火山",
+      "弗洛勒斯岛",
+      "东努沙登加拉省",
+      "印度尼西亚",
+      "巴厘岛"
+    ],
+    "gdacs_id": "1000117",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "三篇报道均给出当地时间17:35。CSV 开始时间与报道的喷发时间相差十分钟。较早喷发排除在本事件之外。"
+    ],
+    "dataset_place_name": "勒沃托比火山喷发",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-1E78BB5A9ECCA3DF",
+      "event_id": "DIS-VO-0C863C7350BE8B58",
+      "event_rank": 37,
+      "article_rank": 1,
+      "title": "印度尼西亚火山喷出巨大火山灰柱，警报级别提高",
+      "publisher": "menafn",
+      "identified_publisher": null,
+      "source_domain": "menafn.com",
+      "url": "https://menafn.com/1109685722/Indonesia-Volcano-Spews-Colossal-Ash-Tower-Alert-Level-Raised",
+      "published_at": "2025-06-17T00:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "MENAFN 与 NDTV 文本几乎完全相同，并使用相同机构声明，原始署名缺失。",
+      "content": "雅加达：当局星期二表示，印度尼西亚东部一座火山向天空喷出巨大的火山灰柱，此前当局已将警报提升至四级系统的最高级别。\n\n火山学机构在声明中表示，位于旅游胜地弗洛勒斯岛、高1,584米的双峰火山勒沃托比拉基拉基于当地时间下午5:35（格林尼治标准时间09:35）喷发。\n\n该机构在提高警报级别后表示：“观测到喷发柱高约在山顶上方10,000米。观测到火山灰柱呈灰色且浓密。”\n\n尚无损坏或人员伤亡的即时报告。\n\n地质部门负责人穆罕默德·瓦菲德表示，居民和游客应避免在距火山口至少7公里范围内开展任何活动。\n\n但他警告，如果发生强降雨，可能出现危险的火山泥流，即火山物质形成的泥流或碎屑流，尤其对邻近河流的社区而言。\n\n他还敦促居民佩戴口罩，以防火山灰影响。\n\n11月，勒沃托比拉基拉基火山多次喷发，造成9人死亡、数千人撤离，并使前往巴厘岛的数十个国际航班取消。\n\n星期二喷发后，尚无航班取消的即时报告。\n\n拉基拉基在印度尼西亚语中意为男人，它的孪生火山是较为平静但更高的佩伦普安火山，海拔1,703米（5,587英尺），其名称来自印度尼西亚语中的女人。\n\n印度尼西亚是一个广阔的群岛国家，由于位于环太平洋火山地震带上，地震和火山活动频繁。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "雅加达：当局星期二表示，印度尼西亚东部一座火山向天空喷出巨大的火山灰柱，此前当局已将警报提升至四级系统的最高级别。\n\n火山学机构在声明中表示，位于旅游胜地弗洛勒斯岛、高1,584米的双峰火山勒沃托比拉基拉基于当地时间下午5:35（格林尼治标准时间09:35）喷发。\n\n",
+          "start_offset": 0,
+          "end_offset": 134,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "alert_level",
+              "value": 4,
+              "unit": null
+            },
+            {
+              "attribute": "time_local",
+              "value": "17:35",
+              "unit": null
+            },
+            {
+              "attribute": "time_utc",
+              "value": "09:35",
+              "unit": null
+            },
+            {
+              "attribute": "volcano_elevation",
+              "value": 1584,
+              "unit": "m"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "该机构在提高警报级别后表示：“观测到喷发柱高约在山顶上方10,000米。观测到火山灰柱呈灰色且浓密。”\n\n",
+          "start_offset": 134,
+          "end_offset": 187,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "ash_height_above_summit",
+              "value": {
+                "value": 10000,
+                "qualifier": "approximately"
+              },
+              "unit": "m"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "尚无损坏或人员伤亡的即时报告。\n\n",
+          "start_offset": 187,
+          "end_offset": 204,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "damage",
+            "casualties"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "damage_or_casualties",
+              "value": "暂无即时报告",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "地质部门负责人穆罕默德·瓦菲德表示，居民和游客应避免在距火山口至少7公里范围内开展任何活动。\n\n但他警告，如果发生强降雨，可能出现危险的火山泥流，即火山物质形成的泥流或碎屑流，尤其对邻近河流的社区而言。\n\n他还敦促居民佩戴口罩，以防火山灰影响。\n\n",
+          "start_offset": 204,
+          "end_offset": 328,
+          "sentence_ids": [
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "crater_buffer",
+              "value": {
+                "value": 7,
+                "qualifier": "at_least"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "hazard",
+              "value": "降雨诱发的火山泥流",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "11月，勒沃托比拉基拉基火山多次喷发，造成9人死亡、数千人撤离，并使前往巴厘岛的数十个国际航班取消。\n\n",
+          "start_offset": 328,
+          "end_offset": 380,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "evacuation",
+            "infrastructure"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "之前11月的火山喷发",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": 9,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "星期二喷发后，尚无航班取消的即时报告。\n\n",
+          "start_offset": 380,
+          "end_offset": 401,
+          "sentence_ids": [
+            10
+          ],
+          "fact_types": [
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "flight_cancellations",
+              "value": "未有即时报告",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "拉基拉基在印度尼西亚语中意为男人，它的孪生火山是较为平静但更高的佩伦普安火山，海拔1,703米（5,587英尺），其名称来自印度尼西亚语中的女人。\n\n印度尼西亚是一个广阔的群岛国家，由于位于环太平洋火山地震带上，地震和火山活动频繁。",
+          "start_offset": 401,
+          "end_offset": 517,
+          "sentence_ids": [
+            11,
+            12
+          ],
+          "fact_types": [
+            "location"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "perempuan_elevation",
+              "value": 1703,
+              "unit": "m"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "4a76cf30755c2459ff8ab7f087f5ed484198fba9c83bc5b93ce9f92932d3845b",
+        "removed_word_count": 69,
+        "removed_word_ratio": 0.21036585365853658
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-0FF065813E14EF2E",
+      "event_id": "DIS-VO-0C863C7350BE8B58",
+      "event_rank": 37,
+      "article_rank": 2,
+      "title": "印度尼西亚火山喷出巨大火山灰柱，观测高度达山顶上方10,000米",
+      "publisher": "ndtvnews",
+      "identified_publisher": null,
+      "source_domain": "ndtv.com",
+      "url": "https://www.ndtv.com/world-news/indonesia-volcano-spews-colossal-ash-tower-seen-10-000-metres-above-summit-8691372",
+      "published_at": "2025-06-17T12:20:23+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "MENAFN 与 NDTV 文本几乎完全相同，并使用相同机构声明，原始署名缺失。",
+      "content": "当局星期二表示，印度尼西亚东部一座火山向天空喷出巨大的火山灰柱，此前当局已将警报提升至四级系统的最高级别。火山学机构在声明中表示，位于旅游胜地弗洛勒斯岛、高1,584米的双峰火山勒沃托比拉基拉基于当地时间下午5:35（格林尼治标准时间09:35）喷发。“观测到喷发柱高约在山顶上方10,000米。观测到火山灰柱呈灰色且浓密。”该机构在提高警报级别后表示。尚无损坏或人员伤亡的即时报告。地质部门负责人穆罕默德·瓦菲德表示，居民和游客应避免在距火山口至少7公里范围内开展任何活动。但他警告，如果发生强降雨，可能出现危险的火山泥流，即火山物质形成的泥流或碎屑流，尤其对邻近河流的社区而言。他还敦促居民佩戴口罩，以防火山灰影响。11月，勒沃托比拉基拉基火山多次喷发，造成9人死亡、数千人撤离，并使前往巴厘岛的数十个国际航班取消。星期二喷发后，尚无航班取消的即时报告。拉基拉基在印度尼西亚语中意为男人，它的孪生火山是较为平静但更高的佩伦普安火山，海拔1,703米（5,587英尺），其名称来自印度尼西亚语中的女人。印度尼西亚是一个广阔的群岛国家，由于位于环太平洋火山地震带上，地震和火山活动频繁。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "当局星期二表示，印度尼西亚东部一座火山向天空喷出巨大的火山灰柱，此前当局已将警报提升至四级系统的最高级别。火山学机构在声明中表示，位于旅游胜地弗洛勒斯岛、高1,584米的双峰火山勒沃托比拉基拉基于当地时间下午5:35（格林尼治标准时间09:35）喷发。“",
+          "start_offset": 0,
+          "end_offset": 127,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "alert_level",
+              "value": 4,
+              "unit": null
+            },
+            {
+              "attribute": "time_local",
+              "value": "17:35",
+              "unit": null
+            },
+            {
+              "attribute": "time_utc",
+              "value": "09:35",
+              "unit": null
+            },
+            {
+              "attribute": "volcano_elevation",
+              "value": 1584,
+              "unit": "m"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "观测到喷发柱高约在山顶上方10,000米。观测到火山灰柱呈灰色且浓密。”该机构在提高警报级别后表示。",
+          "start_offset": 127,
+          "end_offset": 177,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "ash_height_above_summit",
+              "value": {
+                "value": 10000,
+                "qualifier": "approximately"
+              },
+              "unit": "m"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "尚无损坏或人员伤亡的即时报告。",
+          "start_offset": 177,
+          "end_offset": 192,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "damage",
+            "casualties"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "damage_or_casualties",
+              "value": "暂无即时报告",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "地质部门负责人穆罕默德·瓦菲德表示，居民和游客应避免在距火山口至少7公里范围内开展任何活动。但他警告，如果发生强降雨，可能出现危险的火山泥流，即火山物质形成的泥流或碎屑流，尤其对邻近河流的社区而言。他还敦促居民佩戴口罩，以防火山灰影响。11月，勒沃托比拉基拉基火山多次喷发，造成9人死亡、数千人撤离，并使前往巴厘岛的数十个国际航班取消。",
+          "start_offset": 192,
+          "end_offset": 360,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "crater_buffer",
+              "value": {
+                "value": 7,
+                "qualifier": "at_least"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "hazard",
+              "value": "降雨诱发的火山泥流",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "星期二喷发后，尚无航班取消的即时报告。",
+          "start_offset": 360,
+          "end_offset": 379,
+          "sentence_ids": [
+            8
+          ],
+          "fact_types": [
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "flight_cancellations",
+              "value": "未有即时报告",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "拉基拉基在印度尼西亚语中意为男人，它的孪生火山是较为平静但更高的佩伦普安火山，海拔1,703米（5,587英尺），其名称来自印度尼西亚语中的女人。印度尼西亚是一个广阔的群岛国家，由于位于环太平洋火山地震带上，地震和火山活动频繁。",
+          "start_offset": 379,
+          "end_offset": 493,
+          "sentence_ids": [
+            9,
+            10
+          ],
+          "fact_types": [
+            "location"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "perempuan_elevation",
+              "value": 1703,
+              "unit": "m"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "6322fcc5f90fdeb5ef578afc9a9d2d3982b0444f44e07ced8a0a39e50cf793b9",
+        "removed_word_count": 20,
+        "removed_word_ratio": 0.07142857142857142
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-187D8383274808AF",
+      "event_id": "DIS-VO-0C863C7350BE8B58",
+      "event_rank": 37,
+      "article_rank": 3,
+      "title": "勒沃托比拉基拉基火山喷发，印度尼西亚发布最高级别航空警报",
+      "publisher": "xinhuanet-english",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20250617/70a2ef213bad4a41a50410d5f538d5e0/c.html",
+      "published_at": "2025-06-17T13:35:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "新华社雅加达发稿，使用 PVMBG 材料，并给出航空警报细节。",
+      "content": "印度尼西亚火山学和地质灾害减灾中心（PVMBG）提供的这张照片显示，2025年6月17日，印度尼西亚东努沙登加拉省勒沃托比拉基拉基火山喷出火山物质。火山学和地质灾害减灾中心报告，印度尼西亚东努沙登加拉省的勒沃托比拉基拉基火山星期二喷发，向空中喷出高达10公里的火山灰柱，并触发最高级别航空警报。禁止社区人员在距火山口7公里半径内，以及西南和东北方向8公里范围内开展任何活动。（PVMBG供图，经新华社发布）\n\n新华社雅加达6月17日电——火山学和地质灾害减灾中心报告，印度尼西亚东努沙登加拉省的勒沃托比拉基拉基火山星期二喷发，向空中喷出高达10公里的火山灰柱，并触发最高级别航空警报。\n\n喷发发生于当地时间下午5:35，浓密灰色云团从火山口向北、东北、东、东南、南、西南及西北方向移动。\n\n火山观测站航空通报已提升至最高的红色警报，禁止航空器在火山附近6,000米以下空域飞行。航空器还应警惕可能影响飞行的火山灰。\n\n禁止社区人员在距火山口7公里半径内，以及西南和东北方向8公里范围内开展任何活动。\n\n建议火山周边居民警惕强降雨期间源自火山口的河流可能发生降雨诱发的火山泥流。受火山降灰影响地区的居民被敦促佩戴口罩或遮盖口鼻，以保护呼吸系统免受火山灰影响。\n\n这座高1,584米的火山是印度尼西亚127座活火山之一。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "印度尼西亚火山学和地质灾害减灾中心（PVMBG）提供的这张照片显示，2025年6月17日，印度尼西亚东努沙登加拉省勒沃托比拉基拉基火山喷出火山物质。火山学和地质灾害减灾中心报告，印度尼西亚东努沙登加拉省的勒沃托比拉基拉基火山星期二喷发，向空中喷出高达10公里的火山灰柱，并触发最高级别航空警报。禁止社区人员在距火山口7公里半径内，以及西南和东北方向8公里范围内开展任何活动。（PVMBG供图，经新华社发布）\n\n",
+          "start_offset": 0,
+          "end_offset": 205,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "新华社雅加达6月17日电——火山学和地质灾害减灾中心报告，印度尼西亚东努沙登加拉省的勒沃托比拉基拉基火山星期二喷发，向空中喷出高达10公里的火山灰柱，并触发最高级别航空警报。\n\n喷发发生于当地时间下午5:35，浓密灰色云团从火山口向北、东北、东、东南、南、西南及西北方向移动。\n\n",
+          "start_offset": 205,
+          "end_offset": 345,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "ash_height",
+              "value": {
+                "value": 10,
+                "qualifier": "up_to"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "time_local",
+              "value": "17:35",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "火山观测站航空通报已提升至最高的红色警报，禁止航空器在火山附近6,000米以下空域飞行。航空器还应警惕可能影响飞行的火山灰。\n\n",
+          "start_offset": 345,
+          "end_offset": 409,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "aviation_alert",
+              "value": "红色",
+              "unit": null
+            },
+            {
+              "attribute": "flight_lower_altitude_limit_near_volcano",
+              "value": 6000,
+              "unit": "m"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "禁止社区人员在距火山口7公里半径内，以及西南和东北方向8公里范围内开展任何活动。\n\n",
+          "start_offset": 409,
+          "end_offset": 451,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "response",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "general_radius",
+              "value": 7,
+              "unit": "km"
+            },
+            {
+              "attribute": "sector_radius_sw_ne",
+              "value": 8,
+              "unit": "km"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "建议火山周边居民警惕强降雨期间源自火山口的河流可能发生降雨诱发的火山泥流。受火山降灰影响地区的居民被敦促佩戴口罩或遮盖口鼻，以保护呼吸系统免受火山灰影响。\n\n",
+          "start_offset": 451,
+          "end_offset": 530,
+          "sentence_ids": [
+            10,
+            11
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "hazard",
+              "value": "降雨诱发的火山泥流及降灰",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "这座高1,584米的火山是印度尼西亚127座活火山之一。",
+          "start_offset": 530,
+          "end_offset": 558,
+          "sentence_ids": [
+            12
+          ],
+          "fact_types": [
+            "disaster_magnitude"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "volcano_elevation",
+              "value": 1584,
+              "unit": "m"
+            },
+            {
+              "attribute": "active_volcanoes_national",
+              "value": 127,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "61eaac2370a6cbf6f01e4ae0e8c461a058c440cde9fa7cfe71551aef9b796029",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "喷发发生于当地时间17:35",
+        "fact_type": "timeline",
+        "attribute": "eruption_time",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "当地时间17:35",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "当地时间17:35",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "当地时间17:35",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "火山灰柱高度约达10公里",
+        "fact_type": "disaster_magnitude",
+        "attribute": "ash_column",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": {
+              "value": 10000,
+              "qualifier": "approximately",
+              "reference": "山顶"
+            },
+            "unit": "m",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": {
+              "value": 10000,
+              "qualifier": "approximately",
+              "reference": "山顶"
+            },
+            "unit": "m",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "value": 10,
+              "qualifier": "up_to",
+              "reference": "空中"
+            },
+            "unit": "km",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "禁入通知给出一般半径和特定方向的更广限制",
+        "fact_type": "response",
+        "attribute": "exclusion_zone",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F004",
+          "A003_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": "至少7公里",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": "至少7公里",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": "一般7公里；西南及东北方向8公里",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "最高航空警报与最初未报告航班取消相容",
+        "fact_type": "response",
+        "attribute": "aviation_response",
+        "supporting_spans": [
+          "A001_F006",
+          "A002_F005",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F006",
+            "value": "暂无航班取消的即时报告",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F005",
+            "value": "暂无航班取消的即时报告",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "红色航空警报；禁止航空器在附近6,000米以下飞行",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-06-17T17:35+08:00",
+          "time_precision": "Local time to the minute",
+          "description": "勒沃托比拉基拉基火山喷发，产生约10公里高的火山灰柱。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A002_F001",
+            "A003_F002"
+          ]
+        },
+        {
+          "time": "2025-06-17",
+          "time_precision": "Local date",
+          "description": "航空警报提升至红色，并宣布地面禁入区。",
+          "supporting_spans": [
+            "A003_F003",
+            "A003_F004"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "当局警告，强降雨可能将火山物质冲入河流并产生火山泥流。",
+          "supporting_spans": [
+            "A001_F004",
+            "A003_F005"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "弗洛勒斯岛火山喷发产生高耸火山灰柱。航空和地面限制措施生效，同时发布降雨诱发火山泥流警告。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A003_F002",
+            "A003_F003",
+            "A003_F004",
+            "A003_F005"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "两篇报道几乎是逐字转载。较早11月喷发事件的死亡人数排除在外。"
+    ]
+  }
+}

@@ -1,0 +1,856 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-VO-01EC8A26015FDC43",
+  "event_rank": 36,
+  "event_metadata": {
+    "event_name": "坎拉翁火山喷发",
+    "disaster_type": "volcanic_eruption",
+    "disaster_type_code": "VO",
+    "event_start_time": "2024-12-09T17:25:00+00:00",
+    "event_end_time": "2024-12-28T11:45:00+00:00",
+    "locations": [
+      "菲律宾"
+    ],
+    "latitude": 10.412,
+    "longitude": 123.132,
+    "place_names_in_reports": [
+      "坎拉翁火山",
+      "西内格罗斯省",
+      "东内格罗斯省",
+      "坎拉翁市"
+    ],
+    "gdacs_id": "1000104",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "PHIVOLCS 引语给出当地时间12月9日15:03。CSV 开始日期相同，但使用不同时间基准及定义，两者均保留。"
+    ],
+    "dataset_place_name": "坎拉翁火山喷发",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-31CAE96CA75A89F1",
+      "event_id": "DIS-VO-01EC8A26015FDC43",
+      "event_rank": 36,
+      "article_rank": 1,
+      "title": "地震机构称坎拉翁火山喷发",
+      "publisher": "philstar",
+      "identified_publisher": null,
+      "source_domain": "interaksyon.philstar.com",
+      "url": "https://interaksyon.philstar.com/politics-issues/2024/12/09/288382/kanlaon-volcano-erupts-seismology-agency/",
+      "published_at": "2024-12-09T07:48:49+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "Philstar 有马尼拉发稿地，简讯无正文署名。",
+      "content": "马尼拉——菲律宾地震机构称，星期一，菲律宾中部一座火山喷发，喷发柱高达3,000米（1.86英里）。\n\n菲律宾火山地震研究所（Phivolcs）在通告中表示，已将警报提高至第三高级别。这座火山位于中部西内格罗斯省及东内格罗斯省。\n\nPhivolcs 在通告中表示：“这意味着岩浆喷发已经开始，可能进一步发展为爆炸性喷发。”\n\n地震机构已建议火山附近地方政府疏散邻近火山的居民，并在有必要时准备进一步疏散。\n\n坎拉翁火山是菲律宾约二十余座活火山之一。菲律宾位于火山活动和地震频繁的环太平洋火山地震带上。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "马尼拉——菲律宾地震机构称，星期一，菲律宾中部一座火山喷发，喷发柱高达3,000米（1.86英里）。\n\n",
+          "start_offset": 0,
+          "end_offset": 52,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "eruption_column",
+              "value": {
+                "value": 3000,
+                "qualifier": "up_to"
+              },
+              "unit": "m"
+            },
+            {
+              "attribute": "attribution",
+              "value": "PHIVOLCS",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "菲律宾火山地震研究所（Phivolcs）在通告中表示，已将警报提高至第三高级别。这座火山位于中部西内格罗斯省及东内格罗斯省。\n\nPhivolcs 在通告中表示：“这意味着岩浆喷发已经开始，可能进一步发展为爆炸性喷发。”\n\n",
+          "start_offset": 52,
+          "end_offset": 163,
+          "sentence_ids": [
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "response",
+            "location",
+            "disaster_occurrence",
+            "uncertainty"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "alert_level",
+              "value": 3,
+              "unit": null
+            },
+            {
+              "attribute": "classification",
+              "value": "所引通告称岩浆喷发已经开始",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "地震机构已建议火山附近地方政府疏散邻近火山的居民，并在有必要时准备进一步疏散。\n\n",
+          "start_offset": 163,
+          "end_offset": 204,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "evacuation",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "坎拉翁火山是菲律宾约二十余座活火山之一。菲律宾位于火山活动和地震频繁的环太平洋火山地震带上。",
+          "start_offset": 204,
+          "end_offset": 250,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "disaster_occurrence"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "active_volcanoes_in_philippines",
+              "value": "约二十四座",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "29d75997f8be2712b410016022632d71c0758c02117fe1d4ceb709ccb599e6a9",
+        "removed_word_count": 15,
+        "removed_word_ratio": 0.09868421052631579
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-DC193B8738BE5651",
+      "event_id": "DIS-VO-01EC8A26015FDC43",
+      "event_rank": 36,
+      "article_rank": 2,
+      "title": "坎拉翁火山喷发，警报提升至三级",
+      "publisher": "philstar",
+      "identified_publisher": null,
+      "source_domain": "philstar.com",
+      "url": "https://www.philstar.com/headlines/2024/12/09/2406168/kanlaon-volcano-erupts-alert-level-raised-3",
+      "published_at": "2024-12-09T08:23:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "此报道也带有 Philstar 品牌，并补充地方限制措施。与 A001 的编辑关系尚未核实。",
+      "content": "菲律宾马尼拉（下午5:35更新）——12月9日星期一下午，坎拉翁火山喷发，促使当局将其警报状态提升至三级，表明火山活动进一步加强。\n\nPHIVOLCS 在警报中表示：“今天即2024年12月9日下午3:03，坎拉翁火山山顶喷口发生爆炸性喷发。喷发产生大量烟羽，迅速上升至喷口上方3,000米，并向西南偏西方向漂移。”\n\n菲律宾火山地震研究所（PHIVOLCS）将警报状态从二级（活动加剧）提升至三级（岩浆活动不安定）。这意味着火山活动加强，表现为地震增多及大量蒸汽或火山灰排放。\n\n坎拉翁火山早在6月就持续显示地震活动，但此后一直保持二级警报，直至今天。\n\n安全措施。 地方当局必须在距活火山口8公里范围内设立危险区。\n\nPHIVOLCS 已指示所有地方政府单位疏散居住于距火山山顶6公里半径内的居民，并在火山活动进一步加强时准备可能追加的疏散。\n\n坎拉翁市市长何塞·丘巴斯科·卡德纳斯已要求受影响地区居民为强制疏散做好准备。\n\n地方政府办公室也已停课停工。\n\n地方政府在市内实施宵禁，要求所有商户从晚上10时至凌晨5时关闭。\n\n同时还实施禁酒令。\n\n坎拉翁火山喷发后，地方当局呼吁保持冷静。\n\n以下是民防办公室（OCD）有关火山喷发时如何行动的若干指导方针：\n\n民防办公室表示，国防部长吉尔伯特·特奥多罗已下令立即援助受灾民众。\n\n当前活动。 已观察到由炽热火山物质和气体组成的火山碎屑密度流沿火山东南部向下移动。\n\n这些危险的流动对附近社区构成重大风险。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "菲律宾马尼拉（下午5:35更新）——12月9日星期一下午，坎拉翁火山喷发，促使当局将其警报状态提升至三级，表明火山活动进一步加强。\n\nPHIVOLCS 在警报中表示：“今天即2024年12月9日下午3:03，坎拉翁火山山顶喷口发生爆炸性喷发。喷发产生大量烟羽，迅速上升至喷口上方3,000米，并向西南偏西方向漂移。”\n\n",
+          "start_offset": 0,
+          "end_offset": 160,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "eruption_time",
+              "value": "2024年12月9日当地时间15:03",
+              "unit": null
+            },
+            {
+              "attribute": "plume_height_above_vent",
+              "value": 3000,
+              "unit": "m"
+            },
+            {
+              "attribute": "plume_drift",
+              "value": "西南偏西",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "PHIVOLCS",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "菲律宾火山地震研究所（PHIVOLCS）将警报状态从二级（活动加剧）提升至三级（岩浆活动不安定）。这意味着火山活动加强，表现为地震增多及大量蒸汽或火山灰排放。\n\n坎拉翁火山早在6月就持续显示地震活动，但此后一直保持二级警报，直至今天。\n\n",
+          "start_offset": 160,
+          "end_offset": 279,
+          "sentence_ids": [
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "response",
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "previous_alert",
+              "value": 2,
+              "unit": null
+            },
+            {
+              "attribute": "new_alert",
+              "value": 3,
+              "unit": null
+            },
+            {
+              "attribute": "new_status",
+              "value": "岩浆活动不安定",
+              "unit": null
+            },
+            {
+              "attribute": "seismic_activity_noted_since",
+              "value": "6月",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "安全措施。 ",
+          "start_offset": 279,
+          "end_offset": 285,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "地方当局必须在距活火山口8公里范围内设立危险区。\n\nPHIVOLCS 已指示所有地方政府单位疏散居住于距火山山顶6公里半径内的居民，并在火山活动进一步加强时准备可能追加的疏散。\n\n",
+          "start_offset": 285,
+          "end_offset": 375,
+          "sentence_ids": [
+            8,
+            9
+          ],
+          "fact_types": [
+            "evacuation",
+            "response",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_danger_zone",
+              "value": 8,
+              "unit": "km"
+            },
+            {
+              "attribute": "phivolcs_evacuation_radius",
+              "value": 6,
+              "unit": "km"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "坎拉翁市市长何塞·丘巴斯科·卡德纳斯已要求受影响地区居民为强制疏散做好准备。\n\n地方政府办公室也已停课停工。\n\n地方政府在市内实施宵禁，要求所有商户从晚上10时至凌晨5时关闭。\n\n同时还实施禁酒令。\n\n坎拉翁火山喷发后，地方当局呼吁保持冷静。\n\n",
+          "start_offset": 375,
+          "end_offset": 498,
+          "sentence_ids": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fact_types": [
+            "evacuation",
+            "response",
+            "public_reaction"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "canlaon_measures",
+              "value": [
+                "强制疏散准备",
+                "停课及政府办公室停工",
+                "宵禁",
+                "禁酒令"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "business_closure_hours",
+              "value": "22:00至05:00",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "以下是民防办公室（OCD）有关火山喷发时如何行动的若干指导方针：\n\n",
+          "start_offset": 498,
+          "end_offset": 532,
+          "sentence_ids": [
+            16
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "民防办公室表示，国防部长吉尔伯特·特奥多罗已下令立即援助受灾民众。\n\n",
+          "start_offset": 532,
+          "end_offset": 567,
+          "sentence_ids": [
+            17
+          ],
+          "fact_types": [
+            "response",
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "当前活动。 ",
+          "start_offset": 567,
+          "end_offset": 573,
+          "sentence_ids": [
+            18
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F009",
+          "span_text": "已观察到由炽热火山物质和气体组成的火山碎屑密度流沿火山东南部向下移动。\n\n这些危险的流动对附近社区构成重大风险。",
+          "start_offset": 573,
+          "end_offset": 629,
+          "sentence_ids": [
+            19,
+            20
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "observed_hazard",
+              "value": "火山碎屑密度流",
+              "unit": null
+            },
+            {
+              "attribute": "sector",
+              "value": "东南部",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "271afdeb65354e3e5457a96d744cd2a7282273ed4a13cee6a43e6a3b19612681",
+        "removed_word_count": 31,
+        "removed_word_ratio": 0.09064327485380116
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-24115DE26A344E49",
+      "event_id": "DIS-VO-01EC8A26015FDC43",
+      "event_rank": 36,
+      "article_rank": 3,
+      "title": "喷发警报：坎拉翁火山喷出火山灰，引发人员疏散 | 健康",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/health/3187447-eruption-alert-mt-kanlaon-spews-ash-triggers-evacuations",
+      "published_at": "2024-12-09T10:20:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "Devdiscourse 转述 PHIVOLCS 及民防官员，无来源署名。",
+      "content": "当局星期一报告，菲律宾一座火山再次喷发，在喷出巨大火山灰柱后迫使居民紧急撤离。位于中部西内格罗斯省和东内格罗斯省的坎拉翁火山于当地时间下午3时左右将火山灰喷至空中高达4,000米（2.5英里）。\n\n菲律宾火山地震研究所（Phivolcs）将五级警报中的级别提高至三级，表明熔岩流风险增加，未来数周可能出现危险喷发。Phivolcs 所长特雷西托·巴科尔科尔表示：“我们目前尚无法确认这次喷发是否属于岩浆喷发。现在我们称之为爆炸性喷发。”\n\n据西内格罗斯省灾害管理机构的布里尔·萨诺尔称，由于火山附近降灰，地方政府单位已经启动疏散。民防部门指出，紧急疏散仍在进行，可能影响54,000人，当局正为可能提高警报级别并加强安全规程做准备。 火山附近航班仍在运营，建议避免接近坎拉翁火山。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "当局星期一报告，菲律宾一座火山再次喷发，在喷出巨大火山灰柱后迫使居民紧急撤离。位于中部西内格罗斯省和东内格罗斯省的坎拉翁火山于当地时间下午3时左右将火山灰喷至空中高达4,000米（2.5英里）。\n\n",
+          "start_offset": 0,
+          "end_offset": 99,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_ash_height",
+              "value": {
+                "value": 4000,
+                "qualifier": "up_to"
+              },
+              "unit": "m"
+            },
+            {
+              "attribute": "time",
+              "value": "当地时间约15:00",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "菲律宾火山地震研究所（Phivolcs）将五级警报中的级别提高至三级，表明熔岩流风险增加，未来数周可能出现危险喷发。Phivolcs 所长特雷西托·巴科尔科尔表示：“我们目前尚无法确认这次喷发是否属于岩浆喷发。现在我们称之为爆炸性喷发。”\n\n",
+          "start_offset": 99,
+          "end_offset": 220,
+          "sentence_ids": [
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "response",
+            "uncertainty",
+            "disaster_occurrence"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "new_alert",
+              "value": 3,
+              "unit": null
+            },
+            {
+              "attribute": "alert_scale_maximum",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "attribute": "classification",
+              "value": "爆炸性喷发；特雷西托·巴科尔科尔尚未确认是否为岩浆喷发",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "据西内格罗斯省灾害管理机构的布里尔·萨诺尔称，由于火山附近降灰，地方政府单位已经启动疏散。民防部门指出，紧急疏散仍在进行，可能影响54,000人，当局正为可能提高警报级别并加强安全规程做准备。 ",
+          "start_offset": 220,
+          "end_offset": 317,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "response",
+            "evacuation",
+            "affected_population"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "possibly_affected",
+              "value": 54000,
+              "unit": "people"
+            },
+            {
+              "attribute": "evacuation",
+              "value": "进行中",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "火山附近航班仍在运营，建议避免接近坎拉翁火山。",
+          "start_offset": 317,
+          "end_offset": 340,
+          "sentence_ids": [
+            9,
+            10
+          ],
+          "fact_types": [
+            "infrastructure",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "flight_status",
+              "value": "仍在运营，建议避免接近",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "7b7a3ff0c54d2a54f2c3fec4359ef3fb8ddfbcfb78ec42096dbd5e2fd1b40d56",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "坎拉翁火山12月9日喷发促使警报提升至三级",
+        "fact_type": "response",
+        "attribute": "alert_level",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 3,
+            "unit": null,
+            "attribution": "PHIVOLCS"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": 3,
+            "unit": null,
+            "attribution": "PHIVOLCS"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": 3,
+            "unit": null,
+            "attribution": "PHIVOLCS"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "报道的火山灰高度分别为3,000米和4,000米。仅有一篇报道明确从喷口开始测量",
+        "fact_type": "disaster_magnitude",
+        "attribute": "eruption_column_height",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 3000,
+              "qualifier": "up_to",
+              "reference": "未说明"
+            },
+            "unit": "m",
+            "attribution": "PHIVOLCS"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "value": 3000,
+              "reference": "喷口上方"
+            },
+            "unit": "m",
+            "attribution": "PHIVOLCS"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "value": 4000,
+              "qualifier": "up_to",
+              "reference": "未说明"
+            },
+            "unit": "m",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "观测截止时间和高度参考点尚未匹配。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "各报道关于喷发类型是否已确认的说法存在差异",
+        "fact_type": "disaster_occurrence",
+        "attribute": "eruption_classification",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": "岩浆喷发已经开始",
+            "unit": null,
+            "attribution": "PHIVOLCS advisory"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "警报级别表明岩浆活动不安定",
+            "unit": null,
+            "attribution": "PHIVOLCS"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "爆炸性喷发，尚未确认是否为岩浆喷发",
+            "unit": null,
+            "attribution": "Teresito Bacolcol"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "警报状态不能直接确定喷发机制。公告和声明时间也有所不同。"
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "当局采取预防性疏散措施",
+        "fact_type": "evacuation",
+        "attribute": "evacuation_response",
+        "supporting_spans": [
+          "A001_F003",
+          "A002_F004",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": "建议疏散火山附近人员",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": "PHIVOLCS 要求疏散6公里范围内居民",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "进行中；可能影响54,000人",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2024-12-09T15:03+08:00",
+          "time_precision": "Local time to the minute",
+          "description": "PHIVOLCS 报告山顶喷口发生爆炸性喷发。",
+          "supporting_spans": [
+            "A002_F001"
+          ]
+        },
+        {
+          "time": "2024-12-09",
+          "time_precision": "Local date",
+          "description": "警报提升至三级，地方当局开始采取疏散措施。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F002",
+            "A002_F004",
+            "A003_F002",
+            "A003_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "火山灰和火山碎屑密度流威胁附近社区，促使人员撤离并制定出行预防措施。",
+          "supporting_spans": [
+            "A002_F009",
+            "A003_F003",
+            "A003_F004"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "坎拉翁火山发生爆炸性喷发，警报提升至三级。火山灰高度测量及岩浆原因的归属仍需协调核实。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A002_F001",
+            "A002_F002",
+            "A003_F001",
+            "A003_F002"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "A002 将8公里危险区及6公里疏散半径描述为两项独立措施。"
+    ]
+  }
+}

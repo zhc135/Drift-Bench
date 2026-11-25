@@ -1,0 +1,970 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-TC-66D31CB1B439C911",
+  "event_rank": 49,
+  "event_metadata": {
+    "event_name": "Tropical Cyclone HELENE-24",
+    "disaster_type": "tropical_cyclone",
+    "disaster_type_code": "TC",
+    "event_start_time": "2024-09-23T15:00:00+00:00",
+    "event_end_time": "2024-09-27T21:00:00+00:00",
+    "locations": [
+      "United States",
+      "Mexico",
+      "Belize"
+    ],
+    "latitude": 37.5,
+    "longitude": -85.5,
+    "place_names_in_reports": [
+      "Florida Big Bend",
+      "Tallahassee",
+      "Yucatan Peninsula",
+      "Gulf of Mexico",
+      "Georgia",
+      "South Carolina",
+      "North Carolina",
+      "Lee County",
+      "Tampa Bay"
+    ],
+    "gdacs_id": "1001101",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "9 月 25 日强度观测、9 月 26 日登陆及 9 月 27 日伤亡通报分别记录。"
+    ],
+    "dataset_place_name": "Tropical Cyclone HELENE-24",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-47433BF83428EC8E",
+      "event_id": "DIS-TC-66D31CB1B439C911",
+      "event_rank": 49,
+      "article_rank": 1,
+      "title": "Live updates: Tropical Storm Helene picks up speed as it approaches Gulf; expected to become major hurricane",
+      "publisher": "fox35orlando",
+      "identified_publisher": null,
+      "source_domain": "fox35orlando.com",
+      "url": "https://www.fox35orlando.com/news/live-updates-tropical-storm-helene-picks-up-speed-approaches-gulf-expected-become-major-hurricane",
+      "published_at": "2024-09-25T03:37:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "FOX 35 Orlando 署本台气象团队，并引述 NHC 快报。",
+      "content": "ORLANDO, Fla. - LIVE UPDATES: Helene strengthened to become a Category 1 hurricane on Wednesday with sustained winds of 80 mph. It's forecast to strengthen further into a major hurricane before making landfall Thursday in Florida's Big Bend region. Click here for live updates. This story will not be updated.\n\nTropical Storm Helene is nearing hurricane strength just offshore of the northeastern coast of the Yucatan Peninsula toward the Gulf of Mexico, according to the National Hurricane Center (NHC).\n\nThe eighth named storm of the 2024 Atlantic hurricane season is forecast to undergo additional strengthening and is expected to become a hurricane on Wednesday. The storm will rapidly intensify over the Gulf of Mexico, becoming a major hurricane (Category 3 or higher) before making landfall in Florida's Big Bend region, the NHC said.\n\nIt would mark the third hurricane in the last two years to make landfall in Florida's Big Bend region (Hurricane Ian in 2022, Hurricane Idalia in 2023) if it stays on its forecast track.\n\n\"As expected, the intensity continues to increase,\" said FOX 35 Storm Team Meteorologist Noah Bergren. \"This will be a destructive storm with a catastrophic surge in the Big Bend – much worse than Idalia and a very fast-moving hurricane.\"\n\nTropical storm, hurricane, and storm surge watches and warnings have been issued for several areas in Florida.\n\nTROPICAL STORM HELENE: TRACK l TIMELINE l SPAGHETTI MODELS l FLORIDA IMPACTS | WATCHES & WARNINGS\n\nHere's the latest on Tropical Storm Helene's anticipated path, cone, timeline, and impact on Florida.\n\nTropical Storm Helene was 60 miles east-northeast of Cozumel, Mexico, and 100 miles west-southwest of the western tip of Cuba. It's traveling northwest at 9 mph with maximum sustained winds that have increased from 65 to 70 mph.\n\n\"This motion should continue through this morning, followed by a general northward motion beginning later today and continuing through Friday. On the forecast track, the center of Helene will pass near the northeastern coast of the Yucatan Peninsula this morning, move across the eastern Gulf of Mexico on later today and Thursday, and reach the Big Bend coast of Florida late Thursday,\" the NHC said.\n\nAccording to the NHC, Helene is expected to make landfall as a major hurricane Thursday night in Florida's Big Bend region.\n\nCentral Florida should start to feel impacts from Helene's outer bands on Wednesday, which will gradually get worse as the storm inches closer to Florida over several hours.\n\nRegardless of where Helene makes landfall, its impact will be felt across the state.\n\nThe worst weather will be felt on Thursday evening, where much of Central Florida will experience tropical storm-forced winds, strong wind gusts, and heavy rain, up to 4\" possible in some spots. There will also be the chance for a tornado or two to develop.\n\nHere's a more detailed look at county-by-county forecasts:\n\nA complete advisory from the NHC, which will feature a new forecast track, will be released at 11 a.m.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "ORLANDO, Fla. - LIVE UPDATES: Helene strengthened to become a Category 1 hurricane on Wednesday with sustained winds of 80 mph. It's forecast to strengthen further into a major hurricane before making landfall Thursday in Florida's Big Bend region. ",
+          "start_offset": 0,
+          "end_offset": 249,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "weather",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "wednesday_category",
+              "value": 1,
+              "unit": null
+            },
+            {
+              "attribute": "wednesday_sustained_wind",
+              "value": 80,
+              "unit": "mph"
+            },
+            {
+              "attribute": "expected_landfall",
+              "value": "Thursday, Big Bend",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "Click here for live updates. This story will not be updated.\n\n",
+          "start_offset": 249,
+          "end_offset": 311,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "Tropical Storm Helene is nearing hurricane strength just offshore of the northeastern coast of the Yucatan Peninsula toward the Gulf of Mexico, according to the National Hurricane Center (NHC).\n\nThe eighth named storm of the 2024 Atlantic hurricane season is forecast to undergo additional strengthening and is expected to become a hurricane on Wednesday. The storm will rapidly intensify over the Gulf of Mexico, becoming a major hurricane (Category 3 or higher) before making landfall in Florida's Big Bend region, the NHC said.\n\nIt would mark the third hurricane in the last two years to make landfall in Florida's Big Bend region (Hurricane Ian in 2022, Hurricane Idalia in 2023) if it stays on its forecast track.\n\n\"As expected, the intensity continues to increase,\" said FOX 35 Storm Team Meteorologist Noah Bergren. \"This will be a destructive storm with a catastrophic surge in the Big Bend – much worse than Idalia and a very fast-moving hurricane.\"\n\nTropical storm, hurricane, and storm surge watches and warnings have been issued for several areas in Florida.\n\n",
+          "start_offset": 311,
+          "end_offset": 1383,
+          "sentence_ids": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude",
+            "response",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "forecast_landfall_category",
+              "value": {
+                "value": 3,
+                "qualifier": "at_least"
+              },
+              "unit": null
+            },
+            {
+              "attribute": "forecast_surge",
+              "value": "potentially catastrophic",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "TROPICAL STORM HELENE: TRACK l TIMELINE l SPAGHETTI MODELS l FLORIDA IMPACTS | WATCHES & WARNINGS\n\nHere's the latest on Tropical Storm Helene's anticipated path, cone, timeline, and impact on Florida.\n\n",
+          "start_offset": 1383,
+          "end_offset": 1585,
+          "sentence_ids": [
+            12,
+            13
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "Tropical Storm Helene was 60 miles east-northeast of Cozumel, Mexico, and 100 miles west-southwest of the western tip of Cuba. It's traveling northwest at 9 mph with maximum sustained winds that have increased from 65 to 70 mph.\n\n\"This motion should continue through this morning, followed by a general northward motion beginning later today and continuing through Friday. On the forecast track, the center of Helene will pass near the northeastern coast of the Yucatan Peninsula this morning, move across the eastern Gulf of Mexico on later today and Thursday, and reach the Big Bend coast of Florida late Thursday,\" the NHC said.\n\nAccording to the NHC, Helene is expected to make landfall as a major hurricane Thursday night in Florida's Big Bend region.\n\n",
+          "start_offset": 1585,
+          "end_offset": 2343,
+          "sentence_ids": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "earlier_wind_speed",
+              "value": 70,
+              "unit": "mph"
+            },
+            {
+              "attribute": "motion",
+              "value": 9,
+              "unit": "mph"
+            },
+            {
+              "attribute": "expected_landfall",
+              "value": "late Thursday, Big Bend",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "Central Florida should start to feel impacts from Helene's outer bands on Wednesday, which will gradually get worse as the storm inches closer to Florida over several hours.\n\nRegardless of where Helene makes landfall, its impact will be felt across the state.\n\nThe worst weather will be felt on Thursday evening, where much of Central Florida will experience tropical storm-forced winds, strong wind gusts, and heavy rain, up to 4\" possible in some spots. There will also be the chance for a tornado or two to develop.\n\n",
+          "start_offset": 2343,
+          "end_offset": 2863,
+          "sentence_ids": [
+            19,
+            20,
+            21,
+            22
+          ],
+          "fact_types": [
+            "weather",
+            "uncertainty",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "central_florida_local_forecast_rain",
+              "value": {
+                "value": 4,
+                "qualifier": "up_to"
+              },
+              "unit": "in"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "Here's a more detailed look at county-by-county forecasts:\n\n",
+          "start_offset": 2863,
+          "end_offset": 2923,
+          "sentence_ids": [
+            23
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F008",
+          "span_text": "A complete advisory from the NHC, which will feature a new forecast track, will be released at 11 a.m.",
+          "start_offset": 2923,
+          "end_offset": 3025,
+          "sentence_ids": [
+            24
+          ],
+          "fact_types": [
+            "response",
+            "timeline"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "c29b66bf329f52601be277b8469e3ef1f54d458e6871be5c6f69eec2dbdd6491",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-625FEFAA0E25F2D2",
+      "event_id": "DIS-TC-66D31CB1B439C911",
+      "event_rank": 49,
+      "article_rank": 2,
+      "title": "Hurricane Helene weakens as it makes landfall but officials warn it''s still ''extremely dangerous''",
+      "publisher": "thejournal",
+      "identified_publisher": null,
+      "source_domain": "thejournal.ie",
+      "url": "https://www.thejournal.ie/hurricane-helene-florida-us-6498419-Sep2024/",
+      "published_at": "2024-09-27T21:20:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "The Journal 报道内明示 AFP 采访，并结合 CNN、当局和停电平台。",
+      "content": "Sign in. It’s quick, free and it’s up to you.\n\nAn account is an optional way to support the work we do. Find out more.\n\nHURRICANE HELENE KNOCKED out power for millions of customers across the southeast United States today and left at least 33 dead after it slammed into the Florida coast, officials said, warning of people still trapped in buildings.\n\nGeorgia Governor Brian Kemp reported 11 fatalities in his state, including an emergency responder. Kemp said dozens of people were still trapped in buildings damaged by the Category 4 hurricane.\n\nAuthorities say Florida has suffered seven fatalities and South Carolina saw 14 deaths including two firefighters. North Carolina has reported one fatality.\n\nSatellite image yesterday shows Hurricane Helene in the Gulf of Mexico moving towards Florida. Alamy Stock Photo Alamy Stock Photo\n\nAs it weakened into a tropical storm, Helene moved inland across Georgia and South Carolina, flooding roads and homes, and officials warned of flash floods and landslides from up to 50 centimetres of rain.\n\n“This rainfall will likely result in catastrophic and potentially life-threatening flash and urban flooding, along with significant and record river flooding,” the National Hurricane Centre said.\n\n“Numerous significant landslides are expected in steep terrain across the southern Appalachians.”\n\nFour people had died from conditions caused by Helene as of early Friday – one in Florida, one in North Carolina and two in Georgia.\n\nOne person was killed when a sign fell on a highway in coastal Florida, Governor Ron DeSantis said.\n\nTwo people were killed in Georgia, according to Governor Brian Kemp, with local media reporting the man and woman were killed when their trailer was picked up by a tornado.\n\nOne person also died in Charlotte, North Carolina when a tree fell on a home, the fire department said.\n\nImages on US media showed ripped billboard signs whipping in high winds and sparks flying from power lines.\n\nThe St. Pete Pier pictured yesterday among high winds and waves as Hurricane Helene makes its way toward the Florida panhandle, passing west of Tampa Bay. Alamy Stock Photo Alamy Stock Photo\n\nMore than 3.4 million homes and businesses were without power across Florida, Georgia and the Carolinas on Friday, according to tracking site PowerOutage.us.\n\nThe storm lost strength rapidly after making landfall on the coast about 50 kilometers south of the Florida state capital Tallahassee as a powerful Category 4 hurricane packing winds of 140 miles per hour.\n\nIn the impact zone, residents had been warned of “unsurvivable” storm surge.\n\nTampa Bay resident Matt Heller told CNN his home had been submerged in four feet of water within a half hour of the storm hitting, as he took refuge in a kayak in his flooded living room.\n\n“This is definitely the biggest flood we’ve ever had,” he said.\n\nPresident Joe Biden and state authorities had urged people to heed official evacuation warnings before Helene hit, though some chose stay in their homes to wait out the storm.\n\n“I am going to hunker down” and ride out the hurricane, said Patrick Riickert, as he did in 2018 when deadly Hurricane Michael, a Category 5 mega storm, blew through the Florida panhandle.\n\nHe had refused to budge from his small wooden house in Crawfordville, a town of 5,000 people a few miles inland.\n\nMost residents had bolted, but Riickert, his wife and five grandchildren were “not going anywhere,” the 58-year-old told AFP.\n\nMan pelted with rain as he walks by a row of electrical line trucks in a field in Florida, yesterday. Thousands of the trucks were staged in preparation for damage from Hurricane Helene. Alamy Stock Photo Alamy Stock Photo\n\nRescue workers were deployed in Lee County on Florida’s coast, the sheriff said on X, sharing videos of men in high-vis gear battling against high winds to launch a rescue boat.\n\nDeSantis had mobilized the National Guard and ordered thousands of personnel to ready for search and rescue operations, urging residents to take precautions.\n\n“We can’t control the track of the hurricane, but what you can control is what you can do to put yourself in the best chance to be able to ride this out in a way that’s going to be safe,” DeSantis said.\n\nGeorgia’s Kemp, in a message of condolences for the two killed by the tornado, urged “all Georgians to brace for further impact from Helene, remain vigilant, and pray for all those affected” in a post on X.\n\nScientists say climate change likely plays a role in the rapid intensification of hurricanes, because there is more energy in warmer oceans for them to feed on.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "Sign in. It’s quick, free and it’s up to you.\n\nAn account is an optional way to support the work we do. Find out more.\n\n",
+          "start_offset": 0,
+          "end_offset": 120,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "HURRICANE HELENE KNOCKED out power for millions of customers across the southeast United States today and left at least 33 dead after it slammed into the Florida coast, officials said, warning of people still trapped in buildings.\n\nGeorgia Governor Brian Kemp reported 11 fatalities in his state, including an emergency responder. Kemp said dozens of people were still trapped in buildings damaged by the Category 4 hurricane.\n\nAuthorities say Florida has suffered seven fatalities and South Carolina saw 14 deaths including two firefighters. North Carolina has reported one fatality.\n\n",
+          "start_offset": 120,
+          "end_offset": 706,
+          "sentence_ids": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "casualties",
+            "infrastructure",
+            "response",
+            "disaster_occurrence"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 33,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "state_deaths",
+              "value": {
+                "Georgia": 11,
+                "Florida": 7,
+                "South Carolina": 14,
+                "North Carolina": 1
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "Satellite image yesterday shows Hurricane Helene in the Gulf of Mexico moving towards Florida. Alamy Stock Photo Alamy Stock Photo\n\n",
+          "start_offset": 706,
+          "end_offset": 838,
+          "sentence_ids": [
+            10,
+            11
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "As it weakened into a tropical storm, Helene moved inland across Georgia and South Carolina, flooding roads and homes, and officials warned of flash floods and landslides from up to 50 centimetres of rain.\n\n“This rainfall will likely result in catastrophic and potentially life-threatening flash and urban flooding, along with significant and record river flooding,” the National Hurricane Centre said.\n\n“Numerous significant landslides are expected in steep terrain across the southern Appalachians.”\n\n",
+          "start_offset": 838,
+          "end_offset": 1341,
+          "sentence_ids": [
+            12,
+            13,
+            14
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "possible_rainfall",
+              "value": {
+                "value": 50,
+                "qualifier": "up_to"
+              },
+              "unit": "cm"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "Four people had died from conditions caused by Helene as of early Friday – one in Florida, one in North Carolina and two in Georgia.\n\nOne person was killed when a sign fell on a highway in coastal Florida, Governor Ron DeSantis said.\n\nTwo people were killed in Georgia, according to Governor Brian Kemp, with local media reporting the man and woman were killed when their trailer was picked up by a tornado.\n\nOne person also died in Charlotte, North Carolina when a tree fell on a home, the fire department said.\n\nImages on US media showed ripped billboard signs whipping in high winds and sparks flying from power lines.\n\n",
+          "start_offset": 1341,
+          "end_offset": 1964,
+          "sentence_ids": [
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "fact_types": [
+            "casualties",
+            "secondary_hazard",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "early_friday_deaths",
+              "value": 4,
+              "unit": "people"
+            },
+            {
+              "attribute": "reported_split",
+              "value": {
+                "Florida": 1,
+                "North Carolina": 1,
+                "Georgia": 2
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "The St. Pete Pier pictured yesterday among high winds and waves as Hurricane Helene makes its way toward the Florida panhandle, passing west of Tampa Bay. Alamy Stock Photo Alamy Stock Photo\n\n",
+          "start_offset": 1964,
+          "end_offset": 2156,
+          "sentence_ids": [
+            20,
+            21
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "More than 3.4 million homes and businesses were without power across Florida, Georgia and the Carolinas on Friday, according to tracking site PowerOutage.us.\n\nThe storm lost strength rapidly after making landfall on the coast about 50 kilometers south of the Florida state capital Tallahassee as a powerful Category 4 hurricane packing winds of 140 miles per hour.\n\nIn the impact zone, residents had been warned of “unsurvivable” storm surge.\n\n",
+          "start_offset": 2156,
+          "end_offset": 2600,
+          "sentence_ids": [
+            22,
+            23,
+            24
+          ],
+          "fact_types": [
+            "affected_population",
+            "infrastructure",
+            "disaster_magnitude",
+            "disaster_occurrence"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "homes_and_businesses_without_power",
+              "value": {
+                "value": 3400000,
+                "qualifier": "greater_than"
+              },
+              "unit": null
+            },
+            {
+              "attribute": "landfall_category",
+              "value": 4,
+              "unit": null
+            },
+            {
+              "attribute": "landfall_wind",
+              "value": 140,
+              "unit": "mph"
+            },
+            {
+              "attribute": "landfall_south_of_tallahassee",
+              "value": {
+                "value": 50,
+                "qualifier": "about"
+              },
+              "unit": "km"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "Tampa Bay resident Matt Heller told CNN his home had been submerged in four feet of water within a half hour of the storm hitting, as he took refuge in a kayak in his flooded living room.\n\n“This is definitely the biggest flood we’ve ever had,” he said.\n\nPresident Joe Biden and state authorities had urged people to heed official evacuation warnings before Helene hit, though some chose stay in their homes to wait out the storm.\n\n“I am going to hunker down” and ride out the hurricane, said Patrick Riickert, as he did in 2018 when deadly Hurricane Michael, a Category 5 mega storm, blew through the Florida panhandle.\n\nHe had refused to budge from his small wooden house in Crawfordville, a town of 5,000 people a few miles inland.\n\nMost residents had bolted, but Riickert, his wife and five grandchildren were “not going anywhere,” the 58-year-old told AFP.\n\n",
+          "start_offset": 2600,
+          "end_offset": 3462,
+          "sentence_ids": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "fact_types": [
+            "public_reaction",
+            "evacuation",
+            "response",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "tampa_bay_resident_water_depth",
+              "value": 4,
+              "unit": "ft"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F009",
+          "span_text": "Man pelted with rain as he walks by a row of electrical line trucks in a field in Florida, yesterday. Thousands of the trucks were staged in preparation for damage from Hurricane Helene. Alamy Stock Photo Alamy Stock Photo\n\n",
+          "start_offset": 3462,
+          "end_offset": 3686,
+          "sentence_ids": [
+            31,
+            32,
+            33
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F010",
+          "span_text": "Rescue workers were deployed in Lee County on Florida’s coast, the sheriff said on X, sharing videos of men in high-vis gear battling against high winds to launch a rescue boat.\n\nDeSantis had mobilized the National Guard and ordered thousands of personnel to ready for search and rescue operations, urging residents to take precautions.\n\n“We can’t control the track of the hurricane, but what you can control is what you can do to put yourself in the best chance to be able to ride this out in a way that’s going to be safe,” DeSantis said.\n\nGeorgia’s Kemp, in a message of condolences for the two killed by the tornado, urged “all Georgians to brace for further impact from Helene, remain vigilant, and pray for all those affected” in a post on X.\n\nScientists say climate change likely plays a role in the rapid intensification of hurricanes, because there is more energy in warmer oceans for them to feed on.",
+          "start_offset": 3686,
+          "end_offset": 4596,
+          "sentence_ids": [
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "fact_types": [
+            "response",
+            "cause",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "f2bebc2725e4814c518a2f944574e57c07d8becacf8c11704af42af3ec7bdba2",
+        "removed_word_count": 38,
+        "removed_word_ratio": 0.04714640198511166
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-89B3B0F679E0FE20",
+      "event_id": "DIS-TC-66D31CB1B439C911",
+      "event_rank": 49,
+      "article_rank": 3,
+      "title": "McMaster declares state of emergency for SC ahead of Helene",
+      "publisher": "live5news",
+      "identified_publisher": "WCSC",
+      "source_domain": "live5news.com",
+      "url": "https://www.live5news.com/2024/09/25/mcmaster-declares-state-emergency-sc-ahead-helene/",
+      "published_at": "2024-09-25T20:00:36+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "哥伦比亚电头署 WCSC，报道南卡州长行政令。",
+      "content": "COLUMBIA, S.C. (WCSC) - Gov. Henry McMaster issued an executive order declaring a state of emergency for South Carolina as the state prepares for the effects of Hurricane Helene.\n\nClick here to download the free Live 5 First Alert Weather app.\n\nThe governor’s order activates the South Carolina Emergency Operations Plan and directs the South Carolina Emergency Management Division to coordinate with all relevant state agencies to be ready for potential requests for help from local officials and county emergency management leaders.\n\n“Although South Carolina will likely avoid the brunt of Hurricane Helene’s impacts, the storm is still expected to bring dangerous flooding, high winds, and isolated tornadoes to many parts of the state,” McMaster said. “This State of Emergency ensures that Team South Carolina has the necessary resources in place to respond to these potential impacts. South Carolinians in potentially affected areas should start to take precautions now and monitor local weather forecasts over the next several days.”\n\nREAD MORE : TRACKING HELENE: Watches, warnings issued across Lowcountry\n\nThe National Hurricane Center expects Helene to be a major hurricane when it makes landfall in Florida on Thursday.\n\nBut portions of the Lowcountry are under tropical storm warnings or watches ahead of the storm’s landfall. South Carolina and other southeastern states are bracing for strong winds, significant rainfall, flash flooding, and an enhanced risk of isolated tornadoes.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "COLUMBIA, S.C. (WCSC) - Gov. Henry McMaster issued an executive order declaring a state of emergency for South Carolina as the state prepares for the effects of Hurricane Helene.\n\n",
+          "start_offset": 0,
+          "end_offset": 180,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "response",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "order",
+              "value": "South Carolina state of emergency",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "Click here to download the free Live 5 First Alert Weather app.\n\n",
+          "start_offset": 180,
+          "end_offset": 245,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "The governor’s order activates the South Carolina Emergency Operations Plan and directs the South Carolina Emergency Management Division to coordinate with all relevant state agencies to be ready for potential requests for help from local officials and county emergency management leaders.\n\n“Although South Carolina will likely avoid the brunt of Hurricane Helene’s impacts, the storm is still expected to bring dangerous flooding, high winds, and isolated tornadoes to many parts of the state,” McMaster said. “This State of Emergency ensures that Team South Carolina has the necessary resources in place to respond to these potential impacts. South Carolinians in potentially affected areas should start to take precautions now and monitor local weather forecasts over the next several days.”\n\n",
+          "start_offset": 245,
+          "end_offset": 1041,
+          "sentence_ids": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "response",
+            "weather",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "activated_plan",
+              "value": "South Carolina Emergency Operations Plan",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Henry McMaster",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "READ MORE : TRACKING HELENE: Watches, warnings issued across Lowcountry\n\n",
+          "start_offset": 1041,
+          "end_offset": 1114,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "The National Hurricane Center expects Helene to be a major hurricane when it makes landfall in Florida on Thursday.\n\nBut portions of the Lowcountry are under tropical storm warnings or watches ahead of the storm’s landfall. South Carolina and other southeastern states are bracing for strong winds, significant rainfall, flash flooding, and an enhanced risk of isolated tornadoes.",
+          "start_offset": 1114,
+          "end_offset": 1494,
+          "sentence_ids": [
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "weather",
+            "uncertainty",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "florida_landfall_forecast",
+              "value": "Thursday as major hurricane",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "dbd148807fe0c52589faca04f1b0b631a10ec37d9d0fd2be29b98e1443a92322",
+        "removed_word_count": 6,
+        "removed_word_ratio": 0.02586206896551724
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "登陆强度从预报到实况",
+        "fact_type": "disaster_magnitude",
+        "attribute": "landfall_category",
+        "supporting_spans": [
+          "A001_F003",
+          "A002_F007",
+          "A003_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": {
+              "value": 3,
+              "qualifier": "at_least",
+              "scope": "forecast"
+            },
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F007",
+            "value": {
+              "value": 4,
+              "scope": "at landfall"
+            },
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F005",
+            "value": "major hurricane forecast",
+            "unit": null,
+            "attribution": "NHC"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "9 月 27 日早间死亡数字与当日后续通报",
+        "fact_type": "casualties",
+        "attribute": "reported_deaths",
+        "supporting_spans": [
+          "A002_F005",
+          "A002_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F005",
+            "value": {
+              "value": 4,
+              "scope": "early Friday"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": {
+              "value": 33,
+              "qualifier": "at_least",
+              "scope": "subsequent statement"
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": "同一篇报道保留两个时点。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "亮信台和南卡当局均预警大风洪水",
+        "fact_type": "weather",
+        "attribute": "southeastern_hazard_forecasts",
+        "supporting_spans": [
+          "A001_F006",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F006",
+            "value": "heavy rain, wind and tornado risk in Central Florida",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "dangerous flooding, high winds and isolated tornadoes in South Carolina",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "南卡罗来纳州宣布紧急状态",
+        "fact_type": "response",
+        "attribute": "south_carolina_emergency",
+        "supporting_spans": [
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": "state of emergency",
+            "unit": null,
+            "attribution": "Henry McMaster"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2024-09-25",
+          "time_precision": "当地日",
+          "description": "Helene 增强为飓风，南卡宣布紧急状态。",
+          "supporting_spans": [
+            "A001_F001",
+            "A003_F001"
+          ]
+        },
+        {
+          "time": "2024-09-26",
+          "time_precision": "当地日期",
+          "description": "风暴以四级强度登陆佛州，随后向内陆减弱。",
+          "supporting_spans": [
+            "A001_F005",
+            "A002_F007",
+            "A002_F004"
+          ]
+        },
+        {
+          "time": "2024-09-27",
+          "time_precision": "报道日",
+          "description": "东南多州出现人员死亡和大面积停电。",
+          "supporting_spans": [
+            "A002_F002",
+            "A002_F007"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "强风暴雨和风暴潮带来停电、积水与基础设施风险。",
+          "supporting_spans": [
+            "A001_F003",
+            "A002_F004",
+            "A002_F007"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "Helene 在登陆前迅速增强，随后造成佛州和美国东南部多个州死伤、洪水和停电。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F002",
+            "A002_F004",
+            "A002_F007",
+            "A003_F001"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "limitations": [
+      "早间和晚些通报的人数不能当作同口径冲突。"
+    ]
+  }
+}

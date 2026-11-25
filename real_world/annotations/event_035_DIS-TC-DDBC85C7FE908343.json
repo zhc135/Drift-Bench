@@ -1,0 +1,907 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-TC-DDBC85C7FE908343",
+  "event_rank": 35,
+  "event_metadata": {
+    "event_name": "Tropical Cyclone KHANUN-23",
+    "disaster_type": "tropical_cyclone",
+    "disaster_type_code": "TC",
+    "event_start_time": "2023-07-27T06:00:00+00:00",
+    "event_end_time": "2023-08-10T18:00:00+00:00",
+    "locations": [
+      "Japan"
+    ],
+    "latitude": 38.7,
+    "longitude": 127.4,
+    "place_names_in_reports": [
+      "South Korea",
+      "Daegu",
+      "Changwon",
+      "Seoul",
+      "Gangwon",
+      "Busan",
+      "Japan",
+      "North Korea",
+      "Russian Far East",
+      "Primorye",
+      "Ussuriysk"
+    ],
+    "gdacs_id": "1000986",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "韩国登陆、韩国撤离统计和俄罗斯远东后续洪水的时间及范围分开。"
+    ],
+    "dataset_place_name": "Tropical Cyclone KHANUN-23",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-F6F74703D2A35105",
+      "event_id": "DIS-TC-DDBC85C7FE908343",
+      "event_rank": 35,
+      "article_rank": 1,
+      "title": "1 dead, 1 missing after typhoon Khanun cuts through S. Korea",
+      "publisher": "chinadailyhk",
+      "identified_publisher": null,
+      "source_domain": "chinadailyhk.com",
+      "url": "https://www.chinadailyhk.com/article/345262",
+      "published_at": "2023-08-11T06:09:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "China Daily Hong Kong 清洗正文含 Seoul 电头，图片来自 AP 与新华社，正文署名未保留。",
+      "content": "Vehicles are submerged in floodwaters caused by the tropical storm named Khanun in Changwon, South Korea, Aug 10, 2023. (PHOTO / AP)\n\nSEOUL - One man was dead and another went missing after this year's sixth typhoon Khanun cut through South Korea, the authorities said Friday.\n\nThe typhoon hit land on the country's southeastern coast Thursday morning, bringing heavy rains and strong winds across the country, according to the central disaster and safety countermeasures headquarters.\n\nThe typhoon brought about 361 facility damages across the country, including 184 cases at public facilities and 177 cases at private facilities such as the flooding of roads and houses\n\nThe tropical storm plowed through the country from south to north for about 16 hours until 3 am local time (1800 GMT Thursday), moving northward and out of the country.\n\nALSO READ: Typhoon Khanun lashes Japan, S.Korea; another storm looms\n\nA 67-year-old man was found in cardiac arrest near a stream in the southeastern city of Daegu Thursday afternoon. He was taken to a hospital and eventually died.\n\nAnother man in a wheelchair went missing in the same city Thursday afternoon after falling into a flooded stream.\n\nALSO READ: South Korea evacuates thousands of scouts ahead of typhoon\n\nThe typhoon brought about 361 facility damages across the country, including 184 cases at public facilities and 177 cases at private facilities such as the flooding of roads and houses.\n\nPeople walk on a street in the rain brought by Typhoon Khanun in Seoul, South Korea, Aug 10, 2023. (PHOTO / XINHUA)\n\nA total of 46,484 households suffered power outages, but 98.4 percent of them recovered power supply.\n\nThe typhoon temporarily evacuated 15,862 people, among whom 9,741 had returned home.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "Vehicles are submerged in floodwaters caused by the tropical storm named Khanun in Changwon, South Korea, Aug 10, 2023. (PHOTO / AP)\n\n",
+          "start_offset": 0,
+          "end_offset": 134,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "SEOUL - One man was dead and another went missing after this year's sixth typhoon Khanun cut through South Korea, the authorities said Friday.\n\nThe typhoon hit land on the country's southeastern coast Thursday morning, bringing heavy rains and strong winds across the country, according to the central disaster and safety countermeasures headquarters.\n\nThe typhoon brought about 361 facility damages across the country, including 184 cases at public facilities and 177 cases at private facilities such as the flooding of roads and houses\n\nThe tropical storm plowed through the country from south to north for about 16 hours until 3 am local time (1800 GMT Thursday), moving northward and out of the country.\n\n",
+          "start_offset": 134,
+          "end_offset": 843,
+          "sentence_ids": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "missing_persons",
+            "damage",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "south_korea_deaths",
+              "value": 1,
+              "unit": "person"
+            },
+            {
+              "attribute": "south_korea_missing",
+              "value": 1,
+              "unit": "person"
+            },
+            {
+              "attribute": "facility_damage_cases",
+              "value": 361,
+              "unit": "cases"
+            },
+            {
+              "attribute": "public_cases",
+              "value": 184,
+              "unit": null
+            },
+            {
+              "attribute": "private_cases",
+              "value": 177,
+              "unit": null
+            },
+            {
+              "attribute": "transit_duration",
+              "value": {
+                "value": 16,
+                "qualifier": "about"
+              },
+              "unit": "hours"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "ALSO READ: Typhoon Khanun lashes Japan, S.Korea; another storm looms\n\n",
+          "start_offset": 843,
+          "end_offset": 913,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "A 67-year-old man was found in cardiac arrest near a stream in the southeastern city of Daegu Thursday afternoon. He was taken to a hospital and eventually died.\n\nAnother man in a wheelchair went missing in the same city Thursday afternoon after falling into a flooded stream.\n\n",
+          "start_offset": 913,
+          "end_offset": 1191,
+          "sentence_ids": [
+            8,
+            9,
+            10
+          ],
+          "fact_types": [
+            "casualties",
+            "missing_persons",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "deceased_age",
+              "value": 67,
+              "unit": "years"
+            },
+            {
+              "attribute": "missing_location",
+              "value": "Daegu flooded stream",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "ALSO READ: South Korea evacuates thousands of scouts ahead of typhoon\n\n",
+          "start_offset": 1191,
+          "end_offset": 1262,
+          "sentence_ids": [
+            11
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "The typhoon brought about 361 facility damages across the country, including 184 cases at public facilities and 177 cases at private facilities such as the flooding of roads and houses.\n\n",
+          "start_offset": 1262,
+          "end_offset": 1449,
+          "sentence_ids": [
+            12
+          ],
+          "fact_types": [
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "repeated_facility_damage_cases",
+              "value": 361,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "People walk on a street in the rain brought by Typhoon Khanun in Seoul, South Korea, Aug 10, 2023. (PHOTO / XINHUA)\n\n",
+          "start_offset": 1449,
+          "end_offset": 1566,
+          "sentence_ids": [
+            13,
+            14
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F008",
+          "span_text": "A total of 46,484 households suffered power outages, but 98.4 percent of them recovered power supply.\n\nThe typhoon temporarily evacuated 15,862 people, among whom 9,741 had returned home.",
+          "start_offset": 1566,
+          "end_offset": 1753,
+          "sentence_ids": [
+            15,
+            16
+          ],
+          "fact_types": [
+            "infrastructure",
+            "evacuation",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "household_outages",
+              "value": 46484,
+              "unit": "households"
+            },
+            {
+              "attribute": "power_restored_share",
+              "value": 98.4,
+              "unit": "%"
+            },
+            {
+              "attribute": "evacuated",
+              "value": 15862,
+              "unit": "people"
+            },
+            {
+              "attribute": "returned_home",
+              "value": 9741,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "2a467652ed2521d6f4d92849dd9e3a3b9df499a82c1cd108106e368e0952799a",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-2CB34086A6A977AC",
+      "event_id": "DIS-TC-DDBC85C7FE908343",
+      "event_rank": 35,
+      "article_rank": 2,
+      "title": "World News: Tropical storm triggers floods and evacuations in South Korea",
+      "publisher": "GulfDailyNews",
+      "identified_publisher": null,
+      "source_domain": "gdnonline.com",
+      "url": "https://www.gdnonline.com/Details/1288444",
+      "published_at": "2023-08-11T10:13:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "Gulf Daily News 引述多名人士和政府部门，正文未留原始署名。",
+      "content": "South Korea authorities evacuated more than 14,000 people and closed schools in flood-hit areas as tropical storm Khanun swept over the peninsula yesterday, having pounded southern Japan over the past week.\n\nDowngraded from a typhoon to a tropical storm, Khanun made landfall on the southeast coast, and was heading towards the South Korean capital Seoul.\n\nKhanun could also strike North Korea’s capital, Pyongyang, early today and state media there reported that the military and the ruling party had been ordered to prepare flood-mitigation measures and salvage crops.\n\nIn South Korea, some 350 flights and 450 train routes were cancelled, and more than 14,000 people were moved to safety, the interior ministry said.\n\nOne person was missing in the southeastern city of Daegu after falling into the river in a wheelchair, the ministry said, adding it was looking into the death of another person in the same city.\n\nThe storm brought up to 60 mm (2.4 inches) of rain per hour in some east coast towns, and maximum wind speeds of 126 kilometres per hour (78 miles per hour) in the southeastern port city of Busan, the weather agency said.\n\nKhanun was passing South Korea’s eastern coastal province of Gangwon as of 8.30pm, losing a little speed as it moved northwards at 23kph (14.3mph) towards the greater Seoul area.\n\n“I’m worried that people living in lowlands or making a living by farming and fishing would suffer,” said Kim Wi-jeong, a 33-year-old office worker living in the capital.\n\nMost schools were shut for the summer vacation, but nearly half of those having resumed classes early, about 1,600, either closed or switched to remote learning because of the storm, the education ministry said. Some schools were hit by floods and landslides.\n\nThe storm further complicated the trip of 37,000 youngsters attending the ill-starred World Scout Jamboree. Having endured a heatwave last week, they were moved to safer accommodation on Tuesday as their campsite lay in the path of the storm.\n\nThe country is still recovering from intense monsoon rain last month, which left more than 40 people dead, including 14 in a flooded tunnel.\n\nLee Hyun-ho, a professor of atmospheric science at Kongju National University, said Khanun was the first storm to pass directly over the Korean peninsula. He said increasing sea surface temperatures had made it more powerful.\n\n“The more the temperatures rise, the greater the energy that storms can get. So we will likely see even stronger typhoons in the future,” Lee said.\n\nFed by humid air from the storm, heavy rain was still battering parts of western Japan, with some areas getting well over the normal for August in the past week. One town had recorded 985 mm (38.78 inches) as of Thursday morning.\n\nAnother storm, Typhoon Lan, was approaching near the Ogasawara Islands, about 1,000km (621 miles) south of Tokyo, late on Wednesday.\n\nThough the storm’s path was uncertain, the Japan Meteorological Agency said it could affect the Tokyo area by the end of the weekend.\n\nThe bad weather is striking in the middle of Obon, Japan’s main summer holiday, when many people leave big cities to return to their home towns.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "South Korea authorities evacuated more than 14,000 people and closed schools in flood-hit areas as tropical storm Khanun swept over the peninsula yesterday, having pounded southern Japan over the past week.\n\nDowngraded from a typhoon to a tropical storm, Khanun made landfall on the southeast coast, and was heading towards the South Korean capital Seoul.\n\nKhanun could also strike North Korea’s capital, Pyongyang, early today and state media there reported that the military and the ruling party had been ordered to prepare flood-mitigation measures and salvage crops.\n\nIn South Korea, some 350 flights and 450 train routes were cancelled, and more than 14,000 people were moved to safety, the interior ministry said.\n\n",
+          "start_offset": 0,
+          "end_offset": 721,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "evacuation",
+            "response",
+            "infrastructure"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "evacuated",
+              "value": {
+                "value": 14000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "flight_cancellations",
+              "value": {
+                "value": 350,
+                "qualifier": "some"
+              },
+              "unit": "flights"
+            },
+            {
+              "attribute": "train_route_cancellations",
+              "value": 450,
+              "unit": "routes"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "One person was missing in the southeastern city of Daegu after falling into the river in a wheelchair, the ministry said, adding it was looking into the death of another person in the same city.\n\n",
+          "start_offset": 721,
+          "end_offset": 917,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "casualties",
+            "missing_persons",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "missing_persons",
+              "value": 1,
+              "unit": "person"
+            },
+            {
+              "attribute": "death_status",
+              "value": "one under investigation",
+              "unit": null
+            },
+            {
+              "attribute": "location",
+              "value": "Daegu",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "The storm brought up to 60 mm (2.4 inches) of rain per hour in some east coast towns, and maximum wind speeds of 126 kilometres per hour (78 miles per hour) in the southeastern port city of Busan, the weather agency said.\n\nKhanun was passing South Korea’s eastern coastal province of Gangwon as of 8.30pm, losing a little speed as it moved northwards at 23kph (14.3mph) towards the greater Seoul area.\n\n",
+          "start_offset": 917,
+          "end_offset": 1320,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "rainfall_rate",
+              "value": {
+                "value": 60,
+                "qualifier": "up_to"
+              },
+              "unit": "mm/h"
+            },
+            {
+              "attribute": "busan_max_winds",
+              "value": 126,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "northward_motion",
+              "value": 23,
+              "unit": "km/h"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "“I’m worried that people living in lowlands or making a living by farming and fishing would suffer,” said Kim Wi-jeong, a 33-year-old office worker living in the capital.\n\nMost schools were shut for the summer vacation, but nearly half of those having resumed classes early, about 1,600, either closed or switched to remote learning because of the storm, the education ministry said. Some schools were hit by floods and landslides.\n\nThe storm further complicated the trip of 37,000 youngsters attending the ill-starred World Scout Jamboree. Having endured a heatwave last week, they were moved to safer accommodation on Tuesday as their campsite lay in the path of the storm.\n\n",
+          "start_offset": 1320,
+          "end_offset": 1997,
+          "sentence_ids": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "public_reaction",
+            "response",
+            "evacuation"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "schools_closed_or_remote",
+              "value": {
+                "value": 1600,
+                "qualifier": "about"
+              },
+              "unit": "schools"
+            },
+            {
+              "attribute": "scout_jamboree_participants",
+              "value": 37000,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "The country is still recovering from intense monsoon rain last month, which left more than 40 people dead, including 14 in a flooded tunnel.\n\n",
+          "start_offset": 1997,
+          "end_offset": 2139,
+          "sentence_ids": [
+            13
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "previous monsoon",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 40,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "tunnel_deaths",
+              "value": 14,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "Lee Hyun-ho, a professor of atmospheric science at Kongju National University, said Khanun was the first storm to pass directly over the Korean peninsula. He said increasing sea surface temperatures had made it more powerful.\n\n“The more the temperatures rise, the greater the energy that storms can get. So we will likely see even stronger typhoons in the future,” Lee said.\n\nFed by humid air from the storm, heavy rain was still battering parts of western Japan, with some areas getting well over the normal for August in the past week. One town had recorded 985 mm (38.78 inches) as of Thursday morning.\n\n",
+          "start_offset": 2139,
+          "end_offset": 2746,
+          "sentence_ids": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "cause",
+            "weather",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "japan_town_rainfall",
+              "value": 985,
+              "unit": "mm"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "Another storm, Typhoon Lan, was approaching near the Ogasawara Islands, about 1,000km (621 miles) south of Tokyo, late on Wednesday.\n\nThough the storm’s path was uncertain, the Japan Meteorological Agency said it could affect the Tokyo area by the end of the weekend.\n\nThe bad weather is striking in the middle of Obon, Japan’s main summer holiday, when many people leave big cities to return to their home towns.",
+          "start_offset": 2746,
+          "end_offset": 3159,
+          "sentence_ids": [
+            20,
+            21,
+            22
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "uncertainty"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "separate Typhoon Lan",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "77fa0d6b252b0d0f8bd9d6c249384edef4edccd407ca554ebe86ca9054db1537",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-DCC5700B47310F0A",
+      "event_id": "DIS-TC-DDBC85C7FE908343",
+      "event_rank": 35,
+      "article_rank": 3,
+      "title": "Emergency declared in parts of Russia’s Far East in typhoon aftermath",
+      "publisher": "TheFrontierPost-en",
+      "identified_publisher": "Reuters",
+      "source_domain": "thefrontierpost.com",
+      "url": "https://thefrontierpost.com/emergency-declared-in-parts-of-russias-far-east-in-typhoon-aftermath/",
+      "published_at": "2023-08-12T13:32:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "明确 Reuters 莫斯科电。",
+      "content": "Moscow (Reuters): A state of emergency was declared in nine municipalities in Russian Far East on Saturday after heavy downpours flooded villages in the aftermath of Typhoon Khanun that pummelled Japan earlier this week, Russian agencies reported.\n\nAfter lashing southern Japan, Khanun weakened into a tropical depression as it crossed into North Korea on Friday from South Korea.\n\nIn Russian Far East, a region in the easternmost part of Russia and the Asian continent, 32 settlements were cut off, 543 residential houses and large swathes of roads were flooded by Saturday morning, Russia’s RIA agency reported.\n\nCiting emergency services, RIA reported that a state of emergency was declared in nine municipalities in Primorye, a region in the Russian Far East of which the port of Vladivostok is the administrative centre.\n\nRIA also reported that a dam that was built to contain floods was breached in Ussuriysk, a city about 100 km (62 miles) north of Vladivostok. It gave no further details.\n\nDouble the monthly rainfall is expected in some areas of the region this week, RIA reported.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "Moscow (Reuters): A state of emergency was declared in nine municipalities in Russian Far East on Saturday after heavy downpours flooded villages in the aftermath of Typhoon Khanun that pummelled Japan earlier this week, Russian agencies reported.\n\nAfter lashing southern Japan, Khanun weakened into a tropical depression as it crossed into North Korea on Friday from South Korea.\n\n",
+          "start_offset": 0,
+          "end_offset": 382,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "response",
+            "weather",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "emergency_municipalities",
+              "value": 9,
+              "unit": null
+            },
+            {
+              "attribute": "north_korea_intensity",
+              "value": "tropical depression",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "In Russian Far East, a region in the easternmost part of Russia and the Asian continent, 32 settlements were cut off, 543 residential houses and large swathes of roads were flooded by Saturday morning, Russia’s RIA agency reported.\n\nCiting emergency services, RIA reported that a state of emergency was declared in nine municipalities in Primorye, a region in the Russian Far East of which the port of Vladivostok is the administrative centre.\n\n",
+          "start_offset": 382,
+          "end_offset": 827,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "affected_population",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "cut_off_settlements",
+              "value": 32,
+              "unit": null
+            },
+            {
+              "attribute": "flooded_homes",
+              "value": 543,
+              "unit": "homes"
+            },
+            {
+              "attribute": "emergency_municipalities",
+              "value": 9,
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "RIA",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "RIA also reported that a dam that was built to contain floods was breached in Ussuriysk, a city about 100 km (62 miles) north of Vladivostok. It gave no further details.\n\nDouble the monthly rainfall is expected in some areas of the region this week, RIA reported.",
+          "start_offset": 827,
+          "end_offset": 1090,
+          "sentence_ids": [
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "infrastructure",
+            "secondary_hazard",
+            "weather"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "dam_breach",
+              "value": "Ussuriysk",
+              "unit": null
+            },
+            {
+              "attribute": "rainfall_forecast",
+              "value": "double monthly rainfall in some areas",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "65f7950a7a0672bba04d06552a791d20e9be852e1ab3c0c12f464d3701addb76",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "韩国疏散规模的具体值和下限相容",
+        "fact_type": "evacuation",
+        "attribute": "south_korea_evacuations",
+        "supporting_spans": [
+          "A001_F008",
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F008",
+            "value": 15862,
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "value": 14000,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "大邱一名轮椅使用者落水失踪",
+        "fact_type": "missing_persons",
+        "attribute": "daegu_missing",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": 1,
+            "unit": "person",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": 1,
+            "unit": "person",
+            "attribution": "interior ministry"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "大邱另一例死亡在两篇报道的确认阶段不同",
+        "fact_type": "casualties",
+        "attribute": "daegu_death",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": "man pronounced dead after hospital transfer",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "death under investigation",
+            "unit": null,
+            "attribution": "interior ministry"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "俄罗斯远东 9 地宣布紧急状态",
+        "fact_type": "response",
+        "attribute": "russian_emergency",
+        "supporting_spans": [
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": 9,
+            "unit": "municipalities",
+            "attribution": "RIA"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "important_facts": [
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2023-08-10",
+          "time_precision": "当地日",
+          "description": "Khanun 登陆韩国东南海岸并带来强风暴雨。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F001"
+          ]
+        },
+        {
+          "time": "2023-08-11",
+          "time_precision": "当地日",
+          "description": "Reuters 报道气旋减为热带低压进入朝鲜。",
+          "supporting_spans": [
+            "A003_F001"
+          ]
+        },
+        {
+          "time": "2023-08-12",
+          "time_precision": "当地日",
+          "description": "俄罗斯远东报告村镇洪水并宣布紧急状态。",
+          "supporting_spans": [
+            "A003_F001",
+            "A003_F002"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "强降雨造成道路、住房和设施损坏，部分居民撤离。",
+          "supporting_spans": [
+            "A001_F002",
+            "A001_F008",
+            "A002_F001",
+            "A003_F002"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "Khanun 影响日本与朝鲜半岛，引起韩国撤离与设施受损，后续暴雨波及俄罗斯远东。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F001",
+            "A003_F001",
+            "A003_F002"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "limitations": [
+      "上月季风死伤和另一场台风 Lan 归为背景。"
+    ]
+  }
+}

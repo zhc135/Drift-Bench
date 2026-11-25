@@ -1,0 +1,694 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-9B6BA4BB2AA99BC0",
+  "event_rank": 12,
+  "event_metadata": {
+    "event_name": "俄罗斯地震",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2025-09-18T18:58:12+00:00",
+    "event_end_time": "2025-09-18T18:58:12+00:00",
+    "locations": [
+      "俄罗斯"
+    ],
+    "latitude": 53.1928,
+    "longitude": 160.5129,
+    "place_names_in_reports": [
+      "堪察加半岛",
+      "彼得罗巴甫洛夫斯克-堪察加斯基",
+      "维柳钦斯克",
+      "千岛群岛"
+    ],
+    "gdacs_id": "1500811",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "格林尼治标准时间18:58和莫斯科时间21:58指同一时刻。A003 未提供震中坐标或准确主震时间。"
+    ],
+    "dataset_place_name": "俄罗斯地震",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-B1EDDAFE04C9ECD0",
+      "event_id": "DIS-EQ-9B6BA4BB2AA99BC0",
+      "event_rank": 12,
+      "article_rank": 1,
+      "title": "美国解除堪察加地震后发布的海啸威胁",
+      "publisher": "itartass_en",
+      "identified_publisher": "TASS",
+      "source_domain": "tass.com",
+      "url": "https://tass.com/world/2018679",
+      "published_at": "2025-09-19T00:10:10+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "明确的塔斯社发稿地信息援引俄罗斯地球物理局和 USGS。",
+      "content": "塔斯社华盛顿9月19日电——据美国地质调查局称，美国国家海洋和大气管理局（NOAA）已解除堪察加地震后发布的海啸威胁。\n\n俄罗斯科学院地球物理局表示，莫斯科时间9月18日晚9:58，堪察加发生7.4级地震。彼得罗巴甫洛夫斯克-堪察加斯基和维柳钦斯克居民感受到烈度6度的震动。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "塔斯社华盛顿9月19日电——据美国地质调查局称，美国国家海洋和大气管理局（NOAA）已解除堪察加地震后发布的海啸威胁。\n\n",
+          "start_offset": 0,
+          "end_offset": 61,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "tsunami_threat",
+              "value": "堪察加地震后发布的威胁已解除",
+              "unit": null
+            },
+            {
+              "attribute": "authority",
+              "value": "USGS 转述 NOAA",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "俄罗斯科学院地球物理局表示，莫斯科时间9月18日晚9:58，堪察加发生7.4级地震。彼得罗巴甫洛夫斯克-堪察加斯基和维柳钦斯克居民感受到烈度6度的震动。",
+          "start_offset": 61,
+          "end_offset": 137,
+          "sentence_ids": [
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.4,
+              "unit": null
+            },
+            {
+              "attribute": "moscow_time",
+              "value": "2025-09-18 21:58",
+              "unit": null
+            },
+            {
+              "attribute": "felt_intensity",
+              "value": 6,
+              "unit": "points"
+            },
+            {
+              "attribute": "felt_in",
+              "value": [
+                "彼得罗巴甫洛夫斯克-堪察加斯基",
+                "维柳钦斯克"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "俄罗斯科学院地球物理局",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "8a56dd127d0f337bb19f653d5850d436c4e6a86dc0d6bede45706900f05a28c6",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-609462DE59534929",
+      "event_id": "DIS-EQ-9B6BA4BB2AA99BC0",
+      "event_rank": 12,
+      "article_rank": 2,
+      "title": "9月19日每日世界新闻简报",
+      "publisher": "xinhuanet-english",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20250919/8f99c92eb8f34da3aecd99cf32d8f1d3/c.html",
+      "published_at": "2025-09-19T00:16:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "新华社简报包括地震和数条无关新闻。其地震报道与塔斯社共享一个俄罗斯监测来源。",
+      "content": "俄罗斯堪察加东海岸附近发生7.4级地震，发布海啸警报\n\n当地地球物理局星期四表示，俄罗斯堪察加半岛东海岸附近发生7.4级地震。\n\n据俄罗斯科学院地球物理调查局堪察加分局称，地震发生于格林尼治标准时间18:58，震中位于地区首府彼得罗巴甫洛夫斯克-堪察加斯基约149公里处，震源深度39公里。\n\n特朗普在喧闹抗议声中结束英国之行，双方就巴勒斯坦问题存在分歧\n\n美国总统唐纳德·特朗普星期四表示，他与英国首相基尔·斯塔默在英国计划承认巴勒斯坦国一事上存在分歧。\n\n在结束第二次对英国国事访问前的联合记者会上，当被问及英国承认计划时，特朗普表示：“我与首相在这一点上存在分歧。实际上，这是我们为数不多的分歧之一。”\n\n也门胡塞武装声称对以色列城市发动多次袭击\n\n也门胡塞武装星期四晚称，向以色列三个城市发射了一枚远程“高超音速弹道导弹”和三架无人机。\n\n在胡塞武装运营的马西拉电视台播出的电视声明中，该组织军事发言人叶海亚·萨雷阿称，导弹以雅法（特拉维夫）市的一处军事目标为目标，三架无人机袭击了贝尔谢巴市及埃拉特港市的目标。\n\n以色列袭击黎巴嫩南部真主党目标\n\n黎巴嫩国家通讯社（NNA）报道称，以色列军队星期四晚在黎巴嫩南部多个村庄发动空袭，包括迈斯杰拜勒、迪宾和卡夫尔特布尼特。\n\n在空袭之前，以色列军方发言人阿维凯·阿德拉伊在 X 上警告称，将袭击真主党基础设施，以回应其所称的真主党试图在该地区恢复活动。\n\n法国南部一名男子袭击儿童后被警方击毙\n\n法国新闻频道 BFMTV 报道，星期四下午，法国南部拉塞讷滨海镇一名男子在一所学校外袭击儿童，随后被警方击毙。\n\nBFMTV 援引警方消息称，该男子在皮埃尔·塞马尔学校外袭击儿童，随后与到场警员发生对峙。报道未进一步说明遭袭儿童的状况或袭击者动机。 ",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "俄罗斯堪察加东海岸附近发生7.4级地震，发布海啸警报\n\n当地地球物理局星期四表示，俄罗斯堪察加半岛东海岸附近发生7.4级地震。\n\n据俄罗斯科学院地球物理调查局堪察加分局称，地震发生于格林尼治标准时间18:58，震中位于地区首府彼得罗巴甫洛夫斯克-堪察加斯基约149公里处，震源深度39公里。\n\n",
+          "start_offset": 0,
+          "end_offset": 147,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline",
+            "secondary_hazard"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.4,
+              "unit": null
+            },
+            {
+              "attribute": "origin_time",
+              "value": "2025年9月18日格林尼治标准时间18:58",
+              "unit": null
+            },
+            {
+              "attribute": "epicenter_distance_from_petropavlovsk",
+              "value": {
+                "value": 149,
+                "qualifier": "about"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "depth",
+              "value": 39,
+              "unit": "km"
+            },
+            {
+              "attribute": "attribution",
+              "value": "俄罗斯科学院地球物理调查局堪察加分局",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "特朗普在喧闹抗议声中结束英国之行，双方就巴勒斯坦问题存在分歧\n\n美国总统唐纳德·特朗普星期四表示，他与英国首相基尔·斯塔默在英国计划承认巴勒斯坦国一事上存在分歧。\n\n在结束第二次对英国国事访问前的联合记者会上，当被问及英国承认计划时，特朗普表示：“我与首相在这一点上存在分歧。实际上，这是我们为数不多的分歧之一。”\n\n",
+          "start_offset": 147,
+          "end_offset": 306,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "关于英国访问的无关新闻",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "也门胡塞武装声称对以色列城市发动多次袭击\n\n也门胡塞武装星期四晚称，向以色列三个城市发射了一枚远程“高超音速弹道导弹”和三架无人机。\n\n在胡塞武装运营的马西拉电视台播出的电视声明中，该组织军事发言人叶海亚·萨雷阿称，导弹以雅法（特拉维夫）市的一处军事目标为目标，三架无人机袭击了贝尔谢巴市及埃拉特港市的目标。\n\n",
+          "start_offset": 306,
+          "end_offset": 462,
+          "sentence_ids": [
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "disaster_occurrence"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "关于袭击主张的无关新闻",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "以色列袭击黎巴嫩南部真主党目标\n\n黎巴嫩国家通讯社（NNA）报道称，以色列军队星期四晚在黎巴嫩南部多个村庄发动空袭，包括迈斯杰拜勒、迪宾和卡夫尔特布尼特。\n\n在空袭之前，以色列军方发言人阿维凯·阿德拉伊在 X 上警告称，将袭击真主党基础设施，以回应其所称的真主党试图在该地区恢复活动。\n\n",
+          "start_offset": 462,
+          "end_offset": 606,
+          "sentence_ids": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "fact_types": [
+            "disaster_occurrence"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "关于黎巴嫩的无关新闻",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "法国南部一名男子袭击儿童后被警方击毙\n\n法国新闻频道 BFMTV 报道，星期四下午，法国南部拉塞讷滨海镇一名男子在一所学校外袭击儿童，随后被警方击毙。\n\nBFMTV 援引警方消息称，该男子在皮埃尔·塞马尔学校外袭击儿童，随后与到场警员发生对峙。报道未进一步说明遭袭儿童的状况或袭击者动机。 ",
+          "start_offset": 606,
+          "end_offset": 751,
+          "sentence_ids": [
+            16,
+            17,
+            18
+          ],
+          "fact_types": [
+            "disaster_occurrence"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "关于法国的无关新闻",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "6488bd0aa0ee7dea3dcd5a76aa381fcdb7e3bfad279f3e296fc022931de682dd",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-A3481A44F6B1E911",
+      "event_id": "DIS-EQ-9B6BA4BB2AA99BC0",
+      "event_rank": 12,
+      "article_rank": 3,
+      "title": "堪察加地震余波：震动与海啸威胁 | 科学与环境",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/science-environment/3633032-kamchatkas-earthquake-reverberates-tremors-and-tsunami-threats",
+      "published_at": "2025-09-19T05:50:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "正文笼统提及 USGS 及地方当局，未显示独立报道或通讯社署名。",
+      "content": "据美国地质调查局及地方当局的报告，俄罗斯堪察加地区发生里氏7.8级强烈地震。此次地震震源深度10公里，引发对地理位置脆弱的半岛发布海啸预警。\n\n尽管最初没有损坏报告，地区行政长官弗拉基米尔·索洛多夫宣布，应急服务部门立即进入高度戒备状态。邻近地区包括千岛群岛部分地区也发布了海啸警报，但随着情况稳定，警报随后解除。\n\n此次地震是堪察加一系列重大地质事件中的最新一起，该地区以频繁而不稳定的地震活动著称。就在最近的7月，该地区发生8.8级地震，引发范围延伸至法属波利尼西亚和智利的海啸警报，随后发生火山喷发。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "据美国地质调查局及地方当局的报告，俄罗斯堪察加地区发生里氏7.8级强烈地震。此次地震震源深度10公里，引发对地理位置脆弱的半岛发布海啸预警。\n\n",
+          "start_offset": 0,
+          "end_offset": 72,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "secondary_hazard",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.8,
+              "unit": null
+            },
+            {
+              "attribute": "depth",
+              "value": 10,
+              "unit": "km"
+            },
+            {
+              "attribute": "reported_attribution",
+              "value": "USGS 和地方当局",
+              "unit": null
+            },
+            {
+              "attribute": "origin_time",
+              "value": "未说明",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "尽管最初没有损坏报告，地区行政长官弗拉基米尔·索洛多夫宣布，应急服务部门立即进入高度戒备状态。邻近地区包括千岛群岛部分地区也发布了海啸警报，但随着情况稳定，警报随后解除。\n\n",
+          "start_offset": 72,
+          "end_offset": 159,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "response",
+            "damage",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "preparedness",
+              "value": "应急服务进入高度戒备状态",
+              "unit": null
+            },
+            {
+              "attribute": "damage",
+              "value": "最初无相关报道",
+              "unit": null
+            },
+            {
+              "attribute": "kuril_advisories",
+              "value": "发布后解除",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "此次地震是堪察加一系列重大地质事件中的最新一起，该地区以频繁而不稳定的地震活动著称。就在最近的7月，该地区发生8.8级地震，引发范围延伸至法属波利尼西亚和智利的海啸警报，随后发生火山喷发。",
+          "start_offset": 159,
+          "end_offset": 253,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "secondary_hazard"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "historical_scope",
+              "value": "7月堪察加的另一场地震",
+              "unit": null
+            },
+            {
+              "attribute": "july_magnitude",
+              "value": 8.8,
+              "unit": null
+            },
+            {
+              "attribute": "historical_tsunami_alert_reach",
+              "value": [
+                "法属波利尼西亚",
+                "智利"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "7acfc146150f035612656185820856876d81e86032dfb383c62c3f52f136207f",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "两篇文章援引俄罗斯地球物理机构，报告震级为7.4级",
+        "fact_type": "disaster_magnitude",
+        "attribute": "russian_agency_magnitude",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 7.4,
+            "unit": null,
+            "attribution": "Russian Academy of Sciences Geophysical Service"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 7.4,
+            "unit": null,
+            "attribution": "Kamchatka branch"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "第三篇文章给出不同的震级和震源深度",
+        "fact_type": "disaster_magnitude",
+        "attribute": "reported_magnitude_across_sources",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 7.4,
+            "unit": null,
+            "attribution": "Russian Academy of Sciences Geophysical Service"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 7.4,
+            "unit": null,
+            "attribution": "Kamchatka branch"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": 7.8,
+            "unit": null,
+            "attribution": "USGS and local authorities as reported"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "A003 未给出发震时间、坐标或具体公告。仍有可能描述附近另一次地震或不同目录中的估计值。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "两篇报道给出不同震源深度和归属来源",
+        "fact_type": "disaster_magnitude",
+        "attribute": "reported_depth",
+        "supporting_spans": [
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 39,
+            "unit": "km",
+            "attribution": "Kamchatka branch"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": 10,
+            "unit": "km",
+            "attribution": "USGS and local authorities as reported"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "证据不足以匹配地震记录及各机构的估计方法。"
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "数篇报道记录海啸警报发布或解除",
+        "fact_type": "response",
+        "attribute": "tsunami_warning",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "NOAA 威胁已解除",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "警报已发布",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "千岛群岛警报发布后解除",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "地理覆盖范围不同。"
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "important_facts": [
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-09-18T18:58Z",
+          "time_precision": "Minute (GMT)",
+          "description": "俄罗斯科学院地球物理局报告堪察加半岛附近海域发生地震。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F001"
+          ]
+        },
+        {
+          "time": "主震之后",
+          "time_precision": "Relative time",
+          "description": "海啸警报已发布，NOAA 随后解除其威胁公告。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F001"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "各报道将海啸警报与堪察加附近地震联系起来。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F001",
+            "A003_F001"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "堪察加地震引发海啸警报。俄罗斯机构报告震级为7.4级，第三篇报道给出不同震级与震源深度，证据不足以匹配观察记录。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A002_F001",
+            "A003_F001"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "A002 的世界新闻简报包括与本事件无关的新闻，它们在源文本中保留，但不纳入事件对齐。"
+    ]
+  }
+}

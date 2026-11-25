@@ -1,0 +1,1449 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-8898526AC62C2D4E",
+  "event_rank": 11,
+  "event_metadata": {
+    "event_name": "阿富汗地震",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2023-10-07T06:41:02+00:00",
+    "event_end_time": "2023-10-07T06:41:02+00:00",
+    "locations": [
+      "阿富汗"
+    ],
+    "latitude": 34.6102,
+    "longitude": 61.9242,
+    "place_names_in_reports": [
+      "赫拉特",
+      "津达詹",
+      "因吉尔",
+      "古尔兰",
+      "库什基罗巴特桑吉",
+      "恰哈克",
+      "纳耶布拉菲",
+      "伊朗",
+      "赫拉特市"
+    ],
+    "gdacs_id": "1394952",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "第一次6.3级地震发生于10月7日，另一次发生于10月11日。影响数据必须反映各次地震的范围。"
+    ],
+    "dataset_place_name": "阿富汗地震",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-DB8F6D3254D35BFA",
+      "event_id": "DIS-EQ-8898526AC62C2D4E",
+      "event_rank": 11,
+      "article_rank": 1,
+      "title": "阿富汗官员下调地震死亡人数",
+      "publisher": "voanews",
+      "identified_publisher": "VOA",
+      "source_domain": "voanews.com",
+      "url": "https://www.voanews.com/a/afghan-officials-lower-earthquakes-death-toll-/7307620.html",
+      "published_at": "2023-10-12T11:22:35+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "该文章称 UNICEF 工作人员接受了美国之音（VOA）采访，VOA 也就联合国数据寻求澄清。",
+      "content": "阿富汗塔利班政府星期四将近日袭击西部地区的系列地震的死亡人数下调至约1,000人，修订了此前超过2,000人死亡的数据。\n\n阿富汗公共卫生部在 X（原推特）发布最新伤亡数据称，自星期六首场6.3级地震袭击毗邻伊朗的西部赫拉特省多个地区以来，约2,400人受伤。\n\nUNICEF 一名发言人星期四告诉 VOA，“据报遇难者中超过90%”为妇女和儿童，并表示伤亡“数字仍在变化”。截至星期四，联合国记录了约1,300人死亡和近1,700人受伤。VOA 联系联合国官员寻求澄清这一差异，但未立即收到回应。\n\n阿富汗灾区接连遭遇余震，星期三又发生一次6.3级地震，之后出现三次较强震动。\n\n阿富汗西部发生强烈地震\n\n联合国最新灾情报告称，星期三的地震及余震影响赫拉特的因吉尔、古尔兰和库什基罗巴特桑吉地区村庄，造成至少140人受伤。报告称：“因吉尔地区拥有1,250名居民的恰哈克村及附近五个村庄已被完全摧毁。”\n\n省级官员报告，最新地震造成至少1人死亡、150多人受伤。\n\nUNICEF 阿富汗西部实地工作人员西迪格·易卜拉欣本周早些时候对 VOA 表示，第一次地震发生时，人们以为是爆炸而跑回家中。\n\n易卜拉欣说：“不幸的是，地震仍在继续，房屋开始倒塌。妇女和儿童通常在家中，料理家务和照顾孩子，因此建筑倒塌时他们面临的风险最高。”\n\nUNICEF 星期三发起针对阿富汗的新募捐呼吁，要求提供初始2,000万美元用于应对地震。\n\n世界卫生组织报告称，10个地区的21所卫生设施受损，其中一半由10月11日的震动造成。迄今，世界卫生组织等机构已在几个受灾严重的地区向5,600多人提供医疗服务，主要集中于靠近星期六地震震中的津达詹。\n\n阿富汗医院原本就严重缺乏设备和资金，很快不堪重负。为地震受害者大规模提供住所将是塔利班政府面临的挑战。\n\n公共卫生部长卡兰达尔·埃巴德星期三告诉记者：“该地区天气极其寒冷，受灾家庭晚上待在户外很艰难。”\n\n他说：“他们可以在帐篷里住一个月，但超过一个月可能就非常困难了。”\n\n埃巴德说，政府已向受害者提供药品、设备、食物、饮用水、帐篷及其他必需品，但他们仍需要更多帮助。他赞扬国际援助组织支持政府，将急需的救援物资送给地震受害者。\n\n塔利班首席发言人扎比乌拉·穆贾希德表示，多个国家也已向赫拉特流离失所的家庭运送救援物资。\n\n本文已更新，以纳入联合国对地震伤亡人数的估计。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "阿富汗塔利班政府星期四将近日袭击西部地区的系列地震的死亡人数下调至约1,000人，修订了此前超过2,000人死亡的数据。\n\n",
+          "start_offset": 0,
+          "end_offset": 62,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "casualties",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "revised_deaths",
+              "value": {
+                "value": 1000,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "previous_deaths",
+              "value": {
+                "value": 2000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "塔利班政府",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "阿富汗公共卫生部在 X（原推特）发布最新伤亡数据称，自星期六首场6.3级地震袭击毗邻伊朗的西部赫拉特省多个地区以来，约2,400人受伤。\n\n",
+          "start_offset": 62,
+          "end_offset": 132,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "injuries",
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "injured",
+              "value": {
+                "value": 2400,
+                "qualifier": "around"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "first_quake_magnitude",
+              "value": 6.3,
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "阿富汗公共卫生部",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "UNICEF 一名发言人星期四告诉 VOA，“据报遇难者中超过90%”为妇女和儿童，并表示伤亡“数字仍在变化”。截至星期四，联合国记录了约1,300人死亡和近1,700人受伤。VOA 联系联合国官员寻求澄清这一差异，但未立即收到回应。\n\n",
+          "start_offset": 132,
+          "end_offset": 251,
+          "sentence_ids": [
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "affected_population",
+            "uncertainty"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "women_and_children_share_of_reported_dead",
+              "value": {
+                "value": 90,
+                "qualifier": "greater_than"
+              },
+              "unit": "%"
+            },
+            {
+              "attribute": "un_deaths",
+              "value": {
+                "value": 1300,
+                "qualifier": "around"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "un_injured",
+              "value": {
+                "value": 1700,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "un_cutoff",
+              "value": "星期四",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "阿富汗灾区接连遭遇余震，星期三又发生一次6.3级地震，之后出现三次较强震动。\n\n",
+          "start_offset": 251,
+          "end_offset": 291,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "secondary_hazard",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "wednesday_quake_magnitude",
+              "value": 6.3,
+              "unit": null
+            },
+            {
+              "attribute": "substantial_tremors_after_wednesday",
+              "value": 3,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "阿富汗西部发生强烈地震\n\n",
+          "start_offset": 291,
+          "end_offset": 304,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "联合国最新灾情报告称，星期三的地震及余震影响赫拉特的因吉尔、古尔兰和库什基罗巴特桑吉地区村庄，造成至少140人受伤。报告称：“因吉尔地区拥有1,250名居民的恰哈克村及附近五个村庄已被完全摧毁。”\n\n",
+          "start_offset": 304,
+          "end_offset": 404,
+          "sentence_ids": [
+            8,
+            9
+          ],
+          "fact_types": [
+            "injuries",
+            "damage",
+            "location",
+            "affected_population"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "injured_in_wednesday_quake_or_aftershocks",
+              "value": {
+                "value": 140,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "chahak_population",
+              "value": 1250,
+              "unit": "people"
+            },
+            {
+              "attribute": "additional_villages_destroyed",
+              "value": 5,
+              "unit": "villages"
+            },
+            {
+              "attribute": "attribution",
+              "value": "联合国灾情报告",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "省级官员报告，最新地震造成至少1人死亡、150多人受伤。\n\n",
+          "start_offset": 404,
+          "end_offset": 434,
+          "sentence_ids": [
+            10
+          ],
+          "fact_types": [
+            "injuries",
+            "casualties"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_latest_quake_dead",
+              "value": {
+                "value": 1,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "reported_latest_quake_injured",
+              "value": {
+                "value": 150,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "省级官员",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F008",
+          "span_text": "UNICEF 阿富汗西部实地工作人员西迪格·易卜拉欣本周早些时候对 VOA 表示，第一次地震发生时，人们以为是爆炸而跑回家中。\n\n易卜拉欣说：“不幸的是，地震仍在继续，房屋开始倒塌。妇女和儿童通常在家中，料理家务和照顾孩子，因此建筑倒塌时他们面临的风险最高。”\n\n",
+          "start_offset": 434,
+          "end_offset": 566,
+          "sentence_ids": [
+            11,
+            12,
+            13
+          ],
+          "fact_types": [
+            "cause",
+            "uncertainty",
+            "affected_population",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "西迪格·易卜拉欣，UNICEF",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F009",
+          "span_text": "UNICEF 星期三发起针对阿富汗的新募捐呼吁，要求提供初始2,000万美元用于应对地震。\n\n",
+          "start_offset": 566,
+          "end_offset": 613,
+          "sentence_ids": [
+            14
+          ],
+          "fact_types": [
+            "aid",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "unicef_appeal",
+              "value": 20000000,
+              "unit": "USD"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F010",
+          "span_text": "世界卫生组织报告称，10个地区的21所卫生设施受损，其中一半由10月11日的震动造成。迄今，世界卫生组织等机构已在几个受灾严重的地区向5,600多人提供医疗服务，主要集中于靠近星期六地震震中的津达詹。\n\n",
+          "start_offset": 613,
+          "end_offset": 715,
+          "sentence_ids": [
+            15,
+            16
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "health_facilities_damaged",
+              "value": 21,
+              "unit": "facilities"
+            },
+            {
+              "attribute": "districts",
+              "value": 10,
+              "unit": "districts"
+            },
+            {
+              "attribute": "facilities_damage_from_october_11",
+              "value": "一半",
+              "unit": null
+            },
+            {
+              "attribute": "people_provided_health_services",
+              "value": {
+                "value": 5600,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "WHO",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F011",
+          "span_text": "阿富汗医院原本就严重缺乏设备和资金，很快不堪重负。为地震受害者大规模提供住所将是塔利班政府面临的挑战。\n\n公共卫生部长卡兰达尔·埃巴德星期三告诉记者：“该地区天气极其寒冷，受灾家庭晚上待在户外很艰难。”\n\n他说：“他们可以在帐篷里住一个月，但超过一个月可能就非常困难了。”\n\n",
+          "start_offset": 715,
+          "end_offset": 853,
+          "sentence_ids": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "fact_types": [
+            "humanitarian_needs",
+            "weather",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "need",
+              "value": "适应寒冷天气的耐久住所",
+              "unit": null
+            },
+            {
+              "attribute": "tent_duration_posited_by_health_minister",
+              "value": 1,
+              "unit": "month"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F012",
+          "span_text": "埃巴德说，政府已向受害者提供药品、设备、食物、饮用水、帐篷及其他必需品，但他们仍需要更多帮助。他赞扬国际援助组织支持政府，将急需的救援物资送给地震受害者。\n\n塔利班首席发言人扎比乌拉·穆贾希德表示，多个国家也已向赫拉特流离失所的家庭运送救援物资。\n\n",
+          "start_offset": 853,
+          "end_offset": 978,
+          "sentence_ids": [
+            21,
+            22,
+            23
+          ],
+          "fact_types": [
+            "aid",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_relief",
+              "value": [
+                "药品",
+                "设备",
+                "食物",
+                "饮用水",
+                "帐篷"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F013",
+          "span_text": "本文已更新，以纳入联合国对地震伤亡人数的估计。",
+          "start_offset": 978,
+          "end_offset": 1001,
+          "sentence_ids": [
+            24
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "5ef5eda4a02c6593e398c85cd41239ea1c67346899c09c696628ac7cd32f7ada",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-0A2EC4254B0644AD",
+      "event_id": "DIS-EQ-8898526AC62C2D4E",
+      "event_rank": 11,
+      "article_rank": 2,
+      "title": "应对阿富汗地震的人道主义援助",
+      "publisher": "globalsecurity",
+      "identified_publisher": null,
+      "source_domain": "globalsecurity.org",
+      "url": "https://www.globalsecurity.org/military/library/news/2023/10/mil-231011-aumfa02.htm",
+      "published_at": "2023-10-12T11:34:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "republished",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "资金及政策声明采用澳大利亚政府的第一人称，表明可能是转载政府公告。",
+      "content": "澳大利亚政府将提供100万（原文$），在袭击赫拉特省的致命地震后支持阿富汗人民。\n\n地震加剧了阿富汗严峻的人道主义危机，该国已有2,920万人急需帮助。\n\n澳大利亚的援助将通过由联合国人道主义事务协调厅领导的阿富汗人道主义基金（AHF）提供。\n\nAHF 为弱势人群提供紧急住所、医疗、食品和保护。澳大利亚的任何资金都不会使塔利班政权受益或获得合法性。\n\n澳大利亚已承诺在2023至2024年度向阿富汗持续的人道主义危机提供5,000万（原文$）。\n\n“我们对阿富汗人员伤亡和破坏深感忧虑。\n\n“澳大利亚的支持将通过独立机构提供，以满足住所、食物和药品等基本需求。\n\n“澳大利亚与阿富汗人民站在一起。”\n\n“这场地震加剧了阿富汗持续的人道主义危机，该国已有近3,000万人急需帮助。\n\n“我们正在与已开展救援工作的各人道主义伙伴密切合作，向地区医院部署医疗及创伤支持，并向受灾地区提供紧急住所、物资及食品援助。”\n\n“我们心系这场悲惨地震的受害者、他们的家庭以及救援人员。\n\n“我们敦促塔利班尊重、保护并实现阿富汗人民的人权，特别是妇女、女童、少数族裔和宗教少数群体的人权。”",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "澳大利亚政府将提供100万（原文$），在袭击赫拉特省的致命地震后支持阿富汗人民。\n\n地震加剧了阿富汗严峻的人道主义危机，该国已有2,920万人急需帮助。\n\n澳大利亚的援助将通过由联合国人道主义事务协调厅领导的阿富汗人道主义基金（AHF）提供。\n\n",
+          "start_offset": 0,
+          "end_offset": 123,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "aid",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "new_australian_commitment_as_printed",
+              "value": "100万（原文$）",
+              "unit": null
+            },
+            {
+              "attribute": "national_preexisting_humanitarian_needs_population",
+              "value": 29200000,
+              "unit": "people"
+            },
+            {
+              "attribute": "fund",
+              "value": "由 OCHA 领导的阿富汗人道主义基金",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "AHF 为弱势人群提供紧急住所、医疗、食品和保护。澳大利亚的任何资金都不会使塔利班政权受益或获得合法性。\n\n澳大利亚已承诺在2023至2024年度向阿富汗持续的人道主义危机提供5,000万（原文$）。\n\n",
+          "start_offset": 123,
+          "end_offset": 225,
+          "sentence_ids": [
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "fund_services",
+              "value": [
+                "紧急住所",
+                "医疗",
+                "食物",
+                "保护"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "preexisting_commitment_as_printed",
+              "value": "2023至2024年度的5,000万（原文$）",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "“我们对阿富汗人员伤亡和破坏深感忧虑。\n\n“澳大利亚的支持将通过独立机构提供，以满足住所、食物和药品等基本需求。\n\n“澳大利亚与阿富汗人民站在一起。”\n\n",
+          "start_offset": 225,
+          "end_offset": 302,
+          "sentence_ids": [
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "aid",
+            "public_reaction"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "delivery",
+              "value": "独立机构",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "“这场地震加剧了阿富汗持续的人道主义危机，该国已有近3,000万人急需帮助。\n\n“我们正在与已开展救援工作的各人道主义伙伴密切合作，向地区医院部署医疗及创伤支持，并向受灾地区提供紧急住所、物资及食品援助。”\n\n",
+          "start_offset": 302,
+          "end_offset": 407,
+          "sentence_ids": [
+            10,
+            11
+          ],
+          "fact_types": [
+            "aid",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "national_preexisting_humanitarian_needs_population",
+              "value": {
+                "value": 30000000,
+                "qualifier": "almost"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "deployed_support",
+              "value": [
+                "医疗与创伤支持",
+                "紧急住所",
+                "物资",
+                "食物"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "“我们心系这场悲惨地震的受害者、他们的家庭以及救援人员。\n\n“我们敦促塔利班尊重、保护并实现阿富汗人民的人权，特别是妇女、女童、少数族裔和宗教少数群体的人权。”",
+          "start_offset": 407,
+          "end_offset": 487,
+          "sentence_ids": [
+            12,
+            13
+          ],
+          "fact_types": [
+            "public_reaction",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "654374404b56c88cddf6aa1a7000ea28c2c4f77b0cfc52bb8630521e5dd2ddd3",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-CAB8D7A696C759A3",
+      "event_id": "DIS-EQ-8898526AC62C2D4E",
+      "event_rank": 11,
+      "article_rank": 3,
+      "title": "致命地震后数千阿富汗人在寒冷中无家可归",
+      "publisher": "TheFrontierPost-en",
+      "identified_publisher": "AFP",
+      "source_domain": "thefrontierpost.com",
+      "url": "https://thefrontierpost.com/thousands-of-afghans-out-in-cold-after-deadly-quakes/",
+      "published_at": "2023-10-12T13:25:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "地区发稿地注明法新社（AFP），多名受访者向法新社直接发表言论。",
+      "content": "赫拉特（法新社）：一场造成超过2,00人死亡的强烈地震后，数千名幸存的阿富汗人准备迎接无家可归的冬天，救援人员正在为寻找幸存者而作最后努力。\n\n自星期六致命的6.3级地震并伴随强烈余震发生以来，志愿者一直在赫拉特省用铁锹和镐工作，另一些人则在挖掘坟墓。\n\n联合国表示，估计约1,700户家庭的12,000多人受到影响。\n\n联合国称，津达詹地区11个村庄的房屋“100%”被毁。\n\n纳耶布拉菲村的扎林说，11名家人在建筑砖石倒塌时遇难，援助帐篷无法抵御冬季风暴。\n\n这名70多岁的男子告诉法新社：“如果政府不把我们带走或帮助我们，我们就会被困在这里。”\n\n为大规模人群提供住所将是阿富汗塔利班当局面临的挑战，他们于2021年8月夺取政权，与国际援助组织关系紧张。\n\n40岁的穆罕默德·纳伊姆说：“没有一所房子剩下，甚至没有一个能让我们晚上住下的房间。”他告诉法新社，他失去了包括母亲在内的12名亲人。\n\n“我们再也无法在这里生活了。你看，我们的家人在这里遇难了。我们怎么还能住在这里？”\n\n——出院患者无家可归——\n\n在省会赫拉特市，距离难以到达的津达詹地区地震震中东南30公里（19英里），无国界医生组织表示，伤者现在面临新的磨难。\n\n该慈善组织在社交媒体 X 上表示：“昨天出院的340多名患者不愿离开医院，因为他们已经没有家可以回去。”\n\n地方和国家官员对死伤人数给出了相互矛盾的数据，但灾害管理部表示有2,053人死亡。\n\n灾害管理部发言人毛拉贾南·萨伊克说：“我们无法给出确切的死伤人数，因为数字仍在变化。”\n\n联合国星期二表示，死亡人数接近1,300人，另有近500人仍失踪，其中大多数为妇女。\n\n阿富汗经常遭遇致命地震，但上周末这场灾害是这个贫困国家25年多以来遭遇的最严重灾害。\n\n塔利班当局已禁止妇女在阿富汗为联合国和非政府组织（NGO）工作，使该国极为保守地区的家庭需求难以评估。\n\n国际特赦组织表示，塔利班政府应确保救援和救济工作“不受歧视”地开展，并保证人道主义机构不受限制地进入受灾地区。\n\n南亚地区研究员扎曼·苏尔塔尼表示：“至关重要的是，所有援助都要满足风险最高群体的需求，包括妇女在内的这些群体在危机中往往面临多重挑战。”\n\n阿富汗多数农村住宅由泥土构成，围绕木质支柱建造，几乎没有现代钢筋加固措施。\n\n多代同堂的大家庭通常住在同一个屋檐下，意味着星期六地震这类灾害会严重破坏当地社区。\n\n塔利班重新掌权后，外国援助大范围撤出，阿富汗本已遭受严峻的人道主义危机。\n\n救助儿童会称这些地震为“危机之上的危机”。\n\n与伊朗接壤、人口约190万的赫拉特省还经历了持续多年的干旱，使许多艰难维持生计的农业社区遭受重创。\n\n该国容易发生地震，特别是在位于欧亚和印度构造板块交汇处附近的兴都库什山脉。\n\n去年6月，一场5.9级地震袭击贫困的帕克蒂卡省，造成1,000多人死亡、数万人无家可归。\n\n1998年，一场6.5级地震袭击塔哈尔省，造成4,000多人死亡。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "赫拉特（法新社）：一场造成超过2,00人死亡的强烈地震后，数千名幸存的阿富汗人准备迎接无家可归的冬天，救援人员正在为寻找幸存者而作最后努力。\n\n",
+          "start_offset": 0,
+          "end_offset": 72,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "casualties",
+            "disaster_occurrence",
+            "evacuation",
+            "humanitarian_needs"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "printed_death_toll",
+              "value": "超过2,00",
+              "unit": null
+            },
+            {
+              "attribute": "numerical_interpretation",
+              "value": "格式错误、含义不明确的数字",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "自星期六致命的6.3级地震并伴随强烈余震发生以来，志愿者一直在赫拉特省用铁锹和镐工作，另一些人则在挖掘坟墓。\n\n",
+          "start_offset": 72,
+          "end_offset": 128,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "saturday_quake_magnitude",
+              "value": 6.3,
+              "unit": null
+            },
+            {
+              "attribute": "location",
+              "value": "赫拉特省",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "联合国表示，估计约1,700户家庭的12,000多人受到影响。\n\n联合国称，津达詹地区11个村庄的房屋“100%”被毁。\n\n",
+          "start_offset": 128,
+          "end_offset": 190,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "affected_population",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "estimated_affected_people",
+              "value": {
+                "value": 12000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "estimated_affected_families",
+              "value": {
+                "value": 1700,
+                "qualifier": "some"
+              },
+              "unit": "families"
+            },
+            {
+              "attribute": "villages_with_all_homes_destroyed",
+              "value": 11,
+              "unit": "villages"
+            },
+            {
+              "attribute": "attribution",
+              "value": "联合国",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "纳耶布拉菲村的扎林说，11名家人在建筑砖石倒塌时遇难，援助帐篷无法抵御冬季风暴。\n\n这名70多岁的男子告诉法新社：“如果政府不把我们带走或帮助我们，我们就会被困在这里。”\n\n为大规模人群提供住所将是阿富汗塔利班当局面临的挑战，他们于2021年8月夺取政权，与国际援助组织关系紧张。\n\n40岁的穆罕默德·纳伊姆说：“没有一所房子剩下，甚至没有一个能让我们晚上住下的房间。”他告诉法新社，他失去了包括母亲在内的12名亲人。\n\n“我们再也无法在这里生活了。你看，我们的家人在这里遇难了。我们怎么还能住在这里？”\n\n",
+          "start_offset": 190,
+          "end_offset": 444,
+          "sentence_ids": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "casualties",
+            "humanitarian_needs",
+            "public_reaction",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "zareen_family_deaths",
+              "value": 11,
+              "unit": "people"
+            },
+            {
+              "attribute": "naeem_family_deaths",
+              "value": 12,
+              "unit": "people"
+            },
+            {
+              "attribute": "need",
+              "value": "适合过冬的住所",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "——出院患者无家可归——\n\n",
+          "start_offset": 444,
+          "end_offset": 458,
+          "sentence_ids": [
+            12
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "在省会赫拉特市，距离难以到达的津达詹地区地震震中东南30公里（19英里），无国界医生组织表示，伤者现在面临新的磨难。\n\n该慈善组织在社交媒体 X 上表示：“昨天出院的340多名患者不愿离开医院，因为他们已经没有家可以回去。”\n\n",
+          "start_offset": 458,
+          "end_offset": 572,
+          "sentence_ids": [
+            13,
+            14
+          ],
+          "fact_types": [
+            "injuries",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "discharged_patients_without_homes",
+              "value": {
+                "value": 340,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "无国界医生组织",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "地方和国家官员对死伤人数给出了相互矛盾的数据，但灾害管理部表示有2,053人死亡。\n\n灾害管理部发言人毛拉贾南·萨伊克说：“我们无法给出确切的死伤人数，因为数字仍在变化。”\n\n",
+          "start_offset": 572,
+          "end_offset": 660,
+          "sentence_ids": [
+            15,
+            16
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "uncertainty"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths_reported_by_ministry",
+              "value": 2053,
+              "unit": "people"
+            },
+            {
+              "attribute": "ministry_note",
+              "value": "统计数字仍在变化",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F008",
+          "span_text": "联合国星期二表示，死亡人数接近1,300人，另有近500人仍失踪，其中大多数为妇女。\n\n",
+          "start_offset": 660,
+          "end_offset": 704,
+          "sentence_ids": [
+            17
+          ],
+          "fact_types": [
+            "casualties",
+            "missing_persons"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "un_deaths",
+              "value": {
+                "value": 1300,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "un_missing",
+              "value": {
+                "value": 500,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "time",
+              "value": "星期二",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F009",
+          "span_text": "阿富汗经常遭遇致命地震，但上周末这场灾害是这个贫困国家25年多以来遭遇的最严重灾害。\n\n",
+          "start_offset": 704,
+          "end_offset": 748,
+          "sentence_ids": [
+            18
+          ],
+          "fact_types": [
+            "disaster_occurrence"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F010",
+          "span_text": "塔利班当局已禁止妇女在阿富汗为联合国和非政府组织（NGO）工作，使该国极为保守地区的家庭需求难以评估。\n\n国际特赦组织表示，塔利班政府应确保救援和救济工作“不受歧视”地开展，并保证人道主义机构不受限制地进入受灾地区。\n\n南亚地区研究员扎曼·苏尔塔尼表示：“至关重要的是，所有援助都要满足风险最高群体的需求，包括妇女在内的这些群体在危机中往往面临多重挑战。”\n\n",
+          "start_offset": 748,
+          "end_offset": 928,
+          "sentence_ids": [
+            19,
+            20,
+            21
+          ],
+          "fact_types": [
+            "humanitarian_needs",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_response_constraint",
+              "value": "限制妇女为联合国与非政府组织工作",
+              "unit": null
+            },
+            {
+              "attribute": "requested_action",
+              "value": "无歧视的救济和不受限制的人道主义准入",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F011",
+          "span_text": "阿富汗多数农村住宅由泥土构成，围绕木质支柱建造，几乎没有现代钢筋加固措施。\n\n多代同堂的大家庭通常住在同一个屋檐下，意味着星期六地震这类灾害会严重破坏当地社区。\n\n塔利班重新掌权后，外国援助大范围撤出，阿富汗本已遭受严峻的人道主义危机。\n\n救助儿童会称这些地震为“危机之上的危机”。\n\n",
+          "start_offset": 928,
+          "end_offset": 1071,
+          "sentence_ids": [
+            22,
+            23,
+            24,
+            25
+          ],
+          "fact_types": [
+            "cause",
+            "damage",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F012",
+          "span_text": "与伊朗接壤、人口约190万的赫拉特省还经历了持续多年的干旱，使许多艰难维持生计的农业社区遭受重创。\n\n",
+          "start_offset": 1071,
+          "end_offset": 1122,
+          "sentence_ids": [
+            26
+          ],
+          "fact_types": [
+            "location",
+            "affected_population",
+            "weather"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "herat_population",
+              "value": {
+                "value": 1900000,
+                "qualifier": "around"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "preexisting_hazard",
+              "value": "持续多年的干旱",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F013",
+          "span_text": "该国容易发生地震，特别是在位于欧亚和印度构造板块交汇处附近的兴都库什山脉。\n\n去年6月，一场5.9级地震袭击贫困的帕克蒂卡省，造成1,000多人死亡、数万人无家可归。\n\n1998年，一场6.5级地震袭击塔哈尔省，造成4,000多人死亡。",
+          "start_offset": 1122,
+          "end_offset": 1240,
+          "sentence_ids": [
+            27,
+            28,
+            29
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "cause",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "pactika_prior_magnitude",
+              "value": 5.9,
+              "unit": null
+            },
+            {
+              "attribute": "pactika_prior_deaths",
+              "value": {
+                "value": 1000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "takhar_1998_magnitude",
+              "value": 6.5,
+              "unit": null
+            },
+            {
+              "attribute": "takhar_1998_deaths",
+              "value": {
+                "value": 4000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "03f5116582b96acc0e9d7e1371f1594040ef88a0d83f7e1dea490a2904c577dd",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "10月7日6.3级主震",
+        "fact_type": "disaster_magnitude",
+        "attribute": "saturday_quake_magnitude",
+        "supporting_spans": [
+          "A001_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 6.3,
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": 6.3,
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "阿富汗当局下调死亡人数",
+        "fact_type": "casualties",
+        "attribute": "afghan_official_death_toll",
+        "supporting_spans": [
+          "A003_F007",
+          "A001_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F007",
+            "value": 2053,
+            "unit": "people",
+            "attribution": "disaster ministry"
+          },
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 1000,
+              "qualifier": "about"
+            },
+            "unit": "people",
+            "attribution": "Taliban government"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "temporal_update",
+        "temporal_relation": "earlier_later",
+        "annotation_note": "VOA 明确报道将死亡人数从超过2,000人下调。法新社未给出2,053这一数字的时间戳。印刷错误“2,00”已被排除在计算之外。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "两篇报道将联合国死亡人数估计值列为接近1,300人",
+        "fact_type": "casualties",
+        "attribute": "un_death_toll",
+        "supporting_spans": [
+          "A001_F003",
+          "A003_F008"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": {
+              "value": 1300,
+              "qualifier": "around",
+              "cutoff": "星期四"
+            },
+            "unit": "people",
+            "attribution": "UN"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F008",
+            "value": {
+              "value": 1300,
+              "qualifier": "nearly",
+              "cutoff": "星期二"
+            },
+            "unit": "people",
+            "attribution": "UN"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "同一天阿富汗卫生部及联合国受伤人数估计在覆盖范围和报道依据上存在差异",
+        "fact_type": "injuries",
+        "attribute": "reported_injured",
+        "supporting_spans": [
+          "A001_F002",
+          "A001_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": {
+              "value": 2400,
+              "qualifier": "around"
+            },
+            "unit": "people",
+            "attribution": "Afghan Public Health Ministry"
+          },
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": {
+              "value": 1700,
+              "qualifier": "nearly"
+            },
+            "unit": "people",
+            "attribution": "UN"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": "VOA 在同一篇文章中呈现两种估计值，无法核实各机构的纳入标准。"
+      },
+      {
+        "cluster_id": "FC005",
+        "cluster_description": "适合过冬的长期住所短缺",
+        "fact_type": "humanitarian_needs",
+        "attribute": "shelter_needs",
+        "supporting_spans": [
+          "A001_F011",
+          "A002_F004",
+          "A003_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F011",
+            "value": "医院不堪重负，迫切需要耐久住所",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": "合作伙伴提供紧急住所",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": "帐篷不大可能抵御冬季风暴",
+            "unit": null,
+            "attribution": "Zareen"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC006",
+        "cluster_description": "澳大利亚宣布通过 AHF 提供专项援助",
+        "fact_type": "aid",
+        "attribute": "australian_quake_aid",
+        "supporting_spans": [
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "100万（原文$）",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005",
+        "FC006"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "important_facts": [
+        "FC005",
+        "FC006"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2023-10-07",
+          "time_precision": "Local date",
+          "description": "第一次6.3级地震袭击赫拉特，之后出现多次余震。",
+          "supporting_spans": [
+            "A001_F002",
+            "A003_F002"
+          ]
+        },
+        {
+          "time": "2023-10-10",
+          "time_precision": "Weekday resolved from the publication date",
+          "description": "法新社转述联合国估计有近1,300人死亡、近500人失踪。",
+          "supporting_spans": [
+            "A003_F008"
+          ]
+        },
+        {
+          "time": "2023-10-11",
+          "time_precision": "Local date",
+          "description": "另一次6.3级地震及余震造成更多人员受伤和破坏。",
+          "supporting_spans": [
+            "A001_F004",
+            "A001_F006"
+          ]
+        },
+        {
+          "time": "2023-10-12",
+          "time_precision": "Publication date",
+          "description": "VOA 报道阿富汗当局下调死亡人数，而联合国数据仍在变化。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "UNICEF 工作人员说，建筑倒塌时，待在家里的妇女和儿童面临更高风险。",
+          "supporting_spans": [
+            "A001_F008"
+          ]
+        },
+        {
+          "description": "住房损坏和冬季严寒使临时住所更难满足长期需求。",
+          "supporting_spans": [
+            "A001_F011",
+            "A003_F004",
+            "A003_F006"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "强烈地震接连袭击赫拉特。数个机构报道并更新伤亡数据。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A001_F003",
+            "A001_F004",
+            "A003_F007"
+          ]
+        },
+        {
+          "description": "村庄和医院受到破坏，国际组织及澳大利亚提供援助，住所需求仍存在。",
+          "supporting_spans": [
+            "A001_F006",
+            "A001_F010",
+            "A002_F001",
+            "A003_F003",
+            "A003_F004"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "A003 的首句存在死亡人数印刷错误。在未根据其他段落推断更正数值的情况下保留原始数值。"
+    ]
+  }
+}

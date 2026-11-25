@@ -1,0 +1,1069 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-6BF369AD07AE2B79",
+  "event_rank": 10,
+  "event_metadata": {
+    "event_name": "俄罗斯地震",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2024-08-17T19:10:28+00:00",
+    "event_end_time": "2024-08-17T19:10:28+00:00",
+    "locations": [
+      "俄罗斯"
+    ],
+    "latitude": 52.9242,
+    "longitude": 160.1413,
+    "place_names_in_reports": [
+      "堪察加",
+      "舍维留奇火山",
+      "彼得罗巴甫洛夫斯克-堪察加斯基",
+      "太平洋",
+      "千岛群岛",
+      "埃别科火山",
+      "檀香山"
+    ],
+    "gdacs_id": "1442254",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "GDACS 将主震日期记为协调世界时8月17日。各报道提及星期六晚间、星期日清晨及多个本地时区。喷发时间保留报道中的精确程度。"
+    ],
+    "dataset_place_name": "俄罗斯地震",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-9FCB4081DE747C7E",
+      "event_id": "DIS-EQ-6BF369AD07AE2B79",
+      "event_rank": 10,
+      "article_rank": 1,
+      "title": "俄罗斯发生7.0级地震后火山喷发",
+      "publisher": "menafn",
+      "identified_publisher": null,
+      "source_domain": "menafn.com",
+      "url": "https://menafn.com/1108571379/Volcano-Erupts-In-Russia-After-70-Magnitude-Earthquake",
+      "published_at": "2024-08-17T00:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "republished",
+      "source_independence": "syndicated",
+      "source_independence_reason": "MENAFN 承载的稿件援引塔斯社、俄罗斯研究人员和中国地震台网中心，未显示有独立现场报道。",
+      "content": "俄罗斯国营塔斯社援引俄罗斯科学院远东分院火山学与地震学研究所报道称，火山已开始“喷出火山灰和熔岩”。\n\n报道称科学家表示：“舍维留奇火山已经开始喷发……据目视评估，火山灰柱高度已达海拔8公里。”\n\n当地时间星期六晚些时候，堪察加东海岸附近海域发生7.0级地震。\n\n据中国地震台网中心发布的报告，监测到震中位于北纬52.8度、东经160.15度，震源深度50公里。\n\n美国国家海啸预警中心最初发布了海啸威胁警报，但随后表示威胁已经解除。俄罗斯紧急情况部未发布任何海啸预警。\n\n塔斯社援引该部门报道称，地震之后，堪察加近海太平洋发生一系列余震，震级介于3.9至5.0之间，其中多数在陆地上未被感知。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "俄罗斯国营塔斯社援引俄罗斯科学院远东分院火山学与地震学研究所报道称，火山已开始“喷出火山灰和熔岩”。\n\n报道称科学家表示：“舍维留奇火山已经开始喷发……据目视评估，火山灰柱高度已达海拔8公里。”\n\n",
+          "start_offset": 0,
+          "end_offset": 99,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "secondary_hazard",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "volcano",
+              "value": "舍维留奇火山",
+              "unit": null
+            },
+            {
+              "attribute": "ash_height_above_sea_level",
+              "value": {
+                "value": 8,
+                "qualifier": "up_to"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "reported_material",
+              "value": [
+                "火山灰",
+                "熔岩"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "塔斯社援引火山学与地震学研究所",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "当地时间星期六晚些时候，堪察加东海岸附近海域发生7.0级地震。\n\n据中国地震台网中心发布的报告，监测到震中位于北纬52.8度、东经160.15度，震源深度50公里。\n\n",
+          "start_offset": 99,
+          "end_offset": 183,
+          "sentence_ids": [
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7,
+              "unit": null
+            },
+            {
+              "attribute": "epicenter_latitude",
+              "value": 52.8,
+              "unit": "degrees north"
+            },
+            {
+              "attribute": "epicenter_longitude",
+              "value": 160.15,
+              "unit": "degrees east"
+            },
+            {
+              "attribute": "depth",
+              "value": 50,
+              "unit": "km"
+            },
+            {
+              "attribute": "depth_attribution",
+              "value": "中国地震台网中心",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "美国国家海啸预警中心最初发布了海啸威胁警报，但随后表示威胁已经解除。俄罗斯紧急情况部未发布任何海啸预警。\n\n",
+          "start_offset": 183,
+          "end_offset": 237,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "us_threat",
+              "value": "发布后解除",
+              "unit": null
+            },
+            {
+              "attribute": "russian_ministry_warning",
+              "value": "未发布",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "塔斯社援引该部门报道称，地震之后，堪察加近海太平洋发生一系列余震，震级介于3.9至5.0之间，其中多数在陆地上未被感知。",
+          "start_offset": 237,
+          "end_offset": 297,
+          "sentence_ids": [
+            9,
+            10
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "aftershock_magnitudes",
+              "value": [
+                3.9,
+                5
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "felt_status",
+              "value": "多数在陆地上未被感知",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "塔斯社援引俄罗斯紧急情况部",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "b4288e28bcb7114516a00ddec241bcac56a1c442476ec116f44a64d638cac4d7",
+        "removed_word_count": 69,
+        "removed_word_ratio": 0.27058823529411763
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-6CE06FAE68EA389D",
+      "event_id": "DIS-EQ-6BF369AD07AE2B79",
+      "event_rank": 10,
+      "article_rank": 2,
+      "title": "俄罗斯强烈7.0级地震后舍维留奇火山喷发",
+      "publisher": "newsnow-co-uk",
+      "identified_publisher": null,
+      "source_domain": "cbsnews.com",
+      "url": "https://www.cbsnews.com/news/shiveluch-volcano-erupts-russia-magnitude-7-0-earthquake-pacific/",
+      "published_at": "2024-08-18T00:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "NewsNow 承载的稿件转述塔斯社、USGS 和预警机构的信息。清理后的文本缺少原始完整署名。",
+      "content": "据俄罗斯国营媒体报道，在太平洋距火山约63英里处发生强烈7.0级地震后，星期日清晨，俄罗斯东部海岸一处大型海军基地附近的火山喷发，并短暂触发航空器“红色代码”警报。塔斯社星期日上午援引俄罗斯科学院远东分院火山学与地震学研究所科学家报道称，舍维留奇火山喷出海拔高达5 mils（原文单位）的火山灰柱，并涌出熔岩。该火山距离彼得罗巴甫洛夫斯克-堪察加斯基约280英里。该市是俄罗斯东部堪察加地区一座拥有超过18.1万人口的沿海城市，四周环绕火山，与一处重要俄罗斯潜艇基地隔海湾相望。该研究所表示，位于千岛群岛的埃别科火山也喷出了高1.5英里的火山灰。研究所未明确表示地震是否引发两座火山喷发。堪察加火山喷发响应小组报告，“红色代码”火山灰云警报曾短暂使该地区所有航空器进入警戒状态。塔斯社星期日另一篇报道指出，没有商业航班受到干扰，也没有航空基础设施受损。美国地质调查局表示，地震发生于太平洋海面下18英里处。震中位于彼得罗巴甫洛夫斯克-堪察加斯基以东约63英里处。早期报道未显示地震造成损坏或人员受伤。地震引发海啸预警，随后预警解除。位于檀香山的美国国家气象局太平洋海啸预警中心最初警告，距震中300英里（480公里）范围内的海岸可能出现危险海啸波，但随后宣布威胁已经结束。该中心表示，震中附近部分沿海地区可能在数小时内出现轻微海平面波动。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "据俄罗斯国营媒体报道，在太平洋距火山约63英里处发生强烈7.0级地震后，星期日清晨，俄罗斯东部海岸一处大型海军基地附近的火山喷发，并短暂触发航空器“红色代码”警报。",
+          "start_offset": 0,
+          "end_offset": 82,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "response",
+            "secondary_hazard"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7,
+              "unit": null
+            },
+            {
+              "attribute": "eruption_time",
+              "value": "星期日清晨",
+              "unit": null
+            },
+            {
+              "attribute": "aviation_warning",
+              "value": "短暂红色代码警报",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "塔斯社星期日上午援引俄罗斯科学院远东分院火山学与地震学研究所科学家报道称，舍维留奇火山喷出海拔高达5 mils（原文单位）的火山灰柱，并涌出熔岩。",
+          "start_offset": 82,
+          "end_offset": 155,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "ash_height_as_printed",
+              "value": {
+                "value": 5,
+                "qualifier": "as_high_as"
+              },
+              "unit": "mils"
+            },
+            {
+              "attribute": "attribution",
+              "value": "塔斯社援引火山学与地震学研究所",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "该火山距离彼得罗巴甫洛夫斯克-堪察加斯基约280英里。该市是俄罗斯东部堪察加地区一座拥有超过18.1万人口的沿海城市，四周环绕火山，与一处重要俄罗斯潜艇基地隔海湾相望。",
+          "start_offset": 155,
+          "end_offset": 239,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "location",
+            "affected_population"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "shiveluch_distance_from_city",
+              "value": {
+                "value": 280,
+                "qualifier": "about"
+              },
+              "unit": "mi"
+            },
+            {
+              "attribute": "petropavlovsk_population",
+              "value": {
+                "value": 181000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "该研究所表示，位于千岛群岛的埃别科火山也喷出了高1.5英里的火山灰。研究所未明确表示地震是否引发两座火山喷发。堪察加火山喷发响应小组报告，“红色代码”火山灰云警报曾短暂使该地区所有航空器进入警戒状态。塔斯社星期日另一篇报道指出，没有商业航班受到干扰，也没有航空基础设施受损。",
+          "start_offset": 239,
+          "end_offset": 376,
+          "sentence_ids": [
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "response",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "ebeko_ash_height",
+              "value": 1.5,
+              "unit": "mi"
+            },
+            {
+              "attribute": "quake_eruption_causality",
+              "value": "研究所未明确说明",
+              "unit": null
+            },
+            {
+              "attribute": "aviation_infrastructure_damage",
+              "value": "没有相关报道",
+              "unit": null
+            },
+            {
+              "attribute": "commercial_flights_disrupted",
+              "value": "没有相关报道",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "美国地质调查局表示，地震发生于太平洋海面下18英里处。震中位于彼得罗巴甫洛夫斯克-堪察加斯基以东约63英里处。早期报道未显示地震造成损坏或人员受伤。",
+          "start_offset": 376,
+          "end_offset": 450,
+          "sentence_ids": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "location",
+            "damage",
+            "injuries"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "depth",
+              "value": 18,
+              "unit": "mi"
+            },
+            {
+              "attribute": "epicenter_distance_east_of_petropavlovsk",
+              "value": {
+                "value": 63,
+                "qualifier": "about"
+              },
+              "unit": "mi"
+            },
+            {
+              "attribute": "attribution",
+              "value": "USGS",
+              "unit": null
+            },
+            {
+              "attribute": "damage_or_injuries",
+              "value": "早期报道中没有",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "地震引发海啸预警，随后预警解除。位于檀香山的美国国家气象局太平洋海啸预警中心最初警告，距震中300英里（480公里）范围内的海岸可能出现危险海啸波，但随后宣布威胁已经结束。该中心表示，震中附近部分沿海地区可能在数小时内出现轻微海平面波动。",
+          "start_offset": 450,
+          "end_offset": 569,
+          "sentence_ids": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "response",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "initial_tsunami_threat_radius",
+              "value": 300,
+              "unit": "mi"
+            },
+            {
+              "attribute": "initial_tsunami_threat_radius_reported_equivalent",
+              "value": 480,
+              "unit": "km"
+            },
+            {
+              "attribute": "threat_status",
+              "value": "威胁解除；可能出现轻微波动",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "美国国家气象局太平洋海啸预警中心",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "bb676e4eae9854852bb5cb9ff02441ea11fbac816a1666e665d58e5574c38768",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-10EDD8783ABD74BF",
+      "event_id": "DIS-EQ-6BF369AD07AE2B79",
+      "event_rank": 10,
+      "article_rank": 3,
+      "title": "俄罗斯近海7.0级地震后舍维留奇火山喷发 | 国际",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/international/3055415-shiveluch-volcano-erupts-following-70-magnitude-earthquake-off-russian-coast",
+      "published_at": "2024-08-18T02:21:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "republished",
+      "source_independence": "syndicated",
+      "source_independence_reason": "Devdiscourse 明确援引 CNN 转述的塔斯社报道，部分细节来自 USGS 及其他俄罗斯机构。",
+      "content": "据 CNN 援引塔斯社报道，俄罗斯东部近海发生7.0级强烈地震，引发舍维留奇火山喷发，喷发产生的火山灰柱高达海拔8公里。\n\n舍维留奇火山位于距彼得罗巴甫洛夫斯克-堪察加斯基约280英里处，该市位于俄罗斯堪察加地区，约有181,000名居民。据美国地质调查局称，地震震中距该市约55英里，震源深度为30英里。\n\n据 CNN 报道，尽管没有人员受伤或重大损坏的报告，建筑物正在接受潜在结构问题检查，尤其是社会服务设施。与此同时，俄罗斯紧急情况部未发布海啸预警，但美国海啸预警系统指出，俄罗斯沿海距震中186英里范围内可能出现危险海浪。\n\n震动促使当地居民撤离家园。据报道，家具倾倒，餐具破碎。俄罗斯科学院地球物理服务局堪察加分支报告，星期六堪察加时间07:21（莫斯科时间22:21）发生4.7级余震。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "据 CNN 援引塔斯社报道，俄罗斯东部近海发生7.0级强烈地震，引发舍维留奇火山喷发，喷发产生的火山灰柱高达海拔8公里。\n\n",
+          "start_offset": 0,
+          "end_offset": 62,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "secondary_hazard",
+            "cause"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7,
+              "unit": null
+            },
+            {
+              "attribute": "ash_height_above_sea_level",
+              "value": {
+                "value": 8,
+                "qualifier": "up_to"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "causal_claim",
+              "value": "地震引发火山喷发",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "CNN 援引塔斯社",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "舍维留奇火山位于距彼得罗巴甫洛夫斯克-堪察加斯基约280英里处，该市位于俄罗斯堪察加地区，约有181,000名居民。据美国地质调查局称，地震震中距该市约55英里，震源深度为30英里。\n\n",
+          "start_offset": 62,
+          "end_offset": 155,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "location",
+            "disaster_magnitude"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "shiveluch_distance_from_city",
+              "value": {
+                "value": 280,
+                "qualifier": "around"
+              },
+              "unit": "mi"
+            },
+            {
+              "attribute": "petropavlovsk_population",
+              "value": {
+                "value": 181000,
+                "qualifier": "approximately"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "epicenter_distance_from_petropavlovsk",
+              "value": {
+                "value": 55,
+                "qualifier": "about"
+              },
+              "unit": "mi"
+            },
+            {
+              "attribute": "depth",
+              "value": 30,
+              "unit": "mi"
+            },
+            {
+              "attribute": "quake_measurements_attribution",
+              "value": "USGS",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "据 CNN 报道，尽管没有人员受伤或重大损坏的报告，建筑物正在接受潜在结构问题检查，尤其是社会服务设施。与此同时，俄罗斯紧急情况部未发布海啸预警，但美国海啸预警系统指出，俄罗斯沿海距震中186英里范围内可能出现危险海浪。\n\n",
+          "start_offset": 155,
+          "end_offset": 267,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "damage",
+            "injuries",
+            "secondary_hazard",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "initial_reports",
+              "value": "无人员受伤或重大损坏的报告",
+              "unit": null
+            },
+            {
+              "attribute": "building_assessments",
+              "value": "进行中",
+              "unit": null
+            },
+            {
+              "attribute": "russian_ministry_warning",
+              "value": "未发布",
+              "unit": null
+            },
+            {
+              "attribute": "tsunami_threat_distance_along_russian_coast",
+              "value": 186,
+              "unit": "mi"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "震动促使当地居民撤离家园。据报道，家具倾倒，餐具破碎。俄罗斯科学院地球物理服务局堪察加分支报告，星期六堪察加时间07:21（莫斯科时间22:21）发生4.7级余震。",
+          "start_offset": 267,
+          "end_offset": 349,
+          "sentence_ids": [
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "evacuation",
+            "damage",
+            "secondary_hazard",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_minor_damage",
+              "value": "家具倾倒和餐具破碎",
+              "unit": null
+            },
+            {
+              "attribute": "aftershock_magnitude",
+              "value": 4.7,
+              "unit": null
+            },
+            {
+              "attribute": "aftershock_time",
+              "value": "堪察加时间07:21；原文所示莫斯科时间22:21",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "b7e0e29583d6ec41f81a58b11b8a73ba795fa845664f9c40188e072e5a4ce206",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "堪察加近海主震据报震级为7.0级",
+        "fact_type": "disaster_magnitude",
+        "attribute": "mainshock_magnitude",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 7,
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 7,
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": 7,
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "两篇报道给出同一主震的相互冲突的 USGS 震源深度",
+        "fact_type": "disaster_magnitude",
+        "attribute": "mainshock_depth_usgs",
+        "supporting_spans": [
+          "A002_F005",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F005",
+            "value": 18,
+            "unit": "mi",
+            "attribution": "USGS"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": 30,
+            "unit": "mi",
+            "attribution": "USGS"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "conflicting",
+        "temporal_relation": "same_time",
+        "annotation_note": "两篇报道均涉及同一次主震、震源深度测量、单位和机构，但数值不相容。无法确定原始公告版本及是否存在报道错误，因此冲突仍未解决。中国地震台网中心的50公里估计值另行记录。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "中国地震台网中心发布了独立的震源深度估计",
+        "fact_type": "disaster_magnitude",
+        "attribute": "mainshock_depth_cenc",
+        "supporting_spans": [
+          "A001_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 50,
+            "unit": "km",
+            "attribution": "China Earthquake Networks Center"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "舍维留奇火山喷发并形成高耸的火山灰柱",
+        "fact_type": "secondary_hazard",
+        "attribute": "shiveluch_ash_height",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F002",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 8,
+              "qualifier": "up_to"
+            },
+            "unit": "km",
+            "attribution": "TASS"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": {
+              "value": 5,
+              "qualifier": "as_high_as"
+            },
+            "unit": "mils",
+            "attribution": "TASS"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "value": 8,
+              "qualifier": "up_to"
+            },
+            "unit": "km",
+            "attribution": "CNN citing TASS"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "A002 将单位印为“mils”，可能是印刷错误。保留原始单位以免将其视为精确换算。"
+      },
+      {
+        "cluster_id": "FC005",
+        "cluster_description": "各报道对地震与火山喷发因果联系的描述不同",
+        "fact_type": "cause",
+        "attribute": "eruption_trigger",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F004",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "地震发生在火山喷发之前",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": "研究所未明确将火山喷发归因于地震",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": "地震引发火山喷发",
+            "unit": null,
+            "attribution": "CNN citing TASS"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "时间先后、无明确归因及肯定的因果主张具有不同的证据权重。"
+      },
+      {
+        "cluster_id": "FC006",
+        "cluster_description": "俄罗斯紧急情况部未发布海啸预警",
+        "fact_type": "response",
+        "attribute": "russian_emergencies_ministry_warning",
+        "supporting_spans": [
+          "A001_F003",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": "未发布",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "未发布",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC007",
+        "cluster_description": "美国威胁报告描述了不同的地理覆盖范围",
+        "fact_type": "response",
+        "attribute": "us_warning_reach",
+        "supporting_spans": [
+          "A002_F006",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F006",
+            "value": 300,
+            "unit": "mi",
+            "attribution": "Pacific Tsunami Warning Center"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": 186,
+            "unit": "mi",
+            "attribution": "U.S. Tsunami Warning System"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "一个适用于距震中一定范围内的海岸线，另一个明确指俄罗斯海岸。无法核实共同的公告版本。"
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005",
+        "FC006",
+        "FC007"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004",
+        "FC005",
+        "FC006",
+        "FC007"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2024-08-17",
+          "time_precision": "UTC date",
+          "description": "GDACS 记录堪察加附近发生地震，报道将震级列为7.0级。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F001",
+            "A003_F001"
+          ]
+        },
+        {
+          "time": "主震之后",
+          "time_precision": "Relative time",
+          "description": "舍维留奇火山释放火山灰。美国当局发布并随后解除海啸威胁公告。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F003",
+            "A002_F001",
+            "A002_F006"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "A003 报道地震引发火山喷发。A002 表示研究所未明确作出该归因。",
+          "supporting_spans": [
+            "A002_F004",
+            "A003_F001"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "堪察加附近发生7.0级地震。各媒体援引同一机构的震源深度存在分歧。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F005",
+            "A003_F002"
+          ]
+        },
+        {
+          "description": "后续报道描述了舍维留奇火山喷发、航空红色警报及海啸威胁解除。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F003",
+            "A002_F001",
+            "A002_F006"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": true,
+      "total_conflicts": 1,
+      "conflicts": [
+        {
+          "conflict_id": "C001",
+          "cluster_id": "FC002",
+          "attribute": "mainshock_depth_usgs",
+          "supporting_spans": [
+            "A002_F005",
+            "A003_F002"
+          ],
+          "source_values": [
+            {
+              "article_id": "A002",
+              "fact_span_id": "A002_F005",
+              "value": 18,
+              "unit": "mi",
+              "attribution": "USGS"
+            },
+            {
+              "article_id": "A003",
+              "fact_span_id": "A003_F002",
+              "value": 30,
+              "unit": "mi",
+              "attribution": "USGS"
+            }
+          ],
+          "classification": "confirmed_conflict",
+          "resolution_status": "unresolved",
+          "gold_value": null,
+          "resolution_reason": "两篇报道均涉及同一次主震、震源深度测量、单位和机构，但数值不相容。无法确定原始公告版本及是否存在报道错误，因此冲突仍未解决。中国地震台网中心的50公里估计值另行记录。"
+        }
+      ],
+      "unresolved_conflicts": [
+        "C001"
+      ]
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "相互冲突的震源深度是媒体所归因的数值。原始 USGS 公告版本未经核查。"
+    ]
+  }
+}

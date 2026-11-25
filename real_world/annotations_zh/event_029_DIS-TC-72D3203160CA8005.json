@@ -1,0 +1,940 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-TC-72D3203160CA8005",
+  "event_rank": 29,
+  "event_metadata": {
+    "event_name": "热带气旋 REMAL-24（雷马尔）",
+    "disaster_type": "tropical_cyclone",
+    "disaster_type_code": "TC",
+    "event_start_time": "2024-05-25T12:00:00+00:00",
+    "event_end_time": "2024-05-26T18:00:00+00:00",
+    "locations": [
+      "孟加拉国",
+      "印度",
+      "不丹"
+    ],
+    "latitude": 21.7,
+    "longitude": 88.4,
+    "place_names_in_reports": [
+      "孟加拉国",
+      "达卡",
+      "帕图阿卡利",
+      "吉大港",
+      "科克斯巴扎尔",
+      "库尔纳",
+      "萨特基拉",
+      "印度",
+      "西孟加拉邦",
+      "加尔各答",
+      "阿萨姆邦"
+    ],
+    "gdacs_id": "1001064",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "星期日晚间及清晨登陆的报道可能指不同沿海地点或阶段。"
+    ],
+    "dataset_place_name": "热带气旋 REMAL-24（雷马尔）",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-944CABB2CEE9922B",
+      "event_id": "DIS-TC-72D3203160CA8005",
+      "event_rank": 29,
+      "article_rank": 1,
+      "title": "热带风暴淹没孟加拉国和印度村庄、掀走茅草屋顶并切断电力",
+      "publisher": "menafn",
+      "identified_publisher": null,
+      "source_domain": "menafn.com",
+      "url": "https://menafn.com/1108262225/Tropical-Storm-Floods-Villages-Blows-Away-Thatched-Roofs-And-Cuts-Power-In-Bangladesh-And-India",
+      "published_at": "2024-05-27T00:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "MENAFN 正文无通讯社署名，引用一名部长、Somoy TV 及其他机构。",
+      "content": "孟加拉国达卡：星期一，热带风暴雷马尔淹没孟加拉国南部和印度东部沿海村庄，掀走茅草屋顶，并使数十万人停电。孟加拉国至少有10人死亡。\n\n孟加拉国灾害管理和救济国务部长莫希布尔·拉赫曼表示，沿海约370万人受灾。超过35,000所房屋完全被毁，近115,000所部分受损。\n\n他说，孟加拉国至少10人死亡，但总部位于达卡的 Somoy TV 报道至少12人死亡，另有2人在一起翻船事件中失踪。\n\n电视台报道称，防护堤坝被风暴潮冲走或损坏后，孟加拉国数十个村庄遭淹。星期日，孟加拉国近800,000人从脆弱地区撤离，被安置在9,000个气旋避难所。\n\n雷马尔清晨以持续每小时111公里（69英里）的风速在孟加拉国帕图阿卡利地区登陆后明显减弱。\n\n印度气象部门表示，预计其将在当天进一步减弱，但警告未来两天阿萨姆邦和其他东北部各邦将出现强降雨。\n\n孟加拉国星期一降雨不断，首都达卡晚间降水强度增大，强风袭击该市。\n\n达卡许多道路被淹，该国第二大城市吉大港的生活受到严重干扰。\n\n当局命令所有政府官员留守岗位，直至局势改善。援助机构表示，已在罗兴亚难民营及其他受影响地区部署数千名志愿者提供紧急支持。孟加拉国沿海科克斯巴扎尔地区拥有大范围营地，居住着来自缅甸的100多万罗兴亚难民。\n\n联合国世界粮食计划署表示，已向沿海30,000户家庭提供紧急现金援助，而私营发展组织 BRAC 表示已部署23,000多名医务人员和志愿者帮助受灾民众。\n\n在印度西孟加拉邦，一些沿海地区房屋的茅草屋顶被掀走，电线杆和树木被连根拔起。\n\n没有即时死亡报告。暴雨淹没加尔各答低洼地区的街道及房屋。\n\n加尔各答机场在星期日关闭后重新开放，而孟加拉国关闭了吉大港机场，并取消所有往返科克斯巴扎尔的国内航班。\n\n吉大港海港暂停装卸作业，作为预防措施，十多艘船从码头转移至深海。\n\n该地区所有学校均关闭，直至另行通知。\n\n印度沿海经常受到气旋袭击，而气候模式变化提高了风暴强度，使自然灾害防灾准备更加紧迫。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "孟加拉国达卡：星期一，热带风暴雷马尔淹没孟加拉国南部和印度东部沿海村庄，掀走茅草屋顶，并使数十万人停电。孟加拉国至少有10人死亡。\n\n",
+          "start_offset": 0,
+          "end_offset": 67,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "damage",
+            "secondary_hazard",
+            "casualties"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "bangladesh_deaths",
+              "value": {
+                "value": 10,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "孟加拉国灾害管理和救济国务部长莫希布尔·拉赫曼表示，沿海约370万人受灾。超过35,000所房屋完全被毁，近115,000所部分受损。\n\n他说，孟加拉国至少10人死亡，但总部位于达卡的 Somoy TV 报道至少12人死亡，另有2人在一起翻船事件中失踪。\n\n",
+          "start_offset": 67,
+          "end_offset": 196,
+          "sentence_ids": [
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "affected_population",
+            "damage",
+            "casualties",
+            "missing_persons"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "affected",
+              "value": {
+                "value": 3700000,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "destroyed_homes",
+              "value": {
+                "value": 35000,
+                "qualifier": "greater_than"
+              },
+              "unit": "homes"
+            },
+            {
+              "attribute": "partially_damaged_homes",
+              "value": {
+                "value": 115000,
+                "qualifier": "nearly"
+              },
+              "unit": "homes"
+            },
+            {
+              "attribute": "somoy_tv_deaths",
+              "value": {
+                "value": 12,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "somoy_tv_missing",
+              "value": 2,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "电视台报道称，防护堤坝被风暴潮冲走或损坏后，孟加拉国数十个村庄遭淹。星期日，孟加拉国近800,000人从脆弱地区撤离，被安置在9,000个气旋避难所。\n\n",
+          "start_offset": 196,
+          "end_offset": 273,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "damage",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "evacuated",
+              "value": {
+                "value": 800000,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "cyclone_shelters",
+              "value": 9000,
+              "unit": "shelters"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "雷马尔清晨以持续每小时111公里（69英里）的风速在孟加拉国帕图阿卡利地区登陆后明显减弱。\n\n印度气象部门表示，预计其将在当天进一步减弱，但警告未来两天阿萨姆邦和其他东北部各邦将出现强降雨。\n\n孟加拉国星期一降雨不断，首都达卡晚间降水强度增大，强风袭击该市。\n\n达卡许多道路被淹，该国第二大城市吉大港的生活受到严重干扰。\n\n",
+          "start_offset": 273,
+          "end_offset": 435,
+          "sentence_ids": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "weather",
+            "infrastructure",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "landfall_district",
+              "value": "帕图阿卡利",
+              "unit": null
+            },
+            {
+              "attribute": "sustained_wind",
+              "value": 111,
+              "unit": "km/h"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "当局命令所有政府官员留守岗位，直至局势改善。援助机构表示，已在罗兴亚难民营及其他受影响地区部署数千名志愿者提供紧急支持。孟加拉国沿海科克斯巴扎尔地区拥有大范围营地，居住着来自缅甸的100多万罗兴亚难民。\n\n联合国世界粮食计划署表示，已向沿海30,000户家庭提供紧急现金援助，而私营发展组织 BRAC 表示已部署23,000多名医务人员和志愿者帮助受灾民众。\n\n",
+          "start_offset": 435,
+          "end_offset": 616,
+          "sentence_ids": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "affected_population"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "wfp_cash_assistance_recipients",
+              "value": 30000,
+              "unit": "families"
+            },
+            {
+              "attribute": "brac_workers_and_volunteers",
+              "value": {
+                "value": 23000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "在印度西孟加拉邦，一些沿海地区房屋的茅草屋顶被掀走，电线杆和树木被连根拔起。\n\n没有即时死亡报告。暴雨淹没加尔各答低洼地区的街道及房屋。\n\n加尔各答机场在星期日关闭后重新开放，而孟加拉国关闭了吉大港机场，并取消所有往返科克斯巴扎尔的国内航班。\n\n吉大港海港暂停装卸作业，作为预防措施，十多艘船从码头转移至深海。\n\n该地区所有学校均关闭，直至另行通知。\n\n印度沿海经常受到气旋袭击，而气候模式变化提高了风暴强度，使自然灾害防灾准备更加紧迫。",
+          "start_offset": 616,
+          "end_offset": 835,
+          "sentence_ids": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "casualties",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "印度和孟加拉国交通及损失",
+              "unit": null
+            },
+            {
+              "attribute": "india_death_status",
+              "value": "无即时报告",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "81c860e01af3000f8a34351f85138341a0271b7aee59a449a5fab8a2cdd785e6",
+        "removed_word_count": 69,
+        "removed_word_ratio": 0.1316793893129771
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-281AB87713440627",
+      "event_id": "DIS-TC-72D3203160CA8005",
+      "event_rank": 29,
+      "article_rank": 2,
+      "title": "气旋雷马尔减弱，孟加拉国死亡人数升至10人",
+      "publisher": "english-news-cn",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/asiapacific/20240527/7c5110641a7c4e0ca3ad22a3214202ee/c.html",
+      "published_at": "2024-05-27T22:12:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "新华社达卡发稿。",
+      "content": "这张摄于2024年5月27日的照片显示，孟加拉国萨特基拉一棵被气旋连根拔起的树。该国灾害管理和救济国务部长穆罕默德·莫希布尔·拉赫曼星期一表示，气旋“雷马尔”袭击孟加拉国海岸线后减弱为热带低压，造成至少10人死亡。（新华社）\n\n新华社达卡5月27日电——该国灾害管理和救济国务部长穆罕默德·莫希布尔·拉赫曼星期一表示，气旋雷马尔袭击孟加拉国海岸线后减弱为热带低压，造成至少10人死亡。\n\n这名官员在首都达卡举行的记者会上说：“我们已经了解到，由于气旋风暴，六个沿海地区有10人死亡。”\n\n他说，孟加拉国19个地区数百万人受到强风暴影响，并补充说，共有148,533所房屋完全或部分受损。\n\n他说，在气旋星期日晚间登陆前数小时，近100万人大规模撤离，防止了更大的生命损失。\n\n星期一，许多受气旋影响地区的供电尚未恢复。包括首都达卡在内的城市正受到气旋影响，出现细雨和阵风。\n\n孟加拉国海岸线受到猛烈大风袭击，树木和房屋被摧毁，建筑屋顶被掀走，造成大范围停电和停水。\n\n据报道，该国受气旋重创的南部和东南部部分地区防洪堤坝被冲走或损坏。\n\n自星期日以来，雷马尔还在很大程度上扰乱了铁路、公路及航空交通。 ■\n\n2024年5月28日，孟加拉国库尔纳，人们出现在一条被淹道路上。该国灾害管理和救济国务部长穆罕默德·莫希布尔·拉赫曼星期一表示，气旋“雷马尔”袭击孟加拉国海岸线后减弱为热带低压，造成至少10人死亡。（新华社）\n\n2024年5月28日，孟加拉国库尔纳，在被淹道路上的行人。该国灾害管理和救济国务部长穆罕默德·莫希布尔·拉赫曼星期一表示，气旋“雷马尔”袭击孟加拉国海岸线后减弱为热带低压，造成至少10人死亡。（新华社）\n\n2024年5月28日，孟加拉国库尔纳，人们在泛滥的河流中捕鱼。该国灾害管理和救济国务部长穆罕默德·莫希布尔·拉赫曼星期一表示，气旋“雷马尔”袭击孟加拉国海岸线后减弱为热带低压，造成至少10人死亡。（新华社）\n\n2024年5月28日，孟加拉国库尔纳，一名女子涉水而行。该国灾害管理和救济国务部长穆罕默德·莫希布尔·拉赫曼星期一表示，气旋“雷马尔”袭击孟加拉国海岸线后减弱为热带低压，造成至少10人死亡。（新华社）",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "这张摄于2024年5月27日的照片显示，孟加拉国萨特基拉一棵被气旋连根拔起的树。该国灾害管理和救济国务部长穆罕默德·莫希布尔·拉赫曼星期一表示，气旋“雷马尔”袭击孟加拉国海岸线后减弱为热带低压，造成至少10人死亡。（新华社）\n\n",
+          "start_offset": 0,
+          "end_offset": 114,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "新华社达卡5月27日电——该国灾害管理和救济国务部长穆罕默德·莫希布尔·拉赫曼星期一表示，气旋雷马尔袭击孟加拉国海岸线后减弱为热带低压，造成至少10人死亡。\n\n这名官员在首都达卡举行的记者会上说：“我们已经了解到，由于气旋风暴，六个沿海地区有10人死亡。”\n\n",
+          "start_offset": 114,
+          "end_offset": 244,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "disaster_magnitude"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 10,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "districts_with_deaths",
+              "value": 6,
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "穆罕默德·莫希布尔·拉赫曼",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "他说，孟加拉国19个地区数百万人受到强风暴影响，并补充说，共有148,533所房屋完全或部分受损。\n\n",
+          "start_offset": 244,
+          "end_offset": 295,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "affected_population",
+            "damage"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "affected_districts",
+              "value": 19,
+              "unit": null
+            },
+            {
+              "attribute": "damaged_homes_full_or_partial",
+              "value": 148533,
+              "unit": "homes"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "他说，在气旋星期日晚间登陆前数小时，近100万人大规模撤离，防止了更大的生命损失。\n\n",
+          "start_offset": 295,
+          "end_offset": 338,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "evacuation",
+            "cause",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "evacuated",
+              "value": {
+                "value": 1000000,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "scope",
+              "value": "星期日晚登陆前数小时",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "星期一，许多受气旋影响地区的供电尚未恢复。包括首都达卡在内的城市正受到气旋影响，出现细雨和阵风。\n\n孟加拉国海岸线受到猛烈大风袭击，树木和房屋被摧毁，建筑屋顶被掀走，造成大范围停电和停水。\n\n据报道，该国受气旋重创的南部和东南部部分地区防洪堤坝被冲走或损坏。\n\n自星期日以来，雷马尔还在很大程度上扰乱了铁路、公路及航空交通。 ",
+          "start_offset": 338,
+          "end_offset": 501,
+          "sentence_ids": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "secondary_hazard",
+            "weather"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "affected_infrastructure",
+              "value": [
+                "电力",
+                "供水",
+                "防洪堤坝",
+                "铁路",
+                "道路",
+                "航空"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "■\n\n2024年5月28日，孟加拉国库尔纳，人们出现在一条被淹道路上。该国灾害管理和救济国务部长穆罕默德·莫希布尔·拉赫曼星期一表示，气旋“雷马尔”袭击孟加拉国海岸线后减弱为热带低压，造成至少10人死亡。（新华社）\n\n2024年5月28日，孟加拉国库尔纳，在被淹道路上的行人。该国灾害管理和救济国务部长穆罕默德·莫希布尔·拉赫曼星期一表示，气旋“雷马尔”袭击孟加拉国海岸线后减弱为热带低压，造成至少10人死亡。（新华社）\n\n2024年5月28日，孟加拉国库尔纳，人们在泛滥的河流中捕鱼。该国灾害管理和救济国务部长穆罕默德·莫希布尔·拉赫曼星期一表示，气旋“雷马尔”袭击孟加拉国海岸线后减弱为热带低压，造成至少10人死亡。（新华社）\n\n2024年5月28日，孟加拉国库尔纳，一名女子涉水而行。该国灾害管理和救济国务部长穆罕默德·莫希布尔·拉赫曼星期一表示，气旋“雷马尔”袭击孟加拉国海岸线后减弱为热带低压，造成至少10人死亡。（新华社）",
+          "start_offset": 501,
+          "end_offset": 918,
+          "sentence_ids": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "0a37a48d1b16095ce71e21bb7534a65fdf483423616f17bba4d91dfdaa8ad3ee",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-3A39075DD862C103",
+      "event_id": "DIS-TC-72D3203160CA8005",
+      "event_rank": 29,
+      "article_rank": 3,
+      "title": "气旋雷马尔在孟加拉国造成10人死亡",
+      "publisher": "dailyfinland-fi",
+      "identified_publisher": "Xinhua",
+      "source_domain": "dailyfinland.fi",
+      "url": "https://www.dailyfinland.fi/worldwide/37907/Cyclone-Remal-kills-10-in-Bangladesh",
+      "published_at": "2024-05-28T01:07:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "明确注明新华社来源，逐字重复 A002 的大部分内容。",
+      "content": "以敏锐洞察追求准确\n\n发布时间：2024年5月28日01:58\n\n据新华社报道，该国灾害管理和救济国务部长穆罕默德·莫希布尔·拉赫曼星期一表示，气旋雷马尔袭击孟加拉国海岸线后减弱为热带低压，造成至少10人死亡。\n\n这名官员在首都达卡举行的记者会上说：“我们已经了解到，由于气旋风暴，六个沿海地区有10人死亡。”\n\n他说，孟加拉国19个地区数百万人受到强风暴影响，并补充说，共有148,533所房屋完全或部分受损。\n\n他说，在气旋星期日晚间登陆前数小时，近100万人大规模撤离，防止了更大的生命损失。\n\n星期一，许多受气旋影响地区的供电尚未恢复。包括首都达卡在内的城市正受到气旋影响，出现细雨和阵风。\n\n孟加拉国海岸线受到猛烈大风袭击，树木和房屋被摧毁，建筑屋顶被掀走，造成大范围停电和停水。\n\n据报道，该国受气旋重创的南部和东南部部分地区防洪堤坝被冲走或损坏。\n\n自星期日以来，雷马尔还在很大程度上扰乱了铁路、公路及航空交通。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "以敏锐洞察追求准确\n\n发布时间：2024年5月28日01:58\n\n",
+          "start_offset": 0,
+          "end_offset": 33,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "据新华社报道，该国灾害管理和救济国务部长穆罕默德·莫希布尔·拉赫曼星期一表示，气旋雷马尔袭击孟加拉国海岸线后减弱为热带低压，造成至少10人死亡。\n\n这名官员在首都达卡举行的记者会上说：“我们已经了解到，由于气旋风暴，六个沿海地区有10人死亡。”\n\n",
+          "start_offset": 33,
+          "end_offset": 157,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "disaster_magnitude"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 10,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "districts_with_deaths",
+              "value": 6,
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "新华社转述穆罕默德·莫希布尔·拉赫曼",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "他说，孟加拉国19个地区数百万人受到强风暴影响，并补充说，共有148,533所房屋完全或部分受损。\n\n",
+          "start_offset": 157,
+          "end_offset": 208,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "affected_population",
+            "damage"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "affected_districts",
+              "value": 19,
+              "unit": null
+            },
+            {
+              "attribute": "damaged_homes_full_or_partial",
+              "value": 148533,
+              "unit": "homes"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "他说，在气旋星期日晚间登陆前数小时，近100万人大规模撤离，防止了更大的生命损失。\n\n",
+          "start_offset": 208,
+          "end_offset": 251,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "evacuation",
+            "cause",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "evacuated",
+              "value": {
+                "value": 1000000,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "星期一，许多受气旋影响地区的供电尚未恢复。包括首都达卡在内的城市正受到气旋影响，出现细雨和阵风。\n\n孟加拉国海岸线受到猛烈大风袭击，树木和房屋被摧毁，建筑屋顶被掀走，造成大范围停电和停水。\n\n据报道，该国受气旋重创的南部和东南部部分地区防洪堤坝被冲走或损坏。\n\n自星期日以来，雷马尔还在很大程度上扰乱了铁路、公路及航空交通。",
+          "start_offset": 251,
+          "end_offset": 413,
+          "sentence_ids": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "secondary_hazard",
+            "weather"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "0467c72fdd3d89b29eea8d319e8692a04da342c504092e0c685ec1f4b8bea62c",
+        "removed_word_count": 6,
+        "removed_word_ratio": 0.02702702702702703
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "一名部长报告孟加拉国至少10人死亡",
+        "fact_type": "casualties",
+        "attribute": "bangladesh_deaths",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": {
+              "official_lower_bound": 10,
+              "somoy_tv_lower_bound": 12
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": {
+              "value": 10,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": "state minister"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "value": 10,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": "state minister via Xinhua"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "两个下限可以同时成立。电视报道及官方数字的统计截止时间未知。"
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "受损房屋分类及总数",
+        "fact_type": "damage",
+        "attribute": "damaged_homes",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F003",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": {
+              "complete_lower_bound_exclusive": 35000,
+              "partial_nearly": 115000
+            },
+            "unit": "homes",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": 148533,
+            "unit": "homes",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": 148533,
+            "unit": "homes",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "撤离人数估计值相差约200,000人",
+        "fact_type": "evacuation",
+        "attribute": "bangladesh_evacuations",
+        "supporting_spans": [
+          "A001_F003",
+          "A002_F004",
+          "A003_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": {
+              "value": 800000,
+              "qualifier": "nearly",
+              "scope": "安置在9,000个气旋避难所"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": {
+              "value": 1000000,
+              "qualifier": "nearly",
+              "scope": "登陆前大规模撤离"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": {
+              "value": 1000000,
+              "qualifier": "nearly",
+              "scope": "登陆前大规模撤离"
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "风暴潮损坏防洪堤坝",
+        "fact_type": "infrastructure",
+        "attribute": "embankment_damage",
+        "supporting_spans": [
+          "A001_F003",
+          "A002_F005",
+          "A003_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": "防洪堤坝被风暴潮冲走或损坏",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F005",
+            "value": "堤坝被冲走或损坏",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F005",
+            "value": "堤坝被冲走或损坏",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "important_facts": [
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2024-05-26/2024-05-27",
+          "time_precision": "Overnight time window",
+          "description": "沿海居民撤离，气旋登陆。",
+          "supporting_spans": [
+            "A001_F003",
+            "A001_F004",
+            "A002_F004"
+          ]
+        },
+        {
+          "time": "2024-05-27",
+          "time_precision": "Publication date",
+          "description": "部长报告死亡人数和房屋受损情况，电力和交通中断仍在持续。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F002",
+            "A002_F003",
+            "A002_F005"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "风暴潮冲走防洪堤坝并淹没沿海村庄。",
+          "supporting_spans": [
+            "A001_F003",
+            "A002_F005"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "雷马尔在孟加拉国造成人员死亡、房屋受损和大规模撤离，也影响印度东部。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A001_F006",
+            "A002_F002",
+            "A002_F003",
+            "A002_F004"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "A002 和 A003 共享同一来源。印度无即时报告的情况无法与孟加拉国死亡人数进行比较。"
+    ]
+  }
+}

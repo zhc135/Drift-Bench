@@ -1,0 +1,1032 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-TC-94AFE7992468F6D2",
+  "event_rank": 31,
+  "event_metadata": {
+    "event_name": "热带气旋 FRANKLIN-23（富兰克林）",
+    "disaster_type": "tropical_cyclone",
+    "disaster_type_code": "TC",
+    "event_start_time": "2023-08-20T21:00:00+00:00",
+    "event_end_time": "2023-09-01T21:00:00+00:00",
+    "locations": [
+      "百慕大",
+      "特克斯和凯科斯群岛",
+      "多米尼加共和国",
+      "海地"
+    ],
+    "latitude": 39.5,
+    "longitude": -53.8,
+    "place_names_in_reports": [
+      "百慕大",
+      "北大西洋"
+    ],
+    "gdacs_id": "1000996",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "A001 报道8月30日富兰克林外围云带的影响。A002 描述8月31日其位置和移动情况。"
+    ],
+    "dataset_place_name": "热带气旋 FRANKLIN-23（富兰克林）",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-C7EE1B0A0F3B8A9F",
+      "event_id": "DIS-TC-94AFE7992468F6D2",
+      "event_rank": 31,
+      "article_rank": 1,
+      "title": "伊达利亚以每小时125英里风速袭击佛罗里达州，淹没街道并切断电力后减弱为热带风暴",
+      "publisher": "wsvn",
+      "identified_publisher": "Associated Press",
+      "source_domain": "wsvn.com",
+      "url": "https://wsvn.com/news/local/florida/hurricane-idalia-weakens-to-a-tropical-storm-after-slamming-florida-as-a-powerful-hurricane/",
+      "published_at": "2023-08-30T10:02:29+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "佩里发稿地注明美联社。",
+      "content": "佛罗里达州佩里（美联社）——星期三，飓风伊达利亚以高速列车般的速度袭击佛罗里达州，将树木劈成两半、掀掉酒店屋顶，并使小型汽车仿佛变成了船。随后，它仍以强劲风暴姿态席卷佐治亚州和南卡罗来纳州，淹没道路，居民纷纷奔向高地。\n\n佛罗里达大本德地区内陆不远处的磨坊镇佩里的贝隆德·托马斯说：“一切都乱套了。”伊达利亚就在该地区登陆。\n\n托马斯带着家人和一些朋友逃到汽车旅馆，以为比在家熬过风暴更安全。但伊达利亚的风眼于上午8时30分左右经过时，尖锐的呼啸声划破空气，强风掀掉建筑屋顶，碎片砸向躺在床上的怀孕女儿。幸好她没有受伤。\n\n托马斯说：“太可怕了。事情发生得太快……一切都在旋转。”\n\n伊达利亚于上午7时45分在基顿海滩附近登陆，为较强的三级飓风，最大持续风速接近每小时125英里（205公里）。进入佐治亚州时，该系统仍为飓风，最高风速为每小时90英里（150公里）。到星期三下午晚些时候，它减弱为热带风暴，至星期三晚风速下降到每小时60英里（96公里）。\n\n风眼向内陆移动时，大风撕碎标志牌、掀掉屋顶、吹飞金属板并折断高大树木。佐治亚州有1人死亡。佛罗里达州没有官方确认的飓风相关死亡，但佛罗里达公路巡警报告，伊达利亚登陆前数小时，两起与天气有关的独立车祸造成2人死亡。\n\n风暴星期三晚向卡罗来纳地区移动时，给佐治亚州萨凡纳带来强风。预计它将在星期三晚间沿南卡罗来纳州海岸附近移动，星期四经过北卡罗来纳州近海，然后进入大西洋。\n\n美国国家气象局称，伊达利亚引发的龙卷风曾短暂登陆南卡罗来纳州查尔斯顿郊区古斯克里克。据当局及目击者视频，大风将一辆汽车吹飞并使其翻转，2人轻伤。\n\n南卡罗来纳州沿海的北默特尔比奇、加登城和埃迪斯托岛均报告，星期三晚海水越过沙丘流入海滨街道。在查尔斯顿，伊达利亚的风暴潮越过保护市中心的海堤，齐踝深的海水涌入街道和街区，这里有马车经过价值数百万美元的住宅和著名露天市场。\n\n初步数据显示，星期三晚高潮水位略超过9.2英尺（2.8米），比正常水平高出3英尺（0.9米）以上，是查尔斯顿港自1899年开始记录以来第五高水位。\n\n仍在从去年飓风伊恩影响中恢复的佛罗里达州曾担心最坏情况。伊恩袭击人口稠密的迈尔斯堡地区，在该州造成149人死亡。与伊恩不同，伊达利亚袭击了佛罗里达州人口非常稀少、被称为“自然海岸”的地区，这是该州最偏远的乡村地区之一，远离拥挤大都市和繁忙旅游区，有数百万英亩尚未开发土地。\n\n这并不意味着伊达利亚没有造成重大损失。急流淹没沿海街道，冲走系泊小船，佛罗里达州和佐治亚州近50万用户失去电力。在佩里，大风吹碎商店橱窗、撕掉建筑外墙板，并掀翻加油站顶棚。暴雨部分淹没坦帕的275号州际公路，大风将电线吹倒在佐治亚州瓦尔多斯塔南部75号州际公路北行线路上。\n\n在伊达利亚登陆地点以南不到20英里（32公里）处，佛罗里达州斯坦哈奇的商店、船坞和住宅被涌自代德曼斯湾的海水吞没。警方封锁进出该沿海社区的交通，这个拥有500多名居民的社区以渔业和林业著称。\n\n州政府官员、5,500名国民警卫队成员及救援队进入搜寻与恢复状态，检查桥梁、清理倒下的树木并寻找遇险人员。\n\n佛罗里达州应急管理部门主任凯文·格思里说，由于大本德地区地处偏远，与过去人口更稠密地区的飓风相比，搜寻队可能需要更长时间来完成工作。\n\n格思里说：“一条5英里（8公里）长的路上可能只有两户人家，所以需要时间。”\n\n塔拉哈西的美国国家气象局称伊达利亚为“前所未有的事件”，因为有记录以来没有大型飓风经过毗邻大本德地区的海湾。\n\n在锡达礁岛，倒下的树木和碎片堵塞道路，丙烷罐发生爆炸。\n\nRJ·赖特留下来，以便查看年长邻居的情况。他与朋友在汽车旅馆避险，在安全时走出门外，进入齐胸深的水中。他说，由于这个伸入墨西哥湾的小岛没有受到直接袭击，情况本来可能更糟。\n\n赖特说：“有一段时间情况相当糟糕，但与其他一些风暴相比，这还不算什么。”\n\n在塔拉哈西，风暴中心到达前很久就停电，但该市避开了正面袭击。州长官邸旁一棵巨大的橡树裂成两半，院子里满是碎片。\n\n在佐治亚州瓦尔多斯塔，伊达利亚猛烈的大风连根拔起树木，使雨水横飞。乔纳森·威克说，直到星期三早上在家中醒来听到外面呼啸的风声，他才认真对待逼近的飓风。他从后院齐膝深积水中的蹦床上救出年幼的侄子，将他们带到车里，正要爬进驾驶座时，一棵树倒在车前。\n\n最终由另一名家人救出的威克说：“如果那棵树倒在车上，我就死了。”\n\n朗兹县警长阿什利·保尔克表示，星期三，瓦尔多斯塔一名男子试图清理道路上的另一棵树时，一棵树倒在他身上，导致其死亡。保尔克说，树倒下时另有两人受伤，其中包括一名副警长。\n\n佛罗里达州30,000多名公共事业工作人员正集结，准备在飓风过后尽快开展维修。包括坦帕国际机场在内的该地区机场计划于星期三下午或星期四恢复商业运营。据 FlightAware 航班跟踪服务，截至星期三中午，佛罗里达州及佐治亚州已有900多个航班取消。\n\n美国国家飓风中心表示，美国东部夏令时间星期三晚11时，伊达利亚位于查尔斯顿西北偏北约15英里（24公里）处，以每小时21英里（33公里）的速度向东北移动。\n\n百慕大官员警告，伊达利亚可能在下周初以热带风暴强度袭击该岛。 星期三，二级飓风富兰克林的外围云带正在袭击百慕大，其路径预计经过北大西洋这座岛屿附近。\n\n白宫表示，美国总统乔·拜登星期三致电佛罗里达州、佐治亚州、北卡罗来纳州和南卡罗来纳州的州长，告诉他们其政府将全力支持这些州。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "佛罗里达州佩里（美联社）——星期三，飓风伊达利亚以高速列车般的速度袭击佛罗里达州，将树木劈成两半、掀掉酒店屋顶，并使小型汽车仿佛变成了船。随后，它仍以强劲风暴姿态席卷佐治亚州和南卡罗来纳州，淹没道路，居民纷纷奔向高地。\n\n佛罗里达大本德地区内陆不远处的磨坊镇佩里的贝隆德·托马斯说：“一切都乱套了。”伊达利亚就在该地区登陆。\n\n托马斯带着家人和一些朋友逃到汽车旅馆，以为比在家熬过风暴更安全。但伊达利亚的风眼于上午8时30分左右经过时，尖锐的呼啸声划破空气，强风掀掉建筑屋顶，碎片砸向躺在床上的怀孕女儿。幸好她没有受伤。\n\n托马斯说：“太可怕了。事情发生得太快……一切都在旋转。”\n\n",
+          "start_offset": 0,
+          "end_offset": 292,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "damage",
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "伊达利亚，非富兰克林",
+              "unit": null
+            },
+            {
+              "attribute": "impact_location",
+              "value": "佛罗里达州佩里",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "伊达利亚于上午7时45分在基顿海滩附近登陆，为较强的三级飓风，最大持续风速接近每小时125英里（205公里）。进入佐治亚州时，该系统仍为飓风，最高风速为每小时90英里（150公里）。到星期三下午晚些时候，它减弱为热带风暴，至星期三晚风速下降到每小时60英里（96公里）。\n\n风眼向内陆移动时，大风撕碎标志牌、掀掉屋顶、吹飞金属板并折断高大树木。佐治亚州有1人死亡。佛罗里达州没有官方确认的飓风相关死亡，但佛罗里达公路巡警报告，伊达利亚登陆前数小时，两起与天气有关的独立车祸造成2人死亡。\n\n风暴星期三晚向卡罗来纳地区移动时，给佐治亚州萨凡纳带来强风。预计它将在星期三晚间沿南卡罗来纳州海岸附近移动，星期四经过北卡罗来纳州近海，然后进入大西洋。\n\n",
+          "start_offset": 292,
+          "end_offset": 615,
+          "sentence_ids": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "casualties",
+            "weather",
+            "timeline"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "伊达利亚",
+              "unit": null
+            },
+            {
+              "attribute": "landfall_category",
+              "value": 3,
+              "unit": null
+            },
+            {
+              "attribute": "landfall_wind",
+              "value": 125,
+              "unit": "mph"
+            },
+            {
+              "attribute": "georgia_deaths",
+              "value": 1,
+              "unit": "person"
+            },
+            {
+              "attribute": "florida_weather_crash_deaths",
+              "value": 2,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "美国国家气象局称，伊达利亚引发的龙卷风曾短暂登陆南卡罗来纳州查尔斯顿郊区古斯克里克。据当局及目击者视频，大风将一辆汽车吹飞并使其翻转，2人轻伤。\n\n南卡罗来纳州沿海的北默特尔比奇、加登城和埃迪斯托岛均报告，星期三晚海水越过沙丘流入海滨街道。在查尔斯顿，伊达利亚的风暴潮越过保护市中心的海堤，齐踝深的海水涌入街道和街区，这里有马车经过价值数百万美元的住宅和著名露天市场。\n\n初步数据显示，星期三晚高潮水位略超过9.2英尺（2.8米），比正常水平高出3英尺（0.9米）以上，是查尔斯顿港自1899年开始记录以来第五高水位。\n\n",
+          "start_offset": 615,
+          "end_offset": 876,
+          "sentence_ids": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard",
+            "injuries",
+            "disaster_magnitude"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "伊达利亚",
+              "unit": null
+            },
+            {
+              "attribute": "goose_creek_minor_injuries",
+              "value": 2,
+              "unit": "people"
+            },
+            {
+              "attribute": "charleston_high_tide",
+              "value": {
+                "value": 9.2,
+                "qualifier": "just over"
+              },
+              "unit": "ft"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "仍在从去年飓风伊恩影响中恢复的佛罗里达州曾担心最坏情况。伊恩袭击人口稠密的迈尔斯堡地区，在该州造成149人死亡。与伊恩不同，伊达利亚袭击了佛罗里达州人口非常稀少、被称为“自然海岸”的地区，这是该州最偏远的乡村地区之一，远离拥挤大都市和繁忙旅游区，有数百万英亩尚未开发土地。\n\n这并不意味着伊达利亚没有造成重大损失。急流淹没沿海街道，冲走系泊小船，佛罗里达州和佐治亚州近50万用户失去电力。在佩里，大风吹碎商店橱窗、撕掉建筑外墙板，并掀翻加油站顶棚。暴雨部分淹没坦帕的275号州际公路，大风将电线吹倒在佐治亚州瓦尔多斯塔南部75号州际公路北行线路上。\n\n在伊达利亚登陆地点以南不到20英里（32公里）处，佛罗里达州斯坦哈奇的商店、船坞和住宅被涌自代德曼斯湾的海水吞没。警方封锁进出该沿海社区的交通，这个拥有500多名居民的社区以渔业和林业著称。\n\n",
+          "start_offset": 876,
+          "end_offset": 1249,
+          "sentence_ids": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "damage",
+            "infrastructure",
+            "economic_loss"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "伊达利亚与历史上的伊恩对比",
+              "unit": null
+            },
+            {
+              "attribute": "idalia_outages",
+              "value": "佛罗里达州和佐治亚州近50万用户",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "州政府官员、5,500名国民警卫队成员及救援队进入搜寻与恢复状态，检查桥梁、清理倒下的树木并寻找遇险人员。\n\n佛罗里达州应急管理部门主任凯文·格思里说，由于大本德地区地处偏远，与过去人口更稠密地区的飓风相比，搜寻队可能需要更长时间来完成工作。\n\n格思里说：“一条5英里（8公里）长的路上可能只有两户人家，所以需要时间。”\n\n塔拉哈西的美国国家气象局称伊达利亚为“前所未有的事件”，因为有记录以来没有大型飓风经过毗邻大本德地区的海湾。\n\n在锡达礁岛，倒下的树木和碎片堵塞道路，丙烷罐发生爆炸。\n\nRJ·赖特留下来，以便查看年长邻居的情况。他与朋友在汽车旅馆避险，在安全时走出门外，进入齐胸深的水中。他说，由于这个伸入墨西哥湾的小岛没有受到直接袭击，情况本来可能更糟。\n\n赖特说：“有一段时间情况相当糟糕，但与其他一些风暴相比，这还不算什么。”\n\n在塔拉哈西，风暴中心到达前很久就停电，但该市避开了正面袭击。州长官邸旁一棵巨大的橡树裂成两半，院子里满是碎片。\n\n在佐治亚州瓦尔多斯塔，伊达利亚猛烈的大风连根拔起树木，使雨水横飞。乔纳森·威克说，直到星期三早上在家中醒来听到外面呼啸的风声，他才认真对待逼近的飓风。他从后院齐膝深积水中的蹦床上救出年幼的侄子，将他们带到车里，正要爬进驾驶座时，一棵树倒在车前。\n\n最终由另一名家人救出的威克说：“如果那棵树倒在车上，我就死了。”\n\n",
+          "start_offset": 1249,
+          "end_offset": 1836,
+          "sentence_ids": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "fact_types": [
+            "response",
+            "damage",
+            "infrastructure",
+            "recovery"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "伊达利亚",
+              "unit": null
+            },
+            {
+              "attribute": "national_guard",
+              "value": 5500,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "朗兹县警长阿什利·保尔克表示，星期三，瓦尔多斯塔一名男子试图清理道路上的另一棵树时，一棵树倒在他身上，导致其死亡。保尔克说，树倒下时另有两人受伤，其中包括一名副警长。\n\n佛罗里达州30,000多名公共事业工作人员正集结，准备在飓风过后尽快开展维修。包括坦帕国际机场在内的该地区机场计划于星期三下午或星期四恢复商业运营。据 FlightAware 航班跟踪服务，截至星期三中午，佛罗里达州及佐治亚州已有900多个航班取消。\n\n",
+          "start_offset": 1836,
+          "end_offset": 2048,
+          "sentence_ids": [
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "infrastructure",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "伊达利亚",
+              "unit": null
+            },
+            {
+              "attribute": "valdosta_deaths",
+              "value": 1,
+              "unit": "person"
+            },
+            {
+              "attribute": "tree_incident_injuries",
+              "value": 2,
+              "unit": "people"
+            },
+            {
+              "attribute": "flights_cancelled",
+              "value": {
+                "value": 900,
+                "qualifier": "greater_than"
+              },
+              "unit": "flights"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "美国国家飓风中心表示，美国东部夏令时间星期三晚11时，伊达利亚位于查尔斯顿西北偏北约15英里（24公里）处，以每小时21英里（33公里）的速度向东北移动。\n\n百慕大官员警告，伊达利亚可能在下周初以热带风暴强度袭击该岛。 ",
+          "start_offset": 2048,
+          "end_offset": 2158,
+          "sentence_ids": [
+            52,
+            53,
+            54,
+            55
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "timeline"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "伊达利亚通报及百慕大预测",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F008",
+          "span_text": "星期三，二级飓风富兰克林的外围云带正在袭击百慕大，其路径预计经过北大西洋这座岛屿附近。\n\n",
+          "start_offset": 2158,
+          "end_offset": 2203,
+          "sentence_ids": [
+            56
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "weather"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "富兰克林",
+              "unit": null
+            },
+            {
+              "attribute": "category",
+              "value": 2,
+              "unit": null
+            },
+            {
+              "attribute": "location",
+              "value": "北大西洋百慕大附近",
+              "unit": null
+            },
+            {
+              "attribute": "reported_impact",
+              "value": "星期三外围云带影响百慕大",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F009",
+          "span_text": "白宫表示，美国总统乔·拜登星期三致电佛罗里达州、佐治亚州、北卡罗来纳州和南卡罗来纳州的州长，告诉他们其政府将全力支持这些州。",
+          "start_offset": 2203,
+          "end_offset": 2265,
+          "sentence_ids": [
+            57
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "伊达利亚响应",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "654e8d14c72429871690f442f3d7bb0d59dfb91694f3d9c997058578269105ad",
+        "removed_word_count": 18,
+        "removed_word_ratio": 0.014646053702196907
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-14E3681450EB3B52",
+      "event_id": "DIS-TC-94AFE7992468F6D2",
+      "event_rank": 31,
+      "article_rank": 2,
+      "title": "热带风暴伊达利亚袭击北卡罗来纳州东部，热带风暴乔在大西洋形成，飓风富兰克林继续远离百慕大 4分钟前",
+      "publisher": "cbslocal",
+      "identified_publisher": null,
+      "source_domain": "cbsnews.com",
+      "url": "https://www.cbsnews.com/miami/news/tropical-storm-idalia-lashing-eastern-north-carolina-tropical-storm-joe-forms-in-atlantic/",
+      "published_at": "2023-08-31T00:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "CBS 迈阿密页面概述多场气旋，未提供明确署名。",
+      "content": "迈阿密——热带风暴伊达利亚在给北卡罗来纳州东部带来强降雨后正远离海岸。星期四上午晚些时候，伊达利亚位于北卡罗来纳州卢考特角东南约85处（原文未注明单位）。它以每小时20英里速度向东移动，持续风速为每小时60英里。按照预测路径，伊达利亚星期四将继续远离北卡罗来纳州海岸，周末接近百慕大。热带风暴警报覆盖北卡罗来纳州菲尔角至北卡罗来纳州与弗吉尼亚州交界处，以及帕姆利科湾和阿尔伯马尔湾。风暴潮监视覆盖北卡罗来纳州博福特湾口至奥克拉科克湾口，以及纽斯河和帕姆利科河。预计星期四强度变化不大，但星期四晚及星期五可能略微减弱。预计伊达利亚今天晚些时候变为后热带气旋，但周末有望重新转变为热带风暴。与此同时，热带风暴何塞继续穿越大西洋东部。星期四上午，风暴位于百慕大以东约770英里处，以每小时7英里的速度向北移动，持续风速为每小时40英里。预计何塞将继续向北移动一天左右，随后被飓风富兰克林吸收。 说到富兰克林，它位于百慕大东北约265英里处，以每小时14英里的速度向东北偏东移动，风速为每小时100英里。 按照预测路径，富兰克林中心应继续远离百慕大。预计未来几天将逐渐减弱。目前没有针对富兰克林或何塞的监视或警报。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "迈阿密——热带风暴伊达利亚在给北卡罗来纳州东部带来强降雨后正远离海岸。星期四上午晚些时候，伊达利亚位于北卡罗来纳州卢考特角东南约85处（原文未注明单位）。它以每小时20英里速度向东移动，持续风速为每小时60英里。按照预测路径，伊达利亚星期四将继续远离北卡罗来纳州海岸，周末接近百慕大。热带风暴警报覆盖北卡罗来纳州菲尔角至北卡罗来纳州与弗吉尼亚州交界处，以及帕姆利科湾和阿尔伯马尔湾。风暴潮监视覆盖北卡罗来纳州博福特湾口至奥克拉科克湾口，以及纽斯河和帕姆利科河。预计星期四强度变化不大，但星期四晚及星期五可能略微减弱。预计伊达利亚今天晚些时候变为后热带气旋，但周末有望重新转变为热带风暴。",
+          "start_offset": 0,
+          "end_offset": 293,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "weather",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "伊达利亚，非富兰克林",
+              "unit": null
+            },
+            {
+              "attribute": "sustained_wind",
+              "value": 60,
+              "unit": "mph"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "与此同时，热带风暴何塞继续穿越大西洋东部。星期四上午，风暴位于百慕大以东约770英里处，以每小时7英里的速度向北移动，持续风速为每小时40英里。预计何塞将继续向北移动一天左右，随后被飓风富兰克林吸收。 ",
+          "start_offset": 293,
+          "end_offset": 394,
+          "sentence_ids": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "何塞及其预计与富兰克林的相互作用",
+              "unit": null
+            },
+            {
+              "attribute": "jose_sustained_wind",
+              "value": 40,
+              "unit": "mph"
+            },
+            {
+              "attribute": "forecast",
+              "value": "何塞将被富兰克林吸收",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "说到富兰克林，它位于百慕大东北约265英里处，以每小时14英里的速度向东北偏东移动，风速为每小时100英里。 ",
+          "start_offset": 394,
+          "end_offset": 449,
+          "sentence_ids": [
+            11,
+            12
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "franklin_distance_northeast_of_bermuda",
+              "value": {
+                "value": 265,
+                "qualifier": "about"
+              },
+              "unit": "mi"
+            },
+            {
+              "attribute": "franklin_movement",
+              "value": "以每小时14英里的速度向东北偏东移动",
+              "unit": null
+            },
+            {
+              "attribute": "franklin_wind",
+              "value": 100,
+              "unit": "mph"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "按照预测路径，富兰克林中心应继续远离百慕大。预计未来几天将逐渐减弱。目前没有针对富兰克林或何塞的监视或警报。",
+          "start_offset": 449,
+          "end_offset": 503,
+          "sentence_ids": [
+            13,
+            14,
+            15
+          ],
+          "fact_types": [
+            "weather",
+            "response",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "franklin_forecast",
+              "value": "远离百慕大并减弱",
+              "unit": null
+            },
+            {
+              "attribute": "warning_status",
+              "value": "富兰克林及何塞均无监视或警报",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "aa65a65dc37d72a66e93e255205c7ee86ff8f466f0c79ce13f555e52996d4515",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-51FB857041E38B38",
+      "event_id": "DIS-TC-94AFE7992468F6D2",
+      "event_rank": 31,
+      "article_rank": 3,
+      "title": "飓风伊达利亚过后，居民清理废墟、穿行堵塞道路并忍受停电",
+      "publisher": "nbcnewyork",
+      "identified_publisher": null,
+      "source_domain": "nbcnewyork.com",
+      "url": "https://www.nbcnewyork.com/news/national-international/tropical-storm-idalia-descends-on-north-carolina-after-tearing-through-florida-southeast-us/4638991/",
+      "published_at": "2023-08-31T10:37:17+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "NBC 导语之后，文章与 A001 的美联社稿件共享数处几乎逐字相同的描述，独立报道程度尚未核实。",
+      "content": "飓风伊达利亚袭击佛罗里达州自然海岸，带来严重洪水及破坏。NBC6 记者杰米·吉罗拉从锡达礁报道。\n\n星期四，居住在飓风伊达利亚破坏路径上的佛罗里达州和佐治亚州居民在曾经是住宅的废墟中翻找物品，将防水布覆盖在被掀开的屋顶上，小心通过被淹或被倒下树木及危险电线堵塞的街道。\n\n位于偏远大本德地区的锡达礁岛居民艾米·费尔斯廷说：“我今天的计划是四处看看，在废墟中找到任何可抢救的东西，并清理我的储物棚。”伊达利亚星期三以每小时125英里风速在该地区登陆。\n\n费尔斯廷在内陆约40分钟车程的地方躲过伊达利亚。风暴过去数小时后她开车返回岛上，心情沉重。加油站不见了，树木倒塌，电线落在地面。她家经营的拥有12套住宿单元的 Faraway Inn 中一整座建筑被摧毁，另一座建筑的一面墙消失。\n\n无论身在何处均可免费观看 NBC 4\n\n费尔斯廷说：“这有点令人心碎和沮丧。”\n\n佐治亚州瓦尔多斯塔居民德斯蒙德·罗伯森星期四与朋友开车穿过这座55,000人口城市查看损失时感到震惊。他说，一条街上的几乎每一所房子都被树砸中。道路仍被树干和倒下的电线堵塞，主要交叉路口的交通信号灯仍停电。少数营业的加油站前排起长队。\n\n罗伯森说：“这就像迷宫……我不得不掉头三次，只因为道路被堵塞。”\n\n周边朗兹县发言人梅根·巴威克表示，截至星期四上午，有关部门为覆盖受损屋顶准备的600块防水布几乎全部被领取。据巴威克称，在人口约120,000人的该县，超过24,000户家庭和企业仍没有电力。她说居民应该为继续数天没有照明或空调做好准备。\n\n佛罗里达州没有官方确认的飓风相关死亡，但州公路巡警报告，在伊达利亚登陆前数小时，两起与天气有关的独立车祸造成2人死亡。朗兹县警长阿什利·保尔克称，佐治亚州瓦尔多斯塔一名男子试图清理道路上的另一棵树时，一棵树倒在他身上造成死亡。\n\n风暴吹倒电线杆，佛罗里达州和佐治亚州一度有多达50万用户停电。\n\n佐治亚州州长布赖恩·肯普说，星期三，风暴直接袭击瓦尔多斯塔时仍具有威胁性，风速为每小时90英里。\n\n肯普星期四在亚特兰大记者会上说：“幸运的是，这场风暴范围较窄，移动迅速，没有长时间停留在我们上空。但如果你在其经过的路径上，破坏是毁灭性的，我们正在以此标准作出响应。”\n\n佐治亚州南部奎特曼镇农民克里斯·埃克萨姆估计，伊达利亚使其山核桃作物损失一半或更多。他说，风暴留下由倒下树木及树枝构成的“一堵绿色墙”。\n\n他指出，其中一些树已有40至50年树龄。“恢复到这种程度需要很长时间。”\n\n星期四，佛罗里达州大本德地区的救援和修复工作全面展开。伊达利亚撕碎住宅、掀掉屋顶、折断高树，并把街道变成河流。\n\n在大本德中部马蹄滩，朱厄尔·巴格特在母亲被摧毁的家中翻找废墟和碎片，找到几张照片及一些锅碗。幸好她母亲在风暴来袭前已撤离。\n\n巴格特说，她的祖父几十年前建造了这座房子，它曾熬过此前四场风暴。\n\n“现在它没了，”她说，该地区还有至少五到六所其他房屋也被摧毁。“什么都没剩下，到处只有些小饰品。”\n\n佛罗里达州州长罗恩·德桑蒂斯与妻子凯西及联邦应急官员一起巡视了该地区。\n\n他说：“我看到了很多真正令人心碎的破坏。”他提到一座被超过4英尺水淹没的教堂。“这一切非常令人痛心，”他说，“当你一生的心血，比如一家企业，最终被5英尺的水淹没时，未来还有很多工作要做。”\n\n德桑蒂斯指出，尽管位于佛罗里达州狭长地带转入半岛处的大本德地区遭到广泛破坏，飓风对坦帕湾及其他人口较多地区仅产生擦边影响。相比之下，去年的飓风伊恩袭击了人口稠密的迈尔斯堡地区，在该州造成149人死亡。\n\n美国总统乔·拜登与德桑蒂斯交谈，并承诺提供一切可用的联邦援助。拜登还宣布将于星期六前往佛罗里达州亲自查看损失。\n\n总统利用在联邦紧急事务管理署总部举行的记者会向国会传递信息，特别是那些对其申请120亿美元应对自然灾害紧急资金犹豫不决的议员。\n\n拜登表示：“我们需要这项救灾请求得到满足，而且需要在9月”，即国会休会结束返回后得到满足。此前他为一直昼夜应对伊达利亚及夏威夷毛伊岛毁灭性野火的联邦紧急事务管理署员工送去了披萨。\n\n星期四出海前，伊达利亚向东转向，淹没南卡罗来纳州许多海滩，使该州和北卡罗来纳州部分地区停电，随后返回大西洋。预报人员称，这场减弱的风暴应在未来数天继续远离美国，不过百慕大官员警告，伊达利亚可能在下周初以热带风暴强度袭击该岛。\n\n在南卡罗来纳州，风暴与本已非常高的潮位叠加，使几乎每个海滩城镇的海水越过沙丘，不过大部分地方积水仅约齐踝深。在查尔斯顿，伊达利亚风暴潮越过保护市中心的部分海堤，将海水送入街道和街区，这里有马车经过价值数百万美元的住宅和著名露天市场。\n\n初步数据显示，星期三晚高潮水位略超过9.2英尺，比正常水平高出3英尺以上，是查尔斯顿港自1899年开始记录以来第五高水位。\n\n伊达利亚的外围云带还带来短暂龙卷风。当局称，其中一起龙卷风在南卡罗来纳州郊区古斯克里克掀翻一辆汽车，造成人员轻伤，未报告重大损失。\n\n在北卡罗来纳州东南部，怀特维尔降雨量高达9英寸，淹没市中心建筑。暴雨使小溪和河流水位上涨，预报人员警告，皮迪河和兰伯河下游一些地方可能发生洪水，但水位将远低于飓风佛罗伦斯和马修过后摧毁整个城镇的历史洪峰。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "飓风伊达利亚袭击佛罗里达州自然海岸，带来严重洪水及破坏。NBC6 记者杰米·吉罗拉从锡达礁报道。\n\n",
+          "start_offset": 0,
+          "end_offset": 50,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "星期四，居住在飓风伊达利亚破坏路径上的佛罗里达州和佐治亚州居民在曾经是住宅的废墟中翻找物品，将防水布覆盖在被掀开的屋顶上，小心通过被淹或被倒下树木及危险电线堵塞的街道。\n\n位于偏远大本德地区的锡达礁岛居民艾米·费尔斯廷说：“我今天的计划是四处看看，在废墟中找到任何可抢救的东西，并清理我的储物棚。”伊达利亚星期三以每小时125英里风速在该地区登陆。\n\n费尔斯廷在内陆约40分钟车程的地方躲过伊达利亚。风暴过去数小时后她开车返回岛上，心情沉重。加油站不见了，树木倒塌，电线落在地面。她家经营的拥有12套住宿单元的 Faraway Inn 中一整座建筑被摧毁，另一座建筑的一面墙消失。\n\n",
+          "start_offset": 50,
+          "end_offset": 342,
+          "sentence_ids": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "damage",
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "伊达利亚，非富兰克林",
+              "unit": null
+            },
+            {
+              "attribute": "landfall_wind",
+              "value": 125,
+              "unit": "mph"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "无论身在何处均可免费观看 NBC 4\n\n",
+          "start_offset": 342,
+          "end_offset": 362,
+          "sentence_ids": [
+            12
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "费尔斯廷说：“这有点令人心碎和沮丧。”\n\n佐治亚州瓦尔多斯塔居民德斯蒙德·罗伯森星期四与朋友开车穿过这座55,000人口城市查看损失时感到震惊。他说，一条街上的几乎每一所房子都被树砸中。道路仍被树干和倒下的电线堵塞，主要交叉路口的交通信号灯仍停电。少数营业的加油站前排起长队。\n\n罗伯森说：“这就像迷宫……我不得不掉头三次，只因为道路被堵塞。”\n\n周边朗兹县发言人梅根·巴威克表示，截至星期四上午，有关部门为覆盖受损屋顶准备的600块防水布几乎全部被领取。据巴威克称，在人口约120,000人的该县，超过24,000户家庭和企业仍没有电力。她说居民应该为继续数天没有照明或空调做好准备。\n\n",
+          "start_offset": 362,
+          "end_offset": 657,
+          "sentence_ids": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "fact_types": [
+            "public_reaction",
+            "damage",
+            "infrastructure"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "伊达利亚",
+              "unit": null
+            },
+            {
+              "attribute": "lowndes_customers_without_power",
+              "value": {
+                "value": 24000,
+                "qualifier": "greater_than"
+              },
+              "unit": "homes and businesses"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "佛罗里达州没有官方确认的飓风相关死亡，但州公路巡警报告，在伊达利亚登陆前数小时，两起与天气有关的独立车祸造成2人死亡。朗兹县警长阿什利·保尔克称，佐治亚州瓦尔多斯塔一名男子试图清理道路上的另一棵树时，一棵树倒在他身上造成死亡。\n\n风暴吹倒电线杆，佛罗里达州和佐治亚州一度有多达50万用户停电。\n\n佐治亚州州长布赖恩·肯普说，星期三，风暴直接袭击瓦尔多斯塔时仍具有威胁性，风速为每小时90英里。\n\n肯普星期四在亚特兰大记者会上说：“幸运的是，这场风暴范围较窄，移动迅速，没有长时间停留在我们上空。但如果你在其经过的路径上，破坏是毁灭性的，我们正在以此标准作出响应。”\n\n",
+          "start_offset": 657,
+          "end_offset": 941,
+          "sentence_ids": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "infrastructure",
+            "disaster_magnitude"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "伊达利亚",
+              "unit": null
+            },
+            {
+              "attribute": "georgia_deaths",
+              "value": 1,
+              "unit": "person"
+            },
+            {
+              "attribute": "florida_weather_crash_deaths",
+              "value": 2,
+              "unit": "people"
+            },
+            {
+              "attribute": "valdosta_wind",
+              "value": 90,
+              "unit": "mph"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "佐治亚州南部奎特曼镇农民克里斯·埃克萨姆估计，伊达利亚使其山核桃作物损失一半或更多。他说，风暴留下由倒下树木及树枝构成的“一堵绿色墙”。\n\n他指出，其中一些树已有40至50年树龄。“恢复到这种程度需要很长时间。”\n\n星期四，佛罗里达州大本德地区的救援和修复工作全面展开。伊达利亚撕碎住宅、掀掉屋顶、折断高树，并把街道变成河流。\n\n在大本德中部马蹄滩，朱厄尔·巴格特在母亲被摧毁的家中翻找废墟和碎片，找到几张照片及一些锅碗。幸好她母亲在风暴来袭前已撤离。\n\n巴格特说，她的祖父几十年前建造了这座房子，它曾熬过此前四场风暴。\n\n“现在它没了，”她说，该地区还有至少五到六所其他房屋也被摧毁。“什么都没剩下，到处只有些小饰品。”\n\n佛罗里达州州长罗恩·德桑蒂斯与妻子凯西及联邦应急官员一起巡视了该地区。\n\n他说：“我看到了很多真正令人心碎的破坏。”他提到一座被超过4英尺水淹没的教堂。“这一切非常令人痛心，”他说，“当你一生的心血，比如一家企业，最终被5英尺的水淹没时，未来还有很多工作要做。”\n\n德桑蒂斯指出，尽管位于佛罗里达州狭长地带转入半岛处的大本德地区遭到广泛破坏，飓风对坦帕湾及其他人口较多地区仅产生擦边影响。相比之下，去年的飓风伊恩袭击了人口稠密的迈尔斯堡地区，在该州造成149人死亡。\n\n",
+          "start_offset": 941,
+          "end_offset": 1489,
+          "sentence_ids": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "fact_types": [
+            "economic_loss",
+            "damage",
+            "public_reaction",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "伊达利亚与历史上的伊恩对比",
+              "unit": null
+            },
+            {
+              "attribute": "pecan_loss_qualifier",
+              "value": "一半或更多，农民估计",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "美国总统乔·拜登与德桑蒂斯交谈，并承诺提供一切可用的联邦援助。拜登还宣布将于星期六前往佛罗里达州亲自查看损失。\n\n总统利用在联邦紧急事务管理署总部举行的记者会向国会传递信息，特别是那些对其申请120亿美元应对自然灾害紧急资金犹豫不决的议员。\n\n拜登表示：“我们需要这项救灾请求得到满足，而且需要在9月”，即国会休会结束返回后得到满足。此前他为一直昼夜应对伊达利亚及夏威夷毛伊岛毁灭性野火的联邦紧急事务管理署员工送去了披萨。\n\n星期四出海前，伊达利亚向东转向，淹没南卡罗来纳州许多海滩，使该州和北卡罗来纳州部分地区停电，随后返回大西洋。预报人员称，这场减弱的风暴应在未来数天继续远离美国，不过百慕大官员警告，伊达利亚可能在下周初以热带风暴强度袭击该岛。\n\n",
+          "start_offset": 1489,
+          "end_offset": 1816,
+          "sentence_ids": [
+            47,
+            48,
+            49,
+            50,
+            51,
+            52
+          ],
+          "fact_types": [
+            "response",
+            "disaster_occurrence",
+            "weather",
+            "uncertainty"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "伊达利亚及其他灾害",
+              "unit": null
+            },
+            {
+              "attribute": "funding_request_scope",
+              "value": "一般灾害响应",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F008",
+          "span_text": "在南卡罗来纳州，风暴与本已非常高的潮位叠加，使几乎每个海滩城镇的海水越过沙丘，不过大部分地方积水仅约齐踝深。在查尔斯顿，伊达利亚风暴潮越过保护市中心的部分海堤，将海水送入街道和街区，这里有马车经过价值数百万美元的住宅和著名露天市场。\n\n初步数据显示，星期三晚高潮水位略超过9.2英尺，比正常水平高出3英尺以上，是查尔斯顿港自1899年开始记录以来第五高水位。\n\n伊达利亚的外围云带还带来短暂龙卷风。当局称，其中一起龙卷风在南卡罗来纳州郊区古斯克里克掀翻一辆汽车，造成人员轻伤，未报告重大损失。\n\n在北卡罗来纳州东南部，怀特维尔降雨量高达9英寸，淹没市中心建筑。暴雨使小溪和河流水位上涨，预报人员警告，皮迪河和兰伯河下游一些地方可能发生洪水，但水位将远低于飓风佛罗伦斯和马修过后摧毁整个城镇的历史洪峰。",
+          "start_offset": 1816,
+          "end_offset": 2166,
+          "sentence_ids": [
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard",
+            "damage",
+            "disaster_magnitude"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "伊达利亚",
+              "unit": null
+            },
+            {
+              "attribute": "charleston_high_tide",
+              "value": {
+                "value": 9.2,
+                "qualifier": "just over"
+              },
+              "unit": "ft"
+            },
+            {
+              "attribute": "whiteville_rainfall",
+              "value": {
+                "value": 9,
+                "qualifier": "up_to"
+              },
+              "unit": "in"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "02c07793bea3b9310c289d00d410d02426e0beb6909a3c4e8e82d83a455acd89",
+        "removed_word_count": 36,
+        "removed_word_ratio": 0.030795551753635585
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "百慕大附近富兰克林的观测涉及不同时间",
+        "fact_type": "disaster_magnitude",
+        "attribute": "franklin_intensity_and_position",
+        "supporting_spans": [
+          "A001_F008",
+          "A002_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F008",
+            "value": {
+              "category": 2,
+              "scope": "星期三位于百慕大附近"
+            },
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": {
+              "wind": 100,
+              "scope": "星期四位于百慕大东北约265英里处"
+            },
+            "unit": "mph",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "时间和报道形式不同。"
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "预计富兰克林将继续远离百慕大",
+        "fact_type": "weather",
+        "attribute": "franklin_forecast",
+        "supporting_spans": [
+          "A002_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": "继续远离并逐渐减弱，没有监视或警报",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "critical_facts": [
+        "FC001"
+      ],
+      "important_facts": [
+        "FC002"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2023-08-30",
+          "time_precision": "Local date",
+          "description": "富兰克林的外围云带星期三影响百慕大。",
+          "supporting_spans": [
+            "A001_F008"
+          ]
+        },
+        {
+          "time": "2023-08-31",
+          "time_precision": "Publication date",
+          "description": "报道显示富兰克林位于百慕大东北并继续远离。",
+          "supporting_spans": [
+            "A002_F003",
+            "A002_F004"
+          ]
+        }
+      ],
+      "causal_relations": [],
+      "event_mainline": [
+        {
+          "description": "富兰克林外围云带影响百慕大。后续报道称它已远离该岛。",
+          "supporting_spans": [
+            "A001_F008",
+            "A002_F003",
+            "A002_F004"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "A001 和 A002 的大部分内容涉及伊达利亚，A003 没有关于富兰克林的明确事实。所有来源文本均保留，伊达利亚的影响排除在富兰克林的事件评估之外。"
+    ]
+  }
+}

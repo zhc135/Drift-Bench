@@ -1,0 +1,1106 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-TC-91BD849EA4EB02C0",
+  "event_rank": 30,
+  "event_metadata": {
+    "event_name": "热带气旋 HILARY-23（希拉里）",
+    "disaster_type": "tropical_cyclone",
+    "disaster_type_code": "TC",
+    "event_start_time": "2023-08-16T15:00:00+00:00",
+    "event_end_time": "2023-08-21T21:00:00+00:00",
+    "locations": [
+      "墨西哥"
+    ],
+    "latitude": 44.6,
+    "longitude": -115.5,
+    "place_names_in_reports": [
+      "下加利福尼亚",
+      "恩塞纳达",
+      "穆莱赫",
+      "蒂华纳",
+      "南加利福尼亚",
+      "棕榈泉",
+      "圣迭戈",
+      "洛杉矶",
+      "内华达州",
+      "查尔斯顿山",
+      "俄勒冈州",
+      "爱达荷州"
+    ],
+    "gdacs_id": "1000993",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "风暴星期日登陆。NHC 星期一将其降级为后热带风暴。美国、加利福尼亚州及墨西哥的死亡报道分别记录。"
+    ],
+    "dataset_place_name": "热带气旋 HILARY-23（希拉里）",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-E2F452DBEBB2DC55",
+      "event_id": "DIS-TC-91BD849EA4EB02C0",
+      "event_rank": 30,
+      "article_rank": 1,
+      "title": "Scripps News：后热带风暴希拉里星期一向北及向西移动 Scripps News 工作人员 2023年8月21日下午3:20",
+      "publisher": "ksby",
+      "identified_publisher": "Scripps News",
+      "source_domain": "ksby.com",
+      "url": "https://www.ksby.com/post-tropical-storm-hilary-pushes-north-and-west-on-monday",
+      "published_at": "2023-08-21T00:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "KSBY 标题注明来源为 Scripps News 工作人员。",
+      "content": "美国国家飓风中心星期一将希拉里降级为后热带风暴，但该系统仍对干旱的美国西南部沙漠及更北地区构成显著降雨和洪水威胁。预报人员称，美国西部山间地区可能出现局地强降雨和零星洪水。在内华达州，美国国家气象局警告，直至星期二可能出现大范围降雨和山洪。加利福尼亚中北部和内华达州西部的山洪监视持续至星期一晚间。最北至俄勒冈州和爱达荷州的地方也可能发生洪水。洪水冲毁一条通道道路，导致拉斯维加斯以西约40英里的内华达州查尔斯顿山社区停电并与外界隔绝。共和党州长乔·隆巴多星期日宣布进入灾害状态，国民警卫队已部署至该地区。查看更多：热带风暴和飓风有什么区别？希拉里在墨西哥下加利福尼亚登陆，是84年来首场影响加利福尼亚州的热带风暴。风暴带来强降雨、洪水以及堵塞道路的泥石流和碎屑流。部分地区在数小时内迎来了相当于六个月平均降雨量的降水，圣迭戈创下最强降雨新纪录。加利福尼亚州官员表示，尚无因这场风暴死亡或重伤的报告。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "美国国家飓风中心星期一将希拉里降级为后热带风暴，但该系统仍对干旱的美国西南部沙漠及更北地区构成显著降雨和洪水威胁。预报人员称，美国西部山间地区可能出现局地强降雨和零星洪水。在内华达州，美国国家气象局警告，直至星期二可能出现大范围降雨和山洪。加利福尼亚中北部和内华达州西部的山洪监视持续至星期一晚间。最北至俄勒冈州和爱达荷州的地方也可能发生洪水。",
+          "start_offset": 0,
+          "end_offset": 172,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "secondary_hazard",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "downgrade",
+              "value": "星期一降级为后热带风暴",
+              "unit": null
+            },
+            {
+              "attribute": "warning_regions",
+              "value": [
+                "内华达州",
+                "加利福尼亚州",
+                "俄勒冈州",
+                "爱达荷州"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "洪水冲毁一条通道道路，导致拉斯维加斯以西约40英里的内华达州查尔斯顿山社区停电并与外界隔绝。共和党州长乔·隆巴多星期日宣布进入灾害状态，国民警卫队已部署至该地区。",
+          "start_offset": 172,
+          "end_offset": 253,
+          "sentence_ids": [
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "damage",
+            "response",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "isolation_site",
+              "value": "内华达州查尔斯顿山",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "查看更多：热带风暴和飓风有什么区别？",
+          "start_offset": 253,
+          "end_offset": 271,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "希拉里在墨西哥下加利福尼亚登陆，是84年来首场影响加利福尼亚州的热带风暴。风暴带来强降雨、洪水以及堵塞道路的泥石流和碎屑流。部分地区在数小时内迎来了相当于六个月平均降雨量的降水，圣迭戈创下最强降雨新纪录。",
+          "start_offset": 271,
+          "end_offset": 373,
+          "sentence_ids": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "damage",
+            "secondary_hazard"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "landfall",
+              "value": "下加利福尼亚",
+              "unit": null
+            },
+            {
+              "attribute": "southern_california_reference_interval",
+              "value": 84,
+              "unit": "years"
+            },
+            {
+              "attribute": "rainfall_context",
+              "value": "部分地区数小时内迎来六个月平均降雨量",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "加利福尼亚州官员表示，尚无因这场风暴死亡或重伤的报告。",
+          "start_offset": 373,
+          "end_offset": 400,
+          "sentence_ids": [
+            14
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "california_casualty_status",
+              "value": "无死亡或重伤报告",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "0f495614abadf6938038baa0a5e2d32fe27263bcafd97847a5ed2b7fe6a0ce3c",
+        "removed_word_count": 45,
+        "removed_word_ratio": 0.16129032258064516
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-F0652B908681BF5E",
+      "event_id": "DIS-TC-91BD849EA4EB02C0",
+      "event_rank": 30,
+      "article_rank": 2,
+      "title": "图片：飓风希拉里引发洪水，重创南加利福尼亚",
+      "publisher": "breitbart-com",
+      "identified_publisher": "Associated Press",
+      "source_domain": "breitbart.com",
+      "url": "https://www.breitbart.com/environment/2023/08/21/photos-hurricane-hilary-flooding-ravages-southern-california/",
+      "published_at": "2023-08-21T15:20:59+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "洛杉矶发稿地信息注明美联社。Breitbart 添加了照片。",
+      "content": "洛杉矶（美联社）——热带风暴希拉里使墨西哥干旱地区遭到暴雨袭击，随后又给南加利福尼亚从海岸到沙漠度假城市棕榈泉及内陆山区带来强降雨，迫使救援人员从水位上涨的河流中救出数人。即使风暴在沿海地区减弱，预计美国西南部部分地区仍将出现洪水及泥石流。\n\n风暴星期日首先在墨西哥干旱的下加利福尼亚半岛登陆，登陆地点位于恩塞纳达以南约150英里（250公里）人口稀少地区。1人溺亡。\n\n随后风暴经过容易发生泥石流的蒂华纳，对美国边境以南紧贴山坡的临时住房构成威胁。\n\n希拉里是84年来首场袭击南加利福尼亚的热带风暴，给一些地区带来超过平均年降雨量一半的降水，其中棕榈泉截至星期日晚间已降雨近3.18英寸（8厘米）。\n\n位于迈阿密的美国国家飓风中心在星期一早些时候的通报中将希拉里降级为后热带风暴，并警告星期一美国西南部部分地区预计仍将出现“危及生命及局地灾难性洪水”。所有沿海警报均已解除。\n\n加利福尼亚84年来首场热带风暴造成广泛破坏（Mahmut Resul Karaca/阿纳多卢通讯社，经 Getty Images）\n\n预报人员警告洛杉矶县和文图拉县可能出现危险山洪，消防官员从水位上涨的圣迭戈河沿岸一处无家可归者营地齐膝深的水中救出13人。与此同时，雨水和碎屑冲毁一些道路，人们的汽车被困在积水中。工作人员抽排兰乔米拉日艾森豪威尔医疗中心急诊室的洪水。\n\n美国国家气象局在原称推特的社交媒体 X 上发帖称，星期日是圣迭戈有记录以来降雨最多的一天，降雨量为1.82英寸（4.6厘米）。\n\n此前纪录出现在1977年8月17日，飓风多琳过后该地区出现1.8英寸（4.5厘米）的创纪录降雨。\n\n2023年8月21日，加利福尼亚州圣莫尼卡太平洋海岸公路发生岩石滑坡。（Joel Pollak/Breitbart News）\n\n2023年8月20日，洛杉矶，飓风希拉里现已变为热带风暴，道奇体育场仍在伊利西恩公园上方亮着灯。（Genaro Molina/《洛杉矶时报》，经 Getty Images）\n\n2023年8月20日，加利福尼亚州洛杉矶格里菲斯公园附近，洛杉矶河水势汹涌、水位上涨。（ROBYN BECK/法新社，经 Getty）\n\n美国第二大学校系统洛杉矶联合学区表示，所有校区星期一均将关闭，该地区其他学区也作出同样决定。圣迭戈学校将开学第一天从星期一推迟至星期二。\n\n棕榈泉警察局星期日在声明中表示，911线路中断，如遇紧急情况应向911发送短信或联系最近的警察局或消防站。\n\n预计风暴将在继续向北经过加利福尼亚并进入内华达州时减弱，但美国国家飓风中心飓风专家理查德·帕施表示，仍可能出现“非常强烈”的降雨及大风。\n\n2023年8月20日，加利福尼亚州科切拉，热带风暴希拉里期间，一辆里弗赛德县消防车冲过48大道洪水，溅起的巨大水花覆盖两辆被困在洪水中的汽车。（Gina Ferazzi/《洛杉矶时报》，经 Getty Images）\n\n2023年8月20日，加利福尼亚州印第奥，通常干涸的一段白水河因热带风暴希拉里而漫过南加利福尼亚沙漠地区一条道路。（David McNew/Getty Images）\n\n2023年8月20日星期日，加利福尼亚州棕榈沙漠，一名驾车者在被困于洪水淹没的街道后走出来取出车内物品。（美联社图片/Mark J. Terrill）\n\n据美国地质调查局称，星期日下午，南加利福尼亚又遭遇一场意外，洛杉矶市中心西北约80英里（130公里）处奥海附近发生初步测定为5.1级的地震。震感范围广泛，随后发生较小余震。文图拉县警长办公室一名调度员表示，没有关于重大损坏或受伤的即时报告。\n\n希拉里只是美国、加拿大及墨西哥遭受的最新重大气候灾害。夏威夷毛伊岛仍在应对一场造成100多人死亡并摧毁历史名镇拉海纳的大火，这是美国一个多世纪以来死亡人数最多的野火。加拿大消防员正在应对该国有记录以来最严重的火灾季。\n\n洛杉矶一处消防站预防性设置沙袋\n\n希拉里逼近墨西哥时，星期六，下加利福尼亚半岛东侧穆莱赫有1人在一辆车被泛滥溪流冲走后溺亡。穆莱赫市长伊迪丝·阿吉拉尔·比利亚维森西奥表示，救援人员救出另外4人。\n\n墨西哥军队士兵分散到星期六受损最严重的部分地区。士兵们使用推土机及自卸卡车，帮助清理堵塞街道和道路的数吨巨石和泥土。许多地方电线倒塌，应急人员正努力恢复供电。\n\n2023年8月20日，加利福尼亚州印第奥，一名市政工作人员试图控制热带风暴希拉里在南加利福尼亚沙漠地区引发的洪水。（David McNew/Getty Images）\n\n星期日上午，在加利福尼亚州，官员的警告并未使所有人都留在室内。在圣迭戈以北的沿海卡尔斯巴德，19岁的杰克·约翰逊及其朋友注视着巨浪，决意尝试冲浪。\n\n约翰逊说：“那里波浪很乱，目前不太适合冲浪，但我想稍后我们能在某处找到不错的浪点。”“我不记得以前见过这样的风暴。”\n\n据美国国家飓风中心称，同样在星期日，大西洋数个正在形成的风暴系统之一成为热带风暴艾米莉。它远离陆地，在开阔海洋中向西移动。与此同时，热带风暴富兰克林在加勒比海东部形成。海地及多米尼加共和国南部海岸已发布热带风暴监视。\n\n1939年9月，一场冲入加利福尼亚的热带风暴扯断铁路轨道、将房屋从地基上掀起，并使许多船只倾覆，在陆地及海上造成近100人死亡。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "洛杉矶（美联社）——热带风暴希拉里使墨西哥干旱地区遭到暴雨袭击，随后又给南加利福尼亚从海岸到沙漠度假城市棕榈泉及内陆山区带来强降雨，迫使救援人员从水位上涨的河流中救出数人。即使风暴在沿海地区减弱，预计美国西南部部分地区仍将出现洪水及泥石流。\n\n",
+          "start_offset": 0,
+          "end_offset": 122,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "secondary_hazard",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "风暴星期日首先在墨西哥干旱的下加利福尼亚半岛登陆，登陆地点位于恩塞纳达以南约150英里（250公里）人口稀少地区。1人溺亡。\n\n随后风暴经过容易发生泥石流的蒂华纳，对美国边境以南紧贴山坡的临时住房构成威胁。\n\n",
+          "start_offset": 122,
+          "end_offset": 227,
+          "sentence_ids": [
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "location",
+            "casualties",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "landfall_day",
+              "value": "星期日",
+              "unit": null
+            },
+            {
+              "attribute": "landfall_distance_south_of_ensenada",
+              "value": {
+                "value": 150,
+                "qualifier": "about"
+              },
+              "unit": "mi"
+            },
+            {
+              "attribute": "reported_mexico_drowning",
+              "value": 1,
+              "unit": "person"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "希拉里是84年来首场袭击南加利福尼亚的热带风暴，给一些地区带来超过平均年降雨量一半的降水，其中棕榈泉截至星期日晚间已降雨近3.18英寸（8厘米）。\n\n",
+          "start_offset": 227,
+          "end_offset": 302,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "palm_springs_sunday_rain",
+              "value": {
+                "value": 3.18,
+                "qualifier": "nearly"
+              },
+              "unit": "in"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "位于迈阿密的美国国家飓风中心在星期一早些时候的通报中将希拉里降级为后热带风暴，并警告星期一美国西南部部分地区预计仍将出现“危及生命及局地灾难性洪水”。所有沿海警报均已解除。\n\n",
+          "start_offset": 302,
+          "end_offset": 390,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "response",
+            "weather",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "加利福尼亚84年来首场热带风暴造成广泛破坏（Mahmut Resul Karaca/阿纳多卢通讯社，经 Getty Images）\n\n",
+          "start_offset": 390,
+          "end_offset": 457,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "预报人员警告洛杉矶县和文图拉县可能出现危险山洪，消防官员从水位上涨的圣迭戈河沿岸一处无家可归者营地齐膝深的水中救出13人。与此同时，雨水和碎屑冲毁一些道路，人们的汽车被困在积水中。工作人员抽排兰乔米拉日艾森豪威尔医疗中心急诊室的洪水。\n\n",
+          "start_offset": 457,
+          "end_offset": 576,
+          "sentence_ids": [
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "response",
+            "damage",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "san_diego_river_rescued",
+              "value": 13,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "美国国家气象局在原称推特的社交媒体 X 上发帖称，星期日是圣迭戈有记录以来降雨最多的一天，降雨量为1.82英寸（4.6厘米）。\n\n此前纪录出现在1977年8月17日，飓风多琳过后该地区出现1.8英寸（4.5厘米）的创纪录降雨。\n\n",
+          "start_offset": 576,
+          "end_offset": 691,
+          "sentence_ids": [
+            13,
+            14
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "san_diego_daily_record",
+              "value": 1.82,
+              "unit": "in"
+            },
+            {
+              "attribute": "previous_record",
+              "value": 1.8,
+              "unit": "in"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "2023年8月21日，加利福尼亚州圣莫尼卡太平洋海岸公路发生岩石滑坡。（Joel Pollak/Breitbart News）\n\n2023年8月20日，洛杉矶，飓风希拉里现已变为热带风暴，道奇体育场仍在伊利西恩公园上方亮着灯。（Genaro Molina/《洛杉矶时报》，经 Getty Images）\n\n2023年8月20日，加利福尼亚州洛杉矶格里菲斯公园附近，洛杉矶河水势汹涌、水位上涨。（ROBYN BECK/法新社，经 Getty）\n\n",
+          "start_offset": 691,
+          "end_offset": 913,
+          "sentence_ids": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F009",
+          "span_text": "美国第二大学校系统洛杉矶联合学区表示，所有校区星期一均将关闭，该地区其他学区也作出同样决定。圣迭戈学校将开学第一天从星期一推迟至星期二。\n\n棕榈泉警察局星期日在声明中表示，911线路中断，如遇紧急情况应向911发送短信或联系最近的警察局或消防站。\n\n预计风暴将在继续向北经过加利福尼亚并进入内华达州时减弱，但美国国家飓风中心飓风专家理查德·帕施表示，仍可能出现“非常强烈”的降雨及大风。\n\n",
+          "start_offset": 913,
+          "end_offset": 1108,
+          "sentence_ids": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "fact_types": [
+            "response",
+            "weather",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "impacts",
+              "value": [
+                "学校关闭",
+                "911线路中断",
+                "强降雨和大风"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F010",
+          "span_text": "2023年8月20日，加利福尼亚州科切拉，热带风暴希拉里期间，一辆里弗赛德县消防车冲过48大道洪水，溅起的巨大水花覆盖两辆被困在洪水中的汽车。（Gina Ferazzi/《洛杉矶时报》，经 Getty Images）\n\n2023年8月20日，加利福尼亚州印第奥，通常干涸的一段白水河因热带风暴希拉里而漫过南加利福尼亚沙漠地区一条道路。（David McNew/Getty Images）\n\n2023年8月20日星期日，加利福尼亚州棕榈沙漠，一名驾车者在被困于洪水淹没的街道后走出来取出车内物品。（美联社图片/Mark J. Terrill）\n\n",
+          "start_offset": 1108,
+          "end_offset": 1380,
+          "sentence_ids": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F011",
+          "span_text": "据美国地质调查局称，星期日下午，南加利福尼亚又遭遇一场意外，洛杉矶市中心西北约80英里（130公里）处奥海附近发生初步测定为5.1级的地震。震感范围广泛，随后发生较小余震。文图拉县警长办公室一名调度员表示，没有关于重大损坏或受伤的即时报告。\n\n希拉里只是美国、加拿大及墨西哥遭受的最新重大气候灾害。夏威夷毛伊岛仍在应对一场造成100多人死亡并摧毁历史名镇拉海纳的大火，这是美国一个多世纪以来死亡人数最多的野火。加拿大消防员正在应对该国有记录以来最严重的火灾季。\n\n",
+          "start_offset": 1380,
+          "end_offset": 1612,
+          "sentence_ids": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "secondary_hazard",
+            "disaster_magnitude",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "另一起地震及野火背景",
+              "unit": null
+            },
+            {
+              "attribute": "ojai_preliminary_magnitude",
+              "value": 5.1,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F012",
+          "span_text": "洛杉矶一处消防站预防性设置沙袋\n\n",
+          "start_offset": 1612,
+          "end_offset": 1629,
+          "sentence_ids": [
+            39
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F013",
+          "span_text": "希拉里逼近墨西哥时，星期六，下加利福尼亚半岛东侧穆莱赫有1人在一辆车被泛滥溪流冲走后溺亡。穆莱赫市长伊迪丝·阿吉拉尔·比利亚维森西奥表示，救援人员救出另外4人。\n\n墨西哥军队士兵分散到星期六受损最严重的部分地区。士兵们使用推土机及自卸卡车，帮助清理堵塞街道和道路的数吨巨石和泥土。许多地方电线倒塌，应急人员正努力恢复供电。\n\n",
+          "start_offset": 1629,
+          "end_offset": 1792,
+          "sentence_ids": [
+            40,
+            41,
+            42,
+            43,
+            44
+          ],
+          "fact_types": [
+            "casualties",
+            "response",
+            "damage"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "mulege_deaths",
+              "value": 1,
+              "unit": "person"
+            },
+            {
+              "attribute": "mulege_rescued",
+              "value": 4,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F014",
+          "span_text": "2023年8月20日，加利福尼亚州印第奥，一名市政工作人员试图控制热带风暴希拉里在南加利福尼亚沙漠地区引发的洪水。（David McNew/Getty Images）\n\n",
+          "start_offset": 1792,
+          "end_offset": 1877,
+          "sentence_ids": [
+            45,
+            46
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F015",
+          "span_text": "星期日上午，在加利福尼亚州，官员的警告并未使所有人都留在室内。在圣迭戈以北的沿海卡尔斯巴德，19岁的杰克·约翰逊及其朋友注视着巨浪，决意尝试冲浪。\n\n约翰逊说：“那里波浪很乱，目前不太适合冲浪，但我想稍后我们能在某处找到不错的浪点。”“我不记得以前见过这样的风暴。”\n\n",
+          "start_offset": 1877,
+          "end_offset": 2012,
+          "sentence_ids": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "fact_types": [
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F016",
+          "span_text": "据美国国家飓风中心称，同样在星期日，大西洋数个正在形成的风暴系统之一成为热带风暴艾米莉。它远离陆地，在开阔海洋中向西移动。与此同时，热带风暴富兰克林在加勒比海东部形成。海地及多米尼加共和国南部海岸已发布热带风暴监视。\n\n1939年9月，一场冲入加利福尼亚的热带风暴扯断铁路轨道、将房屋从地基上掀起，并使许多船只倾覆，在陆地及海上造成近100人死亡。",
+          "start_offset": 2012,
+          "end_offset": 2186,
+          "sentence_ids": [
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "timeline",
+            "weather",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "其他风暴系统及1939年历史风暴",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "5244c15008dff22e5de569500c87f2624427e46357ec7bf2f223d40bdeaaa7db",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-F6E92B9A9FE06207",
+      "event_id": "DIS-TC-91BD849EA4EB02C0",
+      "event_rank": 30,
+      "article_rank": 3,
+      "title": "热带风暴希拉里给南加利福尼亚带来暴雨，穿越美国西南部",
+      "publisher": "deseret",
+      "identified_publisher": null,
+      "source_domain": "deseret.com",
+      "url": "https://www.deseret.com/u-s-world/2023/8/21/23839951/tropical-storm-hilary-southern-california-flooding-oregon-idaho-floods",
+      "published_at": "2023-08-22T19:08:26+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "Deseret 综合美联社、路透社、CNN 等来源，未独立核实每项细节。",
+      "content": "加利福尼亚正开始从热带风暴希拉里的影响中恢复，这场风暴所到之处造成洪水、财产损失、泥石流和树木倒伏。热带风暴希拉里过后，南加利福尼亚开始恢复工作，2023年8月22日下午1时。据美联社报道，希拉里是84年来首场袭击该地区的热带风暴。当天气系统移向落基山脉时，气象专家担心可能出现“灾难性洪水”，但随着风暴经过西南各地区、犹他州、爱达荷州和俄勒冈州，已稍有减弱。据 The Hill 报道，专家仍警告要注意风暴经过时可能出现“局地但严重的山洪”。 美国国家飓风中心在最新通报中表示：“预计截至星期二上午，俄勒冈州和爱达荷州部分地区降雨总量为1至3英寸，局地最高达5英寸。”自星期一以来持续生效的洪水监视覆盖七个州，包括华盛顿州、俄勒冈州、加利福尼亚州、内华达州、爱达荷州、亚利桑那州和犹他州。 受到强降雨最严重影响、引发山洪担忧的地区，通常经历长期干旱和干燥气候。沙漠城市卡西德勒尔城、印第奥及棕榈泉的电线倒塌，使星期一的救灾工作更加复杂。据美联社报道，一次救援行动中，一辆推土机穿过泥泞抵达被水淹的护理院，通过“将居民铲起并运往安全地点”救出14人。周末洛杉矶遭遇创纪录降雨，但迄今尚无美国因这些风暴死亡的报道。美国联邦紧急事务管理署署长迪安妮·克里斯韦尔告诉路透社：“幸运的是，加利福尼亚居民听从了当地官员的意见，采取必要准备措施以帮助保护自己及家人。” 热带风暴希拉里给南加利福尼亚带来暴雨，穿越美国，2023年8月21日下午1时。据路透社报道，至少1,700万美国人处于洪水及强风咨询、监视和警报覆盖区域，许多地区的监视从周末持续至星期一。州长加文·纽森星期日在南加利福尼亚多个县宣布进入紧急状态。据 CNN 报道，南加利福尼亚街道遭遇严重山洪，促使洛杉矶学区和其他主要学区取消星期一课程。据 CNN 转述，美国国家气象局称：“通常不会发生山洪的地区将发生洪水。直至星期一，生命和财产处于巨大危险之中。” 热带风暴希拉里接下来将去往哪里？ 风暴继续穿越美国，据 CNN 报道，它可能成为“有记录以来首个袭击内华达州的热带系统”。据 NPR 报道，暴雨打破了洛杉矶“几乎所有日降雨量纪录”。在加利福尼亚三个城市，风暴影响导致911线路中断，使卡西德勒尔城、印第奥和棕榈泉居民无法寻求帮助，据 NPR 报道。随着降雨仍在影响加利福尼亚及内华达州，预计风暴截至星期二上午将给俄勒冈州和爱达荷州一些地区带来1至5英寸降雨，这可能在部分地方引发危险山洪，据 CBS News 报道。美国总统乔·拜登在要求联邦紧急事务管理署向加利福尼亚有需要的人派遣人员并运送物资后说：“我的政府还向内华达州部署联邦人员，确保该州获得额外支持，并将继续与加利福尼亚、内华达州和亚利桑那州协调他们可能需要的任何资源。”据 CBS News 报道。 据《纽约时报》报道，在袭击美国之前，希拉里在24小时内给墨西哥下加利福尼亚带来总计13英寸降雨，造成1人因灾死亡，另有1人仍然失踪。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "加利福尼亚正开始从热带风暴希拉里的影响中恢复，这场风暴所到之处造成洪水、财产损失、泥石流和树木倒伏。热带风暴希拉里过后，南加利福尼亚开始恢复工作，2023年8月22日下午1时。据美联社报道，希拉里是84年来首场袭击该地区的热带风暴。当天气系统移向落基山脉时，气象专家担心可能出现“灾难性洪水”，但随着风暴经过西南各地区、犹他州、爱达荷州和俄勒冈州，已稍有减弱。据 The Hill 报道，专家仍警告要注意风暴经过时可能出现“局地但严重的山洪”。 ",
+          "start_offset": 0,
+          "end_offset": 223,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "damage",
+            "recovery"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "southern_california_reference_interval",
+              "value": 84,
+              "unit": "years"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "美国国家飓风中心在最新通报中表示：“预计截至星期二上午，俄勒冈州和爱达荷州部分地区降雨总量为1至3英寸，局地最高达5英寸。”自星期一以来持续生效的洪水监视覆盖七个州，包括华盛顿州、俄勒冈州、加利福尼亚州、内华达州、爱达荷州、亚利桑那州和犹他州。 ",
+          "start_offset": 223,
+          "end_offset": 346,
+          "sentence_ids": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "oregon_idaho_forecast_rain",
+              "value": [
+                1,
+                3
+              ],
+              "unit": "in"
+            },
+            {
+              "attribute": "local_maxima",
+              "value": 5,
+              "unit": "in"
+            },
+            {
+              "attribute": "states_under_flood_watch",
+              "value": 7,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "受到强降雨最严重影响、引发山洪担忧的地区，通常经历长期干旱和干燥气候。沙漠城市卡西德勒尔城、印第奥及棕榈泉的电线倒塌，使星期一的救灾工作更加复杂。据美联社报道，一次救援行动中，一辆推土机穿过泥泞抵达被水淹的护理院，通过“将居民铲起并运往安全地点”救出14人。周末洛杉矶遭遇创纪录降雨，但迄今尚无美国因这些风暴死亡的报道。美国联邦紧急事务管理署署长迪安妮·克里斯韦尔告诉路透社：“幸运的是，加利福尼亚居民听从了当地官员的意见，采取必要准备措施以帮助保护自己及家人。” ",
+          "start_offset": 346,
+          "end_offset": 579,
+          "sentence_ids": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "fact_types": [
+            "weather",
+            "response",
+            "damage",
+            "infrastructure",
+            "casualties"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "care_home_rescue",
+              "value": 14,
+              "unit": "people"
+            },
+            {
+              "attribute": "us_death_status",
+              "value": "迄今没有报告",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "热带风暴希拉里给南加利福尼亚带来暴雨，穿越美国，2023年8月21日下午1时。据路透社报道，至少1,700万美国人处于洪水及强风咨询、监视和警报覆盖区域，许多地区的监视从周末持续至星期一。州长加文·纽森星期日在南加利福尼亚多个县宣布进入紧急状态。据 CNN 报道，南加利福尼亚街道遭遇严重山洪，促使洛杉矶学区和其他主要学区取消星期一课程。据 CNN 转述，美国国家气象局称：“通常不会发生山洪的地区将发生洪水。直至星期一，生命和财产处于巨大危险之中。” ",
+          "start_offset": 579,
+          "end_offset": 806,
+          "sentence_ids": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "fact_types": [
+            "affected_population",
+            "response",
+            "weather",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "americans_under_notices",
+              "value": {
+                "value": 17000000,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "california_state_of_emergency",
+              "value": "星期日在多个县宣布",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "热带风暴希拉里接下来将去往哪里？ ",
+          "start_offset": 806,
+          "end_offset": 823,
+          "sentence_ids": [
+            26
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "风暴继续穿越美国，据 CNN 报道，它可能成为“有记录以来首个袭击内华达州的热带系统”。据 NPR 报道，暴雨打破了洛杉矶“几乎所有日降雨量纪录”。在加利福尼亚三个城市，风暴影响导致911线路中断，使卡西德勒尔城、印第奥和棕榈泉居民无法寻求帮助，据 NPR 报道。随着降雨仍在影响加利福尼亚及内华达州，预计风暴截至星期二上午将给俄勒冈州和爱达荷州一些地区带来1至5英寸降雨，这可能在部分地方引发危险山洪，据 CBS News 报道。美国总统乔·拜登在要求联邦紧急事务管理署向加利福尼亚有需要的人派遣人员并运送物资后说：“我的政府还向内华达州部署联邦人员，确保该州获得额外支持，并将继续与加利福尼亚、内华达州和亚利桑那州协调他们可能需要的任何资源。”据 CBS News 报道。 ",
+          "start_offset": 823,
+          "end_offset": 1162,
+          "sentence_ids": [
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "fact_types": [
+            "weather",
+            "response",
+            "infrastructure",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "据《纽约时报》报道，在袭击美国之前，希拉里在24小时内给墨西哥下加利福尼亚带来总计13英寸降雨，造成1人因灾死亡，另有1人仍然失踪。",
+          "start_offset": 1162,
+          "end_offset": 1228,
+          "sentence_ids": [
+            32
+          ],
+          "fact_types": [
+            "weather",
+            "timeline",
+            "casualties",
+            "missing_persons"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "baja_24h_rain",
+              "value": 13,
+              "unit": "in"
+            },
+            {
+              "attribute": "reported_mexico_deaths",
+              "value": 1,
+              "unit": "person"
+            },
+            {
+              "attribute": "reported_missing",
+              "value": 1,
+              "unit": "person"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "10047529fc622af68382df50bc4839c960164042c783117b6557cd043a01853a",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "据报道希拉里首先在下加利福尼亚登陆",
+        "fact_type": "location",
+        "attribute": "landfall",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": "下加利福尼亚",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "下加利福尼亚，恩塞纳达以南约150英里",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "墨西哥报告1人死亡",
+        "fact_type": "casualties",
+        "attribute": "mexico_deaths",
+        "supporting_spans": [
+          "A002_F013",
+          "A003_F007"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F013",
+            "value": 1,
+            "unit": "person",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F007",
+            "value": 1,
+            "unit": "person",
+            "attribution": "New York Times"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "无死亡的报道仅限美国或加利福尼亚州",
+        "fact_type": "casualties",
+        "attribute": "us_reported_deaths",
+        "supporting_spans": [
+          "A001_F005",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F005",
+            "value": "加利福尼亚州无相关报告",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "美国无相关报告",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "NHC 将希拉里降级为后热带风暴",
+        "fact_type": "disaster_magnitude",
+        "attribute": "post_tropical_downgrade",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "星期一",
+            "unit": "day",
+            "attribution": "NHC"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": "星期一",
+            "unit": "day",
+            "attribution": "NHC"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "important_facts": [
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2023-08-20",
+          "time_precision": "Local date",
+          "description": "风暴在下加利福尼亚登陆，并给南加利福尼亚带来创纪录降雨。",
+          "supporting_spans": [
+            "A001_F004",
+            "A002_F002",
+            "A002_F007"
+          ]
+        },
+        {
+          "time": "2023-08-21",
+          "time_precision": "Local date",
+          "description": "NHC 将风暴降级，但继续警告内陆洪水风险。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F004",
+            "A003_F004"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "洪水和碎屑破坏道路及电力服务，使一些社区与外界隔绝。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F006",
+            "A003_F003"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "墨西哥和美国西南部先后受到影响。墨西哥报告1人死亡，南加利福尼亚面临洪水及交通中断。",
+          "supporting_spans": [
+            "A001_F004",
+            "A002_F013",
+            "A003_F001",
+            "A003_F007"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "美联社报道在两处描述墨西哥的一起溺亡事件。两处描述不计为两名死者。"
+    ]
+  }
+}

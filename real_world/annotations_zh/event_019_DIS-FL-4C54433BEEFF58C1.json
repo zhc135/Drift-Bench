@@ -1,0 +1,998 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-FL-4C54433BEEFF58C1",
+  "event_rank": 19,
+  "event_metadata": {
+    "event_name": "中国洪水",
+    "disaster_type": "flood",
+    "disaster_type_code": "FL",
+    "event_start_time": "2023-06-27T01:00:00+00:00",
+    "event_end_time": "2023-07-23T01:00:00+00:00",
+    "locations": [
+      "中国"
+    ],
+    "latitude": 30.1534,
+    "longitude": 120.076,
+    "place_names_in_reports": [
+      "中国",
+      "湖南",
+      "湘西",
+      "古丈",
+      "草潭",
+      "保靖",
+      "凤凰",
+      "四川",
+      "重庆",
+      "万州",
+      "陕西",
+      "镇巴",
+      "河南",
+      "确山",
+      "北京",
+      "钱塘江"
+    ],
+    "gdacs_id": "1102095",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "一篇早期报道涵盖湖南受灾情况，较晚报道仅给出湘西数据。四川报道的发布时间和统计截止时间不同。"
+    ],
+    "dataset_place_name": "中国洪水",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-C0B0787C7C2C277B",
+      "event_id": "DIS-FL-4C54433BEEFF58C1",
+      "event_rank": 19,
+      "article_rank": 1,
+      "title": "中国中部强降雨后近7,000人撤离——人民网",
+      "publisher": "peopledaily",
+      "identified_publisher": "Xinhua",
+      "source_domain": "en.people.cn",
+      "url": "http://en.people.cn/n3/2023/0703/c90000-20038772.html",
+      "published_at": "2023-07-03T07:46:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "人民网转载新华社长沙发稿的报道，图片署名也为新华社。",
+      "content": "2023年7月2日，湖南省湘西土家族苗族自治州古丈县岩头寨镇草潭村，当地群众清理淤泥和垃圾。随着洪水逐渐消退，受灾地区干部群众正努力保障受灾群众的基本生活需求。（新华社/陈振海）\n\n新华社长沙7月1日电——中国中部湖南省部分地区遭受强降雨袭击，超过50,000人受灾，近7,000人转移。\n\n湖南省防汛抗旱指挥部星期六表示，自星期四以来，湖南部分地区持续遭受暴雨袭击，其中湘西土家族苗族自治州经历了入汛以来最强降雨。\n\n在湘西，降雨造成2,887.1公顷农作物受损，还损坏1,300多所住宅。\n\n据当地气象部门称，星期五湖南省记录到有气象记录以来最高的小时降水量，为137.4毫米。\n\n2023年7月2日，湖南省湘西土家族苗族自治州古丈县岩头寨镇草潭村居民区的航拍景象。随着洪水逐渐消退，受灾地区干部群众正努力保障受灾群众的基本生活需求。（新华社/陈振海）\n\n2023年7月2日，湖南省湘西土家族苗族自治州古丈县岩头寨镇草潭村，一名村民清理自家房屋内的淤泥。随着洪水逐渐消退，受灾地区干部群众正努力保障受灾群众的基本生活需求。（新华社/陈振海）\n\n2023年7月2日，湖南省湘西土家族苗族自治州古丈县岩头寨镇草潭村，村民集中在一所学校用餐。随着洪水逐渐消退，受灾地区干部群众正努力保障受灾群众的基本生活需求。（新华社/陈振海）\n\n2023年7月2日，湖南省湘西土家族苗族自治州古丈县岩头寨镇草潭村，工作人员修复电力设施。随着洪水逐渐消退，受灾地区干部群众正努力保障受灾群众的基本生活需求。（新华社/陈振海）\n\n2023年7月2日，湖南省湘西土家族苗族自治州古丈县岩头寨镇草潭村，一名村民操作挖掘机清理淤泥。随着洪水逐渐消退，受灾地区干部群众正努力保障受灾群众的基本生活需求。（新华社/陈振海）\n\n2023年7月2日，湖南省湘西土家族苗族自治州古丈县岩头寨镇草潭村，一名村民指出家中洪水退去后留下的痕迹。随着洪水逐渐消退，受灾地区干部群众正努力保障受灾群众的基本生活需求。（新华社/陈振海）\n\n2023年7月2日，湖南省湘西土家族苗族自治州古丈县岩头寨镇草潭村，志愿者帮助村民清理受损家具。随着洪水逐渐消退，受灾地区干部群众正努力保障受灾群众的基本生活需求。（新华社/谢奔）",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "2023年7月2日，湖南省湘西土家族苗族自治州古丈县岩头寨镇草潭村，当地群众清理淤泥和垃圾。随着洪水逐渐消退，受灾地区干部群众正努力保障受灾群众的基本生活需求。（新华社/陈振海）\n\n",
+          "start_offset": 0,
+          "end_offset": 91,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "新华社长沙7月1日电——中国中部湖南省部分地区遭受强降雨袭击，超过50,000人受灾，近7,000人转移。\n\n湖南省防汛抗旱指挥部星期六表示，自星期四以来，湖南部分地区持续遭受暴雨袭击，其中湘西土家族苗族自治州经历了入汛以来最强降雨。\n\n",
+          "start_offset": 91,
+          "end_offset": 210,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "affected_population",
+            "evacuation",
+            "weather"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "affected",
+              "value": {
+                "value": 50000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "evacuated",
+              "value": {
+                "value": 7000,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "scope",
+              "value": "湖南部分地区",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "在湘西，降雨造成2,887.1公顷农作物受损，还损坏1,300多所住宅。\n\n据当地气象部门称，星期五湖南省记录到有气象记录以来最高的小时降水量，为137.4毫米。\n\n",
+          "start_offset": 210,
+          "end_offset": 293,
+          "sentence_ids": [
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "damage",
+            "weather",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "xiangxi_crops_damaged",
+              "value": 2887.1,
+              "unit": "ha"
+            },
+            {
+              "attribute": "xiangxi_homes_damaged",
+              "value": {
+                "value": 1300,
+                "qualifier": "greater_than"
+              },
+              "unit": "homes"
+            },
+            {
+              "attribute": "record_hourly_precipitation",
+              "value": 137.4,
+              "unit": "mm"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "2023年7月2日，湖南省湘西土家族苗族自治州古丈县岩头寨镇草潭村居民区的航拍景象。随着洪水逐渐消退，受灾地区干部群众正努力保障受灾群众的基本生活需求。（新华社/陈振海）\n\n2023年7月2日，湖南省湘西土家族苗族自治州古丈县岩头寨镇草潭村，一名村民清理自家房屋内的淤泥。随着洪水逐渐消退，受灾地区干部群众正努力保障受灾群众的基本生活需求。（新华社/陈振海）\n\n2023年7月2日，湖南省湘西土家族苗族自治州古丈县岩头寨镇草潭村，村民集中在一所学校用餐。随着洪水逐渐消退，受灾地区干部群众正努力保障受灾群众的基本生活需求。（新华社/陈振海）\n\n2023年7月2日，湖南省湘西土家族苗族自治州古丈县岩头寨镇草潭村，工作人员修复电力设施。随着洪水逐渐消退，受灾地区干部群众正努力保障受灾群众的基本生活需求。（新华社/陈振海）\n\n2023年7月2日，湖南省湘西土家族苗族自治州古丈县岩头寨镇草潭村，一名村民操作挖掘机清理淤泥。随着洪水逐渐消退，受灾地区干部群众正努力保障受灾群众的基本生活需求。（新华社/陈振海）\n\n2023年7月2日，湖南省湘西土家族苗族自治州古丈县岩头寨镇草潭村，一名村民指出家中洪水退去后留下的痕迹。随着洪水逐渐消退，受灾地区干部群众正努力保障受灾群众的基本生活需求。（新华社/陈振海）\n\n2023年7月2日，湖南省湘西土家族苗族自治州古丈县岩头寨镇草潭村，志愿者帮助村民清理受损家具。随着洪水逐渐消退，受灾地区干部群众正努力保障受灾群众的基本生活需求。（新华社/谢奔）",
+          "start_offset": 293,
+          "end_offset": 936,
+          "sentence_ids": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "035c70d923ea2043c0a9930a29c3bf33a015e8d383ce8c04f999a75af6898cd0",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-2D192D12A186E039",
+      "event_id": "DIS-FL-4C54433BEEFF58C1",
+      "event_rank": 19,
+      "article_rank": 2,
+      "title": "中国西南四川强降雨致46万多人受灾",
+      "publisher": "xinhuanet-english",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20230704/e1ba965b2cb8406cbdd6192bdf8c4a98/c.html",
+      "published_at": "2023-07-04T12:10:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "新华社成都发稿的报道主要援引四川省防汛抗旱指挥部。",
+      "content": "新华社成都7月4日电——四川省防汛抗旱指挥部星期二表示，本月中国西南部四川省的强降雨已造成超过46万人受灾。\n\n全省超过85,000名当地居民已作为预防措施转移至安全地点。得益于预警及地方政府及时采取的措施，迄今尚无人员伤亡报告。\n\n为在强降雨面前保障人民生命安全，省防汛抗旱指挥部已通过社交媒体平台和网站向公众发布预警，并加强巡查和实时降水监测，尤其是在有暴雨和山洪风险的地区。\n\n此前，四川发布今年首个山洪灾害黄色预警，涉及26个县级地区。中国对地质灾害实行四级颜色气象预警系统，红色代表最高级别，其次为橙色、黄色和蓝色。\n\n据最新天气预报，本周该省山区可能出现山洪，部分地区可能发生泥石流。 ",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "新华社成都7月4日电——四川省防汛抗旱指挥部星期二表示，本月中国西南部四川省的强降雨已造成超过46万人受灾。\n\n",
+          "start_offset": 0,
+          "end_offset": 56,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "weather",
+            "affected_population"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "affected",
+              "value": {
+                "value": 460000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "scope",
+              "value": "四川",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "全省超过85,000名当地居民已作为预防措施转移至安全地点。得益于预警及地方政府及时采取的措施，迄今尚无人员伤亡报告。\n\n",
+          "start_offset": 56,
+          "end_offset": 117,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "evacuation",
+            "casualties"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "evacuated",
+              "value": {
+                "value": 85000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "casualty_status",
+              "value": "迄今尚无相关报告",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "为在强降雨面前保障人民生命安全，省防汛抗旱指挥部已通过社交媒体平台和网站向公众发布预警，并加强巡查和实时降水监测，尤其是在有暴雨和山洪风险的地区。\n\n此前，四川发布今年首个山洪灾害黄色预警，涉及26个县级地区。中国对地质灾害实行四级颜色气象预警系统，红色代表最高级别，其次为橙色、黄色和蓝色。\n\n",
+          "start_offset": 117,
+          "end_offset": 265,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "response",
+            "weather"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "yellow_alert_areas",
+              "value": 26,
+              "unit": "county-level areas"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "据最新天气预报，本周该省山区可能出现山洪，部分地区可能发生泥石流。 ",
+          "start_offset": 265,
+          "end_offset": 299,
+          "sentence_ids": [
+            8
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "66389bbadcace45c1f9c90a5e5a18c925ec2770a1beed7cd3238f8f3df8dc5eb",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-2B4FD17F7F0C8CF6",
+      "event_id": "DIS-FL-4C54433BEEFF58C1",
+      "event_rank": 19,
+      "article_rank": 3,
+      "title": "暴雨使数千人离开家园——中国网",
+      "publisher": "china.org.cn",
+      "identified_publisher": null,
+      "source_domain": "china.org.cn",
+      "url": "http://www.china.org.cn/china/2023-07/05/content_91258918.htm",
+      "published_at": "2023-07-05T03:24:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "中国网汇集地方机构和居民的说法。图片署名为新华社，但正文来源不明确。",
+      "content": "2023年7月4日，中国西南部重庆市万州区，救援人员转移被洪水围困的居民。[图片/新华社]\n\n暴雨引发的严重洪水使全国数千人流离失所，而北京及周边地区近期持续酷热天气获得短暂缓解。\n\n据应急管理部称，本月我国可能继续同时遭受洪水及酷热热浪。\n\n据湖南省防汛抗旱指挥部称，自星期四以来，湖南部分地区遭受暴雨袭击，湘西土家族苗族自治州是受灾最严重的地区之一。\n\n地方当局星期日表示，该州已有超过95,000人受灾，其中14,000多人被转移或疏散。直接经济损失估计约5.75亿元人民币（7,950万美元）。\n\n该州保靖县蒙科村居民罗家顺回忆星期五开始下暴雨、洪水使地势低洼的村庄与外界隔绝时的情况说：“雨下得太大，水位在大约10分钟内上涨了1米多。”\n\n村内44所房屋被淹，超过50公顷农田被淹，163名居民撤离。地方当局仍在努力恢复供水供电，帮助村民生活恢复正常。\n\n星期二下午1时前不久，湘西气象台发布暴雨黄色预警，警告凤凰县从中午至下午6时最大小时降水量为24毫米。不久，预警升级为橙色，因为最新预报显示下午1时至4时最大小时降水量可能达到36毫米。\n\n中国实行四级颜色气象预警系统，红色代表最高级别，其次为橙色、黄色和蓝色。\n\n星期二下午，该州至少四个县的当地气象台也发布暴雨黄色或橙色预警。\n\n据陕西省汉中市镇巴县所属的汉中市应急管理部门称，星期日下午6时至星期一下午6时的暴雨迫使镇巴县超过7,800人撤离。\n\n该部门表示，工作人员仍在昼夜抢通被洪水切断的80条道路，并恢复受影响地区的电力供应。所幸星期二该县降雨减弱。\n\n四川省地方当局截至星期二上午7时已转移超过85,300人，以避免预计星期一至星期二袭击大片地区的暴雨可能带来的危险。\n\n四川气象台称，预计降雨将影响广安、泸州和攀枝花等五个地级市以及宜宾市和甘孜藏族自治州部分地区，最大降水量为100至120毫米。\n\n地方当局称，河南省157个县级地区中，有66个在星期日上午8时至星期一上午7时遭受强降雨袭击，其中26个降水量超过100毫米。许多县的暴雨持续至星期二上午。\n\n据媒体报道，星期一晚间，河南省确山县一辆载有5名乘客的汽车在通过桥梁时被洪水冲走。其中1人获救，另外4人仍失踪。\n\n据中央气象台称，预计星期二至星期三还有许多其他地区将经历暴雨。\n\n星期二，中央气象台继续发布暴雨蓝色预警，警告从星期二下午2时起的24小时内，内蒙古自治区、广西壮族自治区，以及黑龙江、吉林、辽宁、云南和贵州部分地区的最大小时降水量将达到20至50毫米。\n\n该台表示，辽宁北部降水量甚至可能达到100至120毫米，并补充称这些地区部分地方可能遭遇强对流天气，即一种突发性破坏性天气现象，通常包括雷暴、冰雹、大风和强降雨。\n\n此类天气有时范围仅10公里，却能产生强烈降水。\n\n相比之下，从星期一晚间持续至星期二上午的小雨，使北京暂时从35摄氏度以上的热浪中有所缓解。然而，预计星期三至星期四首都将再次被酷热笼罩，最高气温可达38摄氏度。\n\n据国家气候中心称，北京6月气温超过35摄氏度的天数超过1961年以来其他年份同期。据报道，星期日，当北京持续遭遇酷热时，一名导游在首都颐和园因中暑死亡。\n\n应急管理部警告，本月防汛抗旱形势严峻。\n\n该部表示，7月东北地区中东部、华中北部和西南地区西部的降水量将高于历年平均水平。\n\n该部预测，我国最长的两条河流长江和黄河的部分地区，以及钱塘江和松花江部分河段将发生洪水。暴雨可能导致这些河流水位超过警戒线。\n\n该部称，包括华北北部及内蒙古部分地区在内的许多其他地区预计气温较高、降水偏少。\n\n该部指出：“这些地区的水电供应将相对紧张。”",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "2023年7月4日，中国西南部重庆市万州区，救援人员转移被洪水围困的居民。[图片/新华社]\n\n",
+          "start_offset": 0,
+          "end_offset": 47,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "暴雨引发的严重洪水使全国数千人流离失所，而北京及周边地区近期持续酷热天气获得短暂缓解。\n\n据应急管理部称，本月我国可能继续同时遭受洪水及酷热热浪。\n\n",
+          "start_offset": 47,
+          "end_offset": 122,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "据湖南省防汛抗旱指挥部称，自星期四以来，湖南部分地区遭受暴雨袭击，湘西土家族苗族自治州是受灾最严重的地区之一。\n\n地方当局星期日表示，该州已有超过95,000人受灾，其中14,000多人被转移或疏散。直接经济损失估计约5.75亿元人民币（7,950万美元）。\n\n",
+          "start_offset": 122,
+          "end_offset": 253,
+          "sentence_ids": [
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "weather",
+            "affected_population",
+            "evacuation",
+            "economic_loss"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "xiangxi_affected",
+              "value": {
+                "value": 95000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "xiangxi_relocated_or_evacuated",
+              "value": {
+                "value": 14000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "direct_loss",
+              "value": {
+                "value": 575000000,
+                "qualifier": "around"
+              },
+              "unit": "CNY"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "该州保靖县蒙科村居民罗家顺回忆星期五开始下暴雨、洪水使地势低洼的村庄与外界隔绝时的情况说：“雨下得太大，水位在大约10分钟内上涨了1米多。”\n\n村内44所房屋被淹，超过50公顷农田被淹，163名居民撤离。地方当局仍在努力恢复供水供电，帮助村民生活恢复正常。\n\n",
+          "start_offset": 253,
+          "end_offset": 383,
+          "sentence_ids": [
+            8,
+            9,
+            10
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude",
+            "damage",
+            "evacuation",
+            "recovery"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "mengke_water_rise",
+              "value": {
+                "value": 1,
+                "qualifier": "greater_than"
+              },
+              "unit": "m"
+            },
+            {
+              "attribute": "mengke_rise_interval",
+              "value": {
+                "value": 10,
+                "qualifier": "about"
+              },
+              "unit": "minutes"
+            },
+            {
+              "attribute": "mengke_inundated_homes",
+              "value": 44,
+              "unit": "homes"
+            },
+            {
+              "attribute": "mengke_inundated_farmland",
+              "value": {
+                "value": 50,
+                "qualifier": "greater_than"
+              },
+              "unit": "ha"
+            },
+            {
+              "attribute": "mengke_evacuated",
+              "value": 163,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "星期二下午1时前不久，湘西气象台发布暴雨黄色预警，警告凤凰县从中午至下午6时最大小时降水量为24毫米。不久，预警升级为橙色，因为最新预报显示下午1时至4时最大小时降水量可能达到36毫米。\n\n中国实行四级颜色气象预警系统，红色代表最高级别，其次为橙色、黄色和蓝色。\n\n星期二下午，该州至少四个县的当地气象台也发布暴雨黄色或橙色预警。\n\n",
+          "start_offset": 383,
+          "end_offset": 550,
+          "sentence_ids": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "fact_types": [
+            "response",
+            "weather",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "fenghuang_hourly_forecast_before_upgrade",
+              "value": 24,
+              "unit": "mm"
+            },
+            {
+              "attribute": "fenghuang_hourly_forecast_after_upgrade",
+              "value": 36,
+              "unit": "mm"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "据陕西省汉中市镇巴县所属的汉中市应急管理部门称，星期日下午6时至星期一下午6时的暴雨迫使镇巴县超过7,800人撤离。\n\n该部门表示，工作人员仍在昼夜抢通被洪水切断的80条道路，并恢复受影响地区的电力供应。所幸星期二该县降雨减弱。\n\n",
+          "start_offset": 550,
+          "end_offset": 666,
+          "sentence_ids": [
+            15,
+            16,
+            17
+          ],
+          "fact_types": [
+            "evacuation",
+            "infrastructure",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "zhenba_evacuated",
+              "value": {
+                "value": 7800,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "zhenba_roads_cut",
+              "value": 80,
+              "unit": "roads"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "四川省地方当局截至星期二上午7时已转移超过85,300人，以避免预计星期一至星期二袭击大片地区的暴雨可能带来的危险。\n\n四川气象台称，预计降雨将影响广安、泸州和攀枝花等五个地级市以及宜宾市和甘孜藏族自治州部分地区，最大降水量为100至120毫米。\n\n",
+          "start_offset": 666,
+          "end_offset": 791,
+          "sentence_ids": [
+            18,
+            19
+          ],
+          "fact_types": [
+            "evacuation",
+            "weather",
+            "uncertainty"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "sichuan_evacuated",
+              "value": {
+                "value": 85300,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "sichuan_precipitation_forecast",
+              "value": [
+                100,
+                120
+              ],
+              "unit": "mm"
+            },
+            {
+              "attribute": "evacuation_cutoff",
+              "value": "星期二07:00",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F008",
+          "span_text": "地方当局称，河南省157个县级地区中，有66个在星期日上午8时至星期一上午7时遭受强降雨袭击，其中26个降水量超过100毫米。许多县的暴雨持续至星期二上午。\n\n据媒体报道，星期一晚间，河南省确山县一辆载有5名乘客的汽车在通过桥梁时被洪水冲走。其中1人获救，另外4人仍失踪。\n\n",
+          "start_offset": 791,
+          "end_offset": 929,
+          "sentence_ids": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude",
+            "missing_persons",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "henan_county_level_areas_hit",
+              "value": 66,
+              "unit": null
+            },
+            {
+              "attribute": "henan_county_level_areas_receiving_over_100mm",
+              "value": 26,
+              "unit": null
+            },
+            {
+              "attribute": "queshan_vehicle_passengers",
+              "value": 5,
+              "unit": "people"
+            },
+            {
+              "attribute": "queshan_missing",
+              "value": 4,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F009",
+          "span_text": "据中央气象台称，预计星期二至星期三还有许多其他地区将经历暴雨。\n\n星期二，中央气象台继续发布暴雨蓝色预警，警告从星期二下午2时起的24小时内，内蒙古自治区、广西壮族自治区，以及黑龙江、吉林、辽宁、云南和贵州部分地区的最大小时降水量将达到20至50毫米。\n\n该台表示，辽宁北部降水量甚至可能达到100至120毫米，并补充称这些地区部分地方可能遭遇强对流天气，即一种突发性破坏性天气现象，通常包括雷暴、冰雹、大风和强降雨。\n\n此类天气有时范围仅10公里，却能产生强烈降水。\n\n",
+          "start_offset": 929,
+          "end_offset": 1165,
+          "sentence_ids": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "fact_types": [
+            "weather",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "blue_alert_hourly_precipitation_range",
+              "value": [
+                20,
+                50
+              ],
+              "unit": "mm"
+            },
+            {
+              "attribute": "northern_liaoning_projected_precipitation",
+              "value": [
+                100,
+                120
+              ],
+              "unit": "mm"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F010",
+          "span_text": "相比之下，从星期一晚间持续至星期二上午的小雨，使北京暂时从35摄氏度以上的热浪中有所缓解。然而，预计星期三至星期四首都将再次被酷热笼罩，最高气温可达38摄氏度。\n\n据国家气候中心称，北京6月气温超过35摄氏度的天数超过1961年以来其他年份同期。据报道，星期日，当北京持续遭遇酷热时，一名导游在首都颐和园因中暑死亡。\n\n",
+          "start_offset": 1165,
+          "end_offset": 1325,
+          "sentence_ids": [
+            28,
+            29,
+            30,
+            31
+          ],
+          "fact_types": [
+            "weather",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "同期北京高温，而非洪水损失",
+              "unit": null
+            },
+            {
+              "attribute": "projected_temperature",
+              "value": 38,
+              "unit": "°C"
+            },
+            {
+              "attribute": "reported_heat_deaths",
+              "value": 1,
+              "unit": "person"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F011",
+          "span_text": "应急管理部警告，本月防汛抗旱形势严峻。\n\n该部表示，7月东北地区中东部、华中北部和西南地区西部的降水量将高于历年平均水平。\n\n该部预测，我国最长的两条河流长江和黄河的部分地区，以及钱塘江和松花江部分河段将发生洪水。暴雨可能导致这些河流水位超过警戒线。\n\n该部称，包括华北北部及内蒙古部分地区在内的许多其他地区预计气温较高、降水偏少。\n\n该部指出：“这些地区的水电供应将相对紧张。”",
+          "start_offset": 1325,
+          "end_offset": 1515,
+          "sentence_ids": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "waterways_at_risk",
+              "value": [
+                "长江",
+                "黄河",
+                "钱塘江",
+                "松花江"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "1a0e3fb80cd4dfce271805f4a8b9c16e513c56da1c3d1cc2276e9f9691306fa9",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "四川转移人数的两个下限相容",
+        "fact_type": "evacuation",
+        "attribute": "sichuan_evacuations",
+        "supporting_spans": [
+          "A002_F002",
+          "A003_F007"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": {
+              "value": 85000,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F007",
+            "value": {
+              "value": 85300,
+              "qualifier": "greater_than",
+              "cutoff": "星期二07:00"
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "两篇报道在不同范围和阶段引用湖南受灾情况",
+        "fact_type": "affected_population",
+        "attribute": "hunan_or_xiangxi_people_affected",
+        "supporting_spans": [
+          "A001_F002",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": {
+              "value": 50000,
+              "qualifier": "greater_than",
+              "scope": "湖南部分地区"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": {
+              "value": 95000,
+              "qualifier": "greater_than",
+              "scope": "湘西"
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "地理覆盖范围、报道截止时间和下限不同。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "降雨损坏房屋及农田",
+        "fact_type": "damage",
+        "attribute": "hunan_rain_damage",
+        "supporting_spans": [
+          "A001_F003",
+          "A003_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": "湘西农作物和房屋受损",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": "蒙科村受淹及公共设施服务中断",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "四川受灾人数",
+        "fact_type": "affected_population",
+        "attribute": "sichuan_people_affected",
+        "supporting_spans": [
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "value": 460000,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": "Sichuan provincial headquarters"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC004"
+      ],
+      "important_facts": [
+        "FC003"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2023-07-01",
+          "time_precision": "Dateline",
+          "description": "强降雨袭击湖南，新华社报道受灾及人员转移情况。",
+          "supporting_spans": [
+            "A001_F002"
+          ]
+        },
+        {
+          "time": "2023-07-02",
+          "time_precision": "Date inferred from weekday",
+          "description": "地方当局报道湘西受灾、人员转移和损失情况。",
+          "supporting_spans": [
+            "A003_F003"
+          ]
+        },
+        {
+          "time": "2023-07-04",
+          "time_precision": "Local date",
+          "description": "四川公布转移人数，湘西更新暴雨预警。",
+          "supporting_spans": [
+            "A002_F002",
+            "A003_F005",
+            "A003_F007"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "强降雨使地势低洼村庄的水位迅速上涨，促使居民转移。供电及供水服务尚未恢复。",
+          "supporting_spans": [
+            "A003_F004"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "持续强降雨威胁湖南、四川及其他地区，影响居民、促使人员转移，并损坏道路及房屋。",
+          "supporting_spans": [
+            "A001_F002",
+            "A001_F003",
+            "A002_F001",
+            "A003_F003",
+            "A003_F006"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "河南失踪人数与四川无人员伤亡报告涉及不同省份。北京因中暑死亡的事件与洪水无关。"
+    ]
+  }
+}

@@ -1,0 +1,1070 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-FL-1A08C19C1E76C71C",
+  "event_rank": 18,
+  "event_metadata": {
+    "event_name": "斯里兰卡洪水",
+    "disaster_type": "flood",
+    "disaster_type_code": "FL",
+    "event_start_time": "2025-11-28T01:00:00+00:00",
+    "event_end_time": "2025-12-05T13:00:00+00:00",
+    "locations": [
+      "斯里兰卡"
+    ],
+    "latitude": 7.2143,
+    "longitude": 80.6401,
+    "place_names_in_reports": [
+      "斯里兰卡",
+      "科伦坡",
+      "斯里兰卡中部",
+      "苏门答腊",
+      "亚齐省",
+      "合艾",
+      "马来西亚",
+      "越南"
+    ],
+    "gdacs_id": "1103640",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "伤亡人数反映各报道的统计截止时间，地区总数和斯里兰卡数据分别记录。"
+    ],
+    "dataset_place_name": "斯里兰卡洪水",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-675240E7CA634669",
+      "event_id": "DIS-FL-1A08C19C1E76C71C",
+      "event_rank": 18,
+      "article_rank": 1,
+      "title": "WCIC 呼吁提供支持，史上最严重洪水重创企业——商业新闻 | 每日镜报",
+      "publisher": "dailymirror",
+      "identified_publisher": null,
+      "source_domain": "dailymirror.lk",
+      "url": "https://www.dailymirror.lk/business-news/WCIC-calls-for-support-as-worst-ever-floods-batter-enterprises/273-326666",
+      "published_at": "2025-12-01T18:53:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "文章主要引用 WCIC 声明，没有明确的原始署名。",
+      "content": "斯里兰卡妇女工业和商业商会（WCIC）呼吁提供紧急支持。这座岛国正在应对官员和机构称为该国历史上最严重的洪水灾害，该灾害摧毁多个地区的生计并使企业陷入困境。极端天气淹没数千户住宅并扰乱全国经济活动，商会表示，女性领导的企业受到的打击尤其严重，许多会员报告设施、库存和供应链严重受损。 尽管救援行动仍是首要事项，持续的高水位减慢了进入受灾社区的速度，延误救援和评估工作。 WCIC 将自身定位为协调援助的机构，并敦促商界和发展伙伴加入其倡议，设立专项基金，支持受灾女性创业者。商会表示，将制定结构化方法，确保可用资源高效地流向最需要的人。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "斯里兰卡妇女工业和商业商会（WCIC）呼吁提供紧急支持。这座岛国正在应对官员和机构称为该国历史上最严重的洪水灾害，该灾害摧毁多个地区的生计并使企业陷入困境。极端天气淹没数千户住宅并扰乱全国经济活动，商会表示，女性领导的企业受到的打击尤其严重，许多会员报告设施、库存和供应链严重受损。 ",
+          "start_offset": 0,
+          "end_offset": 142,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "damage",
+            "infrastructure",
+            "economic_loss"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "source",
+              "value": "WCIC",
+              "unit": null
+            },
+            {
+              "attribute": "affected_businesses",
+              "value": "女性领导的企业",
+              "unit": null
+            },
+            {
+              "attribute": "damage",
+              "value": [
+                "设施",
+                "库存",
+                "供应链"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "homes_submerged",
+              "value": "数千",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "尽管救援行动仍是首要事项，持续的高水位减慢了进入受灾社区的速度，延误救援和评估工作。 ",
+          "start_offset": 142,
+          "end_offset": 185,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "WCIC 将自身定位为协调援助的机构，并敦促商界和发展伙伴加入其倡议，设立专项基金，支持受灾女性创业者。商会表示，将制定结构化方法，确保可用资源高效地流向最需要的人。",
+          "start_offset": 185,
+          "end_offset": 268,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "aid",
+            "recovery"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "proposed_support",
+              "value": "为受灾女性创业者设立的专项基金",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "46f2d61695c2f5993497e020803f41d3725af7bd08e144f05d707b3799d9e082",
+        "removed_word_count": 111,
+        "removed_word_ratio": 0.42528735632183906
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-0A4C1CE8ED236882",
+      "event_id": "DIS-FL-1A08C19C1E76C71C",
+      "event_rank": 18,
+      "article_rank": 2,
+      "title": "“水流足以夺走大象的生命”：亚洲洪水幸存者讲述逃生经历",
+      "publisher": "guardian",
+      "identified_publisher": "The Guardian",
+      "source_domain": "theguardian.com",
+      "url": "https://www.theguardian.com/world/2025/dec/01/the-current-could-kill-an-elephant-asia-flood-survivors-describe-escaping-with-their-lives",
+      "published_at": "2025-12-01T18:55:12+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "《卫报》包含对亚齐和合艾幸存者的多次直接采访。",
+      "content": "从泰国到印度尼西亚，倾泻而来的洪水冲走人们的财物和家园，彻底改变整个社区的生活。\n\n气旋和季风降雨如何共同摧毁亚洲部分地区——图解\n\n63岁的阿米娜·阿里星期三午夜开始降雨时，正在印度尼西亚亚齐省皮迪贾亚县的家中。水位逐渐上涨，起初看起来像季风季节常见的洪水，但随后传来一阵巨大的水流轰鸣声，她所在的村庄突然被淹没。\n\n在儿子的帮助下，她成功爬上屋顶，在那里等待了24小时。高达3米的洪水向远处延伸。她说：“我看到许多房屋被冲走。”\n\n“现在我的房子毁了，到处是泥。我从未想象过这种情况。现在我只剩一件衬衫，甚至没有内衣，所有财物都没了。”\n\n季风季节经常带来强降雨，可能引发洪水或山体滑坡，但过去几天目睹的灾害程度远为严重。季节性降雨和热带气旋共同作用，淹没了印度尼西亚苏门答腊岛、斯里兰卡、泰国南部、马来西亚和越南，目前该地区已有1,100多人死亡，其中苏门答腊岛有600多人死亡。\n\n同样来自皮迪贾亚县的60岁布斯拉·伊沙克失去了自己的房屋，房屋被水流冲得无影无踪。他说：“水中有数百吨原木，难以置信的强大水流甚至足以杀死大象。”\n\n他通过游泳并抓住一棵椰子树幸存下来，在树上待了12多个小时。他的一名姐姐遇难。由于供电和电话线路中断，他仍未能告知亚齐省以外的亲属。\n\n纳查农·因苏瓦诺是泰国南部重灾区之一合艾的受困人员之一，该地区至少有176人遇难。他在被淹住宅一楼齐腰深的水中等待，父母则从窗户艰难地保持平衡，倚靠在金属屋顶上。他担心下方屋顶板可能倒塌，不敢和父母一起待在那里。\n\n他说：“我能看到水流非常强。”沙发、电视和家用电器在浑浊的水中迅速冲过。\n\n从11月23日星期日到25日星期二，纳查农和父母只有一瓶水可供三人饮用。他说：“我抬头看天空，想看看会不会有直升机或无人机投放一些食物。”什么也没有来。“雨下了一整夜，我们在风雨中非常冷。”他向所能看到的每条热线发信息，并在社交媒体发帖求助。\n\n这一家人听从了地方当局的建议，后者曾表示水位可以控制。当国家灾害管理机构要求居民撤离时，已经太晚了，水位已迅速达到胸口。\n\n泰国当局未能提供充分预警，受到强烈批评。\n\n星期二上午，纳查农竭尽全力大声呼喊后，成功招呼到附近一艘志愿救援船。他说：“我妈妈非常虚弱，而且失去了意识。我只知道我们必须离开这个地方，所以不停地喊。”\n\n他说，母亲被用担架抬出并接受急救，目前已经康复。他们仍未返回家中，供水尚未恢复，所有东西都裹满泥浆。\n\n同样住在合艾的32岁楚蒂坎·潘皮特认为自己活下来是个奇迹。她走到露台查看水位时，被一条马来亚蝮蛇咬伤。洪水太高，她在32小时内无法到达医院。她说，疼痛比生孩子还严重。\n\n她说：“我害怕死去。我儿子刚满一岁，几天前才学会叫‘妈妈’。在救援船上我非常害怕，但我只想着儿子的脸。”水流十分强劲，救援人员让她紧紧抓牢，他们迅速加速穿过涌动的水流。\n\n她说：“被这种蛇（马来亚蝮蛇）咬后过32小时，人们说要么死亡，要么不得不截肢。”“我父母非常害怕，不停地祈祷，竭尽所能希望我平安。”\n\n合艾的洪水现已消退，但所需的恢复和清理工作规模巨大。数万所住宅受损。街道上散布着碎片，包括破损且沾满泥浆的家具、木条和垃圾。许多居民失去了几乎所有财物。现在，仅仅听到雨声就足以引发恐慌。\n\n在印度尼西亚最大的岛屿苏门答腊岛，至少11座连接不同地区的桥梁及国道部分路段已经中断。一些村庄仍完全无法通过公路抵达。即使在恢复工作队已抵达的地区，当地人也表示食物和清洁饮水不足。\n\n许多洪水受害者仍住在救援避难所，主要依靠社区捐助者提供食物及饮料。其他人正在努力抢救剩余财物。布斯拉已前往哥哥家尝试清理及保护贵重物品。他说，与前些年的洪水相比，这场灾难严重得多：“今年的洪水是历史上最严重的悲剧。”",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "从泰国到印度尼西亚，倾泻而来的洪水冲走人们的财物和家园，彻底改变整个社区的生活。\n\n",
+          "start_offset": 0,
+          "end_offset": 42,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "气旋和季风降雨如何共同摧毁亚洲部分地区——图解\n\n",
+          "start_offset": 42,
+          "end_offset": 67,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "63岁的阿米娜·阿里星期三午夜开始降雨时，正在印度尼西亚亚齐省皮迪贾亚县的家中。水位逐渐上涨，起初看起来像季风季节常见的洪水，但随后传来一阵巨大的水流轰鸣声，她所在的村庄突然被淹没。\n\n在儿子的帮助下，她成功爬上屋顶，在那里等待了24小时。高达3米的洪水向远处延伸。她说：“我看到许多房屋被冲走。”\n\n“现在我的房子毁了，到处是泥。我从未想象过这种情况。现在我只剩一件衬衫，甚至没有内衣，所有财物都没了。”\n\n",
+          "start_offset": 67,
+          "end_offset": 272,
+          "sentence_ids": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "damage",
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "亚齐省皮迪贾亚县",
+              "unit": null
+            },
+            {
+              "attribute": "roof_wait",
+              "value": 24,
+              "unit": "hours"
+            },
+            {
+              "attribute": "reported_flood_height",
+              "value": 3,
+              "unit": "m"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "季风季节经常带来强降雨，可能引发洪水或山体滑坡，但过去几天目睹的灾害程度远为严重。季节性降雨和热带气旋共同作用，淹没了印度尼西亚苏门答腊岛、斯里兰卡、泰国南部、马来西亚和越南，目前该地区已有1,100多人死亡，其中苏门答腊岛有600多人死亡。\n\n",
+          "start_offset": 272,
+          "end_offset": 395,
+          "sentence_ids": [
+            12,
+            13
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_occurrence",
+            "cause",
+            "casualties"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "regional_deaths",
+              "value": {
+                "value": 1100,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "sumatra_deaths",
+              "value": {
+                "value": 600,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "同样来自皮迪贾亚县的60岁布斯拉·伊沙克失去了自己的房屋，房屋被水流冲得无影无踪。他说：“水中有数百吨原木，难以置信的强大水流甚至足以杀死大象。”\n\n他通过游泳并抓住一棵椰子树幸存下来，在树上待了12多个小时。他的一名姐姐遇难。由于供电和电话线路中断，他仍未能告知亚齐省以外的亲属。\n\n",
+          "start_offset": 395,
+          "end_offset": 538,
+          "sentence_ids": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "fact_types": [
+            "casualties",
+            "damage",
+            "infrastructure",
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "亚齐省皮迪贾亚县",
+              "unit": null
+            },
+            {
+              "attribute": "survival_time_on_tree",
+              "value": {
+                "value": 12,
+                "qualifier": "greater_than"
+              },
+              "unit": "hours"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "纳查农·因苏瓦诺是泰国南部重灾区之一合艾的受困人员之一，该地区至少有176人遇难。他在被淹住宅一楼齐腰深的水中等待，父母则从窗户艰难地保持平衡，倚靠在金属屋顶上。他担心下方屋顶板可能倒塌，不敢和父母一起待在那里。\n\n他说：“我能看到水流非常强。”沙发、电视和家用电器在浑浊的水中迅速冲过。\n\n从11月23日星期日到25日星期二，纳查农和父母只有一瓶水可供三人饮用。他说：“我抬头看天空，想看看会不会有直升机或无人机投放一些食物。”什么也没有来。“雨下了一整夜，我们在风雨中非常冷。”他向所能看到的每条热线发信息，并在社交媒体发帖求助。\n\n这一家人听从了地方当局的建议，后者曾表示水位可以控制。当国家灾害管理机构要求居民撤离时，已经太晚了，水位已迅速达到胸口。\n\n泰国当局未能提供充分预警，受到强烈批评。\n\n星期二上午，纳查农竭尽全力大声呼喊后，成功招呼到附近一艘志愿救援船。他说：“我妈妈非常虚弱，而且失去了意识。我只知道我们必须离开这个地方，所以不停地喊。”\n\n他说，母亲被用担架抬出并接受急救，目前已经康复。他们仍未返回家中，供水尚未恢复，所有东西都裹满泥浆。\n\n",
+          "start_offset": 538,
+          "end_offset": 1022,
+          "sentence_ids": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "fact_types": [
+            "casualties",
+            "humanitarian_needs",
+            "public_reaction",
+            "evacuation",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "泰国南部/合艾",
+              "unit": null
+            },
+            {
+              "attribute": "southern_thailand_deaths",
+              "value": {
+                "value": 176,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "household_water_between_nov_23_and_25",
+              "value": 1,
+              "unit": "bottle"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "同样住在合艾的32岁楚蒂坎·潘皮特认为自己活下来是个奇迹。她走到露台查看水位时，被一条马来亚蝮蛇咬伤。洪水太高，她在32小时内无法到达医院。她说，疼痛比生孩子还严重。\n\n她说：“我害怕死去。我儿子刚满一岁，几天前才学会叫‘妈妈’。在救援船上我非常害怕，但我只想着儿子的脸。”水流十分强劲，救援人员让她紧紧抓牢，他们迅速加速穿过涌动的水流。\n\n她说：“被这种蛇（马来亚蝮蛇）咬后过32小时，人们说要么死亡，要么不得不截肢。”“我父母非常害怕，不停地祈祷，竭尽所能希望我平安。”\n\n",
+          "start_offset": 1022,
+          "end_offset": 1261,
+          "sentence_ids": [
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ],
+          "fact_types": [
+            "injuries",
+            "secondary_hazard",
+            "response",
+            "cause"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "合艾",
+              "unit": null
+            },
+            {
+              "attribute": "hospital_access_delay",
+              "value": 32,
+              "unit": "hours"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "合艾的洪水现已消退，但所需的恢复和清理工作规模巨大。数万所住宅受损。街道上散布着碎片，包括破损且沾满泥浆的家具、木条和垃圾。许多居民失去了几乎所有财物。现在，仅仅听到雨声就足以引发恐慌。\n\n",
+          "start_offset": 1261,
+          "end_offset": 1356,
+          "sentence_ids": [
+            49,
+            50,
+            51,
+            52,
+            53
+          ],
+          "fact_types": [
+            "damage",
+            "recovery",
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "合艾",
+              "unit": null
+            },
+            {
+              "attribute": "homes_damaged",
+              "value": "数万",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F009",
+          "span_text": "在印度尼西亚最大的岛屿苏门答腊岛，至少11座连接不同地区的桥梁及国道部分路段已经中断。一些村庄仍完全无法通过公路抵达。即使在恢复工作队已抵达的地区，当地人也表示食物和清洁饮水不足。\n\n许多洪水受害者仍住在救援避难所，主要依靠社区捐助者提供食物及饮料。其他人正在努力抢救剩余财物。布斯拉已前往哥哥家尝试清理及保护贵重物品。他说，与前些年的洪水相比，这场灾难严重得多：“今年的洪水是历史上最严重的悲剧。”",
+          "start_offset": 1356,
+          "end_offset": 1556,
+          "sentence_ids": [
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "humanitarian_needs",
+            "recovery"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "苏门答腊",
+              "unit": null
+            },
+            {
+              "attribute": "bridges_cut_off",
+              "value": {
+                "value": 11,
+                "qualifier": "at_least"
+              },
+              "unit": "bridges"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "ada9ea79f80d5469b706333c52bb94b10e3dde5ed5292eb55cb24fffb452d2bd",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-7FD811CC733013E5",
+      "event_id": "DIS-FL-1A08C19C1E76C71C",
+      "event_rank": 18,
+      "article_rank": 3,
+      "title": "亚洲洪水死亡人数超过1,160人，军队援助幸存者",
+      "publisher": "freemalaysiatoday",
+      "identified_publisher": "AFP",
+      "source_domain": "freemalaysiatoday.com",
+      "url": "https://www.freemalaysiatoday.com/category/highlight/2025/12/02/asian-floods-death-toll-tops-1160-as-troops-aid-survivors",
+      "published_at": "2025-12-01T21:45:03+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "正文包含法新社采访及巴东发稿地。Free Malaysia Today 为承载网站。",
+      "content": "科伦坡一条被淹的街道上，人力车司机艰难地在深而浑浊的洪水中行驶。 （EPA Images 图片）巴东：星期一，亚洲部分地区致命洪水和山体滑坡造成的死亡人数升至1,160多人，受灾最严重的斯里兰卡和印度尼西亚已部署军事人员帮助幸存者。上周，不同天气系统给斯里兰卡岛及印度尼西亚苏门答腊岛、泰国南部和马来西亚北部大片地区带来持续暴雨。该地区大部分地方目前正值季风季节，但气候变化正在导致更加极端的降雨事件并加剧风暴。世界卫生组织表示正在向该地区部署快速响应队伍和关键物资。该联合国机构负责人谭德塞在日内瓦告诉记者，这“再次提醒人们，气候变化正导致更加频繁及更加极端的天气事件，造成灾难性影响”。持续的暴雨使居民紧抓屋顶等待船只或直升机救援，并使整座村庄无法获得援助。 印度尼西亚总统普拉博沃·苏比延多星期一抵达北苏门答腊时表示，“希望最糟糕的情况已经过去”。他补充称，政府“现在的优先事项是如何立即运送必要援助”，尤其关注数个与外界隔绝的地区。普拉博沃面临越来越大的压力，要求宣布全国紧急状态，以应对已造成至少593人死亡、近470人失踪的洪水和山体滑坡。与斯里兰卡总统不同，普拉博沃也避免公开呼吁国际援助。这是印度尼西亚自2018年苏拉威西岛大地震及随后海啸造成2,000多人死亡以来，死亡人数最多的一场自然灾害。政府已向部分重灾区派遣3艘装载援助物资的军舰及2艘医院船，那里许多道路仍无法通行。在北亚齐，28岁的米斯巴胡尔·穆尼尔描述了他趟过深至颈部的水回到父母身边的经历。他告诉法新社：“房屋被淹，里面的所有东西都毁了。”他流着泪说：“我只剩下现在穿的衣服。”“其他地方有许多人死去，我们很庆幸自己都健康。” “一切都被淹没了”——在斯里兰卡，政府呼吁国际援助，并使用军用直升机接触被气旋迪特瓦引发的洪水和山体滑坡困住的人员。斯里兰卡官员星期一表示，至少390人已经死亡，另有352人仍失踪。 首都科伦坡的洪水水位在夜间达到峰值。现在降雨已经停止，人们希望洪水开始消退。部分商店和办公场所重新开放。科伦坡附近一些人对洪水感到意外。37岁的送货司机迪努沙·桑贾亚告诉法新社：“每年我们都会经历小洪水，但这次完全不同。问题不仅在于水量，还在于一切被淹没的速度。” 官员表示，救援人员清理被倒下树木和泥石流阻塞的道路之际，受灾最严重的中部地区的损坏程度才刚刚显露。总统阿努拉·库马拉·迪萨纳亚克宣布进入紧急状态，以应对他所称的“我国历史上最具挑战性的自然灾害”。印度官员称，印度总理纳伦德拉·莫迪星期一致电斯里兰卡总统，保证新德里将继续支持救援和恢复工作。 此次损失和破坏是斯里兰卡自2004年毁灭性海啸以来最严重的一次，那次海啸在该国造成约31,000人死亡、100多万人无家可归。 泰国的愤怒——截至星期日下午，斯里兰卡各地降雨减弱，但首都低洼地区仍被淹，当局准备开展大型救援行动。已部署军用直升机空运受困居民并运送食品。一架直升机星期日在科伦坡以北不远处坠毁，飞行员死亡。 每年的季风季节经常带来强降雨，引发山体滑坡和山洪。但影响印度尼西亚、泰国及马来西亚的洪水也因一场罕见的热带风暴而加剧，该风暴尤其给苏门答腊岛带来强降雨。当局星期一表示，接连的降雨引发洪水，在泰国南部造成至少176人死亡，是该国十年来死亡人数最多的洪水事件之一。政府已推出救援措施，但公众对洪水应对的批评日益强烈，两名地方官员因被指应对不力而停职。马来西亚边境另一侧，暴雨也淹没了玻璃市州大片土地，造成2人死亡。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "科伦坡一条被淹的街道上，人力车司机艰难地在深而浑浊的洪水中行驶。 ",
+          "start_offset": 0,
+          "end_offset": 33,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "（EPA Images 图片）巴东：星期一，亚洲部分地区致命洪水和山体滑坡造成的死亡人数升至1,160多人，受灾最严重的斯里兰卡和印度尼西亚已部署军事人员帮助幸存者。上周，不同天气系统给斯里兰卡岛及印度尼西亚苏门答腊岛、泰国南部和马来西亚北部大片地区带来持续暴雨。该地区大部分地方目前正值季风季节，但气候变化正在导致更加极端的降雨事件并加剧风暴。世界卫生组织表示正在向该地区部署快速响应队伍和关键物资。该联合国机构负责人谭德塞在日内瓦告诉记者，这“再次提醒人们，气候变化正导致更加频繁及更加极端的天气事件，造成灾难性影响”。持续的暴雨使居民紧抓屋顶等待船只或直升机救援，并使整座村庄无法获得援助。 ",
+          "start_offset": 33,
+          "end_offset": 332,
+          "sentence_ids": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "casualties",
+            "response",
+            "aid"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "regional_deaths",
+              "value": {
+                "value": 1160,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "regional_response",
+              "value": "WHO 队伍及物资",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "印度尼西亚总统普拉博沃·苏比延多星期一抵达北苏门答腊时表示，“希望最糟糕的情况已经过去”。他补充称，政府“现在的优先事项是如何立即运送必要援助”，尤其关注数个与外界隔绝的地区。普拉博沃面临越来越大的压力，要求宣布全国紧急状态，以应对已造成至少593人死亡、近470人失踪的洪水和山体滑坡。与斯里兰卡总统不同，普拉博沃也避免公开呼吁国际援助。这是印度尼西亚自2018年苏拉威西岛大地震及随后海啸造成2,000多人死亡以来，死亡人数最多的一场自然灾害。政府已向部分重灾区派遣3艘装载援助物资的军舰及2艘医院船，那里许多道路仍无法通行。在北亚齐，28岁的米斯巴胡尔·穆尼尔描述了他趟过深至颈部的水回到父母身边的经历。他告诉法新社：“房屋被淹，里面的所有东西都毁了。”他流着泪说：“我只剩下现在穿的衣服。”“其他地方有许多人死去，我们很庆幸自己都健康。” ",
+          "start_offset": 332,
+          "end_offset": 706,
+          "sentence_ids": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "fact_types": [
+            "casualties",
+            "missing_persons",
+            "aid",
+            "response",
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "印度尼西亚",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 593,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "missing",
+              "value": {
+                "value": 470,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "aid_warships",
+              "value": 3,
+              "unit": "ships"
+            },
+            {
+              "attribute": "hospital_ships",
+              "value": 2,
+              "unit": "ships"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "“一切都被淹没了”——在斯里兰卡，政府呼吁国际援助，并使用军用直升机接触被气旋迪特瓦引发的洪水和山体滑坡困住的人员。斯里兰卡官员星期一表示，至少390人已经死亡，另有352人仍失踪。 ",
+          "start_offset": 706,
+          "end_offset": 798,
+          "sentence_ids": [
+            19,
+            20
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "missing_persons",
+            "response",
+            "aid"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "斯里兰卡",
+              "unit": null
+            },
+            {
+              "attribute": "cyclone",
+              "value": "迪特瓦",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 390,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "missing",
+              "value": 352,
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "斯里兰卡官员",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "首都科伦坡的洪水水位在夜间达到峰值。现在降雨已经停止，人们希望洪水开始消退。部分商店和办公场所重新开放。科伦坡附近一些人对洪水感到意外。37岁的送货司机迪努沙·桑贾亚告诉法新社：“每年我们都会经历小洪水，但这次完全不同。问题不仅在于水量，还在于一切被淹没的速度。” ",
+          "start_offset": 798,
+          "end_offset": 931,
+          "sentence_ids": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "recovery",
+            "public_reaction"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "place",
+              "value": "科伦坡",
+              "unit": null
+            },
+            {
+              "attribute": "floodwater_peak",
+              "value": "夜间",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "官员表示，救援人员清理被倒下树木和泥石流阻塞的道路之际，受灾最严重的中部地区的损坏程度才刚刚显露。总统阿努拉·库马拉·迪萨纳亚克宣布进入紧急状态，以应对他所称的“我国历史上最具挑战性的自然灾害”。印度官员称，印度总理纳伦德拉·莫迪星期一致电斯里兰卡总统，保证新德里将继续支持救援和恢复工作。 ",
+          "start_offset": 931,
+          "end_offset": 1077,
+          "sentence_ids": [
+            27,
+            28,
+            29
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "state_of_emergency",
+              "value": "由斯里兰卡总统宣布",
+              "unit": null
+            },
+            {
+              "attribute": "international_support",
+              "value": "印度重申持续提供支持",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "此次损失和破坏是斯里兰卡自2004年毁灭性海啸以来最严重的一次，那次海啸在该国造成约31,000人死亡、100多万人无家可归。 ",
+          "start_offset": 1077,
+          "end_offset": 1141,
+          "sentence_ids": [
+            30
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "2004年另一次海啸",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 31000,
+                "qualifier": "around"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F008",
+          "span_text": "泰国的愤怒——截至星期日下午，斯里兰卡各地降雨减弱，但首都低洼地区仍被淹，当局准备开展大型救援行动。已部署军用直升机空运受困居民并运送食品。一架直升机星期日在科伦坡以北不远处坠毁，飞行员死亡。 ",
+          "start_offset": 1141,
+          "end_offset": 1238,
+          "sentence_ids": [
+            31,
+            32,
+            33
+          ],
+          "fact_types": [
+            "weather",
+            "response",
+            "aid",
+            "casualties"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "military_helicopter_crash_pilot_deaths",
+              "value": 1,
+              "unit": "person"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F009",
+          "span_text": "每年的季风季节经常带来强降雨，引发山体滑坡和山洪。但影响印度尼西亚、泰国及马来西亚的洪水也因一场罕见的热带风暴而加剧，该风暴尤其给苏门答腊岛带来强降雨。当局星期一表示，接连的降雨引发洪水，在泰国南部造成至少176人死亡，是该国十年来死亡人数最多的洪水事件之一。政府已推出救援措施，但公众对洪水应对的批评日益强烈，两名地方官员因被指应对不力而停职。马来西亚边境另一侧，暴雨也淹没了玻璃市州大片土地，造成2人死亡。",
+          "start_offset": 1238,
+          "end_offset": 1443,
+          "sentence_ids": [
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_occurrence",
+            "cause",
+            "casualties",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "印度尼西亚、泰国和马来西亚背景",
+              "unit": null
+            },
+            {
+              "attribute": "southern_thailand_deaths",
+              "value": {
+                "value": 176,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "malaysia_deaths",
+              "value": 2,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "7ae1e0c8e9b7318aea0db0f567f7d4f9c4a14ffa6ce0ff96c3216bb7f4d0ed23",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "亚洲部分地区洪水死亡人数下限",
+        "fact_type": "casualties",
+        "attribute": "regional_deaths",
+        "supporting_spans": [
+          "A002_F004",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": {
+              "value": 1100,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "value": 1160,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "这些下限相容。统计涵盖不同地区或时段。"
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "斯里兰卡官方死亡及失踪人数",
+        "fact_type": "casualties",
+        "attribute": "sri_lanka_casualty_figures",
+        "supporting_spans": [
+          "A003_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": {
+              "deaths_lower_bound": 390,
+              "missing": 352
+            },
+            "unit": "people",
+            "attribution": "Sri Lankan officials"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "持续洪水阻碍斯里兰卡救援行动",
+        "fact_type": "response",
+        "attribute": "access_constraints",
+        "supporting_spans": [
+          "A001_F002",
+          "A003_F006"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": "高水位延误救援和评估",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F006",
+            "value": "中部地区道路被倒下树木及泥石流堵塞",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "WCIC 提议设立企业支持基金",
+        "fact_type": "aid",
+        "attribute": "wcic_support",
+        "supporting_spans": [
+          "A001_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": "提议设立女性创业者专项基金",
+            "unit": null,
+            "attribution": "WCIC"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025年11月下旬",
+          "time_precision": "Part of a month",
+          "description": "气旋迪特瓦在斯里兰卡引发洪水和山体滑坡。",
+          "supporting_spans": [
+            "A003_F004"
+          ]
+        },
+        {
+          "time": "2025-12-01",
+          "time_precision": "Publication date",
+          "description": "官员报告斯里兰卡至少390人死亡。政府启动紧急行动并寻求国际援助，WCIC 也呼吁提供支持。",
+          "supporting_spans": [
+            "A003_F004",
+            "A003_F006",
+            "A001_F001",
+            "A001_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "高水位和道路堵塞延误救援及现场损失评估。",
+          "supporting_spans": [
+            "A001_F002",
+            "A003_F006"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "洪水影响斯里兰卡社区及企业。官员报告死亡、受伤和失踪人员，并部署军队提供帮助。",
+          "supporting_spans": [
+            "A001_F001",
+            "A003_F004",
+            "A003_F008"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "A002 聚焦印度尼西亚和泰国案例。其地区总数不能用作斯里兰卡伤亡人数。"
+    ]
+  }
+}

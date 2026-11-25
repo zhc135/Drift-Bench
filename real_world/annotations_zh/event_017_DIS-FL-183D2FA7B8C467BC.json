@@ -1,0 +1,1073 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-FL-183D2FA7B8C467BC",
+  "event_rank": 17,
+  "event_metadata": {
+    "event_name": "奥地利、捷克、德国、波兰、罗马尼亚和斯洛伐克洪水",
+    "disaster_type": "flood",
+    "disaster_type_code": "FL",
+    "event_start_time": "2024-09-12T09:00:00+00:00",
+    "event_end_time": "2024-09-18T09:00:00+00:00",
+    "locations": [
+      "奥地利",
+      "捷克",
+      "德国",
+      "波兰",
+      "罗马尼亚",
+      "斯洛伐克"
+    ],
+    "latitude": 49.8591,
+    "longitude": 16.9561,
+    "place_names_in_reports": [
+      "奥地利",
+      "维也纳",
+      "下奥地利州",
+      "布尔根兰州",
+      "莱因西茨河",
+      "捷克",
+      "奥帕瓦",
+      "耶塞尼克",
+      "布拉格",
+      "波兰",
+      "克沃兹科",
+      "克拉科夫",
+      "罗马尼亚",
+      "加拉茨",
+      "匈牙利",
+      "布达佩斯",
+      "多瑙河",
+      "摩尔多瓦",
+      "斯洛伐克"
+    ],
+    "gdacs_id": "1102899",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "多个国家的洪水持续发展。布达佩斯的800和850厘米水位为预测值。"
+    ],
+    "dataset_place_name": "奥地利、捷克、德国、波兰、罗马尼亚和斯洛伐克洪水",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-4C273506A252C99C",
+      "event_id": "DIS-FL-183D2FA7B8C467BC",
+      "event_rank": 17,
+      "article_rank": 1,
+      "title": "乌克兰向六国提供援助，帮助应对洪水造成的后果",
+      "publisher": "menafn",
+      "identified_publisher": "Ukrinform",
+      "source_domain": "menafn.com",
+      "url": "https://menafn.com/1108676233/Ukraine-Offers-Six-Countries-Assistance-In-Overcoming-Aftermath-Of-Floods",
+      "published_at": "2024-09-15T00:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "republished",
+      "source_independence": "syndicated",
+      "source_independence_reason": "MENAFN 在文章开头明确注明乌克兰国家通讯社为消息来源。",
+      "content": "据乌克兰国家通讯社报道，乌克兰国家元首在每晚的视频讲话中作出上述表示。\n\n泽连斯基说：“不幸的是，由于这些极端降雨，我们的邻国也出现危急情况。根据我的指示，乌克兰外交部长安德里·瑟比加向欧洲这一地区受灾国家提供了乌克兰国家紧急情况局的援助。”\n\n瑟比加指出，已向摩尔多瓦、波兰、罗马尼亚、斯洛伐克、匈牙利和捷克提供援助。\n\n他在 X 上写道：“乌克兰与遭遇毁灭性洪水的邻国站在一起。根据泽连斯基总统的指示，并在总理丹尼斯·什梅加尔的协调下，我们已提出向捷克、匈牙利、摩尔多瓦、波兰、罗马尼亚和斯洛伐克派遣国家紧急情况局的队伍，协助减轻灾害影响。”\n\n此前，波兰总理唐纳德·图斯克下令在该国受洪水影响地区启动自然灾害状态。\n\n乌克兰还向遭遇毁灭性洪水的捷克提供了援助。\n\n由于强降雨和河流泛滥，捷克局势极为严峻。这也影响了捷克与乌克兰之间的铁路服务。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "据乌克兰国家通讯社报道，乌克兰国家元首在每晚的视频讲话中作出上述表示。\n\n泽连斯基说：“不幸的是，由于这些极端降雨，我们的邻国也出现危急情况。根据我的指示，乌克兰外交部长安德里·瑟比加向欧洲这一地区受灾国家提供了乌克兰国家紧急情况局的援助。”\n\n瑟比加指出，已向摩尔多瓦、波兰、罗马尼亚、斯洛伐克、匈牙利和捷克提供援助。\n\n他在 X 上写道：“乌克兰与遭遇毁灭性洪水的邻国站在一起。根据泽连斯基总统的指示，并在总理丹尼斯·什梅加尔的协调下，我们已提出向捷克、匈牙利、摩尔多瓦、波兰、罗马尼亚和斯洛伐克派遣国家紧急情况局的队伍，协助减轻灾害影响。”\n\n",
+          "start_offset": 0,
+          "end_offset": 275,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "weather"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "aid_status",
+              "value": "已提出提供援助",
+              "unit": null
+            },
+            {
+              "attribute": "recipient_countries",
+              "value": [
+                "摩尔多瓦",
+                "波兰",
+                "罗马尼亚",
+                "斯洛伐克",
+                "匈牙利",
+                "捷克"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "安德里·瑟比加和弗拉基米尔·泽连斯基",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "此前，波兰总理唐纳德·图斯克下令在该国受洪水影响地区启动自然灾害状态。\n\n",
+          "start_offset": 275,
+          "end_offset": 312,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "poland_action",
+              "value": "下令受洪水影响地区进入自然灾害状态",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "乌克兰还向遭遇毁灭性洪水的捷克提供了援助。\n\n由于强降雨和河流泛滥，捷克局势极为严峻。这也影响了捷克与乌克兰之间的铁路服务。",
+          "start_offset": 312,
+          "end_offset": 374,
+          "sentence_ids": [
+            8,
+            9,
+            10
+          ],
+          "fact_types": [
+            "aid",
+            "disaster_occurrence",
+            "weather",
+            "infrastructure",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "czech_impacts",
+              "value": "强降雨及河流泛滥导致通往乌克兰的铁路服务中断",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "c977f76327cce6b7459bebaf51e089abc367af38cba82d103d5abc9f10e61e6e",
+        "removed_word_count": 69,
+        "removed_word_ratio": 0.2804878048780488
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-D05F6751F5FEE2F4",
+      "event_id": "DIS-FL-183D2FA7B8C467BC",
+      "event_rank": 17,
+      "article_rank": 2,
+      "title": "图片：强风暴袭击该地区，布达佩斯为洪峰做好准备",
+      "publisher": "dailynewshungary",
+      "identified_publisher": "Daily News Hungary",
+      "source_domain": "dailynewshungary.com",
+      "url": "https://dailynewshungary.com/budapest-flood-storms-austria-czechia/",
+      "published_at": "2024-09-15T12:34:42+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "文章汇集 Portfolio、《新闻报》、Hospodarske Noviny 等来源，尚未核实首发情况。",
+      "content": "布达佩斯正为显著的洪峰做准备，预计未来几天多瑙河水位将急剧上升。据国家水文预测服务机构（Országos Vízjelző Szolgálat）称，从星期一开始，该河水位将以每天约1米的速度上升，到周中将超过800厘米。当前数据显示河流水位为250厘米，预计最高将达到850厘米，可能触发三级洪水警报。相比之下，有记录以来最高水位为891厘米。\n\n据 Portfolio 报道，鉴于这些预测，当局正在考虑禁止行人和车辆进入玛格丽特岛（Margitsziget）。佩斯一侧的下部堤岸可能在9月17日前被淹没，而其他路段，包括布达一侧，将从9月16日晚8时起关闭。\n\n这一洪峰是在奥地利及中欧部分地区连续数日遭遇恶劣天气后出现的。强降雨造成严重洪水，特别是在下奥地利州和布尔根兰州。风暴现已抵达匈牙利西部，促使匈牙利气象局（HungaroMet）针对星期日发布橙色警报，警告部分地区阵风可达110公里/小时，Portfolio 在另一篇文章中写道。\n\n据《新闻报》报道，在奥地利，莱因西茨河漫溢，淹没道路，并扰乱阿姆施泰滕与圣瓦伦丁之间的火车服务。维也纳也面临困难，水进入隧道导致地铁线部分关闭。紧急疏散正在进行，奥地利军队已部署协助。\n\n情况已经发生：下奥地利州的首批河流现已超过30年一遇的洪水水位，例如瓦尔德菲尔特地区的莱因西茨河。而未来48小时，尤其是东部，还将迎来极端降水。 （图片：魏特拉市政府）pic.twitter.com/ZfekYSLqPt\n\n——wetterblog.at（@wetterblogAT），2024年9月14日\n\n尽管预测显示未来几天降雨将减少，强风仍持续阻碍奥地利的恢复工作。部分地区风速已达121公里/小时，特别是在拉克斯山站等海拔较高地区。\n\n据 Hospodarske Noviny 报道，在捷克，数万人正因洪水撤离。摩拉维亚-西里西亚州近3,000人离开家园，另有数千人从奥帕瓦撤离。摩拉维亚-西里西亚州及奥洛穆茨州均宣布进入紧急状态，洪水已导致4人失踪。\n\n强降雨持续至星期日凌晨，预报人员警告，耶塞尼克、克尔诺夫和奥帕瓦等地的汇流水量可能超过百年一遇的水平。南波希米亚也面临严峻状况。\n\n环境部长彼得·赫拉迪克表示，星期日预计降雨量少于今天，但耶塞尼克山区仍可能降下80至100毫米雨水。坏消息是星期一预计会有更多降雨，他补充说。\n\n在匈牙利，有关部门建议受影响地区居民在情况改善前避免出行。\n\n布达佩斯已实施最高级别洪水警报",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "布达佩斯正为显著的洪峰做准备，预计未来几天多瑙河水位将急剧上升。据国家水文预测服务机构（Országos Vízjelző Szolgálat）称，从星期一开始，该河水位将以每天约1米的速度上升，到周中将超过800厘米。当前数据显示河流水位为250厘米，预计最高将达到850厘米，可能触发三级洪水警报。相比之下，有记录以来最高水位为891厘米。\n\n",
+          "start_offset": 0,
+          "end_offset": 174,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude",
+            "uncertainty"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "danube_current_gauge",
+              "value": 250,
+              "unit": "cm"
+            },
+            {
+              "attribute": "predicted_daily_rise",
+              "value": {
+                "value": 1,
+                "qualifier": "roughly"
+              },
+              "unit": "m/day"
+            },
+            {
+              "attribute": "predicted_midweek_gauge",
+              "value": {
+                "value": 800,
+                "qualifier": "greater_than"
+              },
+              "unit": "cm"
+            },
+            {
+              "attribute": "predicted_gauge_high",
+              "value": {
+                "value": 850,
+                "qualifier": "as_high_as"
+              },
+              "unit": "cm"
+            },
+            {
+              "attribute": "historic_gauge_peak",
+              "value": 891,
+              "unit": "cm"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "据 Portfolio 报道，鉴于这些预测，当局正在考虑禁止行人和车辆进入玛格丽特岛（Margitsziget）。佩斯一侧的下部堤岸可能在9月17日前被淹没，而其他路段，包括布达一侧，将从9月16日晚8时起关闭。\n\n",
+          "start_offset": 174,
+          "end_offset": 282,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "planned_buda_closure",
+              "value": "2024-09-16 20:00",
+              "unit": null
+            },
+            {
+              "attribute": "pest_embankment_forecast",
+              "value": "到9月17日被淹没",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "这一洪峰是在奥地利及中欧部分地区连续数日遭遇恶劣天气后出现的。强降雨造成严重洪水，特别是在下奥地利州和布尔根兰州。风暴现已抵达匈牙利西部，促使匈牙利气象局（HungaroMet）针对星期日发布橙色警报，警告部分地区阵风可达110公里/小时，Portfolio 在另一篇文章中写道。\n\n",
+          "start_offset": 282,
+          "end_offset": 424,
+          "sentence_ids": [
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "austrian_regions",
+              "value": [
+                "下奥地利州",
+                "布尔根兰州"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "forecast_gusts",
+              "value": 110,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "hungarian_alert",
+              "value": "橙色",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "据《新闻报》报道，在奥地利，莱因西茨河漫溢，淹没道路，并扰乱阿姆施泰滕与圣瓦伦丁之间的火车服务。维也纳也面临困难，水进入隧道导致地铁线部分关闭。紧急疏散正在进行，奥地利军队已部署协助。\n\n",
+          "start_offset": 424,
+          "end_offset": 518,
+          "sentence_ids": [
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "infrastructure",
+            "evacuation",
+            "response",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "rail_disruption",
+              "value": "阿姆施泰滕至圣瓦伦丁",
+              "unit": null
+            },
+            {
+              "attribute": "metro_disruption",
+              "value": "维也纳隧道被淹",
+              "unit": null
+            },
+            {
+              "attribute": "response",
+              "value": "人员疏散及军队部署",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "情况已经发生：下奥地利州的首批河流现已超过30年一遇的洪水水位，例如瓦尔德菲尔特地区的莱因西茨河。而未来48小时，尤其是东部，还将迎来极端降水。 ",
+          "start_offset": 518,
+          "end_offset": 591,
+          "sentence_ids": [
+            13,
+            14
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "language",
+              "value": "de",
+              "unit": null
+            },
+            {
+              "attribute": "lainsitz_flood_threshold",
+              "value": "超过30年一遇洪水水位",
+              "unit": null
+            },
+            {
+              "attribute": "forecast_window",
+              "value": 48,
+              "unit": "hours"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "（图片：魏特拉市政府）pic.twitter.com/ZfekYSLqPt\n\n——wetterblog.at（@wetterblogAT），2024年9月14日\n\n",
+          "start_offset": 591,
+          "end_offset": 673,
+          "sentence_ids": [
+            15,
+            16
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "尽管预测显示未来几天降雨将减少，强风仍持续阻碍奥地利的恢复工作。部分地区风速已达121公里/小时，特别是在拉克斯山站等海拔较高地区。\n\n",
+          "start_offset": 673,
+          "end_offset": 741,
+          "sentence_ids": [
+            17,
+            18
+          ],
+          "fact_types": [
+            "weather",
+            "recovery"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "peak_wind_report",
+              "value": 121,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "location_example",
+              "value": "拉克斯山站",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "据 Hospodarske Noviny 报道，在捷克，数万人正因洪水撤离。摩拉维亚-西里西亚州近3,000人离开家园，另有数千人从奥帕瓦撤离。摩拉维亚-西里西亚州及奥洛穆茨州均宣布进入紧急状态，洪水已导致4人失踪。\n\n",
+          "start_offset": 741,
+          "end_offset": 851,
+          "sentence_ids": [
+            19,
+            20,
+            21
+          ],
+          "fact_types": [
+            "evacuation",
+            "missing_persons",
+            "response",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "czech_evacuees",
+              "value": "数万人",
+              "unit": "people"
+            },
+            {
+              "attribute": "moravian_silesian_evacuees",
+              "value": {
+                "value": 3000,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "missing",
+              "value": 4,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F009",
+          "span_text": "强降雨持续至星期日凌晨，预报人员警告，耶塞尼克、克尔诺夫和奥帕瓦等地的汇流水量可能超过百年一遇的水平。南波希米亚也面临严峻状况。\n\n环境部长彼得·赫拉迪克表示，星期日预计降雨量少于今天，但耶塞尼克山区仍可能降下80至100毫米雨水。坏消息是星期一预计会有更多降雨，他补充说。\n\n",
+          "start_offset": 851,
+          "end_offset": 990,
+          "sentence_ids": [
+            22,
+            23,
+            24,
+            25
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "weather",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "forecast_rainfall",
+              "value": {
+                "value": [
+                  80,
+                  100
+                ],
+                "qualifier": "up_to"
+              },
+              "unit": "mm"
+            },
+            {
+              "attribute": "scope",
+              "value": "耶塞尼克山区",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F010",
+          "span_text": "在匈牙利，有关部门建议受影响地区居民在情况改善前避免出行。\n\n",
+          "start_offset": 990,
+          "end_offset": 1021,
+          "sentence_ids": [
+            26
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F011",
+          "span_text": "布达佩斯已实施最高级别洪水警报",
+          "start_offset": 1021,
+          "end_offset": 1036,
+          "sentence_ids": [
+            27
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "77d4bfb4e0f381d87d954024b0870ef1b23c362a0de939cc9b36e96fce6c9ffc",
+        "removed_word_count": 29,
+        "removed_word_ratio": 0.0562015503875969
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-C14BCDFB9ABB6FC4",
+      "event_id": "DIS-FL-183D2FA7B8C467BC",
+      "event_rank": 17,
+      "article_rank": 3,
+      "title": "风暴鲍里斯席卷欧洲，造成至少6人死亡、数千人撤离家园",
+      "publisher": "lbc",
+      "identified_publisher": "LBC",
+      "source_domain": "lbc.co.uk",
+      "url": "https://www.lbc.co.uk/news/storm-boris-europe-six-dead-thousands-evacuated/",
+      "published_at": "2024-09-15T13:35:03+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "LBC 综合多个国家的机构及官员声明，没有明确通讯社署名。",
+      "content": "风暴鲍里斯席卷东欧，洪水造成至少6人死亡、数千人撤离家园。\n\n中欧再次经历一夜暴雨，迫使重灾区大规模疏散。\n\n星期日宣布，在奥地利一个省，一名消防员在抽排被淹地下室积水时“在楼梯上滑倒”身亡。\n\n在波兰，总理唐纳德·图斯克表示，西南部洪水中又有一人推定死亡。\n\n他说，靠近捷克边界的苏台德山脉山谷中，拥有约25,000名居民的克沃兹科镇周边局势“严峻”。\n\n此前星期六，罗马尼亚东南部有4人死亡，其中加拉茨地区受灾最严重。\n\n斯洛博齐亚科纳奇村村长埃米尔·德拉戈米尔说：“这是一场规模巨大的灾难。”\n\n与此同时，罗马尼亚总统克劳斯·约翰尼斯将极端状况归咎于气候变化。\n\n气象学家警告，随着多数河流水位上升，且夜间可能再次出现强降雨，局势可能进一步恶化。\n\n约翰尼斯说：“我们必须继续加强预测极端天气现象的能力。”\n\n“该国很大一部分地区遭受严重洪水，导致人员死亡和重大损失。”\n\n“我们再次面对气候变化的影响，这种影响在欧洲大陆日益显著，并对人们造成严重后果。”\n\n应急服务部门称，罗马尼亚19处地区已有数百人获救。\n\n与此同时，在波兰西南部奥波莱地区的格武霍瓦济镇，上涨的水位漫过河堤，淹没街道和房屋。\n\n市长帕韦尔·希姆科维奇说“我们正在被淹没”，并敦促居民撤往高地。\n\n在波兰第二大城市克拉科夫，有关部门正在发放沙袋，试图保护住宅。\n\n与此同时，捷克50,000户家庭停电，警方报告4人失踪。\n\n其中3人乘坐的汽车在利波瓦拉兹涅被冲入河中。\n\n另有一名男子在东南部被洪水冲走后失踪。\n\n捷克总理彼得·菲亚拉警告，该国将迎来“艰难的周末”。\n\n他补充说：“我们必须为最坏情况做好准备。”\n\n布拉格已架设防洪屏障作准备，堤岸也已对公众关闭。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "风暴鲍里斯席卷东欧，洪水造成至少6人死亡、数千人撤离家园。\n\n中欧再次经历一夜暴雨，迫使重灾区大规模疏散。\n\n",
+          "start_offset": 0,
+          "end_offset": 55,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "evacuation",
+            "weather"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "storm",
+              "value": "鲍里斯",
+              "unit": null
+            },
+            {
+              "attribute": "regional_deaths",
+              "value": {
+                "value": 6,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "evacuated",
+              "value": "数千人",
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "星期日宣布，在奥地利一个省，一名消防员在抽排被淹地下室积水时“在楼梯上滑倒”身亡。\n\n在波兰，总理唐纳德·图斯克表示，西南部洪水中又有一人推定死亡。\n\n他说，靠近捷克边界的苏台德山脉山谷中，拥有约25,000名居民的克沃兹科镇周边局势“严峻”。\n\n此前星期六，罗马尼亚东南部有4人死亡，其中加拉茨地区受灾最严重。\n\n",
+          "start_offset": 55,
+          "end_offset": 213,
+          "sentence_ids": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "casualties",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "austria_firefighter_deaths",
+              "value": 1,
+              "unit": "person"
+            },
+            {
+              "attribute": "southwest_poland_presumed_deaths",
+              "value": 1,
+              "unit": "person"
+            },
+            {
+              "attribute": "romania_reported_deaths",
+              "value": 4,
+              "unit": "people"
+            },
+            {
+              "attribute": "worst_affected_romanian_region",
+              "value": "加拉茨",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "斯洛博齐亚科纳奇村村长埃米尔·德拉戈米尔说：“这是一场规模巨大的灾难。”\n\n与此同时，罗马尼亚总统克劳斯·约翰尼斯将极端状况归咎于气候变化。\n\n气象学家警告，随着多数河流水位上升，且夜间可能再次出现强降雨，局势可能进一步恶化。\n\n约翰尼斯说：“我们必须继续加强预测极端天气现象的能力。”\n\n“该国很大一部分地区遭受严重洪水，导致人员死亡和重大损失。”\n\n“我们再次面对气候变化的影响，这种影响在欧洲大陆日益显著，并对人们造成严重后果。”\n\n",
+          "start_offset": 213,
+          "end_offset": 433,
+          "sentence_ids": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "cause",
+            "weather",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "克劳斯·约翰尼斯将极端状况与气候变化联系起来",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "应急服务部门称，罗马尼亚19处地区已有数百人获救。\n\n",
+          "start_offset": 433,
+          "end_offset": 460,
+          "sentence_ids": [
+            13
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "rescued",
+              "value": "数百人",
+              "unit": "people"
+            },
+            {
+              "attribute": "locations_covered",
+              "value": 19,
+              "unit": "parts of Romania"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "与此同时，在波兰西南部奥波莱地区的格武霍瓦济镇，上涨的水位漫过河堤，淹没街道和房屋。\n\n市长帕韦尔·希姆科维奇说“我们正在被淹没”，并敦促居民撤往高地。\n\n在波兰第二大城市克拉科夫，有关部门正在发放沙袋，试图保护住宅。\n\n",
+          "start_offset": 460,
+          "end_offset": 571,
+          "sentence_ids": [
+            14,
+            15,
+            16
+          ],
+          "fact_types": [
+            "evacuation",
+            "response",
+            "damage",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "poland_impacts",
+              "value": "格武霍瓦济发生洪水；克拉科夫发放沙袋",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "与此同时，捷克50,000户家庭停电，警方报告4人失踪。\n\n其中3人乘坐的汽车在利波瓦拉兹涅被冲入河中。\n\n另有一名男子在东南部被洪水冲走后失踪。\n\n",
+          "start_offset": 571,
+          "end_offset": 646,
+          "sentence_ids": [
+            17,
+            18,
+            19
+          ],
+          "fact_types": [
+            "missing_persons",
+            "infrastructure"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "czech_households_without_power",
+              "value": 50000,
+              "unit": "homes"
+            },
+            {
+              "attribute": "czech_missing",
+              "value": 4,
+              "unit": "people"
+            },
+            {
+              "attribute": "missing_attribution",
+              "value": "警方",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "捷克总理彼得·菲亚拉警告，该国将迎来“艰难的周末”。\n\n他补充说：“我们必须为最坏情况做好准备。”\n\n布拉格已架设防洪屏障作准备，堤岸也已对公众关闭。",
+          "start_offset": 646,
+          "end_offset": 721,
+          "sentence_ids": [
+            20,
+            21,
+            22
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "prague_response",
+              "value": "架设防洪屏障并关闭堤岸",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "b47a4f905598d5f2a7e46e0b767c4eb2cc76487a9dcfd3b9ece15f20244b0426",
+        "removed_word_count": 30,
+        "removed_word_ratio": 0.07125890736342043
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "各报道对捷克的失踪人数说法一致",
+        "fact_type": "missing_persons",
+        "attribute": "czech_missing",
+        "supporting_spans": [
+          "A002_F008",
+          "A003_F006"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F008",
+            "value": 4,
+            "unit": "people",
+            "attribution": "Hospodarske Noviny"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F006",
+            "value": 4,
+            "unit": "people",
+            "attribution": "Czech police"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "多个地区进行了人员疏散",
+        "fact_type": "evacuation",
+        "attribute": "evacuations",
+        "supporting_spans": [
+          "A002_F008",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F008",
+            "value": "捷克正在疏散数万人",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": "整个受影响地区数千人已撤离",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "地理覆盖范围和报道时段不同。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "多个国家洪水死亡人数下限",
+        "fact_type": "casualties",
+        "attribute": "regional_deaths",
+        "supporting_spans": [
+          "A003_F001",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "value": 6,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "奥地利1人死亡，波兰1人推定死亡，罗马尼亚报告4人死亡",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "乌克兰向六国提出提供援助",
+        "fact_type": "aid",
+        "attribute": "ukraine_offered_assistance",
+        "supporting_spans": [
+          "A001_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": [
+              "摩尔多瓦",
+              "波兰",
+              "罗马尼亚",
+              "斯洛伐克",
+              "匈牙利",
+              "捷克"
+            ],
+            "unit": null,
+            "attribution": "Ukrainian government"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC005",
+        "cluster_description": "布达佩斯多瑙河水位预测",
+        "fact_type": "disaster_magnitude",
+        "attribute": "budapest_danube_gauge",
+        "supporting_spans": [
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "current": 250,
+              "forecast_midweek_lower_bound_exclusive": 800,
+              "forecast_high": 850
+            },
+            "unit": "cm",
+            "attribution": "National Water Forecasting Service"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "important_facts": [
+        "FC004",
+        "FC005"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2024-09-14",
+          "time_precision": "Date stated in the report",
+          "description": "奥地利莱因西茨河流域达到当地洪水阈值。罗马尼亚报告4人死亡。",
+          "supporting_spans": [
+            "A002_F005",
+            "A003_F002"
+          ]
+        },
+        {
+          "time": "2024-09-15",
+          "time_precision": "Publication date",
+          "description": "中欧和东欧部分地区疏散居民。乌克兰提出提供援助。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F008",
+            "A003_F001"
+          ]
+        },
+        {
+          "time": "2024-09-16/2024-09-17",
+          "time_precision": "Forecast window",
+          "description": "布达佩斯部分滨水区域预计将关闭或被淹没。",
+          "supporting_spans": [
+            "A002_F002"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "强降雨和河流水位上涨造成淹没，并扰乱铁路和地铁服务。",
+          "supporting_spans": [
+            "A001_F003",
+            "A002_F003",
+            "A002_F004",
+            "A003_F005"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "风暴鲍里斯导致多个国家洪水、人员死亡、失踪及疏散。",
+          "supporting_spans": [
+            "A002_F008",
+            "A003_F001",
+            "A003_F002",
+            "A003_F006"
+          ]
+        },
+        {
+          "description": "有关部门采取紧急措施，布达佩斯为水位上涨作准备。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F001",
+            "A002_F002",
+            "A003_F007"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "A002 主要为英文文章，其中包含德语社交媒体引语。这些报道还涵盖 CSV 所列国家之外的国家。"
+    ]
+  }
+}

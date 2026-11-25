@@ -1,0 +1,866 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-FL-F8EB202E94DFDFD8",
+  "event_rank": 24,
+  "event_metadata": {
+    "event_name": "西班牙洪水",
+    "disaster_type": "flood",
+    "disaster_type_code": "FL",
+    "event_start_time": "2024-10-27T15:00:00+00:00",
+    "event_end_time": "2024-11-04T11:00:00+00:00",
+    "locations": [
+      "西班牙"
+    ],
+    "latitude": 39.4178,
+    "longitude": -2.6232,
+    "place_names_in_reports": [
+      "瓦伦西亚",
+      "派波尔塔",
+      "奇瓦",
+      "卡斯特利翁",
+      "博奈尔购物中心",
+      "马德里"
+    ],
+    "gdacs_id": "1102983",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "星期二为10月29日，王室成员于星期日11月3日到访。死亡人数、遗体发现数量及部署计划各有不同截止时间。"
+    ],
+    "dataset_place_name": "西班牙洪水",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-E02CF867E0B90D54",
+      "event_id": "DIS-FL-F8EB202E94DFDFD8",
+      "event_rank": 24,
+      "article_rank": 1,
+      "title": "瓦伦西亚洪灾之际，王室访问引发愤怒 | 科学与环境",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/science-environment/3144606-royal-visit-sparks-outrage-amid-valencias-flood-disaster",
+      "published_at": "2024-11-03T14:44:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "文章概述王室到访及地区争议，清理后的文本缺少明确原始署名。",
+      "content": "瓦伦西亚受洪水重创的郊区派波尔塔局势日益紧张，西班牙国王费利佩、王后莱蒂西亚和首相佩德罗·桑切斯星期日到访时遭遇愤怒居民。正在应对上周毁灭性洪水的社区对预警和应急响应延迟表示愤怒，一些人向官员投掷泥巴。\n\n一名年轻男子向国王表达不满，哀叹已知风险未得到处理。费利佩留下来与心怀不满的民众交流，而首相桑切斯迅速离开。尽管局面混乱，国王夫妇仍给予安慰，但在称他们为“杀人犯”的呼喊声中，这一举动引发不同反应。\n\n地区政府和中央政府就预警责任相互指责之际，西班牙正在开展大规模救灾行动。洪水已造成超过217人死亡，主要集中在瓦伦西亚。受气候变化加剧的这场灾害，是自1967年葡萄牙洪灾以来欧洲单一国家死亡人数最高的洪水事件，引发对全球气候问题的关注。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "瓦伦西亚受洪水重创的郊区派波尔塔局势日益紧张，西班牙国王费利佩、王后莱蒂西亚和首相佩德罗·桑切斯星期日到访时遭遇愤怒居民。正在应对上周毁灭性洪水的社区对预警和应急响应延迟表示愤怒，一些人向官员投掷泥巴。\n\n一名年轻男子向国王表达不满，哀叹已知风险未得到处理。费利佩留下来与心怀不满的民众交流，而首相桑切斯迅速离开。尽管局面混乱，国王夫妇仍给予安慰，但在称他们为“杀人犯”的呼喊声中，这一举动引发不同反应。\n\n",
+          "start_offset": 0,
+          "end_offset": 204,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "public_reaction",
+            "timeline",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "visit",
+              "value": "国王费利佩、王后莱蒂西亚及佩德罗·桑切斯星期日到访派波尔塔",
+              "unit": null
+            },
+            {
+              "attribute": "grievances",
+              "value": "延迟的预警和应急响应",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "地区政府和中央政府就预警责任相互指责之际，西班牙正在开展大规模救灾行动。洪水已造成超过217人死亡，主要集中在瓦伦西亚。受气候变化加剧的这场灾害，是自1967年葡萄牙洪灾以来欧洲单一国家死亡人数最高的洪水事件，引发对全球气候问题的关注。",
+          "start_offset": 204,
+          "end_offset": 322,
+          "sentence_ids": [
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "response",
+            "casualties",
+            "cause"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 217,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "main_region",
+              "value": "瓦伦西亚",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "deef607e1879d6c324a24ceb6b6027b004e6802f5d4aca1b5488e07a01614dea",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-21576182762570DC",
+      "event_id": "DIS-FL-F8EB202E94DFDFD8",
+      "event_rank": 24,
+      "article_rank": 2,
+      "title": "西班牙国王和王后访问洪灾地区，泥巴纷飞",
+      "publisher": "news-yahoo",
+      "identified_publisher": null,
+      "source_domain": "yahoo.com",
+      "url": "https://www.yahoo.com/news/mud-flies-spains-king-queen-172724219.html",
+      "published_at": "2024-11-03T17:27:24+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "Yahoo 承载的文章多次转述 RTVE，无法获得原始通讯社署名。",
+      "content": "星期日，西班牙国王、王后及包括首相佩德罗·桑切斯在内的随行人员访问洪灾严重的瓦伦西亚地区时，遭遇敌意并被投掷泥巴。\n\n当局表示，星期二致命风暴和山洪造成的死亡人数已升至217人。由于仍有许多人失踪，预计死亡人数还会上升。\n\n据报道，在瓦伦西亚附近的派波尔塔镇，一些当地人对来访代表团高喊“杀人犯”和“辞职”。代表团包括国王费利佩六世、王后莱蒂西亚、桑切斯及瓦伦西亚地区政府主席卡洛斯·马松。\n\n据电视广播报道，另一些人喊道：“拿起铲子来帮忙。”\n\n国营广播电视机构 RTVE 报道，作为受灾最严重地区之一，该镇气氛十分紧张。国王夫妇试图与靠近代表团的人交谈并安抚他们。\n\n国营电视台 RTVE 现场直播了这一事件，画面显示莱蒂西亚王后脸上和手上沾满泥巴，她神情明显震动，正在与一名头发和衣服上沾满泥巴的女子交谈。\n\nRTVE 的画面还显示，费利佩六世也试图安慰居民，并拥抱了两名较年轻的居民。第一次有人投掷泥巴后，他继续尝试安抚，安保人员举起雨伞保护他。\n\n但最后，他们将国王带到安全地点。RTVE 报道，鉴于局势极为紧张，原定访问奇瓦镇的行程也被推迟。\n\n王室访问发生在严重风暴袭击西班牙东部和南部五天后。\n\n许多来自被摧毁社区的居民感觉在灾害发生后的最初数小时和数天完全被遗弃，村庄道路上泥泞不堪，堆满汽车及家具，而村庄缺乏饮用水、食品、电力和电信服务。\n\n许多市长自行采取行动，为与道路网络隔绝的村庄居民组织初步援助。\n\n还有志愿者从瓦伦西亚市步行至附近村庄，携带清理工具及捐赠的食品、瓶装水和衣物提供支持。\n\n恶劣天气持续影响西班牙地中海沿岸。瓦伦西亚地区部分地方，包括可能出现强降雨的卡斯特利翁省，正在实施第二高级别的橙色警报。\n\n恢复工作现已进入第六天。在隧道及被淹的地下或多层停车场中，搜寻工作尤其困难。\n\n星期六，桑切斯表示将再部署5,000名士兵和5,000名警察。位于马德里的西班牙中央政府表示，瓦伦西亚市附近受灾最严重地区目前已部署3,600多名军事人员。\n\n此前，各受灾城镇尤其提出严厉批评，因为它们在最初几天只能自行应对。\n\n在约15个受灾最严重村庄中的许多村庄，道路仍被堆积的汽车或滞留的家用品堵塞，并覆盖厚厚的泥浆。\n\n现在，部分得益于众多志愿者的努力，许多村庄已经开始获得援助，供电也基本恢复运行。\n\n瓦伦西亚市西部和南部地区，一条平时通常干涸的河床因星期二强降雨变成汹涌的急流，穿过数个村庄涌向大海，造成严重破坏。\n\n西班牙国王费利佩六世访问瓦伦西亚地区受严重洪水影响的地方。星期二西班牙南部及东部的风暴和洪水造成至少213人死亡，其中大部分位于瓦伦西亚地区。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "星期日，西班牙国王、王后及包括首相佩德罗·桑切斯在内的随行人员访问洪灾严重的瓦伦西亚地区时，遭遇敌意并被投掷泥巴。\n\n",
+          "start_offset": 0,
+          "end_offset": 59,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "public_reaction",
+            "timeline",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "royal_visit_location",
+              "value": "瓦伦西亚地区",
+              "unit": null
+            },
+            {
+              "attribute": "royal_visit_day",
+              "value": "星期日",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "当局表示，星期二致命风暴和山洪造成的死亡人数已升至217人。由于仍有许多人失踪，预计死亡人数还会上升。\n\n",
+          "start_offset": 59,
+          "end_offset": 112,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "casualties",
+            "missing_persons",
+            "uncertainty"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_deaths",
+              "value": 217,
+              "unit": "people"
+            },
+            {
+              "attribute": "missing",
+              "value": "许多人",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "有关当局",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "据报道，在瓦伦西亚附近的派波尔塔镇，一些当地人对来访代表团高喊“杀人犯”和“辞职”。代表团包括国王费利佩六世、王后莱蒂西亚、桑切斯及瓦伦西亚地区政府主席卡洛斯·马松。\n\n据电视广播报道，另一些人喊道：“拿起铲子来帮忙。”\n\n国营广播电视机构 RTVE 报道，作为受灾最严重地区之一，该镇气氛十分紧张。国王夫妇试图与靠近代表团的人交谈并安抚他们。\n\n国营电视台 RTVE 现场直播了这一事件，画面显示莱蒂西亚王后脸上和手上沾满泥巴，她神情明显震动，正在与一名头发和衣服上沾满泥巴的女子交谈。\n\nRTVE 的画面还显示，费利佩六世也试图安慰居民，并拥抱了两名较年轻的居民。第一次有人投掷泥巴后，他继续尝试安抚，安保人员举起雨伞保护他。\n\n但最后，他们将国王带到安全地点。RTVE 报道，鉴于局势极为紧张，原定访问奇瓦镇的行程也被推迟。\n\n",
+          "start_offset": 112,
+          "end_offset": 479,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "public_reaction",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "visit_location",
+              "value": "派波尔塔",
+              "unit": null
+            },
+            {
+              "attribute": "postponed_visit",
+              "value": "奇瓦",
+              "unit": null
+            },
+            {
+              "attribute": "reported_by",
+              "value": "RTVE",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "王室访问发生在严重风暴袭击西班牙东部和南部五天后。\n\n许多来自被摧毁社区的居民感觉在灾害发生后的最初数小时和数天完全被遗弃，村庄道路上泥泞不堪，堆满汽车及家具，而村庄缺乏饮用水、食品、电力和电信服务。\n\n许多市长自行采取行动，为与道路网络隔绝的村庄居民组织初步援助。\n\n还有志愿者从瓦伦西亚市步行至附近村庄，携带清理工具及捐赠的食品、瓶装水和衣物提供支持。\n\n",
+          "start_offset": 479,
+          "end_offset": 659,
+          "sentence_ids": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "humanitarian_needs",
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "disruptions",
+              "value": [
+                "道路",
+                "饮用水",
+                "食品",
+                "电力",
+                "电信"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "恶劣天气持续影响西班牙地中海沿岸。瓦伦西亚地区部分地方，包括可能出现强降雨的卡斯特利翁省，正在实施第二高级别的橙色警报。\n\n",
+          "start_offset": 659,
+          "end_offset": 721,
+          "sentence_ids": [
+            17,
+            18
+          ],
+          "fact_types": [
+            "response",
+            "weather",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "alert",
+              "value": "橙色",
+              "unit": null
+            },
+            {
+              "attribute": "scope",
+              "value": "瓦伦西亚部分地区，包括卡斯特利翁",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "恢复工作现已进入第六天。在隧道及被淹的地下或多层停车场中，搜寻工作尤其困难。\n\n",
+          "start_offset": 721,
+          "end_offset": 761,
+          "sentence_ids": [
+            19,
+            20
+          ],
+          "fact_types": [
+            "response",
+            "missing_persons"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "search_constraints",
+              "value": "隧道和被淹停车场",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "星期六，桑切斯表示将再部署5,000名士兵和5,000名警察。位于马德里的西班牙中央政府表示，瓦伦西亚市附近受灾最严重地区目前已部署3,600多名军事人员。\n\n",
+          "start_offset": 761,
+          "end_offset": 841,
+          "sentence_ids": [
+            21,
+            22
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "planned_more_soldiers",
+              "value": 5000,
+              "unit": "people"
+            },
+            {
+              "attribute": "planned_more_police",
+              "value": 5000,
+              "unit": "people"
+            },
+            {
+              "attribute": "currently_deployed_military",
+              "value": {
+                "value": 3600,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "此前，各受灾城镇尤其提出严厉批评，因为它们在最初几天只能自行应对。\n\n在约15个受灾最严重村庄中的许多村庄，道路仍被堆积的汽车或滞留的家用品堵塞，并覆盖厚厚的泥浆。\n\n现在，部分得益于众多志愿者的努力，许多村庄已经开始获得援助，供电也基本恢复运行。\n\n瓦伦西亚市西部和南部地区，一条平时通常干涸的河床因星期二强降雨变成汹涌的急流，穿过数个村庄涌向大海，造成严重破坏。\n\n",
+          "start_offset": 841,
+          "end_offset": 1026,
+          "sentence_ids": [
+            23,
+            24,
+            25,
+            26
+          ],
+          "fact_types": [
+            "public_reaction",
+            "infrastructure",
+            "damage",
+            "recovery",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "badly_affected_villages",
+              "value": {
+                "value": 15,
+                "qualifier": "about"
+              },
+              "unit": "villages"
+            },
+            {
+              "attribute": "cause",
+              "value": "强降雨使平时干涸的河床变成急流",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F009",
+          "span_text": "西班牙国王费利佩六世访问瓦伦西亚地区受严重洪水影响的地方。星期二西班牙南部及东部的风暴和洪水造成至少213人死亡，其中大部分位于瓦伦西亚地区。",
+          "start_offset": 1026,
+          "end_offset": 1097,
+          "sentence_ids": [
+            27,
+            28
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "08b60cffcfbb22d90c379bfd74498c7a192d23206cab074a58cb437d3c01a74d",
+        "removed_word_count": 5,
+        "removed_word_ratio": 0.008223684210526315
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-0A85230232566659",
+      "event_id": "DIS-FL-F8EB202E94DFDFD8",
+      "event_rank": 24,
+      "article_rank": 3,
+      "title": "瓦伦西亚救援队排空地下车库积水，寻找失踪人员",
+      "publisher": "euronews-en",
+      "identified_publisher": null,
+      "source_domain": "euronews.com",
+      "url": "https://www.euronews.com/my-europe/2024/11/03/rescue-teams-drain-underground-garages-in-search-for-missing-people-in-valencia",
+      "published_at": "2024-11-03T20:49:33+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "欧洲新闻台未提供原始署名或共享稿件的证据。",
+      "content": "约5,000名额外士兵从马德里和西班牙其他地区抵达，协助搜寻上周致命洪水后的失踪人员，使此前已在当地的4,500人几乎翻倍。预计还将有另外5,000名士兵抵达。迄今已发现至少214具遗体，主要位于东部瓦伦西亚地区。此前西班牙遭遇数十年来死亡人数最多的自然灾害，海啸般的洪水席卷东南部。 军事单位与消防员联手抽排地下车库内的水和泥浆，以便救援队继续寻找遗体。瓦伦西亚最大的购物中心博奈尔购物中心的停车场拥有5,700个停车位，被超过3米深的洪水淹没。迄今为止，应急服务人员和士兵进入被淹停车场，常常在有限光线下持续搜寻至夜间，乘皮划艇或在齐颈深的水中步行。据首相佩德罗·桑切斯称，应急部队迄今已救出约4,800人，并帮助30,000多人。 居民被警告留在家中——感觉被政府遗弃后，大批志愿者带着水桶、铲子和扫帚走上街头参加清理工作。但由于预计该地区将迎来更多强降雨，另有警告要求人们留在家中并远离道路。政府因缺乏准备及危机管理不力而受到审视。瓦伦西亚地区政府直到星期二晚上8时才向手机发送洪水警报，而当时部分地方已发生洪水，国家气象机构也已发布强降雨红色警报。星期日早些时候，一群愤怒居民向访问瓦伦西亚郊区派波尔塔市的西班牙国王、王后和政府官员投掷泥巴，该市是本地区受灾最严重城市之一。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "约5,000名额外士兵从马德里和西班牙其他地区抵达，协助搜寻上周致命洪水后的失踪人员，使此前已在当地的4,500人几乎翻倍。预计还将有另外5,000名士兵抵达。",
+          "start_offset": 0,
+          "end_offset": 80,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "reported_additional_arrived_soldiers",
+              "value": {
+                "value": 5000,
+                "qualifier": "roughly"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "military_already_there",
+              "value": 4500,
+              "unit": "people"
+            },
+            {
+              "attribute": "expected_additional_troops",
+              "value": 5000,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "迄今已发现至少214具遗体，主要位于东部瓦伦西亚地区。此前西班牙遭遇数十年来死亡人数最多的自然灾害，海啸般的洪水席卷东南部。 ",
+          "start_offset": 80,
+          "end_offset": 143,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "casualties"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "recovered_bodies",
+              "value": {
+                "value": 214,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "军事单位与消防员联手抽排地下车库内的水和泥浆，以便救援队继续寻找遗体。瓦伦西亚最大的购物中心博奈尔购物中心的停车场拥有5,700个停车位，被超过3米深的洪水淹没。迄今为止，应急服务人员和士兵进入被淹停车场，常常在有限光线下持续搜寻至夜间，乘皮划艇或在齐颈深的水中步行。据首相佩德罗·桑切斯称，应急部队迄今已救出约4,800人，并帮助30,000多人。 ",
+          "start_offset": 143,
+          "end_offset": 319,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure",
+            "damage",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "bonaire_capacity",
+              "value": 5700,
+              "unit": "parking spaces"
+            },
+            {
+              "attribute": "bonaire_water_depth",
+              "value": {
+                "value": 3,
+                "qualifier": "greater_than"
+              },
+              "unit": "m"
+            },
+            {
+              "attribute": "rescued",
+              "value": {
+                "value": 4800,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "helped",
+              "value": {
+                "value": 30000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "居民被警告留在家中——感觉被政府遗弃后，大批志愿者带着水桶、铲子和扫帚走上街头参加清理工作。但由于预计该地区将迎来更多强降雨，另有警告要求人们留在家中并远离道路。政府因缺乏准备及危机管理不力而受到审视。瓦伦西亚地区政府直到星期二晚上8时才向手机发送洪水警报，而当时部分地方已发生洪水，国家气象机构也已发布强降雨红色警报。星期日早些时候，一群愤怒居民向访问瓦伦西亚郊区派波尔塔市的西班牙国王、王后和政府官员投掷泥巴，该市是本地区受灾最严重城市之一。",
+          "start_offset": 319,
+          "end_offset": 542,
+          "sentence_ids": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "response",
+            "public_reaction",
+            "weather",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "phone_warning_time",
+              "value": "星期二20:00",
+              "unit": null
+            },
+            {
+              "attribute": "warning_context",
+              "value": "部分地方已经发生洪水",
+              "unit": null
+            },
+            {
+              "attribute": "royal_visit_location",
+              "value": "派波尔塔",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "86c393a4995814c4ce02d8bfd7b4ffc44da334e330b89da23380f934168a2943",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "报道的死亡人数和找到的遗体数量使用不同指标",
+        "fact_type": "casualties",
+        "attribute": "death_toll_and_recovered_bodies",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": {
+              "value": 217,
+              "qualifier": "greater_than",
+              "scope": "死亡人数"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": {
+              "value": 217,
+              "scope": "死亡人数"
+            },
+            "unit": "people",
+            "attribution": "authorities"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "value": 214,
+              "qualifier": "at_least",
+              "scope": "发现的遗体数量"
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "前两篇报道未提供共同死亡人数统计截止时间。发现遗体的数量属于单独指标。"
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "居民在王室访问派波尔塔期间抗议",
+        "fact_type": "public_reaction",
+        "attribute": "paiporta_royal_visit",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "星期日，愤怒居民和泥巴",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "星期日，敌意和泥巴",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": "星期日，愤怒居民投掷泥巴",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "更多救援人员被部署至瓦伦西亚",
+        "fact_type": "response",
+        "attribute": "personnel_deployment",
+        "supporting_spans": [
+          "A002_F007",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F007",
+            "value": "计划再部署5,000名士兵及5,000名警察；瓦伦西亚市附近重灾区目前已部署3,600多名军事人员",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": "约5,000名士兵已抵达，另有4,500人已在当地；预计再抵达5,000人",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "人员类型、部署地区和实际到达人数不同。"
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "被淹地下车库阻碍搜寻",
+        "fact_type": "response",
+        "attribute": "garage_search_operations",
+        "supporting_spans": [
+          "A002_F006",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F006",
+            "value": "在车库和隧道中搜寻困难",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "军方及消防员排空车库积水",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001"
+      ],
+      "important_facts": [
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2024-10-29",
+          "time_precision": "Local date",
+          "description": "强降雨引发洪水，地区政府于当天晚间发送手机警报。",
+          "supporting_spans": [
+            "A002_F008",
+            "A003_F004"
+          ]
+        },
+        {
+          "time": "2024-11-03",
+          "time_precision": "Local date",
+          "description": "居民在王室到访派波尔塔期间抗议，搜救仍在继续。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F001",
+            "A003_F003",
+            "A003_F004"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "强降雨导致水道水位迅速上涨。汽车、泥浆和积水堵塞通道并阻碍搜寻。",
+          "supporting_spans": [
+            "A002_F008",
+            "A003_F003"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "洪水造成多人死亡，对失踪人员的搜寻仍在继续。王室访问期间，居民表达了对救灾响应和预警的愤怒。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A002_F002",
+            "A003_F003",
+            "A003_F004"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "A002 最后一张照片的说明称至少213人，正文称217人。两者均出现在同一篇文章中，不计为独立报道。"
+    ]
+  }
+}

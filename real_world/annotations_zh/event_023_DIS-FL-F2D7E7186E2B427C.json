@@ -1,0 +1,808 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-FL-F2D7E7186E2B427C",
+  "event_rank": 23,
+  "event_metadata": {
+    "event_name": "巴西洪水",
+    "disaster_type": "flood",
+    "disaster_type_code": "FL",
+    "event_start_time": "2024-04-23T01:00:00+00:00",
+    "event_end_time": "2024-05-17T01:00:00+00:00",
+    "locations": [
+      "巴西"
+    ],
+    "latitude": -8.1356,
+    "longitude": -35.8566,
+    "place_names_in_reports": [
+      "巴西",
+      "南里奥格兰德州",
+      "阿雷格里港",
+      "新汉堡市",
+      "本图贡萨尔维斯",
+      "乌拉圭北部"
+    ],
+    "gdacs_id": "1102592",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "A001 中的4月27日标志着持续降雨开始。A002 中的4月29日指严重风暴导致地区被淹的时段。"
+    ],
+    "dataset_place_name": "巴西洪水",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-1C3C025B37A7DFBE",
+      "event_id": "DIS-FL-F2D7E7186E2B427C",
+      "event_rank": 23,
+      "article_rank": 1,
+      "title": "与厄尔尼诺有关的创纪录降雨导致巴西异常洪水 | 科学与环境",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/science-environment/2930052-record-rainfall-linked-to-el-nino-causes-unusual-flooding-in-brazil",
+      "published_at": "2024-05-07T08:19:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "Devdiscourse 援引 WMO 活动和 INMET，表明可能转载机构报道。未显示原始署名。",
+      "content": "与厄尔尼诺有关的创纪录降雨在巴西南部南里奥格兰德州造成前所未有的洪水，伤亡人数、基础设施和经济损失持续增加。目前没有即将缓解的迹象。\n\n据南里奥格兰德州民防部门称，已确认78人死亡、105人失踪、175人受伤。近19,000人无家可归，近116,000人流离失所，341个市镇近850,000人受到影响。\n\n南里奥格兰德州民防部门报告，国家当局已通过救援和应急行动救出1,000人。巴西总统卢拉·达席尔瓦视察受灾最严重地区，并宣布一揽子紧急措施以帮助受害者。\n\n图像显示洪水影响范围巨大。州首府阿雷格里港的机场已经关闭，交通联系和能源供应中断。\n\n欧盟哥白尼应急管理服务（EMSR720）于5月3日启动快速制图模式，以提供洪水范围和损失评估。\n\n巴西灾害以及东非持续发生的洪水凸显需要更加综合地应对厄尔尼诺及气候变化影响，并实现全民早期预警，正如世界气象组织在5月1日联合国特别专题活动中呼吁的那样。\n\n巴西国家气象及水文学部门 INMET 于5月6日再次发布风暴红色警报，警告可能出现中度至局地强降雨和雷暴，以及非常高的水文风险。这些情况也正在影响乌拉圭北部。\n\n据 INMET 称，自4月27日以来，南里奥格兰德州许多地区受到持续强降雨袭击。部分地区尤其是广阔的中部山谷、高原、山坡和都会区，在不到一周的时间内降雨量超过300毫米。例如本图贡萨尔维斯市的降雨量达到543.4毫米。\n\n阿雷格里港在短短三天内降雨量达到258.6毫米，与4月（114.4毫米）及5月（112.8毫米）的气候常年值相比，相当于两个多月的降雨量。\n\n2024年4月底至5月初仍处于厄尔尼诺影响之下。这一导致太平洋海水变暖的现象帮助阻挡冷锋，使不稳定天气系统集中于南里奥格兰德州上空。\n\nINMET 表示，除此之外，靠近赤道带的南大西洋海水温度显著升高也增加了湿度，加剧降雨。来自亚马孙地区的水汽输送，以及南部地区以北较暖空气和南里奥格兰德州以南较冷空气之间的热力差异，也帮助增强了风暴。\n\n世界气象组织将于5月8日发布《2023年拉丁美洲和加勒比地区气候状况》报告，考察过去一年厄尔尼诺和气候变化对该地区的影响。这也是5月1日至2日世界气象组织秘书长塞莱丝特·绍洛在智利与政府领导人会晤的重要议题。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "与厄尔尼诺有关的创纪录降雨在巴西南部南里奥格兰德州造成前所未有的洪水，伤亡人数、基础设施和经济损失持续增加。目前没有即将缓解的迹象。\n\n",
+          "start_offset": 0,
+          "end_offset": 68,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "cause"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "据南里奥格兰德州民防部门称，已确认78人死亡、105人失踪、175人受伤。近19,000人无家可归，近116,000人流离失所，341个市镇近850,000人受到影响。\n\n",
+          "start_offset": 68,
+          "end_offset": 154,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "missing_persons",
+            "evacuation",
+            "affected_population"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": 78,
+              "unit": "people"
+            },
+            {
+              "attribute": "missing",
+              "value": 105,
+              "unit": "people"
+            },
+            {
+              "attribute": "injured",
+              "value": 175,
+              "unit": "people"
+            },
+            {
+              "attribute": "homeless",
+              "value": {
+                "value": 19000,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "displaced",
+              "value": {
+                "value": 116000,
+                "qualifier": "almost"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "affected",
+              "value": {
+                "value": 850000,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "municipalities",
+              "value": 341,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "南里奥格兰德州民防部门报告，国家当局已通过救援和应急行动救出1,000人。巴西总统卢拉·达席尔瓦视察受灾最严重地区，并宣布一揽子紧急措施以帮助受害者。\n\n",
+          "start_offset": 154,
+          "end_offset": 231,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "response",
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "rescued",
+              "value": 1000,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "图像显示洪水影响范围巨大。州首府阿雷格里港的机场已经关闭，交通联系和能源供应中断。\n\n欧盟哥白尼应急管理服务（EMSR720）于5月3日启动快速制图模式，以提供洪水范围和损失评估。\n\n",
+          "start_offset": 231,
+          "end_offset": 323,
+          "sentence_ids": [
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "airport_status",
+              "value": "阿雷格里港机场关闭",
+              "unit": null
+            },
+            {
+              "attribute": "rapid_mapping_activated",
+              "value": "2024-05-03",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "巴西灾害以及东非持续发生的洪水凸显需要更加综合地应对厄尔尼诺及气候变化影响，并实现全民早期预警，正如世界气象组织在5月1日联合国特别专题活动中呼吁的那样。\n\n巴西国家气象及水文学部门 INMET 于5月6日再次发布风暴红色警报，警告可能出现中度至局地强降雨和雷暴，以及非常高的水文风险。这些情况也正在影响乌拉圭北部。\n\n",
+          "start_offset": 323,
+          "end_offset": 483,
+          "sentence_ids": [
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "response",
+            "weather"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "inmet_red_alert",
+              "value": "2024-05-06",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "据 INMET 称，自4月27日以来，南里奥格兰德州许多地区受到持续强降雨袭击。部分地区尤其是广阔的中部山谷、高原、山坡和都会区，在不到一周的时间内降雨量超过300毫米。例如本图贡萨尔维斯市的降雨量达到543.4毫米。\n\n阿雷格里港在短短三天内降雨量达到258.6毫米，与4月（114.4毫米）及5月（112.8毫米）的气候常年值相比，相当于两个多月的降雨量。\n\n",
+          "start_offset": 483,
+          "end_offset": 665,
+          "sentence_ids": [
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "persistent_rain_since",
+              "value": "2024-04-27",
+              "unit": null
+            },
+            {
+              "attribute": "bento_goncalves_rain",
+              "value": 543.4,
+              "unit": "mm"
+            },
+            {
+              "attribute": "porto_alegre_three_day_rain",
+              "value": 258.6,
+              "unit": "mm"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "2024年4月底至5月初仍处于厄尔尼诺影响之下。这一导致太平洋海水变暖的现象帮助阻挡冷锋，使不稳定天气系统集中于南里奥格兰德州上空。\n\nINMET 表示，除此之外，靠近赤道带的南大西洋海水温度显著升高也增加了湿度，加剧降雨。来自亚马孙地区的水汽输送，以及南部地区以北较暖空气和南里奥格兰德州以南较冷空气之间的热力差异，也帮助增强了风暴。\n\n",
+          "start_offset": 665,
+          "end_offset": 835,
+          "sentence_ids": [
+            18,
+            19,
+            20,
+            21
+          ],
+          "fact_types": [
+            "weather",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "drivers",
+              "value": [
+                "厄尔尼诺",
+                "温暖的南大西洋海水",
+                "亚马孙水汽",
+                "热力差异"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F008",
+          "span_text": "世界气象组织将于5月8日发布《2023年拉丁美洲和加勒比地区气候状况》报告，考察过去一年厄尔尼诺和气候变化对该地区的影响。这也是5月1日至2日世界气象组织秘书长塞莱丝特·绍洛在智利与政府领导人会晤的重要议题。",
+          "start_offset": 835,
+          "end_offset": 939,
+          "sentence_ids": [
+            22,
+            23
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "0583b7cef7b93cdb3896355ef7df67317c4ff1d4f1031da45de0a5be0affd2e0",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-22BE9210968EC54D",
+      "event_id": "DIS-FL-F2D7E7186E2B427C",
+      "event_rank": 23,
+      "article_rank": 2,
+      "title": "巴西南里奥格兰德州洪水过后",
+      "publisher": "xinhuanet-english",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20240507/b1796a33728345cbb570a4f6eb045372/c.html",
+      "published_at": "2024-05-07T09:02:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "新华社摄影记者克劳迪娅·马蒂尼拍摄的现场照片。",
+      "content": "2024年5月6日，巴西南里奥格兰德州新汉堡市，人们走在被淹的街道上。 自4月29日以来，强风暴淹没巴西南部南里奥格兰德州大片地区。该州334座城市已有超过100,000人撤离。 （克劳迪娅·马蒂尼/新华社 摄）\n\n2024年5月6日，巴西南里奥格兰德州新汉堡市，受洪水影响的儿童在避难所玩耍。自4月29日以来，强风暴淹没巴西南部南里奥格兰德州大片地区。该州334座城市已有超过100,000人撤离。（克劳迪娅·马蒂尼/新华社 摄）\n\n这张摄于2024年5月6日的照片显示巴西南里奥格兰德州新汉堡市一条被淹的街道。自4月29日以来，强风暴淹没巴西南部南里奥格兰德州大片地区。该州334座城市已有超过100,000人撤离。（克劳迪娅·马蒂尼/新华社 摄）\n\n2024年5月6日，巴西南里奥格兰德州新汉堡市，志愿者向受洪水影响的居民分发食物。自4月29日以来，强风暴淹没巴西南部南里奥格兰德州大片地区。该州334座城市已有超过100,000人撤离。（克劳迪娅·马蒂尼/新华社 摄）\n\n2024年5月6日，巴西南里奥格兰德州新汉堡市，志愿者在避难所整理发给受洪水影响居民的救灾物资。自4月29日以来，强风暴淹没巴西南部南里奥格兰德州大片地区。该州334座城市已有超过100,000人撤离。（克劳迪娅·马蒂尼/新华社 摄）\n\n2024年5月6日，巴西南里奥格兰德州新汉堡市，受洪水影响的居民在帐篷旁休息。自4月29日以来，强风暴淹没巴西南部南里奥格兰德州大片地区。该州334座城市已有超过100,000人撤离。（克劳迪娅·马蒂尼/新华社 摄）",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "2024年5月6日，巴西南里奥格兰德州新汉堡市，人们走在被淹的街道上。 ",
+          "start_offset": 0,
+          "end_offset": 36,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "自4月29日以来，强风暴淹没巴西南部南里奥格兰德州大片地区。该州334座城市已有超过100,000人撤离。 ",
+          "start_offset": 36,
+          "end_offset": 90,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "storm_inundation_since",
+              "value": "2024-04-29",
+              "unit": null
+            },
+            {
+              "attribute": "evacuated",
+              "value": {
+                "value": 100000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "cities",
+              "value": 334,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "（克劳迪娅·马蒂尼/新华社 摄）\n\n2024年5月6日，巴西南里奥格兰德州新汉堡市，受洪水影响的儿童在避难所玩耍。自4月29日以来，强风暴淹没巴西南部南里奥格兰德州大片地区。该州334座城市已有超过100,000人撤离。（克劳迪娅·马蒂尼/新华社 摄）\n\n这张摄于2024年5月6日的照片显示巴西南里奥格兰德州新汉堡市一条被淹的街道。自4月29日以来，强风暴淹没巴西南部南里奥格兰德州大片地区。该州334座城市已有超过100,000人撤离。（克劳迪娅·马蒂尼/新华社 摄）\n\n2024年5月6日，巴西南里奥格兰德州新汉堡市，志愿者向受洪水影响的居民分发食物。自4月29日以来，强风暴淹没巴西南部南里奥格兰德州大片地区。该州334座城市已有超过100,000人撤离。（克劳迪娅·马蒂尼/新华社 摄）\n\n2024年5月6日，巴西南里奥格兰德州新汉堡市，志愿者在避难所整理发给受洪水影响居民的救灾物资。自4月29日以来，强风暴淹没巴西南部南里奥格兰德州大片地区。该州334座城市已有超过100,000人撤离。（克劳迪娅·马蒂尼/新华社 摄）\n\n2024年5月6日，巴西南里奥格兰德州新汉堡市，受洪水影响的居民在帐篷旁休息。自4月29日以来，强风暴淹没巴西南部南里奥格兰德州大片地区。该州334座城市已有超过100,000人撤离。（克劳迪娅·马蒂尼/新华社 摄）",
+          "start_offset": 90,
+          "end_offset": 667,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "20007bc53ec2d1d58f1aef926bfdb14cae9d9c24f93b84d251d0117761b12d55",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-54E12BC42A6C80FC",
+      "event_id": "DIS-FL-F2D7E7186E2B427C",
+      "event_rank": 23,
+      "article_rank": 3,
+      "title": "巴西洪水：过去与现在——图片报道",
+      "publisher": "guardian",
+      "identified_publisher": null,
+      "source_domain": "theguardian.com",
+      "url": "https://www.theguardian.com/world/article/2024/may/08/flooding-in-brazil-then-and-now-in-pictures",
+      "published_at": "2024-05-08T10:02:41+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "《卫报》图片专题引用当地民防部门。清理后的稿件缺少专题署名。",
+      "content": "南里奥格兰德州毁灭性洪水已造成约90人死亡，幸存者正在寻找食物和住所。\n\n上周开始的强降雨导致河流泛滥，淹没整个城镇，摧毁巴西南部南里奥格兰德州各地道路和桥梁。\n\n当地民防部门称，死亡人数已升至90人，另有131人下落不明，155,000人无家可归。 随着救援工作持续，南里奥格兰德州497个城镇和城市中已有397个宣布进入紧急状态。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "南里奥格兰德州毁灭性洪水已造成约90人死亡，幸存者正在寻找食物和住所。\n\n",
+          "start_offset": 0,
+          "end_offset": 37,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 90,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "上周开始的强降雨导致河流泛滥，淹没整个城镇，摧毁巴西南部南里奥格兰德州各地道路和桥梁。\n\n",
+          "start_offset": 37,
+          "end_offset": 82,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "damage",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "当地民防部门称，死亡人数已升至90人，另有131人下落不明，155,000人无家可归。 ",
+          "start_offset": 82,
+          "end_offset": 126,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "casualties",
+            "missing_persons",
+            "evacuation",
+            "affected_population"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": 90,
+              "unit": "people"
+            },
+            {
+              "attribute": "missing",
+              "value": 131,
+              "unit": "people"
+            },
+            {
+              "attribute": "homeless",
+              "value": 155000,
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "当地民防部门",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "随着救援工作持续，南里奥格兰德州497个城镇和城市中已有397个宣布进入紧急状态。",
+          "start_offset": 126,
+          "end_offset": 167,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "municipalities_under_emergency",
+              "value": 397,
+              "unit": null
+            },
+            {
+              "attribute": "state_municipalities",
+              "value": 497,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "99e91c35c9927d160cb9a35ccfc437e477f1a4ebd47e400aa959728bba112158",
+        "removed_word_count": 169,
+        "removed_word_ratio": 0.6450381679389313
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "州民防部门将报道的死亡人数从78人增加至90人",
+        "fact_type": "casualties",
+        "attribute": "reported_deaths",
+        "supporting_spans": [
+          "A001_F002",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 78,
+            "unit": "people",
+            "attribution": "Rio Grande do Sul Civil Defense"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": 90,
+            "unit": "people",
+            "attribution": "local civil defence"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "temporal_update",
+        "temporal_relation": "earlier_later",
+        "annotation_note": "A003 明确报道人数增加，并且晚一天发布。"
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "两个失踪人数统计值",
+        "fact_type": "missing_persons",
+        "attribute": "reported_missing",
+        "supporting_spans": [
+          "A001_F002",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 105,
+            "unit": "people",
+            "attribution": "state civil defence"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": 131,
+            "unit": "people",
+            "attribution": "local civil defence"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "统计截止时间不明确，差异可能反映更新。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "受灾、撤离和无家可归人数采用不同指标",
+        "fact_type": "evacuation",
+        "attribute": "displacement_metrics",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F002",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": "近116,000人流离失所；近19,000人无家可归",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "334座城市超过100,000人撤离",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "155,000人无家可归",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "南里奥格兰德州持续降雨和洪水",
+        "fact_type": "disaster_occurrence",
+        "attribute": "flood_extent",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "南里奥格兰德州前所未有的洪水",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "自4月29日起风暴淹没大片地区",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "河流泛滥淹没城镇；道路和桥梁被毁",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "important_facts": [
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2024-04-27",
+          "time_precision": "Agency bulletin date",
+          "description": "INMET 报道自4月27日起该州许多地区出现持续强降雨。",
+          "supporting_spans": [
+            "A001_F006"
+          ]
+        },
+        {
+          "time": "2024-05-03",
+          "time_precision": "Local date",
+          "description": "哥白尼启动快速制图。",
+          "supporting_spans": [
+            "A001_F004"
+          ]
+        },
+        {
+          "time": "2024-05-08",
+          "time_precision": "Publication date",
+          "description": "《卫报》援引州民防部门报道90人死亡。",
+          "supporting_spans": [
+            "A003_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "INMET 将持续强降雨与厄尔尼诺及数种水汽和温度因素联系起来。",
+          "supporting_spans": [
+            "A001_F007"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "南里奥格兰德州大范围受淹，造成人员伤亡、撤离及道路桥梁损坏。许多市镇宣布进入紧急状态。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F002",
+            "A003_F002",
+            "A003_F003",
+            "A003_F004"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "A002 多张图片重复同一撤离人数。仅提取第一次出现的数据作为证据。"
+    ]
+  }
+}

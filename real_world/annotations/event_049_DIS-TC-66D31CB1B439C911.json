@@ -822,7 +822,7 @@
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "亮信台和南卡当局均预警大风洪水",
+        "cluster_description": "佛州媒体和南卡当局均预警大风洪水",
         "fact_type": "weather",
         "attribute": "southeastern_hazard_forecasts",
         "supporting_spans": [

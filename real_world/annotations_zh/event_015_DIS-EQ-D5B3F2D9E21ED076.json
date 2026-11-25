@@ -1,0 +1,771 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-D5B3F2D9E21ED076",
+  "event_rank": 15,
+  "event_metadata": {
+    "event_name": "哥伦比亚地震",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2025-06-08T13:08:06+00:00",
+    "event_end_time": "2025-06-08T13:08:06+00:00",
+    "locations": [
+      "哥伦比亚"
+    ],
+    "latitude": 4.5125,
+    "longitude": -73.1444,
+    "place_names_in_reports": [
+      "哥伦比亚",
+      "波哥大",
+      "帕拉特布埃诺",
+      "安塞尔马努埃沃"
+    ],
+    "gdacs_id": "1485124",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "事件 CSV 记录的时间为 2025-06-08T13:08:06Z。两篇转载法新社的报道均称当地时间星期六 09:08 发生地震。新华社援引 GFZ 的消息，称地震发生于星期日格林尼治标准时间 13:08:07。"
+    ],
+    "dataset_place_name": "哥伦比亚地震",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-4C7D550829BA9273",
+      "event_id": "DIS-EQ-D5B3F2D9E21ED076",
+      "event_rank": 15,
+      "article_rank": 1,
+      "title": "6.3级强烈地震震动波哥大",
+      "publisher": "menafn",
+      "identified_publisher": "AFP",
+      "source_domain": "menafn.com",
+      "url": "https://menafn.com/1109649503/Powerful-63-Magnitude-Quake-Shakes-Bogota",
+      "published_at": "2025-06-08T00:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "正文明确提及法新社记者及其核实工作，两个转载版本几乎完全相同。",
+      "content": "波哥大：据法新社现场记者和美国地质调查局消息，星期六早些时候，一场6.3级强烈浅源地震震动了哥伦比亚首都波哥大。\n\n美国地质调查局称，这场浅源地震于当地时间9:08发生在哥伦比亚中部帕拉特布埃诺市附近，位于波哥大以东约170公里（105英里）。\n\n首都各处建筑物摇晃，警报声四起，人们纷纷涌上街头。社交媒体用户发布了灯具和家具摇晃的视频，但法新社未能立即核实这些画面。\n\n数十名身穿睡衣的人聚集在公园及建筑物外，家长们努力安抚受到惊吓的孩子，还有一些人在寻找跑丢的宠物。\n\n“这次地震非常强烈，”波哥大一名正努力走下几段楼梯的老妇人说。\n\n哥伦比亚中部位于地震活动频繁的区域。1999年，该地区在安塞尔马努埃沃附近发生了一场6.2级地震，造成近1,200人死亡。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "波哥大：据法新社现场记者和美国地质调查局消息，星期六早些时候，一场6.3级强烈浅源地震震动了哥伦比亚首都波哥大。\n\n",
+          "start_offset": 0,
+          "end_offset": 58,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 6.3,
+              "unit": null
+            },
+            {
+              "attribute": "reported_day",
+              "value": "星期六",
+              "unit": null
+            },
+            {
+              "attribute": "reference",
+              "value": "法新社（AFP）和美国地质调查局（USGS）",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "美国地质调查局称，这场浅源地震于当地时间9:08发生在哥伦比亚中部帕拉特布埃诺市附近，位于波哥大以东约170公里（105英里）。\n\n",
+          "start_offset": 58,
+          "end_offset": 124,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_local_time",
+              "value": "09:08",
+              "unit": null
+            },
+            {
+              "attribute": "epicenter_near",
+              "value": "帕拉特布埃诺",
+              "unit": null
+            },
+            {
+              "attribute": "distance_east_of_bogota",
+              "value": {
+                "value": 170,
+                "qualifier": "some"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "attribution",
+              "value": "USGS",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "首都各处建筑物摇晃，警报声四起，人们纷纷涌上街头。社交媒体用户发布了灯具和家具摇晃的视频，但法新社未能立即核实这些画面。\n\n数十名身穿睡衣的人聚集在公园及建筑物外，家长们努力安抚受到惊吓的孩子，还有一些人在寻找跑丢的宠物。\n\n“这次地震非常强烈，”波哥大一名正努力走下几段楼梯的老妇人说。\n\n",
+          "start_offset": 124,
+          "end_offset": 270,
+          "sentence_ids": [
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "affected_population",
+            "public_reaction",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "observed_reactions",
+              "value": [
+                "建筑物摇晃",
+                "警报响起",
+                "人们聚集在室外"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "video_status",
+              "value": "法新社未能立即核实",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "哥伦比亚中部位于地震活动频繁的区域。1999年，该地区在安塞尔马努埃沃附近发生了一场6.2级地震，造成近1,200人死亡。",
+          "start_offset": 270,
+          "end_offset": 331,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "1999年的另一次地震",
+              "unit": null
+            },
+            {
+              "attribute": "magnitude",
+              "value": 6.2,
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 1200,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "3f4441f0dd35638b16fa4f35c23aa7f0311239efe7817fb65bdec2a39f368016",
+        "removed_word_count": 69,
+        "removed_word_ratio": 0.2936170212765957
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-BAF9D4C341B0293E",
+      "event_id": "DIS-EQ-D5B3F2D9E21ED076",
+      "event_rank": 15,
+      "article_rank": 2,
+      "title": "快讯：哥伦比亚发生6.5级地震——GFZ",
+      "publisher": "english-news-cn",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20250608/14cad382594d4d76bc08bac1d65eb811/c.html",
+      "published_at": "2025-06-08T13:28:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "新华社以北京为发稿地的报道基于 GFZ 公告，独立于法新社的现场报道。",
+      "content": "新华社北京6月8日电——德国地球科学研究中心（GFZ）称，星期日格林尼治标准时间13:08:07（北京时间21:08:07），哥伦比亚发生6.5级地震。\n\n震源深度为10.0公里，震中初步测定为北纬4.47度、西经73.07度。 ",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "新华社北京6月8日电——德国地球科学研究中心（GFZ）称，星期日格林尼治标准时间13:08:07（北京时间21:08:07），哥伦比亚发生6.5级地震。\n\n",
+          "start_offset": 0,
+          "end_offset": 78,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 6.5,
+              "unit": null
+            },
+            {
+              "attribute": "origin_time",
+              "value": "2025-06-08T13:08:07Z",
+              "unit": null
+            },
+            {
+              "attribute": "reported_day",
+              "value": "星期日",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "GFZ",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "震源深度为10.0公里，震中初步测定为北纬4.47度、西经73.07度。 ",
+          "start_offset": 78,
+          "end_offset": 115,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "location",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "depth",
+              "value": 10,
+              "unit": "km"
+            },
+            {
+              "attribute": "epicenter_latitude",
+              "value": 4.47,
+              "unit": "degrees north"
+            },
+            {
+              "attribute": "epicenter_longitude",
+              "value": 73.07,
+              "unit": "degrees west"
+            },
+            {
+              "attribute": "determination",
+              "value": "初步测定",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "241472d4a86aa2b8b7f976811d06a0ae898be40fe9d1c100e9cae61829cfbab8",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-FD7D11467F37732F",
+      "event_id": "DIS-EQ-D5B3F2D9E21ED076",
+      "event_rank": 15,
+      "article_rank": 3,
+      "title": "6.3级强烈地震震动哥伦比亚 刚刚发布 阅读需1分钟",
+      "publisher": "gulfnews",
+      "identified_publisher": "AFP",
+      "source_domain": "gulfnews.com",
+      "url": "https://gulfnews.com/world/americas/powerful-63-magnitude-earthquake-shakes-colombia-1.500156324",
+      "published_at": "2025-06-08T14:06:54+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "正文明确提及法新社记者及其核实工作，两个转载版本几乎完全相同。",
+      "content": "据法新社现场记者和美国地质调查局消息，星期六早些时候，一场6.3级强烈浅源地震震动了哥伦比亚首都波哥大。美国地质调查局称，这场浅源地震于当地时间9:08发生在哥伦比亚中部帕拉特布埃诺市附近，位于波哥大以东约170公里（105英里）。首都各处建筑物摇晃，警报声四起，人们纷纷涌上街头。社交媒体用户发布了灯具和家具摇晃的视频，但法新社未能立即核实这些画面。数十名身穿睡衣的人聚集在公园及建筑物外，家长们努力安抚受到惊吓的孩子，还有一些人在寻找跑丢的宠物。“这次地震非常强烈，”波哥大一名正努力走下几段楼梯的老妇人说。 哥伦比亚中部位于地震活动频繁的区域。1999年，该地区在安塞尔马努埃沃附近发生了一场6.2级地震，造成近1,200人死亡。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "据法新社现场记者和美国地质调查局消息，星期六早些时候，一场6.3级强烈浅源地震震动了哥伦比亚首都波哥大。",
+          "start_offset": 0,
+          "end_offset": 52,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 6.3,
+              "unit": null
+            },
+            {
+              "attribute": "reported_day",
+              "value": "星期六",
+              "unit": null
+            },
+            {
+              "attribute": "reference",
+              "value": "法新社（AFP）和美国地质调查局（USGS）",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "美国地质调查局称，这场浅源地震于当地时间9:08发生在哥伦比亚中部帕拉特布埃诺市附近，位于波哥大以东约170公里（105英里）。",
+          "start_offset": 52,
+          "end_offset": 116,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_local_time",
+              "value": "09:08",
+              "unit": null
+            },
+            {
+              "attribute": "epicenter_near",
+              "value": "帕拉特布埃诺",
+              "unit": null
+            },
+            {
+              "attribute": "distance_east_of_bogota",
+              "value": {
+                "value": 170,
+                "qualifier": "some"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "attribution",
+              "value": "USGS",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "首都各处建筑物摇晃，警报声四起，人们纷纷涌上街头。社交媒体用户发布了灯具和家具摇晃的视频，但法新社未能立即核实这些画面。数十名身穿睡衣的人聚集在公园及建筑物外，家长们努力安抚受到惊吓的孩子，还有一些人在寻找跑丢的宠物。“这次地震非常强烈，”波哥大一名正努力走下几段楼梯的老妇人说。 ",
+          "start_offset": 116,
+          "end_offset": 257,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "affected_population",
+            "public_reaction",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "observed_reactions",
+              "value": [
+                "建筑物摇晃",
+                "警报响起",
+                "人们聚集在室外"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "video_status",
+              "value": "法新社未能立即核实",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "哥伦比亚中部位于地震活动频繁的区域。1999年，该地区在安塞尔马努埃沃附近发生了一场6.2级地震，造成近1,200人死亡。",
+          "start_offset": 257,
+          "end_offset": 318,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "1999年的另一次地震",
+              "unit": null
+            },
+            {
+              "attribute": "magnitude",
+              "value": 6.2,
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 1200,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "874b0e1f35eb07cd90d71e3c96bc77dc988b60803c42e633ee51eebf8075c632",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "同一场地震的报道震级分别为6.3级与6.5级",
+        "fact_type": "disaster_magnitude",
+        "attribute": "reported_magnitude",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 6.3,
+            "unit": null,
+            "attribution": "AFP / USGS"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 6.5,
+            "unit": null,
+            "attribution": "GFZ"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": 6.3,
+            "unit": null,
+            "attribution": "AFP / USGS"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "震级估计来自不同机构，报道未说明是否采用相同的震级测定方法。两篇法新社报道使用了同一篇通讯社稿件。"
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "关于地震发生在星期六还是星期日，各报道说法不一致",
+        "fact_type": "timeline",
+        "attribute": "reported_weekday",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "星期六",
+            "unit": null,
+            "attribution": "AFP"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "星期日",
+            "unit": null,
+            "attribution": "GFZ"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": "星期六",
+            "unit": null,
+            "attribution": "AFP"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "conflicting",
+        "temporal_relation": "same_time",
+        "annotation_note": "对于同一事件，报道中所述的星期几互不相容。法新社报道的时间也可能涉及时区或编辑问题。由于未查阅原始公告及其修订版本，故标准答案值仍为 null。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "GFZ 初步估计震源深度为10公里",
+        "fact_type": "disaster_magnitude",
+        "attribute": "depth",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F002",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "浅源",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": 10,
+            "unit": "km",
+            "attribution": "GFZ"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": "浅源",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "波哥大居民感受到震动后走到室外",
+        "fact_type": "public_reaction",
+        "attribute": "public_reaction",
+        "supporting_spans": [
+          "A001_F003",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": "人们离开建筑物并聚集在室外",
+            "unit": null,
+            "attribution": "AFP"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "人们离开建筑物并聚集在室外",
+            "unit": null,
+            "attribution": "AFP"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": "重复转载的通讯社稿件无法提供独立佐证。"
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001"
+      ],
+      "important_facts": [
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-06-08T13:08:07Z",
+          "time_precision": "Second (GMT)",
+          "description": "GFZ 报告哥伦比亚发生地震，并提供了初步的震源深度和震中坐标。",
+          "supporting_spans": [
+            "A002_F001",
+            "A002_F002"
+          ]
+        },
+        {
+          "time": "震动期间及之后",
+          "time_precision": "Relative time",
+          "description": "法新社描述了波哥大建筑物摇晃、警报响起以及居民聚集在室外的情况。",
+          "supporting_spans": [
+            "A001_F003",
+            "A003_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "法新社报道称，强烈震动促使波哥大居民离开建筑物，来到街道和公园。",
+          "supporting_spans": [
+            "A001_F003",
+            "A003_F003"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "一场浅源地震震动了波哥大。法新社与基于 GFZ 消息的报道在震级和发生时间方面存在差异。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A002_F001",
+            "A002_F002",
+            "A003_F001"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": true,
+      "total_conflicts": 1,
+      "conflicts": [
+        {
+          "conflict_id": "C001",
+          "cluster_id": "FC002",
+          "attribute": "reported_weekday",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F001",
+            "A003_F001"
+          ],
+          "source_values": [
+            {
+              "article_id": "A001",
+              "fact_span_id": "A001_F001",
+              "value": "星期六",
+              "unit": null,
+              "attribution": "AFP"
+            },
+            {
+              "article_id": "A002",
+              "fact_span_id": "A002_F001",
+              "value": "星期日",
+              "unit": null,
+              "attribution": "GFZ"
+            },
+            {
+              "article_id": "A003",
+              "fact_span_id": "A003_F001",
+              "value": "星期六",
+              "unit": null,
+              "attribution": "AFP"
+            }
+          ],
+          "classification": "confirmed_conflict",
+          "resolution_status": "unresolved",
+          "gold_value": null,
+          "resolution_reason": "对于同一事件，报道中所述的星期几互不相容。法新社报道的时间也可能涉及时区或编辑问题。由于未查阅原始公告及其修订版本，故标准答案值仍为 null。"
+        }
+      ],
+      "unresolved_conflicts": [
+        "C001"
+      ]
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "1999年的伤亡数字属于背景信息。两篇法新社稿件的英文原文保留了原始编码和标点。"
+    ]
+  }
+}

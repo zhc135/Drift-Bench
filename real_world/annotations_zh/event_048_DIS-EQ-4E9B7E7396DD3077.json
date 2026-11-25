@@ -1,0 +1,727 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-4E9B7E7396DD3077",
+  "event_rank": 48,
+  "event_metadata": {
+    "event_name": "埃塞俄比亚地震",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2025-01-03T17:01:45+00:00",
+    "event_end_time": "2025-01-03T17:01:45+00:00",
+    "locations": [
+      "埃塞俄比亚"
+    ],
+    "latitude": 9.2986,
+    "longitude": 40.4246,
+    "place_names_in_reports": [
+      "埃塞俄比亚",
+      "阿法尔地区",
+      "多凡/多芬火山",
+      "阿瓦什芬塔莱",
+      "塞根托",
+      "阿斯贝泰费里",
+      "亚的斯亚贝巴"
+    ],
+    "gdacs_id": "1460546",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "A003 区分星期五的5.5级地震与星期六的5.8级事件。"
+    ],
+    "dataset_place_name": "埃塞俄比亚地震",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-1B074F2A2B98688F",
+      "event_id": "DIS-EQ-4E9B7E7396DD3077",
+      "event_rank": 48,
+      "article_rank": 1,
+      "title": "今日地震：埃塞俄比亚发生5.5级地震，引发对火山喷发的担忧",
+      "publisher": "menafn",
+      "identified_publisher": null,
+      "source_domain": "menafn.com",
+      "url": "https://menafn.com/1109053704/Earthquake-Today-55-Magnitude-Quake-Strikes-Ethiopia-Raises-Concern-Over-Volcanic-Eruption",
+      "published_at": "2025-01-03T00:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "republished",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "MENAFN 在多处注明阿纳多卢通讯社、EMSC 和 Fana，原始发布链不明确。",
+      "content": "EMSC 表示，地震震源深度为10公里（6.21英里）。\n\n当天早些时候，阿纳多卢通讯社报道埃塞俄比亚中部多凡火山发生喷发。据当地媒体报道，该地区近期频繁发生轻微地震。\n\n这些频繁地震引发人们对可能发生重大灾害的担忧，特别是在距亚的斯亚贝巴约142英里（230公里）的阿瓦什芬塔莱地区。\n\n近几周，该地区发生十多次轻微地震，引起当地居民关注。\n\n据国营 Fana 广播公司报道，地区行政官员阿卜杜·阿里表示，当局正努力通过将面临风险的居民转移到更安全地区，防止人员伤亡。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "EMSC 表示，地震震源深度为10公里（6.21英里）。\n\n",
+          "start_offset": 0,
+          "end_offset": 30,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_magnitude"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "friday_depth",
+              "value": 10,
+              "unit": "km"
+            },
+            {
+              "attribute": "attribution",
+              "value": "EMSC",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "当天早些时候，阿纳多卢通讯社报道埃塞俄比亚中部多凡火山发生喷发。据当地媒体报道，该地区近期频繁发生轻微地震。\n\n",
+          "start_offset": 30,
+          "end_offset": 86,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "secondary_hazard",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "dofan_activity",
+              "value": "阿纳多卢通讯社报道喷发",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "这些频繁地震引发人们对可能发生重大灾害的担忧，特别是在距亚的斯亚贝巴约142英里（230公里）的阿瓦什芬塔莱地区。\n\n近几周，该地区发生十多次轻微地震，引起当地居民关注。\n\n",
+          "start_offset": 86,
+          "end_offset": 173,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "location",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "distance_of_awash_fentale_from_addis_ababa",
+              "value": {
+                "value": 230,
+                "qualifier": "approximately"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "prior_minor_earthquakes",
+              "value": {
+                "value": 12,
+                "qualifier": "greater_than"
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "据国营 Fana 广播公司报道，地区行政官员阿卜杜·阿里表示，当局正努力通过将面临风险的居民转移到更安全地区，防止人员伤亡。",
+          "start_offset": 173,
+          "end_offset": 235,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "evacuation",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "Fana 转述阿卜杜·阿里",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "082cf08a19dcf7b3ca17f8f54002fd6d492271cf7fc44b7a683a8658dc344a2d",
+        "removed_word_count": 69,
+        "removed_word_ratio": 0.3689839572192513
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-81D2A2526D24120D",
+      "event_id": "DIS-EQ-4E9B7E7396DD3077",
+      "event_rank": 48,
+      "article_rank": 2,
+      "title": "埃塞俄比亚发生5.5级地震，火山喷发",
+      "publisher": "enca",
+      "identified_publisher": null,
+      "source_domain": "enca.com",
+      "url": "https://www.enca.com/news-top-stories/magnitude-55-quake-strikes-ethiopia-volcano-erupts",
+      "published_at": "2025-01-04T00:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "eNCA 从内罗毕发稿的文章依赖地震机构及埃塞俄比亚媒体，原始署名缺失。",
+      "content": "内罗毕——欧洲地中海地震中心（EMSC）及当地媒体表示，星期五埃塞俄比亚北部发生5.5级地震，数月地震活动增强后，当地一座火山喷发。\n\nEMSC 表示，此次地震震源深度约10公里，震中位于阿斯贝泰费里市西北约55公里处。\n\n迄今尚无人员受伤报告。\n\n据当地媒体报道，经过数月强烈地震活动，附近一座火山也发生喷发。\n\n地方官员阿登·贝拉告诉埃塞俄比亚广播机构 EBC，火山喷发发生在东北部阿法尔地区塞根托附近。\n\n贝拉补充说，火山口已停止释放烟雾，但熔岩仍从火山流出。他说，人员及牲畜已经撤离，但没有给出数量。\n\n据《亚的斯标准报》报道，美国地质调查局自9月下旬以来已在该地区记录超过67次地震，尤其是在东非大裂谷的一部分芬塔莱地区。\n\n受影响地区居民告诉该报，在地震越来越频繁且猛烈的地方，已有30多所房屋倒塌。\n\n一名当地居民告诉该报：“房屋每天都在倒塌。”",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "内罗毕——欧洲地中海地震中心（EMSC）及当地媒体表示，星期五埃塞俄比亚北部发生5.5级地震，数月地震活动增强后，当地一座火山喷发。\n\nEMSC 表示，此次地震震源深度约10公里，震中位于阿斯贝泰费里市西北约55公里处。\n\n",
+          "start_offset": 0,
+          "end_offset": 112,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 5.5,
+              "unit": null
+            },
+            {
+              "attribute": "depth",
+              "value": {
+                "value": 10,
+                "qualifier": "about"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "distance_nw_of_asbe_teferi",
+              "value": {
+                "value": 55,
+                "qualifier": "some"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "attribution",
+              "value": "EMSC",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "迄今尚无人员受伤报告。\n\n",
+          "start_offset": 112,
+          "end_offset": 125,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "injuries"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "injury_status",
+              "value": "迄今暂无报告",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "据当地媒体报道，经过数月强烈地震活动，附近一座火山也发生喷发。\n\n地方官员阿登·贝拉告诉埃塞俄比亚广播机构 EBC，火山喷发发生在东北部阿法尔地区塞根托附近。\n\n贝拉补充说，火山口已停止释放烟雾，但熔岩仍从火山流出。他说，人员及牲畜已经撤离，但没有给出数量。\n\n",
+          "start_offset": 125,
+          "end_offset": 256,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "secondary_hazard",
+            "evacuation",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "volcanic_activity",
+              "value": "据报发生喷发并出现熔岩",
+              "unit": null
+            },
+            {
+              "attribute": "scope",
+              "value": "阿法尔地区塞根托附近",
+              "unit": null
+            },
+            {
+              "attribute": "evacuated",
+              "value": "人员及牲畜；未提供数量",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "据《亚的斯标准报》报道，美国地质调查局自9月下旬以来已在该地区记录超过67次地震，尤其是在东非大裂谷的一部分芬塔莱地区。\n\n受影响地区居民告诉该报，在地震越来越频繁且猛烈的地方，已有30多所房屋倒塌。\n\n一名当地居民告诉该报：“房屋每天都在倒塌。”",
+          "start_offset": 256,
+          "end_offset": 380,
+          "sentence_ids": [
+            8,
+            9,
+            10
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "damage",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "earthquakes_since_late_september",
+              "value": {
+                "value": 67,
+                "qualifier": "greater_than"
+              },
+              "unit": null
+            },
+            {
+              "attribute": "houses_collapsed",
+              "value": {
+                "value": 30,
+                "qualifier": "greater_than"
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "a259152cbfb40d29a32ef812f37fdab1b1b996679f7f5fca8e9fb838af8a51ec",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-6B7BC63ABE2BCDDA",
+      "event_id": "DIS-EQ-4E9B7E7396DD3077",
+      "event_rank": 48,
+      "article_rank": 3,
+      "title": "埃塞俄比亚：因担忧火山喷发，数千人撤离",
+      "publisher": "deutschewelle-en",
+      "identified_publisher": null,
+      "source_domain": "dw.com",
+      "url": "https://www.dw.com/en/ethiopia-thousands-evacuate-over-volcanic-eruption-fears/a-71214223",
+      "published_at": "2025-01-04T01:57:20+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "德国之声转述路透社、Fana、埃塞俄比亚地质研究所及监测机构，没有独立署名。",
+      "content": "官员星期五表示，埃塞俄比亚东北部一座火山出现潜在危险活动迹象后，当局已开始疏散居民。\n\n国营 Fana 广播公司援引当地一名地区行政官员称，阿法尔地区平民被转移至临时避难所。\n\n埃塞俄比亚灾害风险管理委员会委员长希费劳·特克勒马里亚姆表示，将这一活动描述为喷发还为时过早，并补充说当局正在谨慎行事。\n\n他告诉路透社：“社区中的一些居民已经离开那些地区。我们也正准备有组织地开展这项工作。（转移社区人员）将根据预测进行。”\n\n埃塞俄比亚地质研究所在 Facebook 页面分享一段视频，显示似乎有尘埃和烟雾从长期休眠的多芬火山升起。\n\n然而，并非所有引发火山活动的因素都会导致全面喷发。\n\n据美国地质调查局和德国地球科学研究中心称，星期六埃塞俄比亚发生5.8级地震，震源深度约10公里（6英里）。\n\n欧洲地中海地震中心称，同一地区星期五还发生过5.5级地震。\n\n近几个月该地区已记录数十次地震及震动。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "官员星期五表示，埃塞俄比亚东北部一座火山出现潜在危险活动迹象后，当局已开始疏散居民。\n\n国营 Fana 广播公司援引当地一名地区行政官员称，阿法尔地区平民被转移至临时避难所。\n\n",
+          "start_offset": 0,
+          "end_offset": 89,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "evacuation",
+            "response",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "area",
+              "value": "阿法尔地区",
+              "unit": null
+            },
+            {
+              "attribute": "destination",
+              "value": "临时避难所",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "埃塞俄比亚灾害风险管理委员会委员长希费劳·特克勒马里亚姆表示，将这一活动描述为喷发还为时过早，并补充说当局正在谨慎行事。\n\n他告诉路透社：“社区中的一些居民已经离开那些地区。我们也正准备有组织地开展这项工作。（转移社区人员）将根据预测进行。”\n\n埃塞俄比亚地质研究所在 Facebook 页面分享一段视频，显示似乎有尘埃和烟雾从长期休眠的多芬火山升起。\n\n然而，并非所有引发火山活动的因素都会导致全面喷发。\n\n",
+          "start_offset": 89,
+          "end_offset": 294,
+          "sentence_ids": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "uncertainty",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "activity",
+              "value": [
+                "地质研究所视频中的尘埃及烟雾",
+                "委员长说将其归类为喷发还为时过早"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "据美国地质调查局和德国地球科学研究中心称，星期六埃塞俄比亚发生5.8级地震，震源深度约10公里（6英里）。\n\n欧洲地中海地震中心称，同一地区星期五还发生过5.5级地震。\n\n",
+          "start_offset": 294,
+          "end_offset": 380,
+          "sentence_ids": [
+            9,
+            10
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "saturday_magnitude",
+              "value": 5.8,
+              "unit": null
+            },
+            {
+              "attribute": "saturday_depth",
+              "value": {
+                "value": 10,
+                "qualifier": "about"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "friday_magnitude",
+              "value": 5.5,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "近几个月该地区已记录数十次地震及震动。",
+          "start_offset": 380,
+          "end_offset": 399,
+          "sentence_ids": [
+            11
+          ],
+          "fact_types": [
+            "disaster_occurrence"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "29bf03e362e71598205017603d0c3fb88c8b775246c38e3a529952611e778a9f",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "星期五的地震据报震级为5.5级",
+        "fact_type": "disaster_magnitude",
+        "attribute": "friday_magnitude",
+        "supporting_spans": [
+          "A002_F001",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 5.5,
+            "unit": null,
+            "attribution": "EMSC"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": 5.5,
+            "unit": null,
+            "attribution": "EMSC"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": "A003 另行报道星期六发生5.8级地震。A001 在标题中给出星期五的5.5级震级。"
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "星期五地震震源深度约10公里",
+        "fact_type": "disaster_magnitude",
+        "attribute": "friday_depth",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 10,
+            "unit": "km",
+            "attribution": "EMSC"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "value": 10,
+              "qualifier": "about"
+            },
+            "unit": "km",
+            "attribution": "EMSC"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "各报道未一致确认火山活动是否属于喷发",
+        "fact_type": "secondary_hazard",
+        "attribute": "eruption_confirmation",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F003",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": "阿纳多卢通讯社报道发生喷发",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": "地方官员报告喷发及熔岩",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "委员长说将其归类为喷发还为时过早",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "风险、观测时间及术语需要核实。缺乏确认并不等于否认。"
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "居民作为预防措施被转移",
+        "fact_type": "evacuation",
+        "attribute": "evacuation",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F003",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": "当局正在转移面临风险的人员",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": "已疏散人员及牲畜；无数量",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": "阿法尔地区居民被转移至临时避难所",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001"
+      ],
+      "important_facts": [
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-01-03",
+          "time_precision": "Local date",
+          "description": "星期五发生5.5级地震，埃塞俄比亚当局开始采取预防措施转移居民。",
+          "supporting_spans": [
+            "A001_F004",
+            "A002_F001",
+            "A003_F001",
+            "A003_F003"
+          ]
+        },
+        {
+          "time": "2025-01-04",
+          "time_precision": "Local date",
+          "description": "同一地区另据报发生5.8级地震。",
+          "supporting_spans": [
+            "A003_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "火山活动迹象及频繁地震促使当局进行预防性转移。",
+          "supporting_spans": [
+            "A001_F003",
+            "A001_F004",
+            "A003_F001"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "埃塞俄比亚东北部地震和火山活动促使预防性疏散，官方尚待确认是否发生喷发。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F001",
+            "A002_F003",
+            "A003_F001",
+            "A003_F002"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "不同地震的震级不构成冲突。房屋倒塌数字涵盖较早的地震群活动时段。"
+    ]
+  }
+}

@@ -1,0 +1,821 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-WF-CFB799140D500670",
+  "event_rank": 47,
+  "event_metadata": {
+    "event_name": "阿尔及利亚森林火灾",
+    "disaster_type": "wildfire",
+    "disaster_type_code": "WF",
+    "event_start_time": "2023-07-23T00:00:00+00:00",
+    "event_end_time": "2023-07-25T00:00:00+00:00",
+    "locations": [
+      "阿尔及利亚"
+    ],
+    "latitude": 36.7724,
+    "longitude": 4.7743,
+    "place_names_in_reports": [
+      "阿尔及利亚",
+      "贝贾亚",
+      "布维拉",
+      "吉杰勒",
+      "阿尔及尔",
+      "梅卢拉",
+      "突尼斯"
+    ],
+    "gdacs_id": "1015944",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "早期通报涵盖16个省，后续高峰期报道涵盖17个省。"
+    ],
+    "dataset_place_name": "阿尔及利亚森林火灾",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-0D6106EA6A334832",
+      "event_id": "DIS-WF-CFB799140D500670",
+      "event_rank": 47,
+      "article_rank": 1,
+      "title": "阿尔及利亚森林火灾造成15人死亡",
+      "publisher": "middleeastmonitor",
+      "identified_publisher": "Anadolu Agency",
+      "source_domain": "middleeastmonitor.com",
+      "url": "https://www.middleeastmonitor.com/20230724-forest-fires-kill-15-in-algeria/",
+      "published_at": "2023-07-24T14:17:31+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "正文明确注明阿纳多卢通讯社来源。",
+      "content": "2021年8月12日，在阿尔及利亚提济乌祖省贝尼杜阿拉镇，野火升起烟雾和火焰，地面及空中灭火行动仍在继续。[Mousaab Rouibi——阿纳多卢通讯社]\n\n据阿纳多卢通讯社报道，阿尔及利亚内政部星期一表示，一系列毁灭性森林火灾席卷阿尔及利亚北部数个省份，造成至少15人死亡、26人受伤。\n\n该部在声明中表示，星期日晚些时候记录到97起火灾，影响16个省的森林和农作物。\n\n该部指出，火势蔓延至一些村庄。\n\n内政部表示，已登记“15名遇难者和26名伤者，同时1,500名公民被疏散”。\n\n内政部表示，为扑救火灾，约7,500名民防人员已被部署。他们利用350辆不同规格的卡车，同时获得空中支援，以扑灭火灾并控制局势。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "2021年8月12日，在阿尔及利亚提济乌祖省贝尼杜阿拉镇，野火升起烟雾和火焰，地面及空中灭火行动仍在继续。[Mousaab Rouibi——阿纳多卢通讯社]\n\n",
+          "start_offset": 0,
+          "end_offset": 80,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "据阿纳多卢通讯社报道，阿尔及利亚内政部星期一表示，一系列毁灭性森林火灾席卷阿尔及利亚北部数个省份，造成至少15人死亡、26人受伤。\n\n该部在声明中表示，星期日晚些时候记录到97起火灾，影响16个省的森林和农作物。\n\n该部指出，火势蔓延至一些村庄。\n\n内政部表示，已登记“15名遇难者和26名伤者，同时1,500名公民被疏散”。\n\n",
+          "start_offset": 80,
+          "end_offset": 245,
+          "sentence_ids": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "injuries",
+            "disaster_magnitude",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 15,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injured",
+              "value": 26,
+              "unit": "people"
+            },
+            {
+              "attribute": "fires",
+              "value": 97,
+              "unit": null
+            },
+            {
+              "attribute": "provinces",
+              "value": 16,
+              "unit": null
+            },
+            {
+              "attribute": "evacuated",
+              "value": 1500,
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "内政部",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "内政部表示，为扑救火灾，约7,500名民防人员已被部署。他们利用350辆不同规格的卡车，同时获得空中支援，以扑灭火灾并控制局势。",
+          "start_offset": 245,
+          "end_offset": 309,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "personnel",
+              "value": {
+                "value": 7500,
+                "qualifier": "around"
+              },
+              "unit": null
+            },
+            {
+              "attribute": "trucks",
+              "value": 350,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "426b4b8ed3be9615f6354d7644a68582af963033c1e38f293faa28c4e756fcc7",
+        "removed_word_count": 28,
+        "removed_word_ratio": 0.15555555555555556
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-E6793095225406EF",
+      "event_id": "DIS-WF-CFB799140D500670",
+      "event_rank": 47,
+      "article_rank": 2,
+      "title": "阿尔及利亚野火肆虐，数十人死亡、数百人撤离",
+      "publisher": "ABCnews",
+      "identified_publisher": null,
+      "source_domain": "abcnews.go.com",
+      "url": "https://abcnews.go.com/ABCNews/International/dozens-dead-hundreds-evacuated-wildfires-rage-algeria/story?id=101628035",
+      "published_at": "2023-07-25T12:06:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "ABC News 援引数份政府通报，未提供记者署名。",
+      "content": "阿尔及利亚总统向遇难者家属表示哀悼。\n\n阿尔及利亚内政部宣布，当局正与阿尔及利亚北部肆虐的野火作斗争，至少34人已经死亡，另有数千人被迫撤离。\n\n至少8,000名消防员、529辆卡车、10支机动纵队和空中支援团队正在扑救野火，其中规模最大、最严重的火灾位于阿尔及尔以东的沿海省份贝贾亚、布维拉和吉杰勒。\n\n在高温和强风助长下，已经燃烧数天的野火蔓延至16个省的森林和农业地区，民防部门在这个非洲国家共记录到97处火点。\n\n阿尔及利亚国防部宣布，死者中包括10名参与灭火的人民国家军（ANP）士兵。\n\n阿尔及利亚内政部宣布，迄今至少1,500人已被疏散。\n\n阿尔及利亚农业和农村发展部敦促保持警惕，呼吁公民在灭火和救援行动仍在继续期间避免前往森林地区。\n\n该部表示：“鉴于该国部分省份创纪录的显著升温及森林火灾，农业和农村发展部呼吁所有公民，无论是居住在森林附近还是城市居民，都应避免前往森林，尤其是在这种异常气候条件下。”\n\n在邻国突尼斯，野火从阿尔及利亚迅速越过边境蔓延，当局也已从边境城镇梅卢拉疏散300人。\n\n阿尔及利亚正经历酷热夏季，星期一该国部分地区气温高达48摄氏度（118华氏度）。该地区也容易发生夏季野火。去年夏天，阿尔及利亚红新月会宣布，森林及城市地区发生的火灾造成至少43人死亡、200人受伤。\n\n阿尔及利亚红新月会表示：“阿尔及利亚每年夏季都会受到森林火灾影响，但由于气候变化引起干旱和热浪，遭受火灾影响的比率逐年增加。”\n\n阿尔及利亚总统阿卜杜勒马吉德·特本向火灾遇难者家属表示哀悼。\n\n他在声明中说：“面对这一巨大苦难，我向遇难者家属致以最深切的哀悼及诚挚的慰问。”\n\n阿尔及利亚当局宣布，尽管天气条件艰难、气温创纪录上升，灭火及救援行动仍在受灾地区继续，人员将保持动员状态直至完全扑灭火灾。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "阿尔及利亚总统向遇难者家属表示哀悼。\n\n",
+          "start_offset": 0,
+          "end_offset": 20,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "阿尔及利亚内政部宣布，当局正与阿尔及利亚北部肆虐的野火作斗争，至少34人已经死亡，另有数千人被迫撤离。\n\n",
+          "start_offset": 20,
+          "end_offset": 73,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "casualties",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 34,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "内政部",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "至少8,000名消防员、529辆卡车、10支机动纵队和空中支援团队正在扑救野火，其中规模最大、最严重的火灾位于阿尔及尔以东的沿海省份贝贾亚、布维拉和吉杰勒。\n\n在高温和强风助长下，已经燃烧数天的野火蔓延至16个省的森林和农业地区，民防部门在这个非洲国家共记录到97处火点。\n\n",
+          "start_offset": 73,
+          "end_offset": 211,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "response",
+            "weather",
+            "disaster_magnitude"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "firefighters",
+              "value": {
+                "value": 8000,
+                "qualifier": "at_least"
+              },
+              "unit": null
+            },
+            {
+              "attribute": "trucks",
+              "value": 529,
+              "unit": null
+            },
+            {
+              "attribute": "mobile_columns",
+              "value": 10,
+              "unit": null
+            },
+            {
+              "attribute": "fires",
+              "value": 97,
+              "unit": null
+            },
+            {
+              "attribute": "provinces",
+              "value": 16,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "阿尔及利亚国防部宣布，死者中包括10名参与灭火的人民国家军（ANP）士兵。\n\n阿尔及利亚内政部宣布，迄今至少1,500人已被疏散。\n\n",
+          "start_offset": 211,
+          "end_offset": 278,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "casualties",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "army_deaths",
+              "value": 10,
+              "unit": "people"
+            },
+            {
+              "attribute": "evacuated",
+              "value": {
+                "value": 1500,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "阿尔及利亚农业和农村发展部敦促保持警惕，呼吁公民在灭火和救援行动仍在继续期间避免前往森林地区。\n\n该部表示：“鉴于该国部分省份创纪录的显著升温及森林火灾，农业和农村发展部呼吁所有公民，无论是居住在森林附近还是城市居民，都应避免前往森林，尤其是在这种异常气候条件下。”\n\n",
+          "start_offset": 278,
+          "end_offset": 413,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "在邻国突尼斯，野火从阿尔及利亚迅速越过边境蔓延，当局也已从边境城镇梅卢拉疏散300人。\n\n",
+          "start_offset": 413,
+          "end_offset": 458,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "evacuation",
+            "secondary_hazard"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "突尼斯",
+              "unit": null
+            },
+            {
+              "attribute": "evacuated",
+              "value": 300,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "阿尔及利亚正经历酷热夏季，星期一该国部分地区气温高达48摄氏度（118华氏度）。该地区也容易发生夏季野火。去年夏天，阿尔及利亚红新月会宣布，森林及城市地区发生的火灾造成至少43人死亡、200人受伤。\n\n阿尔及利亚红新月会表示：“阿尔及利亚每年夏季都会受到森林火灾影响，但由于气候变化引起干旱和热浪，遭受火灾影响的比率逐年增加。”\n\n",
+          "start_offset": 458,
+          "end_offset": 624,
+          "sentence_ids": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "fact_types": [
+            "weather",
+            "cause",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "max_temperature",
+              "value": 48,
+              "unit": "°C"
+            },
+            {
+              "attribute": "historical_algeria_deaths",
+              "value": {
+                "value": 43,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "阿尔及利亚总统阿卜杜勒马吉德·特本向火灾遇难者家属表示哀悼。\n\n他在声明中说：“面对这一巨大苦难，我向遇难者家属致以最深切的哀悼及诚挚的慰问。”\n\n阿尔及利亚当局宣布，尽管天气条件艰难、气温创纪录上升，灭火及救援行动仍在受灾地区继续，人员将保持动员状态直至完全扑灭火灾。",
+          "start_offset": 624,
+          "end_offset": 759,
+          "sentence_ids": [
+            14,
+            15,
+            16
+          ],
+          "fact_types": [
+            "public_reaction",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "940ee406e5772f002b8cfac97bd33c628678c8530e702d5e82fe906aead79d67",
+        "removed_word_count": 9,
+        "removed_word_ratio": 0.020689655172413793
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-2E4C74408799921A",
+      "event_id": "DIS-WF-CFB799140D500670",
+      "event_rank": 47,
+      "article_rank": 3,
+      "title": "阿尔及利亚人悼念火灾遇难者 | Africanews",
+      "publisher": "en-africanews",
+      "identified_publisher": null,
+      "source_domain": "africanews.com",
+      "url": "https://www.africanews.com/2023/07/29/algerians-mourn-victims-of-fires/",
+      "published_at": "2023-07-29T09:56:27+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "Africanews 概述葬礼及部长公布的数据，没有明确原始署名。",
+      "content": "星期四，阿尔及利亚人为造成34人死亡的大火遇难者举行葬礼。\n\n野火肆虐数天，摧毁住宅并将大片森林变为焦土。\n\n一个小村庄中，16人在试图逃离火焰时死亡。\n\n阿尔及利亚总统阿卜杜勒马吉德·特本已向遇难者家属表示哀悼，其中包括在贝贾亚省被火焰困住的10名士兵。\n\n阿尔及利亚北部和东部每年夏天都会应对森林火灾，但今年地中海热浪使火灾加剧。\n\n内政部长卜拉欣·梅拉德表示，灾害高峰期，17个省份100多起火灾同时燃烧，迫使超过1,500人撤离。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "星期四，阿尔及利亚人为造成34人死亡的大火遇难者举行葬礼。\n\n野火肆虐数天，摧毁住宅并将大片森林变为焦土。\n\n一个小村庄中，16人在试图逃离火焰时死亡。\n\n阿尔及利亚总统阿卜杜勒马吉德·特本已向遇难者家属表示哀悼，其中包括在贝贾亚省被火焰困住的10名士兵。\n\n",
+          "start_offset": 0,
+          "end_offset": 130,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "public_reaction",
+            "damage"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "total_deaths",
+              "value": 34,
+              "unit": "people"
+            },
+            {
+              "attribute": "village_deaths",
+              "value": 16,
+              "unit": "people"
+            },
+            {
+              "attribute": "soldier_deaths",
+              "value": 10,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "阿尔及利亚北部和东部每年夏天都会应对森林火灾，但今年地中海热浪使火灾加剧。\n\n",
+          "start_offset": 130,
+          "end_offset": 169,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "weather",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "内政部长卜拉欣·梅拉德表示，灾害高峰期，17个省份100多起火灾同时燃烧，迫使超过1,500人撤离。",
+          "start_offset": 169,
+          "end_offset": 219,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "fires_at_peak",
+              "value": {
+                "value": 100,
+                "qualifier": "greater_than"
+              },
+              "unit": null
+            },
+            {
+              "attribute": "provinces",
+              "value": 17,
+              "unit": null
+            },
+            {
+              "attribute": "evacuated",
+              "value": {
+                "value": 1500,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "卜拉欣·梅拉德",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "0471bf1ae488c47d586227b400f4e5a1ea38dbac9e05c333923680843e2495b3",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "阿尔及利亚报道的死亡人数从至少15人升至34人",
+        "fact_type": "casualties",
+        "attribute": "death_toll",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F002",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": {
+              "value": 15,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": "Interior Ministry Monday"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": {
+              "value": 34,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": "Interior Ministry"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": 34,
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "temporal_update",
+        "temporal_relation": "earlier_later",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "高峰期火灾数量及涉及省份数量增加",
+        "fact_type": "disaster_occurrence",
+        "attribute": "fires_and_provinces",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F003",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": {
+              "fires": 97,
+              "provinces": 16
+            },
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": {
+              "fires": 97,
+              "provinces": 16
+            },
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": {
+              "fires_lower_bound_exclusive": 100,
+              "provinces": 17
+            },
+            "unit": null,
+            "attribution": "Brahim Merad"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "temporal_update",
+        "temporal_relation": "earlier_later",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "撤离人数约为1,500人或更多",
+        "fact_type": "evacuation",
+        "attribute": "evacuations",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F004",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 1500,
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": {
+              "value": 1500,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": {
+              "value": 1500,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "报道截止时间不同。"
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "10名参与灭火的士兵死亡",
+        "fact_type": "casualties",
+        "attribute": "soldier_deaths",
+        "supporting_spans": [
+          "A002_F004",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": 10,
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": 10,
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001"
+      ],
+      "important_facts": [
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2023-07-23",
+          "time_precision": "Local date",
+          "description": "内政部表示，星期日夜间记录到97起火灾。",
+          "supporting_spans": [
+            "A001_F002"
+          ]
+        },
+        {
+          "time": "2023-07-24/2023-07-25",
+          "time_precision": "Publication date",
+          "description": "数个省份持续开展灭火，报道的死亡人数增加。",
+          "supporting_spans": [
+            "A001_F002",
+            "A001_F003",
+            "A002_F002",
+            "A002_F003"
+          ]
+        },
+        {
+          "time": "2023-07-27",
+          "time_precision": "Date inferred from the weekday",
+          "description": "为遇难者举行了葬礼。",
+          "supporting_spans": [
+            "A003_F001"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "高温和强风使火灾加剧。",
+          "supporting_spans": [
+            "A002_F003",
+            "A003_F002"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "野火蔓延至数个北部省份，造成人员死亡及撤离，并促使大规模响应。",
+          "supporting_spans": [
+            "A001_F002",
+            "A001_F003",
+            "A002_F002",
+            "A003_F001",
+            "A003_F003"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "A001 的图片说明展示2021年的存档图像。突尼斯的人员撤离属于单独的跨境统计。"
+    ]
+  }
+}

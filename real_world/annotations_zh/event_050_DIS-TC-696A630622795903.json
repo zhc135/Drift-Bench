@@ -1,0 +1,1056 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-TC-696A630622795903",
+  "event_rank": 50,
+  "event_metadata": {
+    "event_name": "热带气旋 MAN-YI-24（万宜）",
+    "disaster_type": "tropical_cyclone",
+    "disaster_type_code": "TC",
+    "event_start_time": "2024-11-09T00:00:00+00:00",
+    "event_end_time": "2024-11-19T12:00:00+00:00",
+    "locations": [
+      "菲律宾",
+      "中国",
+      "关岛"
+    ],
+    "latitude": 18.1,
+    "longitude": 112.1,
+    "place_names_in_reports": [
+      "菲律宾",
+      "吕宋岛",
+      "潘加尼班",
+      "卡坦端内斯岛",
+      "迪帕库劳",
+      "奥罗拉省",
+      "圣费尔南多",
+      "拉乌尼翁省",
+      "邦阿西楠省",
+      "伊莎贝拉省",
+      "北甘马粦省",
+      "南伊罗戈省",
+      "西菲律宾海"
+    ],
+    "gdacs_id": "1001124",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "晚间及凌晨通报使用菲律宾当地时间。风速按登陆阶段和观测时间区分。"
+    ],
+    "dataset_place_name": "热带气旋 MAN-YI-24（万宜）",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-3FF2E81B2BD1BBE6",
+      "event_id": "DIS-TC-696A630622795903",
+      "event_rank": 50,
+      "article_rank": 1,
+      "title": "台风佩皮托离开吕宋岛陆地，但仍带来风雨",
+      "publisher": "rappler",
+      "identified_publisher": null,
+      "source_domain": "rappler.com",
+      "url": "https://www.rappler.com/philippines/weather/typhoon-pepito-update-pagasa-forecast-november-17-2024-11pm/",
+      "published_at": "2024-11-17T17:20:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "Rappler 报道实时天气简报，并基于 PAGASA 独立撰写追踪报道。",
+      "content": "已经拥有 Rappler+？登录收听具有突破性的新闻报道。\n\n佩皮托。2024年11月17日晚上10时台风佩皮托（万宜）的卫星图像。\n\n此内容由人工智能生成。请阅读文章了解完整背景。如有错误请报告。\n\n菲律宾马尼拉——峰值强度曾达超强台风的台风佩皮托（万宜）于11月17日星期日晚离开吕宋岛陆地，但仍位于拉乌尼翁及邦阿西楠省沿海附近。\n\n截至星期日晚10时，佩皮托已经位于拉乌尼翁省圣费尔南多沿海水域，仍以每小时25公里的速度向西北偏西方向移动。\n\n菲律宾大气、地球物理和天文服务管理局（PAGASA）在晚上11时之后的简报中表示，台风进一步减弱，最大持续风速从每小时165公里降至155公里。阵风也从最高每小时275公里降低至255公里。\n\n尽管佩皮托已不在陆地上，但鉴于台风的规模，许多地区仍悬挂1至4号信号。\n\n台风级大风（每小时118至184公里）：对生命和财产构成显著至严重威胁。\n\n风暴级大风（每小时89至117公里）：对生命和财产构成中等至显著威胁。\n\n烈风（每小时62至88公里）：对生命和财产构成较小至中等威胁。\n\n强风（每小时39至61公里）：对生命和财产构成极小至较小威胁。\n\n因佩皮托曾发布的最高热带气旋风力信号为5号信号。\n\n预计台风未来数小时不再引发猛烈至倾盆大雨，但以下各省仍将出现中到大雨或大到暴雨：\n\n此外，未来48小时，伊罗戈地区、卡加延大陆东南部、伊莎贝拉省、中吕宋、马尼拉大都会、甲米地省、奎松省东部沿海（包括波利略群岛）及北甘马粦省仍面临“危及生命”的风暴潮高风险，“峰值风暴潮高度超过3米”。 查看下方地图，并在此查看具体城市及市镇名单。\n\n佩皮托两次以超强台风强度登陆：第一次是11月16日星期六晚9:40在卡坦端内斯省潘加尼班登陆，第二次是星期日下午3:20在奥罗拉省迪帕库劳登陆。首次登陆时最大持续风速为每小时195公里，为其峰值强度；第二次登陆时最大持续风速为每小时185公里。\n\n佩皮托从奥罗拉省出发，经过季里诺省、新比斯开省、本格特省和拉乌尼翁省。 PAGASA 表示，在西菲律宾海，由于“一股即将到来的东北风增强气流”，台风可能进一步减弱。\n\n台风可能于星期一上午或中午退出菲律宾责任区。\n\nPAGASA 发布未来24小时海况的最新展望。\n\n最高为非常汹涌或狂浪海况（所有船只出行均有风险）。\n\n最高为汹涌海况（小型船只不应冒险出海）。\n\n最高为中等海况（小型船只应采取预防措施，或在可能情况下避免航行）。\n\n气象局还重申，受影响沿海海域的波浪高度“与风暴潮高度或淹没范围无关”。\n\n佩皮托是菲律宾2024年第16场热带气旋，也是继马尔塞（银杏）、妮卡（桃芝）及奥费尔（天兔）之后，仅11月就出现的第四场热带气旋。\n\n从10月21日至今算起，即从克里斯汀（潭美）及莱昂（康妮）开始，佩皮托已经是该国在不到一个月内遭遇的第六场热带气旋。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "已经拥有 Rappler+？登录收听具有突破性的新闻报道。\n\n佩皮托。2024年11月17日晚上10时台风佩皮托（万宜）的卫星图像。\n\n此内容由人工智能生成。请阅读文章了解完整背景。如有错误请报告。\n\n",
+          "start_offset": 0,
+          "end_offset": 101,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "菲律宾马尼拉——峰值强度曾达超强台风的台风佩皮托（万宜）于11月17日星期日晚离开吕宋岛陆地，但仍位于拉乌尼翁及邦阿西楠省沿海附近。\n\n截至星期日晚10时，佩皮托已经位于拉乌尼翁省圣费尔南多沿海水域，仍以每小时25公里的速度向西北偏西方向移动。\n\n",
+          "start_offset": 101,
+          "end_offset": 225,
+          "sentence_ids": [
+            8,
+            9
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "location",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "left_luzon",
+              "value": "11月17日晚间",
+              "unit": null
+            },
+            {
+              "attribute": "position_22h",
+              "value": "拉乌尼翁省圣费尔南多沿海水域",
+              "unit": null
+            },
+            {
+              "attribute": "motion",
+              "value": 25,
+              "unit": "km/h"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "菲律宾大气、地球物理和天文服务管理局（PAGASA）在晚上11时之后的简报中表示，台风进一步减弱，最大持续风速从每小时165公里降至155公里。阵风也从最高每小时275公里降低至255公里。\n\n",
+          "start_offset": 225,
+          "end_offset": 322,
+          "sentence_ids": [
+            10,
+            11
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "weather",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "sustained_wind",
+              "value": 155,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "prior_sustained_wind",
+              "value": 165,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "gust",
+              "value": 255,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "prior_gust",
+              "value": 275,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "bulletin_time",
+              "value": "星期日23:00之后",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "尽管佩皮托已不在陆地上，但鉴于台风的规模，许多地区仍悬挂1至4号信号。\n\n台风级大风（每小时118至184公里）：对生命和财产构成显著至严重威胁。\n\n风暴级大风（每小时89至117公里）：对生命和财产构成中等至显著威胁。\n\n烈风（每小时62至88公里）：对生命和财产构成较小至中等威胁。\n\n强风（每小时39至61公里）：对生命和财产构成极小至较小威胁。\n\n因佩皮托曾发布的最高热带气旋风力信号为5号信号。\n\n",
+          "start_offset": 322,
+          "end_offset": 526,
+          "sentence_ids": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "fact_types": [
+            "response",
+            "disaster_magnitude",
+            "weather"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "current_wind_signals",
+              "value": [
+                1,
+                4
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "highest_signal_raised",
+              "value": 5,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "预计台风未来数小时不再引发猛烈至倾盆大雨，但以下各省仍将出现中到大雨或大到暴雨：\n\n此外，未来48小时，伊罗戈地区、卡加延大陆东南部、伊莎贝拉省、中吕宋、马尼拉大都会、甲米地省、奎松省东部沿海（包括波利略群岛）及北甘马粦省仍面临“危及生命”的风暴潮高风险，“峰值风暴潮高度超过3米”。 ",
+          "start_offset": 526,
+          "end_offset": 669,
+          "sentence_ids": [
+            19,
+            20
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "storm_surge",
+              "value": {
+                "value": 3,
+                "qualifier": "greater_than"
+              },
+              "unit": "m"
+            },
+            {
+              "attribute": "risk",
+              "value": "部分地区危及生命",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "查看下方地图，并在此查看具体城市及市镇名单。\n\n",
+          "start_offset": 669,
+          "end_offset": 693,
+          "sentence_ids": [
+            21
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "佩皮托两次以超强台风强度登陆：第一次是11月16日星期六晚9:40在卡坦端内斯省潘加尼班登陆，第二次是星期日下午3:20在奥罗拉省迪帕库劳登陆。首次登陆时最大持续风速为每小时195公里，为其峰值强度；第二次登陆时最大持续风速为每小时185公里。\n\n佩皮托从奥罗拉省出发，经过季里诺省、新比斯开省、本格特省和拉乌尼翁省。 ",
+          "start_offset": 693,
+          "end_offset": 853,
+          "sentence_ids": [
+            22,
+            23,
+            24
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "landfalls",
+              "value": [
+                {
+                  "site": "卡坦端内斯省潘加尼班",
+                  "local_time": "2024-11-16 21:40",
+                  "sustained_kmh": 195
+                },
+                {
+                  "site": "奥罗拉省迪帕库劳",
+                  "local_time": "2024-11-17 15:20",
+                  "sustained_kmh": 185
+                }
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F008",
+          "span_text": "PAGASA 表示，在西菲律宾海，由于“一股即将到来的东北风增强气流”，台风可能进一步减弱。\n\n台风可能于星期一上午或中午退出菲律宾责任区。\n\n",
+          "start_offset": 853,
+          "end_offset": 925,
+          "sentence_ids": [
+            25,
+            26
+          ],
+          "fact_types": [
+            "weather",
+            "uncertainty",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "exit_par_forecast",
+              "value": "星期一上午或中午",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F009",
+          "span_text": "PAGASA 发布未来24小时海况的最新展望。\n\n最高为非常汹涌或狂浪海况（所有船只出行均有风险）。\n\n最高为汹涌海况（小型船只不应冒险出海）。\n\n最高为中等海况（小型船只应采取预防措施，或在可能情况下避免航行）。\n\n气象局还重申，受影响沿海海域的波浪高度“与风暴潮高度或淹没范围无关”。\n\n",
+          "start_offset": 925,
+          "end_offset": 1071,
+          "sentence_ids": [
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "fact_types": [
+            "response",
+            "weather",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "wave_heights_note",
+              "value": "与风暴潮或淹没范围不同",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F010",
+          "span_text": "佩皮托是菲律宾2024年第16场热带气旋，也是继马尔塞（银杏）、妮卡（桃芝）及奥费尔（天兔）之后，仅11月就出现的第四场热带气旋。\n\n从10月21日至今算起，即从克里斯汀（潭美）及莱昂（康妮）开始，佩皮托已经是该国在不到一个月内遭遇的第六场热带气旋。",
+          "start_offset": 1071,
+          "end_offset": 1196,
+          "sentence_ids": [
+            32,
+            33,
+            34
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "timeline"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "year_to_date_storm_number",
+              "value": 16,
+              "unit": null
+            },
+            {
+              "attribute": "november_storm_number",
+              "value": 4,
+              "unit": null
+            },
+            {
+              "attribute": "storms_since_october_21",
+              "value": 6,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "f0d6e5d78c8f33f9d329d586f93cc4702c2c012d59092f205e8038feb336d984",
+        "removed_word_count": 2,
+        "removed_word_ratio": 0.0035842293906810036
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-2B392288D853699A",
+      "event_id": "DIS-TC-696A630622795903",
+      "event_rank": 50,
+      "article_rank": 2,
+      "title": "数周内第六场大型风暴过后，菲律宾开展清理工作",
+      "publisher": "menafn",
+      "identified_publisher": "AFP",
+      "source_domain": "menafn.com",
+      "url": "https://menafn.com/1108895993/Philippines-Cleans-Up-After-Sixth-Major-Storm-In-Weeks",
+      "published_at": "2024-11-18T00:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "MENAFN 多次明确指出接受法新社直接采访，图片也有法新社署名。",
+      "content": "马尼拉：一个月内袭击菲律宾的第六场大型风暴摧毁简易建筑、导致停电并夺走至少1人的生命后，菲律宾民众星期一清理倒下树木并修理受损房屋。\n\n国家气象部门此前警告，周末以超强台风强度来袭的万宜可能造成“潜在灾难性”影响，但总统费迪南德·马科斯星期一表示，情况“没有我们担心的那么糟糕”。\n\n万宜携带最大持续风速每小时185公里（115英里），于星期六晚间猛烈袭击卡坦端内斯岛，并于星期日下午袭击主岛吕宋岛。\n\n它使树木连根拔起、电线倒下、木屋被摧毁，并引发山体滑坡，但未造成严重洪水。\n\n根据官方媒体讲话文字记录，马科斯使用万宜的当地名称说：“尽管佩皮托很强，影响没有我们担心的那么严重。”\n\n北甘马粦省有1人死亡，马科斯称这是“多了一名本不该有的死者”。警方说，受害者是一名79岁男子，他骑乘的摩托车被电线缠住后死亡。\n\n迄今尚无其他死亡或受伤报告。\n\n由市长塞萨尔·罗夫莱斯提供、于2024年11月17日拍摄及发布的视频资料截图显示，超强台风万宜袭击卡坦端内斯省后，潘加尼班镇受损住宅的航拍景象。（供图/塞萨尔·罗夫莱斯市长/法新社）/\n\n马科斯说：“我们现在将继续营救与外界隔绝地区的人，并持续为流离失所、无法自行准备餐食且没有供水的人提供救济。”\n\n卡坦端内斯省信息官卡米尔·希亚南告诉法新社，万宜吹倒电线杆后，全省停电可能持续数月。\n\n希亚南说：“卡坦端内斯受这场台风严重破坏，我们需要食品包、卫生用品包和建筑材料。”\n\n“大多数采用轻质材料的房屋被夷为平地，部分混凝土房屋的屋顶、门和窗户被毁。”\n\n奥罗拉省沿海城镇巴莱尔正在进行清理工作，移除堵塞道路和水道的倒下树木及碎片。\n\n灾害管理官员尼尔·罗霍告诉法新社：“这里大多数房屋采用轻质材料建设，因此即使现在尚未进行检查，我们也预计镇上许多房屋严重受损。”\n\n“我们也收到了昨晚屋顶被风吹飞的报告……让我们害怕的是猛烈大风，并非确切地说是强降雨。”\n\n2024年11月18日，由于超强台风万宜带来的持续强降雨，伊莎贝拉省伊拉甘一个村庄内的房屋被淹，图为航拍景象。（Villamor Visaya/法新社 摄）\n\n万宜穿越吕宋岛山区时显著减弱，星期一在南海上空向越南移动时降级为强热带风暴。\n\n在这场紧随一系列罕见猛烈天气事件的风暴来袭前，菲律宾超过100万人逃离家园。\n\n气候变化正在增加风暴强度，导致更强降雨、山洪及更猛烈阵风。\n\n过去一个月的多场风暴在菲律宾造成至少163人死亡，数千人无家可归，并摧毁农作物及牲畜。\n\n这个东南亚国家及其周边水域每年遭受约20场大型风暴及台风袭击，造成数十人死亡，但多场此类天气事件在短时间内发生并不常见。\n\n万宜还在台风季较晚的时候袭击菲律宾，多数气旋在7月至10月形成。\n\n本月，四场风暴同时聚集在太平洋盆地，日本气象厅告诉法新社，这是自1951年开始记录以来第一次在11月观察到此类情况。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "马尼拉：一个月内袭击菲律宾的第六场大型风暴摧毁简易建筑、导致停电并夺走至少1人的生命后，菲律宾民众星期一清理倒下树木并修理受损房屋。\n\n国家气象部门此前警告，周末以超强台风强度来袭的万宜可能造成“潜在灾难性”影响，但总统费迪南德·马科斯星期一表示，情况“没有我们担心的那么糟糕”。\n\n万宜携带最大持续风速每小时185公里（115英里），于星期六晚间猛烈袭击卡坦端内斯岛，并于星期日下午袭击主岛吕宋岛。\n\n它使树木连根拔起、电线倒下、木屋被摧毁，并引发山体滑坡，但未造成严重洪水。\n\n根据官方媒体讲话文字记录，马科斯使用万宜的当地名称说：“尽管佩皮托很强，影响没有我们担心的那么严重。”\n\n",
+          "start_offset": 0,
+          "end_offset": 294,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "damage",
+            "casualties",
+            "disaster_magnitude",
+            "weather"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 1,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "maximum_winds_as_reported",
+              "value": 185,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "reported_impacts",
+              "value": [
+                "树木和电线倒伏",
+                "房屋受损",
+                "山体滑坡"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "北甘马粦省有1人死亡，马科斯称这是“多了一名本不该有的死者”。警方说，受害者是一名79岁男子，他骑乘的摩托车被电线缠住后死亡。\n\n迄今尚无其他死亡或受伤报告。\n\n",
+          "start_offset": 294,
+          "end_offset": 375,
+          "sentence_ids": [
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "cause"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "location",
+              "value": "北甘马粦省",
+              "unit": null
+            },
+            {
+              "attribute": "victim_age",
+              "value": 79,
+              "unit": "years"
+            },
+            {
+              "attribute": "reported_cause",
+              "value": "摩托车被电线缠住",
+              "unit": null
+            },
+            {
+              "attribute": "additional_injuries_or_deaths",
+              "value": "迄今没有其他报告",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "由市长塞萨尔·罗夫莱斯提供、于2024年11月17日拍摄及发布的视频资料截图显示，超强台风万宜袭击卡坦端内斯省后，潘加尼班镇受损住宅的航拍景象。（供图/塞萨尔·罗夫莱斯市长/法新社）/\n\n",
+          "start_offset": 375,
+          "end_offset": 469,
+          "sentence_ids": [
+            9,
+            10
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "马科斯说：“我们现在将继续营救与外界隔绝地区的人，并持续为流离失所、无法自行准备餐食且没有供水的人提供救济。”\n\n卡坦端内斯省信息官卡米尔·希亚南告诉法新社，万宜吹倒电线杆后，全省停电可能持续数月。\n\n希亚南说：“卡坦端内斯受这场台风严重破坏，我们需要食品包、卫生用品包和建筑材料。”\n\n“大多数采用轻质材料的房屋被夷为平地，部分混凝土房屋的屋顶、门和窗户被毁。”\n\n奥罗拉省沿海城镇巴莱尔正在进行清理工作，移除堵塞道路和水道的倒下树木及碎片。\n\n灾害管理官员尼尔·罗霍告诉法新社：“这里大多数房屋采用轻质材料建设，因此即使现在尚未进行检查，我们也预计镇上许多房屋严重受损。”\n\n“我们也收到了昨晚屋顶被风吹飞的报告……让我们害怕的是猛烈大风，并非确切地说是强降雨。”\n\n",
+          "start_offset": 469,
+          "end_offset": 805,
+          "sentence_ids": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "fact_types": [
+            "response",
+            "aid",
+            "humanitarian_needs",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "immediate_needs",
+              "value": [
+                "食品包",
+                "卫生用品包",
+                "建筑材料"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "power_outage_outlook",
+              "value": "卡坦端内斯停电可能持续数月",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "2024年11月18日，由于超强台风万宜带来的持续强降雨，伊莎贝拉省伊拉甘一个村庄内的房屋被淹，图为航拍景象。（Villamor Visaya/法新社 摄）\n\n",
+          "start_offset": 805,
+          "end_offset": 885,
+          "sentence_ids": [
+            18,
+            19
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "万宜穿越吕宋岛山区时显著减弱，星期一在南海上空向越南移动时降级为强热带风暴。\n\n在这场紧随一系列罕见猛烈天气事件的风暴来袭前，菲律宾超过100万人逃离家园。\n\n",
+          "start_offset": 885,
+          "end_offset": 965,
+          "sentence_ids": [
+            20,
+            21
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "weather",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "status_monday",
+              "value": "南海上的强热带风暴",
+              "unit": null
+            },
+            {
+              "attribute": "evacuated",
+              "value": {
+                "value": 1000000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "气候变化正在增加风暴强度，导致更强降雨、山洪及更猛烈阵风。\n\n过去一个月的多场风暴在菲律宾造成至少163人死亡，数千人无家可归，并摧毁农作物及牲畜。\n\n这个东南亚国家及其周边水域每年遭受约20场大型风暴及台风袭击，造成数十人死亡，但多场此类天气事件在短时间内发生并不常见。\n\n万宜还在台风季较晚的时候袭击菲律宾，多数气旋在7月至10月形成。\n\n本月，四场风暴同时聚集在太平洋盆地，日本气象厅告诉法新社，这是自1951年开始记录以来第一次在11月观察到此类情况。",
+          "start_offset": 965,
+          "end_offset": 1195,
+          "sentence_ids": [
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_occurrence",
+            "casualties",
+            "cause"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "past_month_storm_deaths",
+              "value": {
+                "value": 163,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "scope",
+              "value": "多场风暴，而非仅万宜",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "c5c84497da736320aeb07746c813fbe96c025781738aecdcc083992f9130aa60",
+        "removed_word_count": 69,
+        "removed_word_ratio": 0.09732016925246827
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-705CEC9718ECEC23",
+      "event_id": "DIS-TC-696A630622795903",
+      "event_rank": 50,
+      "article_rank": 3,
+      "title": "“佩皮托”远离陆地，但吕宋岛北部警报仍然生效",
+      "publisher": "philstar",
+      "identified_publisher": null,
+      "source_domain": "philstar.com",
+      "url": "https://www.philstar.com/headlines/weather/2024/11/18/2401103/pepito-moves-away-land-alerts-remain-over-northern-luzon",
+      "published_at": "2024-11-17T23:45:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "Philstar 援引 PAGASA 05:00通报，与 Rappler 共享气象机构来源，缺少明确文章署名。",
+      "content": "菲律宾马尼拉——台风佩皮托（国际名称万宜）在夜间重创中吕宋及吕宋岛北部部分地区后，于11月18日星期一凌晨进一步远离陆地，可能于中午退出菲律宾责任区。\n\n国家气象局 PAGASA 在上午5时通报中确定，气旋中心位于南伊罗戈省锡奈特以西145公里处，最大持续风速为每小时130公里，阵风最高每小时160公里。佩皮托正以每小时30公里的速度向西北移动。\n\n尽管佩皮托周末穿越陆地时从“超强台风”级别减弱至仍很强的台风级风力，PAGASA 仍对中吕宋及吕宋岛北部部分地区维持气旋警报信号。\n\n未来18小时内可能出现每小时89至117公里风暴级大风的区域如下：\n\n处于这一信号下的地区可能在24小时内遭遇每小时62至88公里烈风。\n\n最低级别气旋警报为36小时内出现每小时39至61公里强风。\n\nPAGASA 警告，伊罗戈地区、伊莎贝拉省和中吕宋的低洼沿海地区面临中等至较高风暴潮风险。\n\n预计巴丹群岛沿岸海况非常汹涌，海浪最高达5.0米；北伊罗戈省西岸以及南伊罗戈省和伊莎贝拉省沿岸海浪最高可能达4.5米。建议各类船只留在港内。\n\n退出菲律宾责任区后，由于即将到来的东北风增强气流，预计佩皮托明天将进一步转向西方或西南偏西方向。\n\n同一股气流将导致台风进一步减弱，可能到星期三晚些时候或星期四凌晨，在中国南部沿海附近成为残余低压。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "菲律宾马尼拉——台风佩皮托（国际名称万宜）在夜间重创中吕宋及吕宋岛北部部分地区后，于11月18日星期一凌晨进一步远离陆地，可能于中午退出菲律宾责任区。\n\n国家气象局 PAGASA 在上午5时通报中确定，气旋中心位于南伊罗戈省锡奈特以西145公里处，最大持续风速为每小时130公里，阵风最高每小时160公里。佩皮托正以每小时30公里的速度向西北移动。\n\n尽管佩皮托周末穿越陆地时从“超强台风”级别减弱至仍很强的台风级风力，PAGASA 仍对中吕宋及吕宋岛北部部分地区维持气旋警报信号。\n\n",
+          "start_offset": 0,
+          "end_offset": 243,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "location",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "bulletin_time",
+              "value": "11月18日05:00",
+              "unit": null
+            },
+            {
+              "attribute": "center_west_of_sinait",
+              "value": 145,
+              "unit": "km"
+            },
+            {
+              "attribute": "sustained_wind",
+              "value": 130,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "gust",
+              "value": 160,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "motion",
+              "value": 30,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "attribution",
+              "value": "PAGASA",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "未来18小时内可能出现每小时89至117公里风暴级大风的区域如下：\n\n处于这一信号下的地区可能在24小时内遭遇每小时62至88公里烈风。\n\n最低级别气旋警报为36小时内出现每小时39至61公里强风。\n\nPAGASA 警告，伊罗戈地区、伊莎贝拉省和中吕宋的低洼沿海地区面临中等至较高风暴潮风险。\n\n",
+          "start_offset": 243,
+          "end_offset": 391,
+          "sentence_ids": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard",
+            "disaster_magnitude",
+            "weather"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "active_risks",
+              "value": [
+                "强风",
+                "低洼沿海地区风暴潮"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "预计巴丹群岛沿岸海况非常汹涌，海浪最高达5.0米；北伊罗戈省西岸以及南伊罗戈省和伊莎贝拉省沿岸海浪最高可能达4.5米。建议各类船只留在港内。\n\n",
+          "start_offset": 391,
+          "end_offset": 463,
+          "sentence_ids": [
+            9,
+            10
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "max_batanes_wave_height",
+              "value": 5,
+              "unit": "m"
+            },
+            {
+              "attribute": "selected_coasts_wave_height",
+              "value": 4.5,
+              "unit": "m"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "退出菲律宾责任区后，由于即将到来的东北风增强气流，预计佩皮托明天将进一步转向西方或西南偏西方向。\n\n同一股气流将导致台风进一步减弱，可能到星期三晚些时候或星期四凌晨，在中国南部沿海附近成为残余低压。",
+          "start_offset": 463,
+          "end_offset": 562,
+          "sentence_ids": [
+            11,
+            12
+          ],
+          "fact_types": [
+            "weather",
+            "uncertainty",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "expected_trend",
+              "value": "减弱；中国南部附近可能成为残余低压",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "ea14825420a792ea8196842d1638657b17bb10a23dd36d1c15b8d0fe7a7f80c8",
+        "removed_word_count": 31,
+        "removed_word_ratio": 0.10231023102310231
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "Rappler 给出两次登陆的风速，法新社报告每小时185公里",
+        "fact_type": "disaster_magnitude",
+        "attribute": "landfall_winds",
+        "supporting_spans": [
+          "A001_F007",
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F007",
+            "value": {
+              "first": 195,
+              "second": 185
+            },
+            "unit": "km/h",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "value": 185,
+              "first_or_second": "未明确区分"
+            },
+            "unit": "km/h",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "法新社的每小时185公里数据未指定登陆阶段，不能与首次登陆的每小时195公里数据构成矛盾。"
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "持续风速夜间至次日清晨下降",
+        "fact_type": "disaster_magnitude",
+        "attribute": "current_sustained_wind",
+        "supporting_spans": [
+          "A001_F003",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": {
+              "value": 155,
+              "cutoff": "11月17日23:00后"
+            },
+            "unit": "km/h",
+            "attribution": "PAGASA"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "value": 130,
+              "cutoff": "11月18日05:00"
+            },
+            "unit": "km/h",
+            "attribution": "PAGASA"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "temporal_update",
+        "temporal_relation": "earlier_later",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "北甘马粦省报告1人死亡",
+        "fact_type": "casualties",
+        "attribute": "reported_fatality",
+        "supporting_spans": [
+          "A002_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": {
+              "value": 1,
+              "scope": "北甘马粦省"
+            },
+            "unit": "person",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "风暴离开陆地后沿海风险仍持续",
+        "fact_type": "secondary_hazard",
+        "attribute": "residual_coastal_risk",
+        "supporting_spans": [
+          "A001_F005",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F005",
+            "value": "部分地区可能出现危及生命的风暴潮",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "低洼沿海的中等至较高风暴潮风险",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "机构更新时间及地点不同。"
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC003"
+      ],
+      "important_facts": [
+        "FC002",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2024-11-16T21:40+08:00",
+          "time_precision": "Local time to the minute",
+          "description": "万宜首次在卡坦端内斯省登陆，最大持续风速为每小时195公里。",
+          "supporting_spans": [
+            "A001_F007"
+          ]
+        },
+        {
+          "time": "2024-11-17T15:20+08:00",
+          "time_precision": "Local time to the minute",
+          "description": "在奥罗拉省第二次登陆，随后穿越吕宋岛。",
+          "supporting_spans": [
+            "A001_F007",
+            "A002_F001"
+          ]
+        },
+        {
+          "time": "2024-11-18T05:00+08:00",
+          "time_precision": "Local time to the minute",
+          "description": "PAGASA 报告最大持续风速减弱至每小时130公里。",
+          "supporting_spans": [
+            "A003_F001"
+          ]
+        },
+        {
+          "time": "2024-11-18",
+          "time_precision": "Publication date",
+          "description": "媒体报道一人死亡、房屋受损及清理工作。",
+          "supporting_spans": [
+            "A002_F001",
+            "A002_F002",
+            "A002_F004"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "台风大风吹倒树木和电线杆，停电影响救援及恢复。",
+          "supporting_spans": [
+            "A002_F001",
+            "A002_F004"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "万宜在菲律宾两次登陆，造成人员死亡、人员撤离及基础设施损坏。风暴离开吕宋岛后，警报仍然持续。",
+          "supporting_spans": [
+            "A001_F004",
+            "A001_F007",
+            "A002_F001",
+            "A002_F002",
+            "A002_F006",
+            "A003_F001"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "此前一个月多场风暴造成的163人死亡被排除在本次气旋死亡人数之外。"
+    ]
+  }
+}

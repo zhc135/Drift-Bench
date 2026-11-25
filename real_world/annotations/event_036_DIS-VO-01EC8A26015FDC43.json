@@ -25,7 +25,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "PHIVOLCS 引文给出当地 12 月 9 日 15:03。本时点与 CSV 起点同日但不同时间基准与定义，均保留。"
+      "The PHIVOLCS quotation gives December 9 at 15:03 local time. The CSV start date is the same but reflects a different time basis and definition. Both are retained."
     ],
     "dataset_place_name": "Eruption  Kanlaon",
     "dataset_event_note": null
@@ -50,7 +50,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "Philstar 载 Manila 电头，简讯未有正文署名。",
+      "source_independence_reason": "Philstar carries a Manila dateline. The brief has no body byline.",
       "content": "MANILA — A volcano in the central Philippines erupted on Monday spewing an eruption column of up to 3,000 meters (1.86 miles), the country’s seismology agency said.\n\nThe Philippine Institute of Volcanology and Seismology (Phivolcs) said in an advisory it had raised its alert level to its third highest level. The volcano is located in the central provinces of Negros Occidental and Negros Oriental.\n\n“This means magmatic eruption has begun that may progress to further explosive eruption,” Phivolcs said in an advisory.\n\nThe seismology agency had advised local governments in the volcano’s vicinity to evacuate people living near the volcano and must brace for further evacuations if warranted.\n\nMt. Kanlaon is one of the two dozen active volcanoes in the Philippines, which is in the Pacific “Ring of Fire” where volcanic activity and earthquakes are common.",
       "fact_spans": [
         {
@@ -183,7 +183,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "同属 Philstar 品牌，有额外地方管制资料；正文未能核实与 A001 的采编关系。",
+      "source_independence_reason": "This story also carries Philstar branding and adds local restrictions. Its editorial relationship to A001 is unverified.",
       "content": "MANILA, Philippines (Updated 5:35 p.m.) — Kanlaon Volcano erupted Monday afternoon, December 9 prompting authorities to raise its status to Alert Level 3, indicating heightened volcanic unrest.\n\n“An explosive eruption occurred at the summit vent of Kanlaon Volcano at 3:03 PM today, 9 December 2024. The eruption produced a voluminous plume that rapidly rose to 3,000 meters above the vent and drifted west-southwest,” PHIVOLCS said in an alert.\n\nThe Philippine Institute of Volcanology and Seismology (PHIVOLCS) upgraded the alert status from Level 2 (increasing unrest) to Level 3 (magmatic unrest). This indicates intensified volcanic activity marked by increased earthquakes and substantial steam or ash emissions.\n\nKanlaon has been continuously displaying seismic activity as early as June but has since remained in Alert Level 2 until today.\n\nSafety measures. Local authorities must implement an 8-kilometer danger zone from the active crater.\n\nPHIVOLCS has directed all local government units to evacuate residents within a 6-kilometer radius from the volcano's summit and prepare for potential additional evacuations if volcanic activity escalates.\n\nCanlaon City Mayor Jose Chubasco Cardenas has already told residents in the affected areas to prepare for forced evacuations.\n\nClasses and work in the local government offices have also been suspended.\n\nThe local government has implemented a curfew in the city. All establishments are ordered to close from 10 p.m. to 5 a.m.\n\nA liquor ban has also been put in place.\n\nLocal authorities have pleaded for calm in the wake of Kanlaon's eruption.\n\nHere are some of the OCD's guidelines on what to do during a volcanic eruption:\n\nThe Office of Civil Defense said that Defense Secretary Gilbert Teodoro has already ordered immediate assistance to affected citizens.\n\nCurrent activity. Pyroclastic density currents, consisting of hot volcanic material and gas, have been observed moving down the volcano's southeastern section.\n\nThese dangerous flows pose significant risks to nearby communities.",
       "fact_spans": [
         {
@@ -460,7 +460,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "Devdiscourse 转述 PHIVOLCS 和民防官员，未显示稿源署名。",
+      "source_independence_reason": "Devdiscourse relays PHIVOLCS and civil defense officials without a source byline.",
       "content": "A volcano in the Philippines erupted again, forcing emergency evacuations after spewing a massive ash column, authorities reported Monday. Mt. Kanlaon, located in the central provinces of Negros Occidental and Negros Oriental, projected ash up to 4,000 meters (2.5 miles) into the air around 3 p.m. local time.\n\nThe Philippine Institute of Volcanology and Seismology (Phivolcs) elevated its alert level to 3 out of 5, signaling a higher risk of lava flows and a potential hazardous eruption in the coming weeks. 'We cannot confirm if this eruption is magmatic yet,' Phivolcs Director Teresito Bacolcol stated. 'For now, we term it as explosive.'\n\nLocal government units have initiated evacuations due to ash fall near the volcano, according to Bryll Sanor from the disaster agency in Negros Occidental. The civil defense noted ongoing emergency evacuations, affecting potentially 54,000 individuals, as authorities brace for possibly raising the alert level and reinforcing safety protocols. Flights near the volcano remain operational, with advice to avoid proximity to Mt. Kanlaon.",
       "fact_spans": [
         {
@@ -602,7 +602,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "12 月 9 日 Kanlaon 喷发后警戒升到三级",
+        "cluster_description": "Kanlaon's December 9 eruption prompted an increase to Alert Level 3",
         "fact_type": "response",
         "attribute": "alert_level",
         "supporting_spans": [
@@ -641,7 +641,7 @@
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "报道灰柱 3000 米与 4000 米，只有一篇明确从喷口算起",
+        "cluster_description": "Reported ash heights were 3,000 and 4,000 m. Only one report explicitly measures from the vent",
         "fact_type": "disaster_magnitude",
         "attribute": "eruption_column_height",
         "supporting_spans": [
@@ -687,11 +687,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "unknown",
-        "annotation_note": "观察截点和高度基准未对齐。"
+        "annotation_note": "The observation cutoffs and height reference points have not been matched."
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "喷发类型的认定状态存在差异",
+        "cluster_description": "Reports differ on whether the eruption type had been confirmed",
         "fact_type": "disaster_occurrence",
         "attribute": "eruption_classification",
         "supporting_spans": [
@@ -726,11 +726,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "unknown",
-        "annotation_note": "警戒状态不等于直接确认喷发机制。公告与讲话的具体时点也未对齐。"
+        "annotation_note": "An alert status does not directly establish the eruption mechanism. Bulletin and statement times also differ."
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "当局推进预防性撤离",
+        "cluster_description": "Authorities pursued precautionary evacuations",
         "fact_type": "evacuation",
         "attribute": "evacuation_response",
         "supporting_spans": [
@@ -786,22 +786,22 @@
         "FC004"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2024-12-09T15:03+08:00",
-          "time_precision": "当地分钟",
-          "description": "PHIVOLCS 称山顶喷口发生爆炸性喷发。",
+          "time_precision": "Local time to the minute",
+          "description": "PHIVOLCS reported an explosive eruption at the summit vent.",
           "supporting_spans": [
             "A002_F001"
           ]
         },
         {
           "time": "2024-12-09",
-          "time_precision": "当地日",
-          "description": "警戒转为三级；地方启动疏散应对。",
+          "time_precision": "Local date",
+          "description": "The alert rose to Level 3, and local authorities began evacuation measures.",
           "supporting_spans": [
             "A001_F002",
             "A002_F002",
@@ -813,7 +813,7 @@
       ],
       "causal_relations": [
         {
-          "description": "火山灰和火山碎屑流威胁附近社区，带来撤离和交通安全安排。",
+          "description": "Ash and pyroclastic density currents threatened nearby communities, prompting evacuations and travel precautions.",
           "supporting_spans": [
             "A002_F009",
             "A003_F003",
@@ -823,7 +823,7 @@
       ],
       "event_mainline": [
         {
-          "description": "Kanlaon 爆炸性喷发，火山警戒升为三级；灰柱高度与岩浆成因的报道需要核对测量和归因口径。",
+          "description": "Kanlaon erupted explosively, and the alert rose to Level 3. The ash-height measurements and attribution of a magmatic cause still require reconciliation.",
           "supporting_spans": [
             "A001_F001",
             "A001_F002",
@@ -848,9 +848,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "危险区 8 km 与撤离半径 6 km 是 A002 中不同措施的措辞。"
+      "A002 describes an 8 km danger zone and a 6 km evacuation radius as separate measures."
     ]
   }
 }

@@ -37,7 +37,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "湖南较早报告省内受灾，随后报道湘西州单独数字；四川两篇发布时间与统计截止时间不同。"
+      "An early report covered impacts in Hunan, and a later report gave figures for Xiangxi alone. The Sichuan reports have different publication times and cutoffs."
     ],
     "dataset_place_name": "Flood in China",
     "dataset_event_note": null
@@ -62,7 +62,7 @@
       "language_label_issue": null,
       "reporting_type": "syndicated",
       "source_independence": "syndicated",
-      "source_independence_reason": "人民网转载新华社长沙电，照片亦注明新华社。",
+      "source_independence_reason": "People's Daily Online republished Xinhua's Changsha-datelined report and credited its photos to Xinhua.",
       "content": "Local people clean up silt and garbage in Caotan Village of Yantouzhai Town, Guzhang County of Xiangxi Tujia and Miao Autonomous Prefecture, central China's Hunan Province, July 2, 2023.Â With the flood gradually receding, the cadres and masses in the affected areas are working hard to ensure the basic needs of the affected people. (Xinhua/Chen Zhenhai)\n\nCHANGSHA, July 1 (Xinhua) -- Over 50,000 people have been affected, and nearly 7,000 evacuated after heavy rain lashed parts of central China's Hunan Province.\n\nTorrential rain has been battering parts of Hunan since Thursday, with the Xiangxi Tujia and Miao Autonomous Prefecture experiencing the most severe rainfall since the flood season, according to the Hunan provincial flood and drought control headquarters on Saturday.\n\nIn Xiangxi, the rain has inflicted damage on crops spread over 2,887.1 hectares. It also damaged over 1,300 residences.\n\nOn Friday, Hunan province registered the highest hourly precipitation of 137.4 mm since meteorological records began, according to the local meteorological service.\n\nThis aerial photo taken on July 2, 2023 shows a view of the residential area in Caotan Village of Yantouzhai Town, Guzhang County of Xiangxi Tujia and Miao Autonomous Prefecture, central China's Hunan Province.Â With the flood gradually receding, the cadres and masses in the affected areas are working hard to ensure the basic needs of the affected people. (Xinhua/Chen Zhenhai)\n\nA villager clears the mud in his house in Caotan Village of Yantouzhai Town, Guzhang County of Xiangxi Tujia and Miao Autonomous Prefecture, central China's Hunan Province, July 2, 2023.Â With the flood gradually receding, the cadres and masses in the affected areas are working hard to ensure the basic needs of the affected people. (Xinhua/Chen Zhenhai)\n\nVillagers gather to have meals at a school in Caotan Village of Yantouzhai Town, Guzhang County of Xiangxi Tujia and Miao Autonomous Prefecture, central China's Hunan Province, July 2, 2023.Â With the flood gradually receding, the cadres and masses in the affected areas are working hard to ensure the basic needs of the affected people. (Xinhua/Chen Zhenhai)\n\nWorkers repair power facilities in Caotan Village of Yantouzhai Town, Guzhang County of Xiangxi Tujia and Miao Autonomous Prefecture, central China's Hunan Province, July 2, 2023.Â With the flood gradually receding, the cadres and masses in the affected areas are working hard to ensure the basic needs of the affected people. (Xinhua/Chen Zhenhai)\n\nA villager operates an excavator to clean up silt in Caotan Village of Yantouzhai Town, Guzhang County of Xiangxi Tujia and Miao Autonomous Prefecture, central China's Hunan Province, July 2, 2023.Â With the flood gradually receding, the cadres and masses in the affected areas are working hard to ensure the basic needs of the affected people. (Xinhua/Chen Zhenhai)\n\nA villager points out the traces left after the flood in his house in Caotan Village of Yantouzhai Town, Guzhang County of Xiangxi Tujia and Miao Autonomous Prefecture, central China's Hunan Province, July 2, 2023.Â With the flood gradually receding, the cadres and masses in the affected areas are working hard to ensure the basic needs of the affected people. (Xinhua/Chen Zhenhai)\n\nVolunteers help villagers clean up damaged furniture in Caotan Village of Yantouzhai Town, Guzhang County of Xiangxi Tujia and Miao Autonomous Prefecture, central China's Hunan Province, July 2, 2023.Â With the flood gradually receding, the cadres and masses in the affected areas are working hard to ensure the basic needs of the affected people. (Xinhua/Xie Ben)",
       "fact_spans": [
         {
@@ -226,7 +226,7 @@
       "language_label_issue": null,
       "reporting_type": "original",
       "source_independence": "independent",
-      "source_independence_reason": "新华社成都电，主要依据四川省防汛抗旱指挥部。",
+      "source_independence_reason": "Xinhua's Chengdu-datelined report mainly cites the Sichuan flood control and drought relief headquarters.",
       "content": "CHENGDU, July 4 (Xinhua) -- More than 460,000 people have been affected by heavy downpours this month in southwest China's Sichuan Province, the provincial flood control and drought relief headquarters said Tuesday.\n\nAcross the province, over 85,000 local residents have been evacuated to safe places as a precautionary measure. Thanks to the early warnings and timely measures carried out by the local government, no casualties have been reported so far.\n\nTo safeguard people's lives in the face of the heavy rainfall, the provincial flood control and drought relief headquarters has sent early warnings to the public via social media platforms and its website. It has also strengthened its patrol work and monitoring of real-time precipitation, especially in areas at risk from rainstorms and mountain torrents.\n\nPreviously, Sichuan issued its first yellow alert for flash floods this year, involving 26 county-level areas. China has a four-tier, color-coded weather warning system for geological disasters, with red representing the most severe warning, followed by orange, yellow and blue.\n\nThis week, the province is likely to encounter flash floods in mountainous areas, with possible mudslides in some parts, according to the latest weather forecast. ",
       "fact_spans": [
         {
@@ -363,7 +363,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "China.org.cn 正文综合各地机构和居民引语，照片注明新华社但正文稿源未明确。",
+      "source_independence_reason": "China.org.cn combines accounts from local agencies and residents. The image is credited to Xinhua, but the source of the body is unclear.",
       "content": "Rescuers transfer flood-trapped residents in Wanzhou District, southwest China's Chongqing Municipality, July 4, 2023. [Photo/Xinhua]\n\nHeavy floods triggered by torrential rains have displaced thousands of people across the country as Beijing and areas nearby experienced a brief respite from recent scorching temperatures.\n\nThe country may continue to simultaneously suffer floods and sweltering heat waves this month, according to the Ministry of Emergency Management.\n\nDownpours have battered parts of Hunan province since Thursday, with the Xiangxi Tujia and Miao autonomous prefecture one of the worst-hit areas, according to the province's flood and drought control headquarters.\n\nOver 95,000 people in the prefecture have been affected, and more than 14,000 of them were relocated or evacuated, local authorities said on Sunday. Direct economic losses are estimated to be around 575 million yuan ($79.5 million).\n\n\"The rain was so heavy that the water level rose by over 1 meter within about 10 minutes,\" Luo Jiashun, a resident of Mengke village in the prefecture's Baojing county, recalled about the time when the rain started to pour down on Friday, triggering floods that left the lowlying village isolated.\n\nForty-four houses in the village were swamped, over 50 hectares of farmland were inundated and 163 residents were evacuated. Local authorities are still trying to restore water and power supplies to help get village life back to normal.\n\nShortly before 1 pm on Tuesday, the Xiangxi meteorological station issued a yellow alert for heavy rainfall, warning of maximum hourly precipitation of 24 millimeters from noon to 6 pm in Fenghuang county. The alert was soon upgraded to orange, as the latest forecast showed that the largest hourly precipitation from 1 pm to 4 pm may reach 36 mm.\n\nChina has a four-tier, color-coded weather alert system, with red representing the most severe warning, followed by orange, yellow and blue.\n\nLocal observatories in at least four counties in the prefecture also issued yellow or orange alerts for downpours on Tuesday afternoon.\n\nIn Zhenba county, Shaanxi province, downpours from 6 pm Sunday to 6 pm Monday forced the evacuation of more than 7,800 people, according to the emergency services bureau of Hanzhong city, where the county is located.\n\nThe bureau said workers are still laboring round the clock to clear 80 roads cut by floods and restore power supply to affected areas. Luckily, the rain subsided in the county on Tuesday.\n\nIn Sichuan province, local authorities have evacuated more than 85,300 people as of 7 am on Tuesday to avoid potential dangers from a downpour forecast to strike vast stretches from Monday to Tuesday.\n\nThe rain was expected to affect five prefecture-level cities, including Guang'an, Luzhou and Panzhihua, and parts of Yibin city and Garze Tibetan autonomous prefecture, bringing a maximum precipitation of 100 to 120 mm, Sichuan meteorological station said.\n\nIn Henan province, 66 of its 157 county-level areas were pummeled by heavy rainfall from 8 am Sunday to 7 am Monday, and 26 of them received more than 100 mm of precipitation. Downpours continued in many of the counties till Tuesday morning, local authorities said.\n\nIn Queshan county in the province, a car with five passengers was washed away by floods when it was passing a bridge on Monday evening. One of the passengers was saved, but the other four remain missing, according to media reports.\n\nMany other regions were expected to experience torrential rains from Tuesday to Wednesday, according to the National Meteorological Center.\n\nOn Tuesday, the center renewed a blue alert for downpours, warning of maximum hourly precipitation of 20 to 50 mm in parts of the Inner Mongolia and Guangxi Zhuang autonomous regions, and Heilongjiang, Jilin, Liaoning, Yunnan and Guizhou provinces in the 24 hours starting 2 pm on Tuesday.\n\nPrecipitation in northern Liaoning may even reach 100 to 120 mm, the center said, adding that some areas in these regions may be hit by severe convective weather — a sudden and destructive weather phenomenon that often includes thunderstorms, hail, gales and heavy rain.\n\nSometimes spanning only 10 kilometers, such events can produce intense precipitation.\n\nIn contrast, a light rain that lasted from Monday night to Tuesday morning allowed Beijing to have some respite from heat waves with temperatures above 35 C. The capital, however, is forecast to be enveloped by sweltering heat with temperatures up to 38 C once again from Wednesday to Thursday.\n\nAccording to the National Climate Center, the number of days with temperatures above 35 C in June in Beijing outpaced the same month in all other years since 1961.A tour guide was reported to have died of heatstroke in the capital on Sunday at the Summer Palace, as the scorching heat wave lingered in the city.\n\nThe Ministry of Emergency Management has warned of a grim situation for flood control and drought relief this month.\n\nThe precipitation in central and eastern parts of Northeast China, the northern part of Central China, and western part of Southwest China will receive more precipitation than the yearly average in July, it said.\n\nIt forecast floods in parts of the country's two longest watercourses — the Yangtze and the Yellow — and in some sections of Qiantang and Songhua rivers. Torrential rains may raise water levels in these rivers above their warning marks, it said.\n\nIt said higher temperatures and less precipitation are expected in many other areas, including the northern part of North China and some areas in Inner Mongolia.\n\n\"The supply of water and power will be relatively tight in these regions,\" it noted.",
       "fact_spans": [
         {
@@ -774,7 +774,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "两篇对四川撤离人数的下限相容",
+        "cluster_description": "The two lower bounds on evacuations in Sichuan are compatible",
         "fact_type": "evacuation",
         "attribute": "sichuan_evacuations",
         "supporting_spans": [
@@ -812,7 +812,7 @@
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "两篇引用湖南灾情，但统计范围与阶段有别",
+        "cluster_description": "Two reports cite Hunan impacts at different scopes and stages",
         "fact_type": "affected_population",
         "attribute": "hunan_or_xiangxi_people_affected",
         "supporting_spans": [
@@ -847,11 +847,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "unknown",
-        "annotation_note": "不同地点范围、通报时点及下限。"
+        "annotation_note": "Geographic coverage, publication cutoffs, and lower bounds differ."
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "降雨冲击住房和农田",
+        "cluster_description": "Rain damaged housing and farmland",
         "fact_type": "damage",
         "attribute": "hunan_rain_damage",
         "supporting_spans": [
@@ -882,7 +882,7 @@
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "四川受灾人数",
+        "cluster_description": "People affected in Sichuan",
         "fact_type": "affected_population",
         "attribute": "sichuan_people_affected",
         "supporting_spans": [
@@ -925,30 +925,30 @@
         "FC003"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2023-07-01",
-          "time_precision": "报道电头",
-          "description": "湖南遭暴雨，新华社报道受灾与转移。",
+          "time_precision": "Dateline",
+          "description": "Heavy rain hit Hunan, and Xinhua reported impacts and evacuations.",
           "supporting_spans": [
             "A001_F002"
           ]
         },
         {
           "time": "2023-07-02",
-          "time_precision": "星期对应日期",
-          "description": "地方部门披露湘西受灾、转移及损失情况。",
+          "time_precision": "Date inferred from weekday",
+          "description": "Local authorities reported impacts, evacuations, and losses in Xiangxi.",
           "supporting_spans": [
             "A003_F003"
           ]
         },
         {
           "time": "2023-07-04",
-          "time_precision": "当地日",
-          "description": "四川披露撤离统计，湘西更新暴雨预警。",
+          "time_precision": "Local date",
+          "description": "Sichuan published evacuation figures, and Xiangxi updated its heavy rain warnings.",
           "supporting_spans": [
             "A002_F002",
             "A003_F005",
@@ -958,7 +958,7 @@
       ],
       "causal_relations": [
         {
-          "description": "强降雨导致低洼村庄水位迅速上升，居民被转移，电力和供水待恢复。",
+          "description": "Heavy rain quickly raised water levels in a low-lying village, prompting evacuations. Electricity and water service had yet to be restored.",
           "supporting_spans": [
             "A003_F004"
           ]
@@ -966,7 +966,7 @@
       ],
       "event_mainline": [
         {
-          "description": "湖南、四川等地遭遇连续强降雨和洪水威胁，出现受灾、撤离、道路和住房损失。",
+          "description": "Persistent heavy rain threatened Hunan, Sichuan, and other areas, affecting residents, prompting evacuations, and damaging roads and housing.",
           "supporting_spans": [
             "A001_F002",
             "A001_F003",
@@ -990,9 +990,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "河南失踪与四川无伤亡适用不同省份。北京市中暑死亡不是洪灾伤亡。"
+      "Missing people in Henan and the absence of reported casualties in Sichuan refer to different provinces. Beijing's heatstroke death is unrelated to flooding."
     ]
   }
 }

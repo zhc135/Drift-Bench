@@ -34,7 +34,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "星期日晚与次日清晨的登陆描述可能对应不同沿岸地点或阶段。"
+      "Sunday-night and early-morning landfall reports may refer to different coastal sites or stages."
     ],
     "dataset_place_name": "Tropical Cyclone REMAL-24",
     "dataset_event_note": null
@@ -59,7 +59,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "MENAFN 正文未保留通讯社署名，援引部长、Somoy TV 及多个机构。",
+      "source_independence_reason": "The MENAFN body has no wire credit and cites a minister, Somoy TV, and other agencies.",
       "content": "Dhaka, Bangladesh: Tropical storm Remal flooded coastal villages, blew away thatched roofs and left hundreds of thousands of people without power Monday in southern Bangladesh and eastern India. At least 10 people died in Bangladesh.\n\nAbout 3.7 million people across the coast were affected, said Bangladesh's junior minister for Disaster Management and Relief, Mohibbur Rahman. More than 35,000 homes were completely destroyed and nearly 115,000 were partially damaged.\n\nHe said at least 10 people died in Bangladesh, but Dhaka-based Somoy TV reported at least a dozen people had died and two others were missing in a boat capsizing.\n\nDozens of Bangladesh villages were flooded after protective embankments either washed away or were damaged by the storm surge, TV stations reported. Nearly 800,000 people were evacuated from vulnerable areas in Bangladesh on Sunday and housed in 9,000 cyclone shelters.\n\nRemal weakened considerably after making landfall in Bangladesh's Patuakhali district early in the morning with sustained winds of 111 kilometers (69 miles) per hour.\n\nIndia's Meteorological Department said it was likely to weaken further throughout the day, but warned of heavy showers over Assam and other northeastern states for the next two days.\n\nBangladesh experienced incessant rains on Monday, and the intensity of precipitation in the capital, Dhaka, increased in the evening with strong winds battering the city.\n\nMany roads in Dhaka were submerged, while life in the country's second largest city, Chattogram, was severely disrupted.\n\nAuthorities ordered all government officials to stay in their stations until the situation improved. Aid agencies said they deployed thousands of volunteers in Rohingya refugee camps and other affected areas to provide emergency support. Bangladesh has sprawling camps housing more than 1 million Rohingya refugees from Myanmar in the coastal district of Cox's Bazar.\n\nThe U.N.'s World Food Program said it provided emergency cash assistance to 30,000 families across the coast, while private development organization BRAC said it deployed more than 23,000 health workers and volunteers to help affected people.\n\nIn India's West Bengal state, thatched roofs on houses were blown away and electric poles and trees were uprooted in some coastal districts.\n\nThere were no immediate reports of deaths. Heavy downpours inundated streets and homes in low-lying areas of Kolkata.\n\nThe Kolkata airport reopened after being shut Sunday, while Bangladesh shut Chattogram's airport and canceled all domestic flights to and from Cox's Bazar.\n\nLoading and unloading at Chittagong seaport was halted and more than a dozen ships were moved from jetties to the deep sea as a precaution.\n\nAll schools in the region were closed until further notice.\n\nIndia's coasts are often hit by cyclones, but changing climate patterns have increased the storms' intensity, making preparations for natural disasters more urgent.",
       "fact_spans": [
         {
@@ -314,7 +314,7 @@
       "language_label_issue": null,
       "reporting_type": "original",
       "source_independence": "independent",
-      "source_independence_reason": "新华社达卡电。",
+      "source_independence_reason": "Xinhua's Dhaka dispatch.",
       "content": "This photo taken on May 27, 2024 shows a tree uprooted by cyclone in Satkhira, Bangladesh. At least 10 people were killed as Cyclone Remal slammed Bangladesh's coastlines and weakened to a tropical depression, said the country's State Minister for Disaster Management and Relief Md Mohibur Rahman on Monday. (Xinhua)\n\nDHAKA, May 27 (Xinhua) -- At least 10 people were killed as Cyclone Remal slammed Bangladesh's coastlines and weakened to a tropical depression, said the country's State Minister for Disaster Management and Relief Md Mohibur Rahman on Monday.\n\n\"We've come to know that 10 people were killed in six coastal districts due to the cyclonic storm,\" the official told a press conference in capital Dhaka.\n\nMillions of people in 19 Bangladeshi districts have been affected by the powerful storm, he said, adding a total of 148,533 houses were fully or partially damaged.\n\nAccording to him, a mass evacuation of nearly one million people, hours before the cyclone made landfall on Sunday night, prevented a greater loss of life.\n\nPower supply was not restored in many cyclone-hit areas on Monday. Cities including the capital Dhaka are experiencing drizzle and gusty wind as an impact of the cyclone.\n\nBangladesh's coastlines have been battered by ferocious winds, which uprooted trees and homes, ripped roofs off buildings and caused widespread power and water outages.\n\nFlood protection embankments were reportedly washed away or damaged in parts of the country's southern and southeastern regions which were hit hard by the cyclone.\n\nRemal also disrupted rail, road and air traffic largely since Sunday. ■\n\nPeople are seen on a flooded road in Khulna, Bangladesh, May 28, 2024. At least 10 people were killed as Cyclone Remal slammed Bangladesh's coastlines and weakened to a tropical depression, said the country's State Minister for Disaster Management and Relief Md Mohibur Rahman on Monday. (Xinhua)\n\nPedestrians are pictured on a flooded road in Khulna, Bangladesh, May 28, 2024. At least 10 people were killed as Cyclone Remal slammed Bangladesh's coastlines and weakened to a tropical depression, said the country's State Minister for Disaster Management and Relief Md Mohibur Rahman on Monday. (Xinhua)\n\nPeople fish in a flooding river in Khulna, Bangladesh, May 28, 2024. At least 10 people were killed as Cyclone Remal slammed Bangladesh's coastlines and weakened to a tropical depression, said the country's State Minister for Disaster Management and Relief Md Mohibur Rahman on Monday. (Xinhua)\n\nA woman wades through flood water in Khulna, Bangladesh, May 28, 2024. At least 10 people were killed as Cyclone Remal slammed Bangladesh's coastlines and weakened to a tropical depression, said the country's State Minister for Disaster Management and Relief Md Mohibur Rahman on Monday. (Xinhua)",
       "fact_spans": [
         {
@@ -524,7 +524,7 @@
       "language_label_issue": null,
       "reporting_type": "syndicated",
       "source_independence": "syndicated",
-      "source_independence_reason": "明确标注 reported Xinhua，主体与 A002 逐字重复。",
+      "source_independence_reason": "Explicitly credits Xinhua and repeats most of A002 verbatim.",
       "content": "Where accuracy is dealt with acumen\n\nPublished : 28 May 2024, 01:58\n\nAt least 10 people were killed as Cyclone Remal slammed Bangladesh's coastlines and weakened to a tropical depression, said the country's State Minister for Disaster Management and Relief Md Mohibur Rahman on Monday, reported Xinhua.\n\n\"We've come to know that 10 people were killed in six coastal districts due to the cyclonic storm,\" the official told a press conference in capital Dhaka.\n\nMillions of people in 19 Bangladeshi districts have been affected by the powerful storm, he said, adding a total of 148,533 houses were fully or partially damaged.\n\nAccording to him, a mass evacuation of nearly one million people, hours before the cyclone made landfall on Sunday night, prevented a greater loss of life.\n\nPower supply was not restored in many cyclone-hit areas on Monday. Cities including the capital Dhaka are experiencing drizzle and gusty wind as an impact of the cyclone.\n\nBangladesh's coastlines have been battered by ferocious winds, which uprooted trees and homes, ripped roofs off buildings and caused widespread power and water outages.\n\nFlood protection embankments were reportedly washed away or damaged in parts of the country's southern and southeastern regions which were hit hard by the cyclone.\n\nRemal also disrupted rail, road and air traffic largely since Sunday.",
       "fact_spans": [
         {
@@ -673,7 +673,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "部长通报孟加拉国至少 10 人死亡",
+        "cluster_description": "A minister reported at least 10 deaths in Bangladesh",
         "fact_type": "casualties",
         "attribute": "bangladesh_deaths",
         "supporting_spans": [
@@ -717,11 +717,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "compatible_vague_vs_specific",
         "temporal_relation": "unknown",
-        "annotation_note": "两下限可以同时成立，电视台和官员的统计截点未知。"
+        "annotation_note": "Both lower bounds can hold. The television report and official figures have unknown cutoffs."
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "房屋受损拆分与合计",
+        "cluster_description": "Breakdown and total of damaged homes",
         "fact_type": "damage",
         "attribute": "damaged_homes",
         "supporting_spans": [
@@ -763,7 +763,7 @@
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "撤离估计在不同报道相差约二十万",
+        "cluster_description": "Evacuation estimates differ by about 200,000",
         "fact_type": "evacuation",
         "attribute": "bangladesh_evacuations",
         "supporting_spans": [
@@ -814,7 +814,7 @@
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "风暴潮损害防洪堤",
+        "cluster_description": "Storm surge damaged flood embankments",
         "fact_type": "infrastructure",
         "attribute": "embankment_damage",
         "supporting_spans": [
@@ -870,14 +870,14 @@
         "FC004"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2024-05-26/2024-05-27",
-          "time_precision": "跨夜时间范围",
-          "description": "沿岸撤离及气旋登陆。",
+          "time_precision": "Overnight time window",
+          "description": "Coastal residents evacuated and the cyclone made landfall.",
           "supporting_spans": [
             "A001_F003",
             "A001_F004",
@@ -886,8 +886,8 @@
         },
         {
           "time": "2024-05-27",
-          "time_precision": "报道日",
-          "description": "部长通报死亡和住宅损坏，停电交通中断持续。",
+          "time_precision": "Publication date",
+          "description": "The minister reported deaths and home damage. Power and transport disruptions continued.",
           "supporting_spans": [
             "A001_F002",
             "A002_F002",
@@ -898,7 +898,7 @@
       ],
       "causal_relations": [
         {
-          "description": "风暴潮冲毁防洪堤，使部分沿海村庄被淹。",
+          "description": "Storm surge washed away flood embankments and inundated coastal villages.",
           "supporting_spans": [
             "A001_F003",
             "A002_F005"
@@ -907,7 +907,7 @@
       ],
       "event_mainline": [
         {
-          "description": "Remal 造成孟加拉国人员死亡、房屋损坏和大规模撤离，也影响印度东部。",
+          "description": "Remal caused deaths, home damage, and mass evacuation in Bangladesh and also affected eastern India.",
           "supporting_spans": [
             "A001_F001",
             "A001_F002",
@@ -932,9 +932,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "A002 与 A003 同源。印度 no immediate reports 与孟加拉国死亡数字不可比较。"
+      "A002 and A003 share a source. The absence of immediate reports in India cannot be compared with the Bangladesh death toll."
     ]
   }
 }

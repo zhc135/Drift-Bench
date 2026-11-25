@@ -31,7 +31,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "第二次登陆在不同报道分别写周六和周日。累计未给相同范围、阶段和截点。"
+      "Reports place the second landfall on Saturday or Sunday. Cumulative figures do not share a stated scope, stage, or cutoff."
     ],
     "dataset_place_name": "Tropical Cyclone FREDDY-23",
     "dataset_event_note": null
@@ -53,10 +53,10 @@
       "language": "en",
       "original_language": "en",
       "detected_language": "it",
-      "language_label_issue": "数据集原标签 en，标题和正文实际为意大利语。",
+      "language_label_issue": "The dataset label is en, but the title and body are in Italian.",
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "RaiNews 意大利语综合报道引用 AP 和多机构，未留署名。",
+      "source_independence_reason": "RaiNews's Italian-language roundup cites AP and several institutions without a byline.",
       "content": "Implacabile Freddy, il ciclone che dalla notte di sabato scorso si sta abbattendo, per la seconda volta, sull'Africa meridionale, ha già ucciso oltre 60 persone in Malawi e Mozambico. Lo confermano le autorità di entrambi i Paesi e la Croce Rossa che sta dando aiuto nelle operazioni di ricerca e salvataggio. Numerosi i feriti e i dispersi. Particolarmente colpita la citta di Blantyre.\n\nDa sabato, quando “Freddy” ha toccato terra per la seconda volta dalla fine di febbraio, le autorità del Mozambico hanno confermato la morte di cinque persone.\n\nE tra le vittime in Malawi ci sono cinque persone appartenenti a un unico nucleo familiare rimaste sotto le macerie della loro casa spazzata via dal forte vento e dalla pioggia. \"Temiamo che la cifra aumenti\", ha dichiarato all'AP il portavoce della polizia del Malawi, Peter Kalaya.\n\nIl ciclone ha colpito anche Madagascar e Réunion mentre attraversava l'oceano.\n\n“Freddy” si è sviluppato vicino all'Australia all'inizio di febbraio e ha attraversato tutto l'Oceano Indiano meridionale. Il 19 febbraio, dopo aver percorso 8.800 chilometri ha raggiunto il Madagascar.\n\nIl 24 febbraio è arrivato per la prima volta in Mozambico dove è tornato a colpire per la seconda volta, con venti fino a 200 chilometri orari, l’11 marzo, toccando terra nel porto di Quelimane dove sono stati segnalati danni a case e terreni agricoli, case scoperchiate e alberi abbattuti.\n\nIn un mese il ciclone tropicale ha registrato ben sette rapide intensificazioni e la più alta energia accumulata da un ciclone, ACE (Accumulated Cyclone Energy), l'indice che misura la quantità di energia rilasciata da un ciclone nel tempo. Nel suo tragitto ha sprigionato più energia di un'intera stagione di uragani americani.\n\n“Freddy” è destinato a diventare il ciclone tropicale più duraturo mai registrato. L'agenzia meteorologica delle Nazioni Unite ha convocato un gruppo di esperti per stabilire se ha superato il record di 31 giorni stabilito dall'uragano “John” nel 1994.\n\nLunedì il centro regionale di monitoraggio dei cicloni tropicali dell'agenzia meteorologica francese Météo-France a Réunion ha lanciato l’allerta: \"Le piogge più intense continueranno nelle prossime 48 ore\" e particolarmente a rischio sono le province centrali dei due Paesi, particolarmente vulnerabili a \"inondazioni e frane nelle aree montuose\".\n\nGran parte dei danni subiti in Malawi riguardano abitazioni costruite in aree vietate dalla legge, sui versanti montuosi o in prossimità di fiumi, dove si stanno verificando frane, fiumi che rompono gli argini E inondazioni senza precedenti.",
       "fact_spans": [
         {
@@ -275,7 +275,7 @@
       "language_label_issue": null,
       "reporting_type": "original",
       "source_independence": "independent",
-      "source_independence_reason": "警察发言人及现场居民直接向 BBC 陈述。",
+      "source_independence_reason": "A police spokesperson and local residents spoke directly to the BBC.",
       "content": "The destruction of roads and bridges has hampered relief efforts\n\nMore than 200 people are now confirmed dead in Malawi after Tropical Storm Freddy ripped through southern Africa for the second time in a month.\n\nHuge amounts of brown water have cascaded through neighbourhoods, sweeping away homes.\n\nMalawi's commercial hub, Blantyre, has recorded most of the deaths, including dozens of children.\n\nAid agencies are warning that the devastation will exacerbate a cholera outbreak in Malawi.\n\nThe government has declared a state of disaster in 10 southern districts that have been hardest-hit by the storm.\n\nRescue workers are overwhelmed, and are using shovels to try to find survivors buried in mud.\n\n\"We have rivers overflowing, we have people being carried away by running waters, we have buildings collapsing,\" police spokesman Peter Kalaya told the BBC.\n\nRecalling how he helped rescue a child, Blantyre resident Aaron Ntambo said: \"The child was stuck up to her head in the mud. She was crying for help. Even though the water was very strong, we managed to cross and rescue her. It was very difficult but we managed to pull her out.\"\n\nOfficials at the main referral hospital in the city said they could not cope with the sheer number of bodies that they were receiving.\n\nMedical charity Doctors Without Borders said that more than 40 children were pronounced dead on arrival at the hospital.\n\nOfficials appealed to bereaved families to collect the corpses for burial as the hospital's mortuary was running out of space.\n\nThe government's disaster relief agency said more than 20,000 people have been displaced.\n\nThe death toll is expected to rise as some areas remain cut off because of relentless rain and fierce winds.\n\nThe storm has also crippled Malawi's power supply, with most parts of the country experiencing prolonged blackouts.\n\nThe national electricity company said it was unable to get its hydro-power plant working as it had been filled with debris.\n\nDensely-populated poorer communities, living in brick and mud houses, have been hardest-hit.\n\nSome of these houses have crumbled into flood waters, while others have been entirely swept away.\n\nThe collapse of roads and bridges had hampered rescue operations, while helicopters could not be used either because of the heavy rains and strong winds.\n\nThe government has appealed for help for the tens of thousands of people who have been left without food and shelter.\n\nFreddy is one of only four storms in history to traverse the entire Indian Ocean from north-western Australia to mainland Africa. Freddy could also be the longest-lasting tropical cyclone on record, according to the World Meteorological Organization.\n\nOn Sunday the storm struck Mozambique as a cyclone - for the second time in a less than a month - after battering the island nation of Madagascar in the Indian Ocean, causing severe destruction.\n\nIt has been difficult to determine the extent of the damage caused in Mozambique and the number of deaths, as power supply and phone signals were cut off in some parts of the affected areas.\n\nAbout 20 deaths have so far been reported.\n\nExperts says climate change is making tropical storms around the world wetter, windier and more intense.\n\nFreddy had broken records for the strength it accumulated over the 8,000-km (5,000-mile) path it travelled across the Indian Ocean from north-western Australia.\n\nAfrica storm shows climate crisis reality - UN",
       "fact_spans": [
         {
@@ -511,7 +511,7 @@
       "language_label_issue": null,
       "reporting_type": "syndicated",
       "source_independence": "syndicated",
-      "source_independence_reason": "CBC 正文明确转载 Reuters 的现场采访和图片材料。",
+      "source_independence_reason": "CBC explicitly credits Reuters interviews and images.",
       "content": "Mozambique and Malawi on Monday were counting the cost of Tropical Storm Freddy, which killed more than 60 people, injured scores and left a trail of destruction as it ripped through southern Africa for the second time in a month over the weekend.\n\nFreddy is one of the strongest storms ever recorded in the southern hemisphere and could be the longest-lasting tropical cyclone, according to the World Meteorological Organization.\n\nIt pummeled central Mozambique on Saturday, ripping roofs off buildings and bringing widespread flooding around the port of Quelimane, before moving inland toward Malawi with torrential rains that caused landslides.\n\nThe full extent of the damage and loss of life in Mozambique in particular is not yet clear, as the power supply and phone signals were cut off in some parts of the affected area.\n\nIn Malawi's main commercial hub of Blantyre, the central hospital had received at least 60 bodies by early afternoon, Doctors Without Borders (MSF) country director Marion Pechayre told Reuters by telephone, adding that some 200 injured were being treated in the hospital.\n\nA person walks over debris during a storm in Chilobwe, Blantyre, Malawi, on Monday. (Eldson Chagara/Reuters)\n\nThe injuries were from falling trees, landslides and flash floods, she said.\n\n\"A lot of [houses] are mud houses with tin roofs, so the roofs fall on people's heads.\"\n\nCasualties were still arriving from affected areas, said Chipiliro Khamula, spokesperson for the department of disaster management.\n\nPolice spokesperson Peter Kalaya told Reuters that rescue teams had been looking for people in Chilobwe and Ndirande, two of the worst-affected townships in Blantyre, where it was still raining on Monday and many residents were without power.\n\n\"Some missing people are feared buried in rubble,\" Kalaya said.\n\nThe children and families in #Mozambique continue to pay the high price of #ClimateChange . #CycloneFreddy pic.twitter.com/pdEyBKd1vo\n\nAt least six people died in Mozambique's Quelimane, which was struck hard by the storm, authorities told the public broadcaster on Monday.\n\nScores more people were injured, Health Minister Armindo Tiago said on Radio Mozambique.\n\n\"The situation is critical in Zambezia province. We can't advance with an accurate picture of the scale of damage because there's no communications with all the regions,\" he said from a hospital in Quelimane.\n\nFlooding from #CycloneFreddy in #Quelimane &amp; surrounding areas is cutting children &amp; families off from basic services &amp; raising the risk of cholera &amp; other waterborne diseases. In rural areas, flooding threatens crops &amp; livelihoods, with greatest impact on the most vulnerable. pic.twitter.com/leQvfwjdDr\n\nThe total number killed by Freddy in Mozambique, Malawi and Madagascar since it first made landfall last month is now nearing 100.\n\nGuy Taylor, chief of advocacy, communications and partnerships for UN children's agency UNICEF in Mozambique, told Reuters from Quelimane that humanitarian agencies there did not have the capacity to deal with a disaster of this size.\n\n\"We saw a lot of destroyed buildings and clinics. People's homes had their roofs torn off by the wind. Even before the cyclone hit we saw localized flooding,\" he said.\n\nNo child should have to walk through dirty &amp; dangerous water. Yet, here in Tulear, heavy rains from #CycloneFreddy have caused severe flooding that can spread disease &amp; contaminate water supplies. Climate change is increasing extreme weather events. We must take #ClimateAction pic.twitter.com/HQIJdlz2wE\n\nThe wind had died down on Monday, but there was still a lot of flooding that had destroyed crops and created a risk of waterborne diseases, he said.\n\nMozambique has seen more than a year's worth of rainfall in the past four weeks.\n\nMalawi's cholera death toll crosses 1,300 in deadliest outbreak on record: health officials\n\nMalawi has been battling the deadliest cholera outbreak in its history, and UN agencies have warned the situation could now get worse.\n\nScientists say climate change is making tropical storms stronger, as oceans absorb heat from greenhouse gas emissions and when warm seawater evaporates heat energy is transferred to the atmosphere.",
       "fact_spans": [
         {
@@ -826,7 +826,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "死亡报告涉及多国、单国及单家医院",
+        "cluster_description": "Death reports cover several countries, one country, or a single hospital",
         "fact_type": "casualties",
         "attribute": "death_counts_scope",
         "supporting_spans": [
@@ -869,11 +869,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "unknown",
-        "annotation_note": "多个下限可以并存，单家医院不能代表全国。"
+        "annotation_note": "The lower bounds can coexist. A single hospital does not represent a national count."
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "莫桑比克再次受 Freddy 袭击，报道星期有差异",
+        "cluster_description": "Freddy struck Mozambique again, with reports giving different weekdays",
         "fact_type": "timeline",
         "attribute": "second_mozambique_impact",
         "supporting_spans": [
@@ -908,11 +908,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "revision_possible",
-        "annotation_note": "BBC 使用 struck 而非精确的登陆时点，可能涵盖持续影响。"
+        "annotation_note": "The BBC says “struck” without an exact landfall time, so it may refer to continuing impacts."
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "道路与通信受损妨碍评估",
+        "cluster_description": "Road and communications damage hindered assessments",
         "fact_type": "infrastructure",
         "attribute": "response_access",
         "supporting_spans": [
@@ -943,7 +943,7 @@
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "大雨洪水增加霍乱风险",
+        "cluster_description": "Heavy rain and flooding increased cholera risk",
         "fact_type": "secondary_hazard",
         "attribute": "cholera_risk",
         "supporting_spans": [
@@ -991,22 +991,22 @@
         "FC004"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2023-02-24",
-          "time_precision": "报道日精度",
-          "description": "RaiNews 报道 Freddy 首次登陆莫桑比克。",
+          "time_precision": "Precision to the reported date",
+          "description": "RaiNews reported Freddy's first landfall in Mozambique.",
           "supporting_spans": [
             "A001_F003"
           ]
         },
         {
           "time": "2023-03-11/2023-03-12",
-          "time_precision": "周末时间窗",
-          "description": "再次袭击莫桑比克并向马拉维移动。",
+          "time_precision": "Weekend time window",
+          "description": "Freddy struck Mozambique again and moved toward Malawi.",
           "supporting_spans": [
             "A001_F003",
             "A002_F005",
@@ -1015,8 +1015,8 @@
         },
         {
           "time": "2023-03-13",
-          "time_precision": "报道日",
-          "description": "搜救持续，媒体转述伤亡，马拉维宣布南部十区进入灾难状态。",
+          "time_precision": "Publication date",
+          "description": "Search and rescue continued and outlets relayed casualty figures. Malawi declared a state of disaster in ten southern districts.",
           "supporting_spans": [
             "A002_F002",
             "A003_F002",
@@ -1026,7 +1026,7 @@
       ],
       "causal_relations": [
         {
-          "description": "暴雨引发滑坡与洪水，毁坏交通和住所，并增加缺乏洁净水所对应的健康风险。",
+          "description": "Heavy rain triggered landslides and floods, damaged transport and housing, and increased health risks linked to scarce clean water.",
           "supporting_spans": [
             "A002_F002",
             "A002_F004",
@@ -1037,7 +1037,7 @@
       ],
       "event_mainline": [
         {
-          "description": "Freddy 第二次影响莫桑比克及马拉维，造成伤亡、流离失所与公用设施中断。",
+          "description": "Freddy's second passage affected Mozambique and Malawi, causing casualties, displacement, and utility outages.",
           "supporting_spans": [
             "A001_F001",
             "A002_F002",
@@ -1060,9 +1060,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "A001 原始语言标为 en，实际为意大利语。搜索救援仍在进行，统计范围不可直接叠加。"
+      "A001 was originally labeled en but is in Italian. Search and rescue remained ongoing, and the totals have different coverage and cannot be added directly."
     ]
   }
 }

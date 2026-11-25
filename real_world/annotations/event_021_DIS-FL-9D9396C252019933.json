@@ -31,7 +31,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "十月预警暴露人口与十一月已经受影响人口分别记录。"
+      "October estimates of exposure and November counts of people already affected are recorded separately."
     ],
     "dataset_place_name": "Flood in Somalia",
     "dataset_event_note": null
@@ -56,7 +56,7 @@
       "language_label_issue": null,
       "reporting_type": "original",
       "source_independence": "independent",
-      "source_independence_reason": "新华社摩加迪沙电，依据 FAO 声明。",
+      "source_independence_reason": "Xinhua's Mogadishu-datelined report is based on an FAO statement.",
       "content": "MOGADISHU, Oct. 6 (Xinhua) -- The Food and Agriculture Organization (FAO) of the United Nations said on Friday that it requires 11.8 million U.S. dollars to ramp up mitigation measures, including mapping out flood-prone areas, ahead of a rare \"super El Nino\" in Somalia.\n\nEtienne Peterschmitt, FAO's representative to Somalia, said funds will be used to protect people living along the Juba and Shabelle rivers where risks are highest, and will complement large-scale cash and livelihood support already identified under the Humanitarian Response Plan for Somalia.\n\n\"There are no excuses for inaction when climate models from global and regional forecasting centers show a strong confidence, more than 90 percent of increased rainfall over southern parts of the country due to a concurrence of El Nino conditions and a positive Indian Ocean Dipole phenomenon,\" he said in a statement. \"This will result in a rare 'Super El Nino' weather event from October to December this year.\"\n\nThe FAO estimated that 1.2 million people and 1.5 million hectares of productive land are at high risk of flooding in Somalia.\n\nThe UN food agency said it has developed a comprehensive, preparedness, anticipatory action and response plan aimed at mitigating and responding to the impact of the crisis. The plan is part of its global anticipatory action and response plan, which targets 25 countries at high risk of El Nino impacts on agricultural livelihoods and food security.\n\nPeterschmitt said the FAO is rapidly scaling up its early warning and anticipatory action activities, aiming to protect one million people.\n\nHe said the FAO is working with the Somali Disaster Management Agency and the UN Office for the Coordination of Humanitarian Affairs to support the coordination of anticipatory action, and called on other actors to take El Nino warnings seriously, working together to prevent loss of life and livelihoods in Somalia.\n\nEl Nino is one of several key climate drivers impacting East African weather, and unlike the La Nina event, which brought severe and prolonged drought from 2020-2022, El-Nino often results in above-normal rainfall in the East Africa region, the FAO said.\n\n\"In the last 30 years, the frequency of flood events in the riverine areas of the Juba and Shabelle river basins has tripled, often resulting in human casualties and major economic damage. As recently as May this year, a catastrophic flood along the Shabelle River displaced 250,000 people,\" Peterschmitt added. ",
       "fact_spans": [
         {
@@ -259,7 +259,7 @@
       "language_label_issue": null,
       "reporting_type": "syndicated",
       "source_independence": "syndicated",
-      "source_independence_reason": "正文出自 AP 摩加迪沙电，由 US News 刊载。",
+      "source_independence_reason": "US News published the AP Mogadishu-datelined article.",
       "content": "MOGADISHU, Somalia (AP) — Floods caused by torrential rainfall have killed at least 31 people in various parts of Somalia, authorities said Sunday.Since October, floods have displaced nearly half a million people and disrupted the lives of over 1.2 million people, Minister of Information Daud Aweis told reporters in the capital Mogadishu. They have also caused extensive damage to civilian infrastructure notably in the Gedo region of southern Somalia, he said. The U.N. Office for the Coordination of Humanitarian Affairs, or OCHA, which has given $25 million to help mitigate the impact of flooding, warned in a statement Thursday of “a flood event of a magnitude statistically likely only once in 100 years, with significant anticipated humanitarian impacts.”“While all possible preparatory measures are being pursued, a flood of this magnitude can only be mitigated and not prevented,” OCHA said, recommending “early warning and early action\" to save lives as \"large-scale displacement, increased humanitarian needs and further destruction of property remain likely.”The lives of some 1.6 million people in Somalia could be disrupted by floods during the rainy season that lasts until December, with 1.5 million hectares of farmland potentially being destroyed, it said.Mogadishu has been ravaged by downpours that, at times, swept away vulnerable people, including children and the elderly, and disrupted transportation. Floods are also affecting neighboring Kenya, where the death toll stood at 15 on Monday, according to the Kenya Red Cross. The port city of Mombasa and the northeastern counties of Mandera and Wajir are the worst affected.",
       "fact_spans": [
         {
@@ -461,7 +461,7 @@
       "language_label_issue": null,
       "reporting_type": "original",
       "source_independence": "independent",
-      "source_independence_reason": "正文署名 (SD)，报道委员会首次会议。",
+      "source_independence_reason": "The article carries an SD credit and covers the committee's first meeting.",
       "content": "MOGADISHU (SD) -The National Disaster Management Agency held its first meeting with the National Flood Emergency Committee, the meeting was attended by the Deputy Prime Minister of Somalia, Ministers, the Chairman of the National Disaster Management Agency, and various other sections of the community.\n\nThe committee declared a state of emergency, emphasizing the need for immediate assistance to the Somali people affected by the devastating floods, caused by heavy rains resulting in significant damage. They also reported on the relief efforts being made in the Jubba and Shabelle river regions.\n\nThe committee shared with the media the numbers and figures related to the assistance being provided to the affected population due to the floods and disasters.\n\nThe Somali public was urged to contribute and participate in the relief efforts, as the situation is critical and requires collective support. The committee expressed gratitude to those who have already contributed and emphasized the importance of the Somali people uniting in the face of this difficult situation.\n\nThe Director of the National Disaster Management Agency of Somalia expressed concern about the situation in the Gedo region, particularly in the town of Baardheere, where heavy flooding has severely affected the community.",
       "fact_spans": [
         {
@@ -570,7 +570,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "索马里洪灾造成至少 31 人死亡",
+        "cluster_description": "Flooding killed at least 31 people in Somalia",
         "fact_type": "casualties",
         "attribute": "somalia_deaths",
         "supporting_spans": [
@@ -596,7 +596,7 @@
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "暴露、预计扰动和已扰动人口口径有别",
+        "cluster_description": "Exposure, projected disruption, and observed disruption use different population measures",
         "fact_type": "affected_population",
         "attribute": "population_risk_and_impact",
         "supporting_spans": [
@@ -646,7 +646,7 @@
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "预计受洪威胁的农地均为 150 万公顷",
+        "cluster_description": "Both estimates put farmland at risk at 1.5 million hectares",
         "fact_type": "damage",
         "attribute": "land_area_at_risk",
         "supporting_spans": [
@@ -677,7 +677,7 @@
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "盖多地区灾情严重",
+        "cluster_description": "Gedo was severely affected",
         "fact_type": "damage",
         "attribute": "gedo_damage",
         "supporting_spans": [
@@ -725,22 +725,22 @@
         "FC004"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2023-10-06",
-          "time_precision": "报道日期",
-          "description": "FAO 为提前缓解风险请求 1180 万美元。",
+          "time_precision": "Publication date",
+          "description": "FAO requested $11.8 million for early mitigation.",
           "supporting_spans": [
             "A001_F001"
           ]
         },
         {
           "time": "2023-11-12",
-          "time_precision": "报道日期",
-          "description": "官员报告至少 31 人死、近 50 万人流离失所。",
+          "time_precision": "Publication date",
+          "description": "Officials reported at least 31 deaths and nearly 500,000 displaced people.",
           "supporting_spans": [
             "A002_F001",
             "A002_F002"
@@ -748,8 +748,8 @@
         },
         {
           "time": "2023-11-13",
-          "time_precision": "报道日期",
-          "description": "Somali Dispatch 报道国家委员会宣布紧急状态。",
+          "time_precision": "Publication date",
+          "description": "Somali Dispatch reported that the national committee declared a state of emergency.",
           "supporting_spans": [
             "A003_F001",
             "A003_F002"
@@ -758,13 +758,13 @@
       ],
       "causal_relations": [
         {
-          "description": "FAO 将降雨高风险归于厄尔尼诺与正印度洋偶极子的共同作用。",
+          "description": "FAO attributed the high rainfall risk to the combination of El Niño and a positive Indian Ocean Dipole.",
           "supporting_spans": [
             "A001_F002"
           ]
         },
         {
-          "description": "暴雨引发洪灾并造成流离失所和设施损坏。",
+          "description": "Heavy rain caused flooding, displacement, and damage to infrastructure.",
           "supporting_spans": [
             "A002_F001",
             "A002_F002",
@@ -774,7 +774,7 @@
       ],
       "event_mainline": [
         {
-          "description": "高风险预警后出现广泛洪灾，政府宣布紧急状态，联合国机构提供或寻求援助。",
+          "description": "Widespread flooding followed warnings of high risk. Authorities declared an emergency, and UN agencies provided or sought assistance.",
           "supporting_spans": [
             "A001_F001",
             "A002_F001",
@@ -797,9 +797,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "肯尼亚数字与索马里数字分别记录，百年一遇是机构的统计估计。"
+      "Kenya and Somalia are counted separately. The 100-year return period is an agency estimate."
     ]
   }
 }

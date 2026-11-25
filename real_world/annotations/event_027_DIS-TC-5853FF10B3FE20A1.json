@@ -35,7 +35,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "雷击报道与 Filipo 登陆的先后按报道语句记录，雷击时刻未明。"
+      "The sequence of the lightning report and Filipo's landfall follows the source wording. The time of the lightning strike is unknown."
     ],
     "dataset_place_name": "Tropical Cyclone FILIPO-24",
     "dataset_event_note": null
@@ -60,7 +60,7 @@
       "language_label_issue": null,
       "reporting_type": "likely_syndicated",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "与 Africanews 共享同一表述顺序，三句近乎逐字相同，原始署名不明。",
+      "source_independence_reason": "Follows the same sequence as Africanews, including three nearly identical sentences. The original byline is unknown.",
       "content": "Four people have died and three others are wounded after being struck by lightning in Mozambique, which is now bracing for Storm Filipo .\n\nThe lightning strikes happened in the northern town of Mogincual, in Nampula province.\n\nMeanwhile, the southern and central provinces of Gaza, Inhambane, Sofala and Zambézia have been placed on alert for severe thunderstorms expected later on Monday.\n\nStorm Filipo has now reached the Mozambican coast and could evolve into a severe tropical storm, before dispersing back out to sea.\n\nIncreased rainfall has already been recorded and there are fears of mudslides. Boats and vessels are being warned by Mozambique's National Institute of Meteorology (Inam) to take precautions.\n\nNatural disasters are common in Mozambique, particularly during the rainy and cyclone season which runs between October and April.",
       "fact_spans": [
         {
@@ -198,7 +198,7 @@
       "language_label_issue": null,
       "reporting_type": "likely_syndicated",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "与 MyJoyOnline 共享多句逐字文本，首发链不明。",
+      "source_independence_reason": "Shares several verbatim sentences with MyJoyOnline. First publication is unknown.",
       "content": "Four individuals lost their lives and three others sustained injuries from lightning strikes in the town of Mogincual, Nampula province in Mozambique.\n\nThe nation braces for Storm Filipo, with the southern and central provinces on alert for severe thunderstorms. Filipo has made landfall and may intensify into a severe tropical storm before dissipating at sea.\n\nIncreased rainfall has already been recorded and there are fears of mudslides. Boats and vessels are being warned by Mozambique's National Institute of Meteorology (Inam) to take precautions.\n\nNatural disasters are common in Mozambique, particularly during the rainy and cyclone season which runs between October and April.",
       "fact_spans": [
         {
@@ -330,7 +330,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "earth.com 转述 NASA 图像和 Oxfam 声明，无可核实稿件署名。",
+      "source_independence_reason": "Earth.com relays NASA imagery and an Oxfam statement, with no verifiable byline.",
       "content": "Today's Image of the Day from NASA Earth Observatory features Tropical Cyclone Filipo, which made landfall on the morning of March 12\n\nToday’s Image of the Day from NASA Earth Observatory features Tropical Cyclone Filipo, which made landfall on the morning of March 12 near the coastal town of Inhassoro, Mozambique.\n\n“In March 2024, low wind shear in the Mozambique Channel allowed Tropical Cyclone Filipo to strengthen off the coast of southeast Africa,” said NASA.\n\n“Around the time of this image, Filipo carried maximum wind speeds of about 80 kilometers (50 miles) per hour – equivalent to a tropical storm on the Saffir-Simpson wind scale.”\n\nOxfam International noted that the storm comes just a year after Cyclone Freddy impacted parts of Mozambique and Malawi. Millions of people in this region have nothing to eat but wild roots after losing their crops to repeated extreme weather.\n\n“Consecutive disasters have made it almost impossible for affected communities to recover and rebuild their lives. Whatever little crops people have tried planting in this growing season have been damaged either due to El Nino-induced six weeks of dry spells or by flash floods,” said Machinda Marongwe, Oxfam in Southern Africa Programme Director.\n\nFilipo ultimately weakened as it moved across land on March 12, but continued to deliver strong winds and heavy rainfall in the Inhambane and Gaza provinces.\n\nAccording to NASA, the storm was expected to turn southeast and move back over the Indian Ocean by March 14.\n\nThe image was captured by the MODIS (Moderate Resolution Imaging Spectroradiometer) on NASA’s Terra satellite.",
       "fact_spans": [
         {
@@ -516,7 +516,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "Mogincual 雷击伤亡",
+        "cluster_description": "Deaths and injuries from lightning in Mogincual",
         "fact_type": "casualties",
         "attribute": "mogincual_lightning_deaths",
         "supporting_spans": [
@@ -543,11 +543,11 @@
         "alignment_status": "aligned",
         "consistency_status": "consistent",
         "temporal_relation": "same_time",
-        "annotation_note": "报道发生于备灾背景，不能明确由 Filipo 造成。"
+        "annotation_note": "The report describes storm preparations. Filipo's role in the incident is unconfirmed."
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "Mogincual 雷击伤者",
+        "cluster_description": "People injured by lightning in Mogincual",
         "fact_type": "injuries",
         "attribute": "mogincual_lightning_injuries",
         "supporting_spans": [
@@ -578,7 +578,7 @@
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "风暴抵达莫桑比克海岸并登陆",
+        "cluster_description": "The storm reached the Mozambique coast and made landfall",
         "fact_type": "disaster_occurrence",
         "attribute": "filipo_landfall",
         "supporting_spans": [
@@ -617,7 +617,7 @@
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "过境带来强降雨",
+        "cluster_description": "The storm brought heavy rain as it passed",
         "fact_type": "weather",
         "attribute": "rainfall",
         "supporting_spans": [
@@ -673,14 +673,14 @@
         "FC004"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2024-03-11",
-          "time_precision": "报道日",
-          "description": "媒体报告雷击伤亡与强雷暴预警。",
+          "time_precision": "Publication date",
+          "description": "Media reported lightning casualties and warnings of severe thunderstorms.",
           "supporting_spans": [
             "A001_F001",
             "A001_F002"
@@ -688,8 +688,8 @@
         },
         {
           "time": "2024-03-12",
-          "time_precision": "当地日",
-          "description": "Filipo 上午在 Inhassoro 附近登陆，过陆时减弱。",
+          "time_precision": "Local date",
+          "description": "Filipo made landfall near Inhassoro in the morning and weakened while crossing land.",
           "supporting_spans": [
             "A003_F002",
             "A003_F005"
@@ -698,7 +698,7 @@
       ],
       "causal_relations": [
         {
-          "description": "NASA 将海峡上空风暴增强归于较低风切变。",
+          "description": "NASA attributed intensification over the channel to low wind shear.",
           "supporting_spans": [
             "A003_F003"
           ]
@@ -706,7 +706,7 @@
       ],
       "event_mainline": [
         {
-          "description": "Filipo 在莫桑比克登陆并带来大风暴雨。当地备灾报道还记录了另一地雷击伤亡。",
+          "description": "Filipo made landfall in Mozambique, bringing strong winds and heavy rain. Preparedness coverage also reported lightning casualties elsewhere.",
           "supporting_spans": [
             "A001_F001",
             "A001_F002",
@@ -729,9 +729,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "相关新闻的雷击伤亡未计为 Filipo 确认伤亡。"
+      "The lightning casualties are excluded from confirmed Filipo casualty figures."
     ]
   }
 }

@@ -36,7 +36,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "SISSA 指标的观察窗口为 2025-10-26 至 2026-01-25。WWA 提到 11 月至 1 月的反事实降雨比较。"
+      "The SISSA observation window runs from October 26, 2025 to January 25, 2026. WWA discusses a November-to-January counterfactual rainfall comparison."
     ],
     "dataset_place_name": "Drought in Argentina, Uruguay",
     "dataset_event_note": null
@@ -61,7 +61,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "引述 SISSA 与 BCR，正文没有足以核实稿件首发或授权转载关系的署名。",
+      "source_independence_reason": "The report cites SISSA and BCR. The supplied byline information is insufficient to verify first publication or republication rights.",
       "content": "According to the latest survey by the Information System on Droughts for Southern South America (SISSA), 29.86% of Argentina is experiencing some degree of water deficit, which is equivalent to 764,490 km². The report, covering from October 26, 2025, to January 25, 2026, shows that the drought is particularly affecting the provinces of Buenos Aires and Córdoba, at a critical time for soybean and corn crops. National distribution of drought in Argentina Abnormally dry: 11.38% of the country (285,333 km²). Moderate drought: 9.28% (232,672 km²). Severe drought: 5.87% (163,000 km²). Extreme drought: 3.06% (76,653 km²). Exceptional drought: 0.27% (6,832 km²). 70.14% of the national territory (almost 1.7 million km²) does not present drought conditions, although the water deficit is concentrated in strategic productive areas. Buenos Aires: the largest affected area In Buenos Aires, more than 80% of the territory shows a water deficit: Abnormally dry: 41.21% (126,098 km²). Moderate drought: 32.98% (101,900 km²). Only 16.45% (50,319 km²) is classified as non-dry. For now, no severe or extreme categories are recorded, but the affected area is the largest in the country. Córdoba: the most severe situation Córdoba concentrates the most critical levels: Severe drought: 19.78% (32,433 km²). Extreme drought: 15.84% (25,962 km²). Exceptional drought: 2.76% (4,532 km²). Moderate drought: 14.48% (23,737 km²). In total, more than 86,000 km² (more than 50% of the province) are experiencing some level of water deficit. This is particularly concerning due to Córdoba's role as the main corn producer and its mixed agriculture and livestock scheme. [caption id=\"attachment_138191\" align=\"alignnone\" width=\"1300\"] The drought in Argentina and its impact on the country's most important productive regions.[/caption] Santa Fe and Entre Ríos: moderate impact Santa Fe: 83.54% of the territory (111,185 km²) is not experiencing drought. However, 12.82% (17,000 km²) is abnormally dry and 3.64% (4,800 km²) under moderate drought, with greater impact in the southern part of the province. Entre Ríos: 76.75% (59,607 km²) is not experiencing drought. 14.21% (11,032 km²) is abnormally dry, 8.31% (6,451 km²) under moderate drought, and 0.73% (568 km²) under severe drought. Impact on agricultural production The Rosario Board of Trade (BCR) warned that in the core region, January rains reached only 30% of normal. This is already affecting crops: The first crop soybeans show yield losses that are difficult to recover. In late and second crop corn, about 90,000 hectares are compromised, with much of the area in regular condition and awaiting new rains. The SISSA survey confirms that the drought affects almost a third of the country, with Buenos Aires and Córdoba as epicenters of the water deficit. The situation is critical due to its direct impact on agricultural and livestock production, reinforcing the need for water management and climate adaptation policies in the most affected provinces.",
       "fact_spans": [
         {
@@ -574,7 +574,7 @@
       "language_label_issue": null,
       "reporting_type": "likely_syndicated",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "报道明确提到有关受访人士向 Associated Press 证实情况，采用 AP 采访材料；所供正文未保留独立的通稿署名。",
+      "source_independence_reason": "The report explicitly identifies interview material from the Associated Press. The supplied text has no separate wire-service credit.",
       "content": "Human-caused climate change had an important impact on the recent ferocious wildfires that engulfed parts of Chile and Argentina's Patagonia region, making the extremely high-risk conditions that led to widespread burning up to three times more likely than in a world without global warming, a team of researchers warned on 11 February.The hot, dry and gusty weather that fed last month's deadly wildfires in central and southern Chile was made around 200 per cent more likely by human-made greenhouse gas emissions while the high-fire-risk conditions that fuelled the blazes still racing through southern Argentina were made 150 per cent more likely, according to World Weather Attribution, a scientific initiative that investigates extreme weather events soon after they happen.That probability will only increase as humans continue to burn fossil fuels and blanket the planet with more heat-trapping gases, researchers added.The blazes that tore through Chile’s Biobio and Ñuble regions in mid-January killed 23 people, destroyed over 1,000 houses and other structures and forced tens of thousands of people to flee their homes. All were caused by human activity, whether through arson or negligence.In southern Argentina, the fires first ignited by lightning forced the evacuation of thousands of tourists and residents and burned through over 45,000 hectares of native forest, including vast swaths of the Los Alerces National Park, a UNESCO World Heritage site home to 2,600-year-old trees.Finding human fingerprints on disastersThe study, confirming what had been widely suspected, brings the first scientific assessment of global warming's role in intensifying some of the most serious wildfire emergencies to grip Chile and Argentina in years.It's the latest in an emerging subfield of climate science known as weather attribution, which is evolving rapidly in response to a growing thirst for public information about how climate change influences natural disasters.The World Weather Attribution report has not yet been peer-reviewed or published in a scientific journal, but it relies on widely accepted methods, including the analysis of data and computer model simulations to compare today’s climate with past weather patterns.“Overall, we’re confident in saying that the main driver of this increased fire risk is human-caused warming,” Clair Barnes, a research associate with World Weather Attribution, said in a briefing with reporters. “These trends are projected to continue in the future as long as we continue to burn fossil fuels.”Hot and dry forests become a tinderboxRecord droughts and scorching temperatures created conditions conducive to wildfires in Chile and Argentina, the study found, while single-species plantations of highly flammable trees like pines helped the fires spread more easily in both areas. The invasive species have replaced native, more fire-resistant ecosystems in the region, turning shrub, brush and grass into kindling.In Argentina's Patagonia, the town of El Bolsón recorded its highest January temperature on record – 38.4 degrees Celsius. The town of Esquel, near Los Alerces National Park, logged 11 consecutive days of maximum temperatures in January, its second-longest heat wave in 65 years. Temperatures in Chile ahead of the fires were high but not record-breaking.The researchers estimated that seasonal rainfall from November to January, before the peak burning period, was around 25 per cent weaker in Chile and 20 per cent less intense in Argentine Patagonia than it would have been without a rise in global temperatures of at least 1.3 degrees Celsius since pre-industrial times.“This, together with higher-than-average temperatures, led to vegetation being submitted to stress, very low humidity in the soil,” said Juan Antonio Rivera, an Argentine researcher and author of the study. “Once the wildfires began... there was sufficient fuel to extend and be sustained over time.”Fewer resources makes an impactChile has increased its budget for fighting wildfires by 110 per cent in the last four years under left-wing President Gabriel Boric, improving fire forecasting and investing in new equipment.But in Argentina, a harsh austerity program under libertarian President Javier Milei may have hobbled the country’s ability to respond to the fires, researchers said, citing budget cuts to firefighting crews, a lack of planning and deregulation of tourism activities in Patagonia’s national parks. It’s a claim echoed to news agency The Associated Press by firefighters, park rangers and officials involved in disaster relief.Milei, like his ally US President Donald Trump, has denied that climate change is related to human presence. His office did not immediately respond to a request for comment early Wednesday (11 February).“Unfortunately, with a government that does not understand climate change and its connection to human activities, where nature is secondary in terms of priorities, these situations get worse and wildfires end up having greater impacts than they should,” said Rivera. “The situation is still not under control.”",
       "fact_spans": [
         {
@@ -997,7 +997,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "正文无明确通讯社署名或可核验的一手采访说明。",
+      "source_independence_reason": "The body has no clear news-agency credit or verifiable first-hand interview attribution.",
       "content": "Record-breaking heat waves and wildfires are causing devastation across the Southern Hemisphere as 2026 begins. Despite the cooling effect of La Nina, extreme temperatures are fanning flames in countries like Australia, Argentina, and South Africa, exacerbating the consequences of climate change.\n\nExperts warn that as the hemisphere transitions into neutral or El Nino phases, these extreme weather events could become even more frequent and intense. Wildfires, once manageable, now grow into uncontrollable disasters due to persistent heat, droughts, and rising temperatures—contributing to dangerous conditions and loss of life.\n\nScientists emphasize the need for adaptation strategies to manage vegetation near urban areas and improve evacuation plans. As wildfires inflict significant economic damage globally, there is an urgent call to limit future climate change to prevent exacerbation of such environmental calamities.",
       "fact_spans": [
         {
@@ -1100,7 +1100,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "SISSA 统计阿根廷各类水分亏缺合计覆盖近三成国土",
+        "cluster_description": "SISSA estimates that water deficits of varying severity affect nearly 30% of Argentina",
         "fact_type": "disaster_magnitude",
         "attribute": "national_water_deficit_share",
         "supporting_spans": [
@@ -1123,7 +1123,7 @@
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "科尔多瓦过半省域存在不同程度的水分亏缺",
+        "cluster_description": "Water deficits of varying severity affect more than half of Córdoba province",
         "fact_type": "disaster_magnitude",
         "attribute": "cordoba_water_deficit_share",
         "supporting_spans": [
@@ -1145,11 +1145,11 @@
         "alignment_status": "single_source",
         "consistency_status": "single_source_unverified",
         "temporal_relation": "unknown",
-        "annotation_note": "正文的 50% 以上指各类水分亏缺；正文列出的重度、极端、异常三个等级合计不足 50%。"
+        "annotation_note": "The figure above 50% includes all water deficit categories. The severe, extreme, and exceptional categories together account for less than 50%."
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "阿根廷农业核心区降雨缺口与巴塔哥尼亚对照情景降雨缺口",
+        "cluster_description": "Rainfall deficits in Argentina's agricultural core and under the Patagonian counterfactual comparison",
         "fact_type": "weather",
         "attribute": "rainfall_deficit",
         "supporting_spans": [
@@ -1185,11 +1185,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "unknown",
-        "annotation_note": "地理范围、时间窗口和参照基线均不一致。"
+        "annotation_note": "The geographic areas, time windows, and reference baselines differ."
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "高温与干旱助长火灾",
+        "cluster_description": "Heat and drought contribute to wildfires",
         "fact_type": "secondary_hazard",
         "attribute": "fire_weather_drivers",
         "supporting_spans": [
@@ -1224,11 +1224,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "compatible_vague_vs_specific",
         "temporal_relation": "unknown",
-        "annotation_note": "A003 是南半球综合报道，不能据此互证巴塔哥尼亚单项指标。"
+        "annotation_note": "A003 covers the Southern Hemisphere broadly and provides no corroboration for individual Patagonian measurements."
       },
       {
         "cluster_id": "FC005",
-        "cluster_description": "干旱影响大豆与部分玉米种植区",
+        "cluster_description": "Drought affects soybean and some maize-growing areas",
         "fact_type": "damage",
         "attribute": "crop_impact",
         "supporting_spans": [
@@ -1273,14 +1273,14 @@
         "FC005"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2025-10-26/2026-01-25",
-          "time_precision": "观测日期范围",
-          "description": "SISSA 统计阿根廷水分亏缺情况。",
+          "time_precision": "Observation date range",
+          "description": "SISSA measured water deficits in Argentina.",
           "supporting_spans": [
             "A001_F001",
             "A001_F002"
@@ -1288,8 +1288,8 @@
         },
         {
           "time": "2026-01",
-          "time_precision": "月",
-          "description": "阿根廷农业核心区 1 月降雨约束作物生产，巴塔哥尼亚部分城镇同时经历高温。",
+          "time_precision": "Month",
+          "description": "January rainfall constrained crop production in Argentina's agricultural core, while some Patagonian towns experienced high temperatures.",
           "supporting_spans": [
             "A001_F010",
             "A001_F011",
@@ -1298,8 +1298,8 @@
         },
         {
           "time": "2026-02-11",
-          "time_precision": "日（报道）",
-          "description": "WWA 研究经媒体报道，将暖化与巴塔哥尼亚较高火险和估算降雨缺口关联。",
+          "time_precision": "Day (publication)",
+          "description": "Media coverage of the WWA study linked warming to increased fire risk and estimated rainfall deficits in Patagonia.",
           "supporting_spans": [
             "A002_F001",
             "A002_F008"
@@ -1308,14 +1308,14 @@
       ],
       "causal_relations": [
         {
-          "description": "报道将核心产区雨量偏低与大豆减产、部分玉米受损关联。",
+          "description": "The report links low rainfall in the agricultural core to reduced soybean yields and damage to some maize crops.",
           "supporting_spans": [
             "A001_F010",
             "A001_F011"
           ]
         },
         {
-          "description": "WWA 研究人员报告，偏少降雨和高温令植被受压、土壤含水量降低，并为火势持续提供条件。",
+          "description": "WWA researchers reported that rainfall deficits and heat stressed vegetation, lowered soil moisture, and created conditions for fires to persist.",
           "supporting_spans": [
             "A002_F008",
             "A002_F009"
@@ -1324,7 +1324,7 @@
       ],
       "event_mainline": [
         {
-          "description": "SISSA 报告布宜诺斯艾利斯和科尔多瓦是水分亏缺集中的两个省。",
+          "description": "SISSA identified Buenos Aires and Córdoba as two provinces with concentrated water deficits.",
           "supporting_spans": [
             "A001_F001",
             "A001_F002",
@@ -1333,7 +1333,7 @@
           ]
         },
         {
-          "description": "歉雨影响农业。巴塔哥尼亚及南半球综合报道还讨论干热天气带来的火险。",
+          "description": "Low rainfall has affected agriculture. The reports on Patagonia and the Southern Hemisphere also discuss fire risk from hot, dry weather.",
           "supporting_spans": [
             "A001_F010",
             "A001_F011",
@@ -1356,9 +1356,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "三篇报道未提供乌拉圭旱情数字。智利损失为另一地理范围的火灾背景。"
+      "The reports provide no drought figures for Uruguay. Chilean losses concern fires in a separate geographic area."
     ]
   }
 }

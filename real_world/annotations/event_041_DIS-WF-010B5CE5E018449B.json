@@ -28,7 +28,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "希腊火灾 8 月 11 日发生。塞浦路斯消防队返程是 8 月 14 日。"
+      "The Greek fire began on August 11. The Cypriot firefighting team returned on August 14."
     ],
     "dataset_place_name": "Forest fires in Greece",
     "dataset_event_note": null
@@ -53,7 +53,7 @@
       "language_label_issue": null,
       "reporting_type": "original",
       "source_independence": "independent",
-      "source_independence_reason": "Cyprus Mail 记录林业负责人独有访谈。",
+      "source_independence_reason": "Cyprus Mail includes a separate interview with the forestry director.",
       "content": "The Cypriot firefighting mission to North Macedonia to respond to forest fires has been completed, leaving the best impressions for its operational excellence and is returning to Cyprus, the Director of the Forestry Department, Savvas Iezekiel, told said on Wednesday. Regarding the assistance to Greece, he said it was scuttled as it was impossible to immediately meet the request to send manpower with firefighting equipment, as it would have taken time to transport the ground firefighters by sea and since in the meantime the fires seemed to be handled by the Greek firefighting forces, there was no real reason to do so. Specifically, regarding the two Air Tractor AT-802 firefighting planes of the Forestry Department, with four crew and five ground support personnel, which went to North Macedonia for five days of firefighting assistance, Ezekiel said that the mission was carried out. He added that “we had very good successes”, saying that the operational mode of action was impressive, as “we improved systems and helped the Republic of North Macedonia during the five days requested by the EU and today (14 August after noon) they are returning to Cyprus with their crews”. He went on to say that they operated for five days in different areas, put out several fire fronts. Asked if the fires in North Macedonia have been extinguished, he said that there are still fires, as they have broken out in beech and oak forests in which extinguishing fires is very difficult and requires too many ground forces and not aircraft He explained that the Air Tractors are returning with their crews and will land at Paphos airport, while the supporting personnel will return later by air, on a commercial flight from Skopje via Athens or Thessaloniki.",
       "fact_spans": [
         {
@@ -187,7 +187,7 @@
       "language_label_issue": null,
       "reporting_type": "likely_syndicated",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "与 Reuters 报道共享相同引语、调查线索和数据，来源链未明确。",
+      "source_independence_reason": "Uses the same quotations, investigative leads, and figures as Reuters. The source chain is unclear.",
       "content": "Investigators suspect that a faulty power cable might be the cause of Greece's worst wildfire this year, according to sources close to the probe. The blaze, which killed one woman and torched 10,000 hectares near Athens, began on August 11.\n\nThe fire started in a forest near Varnavas town, 35 km from the capital, spreading rapidly into northern suburbs of Athens. Investigators have interviewed local residents, including a 76-year-old man who suggested that a loose cable on a wooden electricity pillar outside his home could have ignited the blaze.\n\nClimate change, high temperatures, and gale-force winds have exacerbated wildfire risks in Greece, which saw over 8,000 forest fires in 2023. Engineers are investigating, but the power network operator HEDNO claims no evidence of a malfunction. Despite milder winds calming the blaze, officials warn that flare-ups are still possible.",
       "fact_spans": [
         {
@@ -345,7 +345,7 @@
       "language_label_issue": null,
       "reporting_type": "syndicated",
       "source_independence": "syndicated",
-      "source_independence_reason": "雅典电头注明 Reuters。",
+      "source_independence_reason": "The Athens dateline credits Reuters.",
       "content": "Summary Faulty power cable may have caused Greece's worst wildfire this year\n\nATHENS (Reuters) - Investigators suspect a faulty power cable may have caused Greece's worst wildfire this year, said sources close to a probe over the blaze that killed one woman and torched 10,000 hectares near Athens, covering a total area about the size of Paris.\n\nThe blaze, which began on Aug. 11, broke out from a forest off Varnavas town, 35 km (22 miles) from the capital and into Athens' northern suburbs, some of which had never seen a wildfire before, within a day.\n\nAuthorities have questioned Varnavas residents as part of their investigation into what caused the blaze. A 76-year-old man said a wooden electricity pillar outside his home, which had a loose cable fastened to it with a hanger, could have triggered it, officials said.\n\nThat scenario was the leading one in the probe, which should be concluded over the coming months, an official with knowledge of the investigation said. Arson was also being considered.\n\nA fire brigade official who declined to be named said an area close to the electricity pole had been determined as the starting point of the blaze.\n\nWildfires have been a common feature of Greek summers for years, with many attributed to voluntary or involuntary arson, short-circuits, or occasionally, natural causes. The country registered more than 8,000 forest fires in 2023.\n\nIn recent years, the risk of such fires has been raised by climate change, which has brought hotter weather and less rain.\n\nA prosecutor has deployed engineers to look into the latest wildfire's cause.\n\nGreece's power network operator HEDNO, said it had found no evidence of a malfunction.\n\n\"We do not indicate that anything wrong such as a short-circuit happened,\" an official at HEDNO told Reuters adding that only the relevant authorities were responsible for determining the fire's cause.\n\nLocal media cited residents who had heard explosions before the fire broke out. Others said there were initially two fires.\n\nMilder winds have calmed the blaze which covered a distance of 40 kilometres (24.85 miles) before reaching the Athens suburbs of Penteli and Vrilissia, where one woman was killed.\n\nStill, flare-ups were possible, officials have warned, as winds are expected to pick up again.\n\nSunday's fast-moving fire broke out amid a week-long high-fire risk alert due to high temperatures and gale-force winds.\n\nGreece had its warmest winter on record this year and was on track for its hottest summer with scant rain in many areas, a recipe for fire disasters, according to firefighters.\n\n\"The fire started very far from here, probably from a power line, and in no time it burned everything,\" 78-year-old Varnavas resident Giannis Tsiminis told Reuters on Wednesday.",
       "fact_spans": [
         {
@@ -553,7 +553,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "希腊山火从 Varnavas 向雅典北郊蔓延",
+        "cluster_description": "The Greek wildfire spread from Varnavas toward northern Athens",
         "fact_type": "location",
         "attribute": "fire_path",
         "supporting_spans": [
@@ -584,7 +584,7 @@
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "报道 1 人死亡与 1 万公顷被烧",
+        "cluster_description": "Reports give one death and 10,000 hectares burned",
         "fact_type": "damage",
         "attribute": "reported_loss",
         "supporting_spans": [
@@ -617,11 +617,11 @@
         "alignment_status": "aligned",
         "consistency_status": "consistent",
         "temporal_relation": "same_time",
-        "annotation_note": "报道高度同源。"
+        "annotation_note": "The reports appear to share a source."
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "电缆故障是调查中的假设",
+        "cluster_description": "An electrical cable fault was one hypothesis under investigation",
         "fact_type": "cause",
         "attribute": "ignition_cause",
         "supporting_spans": [
@@ -648,7 +648,7 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "compatible_vague_vs_specific",
         "temporal_relation": "unknown",
-        "annotation_note": "电网企业称未发现故障证据，无法确认起火原因。"
+        "annotation_note": "The grid operator reported no evidence of a fault. The ignition cause remains unconfirmed."
       }
     ]
   },
@@ -667,14 +667,14 @@
         "FC003"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2024-08-11",
-          "time_precision": "当地日",
-          "description": "Varnavas 附近山火向雅典北郊蔓延。",
+          "time_precision": "Local date",
+          "description": "A wildfire near Varnavas spread toward the northern suburbs of Athens.",
           "supporting_spans": [
             "A002_F001",
             "A002_F002",
@@ -683,8 +683,8 @@
         },
         {
           "time": "2024-08-15",
-          "time_precision": "报道日",
-          "description": "媒体报道火因调查和仍有复燃可能。",
+          "time_precision": "Publication date",
+          "description": "Media reported an investigation into the cause and continued risk of flare-ups.",
           "supporting_spans": [
             "A002_F004",
             "A003_F005",
@@ -694,7 +694,7 @@
       ],
       "causal_relations": [
         {
-          "description": "更热、更干燥和强风加大山火风险。起火电缆假设仍在调查。",
+          "description": "Hotter, drier conditions and strong winds increased fire risk. The electrical cable hypothesis remains under investigation.",
           "supporting_spans": [
             "A002_F001",
             "A002_F003",
@@ -706,7 +706,7 @@
       ],
       "event_mainline": [
         {
-          "description": "雅典附近山火烧毁大片土地并导致一人死亡，起火原因尚未确定。",
+          "description": "The wildfire near Athens burned a large area and killed one person. The cause remains undetermined.",
           "supporting_spans": [
             "A002_F001",
             "A003_F002",
@@ -728,9 +728,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "A001 主体谈北马其顿另一场火灾。仅保留其希腊援助段落为本事件证据。"
+      "A001 focuses on a separate fire in North Macedonia. Only the passage on assistance to Greece was used as event evidence."
     ]
   }
 }

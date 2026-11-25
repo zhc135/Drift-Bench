@@ -33,7 +33,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "网页原始发布时间早于 A002 顶部的周三 11:00 ET 更新；风暴命名以文章内注明的更新时间解释。"
+      "The listed publication time predates A002's Wednesday 11:00 ET update. The storm naming follows the update noted in the article."
     ],
     "dataset_place_name": "Tropical Cyclone ALBERTO-24",
     "dataset_event_note": "适合时间任务\n"
@@ -58,7 +58,7 @@
       "language_label_issue": null,
       "reporting_type": "original",
       "source_independence": "independent",
-      "source_independence_reason": "正文署 FOX 35 自家气象团队及两名气象员。",
+      "source_independence_reason": "The body credits the FOX 35 weather team and two of its meteorologists.",
       "content": "The FOX 35 Storm Team is tracking a tropical system in the Gulf of Mexico and another wave approaching Florida from the east.\n\nORLANDO, Fla. - The National Hurricane Center is keeping a close eye on two systems for possible development this week.\n\nThe disturbance (Tropical Wave 91L) positioned in the southwest Gulf of Mexico could become the first named storm of the 2024 Atlantic hurricane season. The NHC said it has a 70% chance of development over the next seven days.\n\n\"Environmental conditions appear conducive for additional gradual development, and a tropical depression or tropical storm is likely to form by midweek while it moves slowly westward or west-northwestward toward the western Gulf coast,\" the NHC said in an update Monday.\n\nMORE NEWS: Undetected tornado touches down in Crystal River, Florida\n\nIf the disturbance were to strengthen into a storm, it would be named Alberto . Current models forecast the system to track into Mexico, bringing flooding rain and winds up to 55 mph at landfall later this week.\n\nForecasters are also monitoring a rare area of low pressure located several hundred miles east of Florida and the Bahamas in the southwestern Atlantic Ocean.\n\nFOX 35 Storm Team Meteorologist Brooks Garner said the low is trying to develop along an old cold front in the western Atlantic. Garner said that could be the seed for a future tropical or subtropical system, set to make a run for Florida late this week.\n\nIt has a 30% chance of formation over the next seven days, according to the NHC.\n\nThere's also an upper level low atop of that developing tropical system, which Garner said is the opposite of what the systems need to further develop. (They need high pressure aloft.)\n\nThe current setup will obstruct any chance of rapid advancement of this system. This will keep the system much weaker than the earlier appeared potential from over the weekend, when the threat first became apparent.\n\nIf the area were to develop, such an event would be \"extremely rare\" for June, said FOX 35 Storm Team Meteorologist Noah Bergren. \"Historically, only three storms have made landfall from the east in June,\" he added. \"The most recent was Tropical Storm Danny in 2021, which hit South Carolina.\"\n\nRELATED: 'Extremely rare' tropical system could form off Florida's Atlantic Coast midweek\n\nThis unusual weather pattern is due to a massive heat dome over New England, creating an east-to-west flow over the southwest Atlantic Ocean.\n\nRegardless of development, the tropical activity will cause breezy conditions on Thursday and Friday in Central Florida, with a higher chance for rain, potentially rough surf and slightly higher than normal tides.",
       "fact_spans": [
         {
@@ -259,7 +259,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "FOX Weather 图源及专题编辑，预报与其他报道共享 NHC 数据。",
+      "source_independence_reason": "FOX Weather supplies the graphics and editorial content. The forecasts share NHC data with other reports.",
       "content": "As of Wednesday at 11 a.m. ET, Potential Tropical Cyclone One has strengthened into Tropical Storm Alberto. Continuous coverage of Tropical Storm Alberto has moved here. Potential Tropical Cyclone One continues to spin across the Gulf of Mexico and is expected to bring tropical storm conditions to Texas starting Wednesday, including heavy rain, flooding and high wind gusts. A potential tropical cyclone is a designation used by the National Hurricane Center (NHC) to indicate a disturbance that is not yet a tropical cyclone but has the potential to bring that kind of weather to the U.S. within 48 hours. The National Hurricane Center (NHC) says the system is expected to strengthen and will likely get the first name on the list for the 2024 season – Alberto. Here’s everything you need to know about Potential Tropical Cyclone One. Where is Potential Tropical Cyclone 1? Potential Tropical Cyclone One is located in the western Gulf of Mexico, about 315 miles southeast of Brownsville, Texas. WHAT’S THE DIFFERENCE BETWEEN A TROPICAL DEPRESSION, TROPICAL STORM AND HURRICANE? The position and latest statistics of Potential Tropical Cyclone One.(FOX Weather) What is the forecast for Potential Tropical Cyclone 1? Potential Tropical Cyclone One is expected to become a tropical storm on Wednesday by the time it reaches the coast of northeastern Mexico late Wednesday night or early Thursday. A LOOK AT HOW THE HURRICANE FORECAST CONE WILL BE DIFFERENT IN 2024 The forecast cone for Potential Tropical Cyclone One.(FOX Weather) What are the impacts of Potential Tropical Cyclone 1? A Tropical Storm Warning remains in effect for the Texas coast from San Luis Pass to the mouth of the Rio Grande. A Tropical Storm Warning has also been issued for parts of Mexico's coast from the mouth of the Rio Grande to Puerto de Altamira. 2024 ATLANTIC HURRICANE SEASON GUIDE: HERE’S WHAT TO KNOW ABOUT THIS YEAR’S STORMS Tropical weather alerts for Potential Tropical Cyclone One.(FOX Weather) Flood alerts have been issued along the Gulf Coast from the U.S.-Mexico border to the Mississippi-Alabama border due to the threat of heavy rain as well as the combination of storm surge and high tide. The Flood Watches extend the length of the Texas coastline from Brownsville through Corpus Christi and into the Galveston area. HOW TO PREPARE FOR HURRICANE SEASON Flood alerts have been issued for a large part of Texas.(FOX Weather) Coastal flood alerts have also been issued and extend from the U.S.-Mexico border to the Mississippi-Alabama border. Coastal Flood Warnings are in effect from Port Mansfield to Port Lavaca, Galveston and Sabine Pass in Texas. Coastal Flood Advisories extend farther east and include communities along the Louisiana coast, as well as Gulfport and Biloxi in Mississippi. 7 FACTS YOU SHOULD KNOW ABOUT FLASH FLOODS Coastal flood alerts.(FOX Weather) The NHC says that the combination of storm surge and high tide will cause areas of the coastline that normally remain dry to be flooded by rising water moving inland from the shoreline. Water could reach the following heights if the peak storm surge occurs at the time of high tide: Sargent, Texas to Sabine Pass, Texas: 2-4 feet Galveston Bay: 2-4 feet Mouth of the Rio Grande River, Texas to Sargent: 1-3 feet Sabine Pass to Vermilion/Cameron Parish Line, Louisiana: 1-3 feet DOWNLOAD THE FREE FOX WEATHER APP This graphic shows the storm surge forecast.(FOX Weather) Potential Tropical Cyclone One is expected to dump a lot of rain across portions of Texas and northern Mexico. The NHC says rainfall totals of 5-10 inches are possible in South Texas and northeastern Mexico, with some locally higher amounts of 15 inches possible. \\\"This rainfall will likely produce considerable flash and urban flooding along with new and renewed river flooding,\\\" the NHC said. In addition, mudslides are possible in the higher terrain of northeastern Mexico. This graphic shows the forecast rain totals.",
       "fact_spans": [
         {
@@ -655,7 +655,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "CBS North Texas 本地预报，未标记者署名。",
+      "source_independence_reason": "CBS North Texas local forecast without a reporter byline.",
       "content": "NORTH TEXAS – Tuesday will be another hot day with temperatures topping out in the low 90s but feeling more like 100 degrees thanks to the continued tropical moisture in North Texas.The southerly surface flow keeps the Gulf moisture in North Texas, so it will be muggy the next few days.The rain chance on Tuesday is at just 10% for mainly the southeast sides of North Texas. However, rain chances increase to 20%-30% for Wednesday, factoring in the potential track of a system in the southwestern Gulf of Mexico that could become Tropical Storm Alberto. The chance of rain is higher the further south you go across the Lonestar State. A tropical storm warning is now in effect from Port Lavaca to Brownsville. The National Hurricane Center said moderate coastal flooding could begin along the coast as soon as Tuesday morning and continue through the middle of the week. The situation was forecast to worsen on Wednesday for people in the tropical storm warning area. Wednesday in North Texas looks to be muggy but cooler with highs only in the upper 80s. An area of high pressure is then expected to take control in the upper levels, and summer heat returns. High temperatures for the end of the weekend and starting next week warm to near 100 degrees.",
       "fact_spans": [
         {
@@ -750,7 +750,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "西南墨西哥湾气旋发展为 Alberto",
+        "cluster_description": "A disturbance in the southwestern Gulf of Mexico developed into Alberto",
         "fact_type": "disaster_occurrence",
         "attribute": "storm_development",
         "supporting_spans": [
@@ -789,7 +789,7 @@
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "两报道发布德州沿海警报但范围不同",
+        "cluster_description": "Two reports describe Texas coastal warnings with different coverage",
         "fact_type": "response",
         "attribute": "texas_warning_extent",
         "supporting_spans": [
@@ -816,11 +816,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "revision_possible",
-        "annotation_note": "警报更新时间、观测时点和边界不同。"
+        "annotation_note": "The warning update times, observation times, and boundaries differ."
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "墨西哥东北及德州面临降雨和洪涝预报",
+        "cluster_description": "Rain and flooding were forecast for northeastern Mexico and Texas",
         "fact_type": "weather",
         "attribute": "rain_and_flood_forecast",
         "supporting_spans": [
@@ -874,14 +874,14 @@
         "FC003"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2024-06-17/2024-06-18",
-          "time_precision": "报道日期",
-          "description": "气象机构监测湾区扰动并发布沿海风险预报。",
+          "time_precision": "Publication date",
+          "description": "Meteorological agencies monitored a Gulf disturbance and issued coastal forecasts.",
           "supporting_spans": [
             "A001_F001",
             "A003_F002"
@@ -889,8 +889,8 @@
         },
         {
           "time": "2024-06-19T11:00-04:00",
-          "time_precision": "当地分钟",
-          "description": "FOX Weather 内文更新确认命名为热带风暴 Alberto。",
+          "time_precision": "Local time to the minute",
+          "description": "FOX Weather updated the article to confirm the name Tropical Storm Alberto.",
           "supporting_spans": [
             "A002_F001"
           ]
@@ -898,7 +898,7 @@
       ],
       "causal_relations": [
         {
-          "description": "风暴潮与高潮叠加可能使原本干燥的部分沿岸积水。",
+          "description": "Storm surge combined with high tide could flood normally dry coastal areas.",
           "supporting_spans": [
             "A002_F013"
           ]
@@ -906,7 +906,7 @@
       ],
       "event_mainline": [
         {
-          "description": "墨西哥湾扰动增强为 Alberto，预计给墨西哥东北及美国墨西哥湾沿岸带来大雨和洪水风险。",
+          "description": "A Gulf of Mexico disturbance strengthened into Alberto, bringing forecasts of heavy rain and flooding to northeastern Mexico and the US Gulf Coast.",
           "supporting_spans": [
             "A001_F003",
             "A002_F001",
@@ -930,9 +930,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "主要为天气预报，无事后伤亡或损失；A001 另述佛州东侧不同系统。"
+      "The sources mainly provide forecasts and offer no post-storm casualty or damage counts. A001 also discusses a separate system east of Florida."
     ]
   }
 }

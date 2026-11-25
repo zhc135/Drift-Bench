@@ -24,7 +24,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "星期五为 3 月 28 日，星期一为 3 月 31 日。跨国死亡总数的统计截点未给出。"
+      "Friday is March 28 and Monday is March 31. No cutoff is given for the cross-border death toll."
     ],
     "dataset_place_name": "Earthquake in Myanmar",
     "dataset_event_note": null
@@ -49,7 +49,7 @@
       "language_label_issue": null,
       "reporting_type": "original",
       "source_independence": "independent",
-      "source_independence_reason": "新华社电头，正文明确 Marie Manrique 直接受访。",
+      "source_independence_reason": "Xinhua dateline with a direct interview with Marie Manrique.",
       "content": "YANGON, March 31 (Xinhua) -- Humanitarian aid agencies based in Myanmar have been in relief efforts since a 7.9-magnitude earthquake rattled the country on Friday, an official told Xinhua on Monday.\n\nThe Myanmar Red Cross Society (MRCS) and the International Federation of Red Cross and Red Crescent Societies (IFRC) have launched a humanitarian response, Marie Manrique, program coordinator of the Myanmar delegation of MRCS, told Xinhua.\n\nMRCS has been providing first aid and pre-hospital care to injured individuals and deploying items including blankets, tarpaulins and hygiene kits, she said.\n\n\"I am really happy to see international rescue teams arriving in Myanmar to help the victims of the earthquake, with China conducting an immediate response,\" she noted. ",
       "fact_spans": [
         {
@@ -181,7 +181,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "综合报道无可核实稿源署名。",
+      "source_independence_reason": "The roundup has no verifiable source credit.",
       "content": "Efforts to rescue survivors continue in Myanmar and Bangkok after a devastating earthquake claimed the lives of at least 2,000 people across Southeast Asia.\n\nChallenges in Myanmar include a civil war complicating access and military airstrikes, while in Bangkok, substandard construction materials are under investigation following the collapse of a skyscraper.\n\nInternational aid pours in, with countries like China and the United States extending support, highlighting the broader humanitarian crisis in the region.",
       "fact_spans": [
         {
@@ -298,7 +298,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "正文转述 Guo Jiakun 公开吹风会，未保留稿件署名。",
+      "source_independence_reason": "The article relays Guo Jiakun's public briefing, and the byline is unavailable.",
       "content": "Foreign Ministry spokesman Guo Jiakun said on Monday that the Chinese rescue forces have saved six people in earthquake-hit Myanmar, vowing that China will do its best to search and rescue the survivors, treat the injured, and ensure that aid supplies reach those affected in the disaster zone.\n\n\"After the earthquake, China immediately launched the emergency response mechanism and has done everything possible to provide emergency services and consular protection,\" Guo told a daily news briefing.\n\nAs of now, Guo said around 400 Chinese personnel, including experts, rescuers and medical workers, have been assisting in the disaster relief efforts in various places in Myanmar.\n\nChina has also sent a first batch of relief supplies worth 100 million yuan ($13.78 million) to Myanmar, including tents, first aid kits, food and drinking water, he added.\n\nGuo expressed the belief that with the support of the international community, the government and people of Myanmar will be united as one and rise above the disaster and rebuild their homes.\n\nChinese teams rescue six in quake-hit Myanmar\n\nYunnan sends 7.3 metric tons of disaster relief supplies to Myanmar\n\nChina sends 118 member rescue team to Myanmar",
       "fact_spans": [
         {
@@ -447,7 +447,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "震级由新华社报道给出",
+        "cluster_description": "Xinhua reported the magnitude",
         "fact_type": "disaster_magnitude",
         "attribute": "reported_magnitude",
         "supporting_spans": [
@@ -470,7 +470,7 @@
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "报道的东南亚死亡下限",
+        "cluster_description": "Reported lower bound for deaths in Southeast Asia",
         "fact_type": "casualties",
         "attribute": "regional_deaths",
         "supporting_spans": [
@@ -496,7 +496,7 @@
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "中国启动搜救与物资援助",
+        "cluster_description": "China deployed search-and-rescue personnel and aid supplies",
         "fact_type": "aid",
         "attribute": "chinese_response",
         "supporting_spans": [
@@ -543,7 +543,7 @@
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "红十字机构提供院前急救和生活用品",
+        "cluster_description": "Red Cross organizations provided prehospital care and essential supplies",
         "fact_type": "aid",
         "attribute": "red_cross_response",
         "supporting_spans": [
@@ -589,22 +589,22 @@
         "FC004"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2025-03-28",
-          "time_precision": "当地日期",
-          "description": "缅甸发生强震。",
+          "time_precision": "Local date",
+          "description": "A strong earthquake struck Myanmar.",
           "supporting_spans": [
             "A001_F001"
           ]
         },
         {
           "time": "2025-03-31",
-          "time_precision": "当地日期",
-          "description": "后续搜救持续，红十字组织展开援助，中国发言人通报救出 6 人。",
+          "time_precision": "Local date",
+          "description": "Search and rescue continued, Red Cross organizations provided aid, and a Chinese spokesperson reported six people rescued.",
           "supporting_spans": [
             "A001_F002",
             "A002_F001",
@@ -614,7 +614,7 @@
       ],
       "causal_relations": [
         {
-          "description": "内战等因素使缅甸部分地区的搜救通行变得困难。",
+          "description": "Civil conflict and other factors made it difficult for rescue teams to reach parts of Myanmar.",
           "supporting_spans": [
             "A002_F002"
           ]
@@ -622,7 +622,7 @@
       ],
       "event_mainline": [
         {
-          "description": "地震导致缅甸和曼谷紧急搜救，红十字和国际力量提供救助。",
+          "description": "The earthquake prompted emergency searches in Myanmar and Bangkok, with Red Cross and international assistance.",
           "supporting_spans": [
             "A001_F001",
             "A001_F002",
@@ -646,9 +646,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "区域死亡数无法拆分为各国死亡数。曼谷建筑材料问题处于调查阶段。"
+      "The regional death toll cannot be broken down by country. Construction materials in Bangkok were still under investigation."
     ]
   }
 }

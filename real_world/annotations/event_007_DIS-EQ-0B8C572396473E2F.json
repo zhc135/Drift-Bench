@@ -34,7 +34,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "主震 6 月 8 日上午是菲律宾当地日期，CSV 使用 UTC。A001 失踪报道注明当日 15:00；A003 未给出同一统计时刻。"
+      "The mainshock occurred on the morning of June 8 local time in the Philippines. The CSV uses UTC. A001 gives 15:00 that day for the missing-person count. A003 has no matching cutoff."
     ],
     "dataset_place_name": "Earthquake in Philippines",
     "dataset_event_note": null
@@ -59,7 +59,7 @@
       "language_label_issue": null,
       "reporting_type": "original",
       "source_independence": "independent",
-      "source_independence_reason": "正文末尾署名 Erika Mae P. Sinaking 与 Sheldeen Joy Talavera，并含更正。",
+      "source_independence_reason": "The body credits Erika Mae P. Sinaking and Sheldeen Joy Talavera and includes a correction.",
       "content": "THE Philippine disaster agency on Tuesday confirmed at least 38 deaths and 478 injuries following a massive magnitude 7.8 earthquake that struck the southern Philippine island of Mindanao on Monday morning.\n\nIn its situational report as of 3 p.m., the National Disaster Risk Reduction and Management Council (NDRRMC) said five are still missing as search and rescue operations continue into their second day.\n\nIn an earlier report, it said the Soccsksargen Region suffered the heaviest toll with 33 fatalities, while four deaths were recorded in the Davao Region.\n\nLogistical disruptions persist across the affected provinces, according to the agency.\n\nGeneral Santos City International Airport was reported nonoperational following the disaster, and while power has been partially restored, electricity remained out in several remote areas as of Tuesday morning.\n\nPreliminary assessments valued infrastructure damage at P15 million, with 127 items of infrastructure reported damaged across Zamboanga Peninsula, Davao Region, and Soccsksargen.\n\nMore than 88,000 people have been affected by the disaster, according to the NDRRMC.\n\nApproximately 20,690 individuals have been displaced from their homes, with over 19,600 currently taking refuge inside 39 designated evacuation centers.\n\nThe region remains on high alert as more than 840 aftershocks have been recorded since Monday, with the strongest reaching a magnitude of 6.7.\n\nAuthorities have suspended classes in 182 cities and municipalities, and halted government work in 123 localities.\n\nThe NDRRMC noted that casualty and damage statistics are still subject to change as field validation continues across the Mindanao landmass.\n\nMalacañang said the government is prioritizing medical assistance and the restoration of connectivity in devastated areas to reach isolated victims.\n\nPresident Ferdinand R. Marcos, Jr. on Tuesday conducted a situation report briefing with Cabinet and local officials to coordinate an inter-agency disaster response.\n\nDuring a news briefing, Palace Press Officer Clarissa A. Castro said that Mr. Marcos intends to visit the affected regions in Mindanao to personally assess the situation, although an official date for the trip has yet to be announced.\n\nThe Department of Social Welfare and Development (DSWD) deployed 2,045 family food packs, 2,705 boxes of ready-to-eat meals, and 360 non-food items to affected families across the Zamboanga Peninsula, Davao Region, and Soccskargen as of Tuesday morning.\n\n“The DSWD is a partner of the Philippine Air Force and Coast Guard in airlifting aid to areas that are not accessible by vehicles,” she said.\n\n“We shouldn’t worry about food, about food packs, to reach our countrymen affected by the earthquake,” she said.\n\nMs. Castro said that the government is also awaiting results from engineers before determining further safety protocols as structural inspections of buildings continue.\n\nMeanwhile, Energy Secretary Sharon S. Garin said restoration efforts are still ongoing for the power infrastructure affected by the earthquake, causing blackouts for 850,000 households in Mindanao.\n\n“We understand how critical electricity is during emergencies, and we assure the public that every available resource is being mobilized to restore power safely and as quickly as possible,” Ms. Garin said.\n\nThe Department of Energy (DoE) has instructed all concerned energy stakeholders to prioritize the restoration of all electricity services to facilities critical to public safety and emergency response, including hospitals, evacuation centers, water facilities, communication systems, and other vital installations.\n\nAt the distribution level, some electric cooperatives have returned to normal operations after implementing total power interruptions such as South Cotabato I Electric Cooperative.\n\nDavao del Sur Electric Cooperative and South Cotabato II Electric Cooperative continue to experience partial power outages, with restoration efforts ongoing for 157,263 households.\n\nAn estimated 500 households served by Davao Light and Power Co. continue to experience partial power interruptions.\n\nAll affected transmission lines in southwestern Mindanao have been fully restored, according to the National Grid Corp. of the Philippines.\n\nTHE BIG ONE Meanwhile, the Philippine energy sector assured measures are in place in case “The Big One” hits Metro Manila and nearby areas, according to the Energy department.\n\nEnergy Undersecretary William Felix B. Fuentebella said the energy sector is conducting tabletop exercises in preparation for the major earthquake expected to jolt the Greater Manila area.\n\n“We have assignments for each player, both from oil and power (sectors), on how we will respond,” he told a press briefing on Tuesday.\n\nMr. Fuentebella said the department intends to conduct a series of tabletop exercise to strengthen emergency preparedness. A tabletop exercise is a simulation where key stakeholders gather to talk through their responses to a hypothetical emergency or crisis scenario.\n\nA strong earthquake with a magnitude of 7.2 is projected to hit Metro Manila, according to a 2004 joint study of Japan International Cooperation Agency, Metropolitan Manila Development Authority, and Philippine Institute of Volcanology and Seismology.\n\nBased on the study, the major quake on the West Valley Fault could damage approximately 40% of Metro Manila’s residential buildings, potentially resulting in 34,000 deaths and 114,000 injuries.\n\nThe West Valley Fault passes through the cities of Taguig, Muntinlupa, Parañaque, Quezon, Pasig, Makati and Marikina, and the provinces of Rizal, Laguna, Cavite, and Bulacan.\n\nMagnolia B. Olvido, supervising science research specialist at the DoE’s Task Force Energy Resiliency, said the energy sector started preparing for The Big One in 2019.\n\nMs. Olvido said the government is coordinating with key stakeholders such as power generation companies, electric cooperatives, and transmission operator. — Erika Mae P. Sinaking and Sheldeen Joy Talavera\n\nAn earlier version of this article misstated the number of fatalities as 48. The correct figure is 38. The story has been updated to reflect this correction. We regret the error.",
       "fact_spans": [
         {
@@ -619,7 +619,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "有 Manila 电头与当地官员引语，正文未保留足以确定稿源权属的署名。",
+      "source_independence_reason": "The Manila dateline and quotes from local officials are present. The supplied body lacks a byline sufficient to establish ownership.",
       "content": "MANILA, Philippines — President Marcos ordered concerned government agencies yesterday to prioritize the safety and welfare of displaced families as well as patients in hospitals affected by the magnitude 7.8 earthquake that struck parts of Mindanao on Monday.\n\nMarcos presided over a situation briefing at Malacañang to assess the ongoing government response and the situation of the people in quake-hit areas.\n\nThe President is scheduled to visit Mindanao, according to Presidential Communications Undersecretary Claire Castro, but she did not immediately provide details.\n\nCastro said the President instructed Energy Secretary Sharon Garin to speed up the restoration of electricity supply to hospitals.\n\nDuring the situation briefing, Marcos spoke via Zoom with General Santos City Mayor Lorelie Pacquiao to discuss the situation on the ground and their immediate needs, Castro said.\n\nMeanwhile, Department of Social Welfare and Development (DSWD) Secretary Rex Gatchalian reported that the agency is working closely with the Philippine Air Force and the Philippine Coast Guard to airlift relief supplies to areas that remain inaccessible by land.\n\nThe Department of Health has also deployed sufficient medical assistance and supplies for earthquake victims, while the Department of Education has been constantly coordinating with local government units to ensure the safety and welfare of students in affected schools.\n\nDepartment of Information and Communications Technology Secretary Henry Aguda reported that connectivity in affected areas remains stable.\n\nCastro said the Department of Energy reported that power supply has already been restored in many parts of Mindanao.\n\nMeanwhile, DSWD Secretary Gatchalian inspected the operations of two of the agency’s mobile command centers (MCCs) from Field Office 9 and Field Office 12 to ensure timely provision of on-the-ground disaster response updates.\n\n“The President instructed us not to leave until our local residents here have recovered from the aftermath, and the victims and their families who have fortunately survived the powerful earthquake,” he told local reporters in General Santos City.\n\nThe DSWD has so far provided humanitarian assistance worth over P4.23 million to victims. Its Field Office 9 has distributed ready-to-eat food packs to over 1,000 families displaced by a tsunami alert in Sarangani.\n\nPublic Works Secretary Vince Dizon said repair works will be started as soon as possible on public infrastructure that sustained damage following Monday’s earthquake.\n\nDizon, who flew to General Santos City Monday afternoon, continued to hold inspection of major roads and bridges in South Cotabato and Davao region yesterday.\n\nIn Davao City, Dizon inspected the Bucana Bridge and assured motorists that it is safe as the impact was limited to minor, non-structural defects on the bridge’s approach, such as damaged guardrails and superficial concrete cracking.\n\nThe infrastructure situation was significantly more severe along the General Santos City-T’boli-Surallah Road, where an earthquake-induced landslide completely cut off a vital section of the highway. Dizon ruled out rebuilding on the original site due to severe geological instability.\n\nTo bypass the destruction, Dizon ordered DPWH engineers to conduct a technical assessment to design a permanent detour road shifted safely into the opposite hillside.\n\nPrivate contractor JDRC has deployed heavy equipment to the site to begin emergency breakthrough operations, while DPWH field crews carry out clearing operations on secondary landslide areas along the highway.\n\nA price freeze is now in effect on basic goods in General Santos City, which was placed under a state of calamity, the Department of Trade and Industry said.\n\nDTI Secretary Cristina Roque told reporters yesterday that the price freeze will be in place for 60 days.\n\nThose covered by the price freeze include canned fish and other marine products, processed milk, coffee, laundry or detergent soap, candles, bread, iodized salt, instant noodles and bottled water.",
       "fact_spans": [
         {
@@ -915,7 +915,7 @@
       "language_label_issue": null,
       "reporting_type": "likely_syndicated",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "引用 PHIVOLCS 局长向 Associated Press 所作说明，正文未保留明确的通稿署名。",
+      "source_independence_reason": "The article cites comments the PHIVOLCS director gave to AP but has no explicit wire credit.",
       "content": "GENERAL SANTOS — Rescuers searched ruined buildings in the southern Philippines on Tuesday (June 9) to ensure no one was still trapped a day after one of the strongest earthquakes to hit the country in a half-century killed at least 37 people and displaced more than 32,000.\n\nOnly four people were considered missing on official records in the southern provinces near where the 7.8 magnitude quake struck Monday morning, but the Office of Civil Defence acknowledged several collapsed and heavily damaged buildings must be thoroughly inspected for possible survivors or casualties.\n\nThe earthquake centred off Mindanao, the second most populous Philippine island, injured nearly 500 people and displaced more than 32,000, most of whom fled to emergency shelters.\n\nMany people who left their homes feared a tsunami. Waves up to 1.4-metres above tide level were measured in the Philippines, but the only tsunami damage reported was to six shanties on stilts in a coastal village.\n\nSmaller waves washed ashore in Indonesia and Palau and as far away as southern Japan.\n\nThe earthquake left a trail of destruction, including in General Santos, a lively coastal city of more than 700,000 people known as the country's tuna capital, where at least 13 people were killed in collapsed buildings and due to falling debris.\n\nAt least 18 died in Sarangani province, mostly in a landslide that buried houses in the mountainside town of Glan, according to Rafaelito Alejandro of the Office of Civil Defence.\n\nThe other deaths were reported in the southern provinces of South Cotabato and Davao Occidental, and on Balut Island, disaster response officials said.\n\nAbout 2,500 houses and 117 government buildings and facilities were damaged in several provinces, according to an initial government damage assessment.\n\nThe international airport in General Santos remained shut for a second day, forcing the cancellation of 63 domestic flights except for those on humanitarian missions.\n\nAbout 6,000 public school buildings in quake-hit provinces must be assessed before classes can resume.\n\nThe quake struck on the first day of classes nationwide after a two-month summer break, and many who sustained injuries were young students who had gathered with excitement for morning flag-raising ceremonies.\n\nAuthorities have warned that buildings that sustained cracks could collapse due to aftershocks, some of them dangerously powerful.\n\n\"We cannot force the immediate reopening of schools because we have to ensure the integrity of the buildings,\" Alejandro said.\n\nMonday's earthquake was centred at sea at a depth of 33 kilometres, about 32 kilometres southwest of Maasim town in Sarangani province.\n\nIt was set off by movement in the Cotabato Trench and was the strongest since the same undersea depression triggered an 8.1-magnitude quake that whipped up tsunami waves on Aug 17, 1976, said Teresito Bacolcol, the director of the Philippine Institute of Volcanology and Seismology.\n\nAbout 8,000 people died from that quake and tsunami waves of up to 8 to 10 metres that engulfed several towns and provinces, Bacolcol said.\n\nThe Philippine seismological institute was scheduled to commemorate the anniversary of the 1976 quake and tsunami in August by installing markers to remind vulnerable towns and cities of the need for constant vigilance, Bacolcol told The Associated Press.\n\nA 1990 earthquake that also had a magnitude of 7.8 left more than 1,000 people dead, injured thousands and caused extensive damages in northern provinces and cities.\n\nPresident Ferdinand Marcos Jr. deployed top defence-mitigation officials from Manila to help oversee search and rescue, the distribution of tens of thousands of food packs and construction materials to quake victims and assess damage to bridges, roads and other infrastructure.\n\nThe US, a treaty ally of the Philippines, said it was coordinating with Manila and was ready to support Philippine response efforts. France, Japan and New Zealand also expressed support.\n\nThe Philippines is often hit by earthquakes and volcanic eruptions due to its location on the Pacific Ring of Fire, an arc of seismic faults around the ocean.\n\nThe archipelago is also battered by about 20 typhoons and tropical storms each year, making it one of the world's most disaster-prone countries.",
       "fact_spans": [
         {
@@ -1287,7 +1287,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "棉兰老岛附近主震震级",
+        "cluster_description": "Magnitude of the mainshock near Mindanao",
         "fact_type": "disaster_magnitude",
         "attribute": "mainshock_magnitude",
         "supporting_spans": [
@@ -1326,7 +1326,7 @@
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "已报告死亡人数为下限",
+        "cluster_description": "Reported death figures are lower bounds",
         "fact_type": "casualties",
         "attribute": "death_toll_lower_bound",
         "supporting_spans": [
@@ -1359,11 +1359,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "compatible_vague_vs_specific",
         "temporal_relation": "unknown",
-        "annotation_note": "两下限兼容。A001 明确撤回初版 48 人。"
+        "annotation_note": "The bounds are compatible. A001 explicitly retracts its earlier figure of 48."
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "伤者具体值和约数",
+        "cluster_description": "Specific and approximate injury counts",
         "fact_type": "injuries",
         "attribute": "injuries",
         "supporting_spans": [
@@ -1397,7 +1397,7 @@
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "官方记录的失踪人数有不同截点或口径",
+        "cluster_description": "Official missing-person counts reflect different cutoffs or reporting criteria",
         "fact_type": "missing_persons",
         "attribute": "missing_persons",
         "supporting_spans": [
@@ -1427,11 +1427,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "revision_possible",
-        "annotation_note": "A003 无对应时刻，无法确认冲突。"
+        "annotation_note": "A003 gives no comparable cutoff, so a conflict cannot be confirmed."
       },
       {
         "cluster_id": "FC005",
-        "cluster_description": "报道的流离失所规模不同",
+        "cluster_description": "Reported displacement figures differ",
         "fact_type": "evacuation",
         "attribute": "displaced_people",
         "supporting_spans": [
@@ -1464,11 +1464,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "revision_possible",
-        "annotation_note": "差异可能来自持续更新或统计范围差异。"
+        "annotation_note": "The difference may reflect updates or differences in coverage."
       },
       {
         "cluster_id": "FC006",
-        "cluster_description": "航空通行中断",
+        "cluster_description": "Air travel disruption",
         "fact_type": "infrastructure",
         "attribute": "general_santos_airport_status",
         "supporting_spans": [
@@ -1499,7 +1499,7 @@
       },
       {
         "cluster_id": "FC007",
-        "cluster_description": "政府调度陆路无法抵达地区的空中援助",
+        "cluster_description": "The government provided airlift support to areas inaccessible by road",
         "fact_type": "aid",
         "attribute": "airlift_response",
         "supporting_spans": [
@@ -1553,14 +1553,14 @@
         "FC007"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2026-06-08",
-          "time_precision": "当地日期",
-          "description": "棉兰老岛外海发生 7.8 级主震，海啸影响部分沿海地点。",
+          "time_precision": "Local date",
+          "description": "A magnitude-7.8 mainshock struck offshore from Mindanao, with tsunami impacts in some coastal areas.",
           "supporting_spans": [
             "A001_F001",
             "A002_F001",
@@ -1570,8 +1570,8 @@
         },
         {
           "time": "2026-06-09",
-          "time_precision": "当地日期",
-          "description": "当局继续搜救，学校停课或等待评估，政府召开协调会议并安排医疗、供电和物资。",
+          "time_precision": "Local date",
+          "description": "Authorities continued search and rescue. Schools closed or awaited assessment, and the government coordinated medical aid, power restoration, and supplies.",
           "supporting_spans": [
             "A001_F001",
             "A001_F006",
@@ -1583,13 +1583,13 @@
       ],
       "causal_relations": [
         {
-          "description": "棉兰老岛外海主震由 Cotabato Trench 的活动引发，据 PHIVOLCS 局长。",
+          "description": "The PHIVOLCS director attributed the offshore mainshock to movement along the Cotabato Trench.",
           "supporting_spans": [
             "A003_F006"
           ]
         },
         {
-          "description": "地震引发的滑坡阻断公路，DPWH 着手评估绕行线路。",
+          "description": "An earthquake-triggered landslide cut the road, prompting DPWH to assess a detour.",
           "supporting_spans": [
             "A002_F008"
           ]
@@ -1597,7 +1597,7 @@
       ],
       "event_mainline": [
         {
-          "description": "7.8 级地震造成死亡、受伤与大范围撤离，死伤和失踪统计仍在核实。",
+          "description": "The magnitude-7.8 earthquake caused deaths, injuries, and widespread evacuation. Casualty and missing-person figures were still being verified.",
           "supporting_spans": [
             "A001_F001",
             "A001_F007",
@@ -1605,7 +1605,7 @@
           ]
         },
         {
-          "description": "机场、公路与供电受到影响，政府通过空运和基础设施抢修支援受灾地。",
+          "description": "Airport, road, and power services were disrupted. The government provided airlifts and emergency infrastructure repairs.",
           "supporting_spans": [
             "A001_F003",
             "A001_F009",
@@ -1629,9 +1629,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "Metro Manila 的地震数字来自另一个假设情景。A001 的 48 人是媒体更正前曾误写的值。"
+      "The Metro Manila earthquake figures refer to a separate hypothetical scenario. A001 originally misreported 48 deaths before correcting the figure."
     ]
   }
 }

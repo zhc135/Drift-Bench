@@ -28,7 +28,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "三篇均为 6 月 27 日报道，未给出死伤和失踪数字的统一数据截止时刻。"
+      "All three reports appeared on June 27. They give no common cutoff for deaths, injuries, and missing persons."
     ],
     "dataset_place_name": "Earthquake in Venezuela",
     "dataset_event_note": null
@@ -53,7 +53,7 @@
       "language_label_issue": null,
       "reporting_type": "original",
       "source_independence": "independent",
-      "source_independence_reason": "Al Jazeera 报道引述 EMSC 与当地政府，正文未见 PA 或 BBC 采访内容。",
+      "source_independence_reason": "Al Jazeera cites EMSC and local authorities. The body shows no interviews credited to PA or BBC.",
       "content": "Another powerful earthquake has been detected off the coast of Venezuela.\n\nThe European-Mediterranean Seismological Centre (EMSC) said the magnitude 4.8 quake was detected at 3:20pm local time (19:20 GMT) near Venezuela’s northern Aragua state.\n\nThere have been reports of several aftershocks and smaller quakes after Venezuela was hit by two major earthquakes on Wednesday , one with a magnitude of 7.2 and the other 7.5.\n\nRescuers were still racing to rescue possible survivors of those earthquakes when Saturday’s seismic activity hit.\n\nAt least 1,430 people have been confirmed dead so far after Wednesday’s quakes. Another 51,000 have been reported missing.\n\nAuthorities have said that recovering survivors will become increasingly unlikely if they are not found within the first 72 hours after an earthquake strikes. Many people are believed to be buried under the rubble from collapsed buildings, and the death toll is expected to climb.\n\nThe latest earthquake was located 70km (43.4 miles) west of Venezuela’s capital, Caracas. No damage related to that quake was immediately reported.\n\nWednesday’s earthquakes caused the most devastating damage in La Guaira state, with some neighbourhoods in Caracas also hard-hit.\n\nResidents, meanwhile, have complained of a lack of organisation in the government’s recovery efforts , with the situation made worse by mobile and internet outages in some areas.\n\nOn Saturday, Venezuela’s government said 1,600 members of foreign rescue teams had arrived in the country.",
       "fact_spans": [
         {
@@ -337,7 +337,7 @@
       "language_label_issue": null,
       "reporting_type": "syndicated",
       "source_independence": "syndicated",
-      "source_independence_reason": "稿件由 Yahoo 承载，正文直接称受访者向 Press Association 发言，图片说明署名 Serve On/PA。",
+      "source_independence_reason": "Yahoo hosts the article, which explicitly identifies the Press Association interview. The photo credit is Serve On/PA.",
       "content": "A specialist team of British crisis-response volunteers heading to Venezuela to help after the devastating earthquake has been stuck in Madrid airport for more than 24 hours.\n\nServe On, a UK-based charity, has a team of 11 people and one dog trying to get to Venezuela's capital, Caracas, after it was devastated by back-to-back high magnitude earthquakes on Wednesday.\n\nVenezuela is still waiting for relief services to arrive as the specialist team of British crisis-response volunteers has been held in Madrid airport since Friday evening (Serve On/PA)\n\nThe team possesses seismic and acoustic equipment that can sense movement of deeply buried victims, and their team leader, Vernon Young, told the Press Association they are desperate to get out to Venezuela \"as soon as possible\".\n\nThe confirmed death toll from the 7.2 and 7.5 magnitude quakes surpassed 1,430 on Saturday, with at least 68,900 people reported as missing.\n\nHowever, Simon Bolivar International Airport, the only international airport that serves Caracas, was also ravaged by the earthquakes, so travel into the country is \"severely affected\".\n\nMr Young, 57, who has responded to disasters in the British Virgin Islands, Turkey and Syria during 14 years volunteering for Serve On, said: \"These things are always time critical. We're a light team and can move quickly. The sooner you get there, the more chance you have of saving lives.\n\n\"Every situation is different, in Turkey they were pulling live victims out 14 days after the earthquake. We hope we can get out there and make a difference.\n\n\"We're a technical rescue team and can potentially find deeply entombed victims just by their movement. We still believe we will make a decent contribution if we get there in the next day or two.\n\n\"The British Government Fire Service Team are en route now, they're a heavy team with 68 people and we've got links with them. But we don't hear much (from Venezuela), we don't know how they're doing.\"\n\nGiven there are no direct flights from the UK to Venezuela, the team has been at Madrid Airport since 9pm on Friday, after connecting flights from Istanbul were cancelled.\n\nFlights from Madrid have also been cancelled, leaving the volunteers stranded due to their reliance on civilian transport.\n\nThe team hopes to help use their search and rescue experience and equipment to find survivors buried under rubble in Venezuela (Serve On/PA)\n\nMr Young, who is Serve On's international operations lead and training lead on top of his job as a construction project manager, added: \"We've been reaching out to any other type of flights, military flights and lots of different ways.\n\n\"We have 11 out in deployment but twice that back in the UK working really hard to try to help us get there. We're not alone – there's a French team and two Spanish teams facing the same problems.\n\n\"We've been in contact with the Government and we know they're doing all they can, we have evidence of that. They're out to help us.\n\n\"It's the saving lives aspect that motivates me. Serve On as an organisation has proved we can affect people's lives deeply by saving people.\n\n\"We all understand that things are difficult, we're frustrated and we want to be out there now.\"\n\nMatt Hasdell, a 24-year-old volunteer in the team, said: \"It's escalated quite quickly.\n\n\"There's been a lot of logistics and making contact with other international teams and finding out different ways into the country.\n\n\"We don't have infinite money, so it's trying to manage our finances. Our priority is to go into the dangerous zone and save as many lives as possible.\n\n\"Our team has been working as hard as possible to get us on the ground.\"",
       "fact_spans": [
         {
@@ -724,7 +724,7 @@
       "language_label_issue": null,
       "reporting_type": "original",
       "source_independence": "independent",
-      "source_independence_reason": "正文明确署名 BBC 记者 Vanessa Silva 在加拉加斯医院外报道。",
+      "source_independence_reason": "The body identifies BBC reporter Vanessa Silva reporting from outside a hospital in Caracas.",
       "content": "The fallout from two deadly earthquakes in Venezuela on Wednesday continue to be felt across the country.\n\nOfficials said the death toll has reached 1,430 with 3,238 injured. Rescue operations are still underway, though the window of time where it is still likely to find people alive is closing.\n\nThe BBC's Vanessa Silva reports from outside a hospital in Caracas, where friends and families of missing people are turning up in hope of finding their loved ones there.",
       "fact_spans": [
         {
@@ -822,7 +822,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "周三两次强震的震级",
+        "cluster_description": "Magnitudes of the two strong earthquakes on Wednesday",
         "fact_type": "disaster_magnitude",
         "attribute": "wednesday_main_quake_magnitudes",
         "supporting_spans": [
@@ -859,7 +859,7 @@
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "双震死亡人数均达约 1430 人量级",
+        "cluster_description": "Reports put the death toll from the two earthquakes at roughly 1,430",
         "fact_type": "casualties",
         "attribute": "main_quakes_death_toll",
         "supporting_spans": [
@@ -900,11 +900,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "revision_possible",
-        "annotation_note": "精确值与后来通报的更高下限可能对应不同截止点。没有足够依据确认同一时点冲突。"
+        "annotation_note": "The exact count and the higher lower bound reported later may reflect different cutoffs. The evidence is insufficient to confirm a conflict at the same time."
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "两篇对报告失踪人数的表述存在显著差异",
+        "cluster_description": "Two reports give substantially different numbers of missing people",
         "fact_type": "missing_persons",
         "attribute": "reported_missing",
         "supporting_spans": [
@@ -934,11 +934,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "revision_possible",
-        "annotation_note": "同为周六刊发，但没有可核实的原始统计来源、截止时刻及修订链。不能仅按发稿先后选真值。"
+        "annotation_note": "Both articles appeared on Saturday. The underlying records, cutoffs, and revision history are unverified. Publication order alone cannot establish the correct value."
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "官方伤者数字见 BBC",
+        "cluster_description": "BBC reports the official injury count",
         "fact_type": "injuries",
         "attribute": "reported_injured",
         "supporting_spans": [
@@ -961,7 +961,7 @@
       },
       {
         "cluster_id": "FC005",
-        "cluster_description": "周六另有 4.8 级地震",
+        "cluster_description": "A separate magnitude-4.8 earthquake struck Saturday",
         "fact_type": "disaster_magnitude",
         "attribute": "saturday_tremor_magnitude",
         "supporting_spans": [
@@ -984,7 +984,7 @@
       },
       {
         "cluster_id": "FC006",
-        "cluster_description": "国际救援有人已抵达，个别队伍受航班阻碍",
+        "cluster_description": "Some international rescuers arrived while individual teams faced flight disruptions",
         "fact_type": "aid",
         "attribute": "international_response",
         "supporting_spans": [
@@ -1011,7 +1011,7 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "compatible_vague_vs_specific",
         "temporal_relation": "unknown",
-        "annotation_note": "已抵达总人数和某队个别延误描述不同对象。"
+        "annotation_note": "The aggregate count of arrivals and the delay of one team describe different groups."
       }
     ]
   },
@@ -1036,14 +1036,14 @@
         "FC006"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2026-06-24",
-          "time_precision": "当地日期",
-          "description": "委内瑞拉先后发生 7.2 与 7.5 级地震。",
+          "time_precision": "Local date",
+          "description": "Magnitude-7.2 and magnitude-7.5 earthquakes struck Venezuela in succession.",
           "supporting_spans": [
             "A001_F002",
             "A002_F004",
@@ -1052,24 +1052,24 @@
         },
         {
           "time": "2026-06-26",
-          "time_precision": "星期与报道日期推定",
-          "description": "Serve On 团队自周五晚起滞留马德里机场。",
+          "time_precision": "Inferred from weekday and publication date",
+          "description": "The Serve On team was stranded at Madrid airport from Friday evening.",
           "supporting_spans": [
             "A002_F008"
           ]
         },
         {
           "time": "2026-06-27T19:20Z",
-          "time_precision": "分钟 GMT",
-          "description": "EMSC 称阿拉瓜附近发生 4.8 级地震。",
+          "time_precision": "Minute (GMT)",
+          "description": "EMSC reported a magnitude-4.8 earthquake near Aragua.",
           "supporting_spans": [
             "A001_F001"
           ]
         },
         {
           "time": "2026-06-27",
-          "time_precision": "报道日期",
-          "description": "伤亡和失踪数字仍在通报，搜救继续。",
+          "time_precision": "Publication date",
+          "description": "Reports continued to update casualties and missing people as search and rescue continued.",
           "supporting_spans": [
             "A001_F004",
             "A002_F004",
@@ -1079,14 +1079,14 @@
       ],
       "causal_relations": [
         {
-          "description": "机场受灾和航班取消阻碍 Serve On 团队抵达。",
+          "description": "Airport damage and cancelled flights prevented Serve On from arriving.",
           "supporting_spans": [
             "A002_F005",
             "A002_F008"
           ]
         },
         {
-          "description": "移动通信与互联网中断加重居民所述救援协调困难。",
+          "description": "Mobile and internet outages compounded the coordination problems described by residents.",
           "supporting_spans": [
             "A001_F008"
           ]
@@ -1094,7 +1094,7 @@
       ],
       "event_mainline": [
         {
-          "description": "周三双震重创拉瓜伊拉州及加拉加斯部分区域，周六仍在搜救并有新地震。",
+          "description": "Wednesday's earthquakes severely affected La Guaira and parts of Caracas. Search and rescue continued on Saturday, when another earthquake occurred.",
           "supporting_spans": [
             "A001_F001",
             "A001_F002",
@@ -1103,7 +1103,7 @@
           ]
         },
         {
-          "description": "死亡人数、公报伤者数字和对失踪人数的不同报道均需保留原口径。",
+          "description": "The death toll, official injury figures, and different missing-person counts retain their original reporting scopes.",
           "supporting_spans": [
             "A001_F004",
             "A002_F004",
@@ -1111,7 +1111,7 @@
           ]
         },
         {
-          "description": "部分国际救援人员已到达，另有专业团队受阻。",
+          "description": "Some international rescue personnel arrived while other specialist teams faced delays.",
           "supporting_spans": [
             "A001_F009",
             "A002_F001",
@@ -1133,9 +1133,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "未核对官方伤亡和失踪个案登记。没有可比较的同一统计时点。"
+      "Official casualty and missing-person registers were not checked. No common statistical cutoff was established."
     ]
   }
 }

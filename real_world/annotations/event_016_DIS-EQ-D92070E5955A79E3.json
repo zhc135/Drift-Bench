@@ -27,7 +27,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "2 月 6 日有两次强震。伤亡时间线区分 Friday 通报与其他报道的当前统计。"
+      "Two strong earthquakes occurred on February 6. The casualty timeline distinguishes Friday's bulletin from later counts in the other articles."
     ],
     "dataset_place_name": "Earthquake in Türkiye",
     "dataset_event_note": null
@@ -52,7 +52,7 @@
       "language_label_issue": null,
       "reporting_type": "republished",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "依据 AFP、Sky News 与官方数据，正文主要为转述。",
+      "source_independence_reason": "The body mainly relays AFP, Sky News, and official figures.",
       "content": "The death toll from a massive earthquake in Türkiye and Syria will \"double or more\" from its current level of 28,000, UN relief chief Martin Griffiths has said.\n\nGriffiths arrived on Saturday in Türkiye's southern city of Kahramanmaras, the epicenter of the first 7.8-magnitude tremor that upturned millions of lives in the pre-dawn hours of Monday, AFP said.\n\nHe said of the death toll in an interview with Sky News on Saturday: \"I think it is difficult to estimate precisely as we need to get under the rubble but I'm sure it will double or more.\"\n\n\"We haven't really begun to count the number of dead,\" he said.\n\nOfficials and medics said 24,617 people were killed in Türkiye and 3,574 in Syria. The confirmed total now stands at 28,191.\n\nTens of thousands of rescue workers are scouring flattened neighborhoods despite freezing weather that has deepened the misery of millions now in desperate need of aid.\n\nThe United Nations has warned that at least 870,000 people urgently need hot meals across Türkiye and Syria. Up to 5.3 million people may have been made homeless in Syria alone.\n\nAlmost 26 million people have been affected by the earthquake, the World Health Organization (WHO) said as it launched a flash appeal on Saturday for $42.8 million to cope with immediate health needs.\n\nTürkiye's disaster agency said more than 32,000 people from Turkish organizations are working on search-and-rescue efforts. There are also 8,294 international rescuers.\n\n\"Soon, the search and rescue people will make way for the humanitarian agencies whose job it is to look after the extraordinary numbers of those affected for the next months,\" Griffiths said in a video posted to Twitter.",
       "fact_spans": [
         {
@@ -272,7 +272,7 @@
       "language_label_issue": null,
       "reporting_type": "original",
       "source_independence": "independent",
-      "source_independence_reason": "Trend 电头并说明由阿塞拜疆国防部获得发电机运输消息。",
+      "source_independence_reason": "The Trend dateline identifies Azerbaijan's Ministry of Defence as the source of information on generator shipments.",
       "content": "BAKU, Azerbaijan, February 12. Upon instructions of President of Azerbaijan, Supreme Commander-in-Chief of the Armed Forces Ilham Aliyev, the implementation of measures to assist victims of the earthquake in Türkiye continues, Trend reports via the Ministry of Defense of Azerbaijan.\n\nAccording to the ministry, high-voltage generators were sent from the supply of Engineering Troops to the fraternal country.\n\nGenerators to ensure uninterrupted power supply were dispatched to Türkiye by vehicles.\n\nAn earthquake with a magnitude of 7.7 hit southeastern Türkiye on Feb. 6, 2023. The earthquake occurred at a depth of seven kilometers in the Pazarcik region of Kahramanmaras Province.\n\nThe number of people who died as a result of the earthquake has reached 24,617, and 80,278 people were injured.",
       "fact_spans": [
         {
@@ -404,7 +404,7 @@
       "language_label_issue": null,
       "reporting_type": "likely_syndicated",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "图片署名新华社摄影者，正文高度聚焦中国团队，正文署名未保留。",
+      "source_independence_reason": "The image credits a Xinhua photographer. The article focuses on the Chinese team, and the body byline is missing.",
       "content": "International search and rescue teams have rushed to Türkiye to assist in rescue efforts after two massive earthquakes jolted the country Monday. Chinese rescuers have successfully saved four survivors so far.\n\nA member from the Blue Sky Rescue Team, a Chinese civil relief squad, participates in rescue operation in Malatya, Türkiye, Feb. 10, 2023. (Photo by Mustafa Kaya/Xinhua)\n\nAn 82-member China Search and Rescue Team arrived in Türkiye on Wednesday to join earthquake relief efforts in the country. Members of the Blue Sky Rescue Team and other Chinese civil relief squads were also in Türkiye to join the international rescue work. On Friday, following a three-hour effort, a woman, the fourth survivor saved by Chinese rescuers, was pulled out to safety from the rubble of collapsed buildings over 96 hours after the earthquake.\n\nThe death toll from Monday's devastating earthquakes climbed to 20,213 in Türkiye, while another 80,052 injuries were reported in the country, Turkish Health Minister Fahrettin Koca announced late Friday.",
       "fact_spans": [
         {
@@ -540,7 +540,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "首场地震震级的报道有别",
+        "cluster_description": "Reports differ on the magnitude of the first earthquake",
         "fact_type": "disaster_magnitude",
         "attribute": "first_mainshock_magnitude",
         "supporting_spans": [
@@ -567,11 +567,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "unknown",
-        "annotation_note": "A002 没有列震级发布机构、量表或公告版本。"
+        "annotation_note": "A002 gives no magnitude agency, scale, or bulletin version."
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "土耳其死亡数先报 20213，其他报道统计达到 24617",
+        "cluster_description": "Türkiye first reported 20,213 deaths, and other reports gave 24,617",
         "fact_type": "casualties",
         "attribute": "turkiye_deaths",
         "supporting_spans": [
@@ -610,7 +610,7 @@
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "土耳其报告伤者超过 8 万",
+        "cluster_description": "Türkiye reported more than 80,000 injuries",
         "fact_type": "injuries",
         "attribute": "turkiye_injuries",
         "supporting_spans": [
@@ -641,7 +641,7 @@
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "双国死亡已确认数量与前瞻估算",
+        "cluster_description": "Confirmed death toll across the two countries and a projected estimate",
         "fact_type": "casualties",
         "attribute": "two_country_totals",
         "supporting_spans": [
@@ -668,11 +668,11 @@
         "alignment_status": "single_source",
         "consistency_status": "single_source_unverified",
         "temporal_relation": "unknown",
-        "annotation_note": "第一项是展望，第二项是当时的累计报告。"
+        "annotation_note": "The first figure is a projection. The second is the cumulative count reported at the time."
       },
       {
         "cluster_id": "FC005",
-        "cluster_description": "国际救灾包括搜救和供电设备援助",
+        "cluster_description": "International assistance included rescue teams and power equipment",
         "fact_type": "aid",
         "attribute": "international_assistance",
         "supporting_spans": [
@@ -730,14 +730,14 @@
         "FC005"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2023-02-06",
-          "time_precision": "当地日期",
-          "description": "土耳其和叙利亚发生强震。",
+          "time_precision": "Local date",
+          "description": "Strong earthquakes struck Türkiye and Syria.",
           "supporting_spans": [
             "A001_F001",
             "A002_F002",
@@ -746,16 +746,16 @@
         },
         {
           "time": "2023-02-08",
-          "time_precision": "星期和报道上下文推定",
-          "description": "中国 82 人搜救队抵达。",
+          "time_precision": "Inferred from weekday and publication context",
+          "description": "China's 82-person search-and-rescue team arrived.",
           "supporting_spans": [
             "A003_F003"
           ]
         },
         {
           "time": "2023-02-10",
-          "time_precision": "当地日期",
-          "description": "中国队救出第四名幸存者，土耳其卫生部长晚间通报伤亡。",
+          "time_precision": "Local date",
+          "description": "The Chinese team rescued its fourth survivor, and Türkiye's health minister announced casualty figures that evening.",
           "supporting_spans": [
             "A003_F003",
             "A003_F004"
@@ -763,8 +763,8 @@
         },
         {
           "time": "2023-02-11",
-          "time_precision": "当地日期",
-          "description": "联合国救援负责人抵达灾区，WHO 发起紧急呼吁。",
+          "time_precision": "Local date",
+          "description": "The UN relief chief arrived and WHO launched an emergency appeal.",
           "supporting_spans": [
             "A001_F001",
             "A001_F004"
@@ -773,7 +773,7 @@
       ],
       "causal_relations": [
         {
-          "description": "低温加剧受灾者困境；阿塞拜疆援助发电机用于保障供电。",
+          "description": "Cold worsened conditions for survivors. Azerbaijan sent generators to supply electricity.",
           "supporting_spans": [
             "A001_F003",
             "A002_F001"
@@ -782,7 +782,7 @@
       ],
       "event_mainline": [
         {
-          "description": "强震造成两国大量人员死伤，仍在搜救并调运救援设备。",
+          "description": "Strong earthquakes caused numerous deaths and injuries in both countries. Searches and delivery of rescue equipment continued.",
           "supporting_spans": [
             "A001_F002",
             "A001_F003",
@@ -805,9 +805,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "援助需求与潜在无家可归为机构估计。标题中的超过五万属于预期。"
+      "Aid needs and potential homelessness are agency estimates. The headline's figure above 50,000 is a projection."
     ]
   }
 }

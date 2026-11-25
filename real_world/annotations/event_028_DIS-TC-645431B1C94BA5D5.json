@@ -28,7 +28,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "Judy 先于 Kevin。相邻地震只作为同期背景，未合并不同震中描述。"
+      "Judy preceded Kevin. Nearby earthquakes are contemporaneous background, and reports with different epicenters are kept separate."
     ],
     "dataset_place_name": "Tropical Cyclone JUDY-23",
     "dataset_event_note": null
@@ -53,7 +53,7 @@
       "language_label_issue": null,
       "reporting_type": "likely_syndicated",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "引述记者向 ABC 发言，数据平台为 Radio Australia；原始正文署名未保留。",
+      "source_independence_reason": "Quotes a journalist speaking to ABC. Radio Australia is the identified host, and the original byline is unavailable.",
       "content": "The projected movement of the cyclone at 6pm on Friday. ( Supplied )\n\nVanuatu's capital is bracing for its second major tropical cyclone in two days, after one part of the country was hit with a magnitude-6.5 earthquake on Friday morning.\n\nThe eye of Cyclone Kevin is set to pass the capital Port Vila on Friday night, with wind gusts up to 130 kilometres per hour forecast.\n\nThe cyclone will build to a category 4 on Saturday as it passes the capital and travels south-east.\n\nIt comes just two days after the country was hit by category 4 Cyclone Judy, causing widespread damage and flooding.\n\nThe northern parts of Vanuatu have already felt the full brunt of the cyclone as it builds in severity.\n\nFlash flooding has hit Tanna in southern Vanuatu, with more flooding expected over the coming days. ( Facebook: Vanutau Business Resilience Council )\n\nCarol Rovo, an emergency coordinator in the northern province of Sanma, said they were experiencing gale-force winds and heavy rainfall.\n\n\"Some parts of our island, especially the north-west and western coast, they must have a lot of damage,\" she said.\n\n\"But at the moment, due to network and communication [issues], we have not reached those areas.\"\n\nThe US Geological Survey reported a magnitude-6.5 earthquake just after 5am local time on Friday morning off the northern island of Espiritu Santo.\n\nThe quake was 10km deep. No tsunami warning was issued.\n\nThe island, which has a population of about 40,000, is isolated in parts, and authorities say communication in some areas is limited. But so far no major reports of damage have been reported.\n\n\"Everything was fine so far,\" Ms Rovo said.\n\nMs Rovo said emergency teams would have a better idea of the full damage from the cyclone and the earthquake — if any — over the coming days\n\nPort Vila-based journalist Dan McGarry told the ABC locals had spent a \"frantic morning\" cleaning debris ahead of Cyclone Kevin's expected arrival on Friday night.\n\n\"I think we're ready as we can be,\" he said. \"Across town you could hear hammers and chainsaws.\"\n\nMcGarry said the power had been out for more than 24 hours for many people, and getting clean running water was \"a challenge\".\n\n\"The longer it goes on, the harder it gets for the most vulnerable,\" he said.",
       "fact_spans": [
         {
@@ -347,7 +347,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "PINA 正文引述政府及 USGS，未保留首发署名。",
+      "source_independence_reason": "PINA quotes government statements and USGS. The original byline is unavailable.",
       "content": "More than 100 countries have backed a plan by Vanuatu to enlist the UN’s top court in tackling climate change, after what the nation’s officials on Thursday described as a “herculean” diplomatic effort.\n\nWith rising sea levels threatening its future, Vanuatu has spearheaded a drive for the court to define what legal responsibility countries have for the changing climate and its impacts.\n\nThe 105 nations backing the move will co-sponsor a resolution at this year’s UN General Assembly.\n\nCanada, Australia and the United Kingdom are among those on board, as well as Pacific nations like Kiribati and Marshall Islands, which also face rising sea levels.\n\nBut neither China nor the United States — two of the world’s biggest carbon dioxide emitters — have pledged support.\n\nNor have larger developing nations, like Indonesia and India, that rely on coal.\n\nAn opinion by the International Court of Justice (ICJ) would not be binding, but would help set a legal precedent.\n\nVanuatu was lashed by Cyclone Judy on Wednesday, with torrential rains and fierce winds uprooting trees, tearing roofs from buildings and flooding roads.\n\nThe archipelago, home to 320,000, is threatened by a second tropical storm in as many days with Cyclone Kelvin expected to pass near Vanuatu on Friday.\n\nGovernment spokesman Joe Harry Karu welcomed the support, adding that these latest cyclones highlight the threat facing Vanuatu.\n\n“The effects of climate change are clear to see when you look at the latest damage caused by the cyclone,” he said.\n\nMeanwhile, an earthquake of 6.8 magnitude struck west of Luganville, Vanuatu region on Friday, the U.S Geological Survey (USGS) said.\n\nThe quake struck 95 km (59.03 miles) west of Luganville and 33 km below the earth’s surface, USGS added.",
       "fact_spans": [
         {
@@ -516,7 +516,7 @@
       "language_label_issue": null,
       "reporting_type": "syndicated",
       "source_independence": "syndicated",
-      "source_independence_reason": "人民网承载新华社苏瓦电。",
+      "source_independence_reason": "People's Daily Online published Xinhua's Suva-datelined dispatch.",
       "content": "SUVA, March 3 (Xinhua) -- A state of emergency has been declared in Vanuatu after ravaged by the category 4 tropical cyclone Judy. The South Pacific island nation now braces the second tropical cyclone Kevin, which has intensified to category 3.\n\nAccording to Radio New Zealand on Friday, Vanuatu's Prime Minister Ishmael Kalsakau said that the state of emergency, which takes effect from Thursday night, will allow the islands most affected by Judy to receive help immediately.\n\nTropical cyclone Judy has caused extensive damage to Vanuatu, uprooting trees and cutting off telecommunication in parts of the nation, including the capital city of Port Vila.\n\nWhile people are still cleaning up after Judy, it is reported that tropical cyclone Kevin will bring more destruction, and warnings have already been issued for strong winds, heavy rainfalls and rough swells.\n\nThe severe weather has triggered suspension of both domestic and international flights while ships, boats and small fishing rafts are advised not to go out to sea.\n\nSome essential services like the banks will be temporarily closed on Friday.\n\nMeanwhile, a magnitude 6.5 earthquake struck northern Vanuatu, just off the island of Espiritu Santo early Friday morning.\n\nThe U.S. Geological Survey (USGS) reports the quake was 86 km WSW of Port Olry. It was 10km below the earth's surface, but no tsunami warning has been issued.",
       "fact_spans": [
         {
@@ -666,7 +666,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "Judy 被报道为四级热带气旋",
+        "cluster_description": "Judy was reported as a Category 4 tropical cyclone",
         "fact_type": "disaster_magnitude",
         "attribute": "judy_category",
         "supporting_spans": [
@@ -697,7 +697,7 @@
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "Judy 造成洪水和设施破坏",
+        "cluster_description": "Judy caused flooding and infrastructure damage",
         "fact_type": "damage",
         "attribute": "judy_impacts",
         "supporting_spans": [
@@ -736,7 +736,7 @@
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "Judy 后瓦努阿图宣布紧急状态",
+        "cluster_description": "Vanuatu declared a state of emergency after Judy",
         "fact_type": "response",
         "attribute": "emergency_declaration",
         "supporting_spans": [
@@ -759,7 +759,7 @@
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "随后风暴的强度涉及当前与预报阶段",
+        "cluster_description": "The second storm's intensity reports refer to observed and forecast stages",
         "fact_type": "disaster_magnitude",
         "attribute": "second_cyclone_category",
         "supporting_spans": [
@@ -792,7 +792,7 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "unknown",
-        "annotation_note": "PINA 把第二场风暴写为 Kelvin。"
+        "annotation_note": "PINA calls the second storm Kelvin."
       }
     ]
   },
@@ -813,14 +813,14 @@
         "FC004"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2023-03-01",
-          "time_precision": "当地日",
-          "description": "Judy 于周三给瓦努阿图带来风雨及基础设施破坏。",
+          "time_precision": "Local date",
+          "description": "Judy brought wind, rain, and infrastructure damage to Vanuatu on Wednesday.",
           "supporting_spans": [
             "A001_F003",
             "A002_F002",
@@ -829,16 +829,16 @@
         },
         {
           "time": "2023-03-02",
-          "time_precision": "当地日",
-          "description": "对 Judy 灾情的紧急状态自周四晚生效。",
+          "time_precision": "Local date",
+          "description": "The state of emergency for Judy took effect Thursday night.",
           "supporting_spans": [
             "A003_F001"
           ]
         },
         {
           "time": "2023-03-03",
-          "time_precision": "当地日",
-          "description": "当地继续清理并备战第二场风暴。",
+          "time_precision": "Local date",
+          "description": "Cleanup continued while residents prepared for the second storm.",
           "supporting_spans": [
             "A001_F009",
             "A003_F002"
@@ -847,7 +847,7 @@
       ],
       "causal_relations": [
         {
-          "description": "Judy 的强风雨导致树木倒伏、道路被淹和通信中断。",
+          "description": "Judy's wind and rain toppled trees, flooded roads, and disrupted communications.",
           "supporting_spans": [
             "A002_F002",
             "A003_F002"
@@ -856,7 +856,7 @@
       ],
       "event_mainline": [
         {
-          "description": "四级 Judy 袭击瓦努阿图，政府宣布紧急状态；第二场风暴和同期地震给评估与响应增添压力。",
+          "description": "Category 4 Judy struck Vanuatu, prompting an emergency declaration. A second storm and a concurrent earthquake complicated assessment and response.",
           "supporting_spans": [
             "A001_F003",
             "A001_F007",
@@ -880,9 +880,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "新闻中的 6.5 与 6.8 级地震所报震中与深度不同；未认定为同一地震或 Judy 损失。"
+      "The magnitude-6.5 and magnitude-6.8 earthquake reports give different epicenters and depths. They are kept separate and excluded from Judy's losses."
     ]
   }
 }

@@ -27,7 +27,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "A001 的 4 月 27 日指持续降雨，A002 的 4 月 29 日指严重风暴淹没时段。"
+      "April 27 in A001 marks the start of persistent rain. April 29 in A002 refers to the period of severe storm inundation."
     ],
     "dataset_place_name": "Flood in Brazil",
     "dataset_event_note": null
@@ -52,7 +52,7 @@
       "language_label_issue": null,
       "reporting_type": "likely_syndicated",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "Devdiscourse 行文引用 WMO 机构议程、INMET 等，疑似机构稿件再刊，未留首份署名。",
+      "source_independence_reason": "Devdiscourse cites WMO proceedings and INMET, suggesting republication of institutional coverage. No original byline is shown.",
       "content": "Record rainfall linked to El Niño has caused unprecedented flooding in the southern Brazilian state of Rio Grande do Sul, with a growing number of casualties and infrastructure and economic losses. There is no immediate respite in sight.\n\nAccording to the Civil Defense of Rio Grande do Sul, 78 people have been confirmed dead, 105 others are still missing and 175 have been injured. Nearly 19,000 people have been made homeless, almost 116,000 displaced, and nearly 850,000 affected across 341 municipalities.\n\nNational authorities have rescued 1,000 people through rescue and emergency operations, as reported by the Civil Defense of Rio Grande do Sul. Brazilian President Lula da Silva toured the worst affected regions and announced a package of emergency measures to help victims.\n\nImages showed the huge extent of the flooding. The airport in the state capital Porto Alegre was closed, with transport links and energy supplies cut.\n\nThe European Union's Copernicus Emergency Management Service (EMSR720) was activated in rapid mapping mode on 3 May to provide flood extent and damage assessment.\n\nThe disaster in Brazil – and ongoing flooding in East Africa - highlight the need for a more integrated response to El Niño and climate change impacts and Early Warnings For All, as called for by WMO at a special United Nations thematic event on 1 May.\n\nBrazil's national meteorological and hydrological service, INMET, issued another red alert for storms on 6 May, with moderate to localized heavy rainfall and thunderstorms and a very high high hydrological risk. The conditions are also affecting northern Uruguay.\n\nMuch of Rio Grande do Sul has been hit by persistent, heavy rainfall since 27 April, according to INMET. In some regions, especially in the broad central valleys, plateau, mountain slopes and metropolitan areas, rainfall volumes have exceeded 300 millimetres (mm) in less than a week. In the municipality of Bento Gonçalves, for example, the volume reached 543.4 mm.\n\nPorto Alegre received 258.6 mm of rainfall in just three days. This figure corresponds to more than two months of rain when compared to the Climatological Normal for April (114.4 mm) and May (112.8 mm).\n\nThe period between the end of April and the beginning of May 2024 is still influenced by El Niño. The phenomenon, responsible for warming the waters of the Pacific, helped block cold fronts and concentrate the systems of areas of instability over Rio Grande do Sul.\n\nIn addition to this condition, the much higher temperature of the South Atlantic Ocean, close to the equatorial belt, also contributes to the humidity, intensifying the rainfall. The transport of humidity from the Amazon and the thermal contrast with warmer air to the north of the Southern Region, as well as colder air to the south of Rio Grande do Sul, also helped to strengthen the storms, said INMET.\n\nThe WMO State of the Climate in Latin America and the Caribbean 2023, to be released on 8 May, will examine El Niño and climate change impacts on the region in the past year. This was also high on the agenda of meetings between WMO Secretary-General Celeste Saulo and government leaders in Chile from 1-2 May.",
       "fact_spans": [
         {
@@ -333,7 +333,7 @@
       "language_label_issue": null,
       "reporting_type": "original",
       "source_independence": "independent",
-      "source_independence_reason": "新华社摄影者 Claudia Martini 现场图片。",
+      "source_independence_reason": "On-the-ground photographs by Xinhua photographer Claudia Martini.",
       "content": "People walk in a flooded street in Novo Hamburgo, in the state of Rio Grande do Sul, Brazil, May 6, 2024. Severe storms have inundated large swaths of south Brazil's Rio Grande do Sul state since April 29. Over 100,000 people have been evacuated in 334 cities of the state. (Photo by Claudia Martini/Xinhua)\n\nFlood-affected children play at a shelter in Novo Hamburgo, Rio Grande do Sul, Brazil, May 6, 2024. Severe storms have inundated large swaths of south Brazil's Rio Grande do Sul state since April 29. Over 100,000 people have been evacuated in 334 cities of the state. (Photo by Claudia Martini/Xinhua)\n\nThis photo taken on May 6, 2024 shows a flooded street in Novo Hamburgo, in the state of Rio Grande do Sul, Brazil. Severe storms have inundated large swaths of south Brazil's Rio Grande do Sul state since April 29. Over 100,000 people have been evacuated in 334 cities of the state. (Photo by Claudia Martini/Xinhua)\n\nVolunteers distribute food to flood-affected residents in Novo Hamburgo, Rio Grande do Sul, Brazil, May 6, 2024. Severe storms have inundated large swaths of south Brazil's Rio Grande do Sul state since April 29. Over 100,000 people have been evacuated in 334 cities of the state. (Photo by Claudia Martini/Xinhua)\n\nVolunteers arrange relief supplies for flood-affected residents at a shelter in Novo Hamburgo, Rio Grande do Sul, Brazil, May 6, 2024. Severe storms have inundated large swaths of south Brazil's Rio Grande do Sul state since April 29. Over 100,000 people have been evacuated in 334 cities of the state. (Photo by Claudia Martini/Xinhua)\n\nFlood-affected residents rest by a tent in the city of Novo Hamburgo, Rio Grande do Sul, Brazil, May 6, 2024. Severe storms have inundated large swaths of south Brazil's Rio Grande do Sul state since April 29. Over 100,000 people have been evacuated in 334 cities of the state. (Photo by Claudia Martini/Xinhua)",
       "fact_spans": [
         {
@@ -453,7 +453,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "Guardian 图集正文援引当地民防机构，清洗稿未保留图集作者。",
+      "source_independence_reason": "The Guardian photo feature cites local civil defense. The cleaned copy lacks the feature's byline.",
       "content": "Devastating floods in Rio Grande do Sul state have about left 90 dead with survivors seeking food and shelter\n\nHeavy rains that began last week have caused rivers to flood, inundating whole towns and destroying roads and bridges across the southern Brazilian state of Rio Grande do Sul.\n\nThe local civil defence agency said the death toll had risen to 90, while 131 people were unaccounted for with 155,000 homeless. A state of emergency has been declared in 397 of Rio Grande do Sul’s 497 towns and cities as rescue efforts continue.",
       "fact_spans": [
         {
@@ -580,7 +580,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "州民防部门通报从死亡 78 人上升至 90 人",
+        "cluster_description": "State civil defense increased its reported death toll from 78 to 90",
         "fact_type": "casualties",
         "attribute": "reported_deaths",
         "supporting_spans": [
@@ -607,11 +607,11 @@
         "alignment_status": "aligned",
         "consistency_status": "temporal_update",
         "temporal_relation": "earlier_later",
-        "annotation_note": "A003 明确报道人数上升，发稿晚一天。"
+        "annotation_note": "A003 explicitly reports an increase and appeared one day later."
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "失踪统计的两次报告",
+        "cluster_description": "Two missing-person counts",
         "fact_type": "missing_persons",
         "attribute": "reported_missing",
         "supporting_spans": [
@@ -638,11 +638,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "revision_possible",
-        "annotation_note": "统计截点不明，可能为更新。"
+        "annotation_note": "The cutoffs are unclear, and the difference may reflect an update."
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "受灾、撤离和无家可归数字不使用同一指标",
+        "cluster_description": "Affected, evacuated, and homeless figures use different measures",
         "fact_type": "evacuation",
         "attribute": "displacement_metrics",
         "supporting_spans": [
@@ -681,7 +681,7 @@
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "南里奥格兰德州的持续降雨与洪灾",
+        "cluster_description": "Persistent rainfall and flooding in Rio Grande do Sul",
         "fact_type": "disaster_occurrence",
         "attribute": "flood_extent",
         "supporting_spans": [
@@ -737,30 +737,30 @@
         "FC004"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2024-04-27",
-          "time_precision": "日报机构日期",
-          "description": "INMET 称州内多地自 4 月 27 日起遭遇持续强降雨。",
+          "time_precision": "Agency bulletin date",
+          "description": "INMET reported sustained heavy rain across much of the state since April 27.",
           "supporting_spans": [
             "A001_F006"
           ]
         },
         {
           "time": "2024-05-03",
-          "time_precision": "当地日",
-          "description": "Copernicus 启动快速制图。",
+          "time_precision": "Local date",
+          "description": "Copernicus activated rapid mapping.",
           "supporting_spans": [
             "A001_F004"
           ]
         },
         {
           "time": "2024-05-08",
-          "time_precision": "报道日期",
-          "description": "Guardian 转述州民防机构称死亡达 90 人。",
+          "time_precision": "Publication date",
+          "description": "The Guardian cited state civil defense for 90 deaths.",
           "supporting_spans": [
             "A003_F003"
           ]
@@ -768,7 +768,7 @@
       ],
       "causal_relations": [
         {
-          "description": "INMET 将持续强降雨与厄尔尼诺及多个水汽、温差因素关联。",
+          "description": "INMET linked continued heavy rain to El Niño and several moisture and temperature factors.",
           "supporting_spans": [
             "A001_F007"
           ]
@@ -776,7 +776,7 @@
       ],
       "event_mainline": [
         {
-          "description": "南里奥格兰德州大范围淹没，引发伤亡、撤离及道路桥梁受损；州内许多市镇进入紧急状态。",
+          "description": "Widespread inundation across Rio Grande do Sul caused casualties, evacuations, and damage to roads and bridges. Many municipalities declared emergencies.",
           "supporting_spans": [
             "A001_F002",
             "A002_F002",
@@ -800,9 +800,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "A002 多幅图片重复同一疏散数字，只在首次作为事实提取。"
+      "Several A002 images repeat the same evacuation figure. Only the first instance was extracted as evidence."
     ]
   }
 }

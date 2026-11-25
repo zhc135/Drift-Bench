@@ -26,7 +26,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "三篇报道均指当地 17:35，CSV 起点与报道起时相差十分钟；旧喷发不计入本次。"
+      "All three reports give 17:35 local time. The CSV start differs from the reported eruption time by ten minutes. Earlier eruptions are excluded from this event."
     ],
     "dataset_place_name": "Eruption  Lewotobi",
     "dataset_event_note": null
@@ -51,7 +51,7 @@
       "language_label_issue": null,
       "reporting_type": "likely_syndicated",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "MENAFN 与 NDTV 的正文近乎逐字相同，且共用机构声明，稿源署名未保留。",
+      "source_independence_reason": "MENAFN and NDTV have nearly identical text and use the same institutional statement. The original byline is missing.",
       "content": "Jakarta: A volcano in eastern Indonesia spewed a colossal ash tower into the sky on Tuesday, authorities said, after they raised its alert level to the highest of a four-tiered system.\n\nMount Lewotobi Laki-Laki, a 1,584-metre-high twin-peaked volcano on the tourist island of Flores, erupted at 5:35 pm local time (0935 GMT), the volcanology agency said in a statement.\n\n\"The height of the eruption column was observed at approximately 10,000 metres above the summit. The ash column was observed to be grey with thick intensity,\" it said, after the alert level was raised.\n\nThere were no immediate reports of damages or casualties.\n\nGeology agency head Muhammad Wafid said residents and tourists should avoid carrying out any activities within at least seven kilometres of the volcano's crater.\n\nBut he warned of the possibility of hazardous lahar floods -- a type of mud or debris flow of volcanic materials -- if heavy rain occurs, particularly for communities near to rivers.\n\nHe also urged residents to wear face masks to protect themselves from volcanic ash.\n\nIn November, Mount Lewotobi Laki-Laki erupted multiple times killing nine people and forcing thousands to evacuate, as well as the cancellation of scores of international flights to Bali.\n\nThere were no immediate reports of cancelled flights after Tuesday's eruption.\n\nLaki-Laki, which means man in Indonesian, is twinned with the calmer but taller 1,703-metre (5,587-foot) volcano named Perempuan, after the Indonesian word for woman.\n\nIndonesia, a vast archipelago nation, experiences frequent seismic and volcanic activity due to its position on the Pacific \"Ring of Fire\".",
       "fact_spans": [
         {
@@ -280,7 +280,7 @@
       "language_label_issue": null,
       "reporting_type": "likely_syndicated",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "MENAFN 与 NDTV 的正文近乎逐字相同，且共用机构声明，稿源署名未保留。",
+      "source_independence_reason": "MENAFN and NDTV have nearly identical text and use the same institutional statement. The original byline is missing.",
       "content": "A volcano in eastern Indonesia spewed a colossal ash tower into the sky on Tuesday, authorities said, after they raised its alert level to the highest of a four-tiered system.Mount Lewotobi Laki-Laki, a 1,584-metre-high twin-peaked volcano on the tourist island of Flores, erupted at 5:35 pm local time (0935 GMT), the volcanology agency said in a statement.\"The height of the eruption column was observed at approximately 10,000 metres above the summit. The ash column was observed to be grey with thick intensity,\" it said, after the alert level was raised.There were no immediate reports of damages or casualties.Geology agency head Muhammad Wafid said residents and tourists should avoid carrying out any activities within at least seven kilometres of the volcano's crater.But he warned of the possibility of hazardous lahar floods -- a type of mud or debris flow of volcanic materials -- if heavy rain occurs, particularly for communities near to rivers.&nbsp;He also urged residents to wear face masks to protect themselves from volcanic ash.&nbsp;In November, Mount Lewotobi Laki-Laki erupted multiple times killing nine people and forcing thousands to evacuate, as well as the cancellation of scores of international flights to Bali.There were no immediate reports of cancelled flights after Tuesday's eruption.Laki-Laki, which means man in Indonesian, is twinned with the calmer but taller 1,703-metre (5,587-foot) volcano named Perempuan, after the Indonesian word for woman.Indonesia, a vast archipelago nation, experiences frequent seismic and volcanic activity due to its position on the Pacific \"Ring of Fire\".",
       "fact_spans": [
         {
@@ -478,7 +478,7 @@
       "language_label_issue": null,
       "reporting_type": "original",
       "source_independence": "independent",
-      "source_independence_reason": "新华社雅加达电，采用 PVMBG 材料及航空警戒细节。",
+      "source_independence_reason": "Xinhua's Jakarta dispatch uses PVMBG material and gives details of the aviation alert.",
       "content": "This photo provided by Indonesia's Center for Volcanology and Geological Hazard Mitigation (PVMBG) shows volcanic materials spewing from Mount Lewotobi Laki-Laki in East Nusa Tenggara, Indonesia, on June 17, 2025. Mount Lewotobi Laki-Laki in Indonesia's East Nusa Tenggara Province erupted on Tuesday, spewing a column of ash up to 10 km into the sky and triggering the highest aviation alert, the Volcanology and Geological Disaster Mitigation Center reported. Communities are prohibited from engaging in any activities within a radius of 7 km from the crater, and 8 km in the southwest and northeast sectors. (PVMBG/Handout via Xinhua)\n\nJAKARTA, June 17 (Xinhua) -- Mount Lewotobi Laki-Laki in Indonesia's East Nusa Tenggara Province erupted on Tuesday, spewing a column of ash up to 10 km into the sky and triggering the highest aviation alert, the Volcanology and Geological Disaster Mitigation Center reported.\n\nThe eruption occurred at 5:35 p.m. local time, with thick gray clouds moving northward, northeastward, eastward, southeastward, southward, southwestward, and northwestward from the crater.\n\nA Volcano Observatory Notice for Aviation has been raised to red level, the highest alert, prohibiting aircraft from flying below 6,000 meters in the vicinity of the volcano. Aircraft should also remain alert to the presence of volcanic ash, which can disrupt flights.\n\nCommunities are prohibited from engaging in any activities within a radius of 7 km from the crater, and 8 km in the southwest and northeast sectors.\n\nResidents living around the volcano are advised to be aware of the potential for rain-induced lava floods in rivers originating from the crater during periods of heavy rainfall. People in areas affected by ashfall are urged to wear masks or nose-and-mouth coverings to protect their respiratory systems from volcanic ash.\n\nThe 1,584-meter-high mountain is one of 127 active volcanoes in Indonesia.",
       "fact_spans": [
         {
@@ -656,7 +656,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "当地 17:35 喷发",
+        "cluster_description": "The eruption occurred at 17:35 local time",
         "fact_type": "timeline",
         "attribute": "eruption_time",
         "supporting_spans": [
@@ -695,7 +695,7 @@
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "灰柱达到约 10 公里",
+        "cluster_description": "The ash column reached approximately 10 km",
         "fact_type": "disaster_magnitude",
         "attribute": "ash_column",
         "supporting_spans": [
@@ -746,7 +746,7 @@
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "限制区通报含通用半径和方位扩展",
+        "cluster_description": "The exclusion notice gives a general radius and wider restrictions in specific directions",
         "fact_type": "response",
         "attribute": "exclusion_zone",
         "supporting_spans": [
@@ -785,7 +785,7 @@
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "航空最高警戒与暂未见取消可同时成立",
+        "cluster_description": "The highest aviation alert is compatible with the initial absence of reported cancellations",
         "fact_type": "response",
         "attribute": "aviation_response",
         "supporting_spans": [
@@ -841,14 +841,14 @@
         "FC004"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2025-06-17T17:35+08:00",
-          "time_precision": "当地分钟",
-          "description": "Lewotobi Laki-Laki 喷发，灰柱高约 10 公里。",
+          "time_precision": "Local time to the minute",
+          "description": "Lewotobi Laki-Laki erupted, producing an ash column approximately 10 km high.",
           "supporting_spans": [
             "A001_F001",
             "A001_F002",
@@ -858,8 +858,8 @@
         },
         {
           "time": "2025-06-17",
-          "time_precision": "当地日",
-          "description": "航空警戒升红色，公布地面禁入区。",
+          "time_precision": "Local date",
+          "description": "The aviation alert rose to red, and ground exclusion zones were announced.",
           "supporting_spans": [
             "A003_F003",
             "A003_F004"
@@ -868,7 +868,7 @@
       ],
       "causal_relations": [
         {
-          "description": "当局提醒暴雨可能把火山物质冲入河道形成火山泥流。",
+          "description": "Authorities warned that heavy rain could wash volcanic material into rivers and generate lahars.",
           "supporting_spans": [
             "A001_F004",
             "A003_F005"
@@ -877,7 +877,7 @@
       ],
       "event_mainline": [
         {
-          "description": "Flores 火山喷发形成高灰柱。航空、地面限入及雨后泥流预警同时生效。",
+          "description": "The eruption on Flores produced a tall ash column. Aviation and ground restrictions and warnings of rain-triggered lahars were in effect.",
           "supporting_spans": [
             "A001_F001",
             "A001_F002",
@@ -902,9 +902,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "两篇近乎逐字转载。先前 11 月遇难者不计入本次。"
+      "Two reports are nearly verbatim republications. Fatalities from the earlier November episode are excluded."
     ]
   }
 }

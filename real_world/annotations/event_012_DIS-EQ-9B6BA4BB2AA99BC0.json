@@ -25,7 +25,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "18:58 GMT 和 21:58 莫斯科时间指同一时点。A003 没有给出震中坐标或确切主震时刻。"
+      "18:58 GMT and 21:58 Moscow time denote the same instant. A003 gives neither epicenter coordinates nor an exact mainshock time."
     ],
     "dataset_place_name": "Earthquake in Russia",
     "dataset_event_note": null
@@ -50,7 +50,7 @@
       "language_label_issue": null,
       "reporting_type": "original",
       "source_independence": "independent",
-      "source_independence_reason": "明示 TASS 电头，分别引用俄罗斯地球物理部门和 USGS。",
+      "source_independence_reason": "An explicit TASS dateline cites the Russian geophysical service and USGS.",
       "content": "WASHINGTON, September 19. /TASS/. The US National Oceanic and Atmospheric Administration (NOAA) has cancelled the threat of a tsunami imposed after an earthquake in Kamchatka, the US Geological Survey said.\n\nA magnitude 7.4 earthquake hit Kamchatka at 9:58 p.m. Moscow time on September 18, the Geophysical Service of the Russian Academy of Sciences said. Residents of Petropavlovsk-Kamchatsky and Vilyuchinsk felt tremors with a force of 6 points.",
       "fact_spans": [
         {
@@ -160,7 +160,7 @@
       "language_label_issue": null,
       "reporting_type": "original",
       "source_independence": "independent",
-      "source_independence_reason": "新华社简报，包含该地震及其他几条新闻。地震消息与 TASS 共享俄罗斯观测来源。",
+      "source_independence_reason": "The Xinhua briefing includes the earthquake and several unrelated items. Its earthquake report shares a Russian monitoring source with TASS.",
       "content": "7.4-magnitude quake hits off east coast of Russia's Kamchatka, tsunami alert issued\n\nA 7.4-magnitude earthquake struck off the eastern coast of the Kamchatka Peninsula, Russia, the local geophysical service said on Thursday.\n\nThe quake occurred at 1858 GMT with its epicenter located about 149 km from Petropavlovsk-Kamchatsky, the regional capital, at a depth of 39 km, according to the Kamchatka branch of the Russian Academy of Sciences' Geophysical Survey.\n\nTrump ends UK tour with disagreement over Palestine, amid loud protest\n\nU.S. President Donald Trump said on Thursday that he disagrees with British Prime Minister Keir Starmer over Britain's plan to recognize a Palestinian state.\n\n\"I have a disagreement with the prime minister on that score,\" Trump told a joint press conference before ending his second state visit to Britain, when asked about Britain's recognition plan. \"One of our few disagreements, actually.\"\n\nYemen's Houthis claim multiple attacks on Israeli cities\n\nYemen's Houthi group said it launched a long-range \"hypersonic ballistic missile\" and three drones on three cities in Israel on Thursday night.\n\nIn a televised statement aired by Houthi-run al-Masirah TV, the group's military spokesman Yahya Sarea said the missile targeted a military target in the city of Jaffa (Tel Aviv), while the three drones hit targets in the city of Beer Sheva and the port city of Eilat.\n\nIsrael strikes Hezbollah targets in S. Lebanon\n\nThe Israeli army carried out several airstrikes Thursday evening across southern Lebanon, targeting villages including Mays el Jabal, Dibbine, and Kfar Tebnit, the National News Agency (NNA) reported.\n\nThe strikes came after Israeli army spokesperson Avichay Adraee warned on X of attacks on Hezbollah infrastructure in response to its alleged attempts to rebuild activities in the region.\n\nMan killed by police after attacking children in southern France\n\nA man attacked children outside a school in the southern French town of La Seyne-sur-Mer Thursday afternoon before being killed by police, French news channel BFMTV reported.\n\nThe man attacked children outside the Pierre Semard school and then confronted the police officers arriving to the scene, BFMTV reported, citing police sources, without giving further details on the condition of the children targeted by the attacker or his motives. ",
       "fact_spans": [
         {
@@ -340,7 +340,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "正文泛引 USGS 与当地当局，未见独立采集或通讯社署名。",
+      "source_independence_reason": "The body refers generally to USGS and local authorities. No independent reporting or wire-service credit is shown.",
       "content": "A powerful earthquake measuring 7.8 on the Richter scale has rattled Russia's Kamchatka region, according to reports from the U.S. Geological Survey and local authorities. The quake, occurring at a depth of 10 km, prompted tsunami warnings for the precariously situated peninsula.\n\nThe regional governor, Vladimir Solodov, announced an immediate state of high readiness across emergency services, despite no initial reports of damage. Tsunami advisories were also issued for neighboring regions, including sections of the Kuril Islands, but were later lifted as conditions stabilized.\n\nThis seismic event is the latest in a series of significant geological occurrences in Kamchatka, an area known for its volatile seismic activity. Just recently, in July, the region experienced a magnitude 8.8 quake, which activated tsunami alerts stretching to French Polynesia and Chile, followed by a volcanic eruption.",
       "fact_spans": [
         {
@@ -471,7 +471,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "两篇援引俄罗斯地球物理机构报震级 7.4",
+        "cluster_description": "Two articles cite a Russian geophysical agency for magnitude 7.4",
         "fact_type": "disaster_magnitude",
         "attribute": "russian_agency_magnitude",
         "supporting_spans": [
@@ -502,7 +502,7 @@
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "第三篇给出不同震级和深度",
+        "cluster_description": "The third article gives a different magnitude and depth",
         "fact_type": "disaster_magnitude",
         "attribute": "reported_magnitude_across_sources",
         "supporting_spans": [
@@ -537,11 +537,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "unknown",
-        "annotation_note": "A003 未提供发生时刻、坐标或具体地震公告，无法排除相近地震或不同目录估计。"
+        "annotation_note": "A003 gives no origin time, coordinates, or specific bulletin. A nearby earthquake or different catalog estimates remain possible."
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "两篇所报深度与归属不同",
+        "cluster_description": "Two reports give different depths and attributions",
         "fact_type": "disaster_magnitude",
         "attribute": "reported_depth",
         "supporting_spans": [
@@ -568,11 +568,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "unknown",
-        "annotation_note": "没有足够证据对齐地震条目和机构估计口径。"
+        "annotation_note": "The evidence is insufficient to match the earthquake records and agency estimation methods."
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "海啸警讯发布后，多家报道记录有预警或威胁解除",
+        "cluster_description": "Several reports record the issuing or lifting of tsunami advisories",
         "fact_type": "response",
         "attribute": "tsunami_warning",
         "supporting_spans": [
@@ -607,7 +607,7 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "compatible_vague_vs_specific",
         "temporal_relation": "unknown",
-        "annotation_note": "地理适用范围不同。"
+        "annotation_note": "The geographic coverage differs."
       }
     ]
   },
@@ -628,23 +628,23 @@
         "FC004"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2025-09-18T18:58Z",
-          "time_precision": "GMT 分钟",
-          "description": "俄科学院地球物理部门报告勘察加半岛近海发生地震。",
+          "time_precision": "Minute (GMT)",
+          "description": "The Russian Academy of Sciences geophysical service reported an earthquake off the Kamchatka Peninsula.",
           "supporting_spans": [
             "A001_F002",
             "A002_F001"
           ]
         },
         {
-          "time": "主震之后",
-          "time_precision": "相对时间",
-          "description": "发布海啸警讯。NOAA 随后解除其威胁通报。",
+          "time": "After the mainshock",
+          "time_precision": "Relative time",
+          "description": "A tsunami advisory was issued. NOAA later cancelled its threat bulletin.",
           "supporting_spans": [
             "A001_F001",
             "A002_F001"
@@ -653,7 +653,7 @@
       ],
       "causal_relations": [
         {
-          "description": "报道将海啸警讯与勘察加附近地震关联。",
+          "description": "Reports linked the tsunami advisory to the earthquake near Kamchatka.",
           "supporting_spans": [
             "A001_F001",
             "A002_F001",
@@ -663,7 +663,7 @@
       ],
       "event_mainline": [
         {
-          "description": "勘察加地震引发海啸警讯，俄方机构报震级 7.4；第三篇给出不同震级和深度，匹配证据不足。",
+          "description": "The Kamchatka earthquake prompted tsunami advisories. A Russian agency reported magnitude 7.4. The third article gives a different magnitude and depth, with insufficient evidence to match the observations.",
           "supporting_spans": [
             "A001_F001",
             "A001_F002",
@@ -686,9 +686,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "A002 的国际简报还包括其他新闻；其原文保留，未纳入本事件的事实对齐。"
+      "A002's world briefing includes unrelated news, which is retained in the source text and excluded from event alignment."
     ]
   }
 }

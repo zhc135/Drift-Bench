@@ -26,7 +26,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "当地 4 月 8 日周二上午；与 CSV 的 4 月 7 日 UTC 起点使用不同表示。"
+      "The eruption occurred Tuesday morning, April 8 local time. The CSV uses an April 7 UTC start."
     ],
     "dataset_place_name": "Eruption  Kanlaon",
     "dataset_event_note": null
@@ -51,7 +51,7 @@
       "language_label_issue": null,
       "reporting_type": "likely_syndicated",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "与 A002 报道结构、Bacolcol 访谈和数字高度相似，无明确底稿署名。",
+      "source_independence_reason": "The article closely matches A002 in structure, Bacolcol interview material, and figures. No clear original byline is shown.",
       "content": "A significant volcanic eruption occurred on Tuesday morning at Mount Kanlaon in the central Philippines, sending an ash plume soaring 4,000 meters into the sky, as reported by the seismology agency. The Philippine Institute of Volcanology and Seismology (Phivolcs) has maintained an alert level 3 since December 2024 due to previous explosive events at the site.\n\nThis alert level, the third on a five-point scale, indicates heightened dangers of lava flows and a potential hazardous eruption within weeks. Mount Kanlaon, located across the central provinces of Negros Occidental and Negros Oriental, is among 24 active volcanoes in the Philippines, a country familiar with such geological activities.\n\nPhivolcs Director Teresito Bacolcol noted in a radio interview that alert levels could shift based on magma ascension rates. A rapid rise could elevate the alert to level 4, suggesting imminent eruption, while slower magma movements might see it reduced to level 2. The Philippines, part of the Pacific \"Ring of Fire,\" is prone to volcanic eruptions and earthquakes.",
       "fact_spans": [
         {
@@ -196,7 +196,7 @@
       "language_label_issue": null,
       "reporting_type": "likely_syndicated",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "Manila 电头且与 A001 引用同一 DWPM 采访，稿源链未确认。",
+      "source_independence_reason": "The Manila-datelined article cites the same DWPM interview as A001. The source chain is unconfirmed.",
       "content": "MANILA - A volcano in the central Philippines erupted on Tuesday morning, ejecting an ash-laden plume reaching around 4,000 meters (2.5 miles) high, the seismology agency said.\n\nThe Philippine Institute of Volcanology and Seismology (Phivolcs) said alert level 3 remained in effect over Mount Kanlaon, where it has been since December 2024 after an earlier explosive event.\n\nMount Kanlaon, an active volcano straddling the Southeast Asian country's central provinces of Negros Occidental and Negros Oriental, is one of two dozen active volcanoes in the Philippines.\n\nREAD MORE : Philippines issues health warning as volcanic gas hits capital\n\nPhivolcs director Teresito Bacolcol told DWPM radio there is a possibility the alert level could either be raised or lowered in the coming days, depending on how quickly magma rises to the surface.\n\nA faster ascent could trigger a more intense eruption, prompting an escalation to alert level 4, while a slowdown or pause in magma movement may lead to a downgrade to alert level 2, Bacolcol said.\n\nREAD MORE : Volcanologist: Mayon volcano eruption may last for months\n\nThe Southeast Asian nation is located on the Pacific \" Ring of Fire \" where volcanic activity and earthquakes are common.",
       "fact_spans": [
         {
@@ -348,7 +348,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "Euronews 有邻近村庄灰降及伤亡状态的表述，未明确独立稿件署名。",
+      "source_independence_reason": "Euronews mentions ashfall in nearby villages and the status of casualties, with no clear independent byline.",
       "content": "One of the Philippines' most active volcanoes erupted on Tuesday, sending ash up to 4,000 metres into the sky.The explosion of Mount Kanlaon on central Negros island, one of the country’s 24 most active volcanoes, has raised health concerns due to ashfall that hit nearby villages. However, there have been no immediate reports of casualties.The 2,435-metre volcano's previous eruption last October sent hundreds of villagers fleeing to emergency shelters.While the volcano is currently on alert level 3, with alert level 5 being the highest, the Philippines is among the countries most prone to natural disasters.It is usually hit by about 20 typhoons and storms a year, and is located in the so-called Pacific “Ring of Fire”, an approximately 40,233km-long chain of volcanoes and seismically active regions surrounding the Pacific Ocean.According to National Geographic, it is where 90% of earthquakes occur, and is home to 75% of the world's volcanoes.",
       "fact_spans": [
         {
@@ -476,7 +476,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "三篇报道火山灰柱达约 4000 米",
+        "cluster_description": "Three reports put the ash column at about 4,000 m",
         "fact_type": "disaster_magnitude",
         "attribute": "ash_plume_height",
         "supporting_spans": [
@@ -521,7 +521,7 @@
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "当前警戒维持 3 级",
+        "cluster_description": "The alert remained at Level 3",
         "fact_type": "response",
         "attribute": "current_alert",
         "supporting_spans": [
@@ -560,7 +560,7 @@
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "附近村庄灰降与初期伤亡报道",
+        "cluster_description": "Ashfall in nearby villages and initial reporting on casualties",
         "fact_type": "secondary_hazard",
         "attribute": "village_ashfall",
         "supporting_spans": [
@@ -583,7 +583,7 @@
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "过往喷发日期描述的指代范围不同",
+        "cluster_description": "References to earlier eruptions give different dates",
         "fact_type": "timeline",
         "attribute": "historical_eruption_reference",
         "supporting_spans": [
@@ -610,7 +610,7 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "unknown",
-        "annotation_note": "不能确定前次指同一喷发。"
+        "annotation_note": "It is unclear whether both references concern the same earlier eruption."
       }
     ]
   },
@@ -631,14 +631,14 @@
       "supplementary_facts": [
         "FC004"
       ],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2025-04-08",
-          "time_precision": "当地日",
-          "description": "Kanlaon 重新喷发，灰柱约 4000 米，警戒维持 3 级。",
+          "time_precision": "Local date",
+          "description": "Kanlaon erupted again, producing an ash column of about 4,000 m. The alert stayed at Level 3.",
           "supporting_spans": [
             "A001_F001",
             "A002_F001",
@@ -649,7 +649,7 @@
       ],
       "causal_relations": [
         {
-          "description": "PHIVOLCS 人员称岩浆上升速度将影响警戒是否上调或下调。",
+          "description": "PHIVOLCS staff said magma ascent speed would affect whether the alert was raised or lowered.",
           "supporting_spans": [
             "A001_F003",
             "A002_F003"
@@ -658,7 +658,7 @@
       ],
       "event_mainline": [
         {
-          "description": "Kanlaon 火山周二喷发并在邻近村庄降灰，当前警戒维持第三级。",
+          "description": "Kanlaon erupted Tuesday, depositing ash in nearby villages. The alert remained at Level 3.",
           "supporting_spans": [
             "A001_F001",
             "A002_F001",
@@ -681,9 +681,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "文章对此前喷发的指代并未统一，未改写。"
+      "References to prior eruptions vary among the reports and retain their original wording."
     ]
   }
 }

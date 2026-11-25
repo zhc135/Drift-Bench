@@ -30,7 +30,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "A002/A003 1 月 10 日发稿，但正文将死亡数据写为 as reported on January 7；原说法保留。"
+      "A002 and A003 appeared on January 10, but their bodies describe the death toll as reported on January 7. That wording is retained."
     ],
     "dataset_place_name": "Forest fires in United States",
     "dataset_event_note": null
@@ -52,10 +52,10 @@
       "language": "en",
       "original_language": "en",
       "detected_language": "es",
-      "language_label_issue": "数据集标为 en；正文以西班牙语为主，夹杂英文图注，且包含源编码乱码。",
+      "language_label_issue": "The dataset label is en. The body is mostly in Spanish with some English captions and original encoding corruption.",
       "reporting_type": "likely_syndicated",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "Acento 版面内列 EFE/EPA 图片署名，正文首发未保留。",
+      "source_independence_reason": "Acento credits EFE/EPA photographs, but the original text byline is missing.",
       "content": "Un tercer foco agravÃ³ este miÃ©rcoles la situaciÃ³n de los incendios que mantienen en estado de emergencia a parte de Los Ãngeles, con 30.000 personas evacuadas y miles de bomberos movilizados ante la amenaza de que las llamas lleguen a zonas de viviendas. A los fuegos declarados el martes en Pacific Palisades y en Eaton Canyon, que ya han consumido cerca de 4.000 acres (mÃ¡s de 1.500 hectÃ¡reas), se sumÃ³ en las Ãºltimas horas un tercer incendio en Hurst, que ha afectado hasta el momento a 500 acres (unas 200 hectÃ¡reas), segÃºn fuentes oficiales. El gobernador de California, Gavin Newsom, seÃ±alÃ³ en un mensaje en la red social X que llega ayuda desde otros puntos del estado para combatir los tres focos. Cientos de bomberos adicionales se dirigen al sur para sumarse a los mÃ¡s de 1.400 efectivos que estÃ¡n en el terreno, anunciÃ³. El Ãºltimo foco, en Hurst, se propaga rÃ¡pidamente con fuertes vientos, creando condiciones peligrosas para las comunidades cercanas, segÃºn la informaciÃ³n mÃ¡s reciente del Departamento Forestal y de ProtecciÃ³n contra Incendios de California, que explicÃ³ que los fuertes vientos y la baja humedad contribuyen al comportamiento agresivo del fuego. El origen de los tres focos estÃ¡ bajo investigaciÃ³n y la alcaldesa de Los Ãngeles, Karen Bass, declarÃ³ en la tarde del martes el estado de emergencia. Uno de los fuegos declarados el martes afecta a Pacific Palisades, uno de los barrios mÃ¡s acaudalados de la ciudad, donde se encuentran estrellas de Hollywood como Jennifer Aniston, Bradley Cooper, Tom Hanks y Rita Wilson, Reese Witherspoon, Adam Sandler y Michael Keaton, segÃºn The Hollywood Reporter. 1 de 4 | Pacific Palisades (United States), 08/01/2025.- Los Angeles County firefighters take up positions to battle the Palisades wildfire in Pacific Palisades, California, USA, 07 January 2025. California Governor Gavin Newsom declared a state of emergency as about 30,000 people were ordered to evacuate due to a large wildfire called the 'Palisades Fire' in the Palisades that has already burned about 3,000 acres, according to the California Department of Forestry and Fire Protection, CAL FIRE. (incendio forestal) EFE/EPA/CAROLINE BREHMAN2 de 4 | -FOTODELDIA- Los Ãngeles (Estados Unidos), 08/01/2025.- Una persona conduce su motocicleta junto a una casa en llamas durante los incendios en Palisades , California, Estados Unidos. Dos incendios avanzan sin control alentados por fuertes vientos que mantienen en estado de emergencia a una parte de Los Ãngeles, con 30.000 personas evacuados y la amenaza de que las llamas se sigan propagando rÃ¡pidamente por zonas de viviendas. EFE/ Allison Dinner3 de 4 | Los Angeles (United States), 08/01/2025.- Firefighters try to control a burning gas station during the Palisades wildfire in Pacific Palisades, Los Angeles, California, USA, 07 January 2025. The Palisades fire grew to 1200 acres on January 7, according to data from the California Department of Forestry and Fire Protection (CAL FIRE), forcing widespread evacuations in the area. (incendio forestal) EFE/EPA/ALLISON DINNER4 de 4 | Los Angeles (United States), 08/01/2025.- A home burns from the Palisades wildfire in Pacific Palisades, Los Angeles, California, USA, 07 January 2025. The Palisades fire grew to 1200 acres on January 7, according to data from the California Department of Forestry and Fire Protection (CAL FIRE), forcing widespread evacuations in the area. (incendio forestal) EFE/EPA/ALLISON DINNER AÃºn no se ha informado de vÃ­ctimas mortales en este incendio, pero el gobierno federal y el presidente estadounidense, Joe Biden, siguen de cerca la situaciÃ³n por la posibilidad de que siga creciendo en los mÃ¡rgenes de un condado en el que viven casi 10 millones de personas a gran velocidad. La AdministraciÃ³n de Biden ofreciÃ³ este martes medios federales y aprobÃ³ una ayuda de emergencia para apoyar a las zonas afectadas en el condado de Los Ãngeles. El incendio de Eaton Canyon, al norte de Los Ãngeles, obligÃ³ a cerrar cuatro campus escolares de MalibÃº, al igual que el Distrito Escolar Unificado de Pasadena. El museo Getty Center, en el barrio de Brentwood de Los Ãngeles, informÃ³ en redes sociales de que el centro permanece cerrado debido al incendio, que ha afectado a algunos Ã¡rboles y vegetaciÃ³n del complejo, aunque ninguna estructura estÃ¡ en llamas. El Servicio MeteorolÃ³gico Nacional (NWS, en inglÃ©s) advirtiÃ³ el lunes que el sur de California se verÃ­a afectado en los prÃ³ximos dÃ­as por una tormenta de viento que afectarÃ­a principalmente los condados de Los Ãngeles y Ventura.",
       "fact_spans": [
         {
@@ -250,7 +250,7 @@
       "language_label_issue": null,
       "reporting_type": "syndicated",
       "source_independence": "syndicated",
-      "source_independence_reason": "MENAFN 明示 Azernews 来源，除引号乱码外与 A003 正文一致。",
+      "source_independence_reason": "MENAFN explicitly credits Azernews and matches A003 except for corrupted quotation marks.",
       "content": "The building housing the Consulate General of Azerbaijan in Los Angeles has been temporarily evacuated due to the escalating fires. Azerbaijani Foreign Ministry spokesman Aykhan Hajizade confirmed the evacuation, Azernews reports.\n\nâDespite the evacuation, the Consulate General continues its activities remotely. The course of events is monitored, and communication channels with citizens are constantly kept open,â Hajizade stated.\n\nThe Consulate General remains focused on ensuring the safety of Azerbaijani citizens amid the unfolding crisis in the second-largest city in the United States.\n\nThe death toll from the devastating forest fires in Los Angeles, California, has risen to 10, as reported on January 7.",
       "fact_spans": [
         {
@@ -345,7 +345,7 @@
       "language_label_issue": null,
       "reporting_type": "original",
       "source_independence": "independent",
-      "source_independence_reason": "正文署源 Azernews，为 A002 明示转载的底稿。",
+      "source_independence_reason": "The article credits Azernews, the source explicitly identified in A002.",
       "content": "The building housing the Consulate General of Azerbaijan in Los Angeles has been temporarily evacuated due to the escalating fires. Azerbaijani Foreign Ministry spokesman Aykhan Hajizade confirmed the evacuation, Azernews reports.\n\n“Despite the evacuation, the Consulate General continues its activities remotely. The course of events is monitored, and communication channels with citizens are constantly kept open,” Hajizade stated.\n\nThe Consulate General remains focused on ensuring the safety of Azerbaijani citizens amid the unfolding crisis in the second-largest city in the United States.\n\nThe death toll from the devastating forest fires in Los Angeles, California, has risen to 10, as reported on January 7.",
       "fact_spans": [
         {
@@ -426,7 +426,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "洛杉矶出现第三处火点并有大规模撤离",
+        "cluster_description": "A third wildfire broke out in Los Angeles amid mass evacuations",
         "fact_type": "evacuation",
         "attribute": "los_angeles_evacuation",
         "supporting_spans": [
@@ -449,7 +449,7 @@
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "阿塞拜疆领馆临时撤离并远程运作",
+        "cluster_description": "Azerbaijan's consulate temporarily evacuated and continued to operate remotely",
         "fact_type": "response",
         "attribute": "consular_evacuation",
         "supporting_spans": [
@@ -476,11 +476,11 @@
         "alignment_status": "aligned",
         "consistency_status": "consistent",
         "temporal_relation": "same_time",
-        "annotation_note": "同稿。"
+        "annotation_note": "Both reports use the same copy."
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "死亡叙述对应不同时间或范围",
+        "cluster_description": "Death reports refer to different times or scopes",
         "fact_type": "casualties",
         "attribute": "fatality_reporting",
         "supporting_spans": [
@@ -521,7 +521,7 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "unknown",
-        "annotation_note": "一篇语境局限于单处火灾与早期消息，另两篇同源统计涉及洛杉矶多处山火。"
+        "annotation_note": "One report describes a single fire and early reporting. The other two share a source and report on multiple Los Angeles fires."
       }
     ]
   },
@@ -540,14 +540,14 @@
         "FC002"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2025-01-07",
-          "time_precision": "报道星期对应",
-          "description": "Palisades 和 Eaton 火灾，洛杉矶市长宣布紧急状态。",
+          "time_precision": "Date inferred from the reported weekday",
+          "description": "The Palisades and Eaton fires broke out, and the mayor of Los Angeles declared a state of emergency.",
           "supporting_spans": [
             "A001_F001",
             "A001_F002"
@@ -555,8 +555,8 @@
         },
         {
           "time": "2025-01-08",
-          "time_precision": "报道日",
-          "description": "Acento 报道新增 Hurst 火点。",
+          "time_precision": "Publication date",
+          "description": "Acento reported a third fire in Hurst.",
           "supporting_spans": [
             "A001_F001",
             "A001_F002"
@@ -564,8 +564,8 @@
         },
         {
           "time": "2025-01-10",
-          "time_precision": "报道日",
-          "description": "Azernews 及转载报道驻洛杉矶领馆临时撤离。",
+          "time_precision": "Publication date",
+          "description": "Azernews and its republication reported the temporary evacuation of Azerbaijan's Los Angeles consulate.",
           "supporting_spans": [
             "A002_F001",
             "A003_F001"
@@ -574,7 +574,7 @@
       ],
       "causal_relations": [
         {
-          "description": "加州防火机构称强风与低湿度加剧 Hurst 蔓延。",
+          "description": "California fire officials attributed the rapid spread of Hurst to strong winds and low humidity.",
           "supporting_spans": [
             "A001_F002"
           ]
@@ -582,7 +582,7 @@
       ],
       "event_mainline": [
         {
-          "description": "洛杉矶多处野火引发疏散和紧急响应。阿塞拜疆领馆撤离办公地点后维持远程运营。",
+          "description": "Several Los Angeles wildfires prompted evacuations and an emergency response. Azerbaijan's consulate evacuated its office and continued operating remotely.",
           "supporting_spans": [
             "A001_F001",
             "A001_F002",
@@ -605,9 +605,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "A001 的编码乱码和英文图注原样保留。A002/A003 的死亡统计不独立。"
+      "A001 retains its original encoding corruption and English captions. A002 and A003 do not provide independent death counts."
     ]
   }
 }

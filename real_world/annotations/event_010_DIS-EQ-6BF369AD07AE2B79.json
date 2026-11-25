@@ -28,7 +28,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "GDACS 主震时间为 8 月 17 日 UTC。报道使用周六晚、周日早和多个本地时区，火山喷发只保留报道精度。"
+      "GDACS dates the mainshock to August 17 UTC. Reports refer to Saturday night, early Sunday, and several local time zones. The eruption timing retains the precision of the reports."
     ],
     "dataset_place_name": "Earthquake in Russia",
     "dataset_event_note": null
@@ -53,7 +53,7 @@
       "language_label_issue": null,
       "reporting_type": "republished",
       "source_independence": "syndicated",
-      "source_independence_reason": "MENAFN 承载稿引用 TASS、俄罗斯研究所与中国地震台网中心，正文未显示独立现场采集。",
+      "source_independence_reason": "The MENAFN-hosted copy cites TASS, Russian researchers, and CENC. There is no indication of independent on-the-ground reporting.",
       "content": "The volcano has started to \"spew ash and lava\", the state-owned TASS news agency reported, citing the Institute of Volcanology and Seismology of the Far Eastern Branch of the Russian Academy of Sciences.\n\n\"The eruption of the Shiveluch volcano has begun... According to visual evaluations, the ash column is rising as high as 8 kilometres above the sea level,\" the report quoted scientists as saying.\n\nEarlier on Saturday night (local time), a 7.0-magnitude earthquake jolted a sea area off the east coast of Kamchatka.\n\nThe epicentre was monitored at 52.8 degrees north latitude and 160.15 degrees east longitude. The quake struck at a depth of 50 km, according to a report issued by the China Earthquake Networks Center.\n\nThe US National Tsunami Warning Center had initially issued a tsunami threat, but later said the threat had passed. The Russian Emergencies Ministry had not issued any tsunami warning.\n\nThe earthquake was followed by a series of aftershocks in the Pacific Ocean off Kamchatka, measuring between 3.9 and 5.0. Most of them were not felt on the land, TASS reported, citing the ministry.",
       "fact_spans": [
         {
@@ -243,7 +243,7 @@
       "language_label_issue": null,
       "reporting_type": "likely_syndicated",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "NewsNow 承载稿集中转述 TASS、USGS 及预警机构，清洗后未显示完整原始署名。",
+      "source_independence_reason": "The NewsNow-hosted copy relays TASS, USGS, and warning agencies. The cleaned text lacks the full original byline.",
       "content": "A volcano near a major naval base on Russia's eastern coast erupted early Sunday after a powerful magnitude-7.0 earthquake struck in the Pacific about 63 miles away, according to Russian state-run media. It briefly triggered a \"code red\" warning for aircraft.The Shiveluch volcano spewed an ash column as high as 5 mils above sea level and released a gush of lava, Tass news agency reported Sunday morning, citing scientists with the Institute of Volcanology and Seismology of the Far Eastern Branch of the Russian Academy of Sciences.The volcano is about 280 miles from Petropavlovsk-Kamchatsky, a coastal city of more than 181,000 people in Russia's eastern region of Kamchatka. The city is surrounded by volcanoes and sits across a bay from an important Russian submarine base.The Ebeko volcano located on Kuril Islands also spewed ash 1.5 miles high, the institute said. It did not explicitly say whether the earthquake touched off the eruptions.A \"code red\" ash cloud warning briefly put all aircraft in the area on alert, the Kamchatka Volcanic Eruption Response Team reported. A separate report on Sunday carried by Tass said that no commercial flights had been disrupted and there was no damage to aviation infrastructure.The U.S. Geological Survey said the earthquake occurred 18 miles below the surface of the Pacific Ocean. Its epicenter was about 63 miles east of Petropavlovsk-Kamchatsky. There were no early reports of damage or injuries from the quake.The quake prompted a tsunami warning that was later lifted.The U.S. National Weather Service's Pacific Tsunami Warning Center in Honolulu initially warned that hazardous tsunami waves were possible for coasts within 300 miles (480 kilometers) of the earthquake epicenter, but later announced the threat had ended.The center said minor sea level fluctuations could occur in some coastal areas near the earthquake site for several hours.",
       "fact_spans": [
         {
@@ -504,7 +504,7 @@
       "language_label_issue": null,
       "reporting_type": "republished",
       "source_independence": "syndicated",
-      "source_independence_reason": "Devdiscourse 直接注明经 CNN 转述 TASS，部分事实来自 USGS 和俄罗斯其他机构。",
+      "source_independence_reason": "Devdiscourse explicitly cites TASS via CNN. Some details come from USGS and other Russian agencies.",
       "content": "A massive earthquake with a magnitude of 7.0 struck off the eastern coast of Russia, triggering the eruption of the Shiveluch volcano, CNN reported, citing TASS. The eruption sent an ash column soaring up to 8 kilometres above sea level.\n\nShiveluch volcano is situated around 280 miles from Petropavlovsk-Kamchatsky, a city of approximately 181,000 residents in Russia's Kamchatka region. According to the US Geological Survey, the earthquake's epicentre was about 55 miles from Petropavlovsk-Kamchatsky and had a depth of 30 miles.\n\nThough there were no reports of injuries or major damage, buildings are being examined for potential structural issues, particularly social facilities, as per CNN's report. Meanwhile, no tsunami warning was issued by the Russian Emergencies Ministry, but the US Tsunami Warning System noted the possibility of hazardous waves within 186 miles of the epicentre along the Russian coast.\n\nTremors prompted regional residents to evacuate their homes. Reports indicated that furniture had toppled and dishes were broken. The Kamchatka branch of the Geophysical Service of the Russian Academy of Sciences reported an aftershock with a magnitude of 4.7 occurring at 07:21 Kamchatka time (22:21 Moscow time) on Saturday.",
       "fact_spans": [
         {
@@ -696,7 +696,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "勘察加近海主震报道震级 7.0",
+        "cluster_description": "The offshore Kamchatka mainshock was reported at magnitude 7.0",
         "fact_type": "disaster_magnitude",
         "attribute": "mainshock_magnitude",
         "supporting_spans": [
@@ -735,7 +735,7 @@
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "两篇对同一主震归于 USGS 的深度数字冲突",
+        "cluster_description": "Two reports give conflicting depths attributed to USGS for the same mainshock",
         "fact_type": "disaster_magnitude",
         "attribute": "mainshock_depth_usgs",
         "supporting_spans": [
@@ -762,11 +762,11 @@
         "alignment_status": "aligned",
         "consistency_status": "conflicting",
         "temporal_relation": "same_time",
-        "annotation_note": "两篇均指向同一主震、同一深度属性、同一单位、同一机构，所报值不能同时成立。原始公告版本及误转述情况无从判断，保留未解决。中国地震台网中心所报 50 km 另列。"
+        "annotation_note": "Both reports refer to the same mainshock, depth measurement, units, and agency, but the values are incompatible. The original bulletin versions and any reporting error could not be determined, so the conflict remains unresolved. CENC's 50 km estimate is recorded separately."
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "中国地震台网中心发布不同机构的深度估算",
+        "cluster_description": "CENC published a separate depth estimate",
         "fact_type": "disaster_magnitude",
         "attribute": "mainshock_depth_cenc",
         "supporting_spans": [
@@ -789,7 +789,7 @@
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "希韦卢奇喷发并出现高灰柱",
+        "cluster_description": "Shiveluch erupted and produced a tall ash column",
         "fact_type": "secondary_hazard",
         "attribute": "shiveluch_ash_height",
         "supporting_spans": [
@@ -833,11 +833,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "compatible_vague_vs_specific",
         "temporal_relation": "unknown",
-        "annotation_note": "A002 原文单位写作 mils，疑似排印问题。保留原单位，避免将其视为精确换算。"
+        "annotation_note": "A002 prints the unit as “mils,” which may be a typo. The original unit is retained to avoid treating it as an exact conversion."
       },
       {
         "cluster_id": "FC005",
-        "cluster_description": "地震与喷发的因果关系表述不同",
+        "cluster_description": "Reports describe the earthquake–eruption causal link differently",
         "fact_type": "cause",
         "attribute": "eruption_trigger",
         "supporting_spans": [
@@ -872,11 +872,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "unknown",
-        "annotation_note": "先后、未明确归因与肯定归因的证据程度不同。"
+        "annotation_note": "Sequence, no explicit attribution, and a positive causal claim carry different evidentiary weight."
       },
       {
         "cluster_id": "FC006",
-        "cluster_description": "俄罗斯应急部未发布海啸预警",
+        "cluster_description": "Russia's Emergencies Ministry issued no tsunami warning",
         "fact_type": "response",
         "attribute": "russian_emergencies_ministry_warning",
         "supporting_spans": [
@@ -907,7 +907,7 @@
       },
       {
         "cluster_id": "FC007",
-        "cluster_description": "美方威胁范围使用不同适用地理描述",
+        "cluster_description": "US threat reports describe different geographic coverage",
         "fact_type": "response",
         "attribute": "us_warning_reach",
         "supporting_spans": [
@@ -934,7 +934,7 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "unknown",
-        "annotation_note": "前者面向震中范围内沿岸，后者明确限俄罗斯沿海，未能确认同一公告版本。"
+        "annotation_note": "One applies to coastlines within range of the epicenter, while the other specifies the Russian coast. A common bulletin version could not be verified."
       }
     ]
   },
@@ -961,14 +961,14 @@
         "FC007"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2024-08-17",
-          "time_precision": "UTC 日",
-          "description": "GDACS 记录勘察加附近地震，媒体报震级 7.0。",
+          "time_precision": "UTC date",
+          "description": "GDACS records an earthquake near Kamchatka that reports put at magnitude 7.0.",
           "supporting_spans": [
             "A001_F002",
             "A002_F001",
@@ -976,9 +976,9 @@
           ]
         },
         {
-          "time": "主震之后",
-          "time_precision": "相对时间",
-          "description": "希韦卢奇喷出火山灰。美国方面曾发海啸威胁通报，后来解除。",
+          "time": "After the mainshock",
+          "time_precision": "Relative time",
+          "description": "Shiveluch released ash. US authorities issued and later lifted a tsunami threat bulletin.",
           "supporting_spans": [
             "A001_F001",
             "A001_F003",
@@ -989,7 +989,7 @@
       ],
       "causal_relations": [
         {
-          "description": "A003 转述地震触发喷发，A002 称研究机构未明确作同一归因。",
+          "description": "A003 reports that the earthquake triggered the eruption. A002 says the research institute did not explicitly make that attribution.",
           "supporting_spans": [
             "A002_F004",
             "A003_F001"
@@ -998,7 +998,7 @@
       ],
       "event_mainline": [
         {
-          "description": "勘察加附近发生 7.0 级地震，不同媒体对同一机构所报深度的转述有分歧。",
+          "description": "A magnitude-7.0 earthquake struck near Kamchatka. Outlets disagree on the depth attributed to the same agency.",
           "supporting_spans": [
             "A001_F002",
             "A002_F005",
@@ -1006,7 +1006,7 @@
           ]
         },
         {
-          "description": "随后报道希韦卢奇喷发、航空红色警报及海啸威胁解除。",
+          "description": "Subsequent reports described Shiveluch's eruption, a red aviation alert, and the lifting of the tsunami threat.",
           "supporting_spans": [
             "A001_F001",
             "A001_F003",
@@ -1047,7 +1047,7 @@
           "classification": "confirmed_conflict",
           "resolution_status": "unresolved",
           "gold_value": null,
-          "resolution_reason": "两篇均指向同一主震、同一深度属性、同一单位、同一机构，所报值不能同时成立。原始公告版本及误转述情况无从判断，保留未解决。中国地震台网中心所报 50 km 另列。"
+          "resolution_reason": "Both reports refer to the same mainshock, depth measurement, units, and agency, but the values are incompatible. The original bulletin versions and any reporting error could not be determined, so the conflict remains unresolved. CENC's 50 km estimate is recorded separately."
         }
       ],
       "unresolved_conflicts": [
@@ -1061,9 +1061,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "主震深度的冲突是来源转述层面的冲突。未核对原始 USGS 公告版本。"
+      "The conflicting depths are values attributed by the outlets. The original USGS bulletin versions were not checked."
     ]
   }
 }

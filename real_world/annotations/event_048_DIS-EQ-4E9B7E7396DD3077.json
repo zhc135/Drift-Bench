@@ -28,7 +28,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "星期五 5.5 级与星期六 5.8 级是 A003 明确区分的地震。"
+      "A003 distinguishes Friday's magnitude-5.5 earthquake from Saturday's magnitude-5.8 event."
     ],
     "dataset_place_name": "Earthquake in Ethiopia",
     "dataset_event_note": null
@@ -53,7 +53,7 @@
       "language_label_issue": null,
       "reporting_type": "republished",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "MENAFN 多处注明 Anadolu Ajansi、EMSC 与 Fana，原始稿件链未明。",
+      "source_independence_reason": "MENAFN credits Anadolu Ajansi, EMSC, and Fana in several places. The original publication chain is unclear.",
       "content": "The quake was at a depth of 10 km (6.21 miles), EMSC said.\n\nEarlier in the day, Anadolu Ajansi reported a volcanic eruption at Ethiopia's central Mount Dofan. The region has recently experienced frequent minor tremors, according to local media reports.\n\nThese frequent tremors have raised concern over a potential major disaster, especially in the Awash Fentale region, which is approximately 142 miles (230 kilometres) from Addis Ababa.\n\nIn recent weeks, the region has experienced more than a dozen minor earthquakes, prompting residents to look at the issue with concern.\n\nRegional Administrator Abdu Ali has said the authorities are making efforts to prevent casualties by relocating at-risk residents to safer areas, the state-owned Fana Broadcasting Corporation reported.",
       "fact_spans": [
         {
@@ -194,7 +194,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "eNCA Nairobi 电头依赖地震中心与埃塞媒体，正文未保留署名。",
+      "source_independence_reason": "eNCA's Nairobi-datelined article relies on seismic agencies and Ethiopian media. The original byline is missing.",
       "content": "NAIROBI - A magnitude 5.5 earthquake struck northern Ethiopia on Friday, where a volcano erupted after months of increased seismic activity, the European-Mediterranean Seismological Centre (EMSC) and local media said.\n\nThe EMSC said the quake, which occurred at a depth of about 10 kilometres, hit some 55 kilometres northwest of the city of Asbe Teferi.\n\nNo injuries have been reported so far.\n\nA nearby volcano also erupted after months of intense seismic activity, according to local media.\n\nAden Bela, a local official, told the Ethiopian broadcaster EBC that the volcanic eruption had taken place near Segento in the northeast Afar region.\n\nThe crater had stopped releasing smoke, but lava was still flowing out of the volcano, Bela added. People and cattle have been evacuated, he said, without giving numbers.\n\nThe US Geological Survey since late September has recorded more than 67 earthquakes in the area, particularly in the Fantale region, part of the Great Rift Valley, according to the Addis Standard.\n\nResidents in affected areas told the newspaper that more than 30 houses had collapsed where tremors have become more frequent and more violent.\n\n\"Houses are collapsing day by day,\" one local resident told the newspaper.",
       "fact_spans": [
         {
@@ -367,7 +367,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "DW 转述 Reuters、Fana、Ethiopian Geological Institute 和监测机构，正文无独立署名。",
+      "source_independence_reason": "DW relays Reuters, Fana, the Ethiopian Geological Institute, and monitoring agencies without an independent byline.",
       "content": "Authorities have begun to evacuate residents in northeastern Ethiopia after a volcano showed signs of potentially dangerous activity , officials said Friday.\n\nCivilians from the Afar region were relocated to temporary shelters, according to the state-owned Fana Broadcasting, which quoted a regional administrator in the area.\n\nShiferaw Teklemariam, Commissioner of the Ethiopian Disaster Risk Management Commission, said it was premature to describe the activity as an eruption, adding that authorities were exercising caution.\n\n\"The community; some are already leaving those areas. We are also preparing to do it in a well-organized manner. It [moving the community] will be done based on predictions ,\" he told Reuters.\n\nThe Ethiopian Geological Institute shared a video on its Facebook page showing what appeared to be dust and smoke rising from the long-dormant volcano of Mount Dofen.\n\nHowever, not all triggers of volcanic activity lead to full-blown eruptions.\n\nA magnitude 5.8 earthquake, which occurred at a depth of about 10 kilometers (6 miles), hit Ethiopia on Saturday, according to the US Geological Survey and the German Research Center for Geosciences.\n\nThe same area also saw a magnitude 5.5 quake on Friday, said the European-Mediterranean Seismological Center.\n\nDozens of earthquakes and tremors have been recorded in the area in recent months.",
       "fact_spans": [
         {
@@ -499,7 +499,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "周五同一地震报 5.5 级",
+        "cluster_description": "Friday's earthquake was reported at magnitude 5.5",
         "fact_type": "disaster_magnitude",
         "attribute": "friday_magnitude",
         "supporting_spans": [
@@ -526,11 +526,11 @@
         "alignment_status": "aligned",
         "consistency_status": "consistent",
         "temporal_relation": "same_time",
-        "annotation_note": "A003 另报周六 5.8 级，A001 的 5.5 在标题。"
+        "annotation_note": "A003 separately reports a magnitude-5.8 earthquake on Saturday. A001 gives Friday's 5.5 magnitude in the headline."
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "周五深度约 10 公里",
+        "cluster_description": "Friday's earthquake depth was about 10 km",
         "fact_type": "disaster_magnitude",
         "attribute": "friday_depth",
         "supporting_spans": [
@@ -564,7 +564,7 @@
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "火山活动是否已构成喷发尚未统一确认",
+        "cluster_description": "Reports do not consistently confirm whether the volcanic activity was an eruption",
         "fact_type": "secondary_hazard",
         "attribute": "eruption_confirmation",
         "supporting_spans": [
@@ -599,11 +599,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "unknown",
-        "annotation_note": "待核实风险、观测时间和术语，不能把不确认等同于否定。"
+        "annotation_note": "Risk, observation time, and terminology require verification. A lack of confirmation does not amount to a denial."
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "为防灾转移居民",
+        "cluster_description": "Residents were relocated as a precaution",
         "fact_type": "evacuation",
         "attribute": "evacuation",
         "supporting_spans": [
@@ -659,14 +659,14 @@
         "FC004"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2025-01-03",
-          "time_precision": "当地日",
-          "description": "周五 5.5 级地震，埃塞当局启动避险转移。",
+          "time_precision": "Local date",
+          "description": "A magnitude-5.5 earthquake struck Friday, and Ethiopian authorities began relocating residents as a precaution.",
           "supporting_spans": [
             "A001_F004",
             "A002_F001",
@@ -676,8 +676,8 @@
         },
         {
           "time": "2025-01-04",
-          "time_precision": "当地日",
-          "description": "同一区域报道称另有 5.8 级地震。",
+          "time_precision": "Local date",
+          "description": "A separate magnitude-5.8 earthquake was reported in the same area.",
           "supporting_spans": [
             "A003_F003"
           ]
@@ -685,7 +685,7 @@
       ],
       "causal_relations": [
         {
-          "description": "火山活动迹象与频繁震动使当局预防性安置居民。",
+          "description": "Signs of volcanic activity and frequent tremors prompted precautionary relocation.",
           "supporting_spans": [
             "A001_F003",
             "A001_F004",
@@ -695,7 +695,7 @@
       ],
       "event_mainline": [
         {
-          "description": "埃塞俄比亚东北地震与火山活动引发预防性转移；对活动是否已属喷发的说明有待官方确认。",
+          "description": "Earthquakes and volcanic activity in northeastern Ethiopia prompted precautionary evacuations. Official confirmation of an eruption was still pending.",
           "supporting_spans": [
             "A001_F002",
             "A002_F001",
@@ -719,9 +719,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "不同地震的震级不可认定为冲突。房屋倒塌统计涉及此前一段震群过程。"
+      "Magnitudes for separate earthquakes do not conflict. Collapsed-home figures cover an earlier period of earthquake swarm activity."
     ]
   }
 }

@@ -32,7 +32,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "CSV 的 UTC 时间为 8 月 14 日晚。报道所述 8 月 15 日清晨采用事发地时间。实时统计未提供统一截点。"
+      "The CSV gives August 14 in UTC. The reports describe early August 15 local time. No common cutoff is given for the running totals."
     ],
     "dataset_place_name": "Earthquake in Indonesia",
     "dataset_event_note": null
@@ -57,7 +57,7 @@
       "language_label_issue": null,
       "reporting_type": "original",
       "source_independence": "independent",
-      "source_independence_reason": "新华社电头，报道中国外交部例行记者会。",
+      "source_independence_reason": "Xinhua dateline covering a regular Chinese Foreign Ministry briefing.",
       "content": "BEIJING, Aug. 17 (Xinhua) -- China is concerned about the earthquake in Indonesia and is ready to provide assistance in accordance with Indonesia's needs, Chinese foreign ministry spokesperson Lin Jian said Monday.\n\n\"We express our deep condolences to the victims and sincere sympathies to the families of the deceased and the injured,\" Lin said at a daily media briefing in response to the 7.7-magnitude earthquake that struck Flores Island, Indonesia, on Aug. 15.\n\nIt is understood that some Chinese citizens have been injured in the earthquake, Lin said, adding that the Chinese Consulate General in Denpasar has activated its emergency mechanism to provide assistance to those affected. ",
       "fact_spans": [
         {
@@ -186,7 +186,7 @@
       "language_label_issue": null,
       "reporting_type": "likely_syndicated",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "Yahoo 承载的正文引述 AP 对 Reo 居民的采访，与 A003 的引语和细节有重合，完整稿源未确认。",
+      "source_independence_reason": "The Yahoo-hosted article quotes AP interviews with Reo residents. Quotes and details overlap with A003, and the complete provenance is unverified.",
       "content": "The death toll from Saturday's earthquake in Indonesia has risen to at least ‌68, as powerful aftershocks continued to strike fear into communities on the island of Flores where thousands of people are still waiting for aid .\n\nA magnitude-5.9 tremor was recorded at a depth of about 10km by Germany 's GFZ Research Centre for Geosciences on Monday, though there were no immediate reports of further casualties.\n\nThe agency has recorded at least 995 aftershocks since Saturday, 46 of which were powerful enough to be felt by residents. The strongest before Monday's measured 6.2.\n\nIndonesia on Monday marked its 81st Independence Day, which residents of Flores spent mourning, searching for relatives and waiting for supplies to reach them.\n\nPresident Prabowo Subianto asked the nation to pray for people affected by the disaster in East Nusa Tenggara and other parts of the country, as well as leading a nationwide moment of silence honouring Indonesia's independence heroes.\n\nThe province's governor declared a 14-day state of emergency on Sunday, with the earthquake death toll continuing to climb as rescue teams work through debris. Officials expect it to rise further as they reach more villages cut off by landslides. Most of the deaths were recorded in the districts of Sikka, Manggarai and East Manggarai.\n\nThe magnitude-7.7 earthquake that struck on Saturday morning had its epicentre about 68km north-west of Ende, a town on the south coast of Flores, according to the US Geological Survey.\n\nFlores lies in East Nusa Tenggara, a province of scattered islands at the eastern end of the Indonesian archipelago.\n\nAt least 200 people were injured and more than 2,000 homes were damaged across East Nusa Tenggara province, nearly 250 of them destroyed on Flores alone, the National Disaster Management Agency said. About 5,000 people are in temporary shelters.\n\nVillagers rest in a tent on an open field in Marapokot, Nagekeo, East Nusa Tenggara (AFP/Getty)\n\nThousands more spent Sunday night under tarpaulins beside their collapsed houses rather than risk going indoors.\n\nMore than 3,500 military and police personnel have been deployed and 275 tonnes of aid sent into the disaster zone, but the terrain has slowed deliveries to the worst-affected communities.\n\n\"We are continuing to collect reports of damage and casualties, but there are communication disruptions,\" said the East Nusa Tenggara police chief, Rudi Darmoko, who described severe structural damage and collapsed buildings, with power cuts hampering communications.\n\nLandslides have blocked sections of the Trans-Flores highway in Ende regency, the road that runs about 435 miles across the island from Labuan Bajo to Larantuka. Rescue officials have warned the death toll could rise, with villages across six regencies buried or cut off, and the disaster agency has sent a helicopter to carry supplies and support possible evacuations.\n\n\"My house is just rubble now,\" Rasyid Jafar, a clothing trader in the village of Reo, the worst-hit part of Manggarai regency, told the Associated Press. \"We need food, medicine and clean water urgently.\"\n\nSurvivors say what has arrived is not enough to live on. \"We have nothing left. Why isn't there a public kitchen?\" Mariana Tewu, another Reo villager, told the news agency.\n\nLocal television showed patients being wheeled out of several hospitals as a precaution, with staff moving beds and oxygen cylinders outside and setting up temporary treatment areas.\n\nSaturday's quake prompted a tsunami warning and sent coastal residents to higher ground before it was lifted when no significant change in sea levels was detected. Flores was struck by a tsunami after an earthquake in 1992 that killed about 2,500 people.\n\nIndonesia sits on the Pacific Ring of Fire, the belt of seismic activity around the edges of the ocean, and records frequent earthquakes and volcanic eruptions. An earthquake on Sulawesi in 2018 killed more than 4,400 people, and the magnitude 9.1 quake off Sumatra in 2004 caused a tsunami that killed about 230,000 people across a dozen countries.",
       "fact_spans": [
         {
@@ -756,7 +756,7 @@
       "language_label_issue": null,
       "reporting_type": "likely_syndicated",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "NewsNow 承载稿含 REO 电头，与 A002 明示来自 AP 的现场引语一致，完整署名未保留。",
+      "source_independence_reason": "The NewsNow-hosted article carries a Reo dateline and shares quotes explicitly attributed to AP in A002. The complete byline is missing.",
       "content": "REO, Indonesia — Thousands of people waited for aid on the Indonesian island of Flores on Monday (Aug 17) as the country marked its 81st Independence Day, two days after a powerful earthquake killed at least 68 people, injured more than 200 others and damaged thousands of homes.\n\nMany residents on Flores island in East Nusa Tenggara province spent the day mourning victims while military teams tried to deliver food, clean water and clothing to inaccessible communities by plane.\n\nThe Saturday morning quake left widespread damage, with buildings collapsed onto parked cars, homes shattered and trees and boulders blocking roads.\n\n\"My house is just rubble now,\" said Rasyid Jafar, a clothing trader in the village of Reo, the hardest-hit area in Manggarai regency. \"We need food, medicine and clean water urgently.\"\n\nDuring Indonesia's Independence Day ceremony in the capital, Jakarta, President Prabowo Subianto asked participants to pray for people affected by disasters in East Nusa Tenggara and other parts of the country, while leading a nationwide moment of silence honoring the nation's independence heroes.\n\nMore than 4,500 homes were damaged when the quake struck Flores island early Saturday. Some 19,000 people were forced into temporary shelters and 213 people were injured, according to the National Disaster Management Agency or BNPB.\n\nThe disaster also damaged 122 health facilities, 252 schools and 84 places of worship.\n\nThe province's governor declared a 14-day state of emergency on Sunday.\n\nThe quake occurred at a depth of 10 kilometres shortly before 6am (7am SGT) Saturday, according to the US Geological Survey, and residents fled in panic as tsunami warnings were issued but later lifted.\n\nAuthorities have since recorded 1,576 aftershocks into Monday, though only 54 were felt by residents.\n\nThousands of people on Flores camped outside collapsed homes under tarpaulin tents overnight into Monday, sleeping outside because of the danger of more aftershocks.\n\nFor many residents, the disaster revived painful memories of a powerful earthquake and tsunami that struck Flores in 1992, killing about 2,500 people.\n\nAs thousands of survivors remain in need of food, shelter and medical treatment, the government said more than 1,800 military and police personnel have been deployed across the disaster zone, supported by 10 aircraft and several vessels, to distribute more than 100 metric tons of emergency aid.\n\nNearly 5,400 food packages, two field hospital tents, medicines and clothing were being delivered to communities across the disaster zone, as logistical challenges slowed deliveries to some hard-hit communities, national disaster agency Deputy Chief Abdul Muhari said in a video statement.\n\nAuthorities set up two emergency field hospitals in the worst-hit town of Ruteng to treat earthquake victims after local hospitals were damaged, with two crisis management teams overseeing a health emergency operation centre, Muhari said.\n\nHe also said rescue teams continued searching for victims in the affected areas, although no residents have reported any family members still missing.\n\nAid workers reached tiny Palue Island, one of the areas closest to the earthquake's epicentre, late Sunday, after a difficult sea and land journey through landslide-hit terrain, authorities said. Thousands of residents remained in urgent need of assistance.\n\n\"The roads are steep and many were blocked by landslides. It was a near-death journey,\" said the deputy police chief of Sikka regency, Marselus Yugo Amboro, whose team was among the first to reach the island with emergency supplies.\n\nHe said initial assessments revealed extensive damage, with one villager killed, two seriously injured and nearly 150 homes destroyed.\n\nIndonesia, an archipelago of more than 17,000 islands, is prone to earthquakes and volcanic eruptions because of its location on the Pacific \"Ring of Fire\", a horseshoe-shaped arc of seismic faults and volcanoes.\n\nIn 2018, a magnitude 7.5 earthquake triggered a tsunami on the island of Sulawesi that killed more than 4,400 people. In 2004, a magnitude 9.1 quake off Sumatra unleashed a tsunami that killed about 230,000 people in a dozen countries, nearly 170,000 in Aceh province alone.",
       "fact_spans": [
         {
@@ -1328,7 +1328,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "弗洛勒斯岛主震震级",
+        "cluster_description": "Magnitude of the Flores Island mainshock",
         "fact_type": "disaster_magnitude",
         "attribute": "mainshock_magnitude",
         "supporting_spans": [
@@ -1359,7 +1359,7 @@
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "两篇报道均称至少 68 人死亡",
+        "cluster_description": "Two reports say at least 68 people died",
         "fact_type": "casualties",
         "attribute": "reported_deaths",
         "supporting_spans": [
@@ -1396,7 +1396,7 @@
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "伤者统计的下限和具体人数",
+        "cluster_description": "Lower bound and specific count for injuries",
         "fact_type": "injuries",
         "attribute": "reported_injuries",
         "supporting_spans": [
@@ -1430,7 +1430,7 @@
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "受损房屋数量的报道范围和下限有别",
+        "cluster_description": "Damaged-home counts differ in scope and lower bound",
         "fact_type": "damage",
         "attribute": "damaged_homes",
         "supporting_spans": [
@@ -1465,11 +1465,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "unknown",
-        "annotation_note": "两个下限可同时成立，实际统计范围和截止时间未知。"
+        "annotation_note": "Both lower bounds can hold. The actual coverage and cutoff are unknown."
       },
       {
         "cluster_id": "FC005",
-        "cluster_description": "余震总量及有感次数的统计不同",
+        "cluster_description": "Counts of total and felt aftershocks differ",
         "fact_type": "secondary_hazard",
         "attribute": "aftershock_tallies",
         "supporting_spans": [
@@ -1502,11 +1502,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "revision_possible",
-        "annotation_note": "截止时间和监测口径未统一，可能随统计更新。"
+        "annotation_note": "Monitoring criteria and cutoffs differ, and the estimates may have been updated."
       },
       {
         "cluster_id": "FC006",
-        "cluster_description": "临时安置人数的报道不同",
+        "cluster_description": "Reported numbers of people in temporary shelters differ",
         "fact_type": "evacuation",
         "attribute": "shelter_population",
         "supporting_spans": [
@@ -1539,11 +1539,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "revision_possible",
-        "annotation_note": "两篇未同时提供安置统计截止时间及纳入范围，无法确认是否同一口径。"
+        "annotation_note": "The reports do not provide enough information about shelter coverage and cutoffs to establish comparability."
       },
       {
         "cluster_id": "FC007",
-        "cluster_description": "地方政府宣布 14 天紧急状态",
+        "cluster_description": "The provincial government declared a 14-day state of emergency",
         "fact_type": "response",
         "attribute": "emergency_duration",
         "supporting_spans": [
@@ -1574,7 +1574,7 @@
       },
       {
         "cluster_id": "FC008",
-        "cluster_description": "震后海啸预警解除",
+        "cluster_description": "The post-earthquake tsunami warning was lifted",
         "fact_type": "response",
         "attribute": "tsunami_warning",
         "supporting_spans": [
@@ -1605,7 +1605,7 @@
       },
       {
         "cluster_id": "FC009",
-        "cluster_description": "部署人员与运送援助的报道数字使用不同下限或截点",
+        "cluster_description": "Deployment and aid figures use different thresholds or cutoffs",
         "fact_type": "aid",
         "attribute": "response_scale",
         "supporting_spans": [
@@ -1638,7 +1638,7 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "revision_possible",
-        "annotation_note": "人员下限彼此能兼容，援助报道未说明相同截止时间或物流统计范围。"
+        "annotation_note": "The personnel lower bounds are compatible. The aid reports give no common cutoff or logistics scope."
       }
     ]
   },
@@ -1669,14 +1669,14 @@
         "FC009"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2026-08-15",
-          "time_precision": "当地日期",
-          "description": "弗洛勒斯岛附近发生主震，发布后解除海啸预警。",
+          "time_precision": "Local date",
+          "description": "The mainshock struck near Flores Island. A tsunami warning was issued and later lifted.",
           "supporting_spans": [
             "A001_F002",
             "A002_F006",
@@ -1686,8 +1686,8 @@
         },
         {
           "time": "2026-08-16",
-          "time_precision": "当地日期",
-          "description": "省长宣布为期 14 天的紧急状态。",
+          "time_precision": "Local date",
+          "description": "The governor declared a 14-day state of emergency.",
           "supporting_spans": [
             "A002_F005",
             "A003_F006"
@@ -1695,16 +1695,16 @@
         },
         {
           "time": "2026-08-16",
-          "time_precision": "当地日期及模糊时段",
-          "description": "救援人员在周日晚抵达 Palue 岛。",
+          "time_precision": "Local date with approximate time of day",
+          "description": "Rescuers reached Palue Island late on Sunday.",
           "supporting_spans": [
             "A003_F012"
           ]
         },
         {
           "time": "2026-08-17",
-          "time_precision": "当地日期",
-          "description": "死亡至少 68 人。部分社区仍等候援助，GFZ 记录 5.9 级余震。",
+          "time_precision": "Local date",
+          "description": "At least 68 people died. Some communities were still awaiting aid, and GFZ recorded a magnitude-5.9 aftershock.",
           "supporting_spans": [
             "A002_F001",
             "A002_F002",
@@ -1714,7 +1714,7 @@
       ],
       "causal_relations": [
         {
-          "description": "地形和滑坡阻断部分道路，延缓补给送达。",
+          "description": "Terrain and landslides blocked some roads and delayed deliveries.",
           "supporting_spans": [
             "A002_F010",
             "A002_F011",
@@ -1722,7 +1722,7 @@
           ]
         },
         {
-          "description": "余震风险使部分居民在户外过夜。",
+          "description": "The risk of aftershocks led some residents to spend the night outdoors.",
           "supporting_spans": [
             "A002_F009",
             "A003_F009"
@@ -1731,7 +1731,7 @@
       ],
       "event_mainline": [
         {
-          "description": "主震及余震造成死亡、受伤、房屋受损，临时安置规模待核。",
+          "description": "The mainshock and aftershocks caused deaths, injuries, and home damage. The scale of temporary sheltering remains unverified.",
           "supporting_spans": [
             "A001_F002",
             "A002_F001",
@@ -1740,7 +1740,7 @@
           ]
         },
         {
-          "description": "省级紧急响应启动，但部分偏远社区仍缺少食物、饮水和医疗物资。",
+          "description": "The province launched emergency operations. Some remote communities still lacked food, water, and medical supplies.",
           "supporting_spans": [
             "A002_F005",
             "A002_F012",
@@ -1764,9 +1764,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "转载关系的具体链路未经外部核验。更新较晚的报道亦可能沿用较早的统计。"
+      "The republication chain has not been independently verified. A later article may repeat an earlier count."
     ]
   }
 }

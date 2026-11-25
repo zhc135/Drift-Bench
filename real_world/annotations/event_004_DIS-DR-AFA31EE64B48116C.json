@@ -53,7 +53,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "FMC 的 2017 Ethiopian fiscal year 保留原历法；不换算公历。天气预测时段与观测旱情分开。"
+      "FMC's reference to the 2017 Ethiopian fiscal year is retained in its original calendar. Forecast periods are distinguished from observed drought conditions."
     ],
     "dataset_place_name": "Drought in Burundi, Democratic Republic of Congo, Central African Republic, Eritrea, Ethiopia, Kenya, Niger, Nigeria, Rwanda, Sudan, South Sudan, Chad, Tanzania, Uganda",
     "dataset_event_note": null
@@ -78,7 +78,7 @@
       "language_label_issue": null,
       "reporting_type": "original",
       "source_independence": "independent",
-      "source_independence_reason": "FMC 电头，全文以埃塞俄比亚 Green Legacy 为主题，未见其他两篇所用稿件。",
+      "source_independence_reason": "The FMC dateline identifies a story about Ethiopia's Green Legacy Initiative. No shared copy was identified in the other two outlets.",
       "content": "Addis Ababa, July 25, 2026 (FMC) — Before rivers flow through valleys and cross borders, they begin with the landscapes that sustain them. When forests disappear, soils weaken, and ecosystems deteriorate, the consequences travel far beyond their points of origin.\n\nIn the Nile Basin, where millions of people depend on the river system, protecting nature has become inseparable from protecting lives and livelihoods.\n\nAmid growing global climate pressures, Ethiopia has embarked on one of Africa’s largest environmental restoration efforts — the Green Legacy Initiative — turning millions of hectares of degraded landscapes into a foundation for climate resilience and ecosystem recovery.\n\nThe initiative reflects Ethiopia’s understanding that addressing climate challenges requires more than responding to their consequences. It requires restoring the natural systems that regulate water, protect soil and help communities withstand extreme weather events.\n\nClimate change has placed unprecedented pressure on natural resources worldwide. Droughts, flash floods, land degradation and sediment accumulation in water bodies have become among the major threats affecting sustainable development and water management.\n\nFor the Nile Basin, where environmental changes in one part of the ecosystem can have wider regional implications, restoring degraded landscapes remains a critical part of building resilience.\n\nLaunched in 2019 under the initiative of Prime Minister Abiy Ahmed, the Green Legacy Initiative has evolved into a nationwide environmental movement extending far beyond tree planting. It represents a comprehensive restoration effort aimed at rebuilding forests, conserving natural resources and strengthening climate adaptation.\n\nDriven by government commitment and broad public participation, the initiative has mobilized millions of Ethiopians around a shared environmental mission. Its progress has transformed Ethiopia’s restoration efforts into a globally recognized climate action program.\n\nBy the end of the 2017 Ethiopian fiscal year, more than 48 billion seedlings had been planted across the country. Among these, over 18.7 billion seedlings were planted within the Abay (Nile) Basin alone, accounting for about 40 percent of the total national planting effort.\n\nThese figures represent more than numbers. They reflect a long-term investment in the ecological systems that sustain rivers, communities and economies.\n\nBuilding on these achievements, Ethiopia is advancing an even more ambitious phase of the Green Legacy Initiative. During this year’s rainy season, the country aims to plant more than 8 billion additional tree seedlings, pushing the total number of seedlings planted under the initiative beyond the 56 billion mark.\n\nThe country has also set a broader target of reaching 65 billion planted seedlings before hosting the 32nd United Nations Climate Change Conference (COP32) in 2027, reinforcing its commitment to global climate action and ecosystem restoration.\n\nForests act as nature’s protective shield. They slow surface runoff, allow rainwater to penetrate into the ground, strengthen water sources and reduce soil erosion. By holding soil in place, forests also help minimize sediment flows into rivers and protect water quality.\n\nThrough these environmental functions, Ethiopia’s restoration efforts in the Nile Basin contribute to reducing risks associated with flash floods, drought impacts and ecosystem degradation.\n\nThe benefits extend beyond Ethiopia’s borders. Restored landscapes in the upper reaches of the basin help create healthier ecosystems capable of supporting more stable water cycles and reducing environmental pressures that affect downstream countries.\n\nEthiopia’s Green Legacy Initiative demonstrates that climate action can go beyond national boundaries.\n\nBy restoring nature, protecting watersheds and strengthening ecosystem resilience, the initiative presents environmental conservation as a shared responsibility and a pathway toward a more sustainable Nile Basin.\n\nThe green landscapes taking shape across Ethiopia are not only symbols of restoration; they represent a broader vision — a future where forests stand as guardians of rivers, ecosystems withstand climate pressures, and communities across the Nile Basin benefit from a more resilient environment.",
       "fact_spans": [
         {
@@ -387,7 +387,7 @@
       "language_label_issue": null,
       "reporting_type": "original",
       "source_independence": "independent",
-      "source_independence_reason": "新华社电头，报道非盟会议及两名专家发言。",
+      "source_independence_reason": "The Xinhua dateline accompanies coverage of an African Union meeting and remarks by two experts.",
       "content": "ADDIS ABABA, July 31 (Xinhua) -- Africa may face the strongest El Nino event in decades, starting from November this year, with impacts expected to trigger extreme weather anomalies across the continent, according to African Union (AU) climate experts.\n\nThe warning came during an extraordinary session of the Specialized Technical Committee on Agriculture, Rural Development, Water and Environment on Thursday at the AU headquarters in Addis Ababa, the capital of Ethiopia.\n\nSpeaking at the event, Harsen Nyambe, director for sustainable environment and blue economy at the AU Commission, said global climate forecasting centers indicate that a strong El Nino episode will develop later this year, with peak intensity expected between November 2026 and January 2027.\n\n\"Africa needs to be sufficiently prepared to anticipate, mitigate and respond effectively to its impacts,\" Nyambe said, noting that the El Nino event is forecast to be the strongest since 1950.\n\nHe said experience has consistently shown that El Nino affects every region of Africa differently, with some regions facing severe droughts and prolonged dry spells, while others experience devastating floods, landslides and outbreaks of climate-sensitive diseases.\n\n\"These climate extremes have profound consequences for agriculture, food security, water resources, energy production, public health, education, infrastructure and ultimately the livelihoods of millions of Africans,\" said Nyambe.\n\nJolly Wasambo, another climate expert of the AU Commission, said Africa is increasingly exposed to climate variability and extreme weather driven by El Nino events.\n\n\"The 2026 El Nino event is expected to aggravate water insecurity and crop failure, leading to food shortages, loss of livelihoods, power shortages, human-wildlife conflict and disputes due to competition for grazing land,\" Wasambo said.\n\nThe extraordinary session was convened in response to forecasts indicating a high probability of a strong El Nino event, with the aim of assessing Africa's preparedness, strengthening early warning and anticipatory action, and supporting implementation of Agenda 2063 and preparations for COP31 and COP32. ",
       "fact_spans": [
         {
@@ -587,7 +587,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "包含肯尼亚官员会议采访和多机构报告材料，正文未显示明确作者或通稿署名。",
+      "source_independence_reason": "The article uses interviews with Kenyan officials and several agency reports. No specific author or wire credit appears in the body.",
       "content": "El Niño has been linked to several major flooding events in Kenya.\n\nNairobi residents brave early morning rainfall and chilly weather on April 29, 2026. /FILE\n\nThe Kenya Meteorological Department (KMD) has indicated that the country may experience above‑normal rainfall from October as a strong El Niño event develops, raising the risk of wetter conditions extending into early 2027.\n\nKMD has pointed out that there is an 81 per cent probability that the 2026 El Niño will be very strong and a 97 percent chance that it will persist into the first months of 2027.\n\nNarok County Director of Meteorological Services Stanley Kinyua said the country is expected to transition from below‑normal rainfall in the coming weeks to wetter‑than‑average conditions during the October-November-December short rains season.\n\nKinyua cautioned that the strength of El Niño alone does not determine the amount of rainfall Kenya will receive.\n\nHe explained that rainfall will largely be influenced by the Indian Ocean Dipole, a climate phenomenon caused by differences in sea surface temperatures across the Indian Ocean.\n\nDepending on whether the IOD is positive or negative, it can either enhance or suppress the effects of El Niño over East Africa.\n\nSpeaking during a meeting on an Ad Hoc Cabinet Committee on El Niño Preparedness and Response to coordinate Narok County’s response to the forecast moderate-to-strong El Niño rains expected later this year, the official flagged flood and landslide hotspot areas of the devolved unit as Narok town, Mosiro, Ewaso Ngiro, Kilgoris and Nkareta.\n\nKMD projects below‑average rainfall across much of western Kenya during the August-September-October period.\n\nHowever, conditions are expected to change from October, with most parts of the country likely to receive above‑average rainfall through November.\n\nKinyua cautioned that El Niño is not rainfall itself but a naturally occurring climate pattern in the tropical Pacific Ocean that develops every two to seven years and influences weather globally.\n\nEl Niño has been linked to several major flooding events in Kenya. The country experienced one of its worst episodes in 1997-1998, when widespread floods claimed lives, displaced thousands, and destroyed infrastructure.\n\nOther significant El Niño events occurred in 2006-2007, 2015-2016, and 2023-2024, the latter bringing heavy rains, floods, and landslides that killed hundreds and caused extensive damage.\n\nKinyua said the Indian Ocean Dipole (IOD) is likely to be positive.\n\n“The 2015 El Niño was a very strong one, close to 1997, but because the IOD was weakly positive, we did not experience as much rainfall as was experienced in 1997. The outcome of the season will majorly depend on the strength of the IOD.”\n\nHe said some areas have been affected by drought, compromising food security in the nation.\n\nHe said depressed rainfall is expected over the Western half of the country in August and September.\n\n“Above average rainfall is expected over most parts in October and November,” he added.\n\nDuring August-September-October, depressed rainfall is expected over the western half of the country while above-average rains will be expected over most parts in September-October-November.\n\nKinyua said El Niño will affect those in the informal settlements, floodplain communities, ASAL communities, and those in riparian and wetlands.\n\nCrops, livestock, roads, water systems, markets and health facilities will also be affected.\n\nHe said floods become disasters because of weak drainage, poor sanitation, poor housing and weak infrastructure.\n\nIn Kenya, El Niño is most commonly linked to heavy rainfall during the October to December short rains season.\n\nNarok North Deputy County Commissioner Joseph Merisho assured residents that a multi-agency team is laying down adequate measures in anticipation of the El Niño rains expected between October and December this year.\n\nThe administrator explained that the committee that is co-chaired had activated relevant State agencies and county departments in conjunction with the State Department for Special Programmes and humanitarian agencies to ensure that, in the event of the forecasted rains, they are not caught flat-footed.\n\nHe indicated that they had held discussions on mapping the internal resources available within committee members, mitigation measures, the relay of information to the public, strengthening interdepartmental coordination, and identifying priority interventions.\n\nScientists contend that El Niño, as part of a larger climate cycle, is a naturally occurring climate phenomenon characterised by the abnormal warming of the Pacific Sea surface temperatures.\n\nThe World Meteorological Organisation warns that the El Niño climate phenomenon could bring droughts, flooding, heat waves and displacement of people around the world later this year.\n\nThe international weather agency warned that the anticipated heavy rainfall could have far-reaching consequences across many sectors, including transportation, agriculture, health and infrastructure.\n\nThe national government has also activated an Ad Hoc Cabinet Committee on El Niño preparedness that will also support the devolved governments.\n\nMerisho stated that early preparedness and timely action remain essential in reducing the impacts of El Niño rains, thus averting humanitarian crises and protecting livelihoods.\n\nThe Multiagency team will also coordinate farmer advisories to help cushion the agriculture sector from potential losses.\n\nThe move is aimed at strengthening national resilience and ensuring better coordination among Government agencies ahead of the expected weather disruptions.\n\nThe formation of the special committee comes as Kenya continues to enhance climate preparedness following previous episodes of devastating floods that displaced families, destroyed infrastructure and disrupted economic activities in several parts of the country.\n\nNarok Central Deputy County Commissioner Kennedy Mwangome noted that early planning and inter-agency coordination will be critical in protecting lives, safeguarding property and ensuring continuity of essential services during the El Niño season.\n\nHe said the measures are aimed at strengthening national preparedness and ensuring a coordinated response ahead of the anticipated El Niño season.\n\nKenya is among 22 countries around the world that could be badly affected by a powerful El Niño that is developing and is expected to grow stronger in the coming months.\n\nA new report by the Food and Agriculture Organization (FAO) and the World Food Programme (WFP) warns that millions of people could face threats to their food supplies and livelihoods unless governments and aid agencies act early.\n\nThe report says Kenya is among countries facing a high risk of climate-related shocks linked to El Niño between late 2026 and early 2027. Demographics\n\n\"An El Niño is forming, and millions of food-insecure people are in its path. Strong El Niño conditions are developing, threatening food security, agriculture and livelihoods across multiple regions into 2027,\" the report says.\n\nThe agencies are asking donors to provide $202 million (Sh26 billion) to help vulnerable communities prepare before disasters strike. They say acting early can save lives, protect crops and reduce future humanitarian costs.\n\n\"For the first time, the Food and Agriculture Organization of the United Nations (FAO) and the World Food Programme (WFP) are issuing a joint, forward-looking appeal for anticipatory action at scale,\" the report says.\n\n\"The two agencies are positioned to immediately support 1.2 million people at risk from the predicted El Nino impacts. An additional USD 167 million (Sh21.6 billion) would extend anticipatory assistance to 7.6 million more.\"\n\nClimate Change and Global Warming\n\nFor Kenya and other countries in Eastern Africa, the report warns that the biggest threat is likely to be unusually heavy rainfall and flooding.\n\nIt notes that El Niño affects different parts of Eastern Africa in different ways. While some areas may experience reduced rainfall, countries in the Horn of Africa, including Kenya, face a greater risk of floods.\n\n\"By contrast, between October and December, in the bimodal areas of the Horn of Africa, including Somalia, Kenya, Uganda and eastern Ethiopia, El Niño is linked to an increased risk of above-average rainfall and flooding,\" the report says.\n\n\"Global models already indicate a high probability of wetter-than-normal conditions during this season.\"\n\nFlooding could damage farms, destroy infrastructure, spread livestock diseases and force families to leave their homes.\n\nAmong the key risks identified for Eastern Africa are \"crop losses and damage to agricultural infrastructure\", \"livestock disease outbreaks, reduced milk production and animal losses\", and \"population displacement and disruption of livelihoods.\"\n\n\"This El Niño is expected to bring significantly drier conditions to Southern Africa, Central America, parts of Asia and the Pacific, and Eastern Africa, while increasing the likelihood of floods and storms in the Horn of Africa and parts of Asia.\"\n\nKenya appears on a list of priority countries identified by FAO and WFP for urgent support and preparedness efforts before the worst effects are felt.\n\nThe agencies selected the countries based on historical El Niño weather patterns, climate forecasts, food insecurity levels, agricultural calendars and their readiness to respond.\n\nThe report says Kenya is among high-risk countries where the two UN agencies are \"strengthening readiness efforts and supporting the development or refinement of anticipatory action plans considering forecast El Niño risks.\" The agencies say countries should begin preparations immediately because there is still time to reduce the impact of the expected weather shocks.\n\nRecommended actions include sending early warnings to communities, providing cash support to vulnerable households, distributing seeds and farm inputs, improving water storage, vaccinating livestock and putting flood protection measures in place.",
       "fact_spans": [
         {
@@ -1303,7 +1303,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "2026 年晚些时候的强厄尔尼诺预测",
+        "cluster_description": "Forecast of a strong El Niño in late 2026",
         "fact_type": "weather",
         "attribute": "el_nino_strength_outlook",
         "supporting_spans": [
@@ -1333,11 +1333,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "compatible_vague_vs_specific",
         "temporal_relation": "unknown",
-        "annotation_note": "不同预测机构用峰值时段、历史排序和概率描述同一气候现象。"
+        "annotation_note": "Forecasting organizations describe the same climate pattern using peak periods, historical rankings, and probabilities."
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "区域旱涝风险因时间与地点而异",
+        "cluster_description": "Regional drought and flood risks vary by time and location",
         "fact_type": "weather",
         "attribute": "regional_rainfall_outlook",
         "supporting_spans": [
@@ -1376,7 +1376,7 @@
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "肯尼亚部分地区旱情已影响粮食安全",
+        "cluster_description": "Drought has already affected food security in parts of Kenya",
         "fact_type": "humanitarian_needs",
         "attribute": "current_kenya_drought_impact",
         "supporting_spans": [
@@ -1399,7 +1399,7 @@
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "植被恢复被报道为尼罗河流域减缓旱涝风险的措施",
+        "cluster_description": "Vegetation restoration is reported to reduce drought and flood risks in the Nile Basin",
         "fact_type": "recovery",
         "attribute": "nile_basin_restoration",
         "supporting_spans": [
@@ -1434,7 +1434,7 @@
       },
       {
         "cluster_id": "FC005",
-        "cluster_description": "肯尼亚以跨部门委员会应对预期天气冲击",
+        "cluster_description": "Kenya uses a cross-agency committee to prepare for anticipated weather shocks",
         "fact_type": "response",
         "attribute": "kenya_preparedness",
         "supporting_spans": [
@@ -1484,46 +1484,46 @@
         "FC005"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2019",
-          "time_precision": "年",
-          "description": "埃塞俄比亚启动 Green Legacy Initiative。",
+          "time_precision": "Year",
+          "description": "Ethiopia launched the Green Legacy Initiative.",
           "supporting_spans": [
             "A001_F004"
           ]
         },
         {
           "time": "2026-07-31",
-          "time_precision": "报道日期",
-          "description": "新华社报道非盟会议发布厄尔尼诺风险提醒。",
+          "time_precision": "Publication date",
+          "description": "Xinhua reported that an African Union meeting issued an El Niño risk warning.",
           "supporting_spans": [
             "A002_F001"
           ]
         },
         {
           "time": "2026-08/2026-10",
-          "time_precision": "月范围（预测）",
-          "description": "肯尼亚气象部门预计西部大部降雨偏少。",
+          "time_precision": "Month range (forecast)",
+          "description": "Kenya's meteorological department forecasts below-average rainfall across much of western Kenya.",
           "supporting_spans": [
             "A003_F005"
           ]
         },
         {
           "time": "2026-10/2026-12",
-          "time_precision": "月范围（预测）",
-          "description": "FAO 与 WFP 预计非洲之角双峰降雨区面临偏湿与洪涝风险。",
+          "time_precision": "Month range (forecast)",
+          "description": "FAO and WFP project wet conditions and flood risk in areas of the Horn of Africa with two rainy seasons.",
           "supporting_spans": [
             "A003_F019"
           ]
         },
         {
           "time": "2026-11/2027-01",
-          "time_precision": "月范围（预测）",
-          "description": "非盟官员转述厄尔尼诺预计强度峰值时段。",
+          "time_precision": "Month range (forecast)",
+          "description": "An African Union official relayed the forecast period of peak El Niño intensity.",
           "supporting_spans": [
             "A002_F002"
           ]
@@ -1531,13 +1531,13 @@
       ],
       "causal_relations": [
         {
-          "description": "FMC 称森林通过放慢径流、促进下渗和减少侵蚀来缓解旱涝及生态风险。",
+          "description": "FMC says forests slow runoff, improve infiltration, and reduce erosion, helping mitigate drought, flooding, and ecosystem risks.",
           "supporting_spans": [
             "A001_F007"
           ]
         },
         {
-          "description": "肯尼亚气象人员称印度洋偶极子状态可增强或削弱厄尔尼诺对东非降雨的作用。",
+          "description": "Kenyan meteorologists say the Indian Ocean Dipole can amplify or weaken El Niño's effects on East African rainfall.",
           "supporting_spans": [
             "A003_F004",
             "A003_F007"
@@ -1546,13 +1546,13 @@
       ],
       "event_mainline": [
         {
-          "description": "肯尼亚部分地区已发生影响粮食安全的旱情。",
+          "description": "Parts of Kenya are already experiencing drought that affects food security.",
           "supporting_spans": [
             "A003_F008"
           ]
         },
         {
-          "description": "后续降雨风险在不同地区和预测期表现不同，非盟和肯尼亚各机构推动预警与准备。",
+          "description": "Rainfall risks differ by location and forecast period. African Union and Kenyan agencies are advancing early warnings and preparedness.",
           "supporting_spans": [
             "A002_F003",
             "A002_F005",
@@ -1562,7 +1562,7 @@
           ]
         },
         {
-          "description": "FMC 报道埃塞俄比亚以流域生态恢复降低旱涝风险。",
+          "description": "FMC reports that Ethiopia is reducing drought and flood risks through basin restoration.",
           "supporting_spans": [
             "A001_F005",
             "A001_F007"
@@ -1583,9 +1583,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "三篇材料涉及长期生态恢复、全非洲季节预测和肯尼亚地方计划，没有给出同一 GDACS 事件范围内的统一受旱人数或干旱面积。"
+      "The reports cover long-term restoration, Africa-wide seasonal forecasts, and local Kenyan planning. They provide no common affected-population or drought-area estimate for this GDACS event."
     ]
   }
 }

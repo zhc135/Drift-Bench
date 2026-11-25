@@ -28,7 +28,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "周日为 9 月 6 日，周一为 9 月 7 日。机场预计复航时间与累计中断数分开。"
+      "Sunday was September 6 and Monday was September 7. Expected reopening times and cumulative disruptions are recorded separately."
     ],
     "dataset_place_name": "Eruption  Krakatau",
     "dataset_event_note": null
@@ -53,7 +53,7 @@
       "language_label_issue": null,
       "reporting_type": "likely_syndicated",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "A001 明示 Reuters 采访，A002 与其内容次序、引语及关键数字高度相似，清洗正文未保留原始稿源署名。",
+      "source_independence_reason": "A001 explicitly credits a Reuters interview. A002 uses a similar sequence, quotations, and key figures. The cleaned text lacks the original byline.",
       "content": "TANGERANG, Indonesia — An eruption of Indonesia’s Mount Anak Krakatau caused six airports to suspend flight operations on Sunday, affecting hundreds of flights at Jakarta’s main airport, after some school activities and fishing were halted.\n\nSoekarno-Hatta International Airport suspended flight operations until 1:30 p.m. (0630 GMT) due to volcanic ash, the airport posted on Instagram, stranding hundreds of passengers at the facility.\n\nThe suspension has affected 301 flights, including 58 international flights, airport operator Angkasa Pura said in a statement. Singapore Airlines said it had canceled flights to and from Jakarta for the rest of the day.\n\nAnak Krakatau, which is roughly halfway between Java and Sumatra in Indonesia’s vast island chain, has been erupting since late on Friday, with volcanic ash detected at the airport early on Sunday, the transport ministry said.\n\nPASSENGERS STUCK AT SOEKARNO-HATTA INTERNATIONAL Ash reached as high as 20,000 feet (6,000 meters) on the Java side of the volcano and 50,000 feet (15,000 meters) on the Sumatra side and some parts of Banten province in Java, meteorological agency BMKG posted on its website.\n\nAfter one domestic flight was canceled, Suhardi, 58, made his way to Soekarno-Hatta, hoping to catch a connecting flight in the morning for a business trip to Samarinda on the Indonesian part of Borneo island.\n\n“I thought Jakarta-to-Samarinda still available — apparently it is also canceled,” Suhardi, who goes by one name, told Reuters.\n\nFrench national Eloan Tasset, 21, got a text from Batik Air that his flight to his holiday destination of Manado in North Sulawesi had been delayed, but he said it was unclear how long the delay would be.\n\n“If they tell me my flight is canceled, I think I’m going to try to find a hotel in Jakarta,” he said.\n\nThe airport operator said it was providing food and light refreshments for affected passengers and buses to hotels, in coordination with the airlines.\n\nThe disaster mitigation agency BNPB said it would conduct a weather modification operation, which could include cloud-seeding, on Sunday to promote rain.\n\n“If it rains heavily enough, the volcanic ash that has been disrupting our daily lives since yesterday and continuing today will be washed away quickly,” BNPB chief Suharyanto told a press conference.\n\nFIVE INDONESIAN VOLCANOES AT ALERT LEVEL 3 BNPB “urges the public to remain calm while increasing vigilance. In the event of ashfall, people are advised to wear masks and eye protection, reduce outdoor activities, cover water sources and exercise caution when driving, as volcanic ash can reduce visibility,” said spokesperson Berton Panjaitan.\n\nFerries in Sunda Strait were operating normally, the transport ministry said, urging vessels to stay at least 3 kilometers (km) (2 miles) away from Anak Krakatau’s crater and remain vigilant for volcanic hazards, including volcanic ash and other ejected materials.\n\nSeveral schools canceled activities on Saturday after students and residents suffered eye irritations from the ash, while fishermen canceled fishing trips, local media outlet Kompas reported.\n\nSome 850 km (530 miles) away from Anak Krakatau, Mount Semeru in East Java also erupted on Sunday, sending an ash column 1 km (3,300 feet) above the summit, said volcano monitoring agency PVMBG. It advised residents to stay at least 5 km (3 miles) away from the crater and warned of the risk of hot ash clouds and lava flows up to 17 km (10 miles) from the summit.\n\nIndonesia sits on the Pacific “Ring of Fire,” where earthquakes and volcanic eruptions are frequent. Anak Krakatau has been on alert level 3, the second-highest, since July 2. Semeru was also on level 3, as were three other volcanoes: Merapi, Lewotobi Laki-laki and Sinabung.\n\nThe disaster mitigation agency said there was no imminent risk of tsunami from the volcano. A tsunami in 2018 caused by Anak Krakatau eruptions killed more than 400 on Java and Sumatra.\n\nAnak Krakatau, which means child of Krakatau, emerged a century ago from the area once occupied by Krakatau, then known as Krakatoa. The older volcano destroyed itself in mass eruptions in 1883, which killed more than 36,000 people in a series of tsunamis.",
       "fact_spans": [
         {
@@ -362,7 +362,7 @@
       "language_label_issue": null,
       "reporting_type": "likely_syndicated",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "A001 明示 Reuters 采访，A002 与其内容次序、引语及关键数字高度相似，清洗正文未保留原始稿源署名。",
+      "source_independence_reason": "A001 explicitly credits a Reuters interview. A002 uses a similar sequence, quotations, and key figures. The cleaned text lacks the original byline.",
       "content": "Hundreds of flights have been suspended after the eruption of Indonesia's Mount Anak Krakatau.\n\nThe volcano, which is situated roughly halfway ​between Java and Sumatra, began erupting late on Friday, with volcanic ash detected ‌at Jakarta's main airport early on Sunday, the transport ministry said.\n\nSix airports suspended flights, with Soekarno-Hatta International Airport halting operations until 5.30pm local time, stranding hundreds of passengers.\n\nA total of 301 flights including 58 international flights have been affected, according to airport operator Angkasa Pura.\n\nSingapore Airlines and Malaysia Airlines said they had cancelled flights to and from Jakarta for the rest of the day.\n\nFerries in Sunda Strait were operating normally, the transport ⁠ministry said, urging vessels to stay at least 3km (two miles) away from Anak Krakatau's crater and remain vigilant ​for volcanic hazards, including ash.\n\nAsh reached as high as 20,000ft (6,000m) on the Java side of the volcano and 50,000ft (15,000m) ​on the Sumatra side and some parts of Banten province in Java, meteorological agency BMKG said.\n\nThe disaster mitigation agency BNPB said it would conduct a weather modification operation, which could include cloud- seeding, on Sunday to promote rain.\n\n\"If it rains heavily enough, the ‌volcanic ash that has been disrupting our daily lives since yesterday and continuing today will be washed away quickly,\" BNPB chief Suharyanto told a news conference.\n\nMembers of the public were being urged to remain calm while increasing vigilance, and in the event of ashfall to wear masks and eye protection, and exercise caution when driving.\n\nSome schools cancelled activities on Saturday afternoon, and fishermen cancelled fishing trips, local media outlet Kompas reported.\n\nAnak Krakatau has been on alert level 3, the second highest, since 2 July. The disaster mitigation agency said there was no imminent risk of a tsunami from the volcano.\n\nFour other Indonesian volcanoes are also on alert level 3: Mount Semeru in East Java, Merapi, Lewotobi Laki-laki ​and Sinabung.\n\nIndonesia sits on the Pacific \"Ring of Fire\", where earthquakes and volcanic eruptions are frequent.\n\nA tsunami in 2018 caused by Anak ​Krakatau eruptions killed more than 400 people on Java and Sumatra.\n\nAnak Krakatau, which means child of Krakatau, emerged a century ago from the area once occupied by Krakatau, then known as Krakatoa.\n\nThe older volcano destroyed itself in mass eruptions in 1883, killing more than 36,000 people in a series of ​tsunamis.",
       "fact_spans": [
         {
@@ -561,7 +561,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "Devdiscourse 后续报道援引交通部长，无可核实正文署名。",
+      "source_independence_reason": "Devdiscourse's follow-up cites the transport minister and has no verifiable body byline.",
       "content": "Seven airports in Indonesia, including two major ones serving Jakarta, were shuttered on Monday due to volcanic ash from Mount Anak Krakatau's eruptions, impacting over 270,000 travelers, according to the transport minister.\n\nThe eruption, occurring between the islands of Java and Sumatra, has spread ash across Jakarta and surrounding areas since last Friday, leading to numerous flight cancellations and delays. By Monday, the disruption had affected 2,300 flights, leading to uncertainty over resumption times.\n\nAmidst the prolonged crisis, President Prabowo Subianto chaired a virtual meeting addressing the eruption and other recent disasters like the August earthquake, underscoring the need to boost the disaster mitigation budget. The ongoing situation underlines Indonesia's precarious position within the seismically active 'Pacific Ring of Fire.'",
       "fact_spans": [
         {
@@ -634,7 +634,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "火山灰使多座机场关闭，周一范围增大",
+        "cluster_description": "Ash prompted several airport closures, with a wider impact on Monday",
         "fact_type": "infrastructure",
         "attribute": "airport_closures",
         "supporting_spans": [
@@ -682,7 +682,7 @@
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "周日重点机场停运截止时刻两种说法",
+        "cluster_description": "Two reports gave different end times for Sunday's suspension at the main airport",
         "fact_type": "timeline",
         "attribute": "soekarno_hatta_suspension_until",
         "supporting_spans": [
@@ -709,11 +709,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "revision_possible",
-        "annotation_note": "可能是延长停运，原始通知版本未核对。"
+        "annotation_note": "The suspension may have been extended. The original notices were not checked."
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "周日主要机场涉及 301 班次，周一累计范围扩大",
+        "cluster_description": "The main airport reported 301 affected flights on Sunday, with a wider cumulative impact by Monday",
         "fact_type": "infrastructure",
         "attribute": "flight_disruptions",
         "supporting_spans": [
@@ -761,7 +761,7 @@
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "灰云在爪哇侧和苏门答腊侧高度不同",
+        "cluster_description": "Ash-cloud heights differed on the Java and Sumatra sides",
         "fact_type": "disaster_magnitude",
         "attribute": "ash_height_by_sector",
         "supporting_spans": [
@@ -815,14 +815,14 @@
         "FC004"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2026-09-04",
-          "time_precision": "报道星期推定",
-          "description": "报道称 Anak Krakatau 自周五晚开始喷发。",
+          "time_precision": "Inferred from the reported weekday",
+          "description": "Reports said Anak Krakatau had been erupting since Friday evening.",
           "supporting_spans": [
             "A001_F002",
             "A002_F001",
@@ -831,8 +831,8 @@
         },
         {
           "time": "2026-09-06",
-          "time_precision": "当地日",
-          "description": "火山灰扩散并造成六座机场停运。",
+          "time_precision": "Local date",
+          "description": "Spreading volcanic ash disrupted operations at six airports.",
           "supporting_spans": [
             "A001_F001",
             "A002_F001"
@@ -840,8 +840,8 @@
         },
         {
           "time": "2026-09-07",
-          "time_precision": "当地日",
-          "description": "媒体报告机场关闭范围和航班受影响规模扩大。",
+          "time_precision": "Local date",
+          "description": "Media reported further airport closures and more affected flights.",
           "supporting_spans": [
             "A003_F001"
           ]
@@ -849,7 +849,7 @@
       ],
       "causal_relations": [
         {
-          "description": "扩散的火山灰妨碍飞行，也引发学校和渔业临时调整。",
+          "description": "Spreading ash disrupted flights and prompted temporary changes to school and fishing activities.",
           "supporting_spans": [
             "A001_F001",
             "A001_F005",
@@ -860,7 +860,7 @@
       ],
       "event_mainline": [
         {
-          "description": "Anak Krakatau 喷发导致印尼多机场停运，周末到周一统计随影响范围扩大。",
+          "description": "The Anak Krakatau eruption closed multiple Indonesian airports. The reported impact grew from the weekend into Monday.",
           "supporting_spans": [
             "A001_F001",
             "A001_F002",
@@ -883,9 +883,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "同源航班数据不独立计数。Semeru 和历史海啸只作背景。"
+      "Flight figures shared across reports provide one source of evidence. Semeru and historical tsunamis are background."
     ]
   }
 }

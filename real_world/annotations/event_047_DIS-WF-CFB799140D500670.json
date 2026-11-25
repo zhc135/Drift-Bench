@@ -28,7 +28,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "早期通报覆盖 16 省，峰值后通报覆盖 17 省。"
+      "Early bulletins covered 16 provinces, and later coverage at the peak covered 17."
     ],
     "dataset_place_name": "Forest fires in Algeria",
     "dataset_event_note": null
@@ -53,7 +53,7 @@
       "language_label_issue": null,
       "reporting_type": "syndicated",
       "source_independence": "syndicated",
-      "source_independence_reason": "正文明确归于 Anadolu Agency。",
+      "source_independence_reason": "The body explicitly credits Anadolu Agency.",
       "content": "Smokes and flames rise from the wildfire as ground and aerial extinguishing operations continue in Tizi Ouzou, at Beni Douala town of Algeria on August 12, 2021 [Mousaab Rouibi – Anadolu Agency]\n\nAt least 15 people were killed and 26 injured in a series of devastating forest fires that swept through several states in northern Algeria, said Interior Ministry on Monday, Anadolu Agency reports.\n\nIn a statement, the Ministry said that 97 fires were recorded late Sunday and they affected forests and agricultural crops in 16 provinces.\n\nIt noted that the blaze spread to some villages.\n\nThe Ministry said it registered “15 victims and 26 injured, while 1,500 citizens were evacuated.”\n\nTo combat the flames, a team of around 7,500 civil protection personnel has been deployed. They are utilising 350 trucks of various sizes, along with aerial support, to extinguish the fires and bring the situation under control, the Ministry said.",
       "fact_spans": [
         {
@@ -187,7 +187,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "ABC News 引多个政府通报，正文未保留记者署名。",
+      "source_independence_reason": "ABC News cites several government bulletins and provides no reporter byline.",
       "content": "The Algerian president offered condolences to families of the victims..\n\nAt least 34 people have died and thousands more have been forced to evacuate as authorities battle raging wildfires in northern Algeria , Algeria’s Interior Ministry announced .\n\nAt least 8,000 firefighters, 529 trucks and 10 mobile columns and aerial support teams are working to fight the wildfires -- the largest and worst of which are in Algeria’s coastal provinces of Béjaïa, Bouïra and Jijel, east of Algiers.\n\nFanned by high temperatures and strong winds, the wildfires -- which have been burning for several days -- have spread across forests and agricultural areas in a total of 16 Provinces and Civil Protection services have recorded 97 blazes across the African nation.\n\nAmong those killed include 10 soldiers from the People’s National Army (ANP) who were fighting the flames, Algeria’s Defence Ministry announced.\n\nAt least 1,500 people have been evacuated thus far, Algeria’s Interior Ministry announced.\n\nAlgeria’s Ministry of Agriculture and Rural Development has urged vigilance, calling on citizens to avoid going to forest areas as firefighting and rescue operations continue.\n\n“Given the record and significant rise in temperature and forest fires recorded in certain Wilayas [provinces] of the country, the Ministry of Agriculture and Rural Development calls on all citizens, both those living near forests and city dwellers, to avoid going to forests, especially in these abnormal climatic conditions,” Algeria's Ministry of Agriculture and Rural Development said.\n\nIn neighboring Tunisia, authorities have also evacuated 300 people from the border town of Melloula as wildfires rapidly spread from Algeria across the border.\n\nAlgeria is in the midst of a scorching summer, recording temperatures as high as 48 degrees Celsius (118 Fahrenheit) in parts of the country on Monday. The region is also susceptible to summer wildfires. Last summer, the Algerian Red Crescent announced at least 43 people were killed and 200 injured in fires that occurred in forest and urban areas.\n\n“Algeria is affected by forest fires that occur every summer, but the rate of being affected by fires increases from year to year due to climate change that causes drought and heat waves,” said the Algerian Red Crescent Society.\n\nAlgerian President Abdelmadjid Tebboune offered condolences to families of the victims of the fires.\n\n“In front of this great affliction, I express to the families of the victims my deepest condolences and sincere feelings of sympathy,” he said in a statement.\n\nAlgerian authorities have announced firefighting and rescue operations are continuing in affected areas despite “difficult weather conditions” and “record rise in temperature,” remaining mobilized until fires are completely extinguished.",
       "fact_spans": [
         {
@@ -444,7 +444,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "Africanews 汇总葬礼与部长统计，暂无明确首发署名。",
+      "source_independence_reason": "Africanews summarizes funerals and ministerial figures without a clear original byline.",
       "content": "Algerians held funerals on Thursday for the victims of the blazes that killed a total of 34 people.\n\nThe wildfires raged for days destroying homes and reducing vast areas of forest to scorched land.\n\nIn one small village 16 people were killed as they tried to flee the flames.\n\nAlgeria's President Abdelmadjid Tebboune has sent his condolences to the families of those killed, among them 10 soldiers trapped by flames in Bejaia province.\n\nNorthern and eastern Algeria battle forest fires every summer, but they have been exacerbated by this year's Mediterranean heatwave.\n\nAt the height of the disaster, more than 100 fires burned across 17 provinces, said Interior Minister Brahim Merad, the fires forcing the evacuation of more than 1500 people.",
       "fact_spans": [
         {
@@ -560,7 +560,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "阿尔及利亚死亡通报由最初至少 15 人增为 34 人",
+        "cluster_description": "Algeria's reported death toll rose from at least 15 to 34",
         "fact_type": "casualties",
         "attribute": "death_toll",
         "supporting_spans": [
@@ -605,7 +605,7 @@
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "火点和省份数在峰值统计扩大",
+        "cluster_description": "Fire and province counts increased in the peak figures",
         "fact_type": "disaster_occurrence",
         "attribute": "fires_and_provinces",
         "supporting_spans": [
@@ -653,7 +653,7 @@
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "当地疏散至约 1500 人以上量级",
+        "cluster_description": "Evacuation figures were around 1,500 or higher",
         "fact_type": "evacuation",
         "attribute": "evacuations",
         "supporting_spans": [
@@ -694,11 +694,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "compatible_vague_vs_specific",
         "temporal_relation": "unknown",
-        "annotation_note": "截点不同。"
+        "annotation_note": "The reporting cutoffs differ."
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "十名参加救火的军人死亡",
+        "cluster_description": "Ten soldiers involved in firefighting died",
         "fact_type": "casualties",
         "attribute": "soldier_deaths",
         "supporting_spans": [
@@ -746,22 +746,22 @@
         "FC004"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2023-07-23",
-          "time_precision": "当地日",
-          "description": "内政部称周日晚记录 97 处火情。",
+          "time_precision": "Local date",
+          "description": "The Interior Ministry said 97 fires were recorded Sunday night.",
           "supporting_spans": [
             "A001_F002"
           ]
         },
         {
           "time": "2023-07-24/2023-07-25",
-          "time_precision": "报道日期",
-          "description": "多省持续灭火，死亡通报上升。",
+          "time_precision": "Publication date",
+          "description": "Firefighting continued across several provinces, and the reported death toll increased.",
           "supporting_spans": [
             "A001_F002",
             "A001_F003",
@@ -771,8 +771,8 @@
         },
         {
           "time": "2023-07-27",
-          "time_precision": "星期对应",
-          "description": "当地为死者举行葬礼。",
+          "time_precision": "Date inferred from the weekday",
+          "description": "Funerals were held for the victims.",
           "supporting_spans": [
             "A003_F001"
           ]
@@ -780,7 +780,7 @@
       ],
       "causal_relations": [
         {
-          "description": "高温和强风加重火势。",
+          "description": "Heat and strong winds worsened the fires.",
           "supporting_spans": [
             "A002_F003",
             "A003_F002"
@@ -789,7 +789,7 @@
       ],
       "event_mainline": [
         {
-          "description": "北部多省山火扩展，造成死亡、人员撤离并动用大规模救援力量。",
+          "description": "Wildfires spread across several northern provinces, causing deaths and evacuations and prompting a large-scale response.",
           "supporting_spans": [
             "A001_F002",
             "A001_F003",
@@ -813,9 +813,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "A001 图注是 2021 年旧图。突尼斯撤离是跨境影响的独立统计。"
+      "The A001 caption shows an archive image from 2021. Evacuations in Tunisia are a separate cross-border count."
     ]
   }
 }

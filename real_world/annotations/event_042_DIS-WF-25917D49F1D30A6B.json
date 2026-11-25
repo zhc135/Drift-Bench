@@ -28,7 +28,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "希腊援助被描述为当年较早。保加利亚和土耳其灾情分开。"
+      "The report describes Greece's aid as earlier that year. Impacts in Bulgaria and Türkiye are recorded separately."
     ],
     "dataset_place_name": "Forest fires in Albania",
     "dataset_event_note": null
@@ -53,7 +53,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "Albanian News 转述欧盟机制与行动，无明确底稿署名。",
+      "source_independence_reason": "Albanian News summarizes the EU mechanism and response without a clear original byline.",
       "content": "Italy provided assistance to Albania by deploying two Canadair firefighting aircraft to help combat forest fires in the region, specifically in the Municipality of Finiq. This deployment, was carried out through the European Union Civil Protection Mechanism.\n\nSame happened earlier this year with Greece.\n\nThe deployment of the Canadair aircraft was in response to a request from the Albanian government, activated through the EU Civil Protection Mechanism.\n\nThe Canadair CL-415 is a specialized firefighting aircraft known as a \"Super Scooper\".\n\nFrom nearly a month, Albania is suffering from fires in many areas and hot weather made impossible to manage all the open fireplaces.",
       "fact_spans": [
         {
@@ -169,7 +169,7 @@
       "language_label_issue": null,
       "reporting_type": "syndicated",
       "source_independence": "syndicated",
-      "source_independence_reason": "伊斯坦布尔电头注明 AP。",
+      "source_independence_reason": "The Istanbul dateline credits AP.",
       "content": "Summary Fires engulf Turkey’s Mediterranean coast as government declares 2 disaster zones\n\nISTANBUL (AP) — New wildfires broke out on Turkey’s Mediterranean coast Friday, as the government declared two western provinces in the country to be disaster zones.\n\nImages showed flames and smoke billowing into the sky close to high-rise apartment buildings in Antalya, where local and foreign visitors flock during the summer months.\n\nHomes were evacuated in the city center and the outlying district of Aksu as the fire advanced, privately owned news agency DHA reported. Firefighters struggled to extinguish the blazes before strong winds could spread the fire, which closed a major coastal road.\n\nFurther along the coast, homes in the city of Manavgat were also threatened.\n\nLocal residents with hoses and buckets rushed to assist firefighters as water-dropping helicopters and planes also battled the flames. Police water cannons and municipal water trucks were also enlisted in the firefighting efforts.\n\nInterior Minister Ali Yerlikaya said Friday that Izmir and Bilecik provinces had been declared “disaster areas affecting public life,” one step below the most serious level of emergency.\n\nBetween June 27 and Thursday, residents from 120 neighborhoods nationwide were evacuated, Yerlikaya added, and more than 12,000 workers under the ministry’s authority, such as police and rescue staff, had fought the fires.\n\nIn a social media post, the minister said 311 homes had been destroyed or seriously damaged during the monthlong blazes and 85 temporary housing units were set up across three western provinces for those made homeless.\n\nTurkey has faced widespread outbreaks of forest fires since late June. Thirteen people have died, including 10 rescue volunteers and forestry workers killed Wednesday in a fire in Eskisehir, western Turkey. The funerals for the 10 were on Thursday.\n\nTemperatures above seasonal norms have been exacerbated by strong winds and dry conditions, resulting in dozens of wildfires.\n\nEast of Antalya, fires broke out in Adana and Mersin on Friday. Elsewhere in the country, firefighters continued battling blazes in Eskisehir and nearby Karabuk that have been raging for several days.\n\nThe heat wave in the eastern Mediterranean region saw 1,000 firefighters and soldiers battle flames in Albania as temperatures reached 42 C (107 F).\n\nIn the Albanian city of Elbasan, firefighters have been combating a weeklong blaze in the country’s central mountain forests. Fires have also broke out near the southern border with Greece.",
       "fact_spans": [
         {
@@ -351,7 +351,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "Euronews 地区综合稿，稿源未明确。",
+      "source_independence_reason": "The source of the Euronews regional roundup is unclear.",
       "content": "Albanian fire brigades are facing dozens of fire fronts which are raging because of a combination of arson and the heat wave.Forest fires are raging in many areas across the country with the main problems being in the south-western areas of the country.Damage includes many homes, and thousands of acres have been left charred.More than 1,000 firefighters and emergency units are involved in trying to tackle the inferno.Hungarian, Croatian and Italian air assets are assisting in the extinguishing work as Tirana has requested assistance from the European Civil Protection Mechanism.Bulgaria: Multiple fronts near the border with TurkeyBulgaria has to deal with more than 230 fire fronts.The EU sent four helicopters and two aircraft to help tackle them. 11 regions have been put on red alert due to high temperatures.Dozens of houses have been burnt to the ground and thousands of acres of forest have been set ablaze.The most serious problems are located east of the border with Turkey. In Turkey itself, a record temperature of 50,5 degrees Celsius has been measured in the south-eastern city of Silopi.",
       "fact_spans": [
         {
@@ -513,7 +513,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "意大利借欧盟机制协助灭火",
+        "cluster_description": "Italy provided firefighting assistance through the EU mechanism",
         "fact_type": "aid",
         "attribute": "italian_air_support",
         "supporting_spans": [
@@ -544,7 +544,7 @@
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "消防及其他紧急人员规模约千人",
+        "cluster_description": "Around a thousand firefighters and other emergency personnel were involved",
         "fact_type": "response",
         "attribute": "response_personnel",
         "supporting_spans": [
@@ -574,11 +574,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "not_comparable",
         "temporal_relation": "unknown",
-        "annotation_note": "总量类别和报道日期有别。"
+        "annotation_note": "The reporting dates and categories of personnel differ."
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "阿尔巴尼亚多地发生山火",
+        "cluster_description": "Wildfires affected several parts of Albania",
         "fact_type": "disaster_occurrence",
         "attribute": "fire_extent",
         "supporting_spans": [
@@ -632,30 +632,30 @@
         "FC002"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2025-07-21",
-          "time_precision": "报道日",
-          "description": "媒体称意大利调派两架飞机援助 Finiq。",
+          "time_precision": "Publication date",
+          "description": "Media reported that Italy sent two aircraft to assist Finiq.",
           "supporting_spans": [
             "A001_F001"
           ]
         },
         {
           "time": "2025-07-25",
-          "time_precision": "报道日",
-          "description": "AP 报道 Elbasan 等地仍在灭火。",
+          "time_precision": "Publication date",
+          "description": "AP reported ongoing firefighting in Elbasan and other areas.",
           "supporting_spans": [
             "A002_F005"
           ]
         },
         {
           "time": "2025-07-27",
-          "time_precision": "报道日",
-          "description": "Euronews 报道多个国家的空中力量参与。",
+          "time_precision": "Publication date",
+          "description": "Euronews reported participation by aircraft from several countries.",
           "supporting_spans": [
             "A003_F002"
           ]
@@ -663,7 +663,7 @@
       ],
       "causal_relations": [
         {
-          "description": "媒体称高温加重灭火难度，Euronews 还将部分火情归因于纵火。",
+          "description": "Media said heat made firefighting harder. Euronews also attributed some fires to arson.",
           "supporting_spans": [
             "A001_F003",
             "A003_F001"
@@ -672,7 +672,7 @@
       ],
       "event_mainline": [
         {
-          "description": "阿尔巴尼亚多地山火持续，地面人员和欧盟协调的空中力量投入。",
+          "description": "Wildfires continued in several parts of Albania, with ground crews and EU-coordinated aircraft deployed.",
           "supporting_spans": [
             "A001_F001",
             "A002_F005",
@@ -695,9 +695,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "AP 大部分报道聚焦土耳其，其死伤没有计入阿尔巴尼亚。"
+      "Most of the AP report focuses on Türkiye. Its casualty figures are excluded from Albania's totals."
     ]
   }
 }

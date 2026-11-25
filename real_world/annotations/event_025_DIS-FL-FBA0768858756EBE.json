@@ -29,7 +29,7 @@
       "en"
     ],
     "time_precision_notes": [
-      "CSV 事件窗口为 8 月 22–26 日。正文涉及 8 月 26 日前后的中尼边境洪灾与 8 月 28–29 日后续；未核实与 CSV 坐标的匹配。"
+      "The CSV event window is August 22–26. The articles cover flooding along the China–Nepal border around August 26 and developments on August 28–29. Alignment with the CSV coordinates has not been verified."
     ],
     "dataset_place_name": "Flood in China",
     "dataset_event_note": null
@@ -54,7 +54,7 @@
       "language_label_issue": null,
       "reporting_type": "republished",
       "source_independence": "likely_syndicated",
-      "source_independence_reason": "Times Now 明确转述 Hindustan Times 对 Parekh 的采访。",
+      "source_independence_reason": "Times Now explicitly relays a Hindustan Times interview with Parekh.",
       "content": "Manasi Parekh has opened up about her narrow escape from the devastating flash flood that struck the Gyirong area of Tibet during her Kailash Mansarovar pilgrimage. The actress was travelling with a group associated with Sadhguru’s Isha Foundation when the natural disaster hit, raising concerns about the safety of pilgrims in the region. Manasi later confirmed that she was safe and staying at a hotel in China with Sadhguru. In a recent chat, she recalled how her group was only around five hours away from the affected location and described the destruction that reminded her how unpredictable life can be. Manasi Parekh on how she escaped Nepal floods Manasi Parekh spoke to Hindustan Times about the terrifying incident and recalled how close her group was to the location that was affected by the flash flood. According to Manasi, the group was travelling towards a place called New Dongba and was originally scheduled to reach the affected area the following day. However, their itinerary required them to stay overnight, which meant they did not proceed directly towards the location. She explained that this planned overnight halt ultimately proved crucial. While the group was still travelling towards the area, the flash flood hit the building near the Gyirong Port immigration centre. \"We were 5 hours away from the place where the incident happened.\" The actress said that her group had already reached their hotels by the time they became aware of the extent of the disaster. They were not stranded, but the situation immediately created uncertainty because the immigration facility had been destroyed and normal movement in the area was disrupted. Manasi in Mansarovar: Manasi described the scale of the destruction as difficult to comprehend. The entire town was submerged, while the large structure that housed the immigration centre had reportedly collapsed. She said the news felt particularly unreal because she and the other pilgrims had been in the area just days earlier while entering China. Having personally seen the massive structure, its subsequent destruction made the incident even more shocking for her. \"The whole town was submerged,\" she recalled, explaining that the experience made her realise how quickly circumstances can change. Manasi Parekh is with Sadhguru The actress also spoke about the emotional impact of the incident. While she and the others were physically safe, the news of the devastation and concerns surrounding other pilgrims left the group deeply shaken. Manasi confirmed that Sadhguru is with them in China. When asked about his presence, she said they felt fortunate to have him with them while they were dealing with the aftermath of the disaster. \"Yes, he is, and we are just blessed and grateful that we have him,\" Manasi said. She added that the scale of the tragedy had created immense emotional pressure for everyone travelling with the group. Even after reaching safety, they were still trying to process what had happened. Despite the harrowing circumstances, Manasi and her group are now safe. She also revealed that they are going to figure out their plan to reach India in the next couple of days.",
       "fact_spans": [
         {
@@ -227,7 +227,7 @@
       "language_label_issue": null,
       "reporting_type": "undetermined",
       "source_independence": "unverified",
-      "source_independence_reason": "ETV Bharat 引述 Tim Cook 的公开帖及其他未明确来源的消息。",
+      "source_independence_reason": "ETV Bharat cites a public post by Tim Cook and other information of unclear provenance.",
       "content": "New Delhi: Apple CEO Tim Cook on Friday expressed solidarity with people affected by the devastating flash floods and mudslides that have caused widespread destruction along the Nepal-Tibet border, saying the company will make a donation to support relief and rebuilding efforts. The disaster began on Wednesday after the lower portion of a glacier in the Himalayas collapsed. The debris briefly blocked the river before giving way, sending floodwaters and mud downstream, killing hundreds of people, displacing others, and damaging villages, roads, bridges, and other infrastructure.In a post on social media platform X, Cook said that our thoughts are with all those affected by the tragic flash floods and mudslides in Nepal and Tibet. Our thoughts are with all those affected by the tragic flash floods and mudslides in Nepal and Tibet. Apple is making a donation to support relief and rebuilding efforts on the ground, he stated.Cook did not disclose the amount of Apple s contribution or specify the organisations through which the funds would be channelled. The announcement comes as Nepal continues to grapple with the aftermath of a massive flash flood that swept through the transboundary Bhote Koshi River after an ice-rock avalanche in the Tibetan region triggered a sudden surge of water and debris. The disaster has devastated settlements, roads, bridges, hydropower facilities and other critical infrastructure in several districts of Nepal.According to the latest reports, the death toll in Nepal has continued to rise, with hundreds of bodies recovered from districts along the Bhote Koshi and Trishuli river systems. More than 800 people have also remained unaccounted for, including security personnel, tourists and local residents. The disaster has also affected foreign nationals, including Indian tourists. Nepalese authorities have been carrying out search, rescue and relief operations across the affected areas, while helicopters have been deployed to evacuate stranded people and deliver essential supplies.Earlier, the Indian Embassy in Nepal issued emergency contact numbers to assist Indian nationals affected by the floods. More than 100 Indians were among tourists initially reported missing in the affected region, although authorities have continued to verify and update the figures. The Nepal government has declared severely affected areas as disaster crisis-hit zones and launched efforts to restore damaged infrastructure and provide relief to displaced and affected communities. India, China and international institutions have also indicated support for rescue, relief and reconstruction efforts.Also Read: Explained: No Rain Or Cloudburst, How Cryospheric Change Triggered Deadly Nepal Flood",
       "fact_spans": [
         {
@@ -480,7 +480,7 @@
       "language_label_issue": null,
       "reporting_type": "syndicated",
       "source_independence": "syndicated",
-      "source_independence_reason": "正文为 ANI 电头，The Tribune 为承载平台。",
+      "source_independence_reason": "ANI dateline. The Tribune is the host.",
       "content": "New Delhi [India], August 29 (ANI): As joint rescue and relief operations intensify following devastating flash floods along the Bhote Koshi and Trishuli river corridors in Nepal, the Ministry of External Affairs (MEA) confirmed that 84 Indian nationals have been successfully rescued.According to MEA Spokesperson Randhir Jaiswal, the rescued individuals include 21 citizens from Tamil Nadu who returned to India on Friday, alongside 63 workers deployed at the Trishuli-I hydropower project.Additionally, 149 Indian nationals crossed over safely into Nepal from China, while approximately 400 remain safe on the Chinese side as embassy officials coordinate their evacuation. Around 320 Indian nationals remain uncontactable due to widespread telecommunication outages.MEA Spokesperson Randhir Jaiswal said on X, \"84 rescued (21 from Tamil Nadu who returned to India today; 63 working at Trishuli-I project); 149 who have crossed over safely into Nepal from China today; Around 400 who are safe in China. Our Embassy has been in touch with them and working on their evacuation; 320 missing or not contactable.",
       "fact_spans": [
         {
@@ -606,7 +606,7 @@
     "fact_clusters": [
       {
         "cluster_id": "FC001",
-        "cluster_description": "报道所指洪灾位于中尼边境",
+        "cluster_description": "The reported flooding occurred along the China–Nepal border",
         "fact_type": "location",
         "attribute": "reported_flood_area",
         "supporting_spans": [
@@ -641,11 +641,11 @@
         "alignment_status": "partially_aligned",
         "consistency_status": "compatible_vague_vs_specific",
         "temporal_relation": "unknown",
-        "annotation_note": "报道的地点与 CSV 坐标之间的对应关系仍待核实。"
+        "annotation_note": "The relationship between the reported locations and the CSV coordinates still needs verification."
       },
       {
         "cluster_id": "FC002",
-        "cluster_description": "人员失联统计分属不同对象",
+        "cluster_description": "Uncontactable-person counts cover different populations",
         "fact_type": "missing_persons",
         "attribute": "missing_and_uncontactable",
         "supporting_spans": [
@@ -684,7 +684,7 @@
       },
       {
         "cluster_id": "FC003",
-        "cluster_description": "印度外交部确认救援印度公民人数",
+        "cluster_description": "India's Ministry of External Affairs confirmed how many Indian nationals were rescued",
         "fact_type": "response",
         "attribute": "indians_rescued",
         "supporting_spans": [
@@ -707,7 +707,7 @@
       },
       {
         "cluster_id": "FC004",
-        "cluster_description": "Apple 表示将捐款",
+        "cluster_description": "Apple said it would make a donation",
         "fact_type": "aid",
         "attribute": "apple_donation",
         "supporting_spans": [
@@ -747,14 +747,14 @@
         "FC004"
       ],
       "supplementary_facts": [],
-      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+      "scope_note": "The annotations cover information in these three reports and do not claim to exhaust all facts about the event."
     },
     "logical_coherence": {
       "timeline": [
         {
           "time": "2026-08-26",
-          "time_precision": "A002 所述周三推定",
-          "description": "中尼边境出现山洪，报道描述上游冰川崩塌及泥石冲出。",
+          "time_precision": "Inferred from A002's reference to Wednesday",
+          "description": "Flash floods hit the China–Nepal border. Reports describe an upstream glacier collapse and a resulting surge of debris.",
           "supporting_spans": [
             "A001_F002",
             "A002_F002",
@@ -763,8 +763,8 @@
         },
         {
           "time": "2026-08-28/2026-08-29",
-          "time_precision": "报道日期范围",
-          "description": "Apple 宣布捐款，印度外交部报告救援与仍未联系的印度公民情况。",
+          "time_precision": "Publication date range",
+          "description": "Apple announced a donation, and India's Ministry of External Affairs reported on rescued and uncontactable Indian nationals.",
           "supporting_spans": [
             "A002_F003",
             "A003_F001",
@@ -774,7 +774,7 @@
       ],
       "causal_relations": [
         {
-          "description": "A002 报道冰岩崩塌和临时河道受阻继而溃泄。A003 报道通信中断妨碍联络。",
+          "description": "A002 describes an ice and rock collapse that temporarily blocked the river before floodwaters broke through. A003 reports that communications outages hindered contact.",
           "supporting_spans": [
             "A002_F002",
             "A002_F004",
@@ -784,7 +784,7 @@
       ],
       "event_mainline": [
         {
-          "description": "三篇报道关注中尼边境洪灾、口岸受损以及游客和工作人员的救援。",
+          "description": "The three reports cover border flooding, damage to the border crossing, and the rescue of tourists and workers.",
           "supporting_spans": [
             "A001_F002",
             "A002_F004",
@@ -806,9 +806,9 @@
     "human_verified": false,
     "reviewer": null,
     "review_time": null,
-    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
     "limitations": [
-      "保留 events.csv 事件元数据。正文指向西藏与尼泊尔边境，不能据此断言报道涉及 CSV 中同一地理位置。"
+      "The events.csv metadata is preserved. The articles refer to the Tibet–Nepal border, and the correspondence with the CSV location remains unverified."
     ]
   }
 }

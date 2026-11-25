@@ -1,0 +1,1070 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-FL-1A08C19C1E76C71C",
+  "event_rank": 18,
+  "event_metadata": {
+    "event_name": "Flood in Sri Lanka",
+    "disaster_type": "flood",
+    "disaster_type_code": "FL",
+    "event_start_time": "2025-11-28T01:00:00+00:00",
+    "event_end_time": "2025-12-05T13:00:00+00:00",
+    "locations": [
+      "Sri Lanka"
+    ],
+    "latitude": 7.2143,
+    "longitude": 80.6401,
+    "place_names_in_reports": [
+      "Sri Lanka",
+      "Colombo",
+      "central Sri Lanka",
+      "Sumatra",
+      "Aceh",
+      "Hat Yai",
+      "Malaysia",
+      "Vietnam"
+    ],
+    "gdacs_id": "1103640",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "伤亡均为报道时点。区域合计和斯里兰卡单独数字分开。"
+    ],
+    "dataset_place_name": "Flood in Sri Lanka",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-675240E7CA634669",
+      "event_id": "DIS-FL-1A08C19C1E76C71C",
+      "event_rank": 18,
+      "article_rank": 1,
+      "title": "WCIC calls for support as worst-ever floods batter enterprises - Business News | Daily Mirror",
+      "publisher": "dailymirror",
+      "identified_publisher": null,
+      "source_domain": "dailymirror.lk",
+      "url": "https://www.dailymirror.lk/business-news/WCIC-calls-for-support-as-worst-ever-floods-batter-enterprises/273-326666",
+      "published_at": "2025-12-01T18:53:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "以 WCIC 声明为主，无明确首发署名。",
+      "content": "Sri Lanka’s Women’s Chamber of Industry and Commerce (WCIC) has appealed for urgent support as the island battles what officials and agencies describe as the worst flood disaster in the nation’s history, leaving livelihoods devastated and businesses crippled across multiple districts. With extreme weather submerging thousands of homes and disrupting economic activity nationwide, the chamber said women-led enterprises have been hit particularly hard, with many members reporting severe damage to facilities, inventory and supply chains. While rescue operations remain the priority, persistent high water levels have slowed access to affected communities, delaying relief and assessment efforts. Positioning itself as a coordinating body for assistance, the WCIC urged the business community and development partners to join its initiative to establish a dedicated fund aimed at supporting affected women entrepreneurs. The chamber said it will develop a structured methodology to ensure that available resources are channelled efficiently to those most in need.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "Sri Lanka’s Women’s Chamber of Industry and Commerce (WCIC) has appealed for urgent support as the island battles what officials and agencies describe as the worst flood disaster in the nation’s history, leaving livelihoods devastated and businesses crippled across multiple districts. With extreme weather submerging thousands of homes and disrupting economic activity nationwide, the chamber said women-led enterprises have been hit particularly hard, with many members reporting severe damage to facilities, inventory and supply chains. ",
+          "start_offset": 0,
+          "end_offset": 540,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "damage",
+            "infrastructure",
+            "economic_loss"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "source",
+              "value": "WCIC",
+              "unit": null
+            },
+            {
+              "attribute": "affected_businesses",
+              "value": "women-led enterprises",
+              "unit": null
+            },
+            {
+              "attribute": "damage",
+              "value": [
+                "facilities",
+                "inventory",
+                "supply chains"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "homes_submerged",
+              "value": "thousands",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "While rescue operations remain the priority, persistent high water levels have slowed access to affected communities, delaying relief and assessment efforts. ",
+          "start_offset": 540,
+          "end_offset": 698,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "Positioning itself as a coordinating body for assistance, the WCIC urged the business community and development partners to join its initiative to establish a dedicated fund aimed at supporting affected women entrepreneurs. The chamber said it will develop a structured methodology to ensure that available resources are channelled efficiently to those most in need.",
+          "start_offset": 698,
+          "end_offset": 1064,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "aid",
+            "recovery"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "proposed_support",
+              "value": "dedicated fund for affected women entrepreneurs",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "46f2d61695c2f5993497e020803f41d3725af7bd08e144f05d707b3799d9e082",
+        "removed_word_count": 111,
+        "removed_word_ratio": 0.42528735632183906
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-0A4C1CE8ED236882",
+      "event_id": "DIS-FL-1A08C19C1E76C71C",
+      "event_rank": 18,
+      "article_rank": 2,
+      "title": "‘The current could kill an elephant’: Asia flood survivors describe escaping with their lives",
+      "publisher": "guardian",
+      "identified_publisher": "The Guardian",
+      "source_domain": "theguardian.com",
+      "url": "https://www.theguardian.com/world/2025/dec/01/the-current-could-kill-an-elephant-asia-flood-survivors-describe-escaping-with-their-lives",
+      "published_at": "2025-12-01T18:55:12+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "The Guardian 文内有 Aceh 和 Hat Yai 幸存者的多段直接访谈。",
+      "content": "From Thailand to Indonesia, torrential flooding has carried away people’s possessions and homes, upending entire communities\n\nHow cyclones and monsoon rains converged to devastate parts of Asia – visual guide\n\nA minah Ali, 63, was at home in the Pidie Jaya district of Indonesia’s Aceh province when the rains started at midnight on Wednesday. The waters rose gradually. It seemed like the usual flooding that happens during monsoon season, but then came a loud roar of water: her village was suddenly inundated.\n\nWith help from her son, she managed to clamber on to her rooftop, where she waited for 24 hours. Flood waters, 3 metres high, stretched into the distance. “I saw many houses being swept away,” she said.\n\n“Now my house is ruined, full of mud. I never imagined a situation like this. Now I only have one shirt left, I don’t even have any underwear, all my possessions are gone.”\n\nThe monsoon season often brings heavy rains that can cause flooding or trigger landslides, but the levels witnessed over recent days are far more devastating. More than 1,100 people have now been killed across the region after seasonal rains combined with tropical cyclones to inundate Indonesia’s Sumatra island – where more than 600 people were killed – Sri Lanka, southern Thailand , Malaysia and Vietnam.\n\nBusra Ishak, 60, also from Pidie Jaya, lost his house, which was swept away without a trace by the force of the waters. “There were hundreds of tons of logs [in the water], and even an elephant could be killed by the incredibly strong current,” he said.\n\nHe survived by swimming and grabbing on to a coconut tree, where he stayed for more than 12 hours. One of his older sisters was killed. He still hasn’t been able to tell relatives outside Aceh province because electricity and phone lines are down.\n\nNatchanun Insuwano was among those stranded in Hat Yai, one of the hardest hit areas in Southern Thailand , a region where at least 176 have been killed. He waited, waist deep in water, on the first floor of his flooded home, while his parents balanced precariously through a window, leaning on metal roofing. He was too afraid to perch alongside them, nervous the roof panels below might collapse.\n\n“I could see the current in the water was so strong,” he said. Sofas, TV and home appliances rushed past in the muddy waters.\n\nFrom Sunday 23 November to Tuesday 25, Natchanun and his parents had just one bottle of water to share. “I looked in the sky to see if a helicopter or drone might drop some food,” he said. Nothing came. “It rained all night so we were so cold with the rain and wind.” He messaged every hotline he could see and posted on social media to ask for help.\n\nThe family had listened to the advice of the local authority, which had suggested the water levels would be manageable. When a national disaster agency told residents to evacuate, it was too late – waters had already rapidly reached chest-level.\n\nThe failure of Thai authorities to give adequate warning has been strongly criticised.\n\nOn Tuesday morning, Natchanun was able to flag down a nearby volunteer rescue boat after shouting at the top of his lungs. “My mom was very weak and unconscious. I just knew we needed to get out of this place so I shouted and shouted,” said Natchanun.\n\nHis mother, who was carried out on a stretcher and given first aid, has recovered. They still haven’t returned home, he said. Water has not been restored, and everything is caked in mud.\n\nChutikan Panpit, 32, who also lives in Hat Yai, believes it is a miracle she is alive. She had walked on to her terrace to check water levels when she was bitten by a Malayan pit viper. Waters were so high that she could not reach a hospital for 32 hours. The pain was worse than childbirth, she said.\n\n“I was scared of dying. My son just turned one. He just learned how to say ‘mummy’ a few days earlier. In the [rescue] boat I was so scared but I just thought of my son’s face,” she said. The current was so strong that rescuers told her to hold on tightly as they accelerated rapidly to move through the surges of water.\n\n“With this snake (a Malayan pit viper) and 32 hours, people say either you die or have to amputate the leg,” she said. “My parents were so scared, they prayed and prayed and tried everything to wish for me to be safe.”\n\nWaters have now receded in Hat Yai, though the scale of the recovery and clean-up work needed is immense. Tens of thousands of homes are damaged. Debris – broken, muddied furniture, strips of wood and rubbish – is strewn in the streets. Many residents have lost almost all their belongings. Today, just the sound of rain is enough to induce panic.\n\nOn Sumatra, the largest Indonesian island, at least 11 bridges connecting different regions and sections of the national highway have been cut off. Some villages are still completely inaccessible by road. Even in areas that have been reached by recovery teams, local people say they do not have enough food or clean water.\n\nMany flood victims remain at rescue shelters, relying mostly on donors in the community for food and drinks. Others are trying to salvage what remains. Busra has gone to his brother’s home to try to clean and protect his valuables. The disaster is far worse than any flooding in previous years, he said: “This year’s flood is the worst tragedy in history.”",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "From Thailand to Indonesia, torrential flooding has carried away people’s possessions and homes, upending entire communities\n\n",
+          "start_offset": 0,
+          "end_offset": 126,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "How cyclones and monsoon rains converged to devastate parts of Asia – visual guide\n\n",
+          "start_offset": 126,
+          "end_offset": 210,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "A minah Ali, 63, was at home in the Pidie Jaya district of Indonesia’s Aceh province when the rains started at midnight on Wednesday. The waters rose gradually. It seemed like the usual flooding that happens during monsoon season, but then came a loud roar of water: her village was suddenly inundated.\n\nWith help from her son, she managed to clamber on to her rooftop, where she waited for 24 hours. Flood waters, 3 metres high, stretched into the distance. “I saw many houses being swept away,” she said.\n\n“Now my house is ruined, full of mud. I never imagined a situation like this. Now I only have one shirt left, I don’t even have any underwear, all my possessions are gone.”\n\n",
+          "start_offset": 210,
+          "end_offset": 892,
+          "sentence_ids": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "damage",
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "Pidie Jaya, Aceh",
+              "unit": null
+            },
+            {
+              "attribute": "roof_wait",
+              "value": 24,
+              "unit": "hours"
+            },
+            {
+              "attribute": "reported_flood_height",
+              "value": 3,
+              "unit": "m"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "The monsoon season often brings heavy rains that can cause flooding or trigger landslides, but the levels witnessed over recent days are far more devastating. More than 1,100 people have now been killed across the region after seasonal rains combined with tropical cyclones to inundate Indonesia’s Sumatra island – where more than 600 people were killed – Sri Lanka, southern Thailand , Malaysia and Vietnam.\n\n",
+          "start_offset": 892,
+          "end_offset": 1302,
+          "sentence_ids": [
+            12,
+            13
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_occurrence",
+            "cause",
+            "casualties"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "regional_deaths",
+              "value": {
+                "value": 1100,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "sumatra_deaths",
+              "value": {
+                "value": 600,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "Busra Ishak, 60, also from Pidie Jaya, lost his house, which was swept away without a trace by the force of the waters. “There were hundreds of tons of logs [in the water], and even an elephant could be killed by the incredibly strong current,” he said.\n\nHe survived by swimming and grabbing on to a coconut tree, where he stayed for more than 12 hours. One of his older sisters was killed. He still hasn’t been able to tell relatives outside Aceh province because electricity and phone lines are down.\n\n",
+          "start_offset": 1302,
+          "end_offset": 1806,
+          "sentence_ids": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "fact_types": [
+            "casualties",
+            "damage",
+            "infrastructure",
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "Pidie Jaya, Aceh",
+              "unit": null
+            },
+            {
+              "attribute": "survival_time_on_tree",
+              "value": {
+                "value": 12,
+                "qualifier": "greater_than"
+              },
+              "unit": "hours"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "Natchanun Insuwano was among those stranded in Hat Yai, one of the hardest hit areas in Southern Thailand , a region where at least 176 have been killed. He waited, waist deep in water, on the first floor of his flooded home, while his parents balanced precariously through a window, leaning on metal roofing. He was too afraid to perch alongside them, nervous the roof panels below might collapse.\n\n“I could see the current in the water was so strong,” he said. Sofas, TV and home appliances rushed past in the muddy waters.\n\nFrom Sunday 23 November to Tuesday 25, Natchanun and his parents had just one bottle of water to share. “I looked in the sky to see if a helicopter or drone might drop some food,” he said. Nothing came. “It rained all night so we were so cold with the rain and wind.” He messaged every hotline he could see and posted on social media to ask for help.\n\nThe family had listened to the advice of the local authority, which had suggested the water levels would be manageable. When a national disaster agency told residents to evacuate, it was too late – waters had already rapidly reached chest-level.\n\nThe failure of Thai authorities to give adequate warning has been strongly criticised.\n\nOn Tuesday morning, Natchanun was able to flag down a nearby volunteer rescue boat after shouting at the top of his lungs. “My mom was very weak and unconscious. I just knew we needed to get out of this place so I shouted and shouted,” said Natchanun.\n\nHis mother, who was carried out on a stretcher and given first aid, has recovered. They still haven’t returned home, he said. Water has not been restored, and everything is caked in mud.\n\n",
+          "start_offset": 1806,
+          "end_offset": 3461,
+          "sentence_ids": [
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "fact_types": [
+            "casualties",
+            "humanitarian_needs",
+            "public_reaction",
+            "evacuation",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "southern Thailand / Hat Yai",
+              "unit": null
+            },
+            {
+              "attribute": "southern_thailand_deaths",
+              "value": {
+                "value": 176,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "household_water_between_nov_23_and_25",
+              "value": 1,
+              "unit": "bottle"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "Chutikan Panpit, 32, who also lives in Hat Yai, believes it is a miracle she is alive. She had walked on to her terrace to check water levels when she was bitten by a Malayan pit viper. Waters were so high that she could not reach a hospital for 32 hours. The pain was worse than childbirth, she said.\n\n“I was scared of dying. My son just turned one. He just learned how to say ‘mummy’ a few days earlier. In the [rescue] boat I was so scared but I just thought of my son’s face,” she said. The current was so strong that rescuers told her to hold on tightly as they accelerated rapidly to move through the surges of water.\n\n“With this snake (a Malayan pit viper) and 32 hours, people say either you die or have to amputate the leg,” she said. “My parents were so scared, they prayed and prayed and tried everything to wish for me to be safe.”\n\n",
+          "start_offset": 3461,
+          "end_offset": 4306,
+          "sentence_ids": [
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ],
+          "fact_types": [
+            "injuries",
+            "secondary_hazard",
+            "response",
+            "cause"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "Hat Yai",
+              "unit": null
+            },
+            {
+              "attribute": "hospital_access_delay",
+              "value": 32,
+              "unit": "hours"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "Waters have now receded in Hat Yai, though the scale of the recovery and clean-up work needed is immense. Tens of thousands of homes are damaged. Debris – broken, muddied furniture, strips of wood and rubbish – is strewn in the streets. Many residents have lost almost all their belongings. Today, just the sound of rain is enough to induce panic.\n\n",
+          "start_offset": 4306,
+          "end_offset": 4655,
+          "sentence_ids": [
+            49,
+            50,
+            51,
+            52,
+            53
+          ],
+          "fact_types": [
+            "damage",
+            "recovery",
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "Hat Yai",
+              "unit": null
+            },
+            {
+              "attribute": "homes_damaged",
+              "value": "tens of thousands",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F009",
+          "span_text": "On Sumatra, the largest Indonesian island, at least 11 bridges connecting different regions and sections of the national highway have been cut off. Some villages are still completely inaccessible by road. Even in areas that have been reached by recovery teams, local people say they do not have enough food or clean water.\n\nMany flood victims remain at rescue shelters, relying mostly on donors in the community for food and drinks. Others are trying to salvage what remains. Busra has gone to his brother’s home to try to clean and protect his valuables. The disaster is far worse than any flooding in previous years, he said: “This year’s flood is the worst tragedy in history.”",
+          "start_offset": 4655,
+          "end_offset": 5335,
+          "sentence_ids": [
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "humanitarian_needs",
+            "recovery"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "Sumatra",
+              "unit": null
+            },
+            {
+              "attribute": "bridges_cut_off",
+              "value": {
+                "value": 11,
+                "qualifier": "at_least"
+              },
+              "unit": "bridges"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "ada9ea79f80d5469b706333c52bb94b10e3dde5ed5292eb55cb24fffb452d2bd",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-7FD811CC733013E5",
+      "event_id": "DIS-FL-1A08C19C1E76C71C",
+      "event_rank": 18,
+      "article_rank": 3,
+      "title": "Asian floods death toll tops 1,160 as troops aid survivors",
+      "publisher": "freemalaysiatoday",
+      "identified_publisher": "AFP",
+      "source_domain": "freemalaysiatoday.com",
+      "url": "https://www.freemalaysiatoday.com/category/highlight/2025/12/02/asian-floods-death-toll-tops-1160-as-troops-aid-survivors",
+      "published_at": "2025-12-01T21:45:03+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "正文含 AFP 现场采访与 PADANG 电头，Free Malaysia Today 为承载方。",
+      "content": "Rickshaw drivers struggle to navigate deep, muddy floodwaters on a submerged street in Colombo. (EPA Images pic) PADANG: The toll in deadly flooding and landslides across parts of Asia climbed past 1,160 on Monday as hardest-hit Sri Lanka and Indonesia deployed military personnel to help survivors. Separate weather systems brought torrential, extended rainfall to the island of Sri Lanka and large parts of Indonesia's Sumatra, southern Thailand and northern Malaysia last week. Much of the region is currently in its monsoon season but climate change is producing more extreme rain events and turbocharging storms. The World Health Organization said it was deploying rapid response teams and critical supplies to the region. The UN agency's chief Tedros Adhanom Ghebreyesus told reporters in Geneva that it was \"another reminder of how climate change is driving more frequent and more extreme weather events, with disastrous effects\". The relentless rains left residents clinging to rooftops awaiting rescue by boat or helicopter, and cut entire villages off from assistance. Arriving in North Sumatra on Monday, Indonesian President Prabowo Subianto said \"the worst has passed, hopefully\". The government's \"priority now is how to immediately send the necessary aid\", with particular focus on several cut-off areas, he added. Prabowo is under increasing pressure to declare a national emergency in response to flooding and landslides that have killed at least 593 people, with nearly 470 still missing. Unlike his Sri Lankan counterpart, Prabowo has also avoided publicly calling for international assistance. The toll is the deadliest in a natural disaster in Indonesia since a massive 2018 earthquake and subsequent tsunami killed more than 2,000 people in Sulawesi. The government has sent three warships carrying aid and two hospital ships to some of the worst-hit areas, where many roads remain impassable. In North Aceh, 28-year-old Misbahul Munir described walking through water that reached his neck to get back to his parents. \"Everything in the house was destroyed because it was submerged,\" he told AFP. \"I have only the clothes I am wearing,\" he said in tears. \"In other places, there were a lot of people who died. We are grateful that we are healthy.\" 'Everything went under' In Sri Lanka, the government called for international aid and used military helicopters to reach people stranded by flooding and landslides triggered by Cyclone Ditwah. At least 390 people have been killed, Sri Lankan officials said on Monday, with another 352 still missing. Floodwaters in the capital Colombo peaked overnight. Now that the rain has stopped, there were hopes that waters would begin receding. Some shops and offices have reopened. The floodwaters came as a surprise to some around Colombo. \"Every year we experience minor floods, but this is something else,\" delivery driver Dinusha Sanjaya, 37, told AFP. \"It is not just the amount of water, but how quickly everything went under.\" Officials said the extent of the damage in the worst-affected central region was only just being revealed as relief workers cleared roads blocked by fallen trees and mudslides. President Anura Kumara Dissanayake has declared a state of emergency to deal with what he called the \"most challenging natural disaster in our history\". The Sri Lankan president received a phone call from India's Prime Minister Narendra Modi on Monday to assure him of New Delhi's continued support for relief and recovery efforts, Indian officials said. The losses and damage are the worst in Sri Lanka since the devastating 2004 tsunami that killed around 31,000 people there and left more than a million homeless. Anger in Thailand By Sunday afternoon, rain had subsided across Sri Lanka but low-lying areas of the capital were flooded and authorities were bracing for a major relief operation. Military helicopters have been deployed to airlift stranded residents and to deliver food. One crashed just north of Colombo on Sunday, killing the pilot. The annual monsoon season often brings heavy rain, triggering landslides and flash floods. But the flooding that hit Indonesia, Thailand and Malaysia was also exacerbated by a rare tropical storm that dumped heavy rain on Sumatra island in particular. The waves of rain caused flooding that killed at least 176 people in southern Thailand, authorities said Monday, one of the deadliest flood incidents in the country in a decade. The government has rolled out relief measures, but there has been growing public criticism of the flood response, and two local officials have been suspended over their alleged failures. Across the border in Malaysia, where heavy rains also inundated large stretches of land in Perlis state, two people were killed.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "Rickshaw drivers struggle to navigate deep, muddy floodwaters on a submerged street in Colombo. ",
+          "start_offset": 0,
+          "end_offset": 96,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "(EPA Images pic) PADANG: The toll in deadly flooding and landslides across parts of Asia climbed past 1,160 on Monday as hardest-hit Sri Lanka and Indonesia deployed military personnel to help survivors. Separate weather systems brought torrential, extended rainfall to the island of Sri Lanka and large parts of Indonesia's Sumatra, southern Thailand and northern Malaysia last week. Much of the region is currently in its monsoon season but climate change is producing more extreme rain events and turbocharging storms. The World Health Organization said it was deploying rapid response teams and critical supplies to the region. The UN agency's chief Tedros Adhanom Ghebreyesus told reporters in Geneva that it was \"another reminder of how climate change is driving more frequent and more extreme weather events, with disastrous effects\". The relentless rains left residents clinging to rooftops awaiting rescue by boat or helicopter, and cut entire villages off from assistance. ",
+          "start_offset": 96,
+          "end_offset": 1079,
+          "sentence_ids": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "casualties",
+            "response",
+            "aid"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "regional_deaths",
+              "value": {
+                "value": 1160,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "regional_response",
+              "value": "WHO teams and supplies",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "Arriving in North Sumatra on Monday, Indonesian President Prabowo Subianto said \"the worst has passed, hopefully\". The government's \"priority now is how to immediately send the necessary aid\", with particular focus on several cut-off areas, he added. Prabowo is under increasing pressure to declare a national emergency in response to flooding and landslides that have killed at least 593 people, with nearly 470 still missing. Unlike his Sri Lankan counterpart, Prabowo has also avoided publicly calling for international assistance. The toll is the deadliest in a natural disaster in Indonesia since a massive 2018 earthquake and subsequent tsunami killed more than 2,000 people in Sulawesi. The government has sent three warships carrying aid and two hospital ships to some of the worst-hit areas, where many roads remain impassable. In North Aceh, 28-year-old Misbahul Munir described walking through water that reached his neck to get back to his parents. \"Everything in the house was destroyed because it was submerged,\" he told AFP. \"I have only the clothes I am wearing,\" he said in tears. \"In other places, there were a lot of people who died. We are grateful that we are healthy.\" ",
+          "start_offset": 1079,
+          "end_offset": 2270,
+          "sentence_ids": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "fact_types": [
+            "casualties",
+            "missing_persons",
+            "aid",
+            "response",
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "Indonesia",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 593,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "missing",
+              "value": {
+                "value": 470,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "aid_warships",
+              "value": 3,
+              "unit": "ships"
+            },
+            {
+              "attribute": "hospital_ships",
+              "value": 2,
+              "unit": "ships"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "'Everything went under' In Sri Lanka, the government called for international aid and used military helicopters to reach people stranded by flooding and landslides triggered by Cyclone Ditwah. At least 390 people have been killed, Sri Lankan officials said on Monday, with another 352 still missing. ",
+          "start_offset": 2270,
+          "end_offset": 2570,
+          "sentence_ids": [
+            19,
+            20
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "missing_persons",
+            "response",
+            "aid"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "Sri Lanka",
+              "unit": null
+            },
+            {
+              "attribute": "cyclone",
+              "value": "Ditwah",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 390,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "missing",
+              "value": 352,
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "Sri Lankan officials",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "Floodwaters in the capital Colombo peaked overnight. Now that the rain has stopped, there were hopes that waters would begin receding. Some shops and offices have reopened. The floodwaters came as a surprise to some around Colombo. \"Every year we experience minor floods, but this is something else,\" delivery driver Dinusha Sanjaya, 37, told AFP. \"It is not just the amount of water, but how quickly everything went under.\" ",
+          "start_offset": 2570,
+          "end_offset": 2995,
+          "sentence_ids": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "recovery",
+            "public_reaction"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "place",
+              "value": "Colombo",
+              "unit": null
+            },
+            {
+              "attribute": "floodwater_peak",
+              "value": "overnight",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "Officials said the extent of the damage in the worst-affected central region was only just being revealed as relief workers cleared roads blocked by fallen trees and mudslides. President Anura Kumara Dissanayake has declared a state of emergency to deal with what he called the \"most challenging natural disaster in our history\". The Sri Lankan president received a phone call from India's Prime Minister Narendra Modi on Monday to assure him of New Delhi's continued support for relief and recovery efforts, Indian officials said. ",
+          "start_offset": 2995,
+          "end_offset": 3527,
+          "sentence_ids": [
+            27,
+            28,
+            29
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "state_of_emergency",
+              "value": "declared by Sri Lankan president",
+              "unit": null
+            },
+            {
+              "attribute": "international_support",
+              "value": "India reaffirmed continued support",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "The losses and damage are the worst in Sri Lanka since the devastating 2004 tsunami that killed around 31,000 people there and left more than a million homeless. ",
+          "start_offset": 3527,
+          "end_offset": 3689,
+          "sentence_ids": [
+            30
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "separate 2004 tsunami",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 31000,
+                "qualifier": "around"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F008",
+          "span_text": "Anger in Thailand By Sunday afternoon, rain had subsided across Sri Lanka but low-lying areas of the capital were flooded and authorities were bracing for a major relief operation. Military helicopters have been deployed to airlift stranded residents and to deliver food. One crashed just north of Colombo on Sunday, killing the pilot. ",
+          "start_offset": 3689,
+          "end_offset": 4025,
+          "sentence_ids": [
+            31,
+            32,
+            33
+          ],
+          "fact_types": [
+            "weather",
+            "response",
+            "aid",
+            "casualties"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "military_helicopter_crash_pilot_deaths",
+              "value": 1,
+              "unit": "person"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F009",
+          "span_text": "The annual monsoon season often brings heavy rain, triggering landslides and flash floods. But the flooding that hit Indonesia, Thailand and Malaysia was also exacerbated by a rare tropical storm that dumped heavy rain on Sumatra island in particular. The waves of rain caused flooding that killed at least 176 people in southern Thailand, authorities said Monday, one of the deadliest flood incidents in the country in a decade. The government has rolled out relief measures, but there has been growing public criticism of the flood response, and two local officials have been suspended over their alleged failures. Across the border in Malaysia, where heavy rains also inundated large stretches of land in Perlis state, two people were killed.",
+          "start_offset": 4025,
+          "end_offset": 4770,
+          "sentence_ids": [
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_occurrence",
+            "cause",
+            "casualties",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "Indonesia, Thailand and Malaysia context",
+              "unit": null
+            },
+            {
+              "attribute": "southern_thailand_deaths",
+              "value": {
+                "value": 176,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "malaysia_deaths",
+              "value": 2,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "7ae1e0c8e9b7318aea0db0f567f7d4f9c4a14ffa6ce0ff96c3216bb7f4d0ed23",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "亚洲多地洪灾报道的区域死亡下限",
+        "fact_type": "casualties",
+        "attribute": "regional_deaths",
+        "supporting_spans": [
+          "A002_F004",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": {
+              "value": 1100,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "value": 1160,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "下限相容，统计纳入范围和时点未统一。"
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "斯里兰卡官方死亡及失踪数字",
+        "fact_type": "casualties",
+        "attribute": "sri_lanka_casualty_figures",
+        "supporting_spans": [
+          "A003_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": {
+              "deaths_lower_bound": 390,
+              "missing": 352
+            },
+            "unit": "people",
+            "attribution": "Sri Lankan officials"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "斯里兰卡持续洪水阻碍救援",
+        "fact_type": "response",
+        "attribute": "access_constraints",
+        "supporting_spans": [
+          "A001_F002",
+          "A003_F006"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": "high water delayed relief and assessment",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F006",
+            "value": "roads blocked by fallen trees and mudslides in the central region",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "WCIC 拟设企业援助基金",
+        "fact_type": "aid",
+        "attribute": "wcic_support",
+        "supporting_spans": [
+          "A001_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": "proposed dedicated fund for women entrepreneurs",
+            "unit": null,
+            "attribution": "WCIC"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-11 下旬",
+          "time_precision": "月份内时段",
+          "description": "Cyclone Ditwah 触发斯里兰卡洪水和滑坡。",
+          "supporting_spans": [
+            "A003_F004"
+          ]
+        },
+        {
+          "time": "2025-12-01",
+          "time_precision": "报道日",
+          "description": "官方称斯里兰卡至少 390 人死亡。政府启动应急并寻求国际援助，WCIC 呼吁支援。",
+          "supporting_spans": [
+            "A003_F004",
+            "A003_F006",
+            "A001_F001",
+            "A001_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "高水位和被堵道路延误救援及现场损失评估。",
+          "supporting_spans": [
+            "A001_F002",
+            "A003_F006"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "斯里兰卡洪灾冲击社区及企业，官方报告死伤与失踪灾情，并调动军队开展救援。",
+          "supporting_spans": [
+            "A001_F001",
+            "A003_F004",
+            "A003_F008"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "limitations": [
+      "A002 以印尼和泰国个案为主；其区域总数不能视为斯里兰卡伤亡。"
+    ]
+  }
+}

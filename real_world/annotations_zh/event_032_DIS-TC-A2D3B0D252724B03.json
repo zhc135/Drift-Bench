@@ -1,0 +1,889 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-TC-A2D3B0D252724B03",
+  "event_rank": 32,
+  "event_metadata": {
+    "event_name": "热带气旋 GAMANE-24（加马内）",
+    "disaster_type": "tropical_cyclone",
+    "disaster_type_code": "TC",
+    "event_start_time": "2024-03-25T18:00:00+00:00",
+    "event_end_time": "2024-03-28T00:00:00+00:00",
+    "locations": [
+      "马达加斯加"
+    ],
+    "latitude": -13.83,
+    "longitude": 48.09,
+    "place_names_in_reports": [
+      "马达加斯加",
+      "武埃马尔",
+      "马达加斯加东北部"
+    ],
+    "gdacs_id": "1001057",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "区分 BNGRC 星期四晚间的报告和星期五的通报。一篇报道预测风暴星期五离岛，而另一篇报道称风暴星期四在陆地上消散。"
+    ],
+    "dataset_place_name": "热带气旋 GAMANE-24（加马内）",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-8DF48F16A00C1154",
+      "event_id": "DIS-TC-A2D3B0D252724B03",
+      "event_rank": 32,
+      "article_rank": 1,
+      "title": "气旋加马内袭击马达加斯加，造成11人死亡、数千人受灾",
+      "publisher": "aljazeera-en",
+      "identified_publisher": null,
+      "source_domain": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2024/3/28/eleven-dead-thousands-affected-as-cyclone-gamane-batters-madagascar?traffic_source=rss",
+      "published_at": "2024-03-28T13:41:54+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "半岛电视台报道包含官方声明，但没有明确署名。",
+      "content": "据官员称，气旋加马内袭击马达加斯加北部，造成至少11人死亡、数百所房屋被毁。\n\n原本预计风暴将掠过这个印度洋岛屿，但它改变路径，于星期三凌晨袭击岛上的武埃马尔地区。\n\n视频画面显示，激流穿过村庄，人们在齐腰深的水中组成救援人链，试图帮助被困在房屋中的人员逃离洪水。许多道路及桥梁被淹没并中断。\n\n6人溺亡，另有5人因房屋倒塌或树木倒伏死亡，总计约7,000人受灾。\n\n国家风险和灾害管理局（BNGRC）局长埃拉克·安德里亚卡贾将军在声明中表示：“这种气旋很少见。它几乎停滞不动。”\n\n他说：“当这个系统停留在一个地方时，会摧毁所有基础设施，给人口造成严重后果，并引发严重洪水。”\n\n损失的完整范围仍不清楚，因为该地区许多村庄与全国其他地方隔绝，救援人员难以进入。\n\n气旋以平均每小时150公里（93英里）的风速穿越岛屿，并带来强降雨。部分地区测得每小时210公里（130英里）的风速。\n\n据气象学家称，加马内已重新归类为热带风暴，预计星期五下午离开该岛。\n\n马达加斯加位于非洲东南部近海，经常受到恶劣天气影响。一年前，热带气旋弗雷迪摧毁该国及邻近非洲大陆国家莫桑比克和马拉维，500多人丧生。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "据官员称，气旋加马内袭击马达加斯加北部，造成至少11人死亡、数百所房屋被毁。\n\n原本预计风暴将掠过这个印度洋岛屿，但它改变路径，于星期三凌晨袭击岛上的武埃马尔地区。\n\n",
+          "start_offset": 0,
+          "end_offset": 84,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "damage",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 11,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "destroyed_homes",
+              "value": "数百",
+              "unit": null
+            },
+            {
+              "attribute": "landfall_area",
+              "value": "星期三凌晨武埃马尔",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "视频画面显示，激流穿过村庄，人们在齐腰深的水中组成救援人链，试图帮助被困在房屋中的人员逃离洪水。许多道路及桥梁被淹没并中断。\n\n6人溺亡，另有5人因房屋倒塌或树木倒伏死亡，总计约7,000人受灾。\n\n",
+          "start_offset": 84,
+          "end_offset": 184,
+          "sentence_ids": [
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "response",
+            "damage",
+            "infrastructure",
+            "casualties",
+            "affected_population"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "drowned",
+              "value": 6,
+              "unit": "people"
+            },
+            {
+              "attribute": "deaths_in_collapses_or_treefalls",
+              "value": 5,
+              "unit": "people"
+            },
+            {
+              "attribute": "affected",
+              "value": {
+                "value": 7000,
+                "qualifier": "some"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "国家风险和灾害管理局（BNGRC）局长埃拉克·安德里亚卡贾将军在声明中表示：“这种气旋很少见。它几乎停滞不动。”\n\n他说：“当这个系统停留在一个地方时，会摧毁所有基础设施，给人口造成严重后果，并引发严重洪水。”\n\n损失的完整范围仍不清楚，因为该地区许多村庄与全国其他地方隔绝，救援人员难以进入。\n\n",
+          "start_offset": 184,
+          "end_offset": 333,
+          "sentence_ids": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard",
+            "cause",
+            "infrastructure",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "storm_movement",
+              "value": "几乎停滞不动",
+              "unit": null
+            },
+            {
+              "attribute": "access",
+              "value": "与外界隔绝的村庄阻碍评估",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "气旋以平均每小时150公里（93英里）的风速穿越岛屿，并带来强降雨。部分地区测得每小时210公里（130英里）的风速。\n\n据气象学家称，加马内已重新归类为热带风暴，预计星期五下午离开该岛。\n\n",
+          "start_offset": 333,
+          "end_offset": 429,
+          "sentence_ids": [
+            12,
+            13,
+            14
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "average_wind",
+              "value": 150,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "winds_measured_some_places",
+              "value": 210,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "friday_departure",
+              "value": "预测",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "马达加斯加位于非洲东南部近海，经常受到恶劣天气影响。一年前，热带气旋弗雷迪摧毁该国及邻近非洲大陆国家莫桑比克和马拉维，500多人丧生。",
+          "start_offset": 429,
+          "end_offset": 496,
+          "sentence_ids": [
+            15,
+            16,
+            17
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "历史上的弗雷迪背景",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 500,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "8e0809de1c948d6e4c686fe8f1d4b2071140078d53ebef0905b00814fe2353bd",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-7BA3B07AA1BA8906",
+      "event_id": "DIS-TC-A2D3B0D252724B03",
+      "event_rank": 32,
+      "article_rank": 2,
+      "title": "政府称马达加斯加气旋加马内造成至少11人死亡、数千人流离失所 | 科学与环境",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/science-environment/2872588-madagascar-cyclone-gamane-kills-at-least-11-displaces-thousands-government-says",
+      "published_at": "2024-03-29T09:35:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "后半部分的大段内容与 Deccan Herald 几乎完全相同，未显示原始来源署名。",
+      "content": "据马达加斯加灾害管理部门称，本周席卷该岛的热带气旋造成至少11人死亡，数千人流离失所。国家风险和灾害管理局（BNGRC）星期四晚间的一份报告称，星期三及星期四穿越马达加斯加东北部的热带气旋加马内使超过18,000人流离失所，另有3人仍失踪。\n\nBNGRC 表示，加马内星期三上午在马达加斯加东北部武埃马尔以北登陆，平均风速为每小时150公里，阵风达每小时210公里。灾害管理办公室表示，风暴在给许多地方带来强降雨和洪水后，于星期四下午仍在陆地上时缓慢消散。\n\nBNRGC 表示，马达加斯加北部道路和桥梁倒塌。灾害管理部门在 Facebook 发布的照片显示，其工作人员涉过齐膝深的水，帮助居民从被淹住宅中取回财物。\n\n加马内是今年马达加斯加气旋及风暴季的首场风暴。去年年初，气旋弗雷迪和热带风暴切内索造成至少37人死亡，迫使数千人离开家园。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "据马达加斯加灾害管理部门称，本周席卷该岛的热带气旋造成至少11人死亡，数千人流离失所。国家风险和灾害管理局（BNGRC）星期四晚间的一份报告称，星期三及星期四穿越马达加斯加东北部的热带气旋加马内使超过18,000人流离失所，另有3人仍失踪。\n\n",
+          "start_offset": 0,
+          "end_offset": 122,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "missing_persons",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 11,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "displaced",
+              "value": {
+                "value": 18000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "missing",
+              "value": 3,
+              "unit": "people"
+            },
+            {
+              "attribute": "report_time",
+              "value": "星期四晚些时候",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "BNGRC",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "BNGRC 表示，加马内星期三上午在马达加斯加东北部武埃马尔以北登陆，平均风速为每小时150公里，阵风达每小时210公里。灾害管理办公室表示，风暴在给许多地方带来强降雨和洪水后，于星期四下午仍在陆地上时缓慢消散。\n\n",
+          "start_offset": 122,
+          "end_offset": 230,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "average_wind",
+              "value": 150,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "gusts",
+              "value": 210,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "dissipated",
+              "value": "星期四下午在陆地上",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "BNRGC 表示，马达加斯加北部道路和桥梁倒塌。灾害管理部门在 Facebook 发布的照片显示，其工作人员涉过齐膝深的水，帮助居民从被淹住宅中取回财物。\n\n",
+          "start_offset": 230,
+          "end_offset": 309,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "加马内是今年马达加斯加气旋及风暴季的首场风暴。去年年初，气旋弗雷迪和热带风暴切内索造成至少37人死亡，迫使数千人离开家园。",
+          "start_offset": 309,
+          "end_offset": 370,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "historical_scope",
+              "value": "弗雷迪和切内索",
+              "unit": null
+            },
+            {
+              "attribute": "historical_deaths",
+              "value": {
+                "value": 37,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "e4779ffcbb6c3dcda1f285ec9d4e98a361bf1f83ae6276f92c0c63142b8f13ef",
+        "removed_word_count": 16,
+        "removed_word_ratio": 0.07729468599033816
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-7A9CEA411F5D30C0",
+      "event_id": "DIS-TC-A2D3B0D252724B03",
+      "event_rank": 32,
+      "article_rank": 3,
+      "title": "官员：马达加斯加气旋加马内造成至少11人死亡、数千人流离失所",
+      "publisher": "deccanherald",
+      "identified_publisher": null,
+      "source_domain": "deccanherald.com",
+      "url": "https://www.deccanherald.com/world/madagascar-cyclone-gamane-kills-at-least-11-displaces-thousands-officials-2957602",
+      "published_at": "2024-03-29T10:17:29+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "文章与 Devdiscourse 非常相似，开头更新了伤亡数据，并包含嵌入式网站推荐。",
+      "content": "塔那那利佛：该国灾害管理部门星期五表示，本周席卷马达加斯加岛的热带气旋造成至少18人死亡及数千人流离失所。国家风险和灾害管理局（BNGRC）在报告中称，星期三和星期四穿越马达加斯加东北部的热带气旋加马内导致超过20,000人流离失所。该局补充说，另有3人受伤、4人仍失踪。报道：罗马尼亚在乌克兰边境附近发现无人机碎片。 BNGRC 星期四晚些时候表示，加马内星期三上午在马达加斯加东北部武埃马尔以北登陆，平均风速每小时150公里，阵风达每小时210公里。灾害管理部门表示，风暴在给许多地方带来强降雨和洪水后，于星期四下午仍在陆地上时缓慢消散。BNRGC 表示，马达加斯加北部道路和桥梁倒塌。希腊发生5.8级地震。 灾害管理部门在 Facebook 发布的照片显示，其工作人员涉过齐膝深的水，帮助居民从被淹住宅中取回财物。 加马内是今年马达加斯加气旋及风暴季的首场风暴。去年年初，气旋弗雷迪和热带风暴切内索造成至少37人死亡，迫使数千人离开家园。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "塔那那利佛：该国灾害管理部门星期五表示，本周席卷马达加斯加岛的热带气旋造成至少18人死亡及数千人流离失所。国家风险和灾害管理局（BNGRC）在报告中称，星期三和星期四穿越马达加斯加东北部的热带气旋加马内导致超过20,000人流离失所。该局补充说，另有3人受伤、4人仍失踪。",
+          "start_offset": 0,
+          "end_offset": 136,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "missing_persons",
+            "evacuation",
+            "injuries"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 18,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "displaced",
+              "value": {
+                "value": 20000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injured",
+              "value": 3,
+              "unit": "people"
+            },
+            {
+              "attribute": "missing",
+              "value": 4,
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "BNGRC",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "报道：罗马尼亚在乌克兰边境附近发现无人机碎片。 ",
+          "start_offset": 136,
+          "end_offset": 160,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "BNGRC 星期四晚些时候表示，加马内星期三上午在马达加斯加东北部武埃马尔以北登陆，平均风速每小时150公里，阵风达每小时210公里。灾害管理部门表示，风暴在给许多地方带来强降雨和洪水后，于星期四下午仍在陆地上时缓慢消散。BNRGC 表示，马达加斯加北部道路和桥梁倒塌。",
+          "start_offset": 160,
+          "end_offset": 295,
+          "sentence_ids": [
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "disaster_magnitude",
+            "timeline",
+            "damage",
+            "infrastructure"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "average_wind",
+              "value": 150,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "gusts",
+              "value": 210,
+              "unit": "km/h"
+            },
+            {
+              "attribute": "dissipated",
+              "value": "星期四下午在陆地上",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "希腊发生5.8级地震。 ",
+          "start_offset": 295,
+          "end_offset": 307,
+          "sentence_ids": [
+            8
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "灾害管理部门在 Facebook 发布的照片显示，其工作人员涉过齐膝深的水，帮助居民从被淹住宅中取回财物。 ",
+          "start_offset": 307,
+          "end_offset": 361,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "response",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "加马内是今年马达加斯加气旋及风暴季的首场风暴。去年年初，气旋弗雷迪和热带风暴切内索造成至少37人死亡，迫使数千人离开家园。",
+          "start_offset": 361,
+          "end_offset": 422,
+          "sentence_ids": [
+            10,
+            11
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "historical_scope",
+              "value": "弗雷迪和切内索",
+              "unit": null
+            },
+            {
+              "attribute": "historical_deaths",
+              "value": {
+                "value": 37,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "8ae2b4b9c8f4ddefb253bda62da5aaf4904cac1c83ed8406d69a86d83601d2ef",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "报道的死亡人数下限从11人升至至少18人",
+        "fact_type": "casualties",
+        "attribute": "death_toll",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 11,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "value": 11,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": "BNGRC late Thursday"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "value": 18,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": "BNGRC Friday"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "temporal_update",
+        "temporal_relation": "earlier_later",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "一些避难和流离失所人数增加",
+        "fact_type": "evacuation",
+        "attribute": "displaced",
+        "supporting_spans": [
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "value": 18000,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": "BNGRC late Thursday"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "value": 20000,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": "BNGRC Friday"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "temporal_update",
+        "temporal_relation": "earlier_later",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "据报平均风速为每小时150公里，最高达每小时210公里",
+        "fact_type": "disaster_magnitude",
+        "attribute": "reported_winds",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F002",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": {
+              "mean": 150,
+              "measured_high": 210
+            },
+            "unit": "km/h",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": {
+              "mean": 150,
+              "gusts": 210
+            },
+            "unit": "km/h",
+            "attribution": "BNGRC"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": {
+              "mean": 150,
+              "gusts": 210
+            },
+            "unit": "km/h",
+            "attribution": "BNGRC"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "风暴将离开岛屿的预测与其消散的报道不可直接比较",
+        "fact_type": "weather",
+        "attribute": "storm_end",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F002",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": "预计星期五下午离开",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "据报星期四下午在陆地上消散",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "据报星期四下午在陆地上消散",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2024-03-27",
+          "time_precision": "Local date",
+          "description": "加马内在武埃马尔附近登陆。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F002",
+            "A003_F003"
+          ]
+        },
+        {
+          "time": "2024-03-28",
+          "time_precision": "Local date",
+          "description": "BNGRC 报告风暴已经消散，已记录11人死亡。",
+          "supporting_spans": [
+            "A002_F001",
+            "A002_F002"
+          ]
+        },
+        {
+          "time": "2024-03-29",
+          "time_precision": "Publication date",
+          "description": "星期五通报至少18人死亡、20,000多人流离失所。",
+          "supporting_spans": [
+            "A003_F001"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "移动缓慢的系统带来强降雨。洪水切断运输通道，延误救援人员抵达村庄。",
+          "supporting_spans": [
+            "A001_F002",
+            "A001_F003",
+            "A002_F003"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "加马内登陆后造成洪水和死亡。后续通报上调伤亡及流离失所人数。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F001",
+            "A002_F002",
+            "A003_F001",
+            "A003_F003"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "A003 标题仍保留11人的数字，正文则引用星期五18人的数据。保留原始标题并分时段记录这些数字。"
+    ]
+  }
+}

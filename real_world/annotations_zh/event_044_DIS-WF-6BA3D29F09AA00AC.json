@@ -1,0 +1,854 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-WF-6BA3D29F09AA00AC",
+  "event_rank": 44,
+  "event_metadata": {
+    "event_name": "希腊森林火灾",
+    "disaster_type": "wildfire",
+    "disaster_type_code": "WF",
+    "event_start_time": "2023-08-19T00:00:00+00:00",
+    "event_end_time": "2023-09-02T00:00:00+00:00",
+    "locations": [
+      "希腊"
+    ],
+    "latitude": 40.9741,
+    "longitude": 25.9573,
+    "place_names_in_reports": [
+      "希腊",
+      "埃夫罗斯",
+      "亚历山德鲁波利斯",
+      "达迪亚",
+      "雅典",
+      "帕尔尼萨山",
+      "埃维亚岛",
+      "基索斯岛",
+      "维奥蒂亚",
+      "安德罗斯岛",
+      "罗多彼"
+    ],
+    "gdacs_id": "1016606",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "死亡总数、据信为移民的子集以及东北部子集分别记录。"
+    ],
+    "dataset_place_name": "希腊森林火灾",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-F79712DF5C6ADAA2",
+      "event_id": "DIS-WF-6BA3D29F09AA00AC",
+      "event_rank": 44,
+      "article_rank": 1,
+      "title": "希腊森林火灾死亡人数升至20人 2023年8月22日",
+      "publisher": "enca",
+      "identified_publisher": "AFP material",
+      "source_domain": "enca.com",
+      "url": "https://www.enca.com/news/greece-forest-fires-death-toll-hits-20",
+      "published_at": "2023-08-22T00:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "eNCA 明确注明法新社采访，数段内容与 Digital Journal 的法新社报道重合。",
+      "content": "雅典——星期二，在靠近土耳其边境的希腊森林火灾中发现18名疑似移民遇难，数十名消防员努力控制一个月内袭击该国的第二轮致命火灾。\n\n消防部门发言人扬尼斯·阿尔托皮奥斯说，遇难者在亚历山德鲁波利斯市以北被发现。\n\n由于没有当地居民报告失踪，阿尔托皮奥斯在电视讲话中表示，“正在调查他们可能是非法进入我国的人员这一情况”。\n\n该地区是非正规移民经常进入的地点。\n\n此次新发现死者使本周火灾死亡总人数升至20人，此前星期一该地区发现另一名疑似移民遇难。\n\n星期一，在雅典以北还发现一名年迈牧羊人死亡。\n\n在大风和最高41摄氏度高温的危险组合下，火焰仍在希腊东北部、埃维亚岛及基索斯岛、雅典以北维奥蒂亚地区不受控制地蔓延。\n\n一名消防部门女发言人告诉法新社：“情况与7月类似。”她指的是当时该国多地一轮火灾造成5人死亡的事件。\n\n消防部门表示，过去24小时内发生60多起火灾，六个国家正通过欧盟民事保护机制提供帮助。\n\n消防部门发言人瓦西利斯·瓦斯拉科扬尼斯对国营电视台 ERT 表示，约120名来自塞浦路斯、罗马尼亚、捷克、克罗地亚、德国和塞尔维亚的消防员将参与行动。\n\n星期二，雅典附近阿斯普罗皮尔戈斯工业区一处垃圾填埋场发生新火灾，有害黑云笼罩该地区。\n\n官员关闭雅典环城公路最近的路段，并建议居民待在室内。\n\n首都附近帕尔尼萨山山麓又发生一场火灾，促使居民疏散。\n\n星期一晚，希腊东北部港口城市亚历山德鲁波利斯的医院被下令疏散，周边地区的火灾已肆虐至第四天。\n\n海岸警卫队表示，已将65名患者转移至该市港口等待的渡轮上。\n\n在首都附近的埃维亚岛，官员星期一晚疏散工业城镇新阿尔塔基，火灾已损坏当地家禽及养猪农场。\n\n亚历山德鲁波利斯附近的火灾还威胁达迪亚国家公园，这是欧洲最重要的保护区之一，栖息着稀有鸟类。\n\n据气象学家称，增加火灾风险的极度炎热和干燥状况将持续至星期五。\n\n热浪期间，7月18日开始并受大风助长的一场火灾，在爱琴海东南部热门旅游岛屿罗得岛南部10天内烧毁近17,770公顷土地。\n\n约20,000人不得不撤离，其中大部分为游客。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "雅典——星期二，在靠近土耳其边境的希腊森林火灾中发现18名疑似移民遇难，数十名消防员努力控制一个月内袭击该国的第二轮致命火灾。\n\n消防部门发言人扬尼斯·阿尔托皮奥斯说，遇难者在亚历山德鲁波利斯市以北被发现。\n\n由于没有当地居民报告失踪，阿尔托皮奥斯在电视讲话中表示，“正在调查他们可能是非法进入我国的人员这一情况”。\n\n该地区是非正规移民经常进入的地点。\n\n此次新发现死者使本周火灾死亡总人数升至20人，此前星期一该地区发现另一名疑似移民遇难。\n\n星期一，在雅典以北还发现一名年迈牧羊人死亡。\n\n",
+          "start_offset": 0,
+          "end_offset": 248,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "casualties",
+            "missing_persons",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "found_tuesday",
+              "value": 18,
+              "unit": "people"
+            },
+            {
+              "attribute": "weekly_total_at_report",
+              "value": 20,
+              "unit": "people"
+            },
+            {
+              "attribute": "identity_status",
+              "value": "疑似移民，正在调查",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "在大风和最高41摄氏度高温的危险组合下，火焰仍在希腊东北部、埃维亚岛及基索斯岛、雅典以北维奥蒂亚地区不受控制地蔓延。\n\n一名消防部门女发言人告诉法新社：“情况与7月类似。”她指的是当时该国多地一轮火灾造成5人死亡的事件。\n\n消防部门表示，过去24小时内发生60多起火灾，六个国家正通过欧盟民事保护机制提供帮助。\n\n消防部门发言人瓦西利斯·瓦斯拉科扬尼斯对国营电视台 ERT 表示，约120名来自塞浦路斯、罗马尼亚、捷克、克罗地亚、德国和塞尔维亚的消防员将参与行动。\n\n",
+          "start_offset": 248,
+          "end_offset": 482,
+          "sentence_ids": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_occurrence",
+            "response",
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "temperature",
+              "value": {
+                "value": 41,
+                "qualifier": "up_to"
+              },
+              "unit": "°C"
+            },
+            {
+              "attribute": "fires_24h",
+              "value": {
+                "value": 60,
+                "qualifier": "greater_than"
+              },
+              "unit": null
+            },
+            {
+              "attribute": "international_firefighters",
+              "value": {
+                "value": 120,
+                "qualifier": "some"
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "星期二，雅典附近阿斯普罗皮尔戈斯工业区一处垃圾填埋场发生新火灾，有害黑云笼罩该地区。\n\n官员关闭雅典环城公路最近的路段，并建议居民待在室内。\n\n首都附近帕尔尼萨山山麓又发生一场火灾，促使居民疏散。\n\n星期一晚，希腊东北部港口城市亚历山德鲁波利斯的医院被下令疏散，周边地区的火灾已肆虐至第四天。\n\n海岸警卫队表示，已将65名患者转移至该市港口等待的渡轮上。\n\n在首都附近的埃维亚岛，官员星期一晚疏散工业城镇新阿尔塔基，火灾已损坏当地家禽及养猪农场。\n\n亚历山德鲁波利斯附近的火灾还威胁达迪亚国家公园，这是欧洲最重要的保护区之一，栖息着稀有鸟类。\n\n据气象学家称，增加火灾风险的极度炎热和干燥状况将持续至星期五。\n\n",
+          "start_offset": 482,
+          "end_offset": 788,
+          "sentence_ids": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "evacuation",
+            "response",
+            "infrastructure",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "hospital_patients_evacuated_to_ferry",
+              "value": 65,
+              "unit": "people"
+            },
+            {
+              "attribute": "affected_sites",
+              "value": [
+                "阿斯普罗皮尔戈斯",
+                "帕尔尼萨山",
+                "亚历山德鲁波利斯",
+                "新阿尔塔基",
+                "达迪亚"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "热浪期间，7月18日开始并受大风助长的一场火灾，在爱琴海东南部热门旅游岛屿罗得岛南部10天内烧毁近17,770公顷土地。\n\n约20,000人不得不撤离，其中大部分为游客。",
+          "start_offset": 788,
+          "end_offset": 873,
+          "sentence_ids": [
+            19,
+            20
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "damage",
+            "evacuation"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "历史上的7月罗得岛火灾",
+              "unit": null
+            },
+            {
+              "attribute": "evacuated",
+              "value": {
+                "value": 20000,
+                "qualifier": "around"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "0abe852d75ba43733f2d767e77a614347f77718081ae85ef7beb2c2898aa79f0",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-BC5FFC85B854A1DC",
+      "event_id": "DIS-WF-6BA3D29F09AA00AC",
+      "event_rank": 44,
+      "article_rank": 2,
+      "title": "希腊消防员在多条战线奋力扑救大火",
+      "publisher": "digitaljournal",
+      "identified_publisher": "AFP",
+      "source_domain": "digitaljournal.com",
+      "url": "https://www.digitaljournal.com/world/greek-firefighters-battle-major-blazes-on-multiple-fronts/article",
+      "published_at": "2023-08-23T12:56:06+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "结尾材料注明法新社来源，多个段落与转载的法新社稿件非常相似。",
+      "content": "星期三，希腊消防员连续第五天努力控制全国各地失控的火灾，其中多场火灾邻近弥漫刺鼻烟雾的雅典。\n\n过去两天，包括两名儿童在内的19名据信为移民的人员死于森林火灾。\n\n受大风助长的一场火灾席卷帕尔尼萨山山麓，这是与首都相邻的最大森林。火灾在一处国家公园外围附近燃烧，并威胁当地一家赌场。\n\n星期三上午，该地区数个居民点被下令疏散，其中包括三家养老院。\n\n大火损坏雅典西北部梅尼迪地区住宅，那里也靠近一个军事营地。\n\n希腊红十字会组织者尼科斯·昆特罗米哈利斯在梅尼迪告诉国营电视台 ERT：“许多人不愿离开家园。”\n\n他说：“我们发现一些老人在自家院子里晕倒。”他补充说，团队已治疗数名烧伤和呼吸困难的居民。\n\n附近哈西亚及菲利郊区的住宅和财产已被火灾摧毁。\n\n雅典以北阿米格达莱扎的一处移民拘留中心也被疏散。\n\n民事保护部长瓦西利斯·基基利亚斯在紧急记者会上表示，希腊消防员过去五天已扑救350多起火灾，其中过去48小时内超过200起。\n\n希腊消防部门负责人约尔戈斯·普尔纳拉斯告诉记者：“在32年服务生涯中，我从未见过如此极端的条件。”他指出，即使夜间风力仍然很强。\n\n普尔纳拉斯说，尽管消防投水飞机在数分钟内抵达现场，帕尔尼萨山火灾仍已蔓延。\n\n星期三清晨，希腊首都弥漫着焦土气味，浓密黑烟遮蔽天空。\n\n梅尼迪副市长斯塔西斯·托帕利迪斯告诉国营电视台 ERT：“不幸的是，风完全没有帮助。”\n\n星期二，当局下令疏散雅典西北部拥有25,000多名居民的阿诺利奥西亚地区，不过仍有一些人留在家中试图保护财产。\n\n消防部门发言人扬尼斯·阿尔托皮奥斯在电视讲话中表示：“条件仍然困难，在许多情况下极为严峻。”\n\n雅典以西阿斯普罗皮尔戈斯工业区一处垃圾填埋场仍有另一场大火肆虐。\n\n靠近土耳其边境的东北部埃夫罗斯地区，亚历山德鲁波利斯及达迪亚森林的火焰已连续第五天不受控制地蔓延，那里是稀有猛禽的栖息地。\n\n该地区夜间下令进行更多疏散。\n\n一些缺乏依据的传言和指控也在社交媒体上迅速传播，指责移民对火灾暴发负责。\n\n希腊最高法院检察官星期三命令地方官员，同时调查灾难性火灾的原因以及涉嫌针对移民的种族主义指控。\n\n希腊当局星期二在希腊北部逮捕三人，他们指责无证移民应对火灾负责，并强迫这些移民进入货运拖车。\n\n被捕人员在社交媒体发布视频，敦促更多人效仿。\n\n星期二，在靠近土耳其边境、亚历山德鲁波利斯以北的森林火灾中发现18人死亡，其中包括两名儿童。\n\n由于没有当地居民报告失踪，消防部门发言人扬尼斯·阿尔托皮奥斯在电视讲话中表示，“正在调查他们可能是非法进入我国的人员这一情况”。\n\n星期一，另一名据信为移民的人员被发现死亡。\n\n埃维亚岛和基索斯岛、雅典以北维奥蒂亚地区及希腊西部的火灾也在肆虐。\n\n星期二在萨莫色雷斯岛发生的另一场火灾于夜间得到控制，但该岛仍然没有电力。\n\n据雅典国家天文台一份报告，仅8月19日至21日三天，野火就摧毁超过40,000公顷（近99,000英亩）土地。\n\n气象学家表示，增加火灾风险的极度炎热和干燥状况将持续至星期五。\n\n订阅我们的每周通讯，我们将关注正在重塑加拿大企业运营和竞争方式的科技故事，以及它们对经营者的意义。\n\n我们的通讯将在星期二送达您的收件箱。您可以随时取消订阅。\n\n法新社拥有代表100个不同国籍的2,400名员工，是覆盖全球的领先通讯社。法新社为影响我们日常生活的问题提供快速、全面且经过核实的报道。\n\n星期三，希腊一家上诉法院在一宗里程碑案件中，判处新纳粹金色黎明党领导人13年监禁，案件涉及该国经济危机最严重阶段发生的犯罪。法院上周已经认定……\n\n星期三，热浪助长大火并迫使南欧数千人撤离之际，希腊努力控制20多起野火，其中一起威胁该国第三大城市帕特雷。西班牙、葡萄牙、法国、意大利、巴尔干地区及英国已……\n\n法国南部一场巨大野火的消防人员面临“充满挑战的一天”，官员星期日警告，酷热及干燥大风可能使火灾复燃。大火已摧毁法国南部奥德省大片地区……\n\n消防员已控制法国南部一场巨大野火，但地方官员星期日警告，在地中海地区部分地方遭遇热浪之际，酷热和干燥条件可能使火灾复燃。大火摧毁大片……\n\n星期六，呼啸大风席卷居民点，扬起灰尘和周边山丘传来的刺鼻灰烬气味。\n\n星期一，地中海大片地区夏季热浪使土耳其酷热，消防员在该国各地扑救大火，过去一周野火已在该国造成至少14人死亡。约20个村庄已被疏散……\n\n星期日，希腊连续第二天扑救摧毁房屋并引发疏散的野火，预计捷克消防员及意大利飞机稍后抵达协助。星期日上午，西部伯罗奔尼撒地区火灾仍在肆虐……",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "星期三，希腊消防员连续第五天努力控制全国各地失控的火灾，其中多场火灾邻近弥漫刺鼻烟雾的雅典。\n\n过去两天，包括两名儿童在内的19名据信为移民的人员死于森林火灾。\n\n",
+          "start_offset": 0,
+          "end_offset": 82,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "suspected_migrants_dead",
+              "value": 19,
+              "unit": "people"
+            },
+            {
+              "attribute": "children_among_dead",
+              "value": 2,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "受大风助长的一场火灾席卷帕尔尼萨山山麓，这是与首都相邻的最大森林。火灾在一处国家公园外围附近燃烧，并威胁当地一家赌场。\n\n星期三上午，该地区数个居民点被下令疏散，其中包括三家养老院。\n\n大火损坏雅典西北部梅尼迪地区住宅，那里也靠近一个军事营地。\n\n希腊红十字会组织者尼科斯·昆特罗米哈利斯在梅尼迪告诉国营电视台 ERT：“许多人不愿离开家园。”\n\n他说：“我们发现一些老人在自家院子里晕倒。”他补充说，团队已治疗数名烧伤和呼吸困难的居民。\n\n附近哈西亚及菲利郊区的住宅和财产已被火灾摧毁。\n\n雅典以北阿米格达莱扎的一处移民拘留中心也被疏散。\n\n",
+          "start_offset": 82,
+          "end_offset": 354,
+          "sentence_ids": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "evacuation",
+            "damage",
+            "injuries",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "areas",
+              "value": [
+                "帕尔尼萨山",
+                "梅尼迪",
+                "哈西亚",
+                "菲利",
+                "阿米格达莱扎"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "nursing_homes_evacuated",
+              "value": 3,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "民事保护部长瓦西利斯·基基利亚斯在紧急记者会上表示，希腊消防员过去五天已扑救350多起火灾，其中过去48小时内超过200起。\n\n希腊消防部门负责人约尔戈斯·普尔纳拉斯告诉记者：“在32年服务生涯中，我从未见过如此极端的条件。”他指出，即使夜间风力仍然很强。\n\n普尔纳拉斯说，尽管消防投水飞机在数分钟内抵达现场，帕尔尼萨山火灾仍已蔓延。\n\n星期三清晨，希腊首都弥漫着焦土气味，浓密黑烟遮蔽天空。\n\n梅尼迪副市长斯塔西斯·托帕利迪斯告诉国营电视台 ERT：“不幸的是，风完全没有帮助。”\n\n星期二，当局下令疏散雅典西北部拥有25,000多名居民的阿诺利奥西亚地区，不过仍有一些人留在家中试图保护财产。\n\n消防部门发言人扬尼斯·阿尔托皮奥斯在电视讲话中表示：“条件仍然困难，在许多情况下极为严峻。”\n\n雅典以西阿斯普罗皮尔戈斯工业区一处垃圾填埋场仍有另一场大火肆虐。\n\n靠近土耳其边境的东北部埃夫罗斯地区，亚历山德鲁波利斯及达迪亚森林的火焰已连续第五天不受控制地蔓延，那里是稀有猛禽的栖息地。\n\n该地区夜间下令进行更多疏散。\n\n",
+          "start_offset": 354,
+          "end_offset": 815,
+          "sentence_ids": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "response",
+            "weather",
+            "evacuation",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "fires_5_days",
+              "value": {
+                "value": 350,
+                "qualifier": "greater_than"
+              },
+              "unit": null
+            },
+            {
+              "attribute": "fires_48h",
+              "value": {
+                "value": 200,
+                "qualifier": "greater_than"
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "一些缺乏依据的传言和指控也在社交媒体上迅速传播，指责移民对火灾暴发负责。\n\n希腊最高法院检察官星期三命令地方官员，同时调查灾难性火灾的原因以及涉嫌针对移民的种族主义指控。\n\n希腊当局星期二在希腊北部逮捕三人，他们指责无证移民应对火灾负责，并强迫这些移民进入货运拖车。\n\n被捕人员在社交媒体发布视频，敦促更多人效仿。\n\n星期二，在靠近土耳其边境、亚历山德鲁波利斯以北的森林火灾中发现18人死亡，其中包括两名儿童。\n\n由于没有当地居民报告失踪，消防部门发言人扬尼斯·阿尔托皮奥斯在电视讲话中表示，“正在调查他们可能是非法进入我国的人员这一情况”。\n\n星期一，另一名据信为移民的人员被发现死亡。\n\n",
+          "start_offset": 815,
+          "end_offset": 1111,
+          "sentence_ids": [
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "fact_types": [
+            "casualties",
+            "uncertainty",
+            "public_reaction",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "found_tuesday",
+              "value": 18,
+              "unit": "people"
+            },
+            {
+              "attribute": "children_among_tuesday_bodies",
+              "value": 2,
+              "unit": "people"
+            },
+            {
+              "attribute": "cause_status",
+              "value": "无根据的指控及独立的官方调查",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "埃维亚岛和基索斯岛、雅典以北维奥蒂亚地区及希腊西部的火灾也在肆虐。\n\n星期二在萨莫色雷斯岛发生的另一场火灾于夜间得到控制，但该岛仍然没有电力。\n\n据雅典国家天文台一份报告，仅8月19日至21日三天，野火就摧毁超过40,000公顷（近99,000英亩）土地。\n\n气象学家表示，增加火灾风险的极度炎热和干燥状况将持续至星期五。\n\n",
+          "start_offset": 1111,
+          "end_offset": 1274,
+          "sentence_ids": [
+            27,
+            28,
+            29,
+            30
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "infrastructure",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "burned_august_19_to_21",
+              "value": {
+                "value": 40000,
+                "qualifier": "greater_than"
+              },
+              "unit": "ha"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "订阅我们的每周通讯，我们将关注正在重塑加拿大企业运营和竞争方式的科技故事，以及它们对经营者的意义。\n\n我们的通讯将在星期二送达您的收件箱。您可以随时取消订阅。\n\n法新社拥有代表100个不同国籍的2,400名员工，是覆盖全球的领先通讯社。法新社为影响我们日常生活的问题提供快速、全面且经过核实的报道。\n\n星期三，希腊一家上诉法院在一宗里程碑案件中，判处新纳粹金色黎明党领导人13年监禁，案件涉及该国经济危机最严重阶段发生的犯罪。法院上周已经认定……\n\n星期三，热浪助长大火并迫使南欧数千人撤离之际，希腊努力控制20多起野火，其中一起威胁该国第三大城市帕特雷。西班牙、葡萄牙、法国、意大利、巴尔干地区及英国已……\n\n法国南部一场巨大野火的消防人员面临“充满挑战的一天”，官员星期日警告，酷热及干燥大风可能使火灾复燃。大火已摧毁法国南部奥德省大片地区……\n\n消防员已控制法国南部一场巨大野火，但地方官员星期日警告，在地中海地区部分地方遭遇热浪之际，酷热和干燥条件可能使火灾复燃。大火摧毁大片……\n\n星期六，呼啸大风席卷居民点，扬起灰尘和周边山丘传来的刺鼻灰烬气味。\n\n星期一，地中海大片地区夏季热浪使土耳其酷热，消防员在该国各地扑救大火，过去一周野火已在该国造成至少14人死亡。约20个村庄已被疏散……\n\n星期日，希腊连续第二天扑救摧毁房屋并引发疏散的野火，预计捷克消防员及意大利飞机稍后抵达协助。星期日上午，西部伯罗奔尼撒地区火灾仍在肆虐……",
+          "start_offset": 1274,
+          "end_offset": 1893,
+          "sentence_ids": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "189980eade07ffef7d6ab1ee22af6139170da0fc3ff80df912bdabc6371e933a",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-7EA77929DE55FE33",
+      "event_id": "DIS-WF-6BA3D29F09AA00AC",
+      "event_rank": 44,
+      "article_rank": 3,
+      "title": "希腊：地区官员称埃夫罗斯火灾“无法控制”",
+      "publisher": "deutschewelle-en",
+      "identified_publisher": null,
+      "source_domain": "dw.com",
+      "url": "https://www.dw.com/en/greece-evros-fire-cannot-be-contained-regional-official/a-66642315",
+      "published_at": "2023-08-27T14:39:38+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "德国之声（DW）转述 ERT 及欧盟委员会，无署名。",
+      "content": "东北部希腊埃夫罗斯地区附近肆虐的一场野火不太可能得到控制，副行政长官季米特里斯·彼得罗维奇星期日告诉国家广播机构 ERT。\n\n亚历山德鲁波利斯市附近大火已经肆虐九天。\n\n欧盟委员会表示，这场威胁希腊达迪亚国家公园的大火是欧盟历史上最大单起火灾。\n\n首都雅典郊区及爱琴海安德罗斯岛也发生大型野火。\n\n彼得罗维奇告诉 ERT，截至星期日上午，消防员面临的条件仍然困难。\n\n他说：“不幸的是，我们看到达迪亚火线无法得到控制。”\n\n彼得罗维奇表示，预计星期一风向将发生变化，这可能导致火势进一步蔓延。\n\n与此同时，希腊民防部门表示，与上周相比，整体森林火灾风险已经下降。\n\n希腊东北部约74,000公顷（182,858英亩）土地已被烧焦，其中达迪亚国家公园13,000公顷。\n\n消防部门表示，近300名消防员、7架飞机及5架直升机正在努力扑灭埃夫罗斯的大火。\n\n埃夫罗斯一个村庄和相邻罗多彼的另一个村庄收到撤离命令。\n\n过去一周，希腊21起野火相关死亡事件中，20起由东北部大火造成。\n\n雅典西北郊也有一场大火肆虐，火势烧入帕尔尼萨山国家公园。\n\n消防部门称，260名消防员、一架飞机及三架直升机在该区域工作。\n\n星期六，基克拉泽斯群岛的安德罗斯岛发生第三场火灾，怀疑雷击是火灾原因。\n\n希腊各地共有600多名消防员与火焰奋战。\n\n过去一周，希腊每天都发生火灾。\n\n欧盟官员指出，气候变化是南欧野火频率及强度增加的原因。去年是仅次于2017年、有记录以来野火损失第二严重的一年。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "东北部希腊埃夫罗斯地区附近肆虐的一场野火不太可能得到控制，副行政长官季米特里斯·彼得罗维奇星期日告诉国家广播机构 ERT。\n\n亚历山德鲁波利斯市附近大火已经肆虐九天。\n\n欧盟委员会表示，这场威胁希腊达迪亚国家公园的大火是欧盟历史上最大单起火灾。\n\n首都雅典郊区及爱琴海安德罗斯岛也发生大型野火。\n\n彼得罗维奇告诉 ERT，截至星期日上午，消防员面临的条件仍然困难。\n\n他说：“不幸的是，我们看到达迪亚火线无法得到控制。”\n\n彼得罗维奇表示，预计星期一风向将发生变化，这可能导致火势进一步蔓延。\n\n与此同时，希腊民防部门表示，与上周相比，整体森林火灾风险已经下降。\n\n",
+          "start_offset": 0,
+          "end_offset": 283,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "response",
+            "uncertainty"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "evros_duration_as_reported",
+              "value": 9,
+              "unit": "days"
+            },
+            {
+              "attribute": "containment_outlook",
+              "value": "地区副行政长官预计无法控制",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "希腊东北部约74,000公顷（182,858英亩）土地已被烧焦，其中达迪亚国家公园13,000公顷。\n\n消防部门表示，近300名消防员、7架飞机及5架直升机正在努力扑灭埃夫罗斯的大火。\n\n埃夫罗斯一个村庄和相邻罗多彼的另一个村庄收到撤离命令。\n\n过去一周，希腊21起野火相关死亡事件中，20起由东北部大火造成。\n\n",
+          "start_offset": 283,
+          "end_offset": 440,
+          "sentence_ids": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "damage",
+            "response",
+            "evacuation",
+            "casualties"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "northeast_area",
+              "value": {
+                "value": 74000,
+                "qualifier": "around"
+              },
+              "unit": "ha"
+            },
+            {
+              "attribute": "dadia_area",
+              "value": 13000,
+              "unit": "ha"
+            },
+            {
+              "attribute": "northeast_deaths",
+              "value": 20,
+              "unit": "people"
+            },
+            {
+              "attribute": "nationwide_deaths",
+              "value": 21,
+              "unit": "people"
+            },
+            {
+              "attribute": "evros_aircraft",
+              "value": [
+                7,
+                5
+              ],
+              "unit": "planes and helicopters"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "雅典西北郊也有一场大火肆虐，火势烧入帕尔尼萨山国家公园。\n\n消防部门称，260名消防员、一架飞机及三架直升机在该区域工作。\n\n星期六，基克拉泽斯群岛的安德罗斯岛发生第三场火灾，怀疑雷击是火灾原因。\n\n希腊各地共有600多名消防员与火焰奋战。\n\n",
+          "start_offset": 440,
+          "end_offset": 562,
+          "sentence_ids": [
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "response",
+            "cause",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "mount_parnitha_firefighters",
+              "value": 260,
+              "unit": "people"
+            },
+            {
+              "attribute": "andros_suspected_cause",
+              "value": "雷击",
+              "unit": null
+            },
+            {
+              "attribute": "greece_firefighters",
+              "value": {
+                "value": 600,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "过去一周，希腊每天都发生火灾。\n\n欧盟官员指出，气候变化是南欧野火频率及强度增加的原因。去年是仅次于2017年、有记录以来野火损失第二严重的一年。",
+          "start_offset": 562,
+          "end_offset": 635,
+          "sentence_ids": [
+            18,
+            19,
+            20
+          ],
+          "fact_types": [
+            "weather",
+            "cause"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "2a9eccebe934b0b82230ecacdddc248d33bb24bc7b3df3312ee7159780bd795c",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "星期二在亚历山德鲁波利斯附近发现18具遗体",
+        "fact_type": "casualties",
+        "attribute": "tuesday_bodies_found",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 18,
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": 18,
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": "两篇报道均采用法新社来源。"
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "希腊本周全国野火死亡总人数",
+        "fact_type": "casualties",
+        "attribute": "overall_deaths",
+        "supporting_spans": [
+          "A001_F001",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 20,
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": 21,
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "报道时间不同。A002 的19人指据信为移民的子集。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "过火面积数字涵盖不同区域和时段",
+        "fact_type": "damage",
+        "attribute": "burned_area",
+        "supporting_spans": [
+          "A002_F005",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F005",
+            "value": {
+              "value": 40000,
+              "qualifier": "greater_than",
+              "scope": "希腊，8月19日至21日"
+            },
+            "unit": "ha",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "value": 74000,
+              "qualifier": "around",
+              "scope": "截至8月27日希腊东北部"
+            },
+            "unit": "ha",
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2023-08-22",
+          "time_precision": "Local date",
+          "description": "在亚历山德鲁波利斯附近发现18具遗体，多个地区实施疏散。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F003",
+            "A002_F004"
+          ]
+        },
+        {
+          "time": "2023-08-27",
+          "time_precision": "Publication date",
+          "description": "埃夫罗斯火灾仍难以控制，德国之声报道希腊东北部更广泛的损失。",
+          "supporting_spans": [
+            "A003_F001",
+            "A003_F002"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "大风及炎热干燥状况有利于火势继续蔓延。社交媒体关于起火责任的指控缺乏依据。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F004",
+            "A003_F001"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "大范围希腊野火影响埃夫罗斯、达迪亚及雅典郊区，造成人员死亡、疏散及保护区损坏。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F003",
+            "A002_F002",
+            "A003_F002"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "遇难者身份仍在调查。来源文本保留图片、简讯及其他历史火灾的报道。"
+    ]
+  }
+}

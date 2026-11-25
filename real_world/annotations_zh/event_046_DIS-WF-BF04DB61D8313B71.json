@@ -1,0 +1,929 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-WF-BF04DB61D8313B71",
+  "event_rank": 46,
+  "event_metadata": {
+    "event_name": "法国森林火灾",
+    "disaster_type": "wildfire",
+    "disaster_type_code": "WF",
+    "event_start_time": "2026-07-22T00:00:00+00:00",
+    "event_end_time": "2026-08-01T00:00:00+00:00",
+    "locations": [
+      "法国"
+    ],
+    "latitude": 44.8463,
+    "longitude": -1.0329,
+    "place_names_in_reports": [
+      "法国",
+      "吉伦特",
+      "朗德省",
+      "波尔多",
+      "比斯卡罗斯",
+      "帕朗蒂昂博尔讷",
+      "莱日-卡普费雷",
+      "西班牙",
+      "罗马尼亚"
+    ],
+    "gdacs_id": "1029628",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "罗马尼亚延长轮换是现有援助的延续，与欧盟飞机总数分开记录。"
+    ],
+    "dataset_place_name": "法国森林火灾",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-E46E6C49A2EFE21C",
+      "event_id": "DIS-WF-BF04DB61D8313B71",
+      "event_rank": 46,
+      "article_rank": 1,
+      "title": "罗马尼亚赴法国消防队任务再延长两周",
+      "publisher": "stiripesurse",
+      "identified_publisher": null,
+      "source_domain": "stiripesurse.ro",
+      "url": "https://www.stiripesurse.ro/mission-of-romanian-firefighters-contingent-in-france-extended-for-two-more-weeks_3907254",
+      "published_at": "2026-07-28T06:35:33+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "清理后的 Stiripesurse 文章转述罗马尼亚政府消息，没有明确署名。",
+      "content": "根据罗马尼亚国家紧急情况管理委员会（CNSU）星期一作出的决定，罗马尼亚将其驻法国消防队任务再延长两周。据政府称，在法国当局通过启动欧盟民事保护机制提出请求后，CNSU 在星期一会议上批准罗马尼亚继续参与支持扑灭法国植被和森林火灾的任务，再延长两周。在紧急情况管理部门（DSU）的协调下，任务将通过派遣来自国家紧急情况总监察局（IGSU）的新消防队轮换目前在法国的队伍而继续开展，新队伍将在受火灾影响地区接手行动职责。据称，这项决定反映了罗马尼亚与欧洲伙伴的团结，以及其为欧盟民事保护机制内紧急情况管理作出贡献的承诺。罗马尼亚消防员将继续与国际队伍并肩行动，以遏制野火影响并保护风险地区社区。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "根据罗马尼亚国家紧急情况管理委员会（CNSU）星期一作出的决定，罗马尼亚将其驻法国消防队任务再延长两周。据政府称，在法国当局通过启动欧盟民事保护机制提出请求后，CNSU 在星期一会议上批准罗马尼亚继续参与支持扑灭法国植被和森林火灾的任务，再延长两周。",
+          "start_offset": 0,
+          "end_offset": 125,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "mission_extension",
+              "value": 2,
+              "unit": "weeks"
+            },
+            {
+              "attribute": "requesting_country",
+              "value": "法国",
+              "unit": null
+            },
+            {
+              "attribute": "mechanism",
+              "value": "欧盟民事保护机制",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "在紧急情况管理部门（DSU）的协调下，任务将通过派遣来自国家紧急情况总监察局（IGSU）的新消防队轮换目前在法国的队伍而继续开展，新队伍将在受火灾影响地区接手行动职责。据称，这项决定反映了罗马尼亚与欧洲伙伴的团结，以及其为欧盟民事保护机制内紧急情况管理作出贡献的承诺。罗马尼亚消防员将继续与国际队伍并肩行动，以遏制野火影响并保护风险地区社区。",
+          "start_offset": 125,
+          "end_offset": 296,
+          "sentence_ids": [
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "response",
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "method",
+              "value": "轮换罗马尼亚消防队",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "ca40fefc5d592355ff3b6f76931db7798d08c41289c0458d1fd124e269f58a43",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-C08271B37851E843",
+      "event_id": "DIS-WF-BF04DB61D8313B71",
+      "event_rank": 46,
+      "article_rank": 2,
+      "title": "西班牙和法国仍处于火海中：30万人撤离，数万公顷土地化为灰烬——Geagency",
+      "publisher": "geagency",
+      "identified_publisher": null,
+      "source_domain": "geagency.it",
+      "url": "https://geagency.it/in-primo-piano/spagna-e-francia-ancora-tra-le-fiamme-300mila-evacuati-e-decine-di-migliaia-di-ettari-in-fumo/",
+      "published_at": "2026-07-27T12:27:32+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": "原始标签为 en，标题及正文为意大利语。",
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "Geagency 综合多个地区的民防报道，其欧盟部分与 A003 依赖相同的欧盟委员会材料。",
+      "content": "吉伦特地区和马德里地区的大火尚未扑灭。布鲁塞尔已启动欧洲民事保护机制。\n\n（照片：@BomberosMad 的 X 账户）\n\n仅吉伦特地区就有超过42,000公顷土地被摧毁，仅马德里地区的过火面积就超过28,000公顷。持续数天摧毁法国和西班牙的森林火灾损失数字不断增加。在伊比利亚半岛，今年以来已有172,396.10公顷土地在35起大型火灾中化为灰烬。近日规模最大的火灾包括瓜达拉哈拉火灾（超过32,000公顷）、阿维拉与马德里之间的火灾（15,000公顷）及萨拉戈萨/阿拉贡火灾（约14,400公顷）。\n\n法国吉伦特地区的火灾如今是法国过去50年来最具破坏性的火灾，远远超过同地区兰迪拉斯2022年7月烧毁12,552公顷土地的火灾。今年以来，法国全国约40,000公顷植被已被焚毁。\n\n西班牙。 西班牙方面，至少84名消防员受伤，但平民中没有遇难者。瓦伦西亚自治区约20人需要吸氧。数千名救援人员正在现场不间断工作。前方指挥所和民防部门公布的数据表明，撤离人数创纪录，约涉及90,000人（46个不同人口聚居区登记人数为89,763人）。情况最严重的是阿维拉省（仅蒂埃塔尔河谷就有约30,000人撤离）及马德里自治区，后者尤其不得不紧急疏散来自5家不同卫生护理住所的1,300多名老年人和残障人士。卡斯特利翁的12个市镇也已撤离（位于埃斯帕丹山脉自然公园区域）。\n\n中央政府尚未正式公布受影响建筑物的最终总数，因为许多火线被认为“超出了灭火能力”，无法进行可靠的现场清点。不过，政府驻马德里和卡斯特利翁代表团报告，数十所房屋、农业企业、仓库和牲畜棚被毁。道路交通受到严重影响，交通总局（DGT）报告，为安全起见，全国43条次要道路已停止通行或关闭。\n\n西班牙政府首脑佩德罗·桑切斯宣布再拨款1,000万用于建设气候避难所，并设立科学专家组，以应对“临时拼凑、偏见或社交媒体上传播的虚假消息”。他在记者会上解释：“我们需要紧急解决方案，以建设更安全、更宜居、为未来挑战做好准备的西班牙。应对气候紧急情况的国家公约是国家优先事项，关系我们所有人。这场战斗无法依靠政府单独行动取胜，而将由一个团结、了解利害关系、决心保护自己领土、未来和公民生命的国家赢得。”\n\n法国。 由于罕见的“火暴”（一种产生并自我增强风力的火灾风暴）现象，吉伦特主要火线周末以极其猛烈的方式蔓延，最近数小时才部分稳定下来。相邻朗德省比斯卡罗斯及帕朗蒂昂博尔讷之间另有3,500公顷土地被烧毁。 被迫离开家园的人数前所未有，这也是法国为森林火灾组织的最大规模人员撤离行动之一。仅吉伦特省的撤离人数就达到220,000人。波尔多周边的整个市镇（例如马尔什普里姆、塞斯塔斯、勒巴尔普、比加诺斯）及卡普费雷已被疏散，或已收到紧急预疏散通知。此外，朗德省还有40,000名流离失所者。\n\n得益于民事安全部门及时采取预防性疏散计划，没有平民死亡。不幸的是，救援人员方面损失惨重，共有75名消防员受伤（其中吉伦特主要火线42人、朗德省5人），约10名消防员因较严重烧伤或严重烟雾中毒住院。\n\n吉伦特省政府证实，极其不可预测的火灾突破防御线，吞没并完全摧毁莱日-卡普费雷与马尔什普里姆之间受灾最严重区域的240所住宅（以及私人汽车和农业仓库）。\n\n国际援助。 欧盟在欧洲民事保护机制框架内调动援助。在法国，欧盟部署来自捷克、克罗地亚、德国、葡萄牙、斯洛伐克、瑞典和土耳其的7架飞机及4架直升机。其中多数属于 rescEU 消防机队。 在西班牙，欧盟调动来自希腊、意大利和土耳其的6架飞机，并部署来自葡萄牙的134名人员及41辆车辆。 欧盟哥白尼卫星服务也在提供最新紧急地图，以支持现场行动。欧盟应急响应协调中心与法国及西班牙当局保持密切联系，以评估可能调动哪些额外支持，同时一名欧盟委员会联络官正在波尔多帮助国家当局协调欧盟援助。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "吉伦特地区和马德里地区的大火尚未扑灭。布鲁塞尔已启动欧洲民事保护机制。\n\n",
+          "start_offset": 0,
+          "end_offset": 37,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "（照片：@BomberosMad 的 X 账户）\n\n",
+          "start_offset": 37,
+          "end_offset": 63,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "仅吉伦特地区就有超过42,000公顷土地被摧毁，仅马德里地区的过火面积就超过28,000公顷。持续数天摧毁法国和西班牙的森林火灾损失数字不断增加。在伊比利亚半岛，今年以来已有172,396.10公顷土地在35起大型火灾中化为灰烬。近日规模最大的火灾包括瓜达拉哈拉火灾（超过32,000公顷）、阿维拉与马德里之间的火灾（15,000公顷）及萨拉戈萨/阿拉贡火灾（约14,400公顷）。\n\n法国吉伦特地区的火灾如今是法国过去50年来最具破坏性的火灾，远远超过同地区兰迪拉斯2022年7月烧毁12,552公顷土地的火灾。今年以来，法国全国约40,000公顷植被已被焚毁。\n\n",
+          "start_offset": 63,
+          "end_offset": 347,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "damage",
+            "disaster_magnitude"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "gironde_burned",
+              "value": {
+                "value": 42000,
+                "qualifier": "greater_than"
+              },
+              "unit": "ha"
+            },
+            {
+              "attribute": "madrid_burned",
+              "value": {
+                "value": 28000,
+                "qualifier": "greater_than"
+              },
+              "unit": "ha"
+            },
+            {
+              "attribute": "historic_landiras_area",
+              "value": 12552,
+              "unit": "ha"
+            },
+            {
+              "attribute": "france_ytd_as_printed",
+              "value": {
+                "value": 40000,
+                "qualifier": "about"
+              },
+              "unit": "ha"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "西班牙。 ",
+          "start_offset": 347,
+          "end_offset": 352,
+          "sentence_ids": [
+            10
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "西班牙方面，至少84名消防员受伤，但平民中没有遇难者。瓦伦西亚自治区约20人需要吸氧。数千名救援人员正在现场不间断工作。前方指挥所和民防部门公布的数据表明，撤离人数创纪录，约涉及90,000人（46个不同人口聚居区登记人数为89,763人）。情况最严重的是阿维拉省（仅蒂埃塔尔河谷就有约30,000人撤离）及马德里自治区，后者尤其不得不紧急疏散来自5家不同卫生护理住所的1,300多名老年人和残障人士。卡斯特利翁的12个市镇也已撤离（位于埃斯帕丹山脉自然公园区域）。\n\n中央政府尚未正式公布受影响建筑物的最终总数，因为许多火线被认为“超出了灭火能力”，无法进行可靠的现场清点。不过，政府驻马德里和卡斯特利翁代表团报告，数十所房屋、农业企业、仓库和牲畜棚被毁。道路交通受到严重影响，交通总局（DGT）报告，为安全起见，全国43条次要道路已停止通行或关闭。\n\n",
+          "start_offset": 352,
+          "end_offset": 730,
+          "sentence_ids": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "fact_types": [
+            "injuries",
+            "evacuation",
+            "damage",
+            "infrastructure",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "西班牙",
+              "unit": null
+            },
+            {
+              "attribute": "registered_evacuees",
+              "value": 89763,
+              "unit": "people"
+            },
+            {
+              "attribute": "secondary_roads_closed",
+              "value": 43,
+              "unit": "roads"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "西班牙政府首脑佩德罗·桑切斯宣布再拨款1,000万用于建设气候避难所，并设立科学专家组，以应对“临时拼凑、偏见或社交媒体上传播的虚假消息”。他在记者会上解释：“我们需要紧急解决方案，以建设更安全、更宜居、为未来挑战做好准备的西班牙。应对气候紧急情况的国家公约是国家优先事项，关系我们所有人。这场战斗无法依靠政府单独行动取胜，而将由一个团结、了解利害关系、决心保护自己领土、未来和公民生命的国家赢得。”\n\n",
+          "start_offset": 730,
+          "end_offset": 932,
+          "sentence_ids": [
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "西班牙",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "法国。 ",
+          "start_offset": 932,
+          "end_offset": 936,
+          "sentence_ids": [
+            25
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "由于罕见的“火暴”（一种产生并自我增强风力的火灾风暴）现象，吉伦特主要火线周末以极其猛烈的方式蔓延，最近数小时才部分稳定下来。相邻朗德省比斯卡罗斯及帕朗蒂昂博尔讷之间另有3,500公顷土地被烧毁。 ",
+          "start_offset": 936,
+          "end_offset": 1035,
+          "sentence_ids": [
+            26,
+            27
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "secondary_hazard",
+            "weather",
+            "damage"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "gironde_firestorm",
+              "value": "产生自身风力",
+              "unit": null
+            },
+            {
+              "attribute": "landes_area_burned",
+              "value": 3500,
+              "unit": "ha"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F009",
+          "span_text": "被迫离开家园的人数前所未有，这也是法国为森林火灾组织的最大规模人员撤离行动之一。仅吉伦特省的撤离人数就达到220,000人。波尔多周边的整个市镇（例如马尔什普里姆、塞斯塔斯、勒巴尔普、比加诺斯）及卡普费雷已被疏散，或已收到紧急预疏散通知。此外，朗德省还有40,000名流离失所者。\n\n",
+          "start_offset": 1035,
+          "end_offset": 1177,
+          "sentence_ids": [
+            28,
+            29,
+            30,
+            31
+          ],
+          "fact_types": [
+            "evacuation",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "gironde_evacuated",
+              "value": 220000,
+              "unit": "people"
+            },
+            {
+              "attribute": "landes_displaced",
+              "value": 40000,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F010",
+          "span_text": "得益于民事安全部门及时采取预防性疏散计划，没有平民死亡。不幸的是，救援人员方面损失惨重，共有75名消防员受伤（其中吉伦特主要火线42人、朗德省5人），约10名消防员因较严重烧伤或严重烟雾中毒住院。\n\n吉伦特省政府证实，极其不可预测的火灾突破防御线，吞没并完全摧毁莱日-卡普费雷与马尔什普里姆之间受灾最严重区域的240所住宅（以及私人汽车和农业仓库）。\n\n",
+          "start_offset": 1177,
+          "end_offset": 1354,
+          "sentence_ids": [
+            32,
+            33,
+            34
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "evacuation",
+            "damage"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "civilian_deaths",
+              "value": "尚无报告",
+              "unit": null
+            },
+            {
+              "attribute": "firefighters_injured_total",
+              "value": 75,
+              "unit": "people"
+            },
+            {
+              "attribute": "firefighters_injured_gironde_main_front",
+              "value": 42,
+              "unit": "people"
+            },
+            {
+              "attribute": "firefighters_injured_landes",
+              "value": 5,
+              "unit": "people"
+            },
+            {
+              "attribute": "destroyed_homes",
+              "value": 240,
+              "unit": "homes"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F011",
+          "span_text": "国际援助。 ",
+          "start_offset": 1354,
+          "end_offset": 1360,
+          "sentence_ids": [
+            35
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F012",
+          "span_text": "欧盟在欧洲民事保护机制框架内调动援助。在法国，欧盟部署来自捷克、克罗地亚、德国、葡萄牙、斯洛伐克、瑞典和土耳其的7架飞机及4架直升机。其中多数属于 rescEU 消防机队。 ",
+          "start_offset": 1360,
+          "end_offset": 1447,
+          "sentence_ids": [
+            36,
+            37,
+            38
+          ],
+          "fact_types": [
+            "response",
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "france_aircraft",
+              "value": [
+                7,
+                4
+              ],
+              "unit": "planes and helicopters"
+            },
+            {
+              "attribute": "mechanism",
+              "value": "欧盟民事保护机制",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F013",
+          "span_text": "在西班牙，欧盟调动来自希腊、意大利和土耳其的6架飞机，并部署来自葡萄牙的134名人员及41辆车辆。 ",
+          "start_offset": 1447,
+          "end_offset": 1497,
+          "sentence_ids": [
+            39
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "西班牙",
+              "unit": null
+            },
+            {
+              "attribute": "planes",
+              "value": 6,
+              "unit": null
+            },
+            {
+              "attribute": "portuguese_personnel",
+              "value": 134,
+              "unit": null
+            },
+            {
+              "attribute": "portuguese_vehicles",
+              "value": 41,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F014",
+          "span_text": "欧盟哥白尼卫星服务也在提供最新紧急地图，以支持现场行动。欧盟应急响应协调中心与法国及西班牙当局保持密切联系，以评估可能调动哪些额外支持，同时一名欧盟委员会联络官正在波尔多帮助国家当局协调欧盟援助。",
+          "start_offset": 1497,
+          "end_offset": 1595,
+          "sentence_ids": [
+            40,
+            41
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "bf44e64b3b5ea1352448462003c209b1b331b2bee3e887c016d9dfea73a56e31",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-7C3665AA851CEDC3",
+      "event_id": "DIS-WF-BF04DB61D8313B71",
+      "event_rank": 46,
+      "article_rank": 3,
+      "title": "火灾紧急情况：欧盟委员会为法国和西班牙启动欧洲民事保护机制",
+      "publisher": "italpress",
+      "identified_publisher": "Italpress",
+      "source_domain": "italpress.com",
+      "url": "https://www.italpress.com/emergenza-incendi-la-commissione-ue-attiva-il-meccanismo-di-protezione-civile-europeo-per-francia-e-spagna/",
+      "published_at": "2026-07-27T16:15:17+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": "原始标签为 en，标题及正文为意大利语。",
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "ITALPRESS 布鲁塞尔发稿，其欧盟报道来自与 A002 相同的欧盟委员会声明。",
+      "content": "比利时布鲁塞尔（ITALPRESS）——欧盟已向法国和西班牙派遣飞机及消防员，应对正在摧毁两国的火灾。欧盟委员会一份通报作此报道，并明确欧盟在欧洲民事保护机制框架内向法国及西班牙提供援助。两国森林火灾引发欧洲最大规模人员撤离行动之一，迫使法国和西班牙超过300,000人离开家园。\n\n在法国，欧盟部署来自捷克、克罗地亚、德国、葡萄牙、斯洛伐克、瑞典和土耳其的7架飞机及4架直升机。其中多数属于 rescEU 消防机队。 在西班牙，欧盟调动来自希腊、意大利及土耳其的6架飞机，并部署来自葡萄牙的134名人员和41辆车辆。 欧盟哥白尼卫星服务还在提供紧急地图，支持现场干预行动。欧盟应急响应协调中心与法国和西班牙当局保持密切联系，以评估可调动哪些额外支持。一名欧盟委员会联络官正在波尔多帮助国家当局协调援助。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "比利时布鲁塞尔（ITALPRESS）——欧盟已向法国和西班牙派遣飞机及消防员，应对正在摧毁两国的火灾。欧盟委员会一份通报作此报道，并明确欧盟在欧洲民事保护机制框架内向法国及西班牙提供援助。两国森林火灾引发欧洲最大规模人员撤离行动之一，迫使法国和西班牙超过300,000人离开家园。\n\n",
+          "start_offset": 0,
+          "end_offset": 142,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "aid",
+            "response",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "france_spain_evacuated",
+              "value": {
+                "value": 300000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "欧盟委员会",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "在法国，欧盟部署来自捷克、克罗地亚、德国、葡萄牙、斯洛伐克、瑞典和土耳其的7架飞机及4架直升机。其中多数属于 rescEU 消防机队。 ",
+          "start_offset": 142,
+          "end_offset": 210,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "france_aircraft",
+              "value": [
+                7,
+                4
+              ],
+              "unit": "planes and helicopters"
+            },
+            {
+              "attribute": "mechanism",
+              "value": "rescEU 及欧盟民事保护机制",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "在西班牙，欧盟调动来自希腊、意大利及土耳其的6架飞机，并部署来自葡萄牙的134名人员和41辆车辆。 ",
+          "start_offset": 210,
+          "end_offset": 260,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "西班牙",
+              "unit": null
+            },
+            {
+              "attribute": "planes",
+              "value": 6,
+              "unit": null
+            },
+            {
+              "attribute": "portuguese_personnel",
+              "value": 134,
+              "unit": null
+            },
+            {
+              "attribute": "portuguese_vehicles",
+              "value": 41,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "欧盟哥白尼卫星服务还在提供紧急地图，支持现场干预行动。欧盟应急响应协调中心与法国和西班牙当局保持密切联系，以评估可调动哪些额外支持。一名欧盟委员会联络官正在波尔多帮助国家当局协调援助。",
+          "start_offset": 260,
+          "end_offset": 352,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "mapping_support",
+              "value": "哥白尼",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "89a424460bf805e446a5409d57d7e7d11dc5b3d99bca93766acdafa5666cb95d",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "欧盟向法国部署7架固定翼飞机及4架直升机",
+        "fact_type": "aid",
+        "attribute": "eu_aircraft_france",
+        "supporting_spans": [
+          "A002_F012",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F012",
+            "value": {
+              "planes": 7,
+              "helicopters": 4
+            },
+            "unit": null,
+            "attribution": "European Commission"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "planes": 7,
+              "helicopters": 4
+            },
+            "unit": null,
+            "attribution": "European Commission"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "法国请求援助，罗马尼亚延长消防任务",
+        "fact_type": "response",
+        "attribute": "eu_coordinated_support",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F012",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "罗马尼亚消防队轮换任务延长两周",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F012",
+            "value": "欧盟航空力量已部署",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "欧盟航空力量已部署",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "吉伦特约220,000人撤离",
+        "fact_type": "evacuation",
+        "attribute": "gironde_evacuations",
+        "supporting_spans": [
+          "A002_F009"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F009",
+            "value": 220000,
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "吉伦特过火面积和法国全国年初至今过火面积数据表面上不一致",
+        "fact_type": "damage",
+        "attribute": "french_burned_area_scope",
+        "supporting_spans": [
+          "A002_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": {
+              "gironde_lower_bound_exclusive": 42000,
+              "france_ytd_approximate": 40000
+            },
+            "unit": "ha",
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": "同一篇文章给出吉伦特超过42,000公顷以及法国全国今年以来约40,000公顷的数据。由于统计截止时间及来源未说明，保留两项数据并附此说明。"
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC003"
+      ],
+      "important_facts": [
+        "FC002",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2026-07-27",
+          "time_precision": "Publication date",
+          "description": "报道指出，法国和西班牙野火持续，欧盟已部署飞机。",
+          "supporting_spans": [
+            "A002_F003",
+            "A002_F012",
+            "A003_F001",
+            "A003_F002"
+          ]
+        },
+        {
+          "time": "2026-07-28",
+          "time_precision": "Publication date",
+          "description": "报道涵盖罗马尼亚决定延长赴法国支援任务。",
+          "supporting_spans": [
+            "A001_F001"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "据报道，吉伦特发生火灾风暴，产生自身风力并加快火线蔓延。",
+          "supporting_spans": [
+            "A002_F008"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "法国西南部野火迫使大规模撤离，欧盟协调飞机和消防员，罗马尼亚延长援助。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F009",
+            "A003_F002"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "A002 和 A003 主要为意大利语。西班牙据报损失及伤亡排除在法国数据之外。"
+    ]
+  }
+}

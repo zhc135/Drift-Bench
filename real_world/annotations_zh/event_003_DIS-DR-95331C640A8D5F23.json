@@ -1,0 +1,1364 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-DR-95331C640A8D5F23",
+  "event_rank": 3,
+  "event_metadata": {
+    "event_name": "阿根廷、乌拉圭干旱",
+    "disaster_type": "extreme_weather",
+    "disaster_type_code": "DR",
+    "event_start_time": "2025-11-21T00:00:00+00:00",
+    "event_end_time": "2026-04-20T00:00:00+00:00",
+    "locations": [
+      "阿根廷",
+      "乌拉圭"
+    ],
+    "latitude": -34.19,
+    "longitude": -60.785,
+    "place_names_in_reports": [
+      "阿根廷",
+      "布宜诺斯艾利斯",
+      "科尔多瓦",
+      "圣菲",
+      "恩特雷里奥斯",
+      "巴塔哥尼亚",
+      "埃尔博尔松",
+      "埃斯克尔",
+      "洛斯阿莱尔塞斯国家公园",
+      "智利",
+      "比奥比奥",
+      "纽布莱",
+      "澳大利亚",
+      "南非"
+    ],
+    "gdacs_id": "1018327",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "SISSA 的观测时段为2025年10月26日至2026年1月25日。WWA 讨论的是11月至1月的反事实降雨量比较。"
+    ],
+    "dataset_place_name": "阿根廷、乌拉圭干旱",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-E589EE2FDAB061E7",
+      "event_id": "DIS-DR-95331C640A8D5F23",
+      "event_rank": 3,
+      "article_rank": 1,
+      "title": "阿根廷干旱：近30%的国土受影响，科尔多瓦超过50%的地区面临严峻状况",
+      "publisher": "noticiasambientales",
+      "identified_publisher": null,
+      "source_domain": "noticiasambientales.com",
+      "url": "https://noticiasambientales.com/environment-en/drought-in-argentina-nearly-30-of-the-country-affected-and-cordoba-with-over-50-under-severe-conditions/",
+      "published_at": "2026-02-09T18:05:27+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "报道援引 SISSA 和 BCR。现有署名信息不足以核实首发或转载权。",
+      "content": "据南部南美洲干旱信息系统（SISSA）最新调查，阿根廷29.86%的国土存在不同程度的水分亏缺，相当于764,490平方公里。 该报告覆盖2025年10月26日至2026年1月25日，显示干旱尤其影响布宜诺斯艾利斯省和科尔多瓦省，而此时正值大豆和玉米作物的关键时期。 阿根廷全国干旱分布：异常干燥：全国的11.38%（285,333平方公里）。中度干旱：9.28%（232,672平方公里）。重度干旱：5.87%（163,000平方公里）。极端干旱：3.06%（76,653平方公里）。特大干旱：0.27%（6,832平方公里）。全国70.14%的国土（近170万平方公里）没有出现干旱，但水分亏缺集中在重要生产区域。 布宜诺斯艾利斯：受影响面积最大。布宜诺斯艾利斯超过80%的国土存在水分亏缺：异常干燥41.21%（126,098平方公里）；中度干旱32.98%（101,900平方公里）；仅16.45%（50,319平方公里）被归类为非干燥地区。目前尚未记录到重度或极端干旱等级，但受影响面积为全国最大。 科尔多瓦：形势最为严峻。科尔多瓦干旱等级最为严重：重度干旱19.78%（32,433平方公里）；极端干旱15.84%（25,962平方公里）；特大干旱2.76%（4,532平方公里）；中度干旱14.48%（23,737平方公里）。总计超过86,000平方公里（该省50%以上）正经历一定程度的水分亏缺。 考虑到科尔多瓦作为主要玉米产区的地位及其农牧混合经营模式，这尤其令人担忧。 [caption id=\"attachment_138191\" align=\"alignnone\" width=\"1300\"] 阿根廷的干旱及其对该国最重要生产区域的影响。[/caption] 圣菲和恩特雷里奥斯：中度影响。圣菲83.54%的国土（111,185平方公里）未经历干旱。然而，12.82%（17,000平方公里）异常干燥，3.64%（4,800平方公里）处于中度干旱状态，该省南部受到的影响更大。 恩特雷里奥斯：76.75%（59,607平方公里）未经历干旱。14.21%（11,032平方公里）异常干燥，8.31%（6,451平方公里）处于中度干旱，0.73%（568平方公里）处于重度干旱状态。 对农业生产的影响：罗萨里奥证券交易所（BCR）警告称，核心产区1月的降雨量仅达到常年水平的30%。 这已经影响到农作物：第一茬大豆出现难以挽回的产量损失。晚播及第二茬玉米中约90,000公顷受到影响，其中大部分地区长势一般，仍在等待新的降雨。 SISSA 调查证实，干旱影响了该国近三分之一的国土，布宜诺斯艾利斯和科尔多瓦是水分亏缺的中心。 由于旱情直接影响农业和畜牧业生产，形势十分严峻，进一步凸显受影响最严重省份实施水资源管理和气候适应政策的必要性。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "据南部南美洲干旱信息系统（SISSA）最新调查，阿根廷29.86%的国土存在不同程度的水分亏缺，相当于764,490平方公里。 ",
+          "start_offset": 0,
+          "end_offset": 64,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "weather",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "water_deficit_share",
+              "value": 29.86,
+              "unit": "%"
+            },
+            {
+              "attribute": "water_deficit_area",
+              "value": 764490,
+              "unit": "km²"
+            },
+            {
+              "attribute": "attribution",
+              "value": "SISSA",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "该报告覆盖2025年10月26日至2026年1月25日，显示干旱尤其影响布宜诺斯艾利斯省和科尔多瓦省，而此时正值大豆和玉米作物的关键时期。 ",
+          "start_offset": 64,
+          "end_offset": 134,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "weather",
+            "timeline",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "survey_start",
+              "value": "2025-10-26",
+              "unit": null
+            },
+            {
+              "attribute": "survey_end",
+              "value": "2026-01-25",
+              "unit": null
+            },
+            {
+              "attribute": "particularly_affected_provinces",
+              "value": [
+                "布宜诺斯艾利斯",
+                "科尔多瓦"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "阿根廷全国干旱分布：异常干燥：全国的11.38%（285,333平方公里）。中度干旱：9.28%（232,672平方公里）。重度干旱：5.87%（163,000平方公里）。极端干旱：3.06%（76,653平方公里）。特大干旱：0.27%（6,832平方公里）。全国70.14%的国土（近170万平方公里）没有出现干旱，但水分亏缺集中在重要生产区域。 ",
+          "start_offset": 134,
+          "end_offset": 310,
+          "sentence_ids": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "阿根廷",
+              "unit": null
+            },
+            {
+              "attribute": "dryness_categories",
+              "value": {
+                "abnormally_dry": [
+                  11.38,
+                  285333
+                ],
+                "moderate": [
+                  9.28,
+                  232672
+                ],
+                "severe": [
+                  5.87,
+                  163000
+                ],
+                "extreme": [
+                  3.06,
+                  76653
+                ],
+                "exceptional": [
+                  0.27,
+                  6832
+                ]
+              },
+              "unit": "% and km²"
+            },
+            {
+              "attribute": "no_drought_share",
+              "value": 70.14,
+              "unit": "%"
+            },
+            {
+              "attribute": "no_drought_area",
+              "value": {
+                "value": 1700000,
+                "qualifier": "almost"
+              },
+              "unit": "km²"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "布宜诺斯艾利斯：受影响面积最大。布宜诺斯艾利斯超过80%的国土存在水分亏缺：异常干燥41.21%（126,098平方公里）；中度干旱32.98%（101,900平方公里）；仅16.45%（50,319平方公里）被归类为非干燥地区。目前尚未记录到重度或极端干旱等级，但受影响面积为全国最大。 ",
+          "start_offset": 310,
+          "end_offset": 455,
+          "sentence_ids": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "布宜诺斯艾利斯",
+              "unit": null
+            },
+            {
+              "attribute": "water_deficit_share",
+              "value": {
+                "value": 80,
+                "qualifier": "greater_than"
+              },
+              "unit": "%"
+            },
+            {
+              "attribute": "abnormally_dry",
+              "value": [
+                41.21,
+                126098
+              ],
+              "unit": "% and km²"
+            },
+            {
+              "attribute": "moderate",
+              "value": [
+                32.98,
+                101900
+              ],
+              "unit": "% and km²"
+            },
+            {
+              "attribute": "non_dry",
+              "value": [
+                16.45,
+                50319
+              ],
+              "unit": "% and km²"
+            },
+            {
+              "attribute": "severe_or_extreme_reported",
+              "value": false,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "科尔多瓦：形势最为严峻。科尔多瓦干旱等级最为严重：重度干旱19.78%（32,433平方公里）；极端干旱15.84%（25,962平方公里）；特大干旱2.76%（4,532平方公里）；中度干旱14.48%（23,737平方公里）。总计超过86,000平方公里（该省50%以上）正经历一定程度的水分亏缺。 ",
+          "start_offset": 455,
+          "end_offset": 607,
+          "sentence_ids": [
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "科尔多瓦",
+              "unit": null
+            },
+            {
+              "attribute": "dryness_categories",
+              "value": {
+                "severe": [
+                  19.78,
+                  32433
+                ],
+                "extreme": [
+                  15.84,
+                  25962
+                ],
+                "exceptional": [
+                  2.76,
+                  4532
+                ],
+                "moderate": [
+                  14.48,
+                  23737
+                ]
+              },
+              "unit": "% and km²"
+            },
+            {
+              "attribute": "water_deficit_area",
+              "value": {
+                "value": 86000,
+                "qualifier": "greater_than"
+              },
+              "unit": "km²"
+            },
+            {
+              "attribute": "water_deficit_share",
+              "value": {
+                "value": 50,
+                "qualifier": "greater_than"
+              },
+              "unit": "%"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "考虑到科尔多瓦作为主要玉米产区的地位及其农牧混合经营模式，这尤其令人担忧。 ",
+          "start_offset": 607,
+          "end_offset": 645,
+          "sentence_ids": [
+            18
+          ],
+          "fact_types": [
+            "economic_loss"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "[caption id=\"attachment_138191\" align=\"alignnone\" width=\"1300\"] 阿根廷的干旱及其对该国最重要生产区域的影响。[/caption] ",
+          "start_offset": 645,
+          "end_offset": 742,
+          "sentence_ids": [
+            19
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F008",
+          "span_text": "圣菲和恩特雷里奥斯：中度影响。圣菲83.54%的国土（111,185平方公里）未经历干旱。然而，12.82%（17,000平方公里）异常干燥，3.64%（4,800平方公里）处于中度干旱状态，该省南部受到的影响更大。 ",
+          "start_offset": 742,
+          "end_offset": 851,
+          "sentence_ids": [
+            20,
+            21
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "圣菲",
+              "unit": null
+            },
+            {
+              "attribute": "dryness_categories",
+              "value": {
+                "non_dry": [
+                  83.54,
+                  111185
+                ],
+                "abnormally_dry": [
+                  12.82,
+                  17000
+                ],
+                "moderate": [
+                  3.64,
+                  4800
+                ]
+              },
+              "unit": "% and km²"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F009",
+          "span_text": "恩特雷里奥斯：76.75%（59,607平方公里）未经历干旱。14.21%（11,032平方公里）异常干燥，8.31%（6,451平方公里）处于中度干旱，0.73%（568平方公里）处于重度干旱状态。 ",
+          "start_offset": 851,
+          "end_offset": 952,
+          "sentence_ids": [
+            22,
+            23
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "恩特雷里奥斯",
+              "unit": null
+            },
+            {
+              "attribute": "dryness_categories",
+              "value": {
+                "non_dry": [
+                  76.75,
+                  59607
+                ],
+                "abnormally_dry": [
+                  14.21,
+                  11032
+                ],
+                "moderate": [
+                  8.31,
+                  6451
+                ],
+                "severe": [
+                  0.73,
+                  568
+                ]
+              },
+              "unit": "% and km²"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F010",
+          "span_text": "对农业生产的影响：罗萨里奥证券交易所（BCR）警告称，核心产区1月的降雨量仅达到常年水平的30%。 ",
+          "start_offset": 952,
+          "end_offset": 1002,
+          "sentence_ids": [
+            24
+          ],
+          "fact_types": [
+            "weather"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "january_rainfall_relative_to_normal",
+              "value": 30,
+              "unit": "%"
+            },
+            {
+              "attribute": "scope",
+              "value": "核心生产区域",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "BCR",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F011",
+          "span_text": "这已经影响到农作物：第一茬大豆出现难以挽回的产量损失。晚播及第二茬玉米中约90,000公顷受到影响，其中大部分地区长势一般，仍在等待新的降雨。 ",
+          "start_offset": 1002,
+          "end_offset": 1074,
+          "sentence_ids": [
+            25,
+            26
+          ],
+          "fact_types": [
+            "damage",
+            "economic_loss"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "soybean_impact",
+              "value": "第一茬作物的产量损失难以挽回",
+              "unit": null
+            },
+            {
+              "attribute": "compromised_late_and_second_crop_corn_area",
+              "value": {
+                "value": 90000,
+                "qualifier": "about"
+              },
+              "unit": "ha"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F012",
+          "span_text": "SISSA 调查证实，干旱影响了该国近三分之一的国土，布宜诺斯艾利斯和科尔多瓦是水分亏缺的中心。 ",
+          "start_offset": 1074,
+          "end_offset": 1123,
+          "sentence_ids": [
+            27
+          ],
+          "fact_types": [
+            "weather",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F013",
+          "span_text": "由于旱情直接影响农业和畜牧业生产，形势十分严峻，进一步凸显受影响最严重省份实施水资源管理和气候适应政策的必要性。",
+          "start_offset": 1123,
+          "end_offset": 1179,
+          "sentence_ids": [
+            28
+          ],
+          "fact_types": [
+            "economic_loss",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "1cba6b0402f86d9b7d3e77433fc632c5dd1e39ed265ffbf52ce26e10518ebb78",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-A0991E2FD1B2BCA5",
+      "event_id": "DIS-DR-95331C640A8D5F23",
+      "event_rank": 3,
+      "article_rank": 2,
+      "title": "气候变化使阿根廷和智利发生毁灭性野火的可能性增至三倍",
+      "publisher": "euronews-en",
+      "identified_publisher": "Euronews",
+      "source_domain": "euronews.com",
+      "url": "https://www.euronews.com/green/2026/02/11/devastating-wildfires-in-argentina-and-chile-made-three-times-more-likely-by-climate-chang",
+      "published_at": "2026-02-11T10:10:01+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "报道明确指出有来自美联社的采访材料。现有文本未另行注明通讯社来源。",
+      "content": "2月11日，一支研究团队警告，人类造成的气候变化对近期席卷智利和阿根廷巴塔哥尼亚部分地区的猛烈野火产生了重要影响，使引发大范围火灾的极高风险条件较没有全球变暖的世界发生的可能性最高增至三倍。据在极端天气事件发生后迅速开展研究的科学倡议“世界天气归因”（World Weather Attribution）称，人为温室气体排放使上个月助长智利中南部致命野火的炎热、干燥和阵风天气发生的可能性增加约200%，而助长仍在阿根廷南部蔓延的火灾的高火险条件发生的可能性增加150%。研究人员补充说，随着人类继续燃烧化石燃料，使更多吸热气体覆盖地球，这一概率只会继续上升。1月中旬席卷智利比奥比奥和纽布莱地区的大火造成23人死亡，摧毁超过1,000座房屋和其他建筑，迫使数万人逃离家园。所有火灾都由人为活动引发，无论是纵火还是疏忽所致。在阿根廷南部，最初由雷电引发的火灾迫使数千名游客和居民撤离，并烧毁超过45,000公顷的原生森林，其中包括联合国教科文组织世界遗产洛斯阿莱尔塞斯国家公园的大片区域，该公园拥有树龄达2,600年的树木。寻找灾害中的人为印记。这项研究证实了人们广泛怀疑的情况，首次科学评估全球变暖在加剧智利和阿根廷近年来部分最严重野火紧急事件中的作用。这是气候科学一个名为天气归因的新兴子领域的最新成果。随着公众日益渴望了解气候变化如何影响自然灾害，该领域迅速发展。世界天气归因报告尚未经过同行评审或发表于科学期刊，但采用了广泛认可的方法，包括分析数据及利用计算机模型模拟将当今气候与过去的天气模式进行比较。“总的来说，我们有信心认为，导致火险增加的主要因素是人为变暖，”世界天气归因研究助理克莱尔·巴恩斯在记者会上表示。“预计只要我们继续燃烧化石燃料，这些趋势就会延续。”炎热干燥的森林成为易燃之地。研究发现，创纪录的干旱和酷热天气为智利和阿根廷的野火创造了有利条件，而松树等高度易燃树木的单一树种人工林使两地火灾更容易蔓延。这些入侵物种取代了该地区原生、更耐火的生态系统，使灌木、丛林和草地变成了引火物。在阿根廷巴塔哥尼亚，埃尔博尔松镇记录到有史以来最高的1月气温，为38.4摄氏度。洛斯阿莱尔塞斯国家公园附近的埃斯克尔镇1月连续11天出现最高气温，为65年来持续时间第二长的热浪。智利在火灾发生前的气温较高，但未创纪录。研究人员估计，在火灾高峰期前的11月至1月，智利季节性降雨量比自工业化前以来全球气温未升高至少1.3摄氏度的情况下低约25%，阿根廷巴塔哥尼亚低20%。“这与高于平均水平的气温相结合，使植被承受压力，土壤湿度极低，”该研究作者、阿根廷研究人员胡安·安东尼奥·里韦拉说。“野火一旦开始……就有足够的燃料使其扩大并持续下去。”资源减少产生影响。在左翼总统加布里埃尔·博里奇执政的过去四年里，智利已将野火扑救预算增加110%，改善火灾预测并投资新设备。但在阿根廷，研究人员称，自由主义总统哈维尔·米莱推行的严厉紧缩计划可能削弱了该国应对火灾的能力，并援引消防队预算削减、缺乏规划以及放松巴塔哥尼亚国家公园旅游活动监管作为依据。参与救灾的消防员、公园护林员和官员向美联社表达了类似说法。与其盟友美国总统唐纳德·特朗普一样，米莱否认气候变化与人类活动有关。其办公室在星期三（2月11日）早间未立即回应置评请求。里韦拉表示：“不幸的是，如果政府不理解气候变化及其与人类活动的联系，将自然置于次要优先地位，这些情况会恶化，野火最终造成的影响将超过本应有的程度。”“局势仍未得到控制。”",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "2月11日，一支研究团队警告，人类造成的气候变化对近期席卷智利和阿根廷巴塔哥尼亚部分地区的猛烈野火产生了重要影响，使引发大范围火灾的极高风险条件较没有全球变暖的世界发生的可能性最高增至三倍。据在极端天气事件发生后迅速开展研究的科学倡议“世界天气归因”（World Weather Attribution）称，人为温室气体排放使上个月助长智利中南部致命野火的炎热、干燥和阵风天气发生的可能性增加约200%，而助长仍在阿根廷南部蔓延的火灾的高火险条件发生的可能性增加150%。研究人员补充说，随着人类继续燃烧化石燃料，使更多吸热气体覆盖地球，这一概率只会继续上升。",
+          "start_offset": 0,
+          "end_offset": 280,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "cause",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "fire_weather_likelihood_multiplier",
+              "value": {
+                "value": 3,
+                "qualifier": "up_to"
+              },
+              "unit": "times"
+            },
+            {
+              "attribute": "chile_likelihood_increase",
+              "value": {
+                "value": 200,
+                "qualifier": "about"
+              },
+              "unit": "%"
+            },
+            {
+              "attribute": "argentine_likelihood_increase",
+              "value": 150,
+              "unit": "%"
+            },
+            {
+              "attribute": "attribution",
+              "value": "世界天气归因（World Weather Attribution）",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "1月中旬席卷智利比奥比奥和纽布莱地区的大火造成23人死亡，摧毁超过1,000座房屋和其他建筑，迫使数万人逃离家园。所有火灾都由人为活动引发，无论是纵火还是疏忽所致。",
+          "start_offset": 280,
+          "end_offset": 362,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "casualties",
+            "damage",
+            "evacuation",
+            "cause"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "智利比奥比奥和纽布莱，1月中旬",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": 23,
+              "unit": "people"
+            },
+            {
+              "attribute": "destroyed_structures",
+              "value": {
+                "value": 1000,
+                "qualifier": "greater_than"
+              },
+              "unit": "structures"
+            },
+            {
+              "attribute": "evacuated",
+              "value": "数万人",
+              "unit": "people"
+            },
+            {
+              "attribute": "ignition",
+              "value": "人类活动",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "在阿根廷南部，最初由雷电引发的火灾迫使数千名游客和居民撤离，并烧毁超过45,000公顷的原生森林，其中包括联合国教科文组织世界遗产洛斯阿莱尔塞斯国家公园的大片区域，该公园拥有树龄达2,600年的树木。",
+          "start_offset": 362,
+          "end_offset": 462,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "evacuation",
+            "damage",
+            "cause",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "阿根廷南部",
+              "unit": null
+            },
+            {
+              "attribute": "burned_native_forest",
+              "value": {
+                "value": 45000,
+                "qualifier": "greater_than"
+              },
+              "unit": "ha"
+            },
+            {
+              "attribute": "evacuated",
+              "value": "数千人",
+              "unit": "people"
+            },
+            {
+              "attribute": "initial_ignition",
+              "value": "雷电",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "寻找灾害中的人为印记。这项研究证实了人们广泛怀疑的情况，首次科学评估全球变暖在加剧智利和阿根廷近年来部分最严重野火紧急事件中的作用。这是气候科学一个名为天气归因的新兴子领域的最新成果。随着公众日益渴望了解气候变化如何影响自然灾害，该领域迅速发展。世界天气归因报告尚未经过同行评审或发表于科学期刊，但采用了广泛认可的方法，包括分析数据及利用计算机模型模拟将当今气候与过去的天气模式进行比较。“",
+          "start_offset": 462,
+          "end_offset": 657,
+          "sentence_ids": [
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "cause",
+            "uncertainty"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "study",
+              "value": "世界天气归因报告",
+              "unit": null
+            },
+            {
+              "attribute": "peer_reviewed",
+              "value": false,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "总的来说，我们有信心认为，导致火险增加的主要因素是人为变暖，”世界天气归因研究助理克莱尔·巴恩斯在记者会上表示。“预计只要我们继续燃烧化石燃料，这些趋势就会延续。”",
+          "start_offset": 657,
+          "end_offset": 739,
+          "sentence_ids": [
+            10,
+            11
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "克莱尔·巴恩斯 / WWA",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "炎热干燥的森林成为易燃之地。研究发现，创纪录的干旱和酷热天气为智利和阿根廷的野火创造了有利条件，而松树等高度易燃树木的单一树种人工林使两地火灾更容易蔓延。这些入侵物种取代了该地区原生、更耐火的生态系统，使灌木、丛林和草地变成了引火物。",
+          "start_offset": 739,
+          "end_offset": 856,
+          "sentence_ids": [
+            12,
+            13
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "drivers",
+              "value": [
+                "创纪录的干旱",
+                "高温",
+                "易燃人工林"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "在阿根廷巴塔哥尼亚，埃尔博尔松镇记录到有史以来最高的1月气温，为38.4摄氏度。洛斯阿莱尔塞斯国家公园附近的埃斯克尔镇1月连续11天出现最高气温，为65年来持续时间第二长的热浪。智利在火灾发生前的气温较高，但未创纪录。",
+          "start_offset": 856,
+          "end_offset": 965,
+          "sentence_ids": [
+            14,
+            15,
+            16
+          ],
+          "fact_types": [
+            "weather",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "el_bolson_january_record_temperature",
+              "value": 38.4,
+              "unit": "°C"
+            },
+            {
+              "attribute": "esquel_consecutive_days_of_maximum_temperatures",
+              "value": 11,
+              "unit": "days"
+            },
+            {
+              "attribute": "esquel_heatwave_rank",
+              "value": "65年来持续时间第二长",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "研究人员估计，在火灾高峰期前的11月至1月，智利季节性降雨量比自工业化前以来全球气温未升高至少1.3摄氏度的情况下低约25%，阿根廷巴塔哥尼亚低20%。“",
+          "start_offset": 965,
+          "end_offset": 1042,
+          "sentence_ids": [
+            17
+          ],
+          "fact_types": [
+            "weather",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "baseline",
+              "value": "在假定工业化前以来未发生所述升温的反事实模型下",
+              "unit": null
+            },
+            {
+              "attribute": "argentine_patagonia_rainfall_reduction",
+              "value": 20,
+              "unit": "%"
+            },
+            {
+              "attribute": "chile_rainfall_reduction",
+              "value": {
+                "value": 25,
+                "qualifier": "about"
+              },
+              "unit": "%"
+            },
+            {
+              "attribute": "warming",
+              "value": {
+                "value": 1.3,
+                "qualifier": "at_least"
+              },
+              "unit": "°C"
+            },
+            {
+              "attribute": "period",
+              "value": "11月至1月",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F009",
+          "span_text": "这与高于平均水平的气温相结合，使植被承受压力，土壤湿度极低，”该研究作者、阿根廷研究人员胡安·安东尼奥·里韦拉说。“野火一旦开始……就有足够的燃料使其扩大并持续下去。”",
+          "start_offset": 1042,
+          "end_offset": 1126,
+          "sentence_ids": [
+            18,
+            19
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "胡安·安东尼奥·里韦拉",
+              "unit": null
+            },
+            {
+              "attribute": "mechanism",
+              "value": "植被受到胁迫、土壤湿度较低、足够的燃料使火灾持续",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F010",
+          "span_text": "资源减少产生影响。在左翼总统加布里埃尔·博里奇执政的过去四年里，智利已将野火扑救预算增加110%，改善火灾预测并投资新设备。但在阿根廷，研究人员称，自由主义总统哈维尔·米莱推行的严厉紧缩计划可能削弱了该国应对火灾的能力，并援引消防队预算削减、缺乏规划以及放松巴塔哥尼亚国家公园旅游活动监管作为依据。参与救灾的消防员、公园护林员和官员向美联社表达了类似说法。",
+          "start_offset": 1126,
+          "end_offset": 1304,
+          "sentence_ids": [
+            20,
+            21,
+            22
+          ],
+          "fact_types": [
+            "response",
+            "economic_loss",
+            "uncertainty"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "chile_firefighting_budget_increase",
+              "value": 110,
+              "unit": "%"
+            },
+            {
+              "attribute": "chile_budget_period",
+              "value": 4,
+              "unit": "years"
+            },
+            {
+              "attribute": "argentina_response_constraints",
+              "value": "研究人员指出预算削减、规划不足及放松监管",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F011",
+          "span_text": "与其盟友美国总统唐纳德·特朗普一样，米莱否认气候变化与人类活动有关。其办公室在星期三（2月11日）早间未立即回应置评请求。里韦拉表示：“不幸的是，如果政府不理解气候变化及其与人类活动的联系，将自然置于次要优先地位，这些情况会恶化，野火最终造成的影响将超过本应有的程度。”“局势仍未得到控制。”",
+          "start_offset": 1304,
+          "end_offset": 1450,
+          "sentence_ids": [
+            23,
+            24,
+            25,
+            26
+          ],
+          "fact_types": [
+            "response",
+            "public_reaction",
+            "uncertainty"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "7f4a7b67ef208d600681e58031dc0ef74fe20165ad85ec6e5f2bf358602b3247",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-ED1A573D7E361554",
+      "event_id": "DIS-DR-95331C640A8D5F23",
+      "event_rank": 3,
+      "article_rank": 3,
+      "title": "烈火预警：南半球正与破纪录的野火抗争 | 科学与环境",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/science-environment/3801164-inferno-forecast-southern-hemisphere-battles-record-breaking-wildfires",
+      "published_at": "2026-02-11T11:10:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "正文没有明确注明通讯社来源，也没有可核实的第一手采访归属。",
+      "content": "随着2026年开始，破纪录的热浪与野火正给整个南半球带来毁灭性影响。尽管拉尼娜具有降温效应，极端高温仍助长澳大利亚、阿根廷及南非等国的火势，加剧气候变化的后果。\n\n专家警告，随着南半球过渡到中性或厄尔尼诺阶段，这些极端天气事件可能变得更加频繁和剧烈。由于持续高温、干旱和气温升高，曾经能够控制的野火如今发展为无法控制的灾害，造成危险状况和人员死亡。\n\n科学家强调，需要制定适应策略，管理城市附近的植被并改善疏散计划。由于野火在全球造成重大经济损失，人们迫切呼吁限制未来气候变化，以防此类环境灾难进一步恶化。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "随着2026年开始，破纪录的热浪与野火正给整个南半球带来毁灭性影响。尽管拉尼娜具有降温效应，极端高温仍助长澳大利亚、阿根廷及南非等国的火势，加剧气候变化的后果。\n\n",
+          "start_offset": 0,
+          "end_offset": 82,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "weather",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "南半球，包括澳大利亚、阿根廷和南非",
+              "unit": null
+            },
+            {
+              "attribute": "time",
+              "value": "2026年初",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "专家警告，随着南半球过渡到中性或厄尔尼诺阶段，这些极端天气事件可能变得更加频繁和剧烈。由于持续高温、干旱和气温升高，曾经能够控制的野火如今发展为无法控制的灾害，造成危险状况和人员死亡。\n\n",
+          "start_offset": 82,
+          "end_offset": 176,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "cause",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_fire_risk_factors",
+              "value": [
+                "高温",
+                "持续干旱",
+                "气温上升"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "科学家强调，需要制定适应策略，管理城市附近的植被并改善疏散计划。由于野火在全球造成重大经济损失，人们迫切呼吁限制未来气候变化，以防此类环境灾难进一步恶化。",
+          "start_offset": 176,
+          "end_offset": 253,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "response",
+            "economic_loss",
+            "evacuation"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "adaptation_recommendations",
+              "value": [
+                "城市地区附近的植被管理",
+                "改进疏散计划"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "c84ccaa9ea64f71746ec5b59560cb03a67c38032d18d3fc665a32b1be00698b2",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "SISSA 估计阿根廷近30%的国土受到不同程度的水分亏缺影响",
+        "fact_type": "disaster_magnitude",
+        "attribute": "national_water_deficit_share",
+        "supporting_spans": [
+          "A001_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 29.86,
+            "unit": "%",
+            "attribution": "SISSA"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "不同程度的水分亏缺影响科尔多瓦省超过一半的国土",
+        "fact_type": "disaster_magnitude",
+        "attribute": "cordoba_water_deficit_share",
+        "supporting_spans": [
+          "A001_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F005",
+            "value": {
+              "value": 50,
+              "qualifier": "greater_than"
+            },
+            "unit": "%",
+            "attribution": "SISSA"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": "超过50%的数字涵盖所有水分亏缺等级。重度、极端和特大干旱等级合计占比不足50%。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "阿根廷农业核心产区的降雨亏缺及巴塔哥尼亚反事实比较下的降雨亏缺",
+        "fact_type": "weather",
+        "attribute": "rainfall_deficit",
+        "supporting_spans": [
+          "A001_F010",
+          "A002_F008"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F010",
+            "value": {
+              "value": 30,
+              "baseline": "常年水平",
+              "scope": "农业核心产区，1月"
+            },
+            "unit": "%",
+            "attribution": "BCR"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F008",
+            "value": {
+              "value": 20,
+              "baseline": "模拟不存在全球变暖的情况",
+              "scope": "阿根廷巴塔哥尼亚，11月至1月",
+              "direction": "减少"
+            },
+            "unit": "%",
+            "attribution": "WWA"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "地理区域、时间窗口和参考基线不同。"
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "高温和干旱促成野火",
+        "fact_type": "secondary_hazard",
+        "attribute": "fire_weather_drivers",
+        "supporting_spans": [
+          "A002_F006",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F006",
+            "value": [
+              "创纪录的干旱",
+              "高温",
+              "易燃人工林"
+            ],
+            "unit": null,
+            "attribution": "WWA"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": [
+              "持续高温",
+              "干旱",
+              "气温上升"
+            ],
+            "unit": null,
+            "attribution": "unnamed experts"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "A003 广泛涵盖南半球，未对巴塔哥尼亚的具体测量值提供佐证。"
+      },
+      {
+        "cluster_id": "FC005",
+        "cluster_description": "干旱影响大豆及部分玉米种植区",
+        "fact_type": "damage",
+        "attribute": "crop_impact",
+        "supporting_spans": [
+          "A001_F011"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F011",
+            "value": {
+              "affected_corn_area": 90000,
+              "qualifier": "about"
+            },
+            "unit": "ha",
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004",
+        "FC005"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-10-26/2026-01-25",
+          "time_precision": "Observation date range",
+          "description": "SISSA 测量了阿根廷的水分亏缺情况。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002"
+          ]
+        },
+        {
+          "time": "2026-01",
+          "time_precision": "Month",
+          "description": "1月降雨限制阿根廷农业核心产区的作物生产，而巴塔哥尼亚部分城镇出现高温。",
+          "supporting_spans": [
+            "A001_F010",
+            "A001_F011",
+            "A002_F007"
+          ]
+        },
+        {
+          "time": "2026-02-11",
+          "time_precision": "Day (publication)",
+          "description": "媒体对 WWA 研究的报道将变暖与火险上升联系起来，并估计了巴塔哥尼亚的降雨亏缺。",
+          "supporting_spans": [
+            "A002_F001",
+            "A002_F008"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "报道将核心农业产区的低降雨量与大豆减产和部分玉米作物受损联系起来。",
+          "supporting_spans": [
+            "A001_F010",
+            "A001_F011"
+          ]
+        },
+        {
+          "description": "WWA 研究人员报告称，降雨亏缺和高温使植被承受胁迫、土壤湿度降低，并为火灾持续创造条件。",
+          "supporting_spans": [
+            "A002_F008",
+            "A002_F009"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "SISSA 指出布宜诺斯艾利斯省和科尔多瓦省是水分亏缺的集中地区。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A001_F004",
+            "A001_F005"
+          ]
+        },
+        {
+          "description": "降雨偏少已影响农业。有关巴塔哥尼亚和南半球的报道也讨论了炎热干燥天气引发的火险。",
+          "supporting_spans": [
+            "A001_F010",
+            "A001_F011",
+            "A002_F006",
+            "A003_F002"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "这些报道未提供乌拉圭的干旱数据。智利损失涉及另一地理区域的火灾。"
+    ]
+  }
+}

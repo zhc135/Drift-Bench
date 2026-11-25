@@ -1,0 +1,1151 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-DR-05DB5108D06B11D5",
+  "event_rank": 1,
+  "event_metadata": {
+    "event_name": "肯尼亚、索马里干旱",
+    "disaster_type": "extreme_weather",
+    "disaster_type_code": "DR",
+    "event_start_time": "2025-05-21T00:00:00+00:00",
+    "event_end_time": "2026-03-30T00:00:00+00:00",
+    "locations": [
+      "肯尼亚",
+      "索马里"
+    ],
+    "latitude": 2.053,
+    "longitude": 43.899,
+    "place_names_in_reports": [
+      "非洲之角",
+      "肯尼亚",
+      "索马里",
+      "埃塞俄比亚",
+      "乌干达",
+      "南苏丹",
+      "苏丹",
+      "卢旺达",
+      "布隆迪",
+      "坦桑尼亚",
+      "吉布提",
+      "厄立特里亚",
+      "亚的斯亚贝巴"
+    ],
+    "gdacs_id": "1017863",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "GDACS 日期按 CSV 中的记录保留。预测季节、此前数年和会议报道日期对应不同的报道时段。"
+    ],
+    "dataset_place_name": "肯尼亚、索马里干旱",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-CB13E6B7EA7634CE",
+      "event_id": "DIS-DR-05DB5108D06B11D5",
+      "event_rank": 1,
+      "article_rank": 1,
+      "title": "地区组织警告非洲之角7月至9月将有强降雨",
+      "publisher": "english-news-cn",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20250627/dcd3931bf846473ba8e24a45076140f7/c.html",
+      "published_at": "2025-06-26T21:09:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "导语注明来源为新华社，并有独立发稿地。A002 同样援引 ICPAC，因此机构消息来源存在重合。",
+      "content": "新华社内罗毕6月26日电——地区组织政府间发展管理局（IGAD）气候预测与应用中心（ICPAC）星期四表示，预计7月至9月期间，非洲之角大部分地区将迎来强降雨。\n\nICPAC 在最新预测中表示，肯尼亚、索马里、埃塞俄比亚、乌干达、南苏丹和苏丹的降雨将超过常年水平，尤其是在7月。\n\n该机构指出，这一时期的气温也将高于平均水平。预计苏丹北部和南部、南苏丹、埃塞俄比亚中南部、索马里、肯尼亚、乌干达、卢旺达、布隆迪和坦桑尼亚将出现较暖的天气。\n\n不过，该机构表示，在此期间，部分地区将比往常更加干燥和凉爽。\n\nICPAC 预计，南苏丹、埃塞俄比亚和索马里的部分地区将比往常更加干燥，并补充说，索马里西北部、埃塞俄比亚北部、吉布提南部、厄立特里亚、苏丹中部以及肯尼亚、乌干达和南苏丹的交界地区气温将处于正常或低于正常水平。\n\n据 IGAD 副执行秘书穆罕默德·瓦雷（Mohamed Ware）介绍，非洲之角正经历从干旱到洪水等极端气候事件，影响当地民众生计。\n\n多年来，7月至9月通常是干燥季节，这使得该地区4月种植的主要粮食作物玉米得以成熟、晾干和收获。 气候变化导致降雨提前到来，这一过程将受到干扰，损害粮食安全。 ",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "新华社内罗毕6月26日电——地区组织政府间发展管理局（IGAD）气候预测与应用中心（ICPAC）星期四表示，预计7月至9月期间，非洲之角大部分地区将迎来强降雨。\n\n",
+          "start_offset": 0,
+          "end_offset": 82,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "weather",
+            "timeline",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "forecast_period",
+              "value": "7月至9月",
+              "unit": null
+            },
+            {
+              "attribute": "forecast_scope",
+              "value": "非洲之角大部分地区",
+              "unit": null
+            },
+            {
+              "attribute": "rainfall_forecast",
+              "value": "强降雨",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "ICPAC / IGAD",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "ICPAC 在最新预测中表示，肯尼亚、索马里、埃塞俄比亚、乌干达、南苏丹和苏丹的降雨将超过常年水平，尤其是在7月。\n\n",
+          "start_offset": 82,
+          "end_offset": 141,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "weather",
+            "timeline",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "rainfall_forecast",
+              "value": "降雨超过常年水平",
+              "unit": null
+            },
+            {
+              "attribute": "peak_month",
+              "value": "7月",
+              "unit": null
+            },
+            {
+              "attribute": "countries",
+              "value": [
+                "肯尼亚",
+                "索马里",
+                "埃塞俄比亚",
+                "乌干达",
+                "南苏丹",
+                "苏丹"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "ICPAC",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "该机构指出，这一时期的气温也将高于平均水平。预计苏丹北部和南部、南苏丹、埃塞俄比亚中南部、索马里、肯尼亚、乌干达、卢旺达、布隆迪和坦桑尼亚将出现较暖的天气。\n\n",
+          "start_offset": 141,
+          "end_offset": 221,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "weather",
+            "location"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "temperature_forecast",
+              "value": "高于平均气温",
+              "unit": null
+            },
+            {
+              "attribute": "forecast_locations",
+              "value": "苏丹北部和南部、南苏丹、埃塞俄比亚中南部、索马里、肯尼亚、乌干达、卢旺达、布隆迪和坦桑尼亚",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "不过，该机构表示，在此期间，部分地区将比往常更加干燥和凉爽。\n\n",
+          "start_offset": 221,
+          "end_offset": 253,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "weather"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "forecast",
+              "value": "部分地区较常年更干燥和凉爽",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "ICPAC 预计，南苏丹、埃塞俄比亚和索马里的部分地区将比往常更加干燥，并补充说，索马里西北部、埃塞俄比亚北部、吉布提南部、厄立特里亚、苏丹中部以及肯尼亚、乌干达和南苏丹的交界地区气温将处于正常或低于正常水平。\n\n",
+          "start_offset": 253,
+          "end_offset": 360,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "weather",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "drier_forecast_locations",
+              "value": "南苏丹、埃塞俄比亚和索马里的部分地区",
+              "unit": null
+            },
+            {
+              "attribute": "temperature_forecast",
+              "value": "正常或低于正常水平",
+              "unit": null
+            },
+            {
+              "attribute": "cooler_forecast_locations",
+              "value": "索马里西北部、埃塞俄比亚北部、吉布提南部、厄立特里亚、苏丹中部以及肯尼亚、乌干达和南苏丹的交界地区",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "ICPAC",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "据 IGAD 副执行秘书穆罕默德·瓦雷（Mohamed Ware）介绍，非洲之角正经历从干旱到洪水等极端气候事件，影响当地民众生计。\n\n",
+          "start_offset": 360,
+          "end_offset": 428,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "affected_population"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "hazards",
+              "value": [
+                "干旱",
+                "洪水"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "impact",
+              "value": "生计受到影响",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "穆罕默德·瓦雷，IGAD",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "多年来，7月至9月通常是干燥季节，这使得该地区4月种植的主要粮食作物玉米得以成熟、晾干和收获。 ",
+          "start_offset": 428,
+          "end_offset": 476,
+          "sentence_ids": [
+            8
+          ],
+          "fact_types": [
+            "weather",
+            "timeline"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "historically_dry_months",
+              "value": "7月至9月",
+              "unit": null
+            },
+            {
+              "attribute": "maize_planting_month",
+              "value": "4月",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F008",
+          "span_text": "气候变化导致降雨提前到来，这一过程将受到干扰，损害粮食安全。 ",
+          "start_offset": 476,
+          "end_offset": 507,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "cause",
+            "humanitarian_needs",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "proposed_cause",
+              "value": "气候变化",
+              "unit": null
+            },
+            {
+              "attribute": "anticipated_impact",
+              "value": "玉米晾干和收获过程受到干扰，粮食安全受到损害",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "82d35cb1e41187ab9f78c3c172e3e0acf64ad3f4c1a0fe5f2ae975fb6f0be3eb",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-BDE928F8897ACF79",
+      "event_id": "DIS-DR-05DB5108D06B11D5",
+      "event_rank": 1,
+      "article_rank": 2,
+      "title": "Capital FM » IGAD：气候威胁危及大非洲之角的增长与投资",
+      "publisher": "kenyamoja",
+      "identified_publisher": "Capital FM",
+      "source_domain": "capitalfm.co.ke",
+      "url": "https://www.capitalfm.co.ke/news/2025/08/climate-threats-jeopardize-growth-investments-in-greater-horn-of-africa-igad/",
+      "published_at": "2025-08-25T12:40:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "republished",
+      "source_independence": "syndicated",
+      "source_independence_reason": "标题注明 Capital FM 为消息来源。KenyaMoja 是数据集所记录的承载网站。",
+      "content": "肯尼亚内罗毕8月25日电——大非洲之角正面临日益加剧的气候威胁，持续干旱、毁灭性洪水和不规律的降雨持续削弱该地区的粮食安全、用水保障和经济稳定。\n\n据 IGAD 气候预测与应用中心（ICPAC）介绍，近年来不可预测的天气扰乱了农业生产，导致数百万人流离失所，并给本已脆弱的经济造成压力。\n\n埃塞俄比亚、索马里和肯尼亚连续遭遇干旱，导致牲畜大量死亡，数百万人依赖人道主义援助。\n\n与此同时，南苏丹和乌干达的山洪摧毁了基础设施，引发疾病暴发，并使来之不易的发展成果付诸东流。\n\n分析人士警告，这些冲击正以更高的频率和强度发生，考验着政府和社区的应对能力。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "肯尼亚内罗毕8月25日电——大非洲之角正面临日益加剧的气候威胁，持续干旱、毁灭性洪水和不规律的降雨持续削弱该地区的粮食安全、用水保障和经济稳定。\n\n",
+          "start_offset": 0,
+          "end_offset": 74,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "humanitarian_needs",
+            "economic_loss"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "hazards",
+              "value": [
+                "持续干旱",
+                "洪水",
+                "不规律的降雨"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "impact",
+              "value": "粮食安全、用水保障和经济稳定",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "据 IGAD 气候预测与应用中心（ICPAC）介绍，近年来不可预测的天气扰乱了农业生产，导致数百万人流离失所，并给本已脆弱的经济造成压力。\n\n",
+          "start_offset": 74,
+          "end_offset": 145,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "affected_population",
+            "damage",
+            "economic_loss"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "displaced_population",
+              "value": "数百万人",
+              "unit": "people"
+            },
+            {
+              "attribute": "impact_time_scope",
+              "value": "近年来",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "ICPAC",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "埃塞俄比亚、索马里和肯尼亚连续遭遇干旱，导致牲畜大量死亡，数百万人依赖人道主义援助。\n\n",
+          "start_offset": 145,
+          "end_offset": 189,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "damage",
+            "humanitarian_needs"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "drought_affected_countries",
+              "value": [
+                "埃塞俄比亚",
+                "索马里",
+                "肯尼亚"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "impact",
+              "value": "牲畜损失",
+              "unit": null
+            },
+            {
+              "attribute": "aid_dependent_population",
+              "value": "数百万人",
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "与此同时，南苏丹和乌干达的山洪摧毁了基础设施，引发疾病暴发，并使来之不易的发展成果付诸东流。\n\n",
+          "start_offset": 189,
+          "end_offset": 237,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "infrastructure",
+            "secondary_hazard",
+            "damage"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "flood_locations",
+              "value": [
+                "南苏丹",
+                "乌干达"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "flood_impact",
+              "value": "基础设施遭到破坏、疾病暴发及发展成果倒退",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "分析人士警告，这些冲击正以更高的频率和强度发生，考验着政府和社区的应对能力。",
+          "start_offset": 237,
+          "end_offset": 275,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "trend",
+              "value": "频率和强度增加",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "未具名分析人士",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "d7165d644564d0ce11052270be2dfd652b45b74d8f969b2d48a7a5f6e6ed94a7",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-5C6DE24DB632E619",
+      "event_id": "DIS-DR-05DB5108D06B11D5",
+      "event_rank": 1,
+      "article_rank": 3,
+      "title": "副总理特梅斯根：非洲青年不仅是气候危机的继承者，更是解决方案的建设者",
+      "publisher": "ena",
+      "identified_publisher": "Ethiopian News Agency",
+      "source_domain": "ena.et",
+      "url": "https://www.ena.et/web/eng/w/eng_7268484",
+      "published_at": "2025-09-05T10:09:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "导语注明来源为埃塞俄比亚通讯社（ENA），报道了特定会议和讲话。其他报道中未发现相同稿件。",
+      "content": "埃塞俄比亚通讯社亚的斯亚贝巴2025年9月5日电——副总理特梅斯根·蒂鲁内强调，埃塞俄比亚正在成为可再生能源中心，与吉布提、肯尼亚、苏丹和坦桑尼亚等邻国共享清洁电力。\n\n一场为期两天的会议在亚的斯亚贝巴举行，重点是赋能青年，使其积极参与应对气候变化和推动非洲可持续发展。\n\n特梅斯根在开幕致辞中指出非洲所面临的矛盾处境：尽管非洲的排放量不到全球排放量的4%，但该大陆却面临干旱、洪水和粮食不安全加剧等严峻气候挑战。\n\n他说：“非洲不仅是脆弱的，也是充满希望的。我们超过60%的人口年龄在25岁以下。”他敦促青年发挥创造力和决心，与气候变化作斗争。\n\n特梅斯根表示，埃塞俄比亚的绿色遗产倡议每年动员超过2,000万公民植树，目标是到2026年种植500亿株树苗。\n\n他说：“这是世界上规模最大的植树造林工作之一。”他强调了该工作在恢复土地、创造就业和支持生物多样性方面的作用。\n\n特梅斯根还强调，埃塞俄比亚正在成为可再生能源中心，与吉布提、肯尼亚、苏丹和坦桑尼亚等邻国共享清洁电力。\n\n“这些不仅是国家层面的里程碑，也是整个非洲大陆的示范，展现了政府、青年和社区以共同愿景协作所能取得的成果。”",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "埃塞俄比亚通讯社亚的斯亚贝巴2025年9月5日电——副总理特梅斯根·蒂鲁内强调，埃塞俄比亚正在成为可再生能源中心，与吉布提、肯尼亚、苏丹和坦桑尼亚等邻国共享清洁电力。\n\n",
+          "start_offset": 0,
+          "end_offset": 85,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "infrastructure",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "energy_exporter",
+              "value": "埃塞俄比亚",
+              "unit": null
+            },
+            {
+              "attribute": "energy_recipients_mentioned",
+              "value": [
+                "吉布提",
+                "肯尼亚",
+                "苏丹",
+                "坦桑尼亚"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "特梅斯根·蒂鲁内",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "一场为期两天的会议在亚的斯亚贝巴举行，重点是赋能青年，使其积极参与应对气候变化和推动非洲可持续发展。\n\n",
+          "start_offset": 85,
+          "end_offset": 137,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "response",
+            "location",
+            "timeline"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "conference_duration",
+              "value": 2,
+              "unit": "days"
+            },
+            {
+              "attribute": "conference_location",
+              "value": "亚的斯亚贝巴",
+              "unit": null
+            },
+            {
+              "attribute": "conference_goal",
+              "value": "青年参与气候行动和可持续发展",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "特梅斯根在开幕致辞中指出非洲所面临的矛盾处境：尽管非洲的排放量不到全球排放量的4%，但该大陆却面临干旱、洪水和粮食不安全加剧等严峻气候挑战。\n\n",
+          "start_offset": 137,
+          "end_offset": 209,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "share_of_global_emissions",
+              "value": {
+                "value": 4,
+                "qualifier": "less_than"
+              },
+              "unit": "%"
+            },
+            {
+              "attribute": "geographical_scope",
+              "value": "非洲",
+              "unit": null
+            },
+            {
+              "attribute": "hazards",
+              "value": [
+                "干旱",
+                "洪水",
+                "粮食不安全加剧"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "特梅斯根·蒂鲁内",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "他说：“非洲不仅是脆弱的，也是充满希望的。我们超过60%的人口年龄在25岁以下。”他敦促青年发挥创造力和决心，与气候变化作斗争。\n\n",
+          "start_offset": 209,
+          "end_offset": 275,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "affected_population",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "population_share",
+              "value": {
+                "value": 60,
+                "qualifier": "greater_than"
+              },
+              "unit": "%"
+            },
+            {
+              "attribute": "age_scope",
+              "value": {
+                "value": 25,
+                "qualifier": "less_than"
+              },
+              "unit": "years"
+            },
+            {
+              "attribute": "attribution",
+              "value": "特梅斯根·蒂鲁内",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "特梅斯根表示，埃塞俄比亚的绿色遗产倡议每年动员超过2,000万公民植树，目标是到2026年种植500亿株树苗。\n\n",
+          "start_offset": 275,
+          "end_offset": 332,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "response",
+            "timeline"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "annual_citizens_mobilized",
+              "value": {
+                "value": 20000000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "seedling_target",
+              "value": 50000000000,
+              "unit": "seedlings"
+            },
+            {
+              "attribute": "target_year",
+              "value": 2026,
+              "unit": null
+            },
+            {
+              "attribute": "program",
+              "value": "埃塞俄比亚绿色遗产倡议",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "他说：“这是世界上规模最大的植树造林工作之一。”他强调了该工作在恢复土地、创造就业和支持生物多样性方面的作用。\n\n",
+          "start_offset": 332,
+          "end_offset": 389,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "response",
+            "recovery"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_program_benefits",
+              "value": [
+                "土地恢复",
+                "就业岗位",
+                "生物多样性"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "特梅斯根还强调，埃塞俄比亚正在成为可再生能源中心，与吉布提、肯尼亚、苏丹和坦桑尼亚等邻国共享清洁电力。\n\n",
+          "start_offset": 389,
+          "end_offset": 442,
+          "sentence_ids": [
+            8
+          ],
+          "fact_types": [
+            "infrastructure",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "energy_exporter",
+              "value": "埃塞俄比亚",
+              "unit": null
+            },
+            {
+              "attribute": "energy_recipients_mentioned",
+              "value": [
+                "吉布提",
+                "肯尼亚",
+                "苏丹",
+                "坦桑尼亚"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": "重复了 A003_F001 中描述的清洁电力合作。"
+        },
+        {
+          "fact_span_id": "A003_F008",
+          "span_text": "“这些不仅是国家层面的里程碑，也是整个非洲大陆的示范，展现了政府、青年和社区以共同愿景协作所能取得的成果。”",
+          "start_offset": 442,
+          "end_offset": 496,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": "发言人对合作的评价。"
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "b59d340c8bb87018037a19821f70eeee1b282b5931ce481b140c0cc06faf0ecb",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "非洲之角的干旱和洪水",
+        "fact_type": "disaster_occurrence",
+        "attribute": "regional_climate_hazards",
+        "supporting_spans": [
+          "A001_F006",
+          "A002_F001",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F006",
+            "value": "干旱和洪水影响生计",
+            "unit": null,
+            "attribution": "Mohamed Ware"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "持续干旱和毁灭性洪水影响生计及基本需求",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "干旱和洪水影响非洲",
+            "unit": null,
+            "attribution": "Temesgen Tiruneh"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "A003 涵盖整个非洲。三篇报道使用了不同的灾害统计数据。"
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "肯尼亚、索马里和埃塞俄比亚连续遭遇干旱",
+        "fact_type": "disaster_occurrence",
+        "attribute": "countries_with_consecutive_drought",
+        "supporting_spans": [
+          "A002_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": [
+              "埃塞俄比亚",
+              "索马里",
+              "肯尼亚"
+            ],
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "连续干旱导致牲畜损失和广泛的援助依赖",
+        "fact_type": "humanitarian_needs",
+        "attribute": "drought_aid_dependency",
+        "supporting_spans": [
+          "A002_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": "数百万人依赖人道主义援助",
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "7月至9月的降雨预测因地区而异",
+        "fact_type": "weather",
+        "attribute": "seasonal_rainfall_forecast",
+        "supporting_spans": [
+          "A001_F001",
+          "A001_F002",
+          "A001_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "非洲之角大部分地区将有强降雨",
+            "unit": null,
+            "attribution": "ICPAC"
+          },
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": "多个国家降雨超过常年水平，尤其是7月",
+            "unit": null,
+            "attribution": "ICPAC"
+          },
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F005",
+            "value": "南苏丹、埃塞俄比亚和索马里的部分地区更加干燥",
+            "unit": null,
+            "attribution": "ICPAC"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "same_time",
+        "annotation_note": "地区总体展望与各地的具体预测可以同时成立。"
+      },
+      {
+        "cluster_id": "FC005",
+        "cluster_description": "异常天气威胁农业或粮食安全",
+        "fact_type": "humanitarian_needs",
+        "attribute": "food_security_impact",
+        "supporting_spans": [
+          "A001_F008",
+          "A002_F001",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F008",
+            "value": "可能扰乱玉米生长与收获周期并损害粮食安全",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "地区粮食安全持续恶化",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "非洲粮食不安全加剧",
+            "unit": null,
+            "attribution": "Temesgen Tiruneh"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC006",
+        "cluster_description": "天气扰动导致部分人口流离失所",
+        "fact_type": "affected_population",
+        "attribute": "displaced_population",
+        "supporting_spans": [
+          "A002_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "数百万人",
+            "unit": "people",
+            "attribution": "ICPAC"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": "该报道将人口流离失所归因于数年来不可预测的天气，未提供此次干旱的单独数据。"
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005",
+        "FC006"
+      ],
+      "critical_facts": [
+        "FC002"
+      ],
+      "important_facts": [
+        "FC001",
+        "FC003",
+        "FC004",
+        "FC005",
+        "FC006"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-06-26",
+          "time_precision": "Day (publication date)",
+          "description": "新华社发布了 ICPAC 对7月至9月的地区预测。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A001_F005"
+          ]
+        },
+        {
+          "time": "2025-08-25",
+          "time_precision": "Day (publication date)",
+          "description": "Capital FM 报道了连续干旱、牲畜损失和人道主义援助需求。",
+          "supporting_spans": [
+            "A002_F001",
+            "A002_F003"
+          ]
+        },
+        {
+          "time": "2025-09-05",
+          "time_precision": "Day (publication date)",
+          "description": "ENA 报道了非洲青年气候会议的开幕及埃塞俄比亚副总理的讲话。",
+          "supporting_spans": [
+            "A003_F001",
+            "A003_F002",
+            "A003_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "Capital FM 将牲畜损失及对人道主义援助的依赖归因于连续干旱。",
+          "supporting_spans": [
+            "A002_F003"
+          ]
+        },
+        {
+          "description": "新华社报道称，季节性降雨变化可能扰乱玉米成熟、晾干和收获的周期，并威胁粮食安全。",
+          "supporting_spans": [
+            "A001_F007",
+            "A001_F008"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "肯尼亚和索马里的连续干旱影响了粮食安全、生计和人道主义援助需求。",
+          "supporting_spans": [
+            "A001_F006",
+            "A002_F001",
+            "A002_F003"
+          ]
+        },
+        {
+          "description": "季节性预测显示，非洲之角各地区将出现不同的降雨变化。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A001_F005"
+          ]
+        },
+        {
+          "description": "埃塞俄比亚副总理在气候会议上指出，干旱是非洲面临的气候挑战之一。",
+          "supporting_spans": [
+            "A003_F002",
+            "A003_F003"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "三篇报道均未提供本次 GDACS 事件的统一干旱严重程度等级或统计截止时间。"
+    ]
+  }
+}

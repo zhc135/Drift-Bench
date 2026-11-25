@@ -1,0 +1,856 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-VO-01EC8A26015FDC43",
+  "event_rank": 36,
+  "event_metadata": {
+    "event_name": "Eruption  Kanlaon",
+    "disaster_type": "volcanic_eruption",
+    "disaster_type_code": "VO",
+    "event_start_time": "2024-12-09T17:25:00+00:00",
+    "event_end_time": "2024-12-28T11:45:00+00:00",
+    "locations": [
+      "Philippines"
+    ],
+    "latitude": 10.412,
+    "longitude": 123.132,
+    "place_names_in_reports": [
+      "Kanlaon",
+      "Negros Occidental",
+      "Negros Oriental",
+      "Canlaon City"
+    ],
+    "gdacs_id": "1000104",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "PHIVOLCS 引文给出当地 12 月 9 日 15:03。本时点与 CSV 起点同日但不同时间基准与定义，均保留。"
+    ],
+    "dataset_place_name": "Eruption  Kanlaon",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-31CAE96CA75A89F1",
+      "event_id": "DIS-VO-01EC8A26015FDC43",
+      "event_rank": 36,
+      "article_rank": 1,
+      "title": "Kanlaon volcano erupts, says seismology agency",
+      "publisher": "philstar",
+      "identified_publisher": null,
+      "source_domain": "interaksyon.philstar.com",
+      "url": "https://interaksyon.philstar.com/politics-issues/2024/12/09/288382/kanlaon-volcano-erupts-seismology-agency/",
+      "published_at": "2024-12-09T07:48:49+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "Philstar 载 Manila 电头，简讯未有正文署名。",
+      "content": "MANILA — A volcano in the central Philippines erupted on Monday spewing an eruption column of up to 3,000 meters (1.86 miles), the country’s seismology agency said.\n\nThe Philippine Institute of Volcanology and Seismology (Phivolcs) said in an advisory it had raised its alert level to its third highest level. The volcano is located in the central provinces of Negros Occidental and Negros Oriental.\n\n“This means magmatic eruption has begun that may progress to further explosive eruption,” Phivolcs said in an advisory.\n\nThe seismology agency had advised local governments in the volcano’s vicinity to evacuate people living near the volcano and must brace for further evacuations if warranted.\n\nMt. Kanlaon is one of the two dozen active volcanoes in the Philippines, which is in the Pacific “Ring of Fire” where volcanic activity and earthquakes are common.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "MANILA — A volcano in the central Philippines erupted on Monday spewing an eruption column of up to 3,000 meters (1.86 miles), the country’s seismology agency said.\n\n",
+          "start_offset": 0,
+          "end_offset": 166,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "eruption_column",
+              "value": {
+                "value": 3000,
+                "qualifier": "up_to"
+              },
+              "unit": "m"
+            },
+            {
+              "attribute": "attribution",
+              "value": "PHIVOLCS",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "The Philippine Institute of Volcanology and Seismology (Phivolcs) said in an advisory it had raised its alert level to its third highest level. The volcano is located in the central provinces of Negros Occidental and Negros Oriental.\n\n“This means magmatic eruption has begun that may progress to further explosive eruption,” Phivolcs said in an advisory.\n\n",
+          "start_offset": 166,
+          "end_offset": 522,
+          "sentence_ids": [
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "response",
+            "location",
+            "disaster_occurrence",
+            "uncertainty"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "alert_level",
+              "value": 3,
+              "unit": null
+            },
+            {
+              "attribute": "classification",
+              "value": "magmatic eruption has begun per quoted advisory",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "The seismology agency had advised local governments in the volcano’s vicinity to evacuate people living near the volcano and must brace for further evacuations if warranted.\n\n",
+          "start_offset": 522,
+          "end_offset": 697,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "evacuation",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "Mt. Kanlaon is one of the two dozen active volcanoes in the Philippines, which is in the Pacific “Ring of Fire” where volcanic activity and earthquakes are common.",
+          "start_offset": 697,
+          "end_offset": 860,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "disaster_occurrence"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "active_volcanoes_in_philippines",
+              "value": "two dozen",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "29d75997f8be2712b410016022632d71c0758c02117fe1d4ceb709ccb599e6a9",
+        "removed_word_count": 15,
+        "removed_word_ratio": 0.09868421052631579
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-DC193B8738BE5651",
+      "event_id": "DIS-VO-01EC8A26015FDC43",
+      "event_rank": 36,
+      "article_rank": 2,
+      "title": "Kanlaon Volcano erupts, Alert Level raised to 3",
+      "publisher": "philstar",
+      "identified_publisher": null,
+      "source_domain": "philstar.com",
+      "url": "https://www.philstar.com/headlines/2024/12/09/2406168/kanlaon-volcano-erupts-alert-level-raised-3",
+      "published_at": "2024-12-09T08:23:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "同属 Philstar 品牌，有额外地方管制资料；正文未能核实与 A001 的采编关系。",
+      "content": "MANILA, Philippines (Updated 5:35 p.m.) — Kanlaon Volcano erupted Monday afternoon, December 9 prompting authorities to raise its status to Alert Level 3, indicating heightened volcanic unrest.\n\n“An explosive eruption occurred at the summit vent of Kanlaon Volcano at 3:03 PM today, 9 December 2024. The eruption produced a voluminous plume that rapidly rose to 3,000 meters above the vent and drifted west-southwest,” PHIVOLCS said in an alert.\n\nThe Philippine Institute of Volcanology and Seismology (PHIVOLCS) upgraded the alert status from Level 2 (increasing unrest) to Level 3 (magmatic unrest). This indicates intensified volcanic activity marked by increased earthquakes and substantial steam or ash emissions.\n\nKanlaon has been continuously displaying seismic activity as early as June but has since remained in Alert Level 2 until today.\n\nSafety measures. Local authorities must implement an 8-kilometer danger zone from the active crater.\n\nPHIVOLCS has directed all local government units to evacuate residents within a 6-kilometer radius from the volcano's summit and prepare for potential additional evacuations if volcanic activity escalates.\n\nCanlaon City Mayor Jose Chubasco Cardenas has already told residents in the affected areas to prepare for forced evacuations.\n\nClasses and work in the local government offices have also been suspended.\n\nThe local government has implemented a curfew in the city. All establishments are ordered to close from 10 p.m. to 5 a.m.\n\nA liquor ban has also been put in place.\n\nLocal authorities have pleaded for calm in the wake of Kanlaon's eruption.\n\nHere are some of the OCD's guidelines on what to do during a volcanic eruption:\n\nThe Office of Civil Defense said that Defense Secretary Gilbert Teodoro has already ordered immediate assistance to affected citizens.\n\nCurrent activity. Pyroclastic density currents, consisting of hot volcanic material and gas, have been observed moving down the volcano's southeastern section.\n\nThese dangerous flows pose significant risks to nearby communities.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "MANILA, Philippines (Updated 5:35 p.m.) — Kanlaon Volcano erupted Monday afternoon, December 9 prompting authorities to raise its status to Alert Level 3, indicating heightened volcanic unrest.\n\n“An explosive eruption occurred at the summit vent of Kanlaon Volcano at 3:03 PM today, 9 December 2024. The eruption produced a voluminous plume that rapidly rose to 3,000 meters above the vent and drifted west-southwest,” PHIVOLCS said in an alert.\n\n",
+          "start_offset": 0,
+          "end_offset": 447,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "eruption_time",
+              "value": "2024-12-09 15:03 local",
+              "unit": null
+            },
+            {
+              "attribute": "plume_height_above_vent",
+              "value": 3000,
+              "unit": "m"
+            },
+            {
+              "attribute": "plume_drift",
+              "value": "west-southwest",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "PHIVOLCS",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "The Philippine Institute of Volcanology and Seismology (PHIVOLCS) upgraded the alert status from Level 2 (increasing unrest) to Level 3 (magmatic unrest). This indicates intensified volcanic activity marked by increased earthquakes and substantial steam or ash emissions.\n\nKanlaon has been continuously displaying seismic activity as early as June but has since remained in Alert Level 2 until today.\n\n",
+          "start_offset": 447,
+          "end_offset": 849,
+          "sentence_ids": [
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "response",
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "previous_alert",
+              "value": 2,
+              "unit": null
+            },
+            {
+              "attribute": "new_alert",
+              "value": 3,
+              "unit": null
+            },
+            {
+              "attribute": "new_status",
+              "value": "magmatic unrest",
+              "unit": null
+            },
+            {
+              "attribute": "seismic_activity_noted_since",
+              "value": "June",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "Safety measures. ",
+          "start_offset": 849,
+          "end_offset": 866,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "Local authorities must implement an 8-kilometer danger zone from the active crater.\n\nPHIVOLCS has directed all local government units to evacuate residents within a 6-kilometer radius from the volcano's summit and prepare for potential additional evacuations if volcanic activity escalates.\n\n",
+          "start_offset": 866,
+          "end_offset": 1158,
+          "sentence_ids": [
+            8,
+            9
+          ],
+          "fact_types": [
+            "evacuation",
+            "response",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_danger_zone",
+              "value": 8,
+              "unit": "km"
+            },
+            {
+              "attribute": "phivolcs_evacuation_radius",
+              "value": 6,
+              "unit": "km"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "Canlaon City Mayor Jose Chubasco Cardenas has already told residents in the affected areas to prepare for forced evacuations.\n\nClasses and work in the local government offices have also been suspended.\n\nThe local government has implemented a curfew in the city. All establishments are ordered to close from 10 p.m. to 5 a.m.\n\nA liquor ban has also been put in place.\n\nLocal authorities have pleaded for calm in the wake of Kanlaon's eruption.\n\n",
+          "start_offset": 1158,
+          "end_offset": 1602,
+          "sentence_ids": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "fact_types": [
+            "evacuation",
+            "response",
+            "public_reaction"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "canlaon_measures",
+              "value": [
+                "forced evacuation preparations",
+                "classes and office work suspended",
+                "curfew",
+                "liquor ban"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "business_closure_hours",
+              "value": "22:00 to 05:00",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "Here are some of the OCD's guidelines on what to do during a volcanic eruption:\n\n",
+          "start_offset": 1602,
+          "end_offset": 1683,
+          "sentence_ids": [
+            16
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "The Office of Civil Defense said that Defense Secretary Gilbert Teodoro has already ordered immediate assistance to affected citizens.\n\n",
+          "start_offset": 1683,
+          "end_offset": 1819,
+          "sentence_ids": [
+            17
+          ],
+          "fact_types": [
+            "response",
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "Current activity. ",
+          "start_offset": 1819,
+          "end_offset": 1837,
+          "sentence_ids": [
+            18
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F009",
+          "span_text": "Pyroclastic density currents, consisting of hot volcanic material and gas, have been observed moving down the volcano's southeastern section.\n\nThese dangerous flows pose significant risks to nearby communities.",
+          "start_offset": 1837,
+          "end_offset": 2047,
+          "sentence_ids": [
+            19,
+            20
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "observed_hazard",
+              "value": "pyroclastic density currents",
+              "unit": null
+            },
+            {
+              "attribute": "sector",
+              "value": "southeast",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "271afdeb65354e3e5457a96d744cd2a7282273ed4a13cee6a43e6a3b19612681",
+        "removed_word_count": 31,
+        "removed_word_ratio": 0.09064327485380116
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-24115DE26A344E49",
+      "event_id": "DIS-VO-01EC8A26015FDC43",
+      "event_rank": 36,
+      "article_rank": 3,
+      "title": "Eruption Alert: Mt. Kanlaon Spews Ash, Triggers Evacuations | Health",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/health/3187447-eruption-alert-mt-kanlaon-spews-ash-triggers-evacuations",
+      "published_at": "2024-12-09T10:20:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "Devdiscourse 转述 PHIVOLCS 和民防官员，未显示稿源署名。",
+      "content": "A volcano in the Philippines erupted again, forcing emergency evacuations after spewing a massive ash column, authorities reported Monday. Mt. Kanlaon, located in the central provinces of Negros Occidental and Negros Oriental, projected ash up to 4,000 meters (2.5 miles) into the air around 3 p.m. local time.\n\nThe Philippine Institute of Volcanology and Seismology (Phivolcs) elevated its alert level to 3 out of 5, signaling a higher risk of lava flows and a potential hazardous eruption in the coming weeks. 'We cannot confirm if this eruption is magmatic yet,' Phivolcs Director Teresito Bacolcol stated. 'For now, we term it as explosive.'\n\nLocal government units have initiated evacuations due to ash fall near the volcano, according to Bryll Sanor from the disaster agency in Negros Occidental. The civil defense noted ongoing emergency evacuations, affecting potentially 54,000 individuals, as authorities brace for possibly raising the alert level and reinforcing safety protocols. Flights near the volcano remain operational, with advice to avoid proximity to Mt. Kanlaon.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "A volcano in the Philippines erupted again, forcing emergency evacuations after spewing a massive ash column, authorities reported Monday. Mt. Kanlaon, located in the central provinces of Negros Occidental and Negros Oriental, projected ash up to 4,000 meters (2.5 miles) into the air around 3 p.m. local time.\n\n",
+          "start_offset": 0,
+          "end_offset": 312,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_ash_height",
+              "value": {
+                "value": 4000,
+                "qualifier": "up_to"
+              },
+              "unit": "m"
+            },
+            {
+              "attribute": "time",
+              "value": "around 15:00 local",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "The Philippine Institute of Volcanology and Seismology (Phivolcs) elevated its alert level to 3 out of 5, signaling a higher risk of lava flows and a potential hazardous eruption in the coming weeks. 'We cannot confirm if this eruption is magmatic yet,' Phivolcs Director Teresito Bacolcol stated. 'For now, we term it as explosive.'\n\n",
+          "start_offset": 312,
+          "end_offset": 647,
+          "sentence_ids": [
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "response",
+            "uncertainty",
+            "disaster_occurrence"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "new_alert",
+              "value": 3,
+              "unit": null
+            },
+            {
+              "attribute": "alert_scale_maximum",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "attribute": "classification",
+              "value": "explosive; magmatic not yet confirmed by Teresito Bacolcol",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "Local government units have initiated evacuations due to ash fall near the volcano, according to Bryll Sanor from the disaster agency in Negros Occidental. The civil defense noted ongoing emergency evacuations, affecting potentially 54,000 individuals, as authorities brace for possibly raising the alert level and reinforcing safety protocols. ",
+          "start_offset": 647,
+          "end_offset": 992,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "response",
+            "evacuation",
+            "affected_population"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "possibly_affected",
+              "value": 54000,
+              "unit": "people"
+            },
+            {
+              "attribute": "evacuation",
+              "value": "ongoing",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "Flights near the volcano remain operational, with advice to avoid proximity to Mt. Kanlaon.",
+          "start_offset": 992,
+          "end_offset": 1083,
+          "sentence_ids": [
+            9,
+            10
+          ],
+          "fact_types": [
+            "infrastructure",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "flight_status",
+              "value": "operational with advice to avoid proximity",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "7b7a3ff0c54d2a54f2c3fec4359ef3fb8ddfbcfb78ec42096dbd5e2fd1b40d56",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "12 月 9 日 Kanlaon 喷发后警戒升到三级",
+        "fact_type": "response",
+        "attribute": "alert_level",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 3,
+            "unit": null,
+            "attribution": "PHIVOLCS"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": 3,
+            "unit": null,
+            "attribution": "PHIVOLCS"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": 3,
+            "unit": null,
+            "attribution": "PHIVOLCS"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "报道灰柱 3000 米与 4000 米，只有一篇明确从喷口算起",
+        "fact_type": "disaster_magnitude",
+        "attribute": "eruption_column_height",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 3000,
+              "qualifier": "up_to",
+              "reference": "not stated"
+            },
+            "unit": "m",
+            "attribution": "PHIVOLCS"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "value": 3000,
+              "reference": "above vent"
+            },
+            "unit": "m",
+            "attribution": "PHIVOLCS"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "value": 4000,
+              "qualifier": "up_to",
+              "reference": "not stated"
+            },
+            "unit": "m",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "观察截点和高度基准未对齐。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "喷发类型的认定状态存在差异",
+        "fact_type": "disaster_occurrence",
+        "attribute": "eruption_classification",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": "magmatic eruption has begun",
+            "unit": null,
+            "attribution": "PHIVOLCS advisory"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "alert level indicates magmatic unrest",
+            "unit": null,
+            "attribution": "PHIVOLCS"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "explosive, not yet confirmed magmatic",
+            "unit": null,
+            "attribution": "Teresito Bacolcol"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "警戒状态不等于直接确认喷发机制。公告与讲话的具体时点也未对齐。"
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "当局推进预防性撤离",
+        "fact_type": "evacuation",
+        "attribute": "evacuation_response",
+        "supporting_spans": [
+          "A001_F003",
+          "A002_F004",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": "advised evacuation near volcano",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": "PHIVOLCS called for evacuation within 6 km",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "ongoing; potentially 54,000 affected",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2024-12-09T15:03+08:00",
+          "time_precision": "当地分钟",
+          "description": "PHIVOLCS 称山顶喷口发生爆炸性喷发。",
+          "supporting_spans": [
+            "A002_F001"
+          ]
+        },
+        {
+          "time": "2024-12-09",
+          "time_precision": "当地日",
+          "description": "警戒转为三级；地方启动疏散应对。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F002",
+            "A002_F004",
+            "A003_F002",
+            "A003_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "火山灰和火山碎屑流威胁附近社区，带来撤离和交通安全安排。",
+          "supporting_spans": [
+            "A002_F009",
+            "A003_F003",
+            "A003_F004"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "Kanlaon 爆炸性喷发，火山警戒升为三级；灰柱高度与岩浆成因的报道需要核对测量和归因口径。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A002_F001",
+            "A002_F002",
+            "A003_F001",
+            "A003_F002"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "limitations": [
+      "危险区 8 km 与撤离半径 6 km 是 A002 中不同措施的措辞。"
+    ]
+  }
+}

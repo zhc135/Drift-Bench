@@ -1,0 +1,1084 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-215E8F00DF8640BB",
+  "event_rank": 8,
+  "event_metadata": {
+    "event_name": "Earthquake in Vanuatu",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2024-12-17T01:47:25+00:00",
+    "event_end_time": "2024-12-17T01:47:25+00:00",
+    "locations": [
+      "Vanuatu"
+    ],
+    "latitude": -17.6859,
+    "longitude": 168.0338,
+    "place_names_in_reports": [
+      "Vanuatu",
+      "Port Vila",
+      "Efate",
+      "Port Vila International Airport",
+      "Noumea"
+    ],
+    "gdacs_id": "1458084",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "主震在 2024-12-17。报道顺序只反映发稿时间，未必对应伤亡通报顺序。"
+    ],
+    "dataset_place_name": "Earthquake in Vanuatu",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-3BF4CE137F43BC11",
+      "event_id": "DIS-EQ-215E8F00DF8640BB",
+      "event_rank": 8,
+      "article_rank": 1,
+      "title": "International Aid Rushed to Earthquake-Hit Vanuatu | Business",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/business/3199828-international-aid-rushed-to-earthquake-hit-vanuatu",
+      "published_at": "2024-12-18T22:31:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "Devdiscourse 概述多国援助和当地居民情况，清洗后正文未保留明确稿源署名。",
+      "content": "Australian rescue and medical teams have arrived in Vanuatu to provide support following a devastating 7.3 magnitude earthquake that has resulted in at least 14 deaths and hundreds of injuries. The Australian Foreign Minister, Penny Wong, announced that Australia will help restore operations at Port Vila's damaged international airport.\n\nAustralia's aid includes the repatriation of approximately 150 of its citizens. Additional global support involves emergency teams from the United States and France, with the latter sending a military helicopter equipped with satellite communications and military engineers. However, technical issues delayed New Zealand's rescue team arrival.\n\nEfforts are hampered by disruptions to power and communications in Vanuatu. Water contamination is also a serious concern, according to UNICEF. Local resident Carissa Jacobe has resorted to using a generator for power, with limited recovery seen as some stores attempt opening despite the chaos.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "Australian rescue and medical teams have arrived in Vanuatu to provide support following a devastating 7.3 magnitude earthquake that has resulted in at least 14 deaths and hundreds of injuries. ",
+          "start_offset": 0,
+          "end_offset": 194,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "casualties",
+            "injuries",
+            "aid",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.3,
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 14,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injuries",
+              "value": "hundreds",
+              "unit": "people"
+            },
+            {
+              "attribute": "aid_team_origin",
+              "value": "Australia",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "The Australian Foreign Minister, Penny Wong, announced that Australia will help restore operations at Port Vila's damaged international airport.\n\n",
+          "start_offset": 194,
+          "end_offset": 340,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "airport",
+              "value": "Port Vila International Airport",
+              "unit": null
+            },
+            {
+              "attribute": "assistance_commitment",
+              "value": "Australia to help restore operations",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Penny Wong",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "Australia's aid includes the repatriation of approximately 150 of its citizens. Additional global support involves emergency teams from the United States and France, with the latter sending a military helicopter equipped with satellite communications and military engineers. However, technical issues delayed New Zealand's rescue team arrival.\n\n",
+          "start_offset": 340,
+          "end_offset": 685,
+          "sentence_ids": [
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "citizens_to_repatriate",
+              "value": {
+                "value": 150,
+                "qualifier": "approximately"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "international_response_countries",
+              "value": [
+                "Australia",
+                "United States",
+                "France",
+                "New Zealand"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "new_zealand_delay",
+              "value": "technical issues",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "Efforts are hampered by disruptions to power and communications in Vanuatu. ",
+          "start_offset": 685,
+          "end_offset": 761,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "infrastructure",
+            "aid",
+            "response",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "constraints",
+              "value": [
+                "power disruption",
+                "communications disruption"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "Water contamination is also a serious concern, according to UNICEF. ",
+          "start_offset": 761,
+          "end_offset": 829,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "humanitarian_needs",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "concern",
+              "value": "water contamination",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "UNICEF",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "Local resident Carissa Jacobe has resorted to using a generator for power, with limited recovery seen as some stores attempt opening despite the chaos.",
+          "start_offset": 829,
+          "end_offset": 980,
+          "sentence_ids": [
+            8
+          ],
+          "fact_types": [
+            "recovery",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "resident",
+              "value": "Carissa Jacobe",
+              "unit": null
+            },
+            {
+              "attribute": "power_workaround",
+              "value": "generator",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "abccf197a8d9b9643e57d9da6a2d75de932d8886d689b364ffe44bad53bbed36",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-1F3E402582530F08",
+      "event_id": "DIS-EQ-215E8F00DF8640BB",
+      "event_rank": 8,
+      "article_rank": 2,
+      "title": "Second NZ rescue plane arrives in Vanuatu as one breaks down",
+      "publisher": "radionz",
+      "identified_publisher": "RNZ",
+      "source_domain": "rnz.co.nz",
+      "url": "https://www.rnz.co.nz/news/national/537080/live-nz-hercules-arrives-in-vanuatu-after-breakdown",
+      "published_at": "2024-12-18T22:51:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "RNZ 播放器和链接表明载于 RNZ，正文未提供可核验稿源署名。",
+      "content": "Audio player for \" Death toll from Vanuatu earthquake expected to rise \" removed for printing\n\nVisit page to play audio: https://www.rnz.co.nz/news/eyJhbGciOiJIUzI1NiJ9._v0.KrRTFtoPsaA8nSDloPZ4KejQJr59ANQpD9ULgGwzaM0/world/537080%2Fsecond-nz-rescue-plane-arrives-in-vanuatu-as-one-breaks-down\n\nThe search for people trapped in rubble and landslides is continuing today as the New Zealand Defence Force arrives in Port Vila.\n\nThe Defence Force was delayed arriving into Vanuatu after a fault on one of the older Hercules plane.\n\nLabour said it was embarrassing, but a new Hercules plane has landed in Port Vila and a second is on the way to Noumea.\n\nMore than 300 aftershocks have been felt since the big quake on Tuesday.\n\nAnd the official death toll was revised down to nine, though it was expected to rise. Two Chinese nationals were among the dead.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "Audio player for \" Death toll from Vanuatu earthquake expected to rise \" removed for printing\n\nVisit page to play audio: https://www.rnz.co.nz/news/eyJhbGciOiJIUzI1NiJ9._v0.KrRTFtoPsaA8nSDloPZ4KejQJr59ANQpD9ULgGwzaM0/world/537080%2Fsecond-nz-rescue-plane-arrives-in-vanuatu-as-one-breaks-down\n\n",
+          "start_offset": 0,
+          "end_offset": 294,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "The search for people trapped in rubble and landslides is continuing today as the New Zealand Defence Force arrives in Port Vila.\n\n",
+          "start_offset": 294,
+          "end_offset": 425,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "location",
+              "value": "Port Vila",
+              "unit": null
+            },
+            {
+              "attribute": "activity",
+              "value": "search for people trapped by rubble and landslides",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "The Defence Force was delayed arriving into Vanuatu after a fault on one of the older Hercules plane.\n\nLabour said it was embarrassing, but a new Hercules plane has landed in Port Vila and a second is on the way to Noumea.\n\n",
+          "start_offset": 425,
+          "end_offset": 649,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "delay_reason",
+              "value": "fault on older Hercules aircraft",
+              "unit": null
+            },
+            {
+              "attribute": "arrival",
+              "value": "new Hercules landed in Port Vila",
+              "unit": null
+            },
+            {
+              "attribute": "additional_flight",
+              "value": "second aircraft en route to Noumea",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "More than 300 aftershocks have been felt since the big quake on Tuesday.\n\n",
+          "start_offset": 649,
+          "end_offset": 723,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "felt_aftershocks",
+              "value": {
+                "value": 300,
+                "qualifier": "greater_than"
+              },
+              "unit": "events"
+            },
+            {
+              "attribute": "time_scope",
+              "value": "since Tuesday",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "And the official death toll was revised down to nine, though it was expected to rise. Two Chinese nationals were among the dead.",
+          "start_offset": 723,
+          "end_offset": 851,
+          "sentence_ids": [
+            8,
+            9
+          ],
+          "fact_types": [
+            "casualties",
+            "uncertainty"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "revised_official_deaths",
+              "value": 9,
+              "unit": "people"
+            },
+            {
+              "attribute": "reported_chinese_nationals_among_dead",
+              "value": 2,
+              "unit": "people"
+            },
+            {
+              "attribute": "revision_direction",
+              "value": "down",
+              "unit": null
+            },
+            {
+              "attribute": "expectation",
+              "value": "toll may rise",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "11a69ac6f192a8a0af75cb4ad6d0dd443f4e3f524124f7d0b88a8031ad8a84bd",
+        "removed_word_count": 28,
+        "removed_word_ratio": 0.1761006289308176
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-7FE70CCABAD7EF44",
+      "event_id": "DIS-EQ-215E8F00DF8640BB",
+      "event_rank": 8,
+      "article_rank": 3,
+      "title": "Vanuatu Asks For International Assistance After Massive Quake: UN",
+      "publisher": "menafn",
+      "identified_publisher": "Xinhua (attributed in article)",
+      "source_domain": "menafn.com",
+      "url": "https://menafn.com/1109010265/Vanuatu-Asks-For-International-Assistance-After-Massive-Quake-UN",
+      "published_at": "2024-12-19T00:00:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "republished",
+      "source_independence": "syndicated",
+      "source_independence_reason": "MENAFN 正文明确将伤亡信息归于新华社，内容也引用联合国发布；完整转载链未保留。",
+      "content": "The government of Vanuatu has declared a state of emergency for seven days following Tuesday's 7.3-magnitude earthquake. At least 14 people have been confirmed dead, with more than 200 injured. Authorities anticipated the toll will rise, Xinhua news agency reported.\n\nTo complement the national response, the government has requested international assistance, Stephane Dujarric, spokesperson for the UN chief, told reporters.\n\nAccording to local authorities, damage inflicted by the quake is extensive, including hospitals, residential and public buildings, roads, water reservoirs and gas pipes.\n\nVillages near Efate have also experienced landslides. Communications in many areas have been cut off.\n\nOperations at Port Vila International Airport in the capital city are experiencing delays due to damage to its terminal building and road network while the runway is functioning, the UN Office for the Coordination of Humanitarian Affairs (OCHA) reported. The airport remains closed to all commercial services.\n\nAccess to the seaport is also disrupted by a landslide, limiting the transport of essential supplies and personnel.\n\nThe United Nations and partners are mobilising resources to respond, OCHA said. It is deploying response teams, including a UN disaster assessment and coordination team, in the quake-hit region.\n\nUN humanitarians said that immediate needs include medical supplies and repair to medical structures, mobile medical teams, search and rescue teams with heavy machinery for clearing, as well as safe drinking water.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "The government of Vanuatu has declared a state of emergency for seven days following Tuesday's 7.3-magnitude earthquake. ",
+          "start_offset": 0,
+          "end_offset": 121,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.3,
+              "unit": null
+            },
+            {
+              "attribute": "state_of_emergency_duration",
+              "value": 7,
+              "unit": "days"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "At least 14 people have been confirmed dead, with more than 200 injured. Authorities anticipated the toll will rise, Xinhua news agency reported.\n\n",
+          "start_offset": 121,
+          "end_offset": 268,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "uncertainty"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 14,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injuries",
+              "value": {
+                "value": 200,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "Xinhua citing authorities",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "To complement the national response, the government has requested international assistance, Stephane Dujarric, spokesperson for the UN chief, told reporters.\n\n",
+          "start_offset": 268,
+          "end_offset": 427,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "assistance_status",
+              "value": "requested by Government of Vanuatu",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Stephane Dujarric",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "According to local authorities, damage inflicted by the quake is extensive, including hospitals, residential and public buildings, roads, water reservoirs and gas pipes.\n\nVillages near Efate have also experienced landslides. Communications in many areas have been cut off.\n\n",
+          "start_offset": 427,
+          "end_offset": 701,
+          "sentence_ids": [
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "damage",
+              "value": [
+                "hospitals",
+                "residential and public buildings",
+                "roads",
+                "water reservoirs",
+                "gas pipes"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "landslides",
+              "value": "villages near Efate",
+              "unit": null
+            },
+            {
+              "attribute": "communications_loss",
+              "value": "many areas",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "Operations at Port Vila International Airport in the capital city are experiencing delays due to damage to its terminal building and road network while the runway is functioning, the UN Office for the Coordination of Humanitarian Affairs (OCHA) reported. The airport remains closed to all commercial services.\n\n",
+          "start_offset": 701,
+          "end_offset": 1012,
+          "sentence_ids": [
+            8,
+            9
+          ],
+          "fact_types": [
+            "infrastructure",
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "runway",
+              "value": "functioning",
+              "unit": null
+            },
+            {
+              "attribute": "commercial_operations",
+              "value": "closed",
+              "unit": null
+            },
+            {
+              "attribute": "delays",
+              "value": "terminal and road network damage",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "OCHA",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "Access to the seaport is also disrupted by a landslide, limiting the transport of essential supplies and personnel.\n\n",
+          "start_offset": 1012,
+          "end_offset": 1129,
+          "sentence_ids": [
+            10
+          ],
+          "fact_types": [
+            "infrastructure",
+            "aid",
+            "secondary_hazard",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "seaport_access",
+              "value": "disrupted by landslide",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "The United Nations and partners are mobilising resources to respond, OCHA said. It is deploying response teams, including a UN disaster assessment and coordination team, in the quake-hit region.\n\n",
+          "start_offset": 1129,
+          "end_offset": 1325,
+          "sentence_ids": [
+            11,
+            12
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "response_team",
+              "value": "UN disaster assessment and coordination team",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "OCHA",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F008",
+          "span_text": "UN humanitarians said that immediate needs include medical supplies and repair to medical structures, mobile medical teams, search and rescue teams with heavy machinery for clearing, as well as safe drinking water.",
+          "start_offset": 1325,
+          "end_offset": 1539,
+          "sentence_ids": [
+            13
+          ],
+          "fact_types": [
+            "humanitarian_needs",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "needs",
+              "value": [
+                "medical supplies",
+                "medical facility repair",
+                "mobile medical teams",
+                "search and rescue teams with heavy machinery",
+                "safe drinking water"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "UN humanitarians",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "a3d71c12b026f1f1f2406d6783096664e9e5df1f064b69f8399dab1fae888ca8",
+        "removed_word_count": 69,
+        "removed_word_ratio": 0.23469387755102042
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "瓦努阿图主震震级",
+        "fact_type": "disaster_magnitude",
+        "attribute": "mainshock_magnitude",
+        "supporting_spans": [
+          "A001_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 7.3,
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": 7.3,
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "死亡通报包含至少 14 人和向下修订至 9 人两种表述",
+        "fact_type": "casualties",
+        "attribute": "reported_death_toll",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F005",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 14,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F005",
+            "value": {
+              "value": 9,
+              "revision_direction": "down"
+            },
+            "unit": "people",
+            "attribution": "official toll as reported by RNZ"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "value": 14,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": "Xinhua citing authorities"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "A002 明确提到官方下修，但三篇文章没有共同的统计截点或完整修订记录；A003 后发也可能沿用较早数字。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "受伤规模为数百人",
+        "fact_type": "injuries",
+        "attribute": "reported_injuries",
+        "supporting_spans": [
+          "A001_F001",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "hundreds",
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "value": 200,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": "Xinhua"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "新西兰救援出发或抵达有所延误",
+        "fact_type": "aid",
+        "attribute": "nz_response_delay",
+        "supporting_spans": [
+          "A001_F003",
+          "A002_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": "technical issues",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": "fault on older Hercules aircraft",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC005",
+        "cluster_description": "维拉港机场受损并影响运营",
+        "fact_type": "infrastructure",
+        "attribute": "airport_disruption",
+        "supporting_spans": [
+          "A001_F002",
+          "A003_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": "damaged airport; Australia to help restore operations",
+            "unit": null,
+            "attribution": "Penny Wong"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F005",
+            "value": "runway functional but commercial services closed",
+            "unit": null,
+            "attribution": "OCHA"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC006",
+        "cluster_description": "安全饮水为震后紧急需要",
+        "fact_type": "humanitarian_needs",
+        "attribute": "safe_drinking_water",
+        "supporting_spans": [
+          "A001_F005",
+          "A003_F008"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F005",
+            "value": "water contamination is a concern",
+            "unit": null,
+            "attribution": "UNICEF"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F008",
+            "value": "safe drinking water urgently needed",
+            "unit": null,
+            "attribution": "UN humanitarians"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005",
+        "FC006"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "important_facts": [
+        "FC004",
+        "FC005",
+        "FC006"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2024-12-17",
+          "time_precision": "当地日期",
+          "description": "瓦努阿图遭遇 7.3 级主震。",
+          "supporting_spans": [
+            "A001_F001",
+            "A003_F001"
+          ]
+        },
+        {
+          "time": "2024-12-18",
+          "time_precision": "报道 UTC 日期",
+          "description": "澳方救援和医疗人员抵达，新西兰在飞机故障后也报告已抵达。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F002",
+            "A002_F003"
+          ]
+        },
+        {
+          "time": "2024-12-19",
+          "time_precision": "报道 UTC 日期",
+          "description": "报道转述政府请求国际援助以及联合国协调行动。",
+          "supporting_spans": [
+            "A003_F003",
+            "A003_F007"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "飞机技术故障延误新西兰救援人员抵达。",
+          "supporting_spans": [
+            "A001_F003",
+            "A002_F003"
+          ]
+        },
+        {
+          "description": "机场航站楼和路网受损、港口通行受滑坡阻碍，影响物资和人员运送。",
+          "supporting_spans": [
+            "A003_F005",
+            "A003_F006"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "主震导致死亡和大量受伤。死亡数字需按各报道及官方修订线索保留。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F005",
+            "A003_F002"
+          ]
+        },
+        {
+          "description": "政府宣布紧急状态并请求国际援助，多国与联合国正在支援。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F002",
+            "A003_F001",
+            "A003_F003",
+            "A003_F007"
+          ]
+        },
+        {
+          "description": "交通、电力、通信和饮水受到影响。",
+          "supporting_spans": [
+            "A001_F004",
+            "A001_F005",
+            "A003_F004",
+            "A003_F005",
+            "A003_F006",
+            "A003_F008"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "limitations": [
+      "死亡人数不设统一真值。报道未给出各自引用的官方底稿或对应统计时间。"
+    ]
+  }
+}

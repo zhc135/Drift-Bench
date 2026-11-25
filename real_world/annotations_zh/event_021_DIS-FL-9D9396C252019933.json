@@ -1,0 +1,805 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-FL-9D9396C252019933",
+  "event_rank": 21,
+  "event_metadata": {
+    "event_name": "索马里洪水",
+    "disaster_type": "flood",
+    "disaster_type_code": "FL",
+    "event_start_time": "2023-10-04T01:00:00+00:00",
+    "event_end_time": "2023-12-06T01:00:00+00:00",
+    "locations": [
+      "索马里"
+    ],
+    "latitude": 8.3677,
+    "longitude": 49.0834,
+    "place_names_in_reports": [
+      "索马里",
+      "摩加迪沙",
+      "朱巴河",
+      "谢贝利河",
+      "盖多地区",
+      "巴尔代雷",
+      "肯尼亚",
+      "蒙巴萨",
+      "曼德拉",
+      "瓦吉尔"
+    ],
+    "gdacs_id": "1102258",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "10月对风险暴露的估计值与11月已经受灾的人数分开记录。"
+    ],
+    "dataset_place_name": "索马里洪水",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-D5D52DBD1964F756",
+      "event_id": "DIS-FL-9D9396C252019933",
+      "event_rank": 21,
+      "article_rank": 1,
+      "title": "FAO 寻求近1,200万美元，应对索马里罕见的“超级厄尔尼诺”",
+      "publisher": "english-news-cn",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20231006/9ebbc38f78014a829462916f19173743/c.html",
+      "published_at": "2023-10-06T19:07:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "新华社摩加迪沙发稿的报道基于 FAO 的声明。",
+      "content": "新华社摩加迪沙10月6日电——联合国粮食及农业组织（FAO）星期五表示，在索马里罕见的“超级厄尔尼诺”现象到来之前，需要1,180万美元用于加强减灾措施，包括绘制易发生洪水地区的地图。\n\nFAO 驻索马里代表埃蒂安·彼得施米特表示，资金将用于保护风险最高的朱巴河和谢贝利河沿岸居民，并补充索马里人道主义响应计划已确定的大规模现金和生计支持。\n\n他在声明中说：“全球和区域气候预测中心的气候模型显示，由于厄尔尼诺条件和印度洋偶极子正相位现象同时出现，该国南部降雨增加的置信度很高，超过90%，因此没有理由不采取行动。它将导致今年10月至12月出现罕见的‘超级厄尔尼诺’天气事件。”\n\nFAO 估计，索马里有120万人和150万公顷生产性土地面临洪水高风险。\n\n联合国粮食机构表示，已制定全面的防灾准备、预先行动和响应计划，旨在减轻和应对危机的影响。该计划是其全球预先行动和响应计划的一部分，面向25个农业生计和粮食安全受到厄尔尼诺影响风险较高的国家。\n\n彼得施米特说，FAO 正在迅速扩大早期预警和预先行动活动，目标是保护100万人。\n\n他说，FAO 正与索马里灾害管理局和联合国人道主义事务协调厅合作，支持协调预先行动，并呼吁其他参与方认真对待厄尔尼诺警告，携手防止索马里出现生命及生计损失。\n\nFAO 表示，厄尔尼诺是影响东非天气的几个关键气候驱动因素之一。与2020年至2022年带来严重且持续干旱的拉尼娜现象不同，厄尔尼诺通常使东非地区降雨高于常年水平。\n\n彼得施米特补充说：“过去30年中，朱巴河和谢贝利河流域沿河地区洪水事件的频率增加到三倍，常造成人员伤亡和重大经济损失。就在今年5月，谢贝利河沿岸一场灾难性洪水使250,000人流离失所。” ",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "新华社摩加迪沙10月6日电——联合国粮食及农业组织（FAO）星期五表示，在索马里罕见的“超级厄尔尼诺”现象到来之前，需要1,180万美元用于加强减灾措施，包括绘制易发生洪水地区的地图。\n\nFAO 驻索马里代表埃蒂安·彼得施米特表示，资金将用于保护风险最高的朱巴河和谢贝利河沿岸居民，并补充索马里人道主义响应计划已确定的大规模现金和生计支持。\n\n",
+          "start_offset": 0,
+          "end_offset": 172,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "humanitarian_needs"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "fao_funding_required",
+              "value": 11800000,
+              "unit": "USD"
+            },
+            {
+              "attribute": "highest_risk_rivers",
+              "value": [
+                "朱巴河",
+                "谢贝利河"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "他在声明中说：“全球和区域气候预测中心的气候模型显示，由于厄尔尼诺条件和印度洋偶极子正相位现象同时出现，该国南部降雨增加的置信度很高，超过90%，因此没有理由不采取行动。它将导致今年10月至12月出现罕见的‘超级厄尔尼诺’天气事件。”\n\n",
+          "start_offset": 172,
+          "end_offset": 291,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "weather",
+            "cause",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "forecast_confidence",
+              "value": {
+                "value": 90,
+                "qualifier": "greater_than"
+              },
+              "unit": "%"
+            },
+            {
+              "attribute": "scope",
+              "value": "索马里南部降雨增加",
+              "unit": null
+            },
+            {
+              "attribute": "drivers",
+              "value": [
+                "厄尔尼诺",
+                "印度洋偶极子正相位"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "forecast_window",
+              "value": "2023年10月至12月",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "FAO 估计，索马里有120万人和150万公顷生产性土地面临洪水高风险。\n\n",
+          "start_offset": 291,
+          "end_offset": 329,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "affected_population",
+            "disaster_magnitude"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "people_at_high_risk",
+              "value": 1200000,
+              "unit": "people"
+            },
+            {
+              "attribute": "productive_land_at_high_risk",
+              "value": 1500000,
+              "unit": "ha"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "联合国粮食机构表示，已制定全面的防灾准备、预先行动和响应计划，旨在减轻和应对危机的影响。该计划是其全球预先行动和响应计划的一部分，面向25个农业生计和粮食安全受到厄尔尼诺影响风险较高的国家。\n\n彼得施米特说，FAO 正在迅速扩大早期预警和预先行动活动，目标是保护100万人。\n\n他说，FAO 正与索马里灾害管理局和联合国人道主义事务协调厅合作，支持协调预先行动，并呼吁其他参与方认真对待厄尔尼诺警告，携手防止索马里出现生命及生计损失。\n\n",
+          "start_offset": 329,
+          "end_offset": 548,
+          "sentence_ids": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "fact_types": [
+            "affected_population",
+            "response",
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "global_plan_countries",
+              "value": 25,
+              "unit": "countries"
+            },
+            {
+              "attribute": "somalia_people_to_protect",
+              "value": 1000000,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "FAO 表示，厄尔尼诺是影响东非天气的几个关键气候驱动因素之一。与2020年至2022年带来严重且持续干旱的拉尼娜现象不同，厄尔尼诺通常使东非地区降雨高于常年水平。\n\n彼得施米特补充说：“过去30年中，朱巴河和谢贝利河流域沿河地区洪水事件的频率增加到三倍，常造成人员伤亡和重大经济损失。就在今年5月，谢贝利河沿岸一场灾难性洪水使250,000人流离失所。” ",
+          "start_offset": 548,
+          "end_offset": 727,
+          "sentence_ids": [
+            11,
+            12,
+            13
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_occurrence",
+            "secondary_hazard",
+            "affected_population",
+            "evacuation"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "riverine_flood_frequency_change",
+              "value": "过去30年增加到三倍",
+              "unit": null
+            },
+            {
+              "attribute": "may_shabelle_displaced",
+              "value": 250000,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "f8a65bdf90008fa5ab8c74dfd9219d9a75cb23ed04ef46b5fb395a185148c46f",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-6F67D8592BA5C4E2",
+      "event_id": "DIS-FL-9D9396C252019933",
+      "event_rank": 21,
+      "article_rank": 2,
+      "title": "索马里洪水造成至少31人死亡，联合国警告可能发生百年一遇的洪水事件",
+      "publisher": "usnews",
+      "identified_publisher": "Associated Press",
+      "source_domain": "usnews.com",
+      "url": "https://www.usnews.com/news/world/articles/2023-11-12/floods-kill-at-least-31-in-somalia-un-warns-of-a-flood-event-likely-to-happen-once-in-100-years",
+      "published_at": "2023-11-12T00:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "US News 发布了美联社从摩加迪沙发稿的文章。",
+      "content": "索马里摩加迪沙（美联社）——当局星期日表示，暴雨引发的洪水已在索马里多地造成至少31人死亡。信息部长达乌德·阿韦斯在首都摩加迪沙告诉记者，自10月以来，洪水已使近50万人流离失所，扰乱超过120万人的生活。他说，洪水还给民用基础设施造成广泛破坏，尤其是在索马里南部盖多地区。 已提供2,500万美元帮助减轻洪水影响的联合国人道主义事务协调厅（OCHA）星期四在声明中警告称，这是一场“从统计学上看其规模可能只有百年一遇的洪水事件，预计将产生重大人道主义影响”。OCHA 表示：“尽管正在采取一切可能的准备措施，如此规模的洪水只能减轻影响，无法阻止。”该厅建议进行“早期预警和早期行动”以挽救生命，因为“大规模人口流离失所、人道主义需求增加和财产进一步被毁仍很可能发生”。该厅说，在持续至12月的雨季中，索马里约160万人的生活可能受到洪水干扰，150万公顷农田可能被毁。摩加迪沙遭受暴雨重创，暴雨有时冲走包括儿童和老年人在内的弱势人群，并扰乱交通。 洪水也在影响邻国肯尼亚。据肯尼亚红十字会称，截至星期一，肯尼亚有15人死亡。港口城市蒙巴萨以及东北部的曼德拉和瓦吉尔县受影响最严重。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "索马里摩加迪沙（美联社）——当局星期日表示，暴雨引发的洪水已在索马里多地造成至少31人死亡。",
+          "start_offset": 0,
+          "end_offset": 46,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_occurrence",
+            "casualties"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 31,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "scope",
+              "value": "索马里",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "信息部长达乌德·阿韦斯在首都摩加迪沙告诉记者，自10月以来，洪水已使近50万人流离失所，扰乱超过120万人的生活。他说，洪水还给民用基础设施造成广泛破坏，尤其是在索马里南部盖多地区。 ",
+          "start_offset": 46,
+          "end_offset": 138,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "affected_population",
+            "evacuation",
+            "damage"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "displaced",
+              "value": {
+                "value": 500000,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "lives_disrupted",
+              "value": {
+                "value": 1200000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "达乌德·阿韦斯",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "已提供2,500万美元帮助减轻洪水影响的联合国人道主义事务协调厅（OCHA）星期四在声明中警告称，这是一场“从统计学上看其规模可能只有百年一遇的洪水事件，预计将产生重大人道主义影响”。OCHA 表示：“尽管正在采取一切可能的准备措施，如此规模的洪水只能减轻影响，无法阻止。”该厅建议进行“早期预警和早期行动”以挽救生命，因为“大规模人口流离失所、人道主义需求增加和财产进一步被毁仍很可能发生”。该厅说，在持续至12月的雨季中，索马里约160万人的生活可能受到洪水干扰，150万公顷农田可能被毁。",
+          "start_offset": 138,
+          "end_offset": 385,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "aid",
+            "disaster_magnitude",
+            "response",
+            "affected_population"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "ocha_contribution",
+              "value": 25000000,
+              "unit": "USD"
+            },
+            {
+              "attribute": "statistical_return_period",
+              "value": 100,
+              "unit": "years"
+            },
+            {
+              "attribute": "at_risk_population",
+              "value": {
+                "value": 1600000,
+                "qualifier": "some"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "farmland_potentially_destroyed",
+              "value": 1500000,
+              "unit": "ha"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "摩加迪沙遭受暴雨重创，暴雨有时冲走包括儿童和老年人在内的弱势人群，并扰乱交通。 ",
+          "start_offset": 385,
+          "end_offset": 425,
+          "sentence_ids": [
+            8
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "infrastructure",
+            "affected_population"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "洪水也在影响邻国肯尼亚。据肯尼亚红十字会称，截至星期一，肯尼亚有15人死亡。港口城市蒙巴萨以及东北部的曼德拉和瓦吉尔县受影响最严重。",
+          "start_offset": 425,
+          "end_offset": 491,
+          "sentence_ids": [
+            9,
+            10
+          ],
+          "fact_types": [
+            "casualties",
+            "disaster_occurrence",
+            "location"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "邻国肯尼亚",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": 15,
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "肯尼亚红十字会",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "b1980d305849ee26cfd611ebddb33fe3fe9e898f891a75e8003892b0862075cf",
+        "removed_word_count": 18,
+        "removed_word_ratio": 0.06521739130434782
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-359D70A8A83BFBD6",
+      "event_id": "DIS-FL-9D9396C252019933",
+      "event_rank": 21,
+      "article_rank": 3,
+      "title": "索马里：国家灾害管理局宣布进入紧急状态——Somali Dispatch",
+      "publisher": "somalidispatch",
+      "identified_publisher": "Somali Dispatch",
+      "source_domain": "somalidispatch.com",
+      "url": "https://www.somalidispatch.com/latest-news/somalia-national-disaster-management-agency-declared-a-state-of-emergency/",
+      "published_at": "2023-11-13T02:38:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "文章注明 SD 来源，报道委员会首次会议。",
+      "content": "摩加迪沙（SD）——国家灾害管理局与国家洪水应急委员会举行首次会议，索马里副总理、部长们、国家灾害管理局主席及社会其他各界代表出席。\n\n委员会宣布进入紧急状态，强调必须立即向受毁灭性洪水影响的索马里人民提供援助。洪水由强降雨引发，造成了重大损失。委员会还报告了正在朱巴河和谢贝利河地区开展的救援工作。\n\n委员会向媒体分享了因洪水和灾害向受灾人口提供援助的数字和统计数据。\n\n由于局势危急、需要集体支持，委员会敦促索马里公众作出贡献并参与救援工作。委员会感谢已经作出贡献的人，并强调索马里人民在面临这一困境时团结起来的重要性。\n\n索马里国家灾害管理局局长对盖多地区的局势表示担忧，尤其是巴尔代雷镇，严重洪水给该社区造成重创。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "摩加迪沙（SD）——国家灾害管理局与国家洪水应急委员会举行首次会议，索马里副总理、部长们、国家灾害管理局主席及社会其他各界代表出席。\n\n",
+          "start_offset": 0,
+          "end_offset": 68,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "委员会宣布进入紧急状态，强调必须立即向受毁灭性洪水影响的索马里人民提供援助。洪水由强降雨引发，造成了重大损失。委员会还报告了正在朱巴河和谢贝利河地区开展的救援工作。\n\n",
+          "start_offset": 68,
+          "end_offset": 152,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "aid",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "emergency_status",
+              "value": "已宣布进入紧急状态",
+              "unit": null
+            },
+            {
+              "attribute": "relief_regions",
+              "value": [
+                "朱巴河",
+                "谢贝利河"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "委员会向媒体分享了因洪水和灾害向受灾人口提供援助的数字和统计数据。\n\n由于局势危急、需要集体支持，委员会敦促索马里公众作出贡献并参与救援工作。委员会感谢已经作出贡献的人，并强调索马里人民在面临这一困境时团结起来的重要性。\n\n",
+          "start_offset": 152,
+          "end_offset": 264,
+          "sentence_ids": [
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "response",
+            "public_reaction",
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "索马里国家灾害管理局局长对盖多地区的局势表示担忧，尤其是巴尔代雷镇，严重洪水给该社区造成重创。",
+          "start_offset": 264,
+          "end_offset": 311,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "worst_hit_example",
+              "value": "盖多地区巴尔代雷",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "f9b4cea29891470dddb77dae43bf6eac150823d6480395088cd3bb0da5a2bf74",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "索马里洪水造成至少31人死亡",
+        "fact_type": "casualties",
+        "attribute": "somalia_deaths",
+        "supporting_spans": [
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "value": 31,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": "authorities"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "风险暴露、预测受影响和实际受影响使用不同人口指标",
+        "fact_type": "affected_population",
+        "attribute": "population_risk_and_impact",
+        "supporting_spans": [
+          "A001_F003",
+          "A002_F002",
+          "A002_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": {
+              "value": 1200000,
+              "scope": "面临高风险"
+            },
+            "unit": "people",
+            "attribution": "FAO"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": {
+              "value": 1200000,
+              "qualifier": "greater_than",
+              "scope": "已经受到干扰"
+            },
+            "unit": "people",
+            "attribution": "Daud Aweis"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": {
+              "value": 1600000,
+              "qualifier": "some",
+              "scope": "直至12月可能受到干扰"
+            },
+            "unit": "people",
+            "attribution": "OCHA"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "两项估计均认为150万公顷农田面临风险",
+        "fact_type": "damage",
+        "attribute": "land_area_at_risk",
+        "supporting_spans": [
+          "A001_F003",
+          "A002_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": 1500000,
+            "unit": "ha",
+            "attribution": "FAO productive land at risk"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": 1500000,
+            "unit": "ha",
+            "attribution": "OCHA farmland potentially destroyed"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "盖多地区受灾严重",
+        "fact_type": "damage",
+        "attribute": "gedo_damage",
+        "supporting_spans": [
+          "A002_F002",
+          "A003_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "基础设施损坏",
+            "unit": null,
+            "attribution": "Daud Aweis"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": "巴尔代雷社区遭受严重影响",
+            "unit": null,
+            "attribution": "National Disaster Management Agency"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2023-10-06",
+          "time_precision": "Publication date",
+          "description": "FAO 请求1,180万美元用于早期减灾。",
+          "supporting_spans": [
+            "A001_F001"
+          ]
+        },
+        {
+          "time": "2023-11-12",
+          "time_precision": "Publication date",
+          "description": "官员报告至少31人死亡，近500,000人流离失所。",
+          "supporting_spans": [
+            "A002_F001",
+            "A002_F002"
+          ]
+        },
+        {
+          "time": "2023-11-13",
+          "time_precision": "Publication date",
+          "description": "Somali Dispatch 报道国家委员会宣布进入紧急状态。",
+          "supporting_spans": [
+            "A003_F001",
+            "A003_F002"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "FAO 将高降雨风险归因于厄尔尼诺与印度洋偶极子正相位的共同作用。",
+          "supporting_spans": [
+            "A001_F002"
+          ]
+        },
+        {
+          "description": "强降雨造成洪水、人员流离失所和基础设施损坏。",
+          "supporting_spans": [
+            "A002_F001",
+            "A002_F002",
+            "A003_F002"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "高风险警告发布后发生大范围洪水。当局宣布进入紧急状态，联合国机构提供或寻求援助。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F001",
+            "A002_F003",
+            "A003_F002"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "肯尼亚和索马里分别进行统计。百年一遇重现期为机构估计值。"
+    ]
+  }
+}

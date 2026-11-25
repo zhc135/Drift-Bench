@@ -1,0 +1,887 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-FL-8C25C506BBC8AAA0",
+  "event_rank": 20,
+  "event_metadata": {
+    "event_name": "尼泊尔洪水",
+    "disaster_type": "flood",
+    "disaster_type_code": "FL",
+    "event_start_time": "2026-08-26T01:00:00+00:00",
+    "event_end_time": "2026-09-01T14:00:00+00:00",
+    "locations": [
+      "尼泊尔"
+    ],
+    "latitude": 27.2953,
+    "longitude": 85.3649,
+    "place_names_in_reports": [
+      "尼泊尔",
+      "拉苏瓦",
+      "博特科西河",
+      "特里苏里3A水电项目",
+      "加德满都",
+      "恰乌尼",
+      "努瓦科特",
+      "西藏"
+    ],
+    "gdacs_id": "1104124",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "报道指出，8月26日洪水堵塞了隧道。9天指搜寻或取得联系的时间，10天指据报被困的时间。A003 称救援发生于星期四上午，标注中未指定日历日期。"
+    ],
+    "dataset_place_name": "尼泊尔洪水",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-6B7ABCE178910552",
+      "event_id": "DIS-FL-8C25C506BBC8AAA0",
+      "event_rank": 20,
+      "article_rank": 1,
+      "title": "尼泊尔洪水或令保险公司损失超过1.3亿美元，尚未计入死亡和伤害索赔 | 国际",
+      "publisher": "devdiscourse",
+      "identified_publisher": "Reuters",
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/international/3972476-nepal-floods-could-cost-insurers-over-130-mln-even-before-death-injury-claims",
+      "published_at": "2026-09-04T07:29:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "报道末尾署名阿什温·马尼坎丹，两次明确提到路透社采访。Devdiscourse 是承载网站。",
+      "content": "据尼泊尔一家主要保险公司高级官员称，上周尼泊尔发生的毁灭性洪水可能造成超过200亿尼泊尔卢比（1.323亿美元）的商业保险损失，其中水电项目占大部分索赔。\n\n保险赔付将覆盖电站运营商承担的损失。随着当局核实无法到达地区的死亡及失踪人员，预计还将另行提出人寿保险、人身意外和工伤赔偿索赔。\n\n尼泊尔灾害管理部门负责人星期五告诉路透社，这场发生在尼泊尔与中国西藏地区边境的灾害，给人口3,000万的喜马拉雅山国家造成约25.6亿美元经济损失，导致1,200多人死亡，更多人失踪。东方保险公司尼泊尔分公司首席执行官托顿·查克拉博蒂告诉路透社，受灾地区有11个尼泊尔水电项目，部分项目受到标准商业保险保单保障，相关评估仍在进行。\n\n东方保险尼泊尔分公司是总部位于新德里的印度保险公司旗下单位，也是该地区主要保险公司之一。他说：“受影响河流廊道沿线水电项目遭受了最大损失，许多情况下，通道道路和地面基础设施已被冲走。”\n\n他说，包括拉苏瓦加迪、上特里苏里3A、奇利梅和德维加特在内的项目直接受到影响，另有五个项目正在评估。 尼泊尔保险管理局数据显示，截至8月31日，监管机构已收到583起洪水相关索赔，价值258.7亿尼泊尔卢比（1.7113亿美元）。\n\n查克拉博蒂表示，这些数字主要反映保险风险敞口，最终索赔额只有在详细勘察完成后才会明确。他说，如果维修延迟项目投产，索赔金额还可能上升，因为一些保单会赔偿开发商因商业运营推迟造成的收入损失。\n\n按照全球标准，尼泊尔非寿险市场规模较小。监管数据显示，该国14家非寿险公司7月至8月期间保费收入约53亿尼泊尔卢比（3,506万美元），相比之下，印度保险公司同期承保金额为3,140亿印度卢比（33亿美元）。该市场由本国再保险公司 Nepal Re 和 Himalayan Re 提供支持，同时还有印度 GIC Re 和德国 Hannover Re 等国际参与者。\n\n再保险公司警惕喜马拉雅风险：四名行业高管表示，此次洪水可能对喜马拉雅地区基础设施的保险保障产生持久影响。\n\n一名联合国高级官员本周告诉路透社，喜马拉雅地区面临地震及未来冰川洪水的严重风险。国际保险经纪商怡安亚洲电力业务负责人本杰明·吴表示：“近期南亚山区洪水可能促使保险公司进一步审查水电及基础设施风险，尤其是在高暴露地点。”\n\n吴说，保险公司可能越来越多地设置除外责任、降低分项限额并缩小保障范围，导致保费上涨和更有选择性的承保。近期其他喜马拉雅灾害包括2023年印度锡金邦的冰川湖溃决洪水和2021年印度北部北阿坎德邦的山洪。\n\n印度国有再保险公司 GIC Re 首席承保官桑杰·莫卡希表示，此次洪水可能重塑行业对风险累积及冰川湖溃决洪水风险敞口的看法。 （1美元 = 151.1700尼泊尔卢比）\n\n（阿什温·马尼坎丹报道；拉朱·戈帕拉克里希南编辑）",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "据尼泊尔一家主要保险公司高级官员称，上周尼泊尔发生的毁灭性洪水可能造成超过200亿尼泊尔卢比（1.323亿美元）的商业保险损失，其中水电项目占大部分索赔。\n\n保险赔付将覆盖电站运营商承担的损失。随着当局核实无法到达地区的死亡及失踪人员，预计还将另行提出人寿保险、人身意外和工伤赔偿索赔。\n\n",
+          "start_offset": 0,
+          "end_offset": 145,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "economic_loss",
+            "injuries",
+            "missing_persons",
+            "casualties"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "estimated_commercial_loss",
+              "value": {
+                "value": 20000000000,
+                "qualifier": "greater_than"
+              },
+              "unit": "NPR"
+            },
+            {
+              "attribute": "reported_equivalent",
+              "value": 132300000,
+              "unit": "USD"
+            },
+            {
+              "attribute": "excluded_claim_lines",
+              "value": [
+                "人寿保险",
+                "人身意外",
+                "工伤赔偿"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "尼泊尔灾害管理部门负责人星期五告诉路透社，这场发生在尼泊尔与中国西藏地区边境的灾害，给人口3,000万的喜马拉雅山国家造成约25.6亿美元经济损失，导致1,200多人死亡，更多人失踪。东方保险公司尼泊尔分公司首席执行官托顿·查克拉博蒂告诉路透社，受灾地区有11个尼泊尔水电项目，部分项目受到标准商业保险保单保障，相关评估仍在进行。\n\n",
+          "start_offset": 145,
+          "end_offset": 312,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "economic_loss",
+            "casualties",
+            "damage"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "economic_loss_estimate",
+              "value": 2560000000,
+              "unit": "USD"
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 1200,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "hydropower_projects_in_affected_region",
+              "value": 11,
+              "unit": "projects"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "东方保险尼泊尔分公司是总部位于新德里的印度保险公司旗下单位，也是该地区主要保险公司之一。他说：“受影响河流廊道沿线水电项目遭受了最大损失，许多情况下，通道道路和地面基础设施已被冲走。”\n\n他说，包括拉苏瓦加迪、上特里苏里3A、奇利梅和德维加特在内的项目直接受到影响，另有五个项目正在评估。 ",
+          "start_offset": 312,
+          "end_offset": 457,
+          "sentence_ids": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "affected_projects",
+              "value": [
+                "拉苏瓦加迪",
+                "上特里苏里3A",
+                "奇利梅",
+                "德维加特"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "additional_projects_under_assessment",
+              "value": 5,
+              "unit": "projects"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "尼泊尔保险管理局数据显示，截至8月31日，监管机构已收到583起洪水相关索赔，价值258.7亿尼泊尔卢比（1.7113亿美元）。\n\n查克拉博蒂表示，这些数字主要反映保险风险敞口，最终索赔额只有在详细勘察完成后才会明确。他说，如果维修延迟项目投产，索赔金额还可能上升，因为一些保单会赔偿开发商因商业运营推迟造成的收入损失。\n\n",
+          "start_offset": 457,
+          "end_offset": 619,
+          "sentence_ids": [
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "economic_loss",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "filed_claims",
+              "value": 583,
+              "unit": "claims"
+            },
+            {
+              "attribute": "filed_claim_value",
+              "value": 25870000000,
+              "unit": "NPR"
+            },
+            {
+              "attribute": "claim_cutoff",
+              "value": "2026-08-31",
+              "unit": null
+            },
+            {
+              "attribute": "final_payout_status",
+              "value": "尚未结算",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "按照全球标准，尼泊尔非寿险市场规模较小。监管数据显示，该国14家非寿险公司7月至8月期间保费收入约53亿尼泊尔卢比（3,506万美元），相比之下，印度保险公司同期承保金额为3,140亿印度卢比（33亿美元）。该市场由本国再保险公司 Nepal Re 和 Himalayan Re 提供支持，同时还有印度 GIC Re 和德国 Hannover Re 等国际参与者。\n\n",
+          "start_offset": 619,
+          "end_offset": 803,
+          "sentence_ids": [
+            13,
+            14,
+            15
+          ],
+          "fact_types": [
+            "economic_loss"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "non_life_insurers",
+              "value": 14,
+              "unit": null
+            },
+            {
+              "attribute": "july_august_premiums_approximate",
+              "value": 5300000000,
+              "unit": "NPR"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "再保险公司警惕喜马拉雅风险：四名行业高管表示，此次洪水可能对喜马拉雅地区基础设施的保险保障产生持久影响。\n\n一名联合国高级官员本周告诉路透社，喜马拉雅地区面临地震及未来冰川洪水的严重风险。国际保险经纪商怡安亚洲电力业务负责人本杰明·吴表示：“近期南亚山区洪水可能促使保险公司进一步审查水电及基础设施风险，尤其是在高暴露地点。”\n\n吴说，保险公司可能越来越多地设置除外责任、降低分项限额并缩小保障范围，导致保费上涨和更有选择性的承保。近期其他喜马拉雅灾害包括2023年印度锡金邦的冰川湖溃决洪水和2021年印度北部北阿坎德邦的山洪。\n\n印度国有再保险公司 GIC Re 首席承保官桑杰·莫卡希表示，此次洪水可能重塑行业对风险累积及冰川湖溃决洪水风险敞口的看法。 ",
+          "start_offset": 803,
+          "end_offset": 1133,
+          "sentence_ids": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "fact_types": [
+            "economic_loss",
+            "secondary_hazard",
+            "uncertainty"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "（1美元 = 151.1700尼泊尔卢比）\n\n（阿什温·马尼坎丹报道；拉朱·戈帕拉克里希南编辑）",
+          "start_offset": 1133,
+          "end_offset": 1181,
+          "sentence_ids": [
+            22,
+            23
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "d67b9c3f8a836cb7fe753a54729062533ff4396462206033d0bc81e7a216970f",
+        "removed_word_count": 16,
+        "removed_word_ratio": 0.029304029304029304
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-9CC011B18FEB0BD1",
+      "event_id": "DIS-FL-8C25C506BBC8AAA0",
+      "event_rank": 20,
+      "article_rank": 2,
+      "title": "“这是一个奇迹！”：卡比尔·马哈詹从特里苏里3A水电项目现场获救后家人的感言——The Tribune",
+      "publisher": "tribuneindia",
+      "identified_publisher": "ANI",
+      "source_domain": "tribuneindia.com",
+      "url": "https://www.tribuneindia.com/news/world/this-is-a-miracle-family-of-kabir-maharjan-after-his-rescue-from-trishuli-hydro-3a-project-site/",
+      "published_at": "2026-09-04T08:47:13+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "ANI 发稿地信息，另有报道来自《加德满都邮报》和尼泊尔军方。",
+      "content": "尼泊尔加德满都9月4日（ANI）：在这一情绪激动、深感宽慰的时刻，卡比尔·马哈詹的家人在他从特里苏里3A水电项目隧道获救后表达了极大的喜悦。马哈詹的表姐妹对媒体说，家人一度失去希望，但他安全归来后，全家欣喜若狂。“我们非常高兴。我们来这里是为了见他。我们的喜悦无以言表。他被困在隧道中10天。”“这是一个奇迹。我们曾一度放弃希望，但今天我们的喜悦无以言表。”“消息传来时，我刚做完供奉仪式。随后我打电话给其他姐妹，感谢上帝让我的兄弟安全归来。”《加德满都邮报》援引国家独立党议员施里·拉姆·纽帕内报道称，两名男子分别被确认为机械工长桑杰·萨赫和机械主管卡比尔·马哈詹。他们已被空运至加德满都。军方官员表示，萨赫将在恰乌尼的比伦德拉陆军医院接受治疗，马哈詹将被送往国家创伤中心。尼泊尔陆军也在 X 的帖子中分享了救援详情。https://x.com/NepaliArmyHQ/status/2095761515089666544?s=20 随着事态发展，在灾害袭击这个喜马拉雅山国家九天后，救援人员已与据信被困在特里苏里3A水电项目隧道中的人员建立联系。8月26日，拉苏瓦地区博特科西河引发洪水，导致隧道被封堵。据救援队称，星期五行动期间听到隧道内不止一人的声音。据报道，救援人员对里面的人说：“不要惊慌，我们正在救你们。”他们回答：“好的。”尼泊尔陆军和武装警察部队人员组成的救援队已进入隧道，并加强搜救行动。与被困人员直接取得联系被视为正在进行的救援工作的一项重要且令人鼓舞的进展。尼泊尔的救援和救济工作仍在进行。星期五早些时候，一名孕妇被从努瓦科特比杜尔军营受洪水影响地区空运至加德满都。搜救行动已持续九天，目的是寻找并营救据信被困在特里苏里3A水电项目隧道内的人员。与此同时，据尼泊尔警方称，随着事态发展，尼泊尔洪水死亡人数已升至1290人。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "尼泊尔加德满都9月4日（ANI）：在这一情绪激动、深感宽慰的时刻，卡比尔·马哈詹的家人在他从特里苏里3A水电项目隧道获救后表达了极大的喜悦。马哈詹的表姐妹对媒体说，家人一度失去希望，但他安全归来后，全家欣喜若狂。“我们非常高兴。我们来这里是为了见他。我们的喜悦无以言表。他被困在隧道中10天。”“这是一个奇迹。我们曾一度放弃希望，但今天我们的喜悦无以言表。”“消息传来时，我刚做完供奉仪式。随后我打电话给其他姐妹，感谢上帝让我的兄弟安全归来。”",
+          "start_offset": 0,
+          "end_offset": 222,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "fact_types": [
+            "public_reaction",
+            "timeline",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "person",
+              "value": "卡比尔·马哈詹",
+              "unit": null
+            },
+            {
+              "attribute": "trapped_duration",
+              "value": 10,
+              "unit": "days"
+            },
+            {
+              "attribute": "attribution",
+              "value": "接受媒体采访的亲属",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "《加德满都邮报》援引国家独立党议员施里·拉姆·纽帕内报道称，两名男子分别被确认为机械工长桑杰·萨赫和机械主管卡比尔·马哈詹。他们已被空运至加德满都。军方官员表示，萨赫将在恰乌尼的比伦德拉陆军医院接受治疗，马哈詹将被送往国家创伤中心。尼泊尔陆军也在 X 的帖子中分享了救援详情。https://x.com/NepaliArmyHQ/status/2095761515089666544?",
+          "start_offset": 222,
+          "end_offset": 414,
+          "sentence_ids": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "fact_types": [
+            "response",
+            "injuries"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "rescued",
+              "value": [
+                "桑杰·萨赫",
+                "卡比尔·马哈詹"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "destination",
+              "value": "加德满都",
+              "unit": null
+            },
+            {
+              "attribute": "reported_transfer_plan",
+              "value": {
+                "Sanjay Sah": "比伦德拉陆军医院",
+                "Kabir Maharjan": "国家创伤中心"
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "s=20 随着事态发展，在灾害袭击这个喜马拉雅山国家九天后，救援人员已与据信被困在特里苏里3A水电项目隧道中的人员建立联系。8月26日，拉苏瓦地区博特科西河引发洪水，导致隧道被封堵。据救援队称，星期五行动期间听到隧道内不止一人的声音。据报道，救援人员对里面的人说：“不要惊慌，我们正在救你们。”他们回答：“好的。”",
+          "start_offset": 414,
+          "end_offset": 571,
+          "sentence_ids": [
+            15,
+            16,
+            17,
+            18
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "response",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "flood_date",
+              "value": "2026-08-26",
+              "unit": null
+            },
+            {
+              "attribute": "river",
+              "value": "博特科西河",
+              "unit": null
+            },
+            {
+              "attribute": "communication_after_disaster",
+              "value": 9,
+              "unit": "days"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "尼泊尔陆军和武装警察部队人员组成的救援队已进入隧道，并加强搜救行动。与被困人员直接取得联系被视为正在进行的救援工作的一项重要且令人鼓舞的进展。尼泊尔的救援和救济工作仍在进行。星期五早些时候，一名孕妇被从努瓦科特比杜尔军营受洪水影响地区空运至加德满都。搜救行动已持续九天，目的是寻找并营救据信被困在特里苏里3A水电项目隧道内的人员。",
+          "start_offset": 571,
+          "end_offset": 736,
+          "sentence_ids": [
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "fact_types": [
+            "response",
+            "evacuation"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "response",
+              "value": [
+                "尼泊尔陆军",
+                "武装警察部队"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "additional_airlift",
+              "value": "来自努瓦科特的孕妇",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "与此同时，据尼泊尔警方称，随着事态发展，尼泊尔洪水死亡人数已升至1290人。",
+          "start_offset": 736,
+          "end_offset": 774,
+          "sentence_ids": [
+            24
+          ],
+          "fact_types": [
+            "casualties"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": 1290,
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "尼泊尔警方",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "f9941dd9e25e310f24204e0070a007c7e5c14ce0422c9a2b99bd886f9fd53eeb",
+        "removed_word_count": 27,
+        "removed_word_ratio": 0.058823529411764705
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-009B2E547F9A88EE",
+      "event_id": "DIS-FL-8C25C506BBC8AAA0",
+      "event_rank": 20,
+      "article_rank": 3,
+      "title": "被困特里苏里3A隧道10天后，两名工人获救生还",
+      "publisher": "thehimalayantimes",
+      "identified_publisher": "The Himalayan Times",
+      "source_domain": "thehimalayantimes.com",
+      "url": "https://thehimalayantimes.com/nepal/two-workers-rescued-alive-after-10-days-in-trishuli-3a-tunnel",
+      "published_at": "2026-09-04T11:48:13+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "加德满都发稿地信息包括尼泊尔军方发言人和总理顾问的独立引语，未发现与 ANI 相同的稿件。",
+      "content": "要点：工人桑杰·萨赫和卡比尔·马哈詹被困10天后获救生还。尼泊尔陆军、警方、武装警察部队及专家主导了行动。萨赫状况稳定，马哈詹病情危重；两人均被送入比伦德拉陆军医院。救援是拉苏瓦毁灭性洪水后更广泛搜寻工作的组成部分。加德满都，9月4日\n\n毁灭性博特科西河洪水发生后，两名一直被困在特里苏里3A水电项目隧道内的工人在失踪10天后获救生还。\n\n这两人分别为桑杰·萨赫和卡比尔·马哈詹，星期四上午由尼泊尔陆军牵头，并有尼泊尔警方、武装警察部队人员及技术专家组成的联合队伍救出。\n\n尼泊尔陆军发言人拉贾拉姆·巴斯内特确认，两名工人在项目隧道内被发现时均存活。\n\n据总理新闻和研究专家迪帕·达哈尔称，萨赫状况稳定，马哈詹状况严重。第二个被救出的马哈詹被送往恰乌尼的比伦德拉陆军医院接受重症治疗。尽管萨赫情况稳定，也正被送往该医院接受进一步检查。\n\n自洪水发生以来，由于担心有人被困在水电项目内，救援队持续开展工作。这次成功救援是拉苏瓦毁灭性洪水后更广泛搜救行动的一部分。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "要点：工人桑杰·萨赫和卡比尔·马哈詹被困10天后获救生还。尼泊尔陆军、警方、武装警察部队及专家主导了行动。萨赫状况稳定，马哈詹病情危重；两人均被送入比伦德拉陆军医院。救援是拉苏瓦毁灭性洪水后更广泛搜寻工作的组成部分。加德满都，9月4日\n\n",
+          "start_offset": 0,
+          "end_offset": 119,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "毁灭性博特科西河洪水发生后，两名一直被困在特里苏里3A水电项目隧道内的工人在失踪10天后获救生还。\n\n这两人分别为桑杰·萨赫和卡比尔·马哈詹，星期四上午由尼泊尔陆军牵头，并有尼泊尔警方、武装警察部队人员及技术专家组成的联合队伍救出。\n\n尼泊尔陆军发言人拉贾拉姆·巴斯内特确认，两名工人在项目隧道内被发现时均存活。\n\n",
+          "start_offset": 119,
+          "end_offset": 277,
+          "sentence_ids": [
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "response",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "rescued",
+              "value": [
+                "桑杰·萨赫",
+                "卡比尔·马哈詹"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "trapped_duration",
+              "value": 10,
+              "unit": "days"
+            },
+            {
+              "attribute": "reported_rescue_time",
+              "value": "星期四上午",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "拉贾拉姆·巴斯内特确认两人均存活",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "据总理新闻和研究专家迪帕·达哈尔称，萨赫状况稳定，马哈詹状况严重。第二个被救出的马哈詹被送往恰乌尼的比伦德拉陆军医院接受重症治疗。尽管萨赫情况稳定，也正被送往该医院接受进一步检查。\n\n",
+          "start_offset": 277,
+          "end_offset": 369,
+          "sentence_ids": [
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "injuries",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "sah_condition",
+              "value": "稳定",
+              "unit": null
+            },
+            {
+              "attribute": "maharjan_condition",
+              "value": "严重",
+              "unit": null
+            },
+            {
+              "attribute": "maharjan_destination",
+              "value": "比伦德拉陆军医院",
+              "unit": null
+            },
+            {
+              "attribute": "sah_destination",
+              "value": "正在送往医院",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "自洪水发生以来，由于担心有人被困在水电项目内，救援队持续开展工作。这次成功救援是拉苏瓦毁灭性洪水后更广泛搜救行动的一部分。",
+          "start_offset": 369,
+          "end_offset": 430,
+          "sentence_ids": [
+            8,
+            9
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "90ffdad398dff2b5c65ff255d6b636f2b9cdffb3e40150a3476a3d3b8223ecf4",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "尼泊尔洪水死亡人数统计相容",
+        "fact_type": "casualties",
+        "attribute": "death_toll",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": {
+              "value": 1200,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": "disaster authority chief (article context)"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F005",
+            "value": 1290,
+            "unit": "people",
+            "attribution": "Nepal Police"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "两名隧道被困工人获救",
+        "fact_type": "response",
+        "attribute": "rescued_workers",
+        "supporting_spans": [
+          "A002_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": [
+              "桑杰·萨赫",
+              "卡比尔·马哈詹"
+            ],
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": [
+              "桑杰·萨赫",
+              "卡比尔·马哈詹"
+            ],
+            "unit": null,
+            "attribution": "Nepal Army"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "各报道对马哈詹计划转院及实际接受治疗的医院描述不同",
+        "fact_type": "response",
+        "attribute": "maharjan_hospital_transfer",
+        "supporting_spans": [
+          "A002_F002",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "计划送往国家创伤中心",
+            "unit": null,
+            "attribution": "Army officials"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "送往比伦德拉陆军医院",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "转院计划及据报到达地点可能反映不同阶段，不足以确立冲突。"
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "提交索赔的票面价值与预计最终承保损失不同",
+        "fact_type": "economic_loss",
+        "attribute": "insurance_exposure",
+        "supporting_spans": [
+          "A001_F001",
+          "A001_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 20000000000,
+              "qualifier": "greater_than"
+            },
+            "unit": "NPR",
+            "attribution": "Oriental Insurance Nepal"
+          },
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": {
+              "filed_claim_value": 25870000000
+            },
+            "unit": "NPR",
+            "attribution": "Nepal Insurance Authority"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2026-08-26",
+          "time_precision": "Local date",
+          "description": "博特科西河洪水堵塞水电项目隧道。",
+          "supporting_spans": [
+            "A002_F003",
+            "A003_F002"
+          ]
+        },
+        {
+          "time": "2026-08-31",
+          "time_precision": "Reporting cutoff",
+          "description": "保险监管部门已收到583起洪水索赔。",
+          "supporting_spans": [
+            "A001_F004"
+          ]
+        },
+        {
+          "time": "洪水发生约十天后",
+          "time_precision": "Relative time",
+          "description": "军方牵头的联合队伍救出两名工人，他们随后被转移治疗。",
+          "supporting_spans": [
+            "A002_F002",
+            "A003_F002",
+            "A003_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "洪水堵塞特里苏里3A隧道，损坏多个水电设施，并产生大量保险索赔。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F003",
+            "A002_F003"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "洪水造成严重人员及经济损失，并损坏水电设施。救援人员救出两名被困工人。",
+          "supporting_spans": [
+            "A001_F002",
+            "A001_F003",
+            "A002_F005",
+            "A003_F002"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "估计经济损失、商业保险损失与已提交索赔金额属于不同衡量指标。"
+    ]
+  }
+}

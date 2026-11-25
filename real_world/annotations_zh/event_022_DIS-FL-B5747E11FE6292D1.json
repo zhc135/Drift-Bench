@@ -1,0 +1,968 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-FL-B5747E11FE6292D1",
+  "event_rank": 22,
+  "event_metadata": {
+    "event_name": "中国洪水",
+    "disaster_type": "flood",
+    "disaster_type_code": "FL",
+    "event_start_time": "2025-09-23T01:00:00+00:00",
+    "event_end_time": "2025-09-25T01:00:00+00:00",
+    "locations": [
+      "中国"
+    ],
+    "latitude": 22.3506,
+    "longitude": 114.1849,
+    "place_names_in_reports": [
+      "香港",
+      "广东",
+      "广州",
+      "珠海",
+      "徐闻",
+      "深圳",
+      "江门",
+      "广西",
+      "北海",
+      "海南",
+      "澳门",
+      "台湾"
+    ],
+    "gdacs_id": "1103514",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "三篇文章均报道登陆前的预警。预测最大风速、预测阵风和观测强度分别记录。"
+    ],
+    "dataset_place_name": "中国洪水",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-571D9B886136BC04",
+      "event_id": "DIS-FL-B5747E11FE6292D1",
+      "event_rank": 22,
+      "article_rank": 1,
+      "title": "严阵以待，迎战超强台风",
+      "publisher": "chinadailyhk",
+      "identified_publisher": "China Daily Hong Kong",
+      "source_domain": "chinadailyhk.com",
+      "url": "https://www.chinadailyhk.com/hk/article/620458",
+      "published_at": "2025-09-23T08:20:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "香港发稿地信息及当地准备工作的报道。正文没有独立记者署名。",
+      "content": "香港——商店橱窗贴上胶带，抽水机器人已部署，防洪挡板已安装。星期二，今年迄今全球最强热带气旋超强台风“桦加沙”逐渐逼近香港，预计带来强风、暴雨和洪水，香港进入全面戒备状态。\n\n香港天文台于下午2时20分发出八号烈风或暴风信号。预计离岸海域和高地将出现飓风级风力，并频繁出现狂风大骤雨及雷暴。\n\n另请阅读：香港严阵以待迎战超强台风\n\n广东省省会广州的居民也在为超强台风的影响做好准备，在超市储备食品和生活必需品。广州市政府已宣布全市范围“五停”措施，即停课、停工、停产、停运、停业，以保障人民生命财产安全。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "香港——商店橱窗贴上胶带，抽水机器人已部署，防洪挡板已安装。星期二，今年迄今全球最强热带气旋超强台风“桦加沙”逐渐逼近香港，预计带来强风、暴雨和洪水，香港进入全面戒备状态。\n\n",
+          "start_offset": 0,
+          "end_offset": 88,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "response",
+            "weather",
+            "secondary_hazard"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "typhoon",
+              "value": "桦加沙",
+              "unit": null
+            },
+            {
+              "attribute": "preparations",
+              "value": [
+                "抽水机器人",
+                "防洪挡板",
+                "贴上胶带的窗户"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "香港天文台于下午2时20分发出八号烈风或暴风信号。预计离岸海域和高地将出现飓风级风力，并频繁出现狂风大骤雨及雷暴。\n\n",
+          "start_offset": 88,
+          "end_offset": 147,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "response",
+            "weather",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "warning_signal",
+              "value": 8,
+              "unit": null
+            },
+            {
+              "attribute": "issue_time",
+              "value": "14:20",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "香港天文台",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "另请阅读：香港严阵以待迎战超强台风\n\n",
+          "start_offset": 147,
+          "end_offset": 166,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "广东省省会广州的居民也在为超强台风的影响做好准备，在超市储备食品和生活必需品。广州市政府已宣布全市范围“五停”措施，即停课、停工、停产、停运、停业，以保障人民生命财产安全。",
+          "start_offset": 166,
+          "end_offset": 252,
+          "sentence_ids": [
+            8,
+            9
+          ],
+          "fact_types": [
+            "response",
+            "public_reaction",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "guangzhou_suspensions",
+              "value": [
+                "停课",
+                "停工",
+                "停产",
+                "停运",
+                "停业"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "cbaa016b2e41d96dbdbe7805b93675b7629310671b311c48704dd38cd6339fc3",
+        "removed_word_count": 14,
+        "removed_word_ratio": 0.0875
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-617AC559FB97B0FC",
+      "event_id": "DIS-FL-B5747E11FE6292D1",
+      "event_rank": 22,
+      "article_rank": 2,
+      "title": "香港严阵以待：超强台风“桦加沙”逼近 | 科学与环境",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/science-environment/3637573-hong-kong-braces-for-impact-super-typhoon-ragasa-approaches",
+      "published_at": "2025-09-23T08:32:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "概述香港天文台预警及地区准备工作，无法获得原始署名。",
+      "content": "随着超强台风“桦加沙”逼近，香港进入停摆状态。居民被建议留在家中，当局已暂停大部分客运航班直至星期四。人们争相购买必需品，超市出现恐慌性抢购，窗户也贴上胶带以尽量降低玻璃破裂风险。\n\n据香港天文台称，“桦加沙”携带最高达220公里/小时的风速，对广东沿海构成严重威胁。各地已采取撤离措施并发布警报，预计“桦加沙”将保持强度，趋向香港、中国内地及台湾，可能于星期三登陆。\n\n包括澳门和台湾等地区在内，整个地区700多个航班受到干扰。香港天文台预计将出现强风和降雨，促使中国采取防洪措施。居民通过设置沙袋和储备物品进行准备，地方当局设立应急避难所，为紧急情况做好准备。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "随着超强台风“桦加沙”逼近，香港进入停摆状态。居民被建议留在家中，当局已暂停大部分客运航班直至星期四。人们争相购买必需品，超市出现恐慌性抢购，窗户也贴上胶带以尽量降低玻璃破裂风险。\n\n",
+          "start_offset": 0,
+          "end_offset": 92,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure",
+            "public_reaction"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "flight_suspension_window",
+              "value": "直至星期四",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "据香港天文台称，“桦加沙”携带最高达220公里/小时的风速，对广东沿海构成严重威胁。各地已采取撤离措施并发布警报，预计“桦加沙”将保持强度，趋向香港、中国内地及台湾，可能于星期三登陆。\n\n",
+          "start_offset": 92,
+          "end_offset": 186,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "weather",
+            "response",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "winds",
+              "value": {
+                "value": 220,
+                "qualifier": "up_to"
+              },
+              "unit": "km/h"
+            },
+            {
+              "attribute": "landfall_timing",
+              "value": "可能在星期三",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "香港天文台",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "包括澳门和台湾等地区在内，整个地区700多个航班受到干扰。香港天文台预计将出现强风和降雨，促使中国采取防洪措施。居民通过设置沙袋和储备物品进行准备，地方当局设立应急避难所，为紧急情况做好准备。",
+          "start_offset": 186,
+          "end_offset": 282,
+          "sentence_ids": [
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "infrastructure",
+            "weather",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "flights_disrupted",
+              "value": {
+                "value": 700,
+                "qualifier": "greater_than"
+              },
+              "unit": "flights"
+            },
+            {
+              "attribute": "scope",
+              "value": "包括澳门和台湾在内的地区",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "7a6ff2ee8b73c98d88105b82ab59b3f1b92a6cb24f24bee99881fbde0fe22985",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-1A8D00CB8E85EE3C",
+      "event_id": "DIS-FL-B5747E11FE6292D1",
+      "event_rank": 22,
+      "article_rank": 3,
+      "title": "中国聚焦：广东将防台风应急响应提升至最高级别，逾37万人已转移",
+      "publisher": "xinhuanet-english",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20250923/148151976b844747a2ffeae28b715469/c.html",
+      "published_at": "2025-09-23T10:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "新华社广州发稿，采用广东现场及机构报道。",
+      "content": "新华社广州9月23日电——预计台风“桦加沙”将在24小时内以强台风或超强台风级别登陆广东省中部或西部沿海地区，中国南部广东省于星期二上午10时将防风应急响应提升至最高级别。\n\n广东省应急管理部门星期二表示，全省共转移371,644人。气象专家警告，“桦加沙”正快速移动并保持强度，将成为今年登陆中国的最强台风。\n\n截至目前，全省80,231艘渔船已在港口避风，12,246名海上作业人员已上岸避险。\n\n台风“桦加沙”星期一晚些时候进入南海，预计以约每小时20公里的速度向西北方向移动。据广东省气象台称，预计星期三将登陆珠海市至徐闻县沿海一带，登陆时风速达每秒40至55米。\n\n预计台风将带来暴雨和强风，部分地区面临极端降水，台风中心途经区域阵风可能高达每秒60米。\n\n据中央气象台称，受台风影响，江苏东部和安徽部分地区也将出现强降雨。\n\n中国有关部门星期二向广东调拨约60,000件中央救灾物资。这批救灾物资包括帐篷、折叠床、夏凉被、应急照明设备及家庭应急包，将支持当地救灾工作并帮助受灾人员。\n\n广东省防汛防旱防风指挥部敦促各地各部门以最高标准、最严要求、最实举措行动，并下令重点受影响地区停课、停工、停产、停公交、停业。包括省会广州、珠海、深圳和江门在内的城市已实施这些停运措施。\n\n中国海洋石油集团有限公司（CNOOC）深圳分公司已将南海东部31座海上平台切换至“台风生产模式”，即在保障人员在岸上安全的同时，通过无人化、卫星远程控制运营维持石油产量。\n\n截至星期一晚，该公司已执行290架次直升机飞行和12次船舶航行，撤离所有5,192名海上人员。中海油深圳应急经理邱志敏表示，每座钻井平台目前均已进港或安全锚泊，以抵御风暴。\n\n珠海部分高速公路路段和桥梁已关闭，港珠澳大桥珠海口岸暂停出境旅客通关，大桥主桥同时关闭。\n\n在珠海香洲区，情侣路沿线正开展人员撤离，重点涉及海滨高楼和老旧小区，这些地方在2017年台风“天鸽”期间受灾最为严重，当时暴雨和海水倒灌破坏建筑外立面并淹没地下车库。\n\n气象预报人员警告，台风“桦加沙”恰逢天文大潮，其强度可能达到或超过“天鸽”。星期一，区政府命令沿海、山坡及低洼地区所有居民和游客在星期二下午6时前转移至避难所或高地。该市已临时关闭学校、工厂、商业场所、交通和港口。\n\n邻近的广西壮族自治区是风暴路径上的下一站。自治区气象部门预计，“桦加沙”将于星期四凌晨在玉林至北海之间进入广西，或沿北部湾海岸向西转向。星期二上午11时，广西将台风应急响应提升至三级。\n\n广西沿海水域的所有客船及渡轮均已停航。\n\n广西北海市海事部门限制北海至涠洲岛客船航线，只允许下船，不允许登船，计划于星期二完成涠洲岛剩余6,000名游客向北海的疏运。\n\n广西电网已在台风到来前进入全面应战状态，300多支抢修队伍共6,000多名工作人员，以及3,000多台移动发电机、27套抽水设备和约800套照明设备已做好准备，以尽可能减少损失。\n\n预计台风“桦加沙”还将影响海南省，省会海口将于星期二晚些时候或星期三起暂停上课、渡轮服务、公园运营、工作和营业活动。星期三所有进出海南岛的列车服务都将取消。\n\n中国实行四级应急响应系统，一级为最高级别。 ■",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "新华社广州9月23日电——预计台风“桦加沙”将在24小时内以强台风或超强台风级别登陆广东省中部或西部沿海地区，中国南部广东省于星期二上午10时将防风应急响应提升至最高级别。\n\n",
+          "start_offset": 0,
+          "end_offset": 88,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "response",
+            "weather",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "guangdong_wind_response",
+              "value": "最高",
+              "unit": null
+            },
+            {
+              "attribute": "issue_time",
+              "value": "星期二10:00",
+              "unit": null
+            },
+            {
+              "attribute": "forecast_landfall_window",
+              "value": 24,
+              "unit": "hours"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "广东省应急管理部门星期二表示，全省共转移371,644人。气象专家警告，“桦加沙”正快速移动并保持强度，将成为今年登陆中国的最强台风。\n\n截至目前，全省80,231艘渔船已在港口避风，12,246名海上作业人员已上岸避险。\n\n",
+          "start_offset": 88,
+          "end_offset": 201,
+          "sentence_ids": [
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "evacuation",
+            "affected_population",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "guangdong_relocated",
+              "value": 371644,
+              "unit": "people"
+            },
+            {
+              "attribute": "fishing_boats_secured",
+              "value": 80231,
+              "unit": "boats"
+            },
+            {
+              "attribute": "offshore_workers_taking_shelter",
+              "value": 12246,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "台风“桦加沙”星期一晚些时候进入南海，预计以约每小时20公里的速度向西北方向移动。据广东省气象台称，预计星期三将登陆珠海市至徐闻县沿海一带，登陆时风速达每秒40至55米。\n\n预计台风将带来暴雨和强风，部分地区面临极端降水，台风中心途经区域阵风可能高达每秒60米。\n\n据中央气象台称，受台风影响，江苏东部和安徽部分地区也将出现强降雨。\n\n",
+          "start_offset": 201,
+          "end_offset": 369,
+          "sentence_ids": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "weather",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "forecast_movement_speed",
+              "value": {
+                "value": 20,
+                "qualifier": "about"
+              },
+              "unit": "km/h"
+            },
+            {
+              "attribute": "landfall_wind_range",
+              "value": [
+                40,
+                55
+              ],
+              "unit": "m/s"
+            },
+            {
+              "attribute": "predicted_max_gust",
+              "value": 60,
+              "unit": "m/s"
+            },
+            {
+              "attribute": "forecast_landfall_area",
+              "value": "珠海至徐闻",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "中国有关部门星期二向广东调拨约60,000件中央救灾物资。这批救灾物资包括帐篷、折叠床、夏凉被、应急照明设备及家庭应急包，将支持当地救灾工作并帮助受灾人员。\n\n",
+          "start_offset": 369,
+          "end_offset": 449,
+          "sentence_ids": [
+            11,
+            12
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "allocated_relief_items",
+              "value": {
+                "value": 60000,
+                "qualifier": "some"
+              },
+              "unit": "items"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "广东省防汛防旱防风指挥部敦促各地各部门以最高标准、最严要求、最实举措行动，并下令重点受影响地区停课、停工、停产、停公交、停业。包括省会广州、珠海、深圳和江门在内的城市已实施这些停运措施。\n\n",
+          "start_offset": 449,
+          "end_offset": 544,
+          "sentence_ids": [
+            13,
+            14
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "five_suspensions",
+              "value": [
+                "停课",
+                "停工",
+                "停产",
+                "公共交通",
+                "停业"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "中国海洋石油集团有限公司（CNOOC）深圳分公司已将南海东部31座海上平台切换至“台风生产模式”，即在保障人员在岸上安全的同时，通过无人化、卫星远程控制运营维持石油产量。\n\n截至星期一晚，该公司已执行290架次直升机飞行和12次船舶航行，撤离所有5,192名海上人员。中海油深圳应急经理邱志敏表示，每座钻井平台目前均已进港或安全锚泊，以抵御风暴。\n\n",
+          "start_offset": 544,
+          "end_offset": 719,
+          "sentence_ids": [
+            15,
+            16,
+            17
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure",
+            "evacuation"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "offshore_platforms",
+              "value": 31,
+              "unit": "platforms"
+            },
+            {
+              "attribute": "helicopter_flights",
+              "value": 290,
+              "unit": "flights"
+            },
+            {
+              "attribute": "vessel_trips",
+              "value": 12,
+              "unit": "trips"
+            },
+            {
+              "attribute": "cnooc_evacuated",
+              "value": 5192,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "珠海部分高速公路路段和桥梁已关闭，港珠澳大桥珠海口岸暂停出境旅客通关，大桥主桥同时关闭。\n\n在珠海香洲区，情侣路沿线正开展人员撤离，重点涉及海滨高楼和老旧小区，这些地方在2017年台风“天鸽”期间受灾最为严重，当时暴雨和海水倒灌破坏建筑外立面并淹没地下车库。\n\n气象预报人员警告，台风“桦加沙”恰逢天文大潮，其强度可能达到或超过“天鸽”。星期一，区政府命令沿海、山坡及低洼地区所有居民和游客在星期二下午6时前转移至避难所或高地。该市已临时关闭学校、工厂、商业场所、交通和港口。\n\n",
+          "start_offset": 719,
+          "end_offset": 959,
+          "sentence_ids": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "fact_types": [
+            "infrastructure",
+            "evacuation",
+            "response",
+            "secondary_hazard",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "routes_affected",
+              "value": "珠海道路和港珠澳大桥",
+              "unit": null
+            },
+            {
+              "attribute": "comparison",
+              "value": "2017年台风天鸽",
+              "unit": null
+            },
+            {
+              "attribute": "district_evacuation_deadline",
+              "value": "星期二18:00",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F008",
+          "span_text": "邻近的广西壮族自治区是风暴路径上的下一站。自治区气象部门预计，“桦加沙”将于星期四凌晨在玉林至北海之间进入广西，或沿北部湾海岸向西转向。星期二上午11时，广西将台风应急响应提升至三级。\n\n",
+          "start_offset": 959,
+          "end_offset": 1053,
+          "sentence_ids": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "fact_types": [
+            "weather",
+            "timeline",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "guangxi_response_level",
+              "value": "III",
+              "unit": null
+            },
+            {
+              "attribute": "issue_time",
+              "value": "星期二11:00",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F009",
+          "span_text": "广西沿海水域的所有客船及渡轮均已停航。\n\n广西北海市海事部门限制北海至涠洲岛客船航线，只允许下船，不允许登船，计划于星期二完成涠洲岛剩余6,000名游客向北海的疏运。\n\n广西电网已在台风到来前进入全面应战状态，300多支抢修队伍共6,000多名工作人员，以及3,000多台移动发电机、27套抽水设备和约800套照明设备已做好准备，以尽可能减少损失。\n\n",
+          "start_offset": 1053,
+          "end_offset": 1229,
+          "sentence_ids": [
+            28,
+            29,
+            30
+          ],
+          "fact_types": [
+            "evacuation",
+            "infrastructure",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "weizhou_tourists_to_evaculate",
+              "value": 6000,
+              "unit": "people"
+            },
+            {
+              "attribute": "power_repair_teams",
+              "value": {
+                "value": 300,
+                "qualifier": "greater_than"
+              },
+              "unit": "teams"
+            },
+            {
+              "attribute": "power_repair_staff",
+              "value": {
+                "value": 6000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "mobile_generators",
+              "value": {
+                "value": 3000,
+                "qualifier": "greater_than"
+              },
+              "unit": "units"
+            },
+            {
+              "attribute": "pumps",
+              "value": 27,
+              "unit": "units"
+            },
+            {
+              "attribute": "lighting_sets",
+              "value": {
+                "value": 800,
+                "qualifier": "around"
+              },
+              "unit": "sets"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F010",
+          "span_text": "预计台风“桦加沙”还将影响海南省，省会海口将于星期二晚些时候或星期三起暂停上课、渡轮服务、公园运营、工作和营业活动。星期三所有进出海南岛的列车服务都将取消。\n\n中国实行四级应急响应系统，一级为最高级别。 ",
+          "start_offset": 1229,
+          "end_offset": 1331,
+          "sentence_ids": [
+            31,
+            32,
+            33
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "hainan_train_services",
+              "value": "星期三取消",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F011",
+          "span_text": "■",
+          "start_offset": 1331,
+          "end_offset": 1332,
+          "sentence_ids": [
+            34
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "8aee5a50ed106293f54b4237173aa38596fc445b0df5009686731cdeb7e09071",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "预计台风星期三将逼近或登陆中国南部",
+        "fact_type": "timeline",
+        "attribute": "forecast_landfall",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F002",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "星期二逼近香港",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "可能星期三登陆",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "星期三在珠海至徐闻沿海登陆",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "风速涉及风暴的不同阶段",
+        "fact_type": "disaster_magnitude",
+        "attribute": "wind_measurements",
+        "supporting_spans": [
+          "A002_F002",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": {
+              "value": 220,
+              "qualifier": "up_to",
+              "scope": "报道中的当前风速"
+            },
+            "unit": "km/h",
+            "attribution": "Hong Kong Observatory"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": {
+              "value": [
+                40,
+                55
+              ],
+              "scope": "预测登陆风速"
+            },
+            "unit": "m/s",
+            "attribution": "Guangdong meteorological observatory"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "广东已转移超过37万人",
+        "fact_type": "evacuation",
+        "attribute": "guangdong_relocated",
+        "supporting_spans": [
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": 371644,
+            "unit": "people",
+            "attribution": "Guangdong provincial emergency management department"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "广州实施五类停运措施",
+        "fact_type": "response",
+        "attribute": "guangzhou_suspensions",
+        "supporting_spans": [
+          "A001_F004",
+          "A003_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": "停课、停工、停产、停运、停业",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F005",
+            "value": "停课、停工、停产、停公共交通、停业",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "important_facts": [
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-09-23",
+          "time_precision": "Local date",
+          "description": "广东和香港提高应急准备程度，转移人员并暂停交通服务。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F001",
+            "A003_F001",
+            "A003_F002"
+          ]
+        },
+        {
+          "time": "2025-09-24",
+          "time_precision": "Forecast date",
+          "description": "预计台风在广东沿海登陆。",
+          "supporting_spans": [
+            "A002_F002",
+            "A003_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "“桦加沙”带来的风雨风险促使人员撤离、服务暂停并开展防洪准备。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F002",
+            "A003_F001",
+            "A003_F002"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "超强台风逼近之际，广东及香港提高警报级别并实施大规模预防性疏散及停运措施。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A002_F001",
+            "A003_F002",
+            "A003_F005"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "报道聚焦预测及应对措施，未给出台风过后洪水测量值或人员伤亡数据。"
+    ]
+  }
+}

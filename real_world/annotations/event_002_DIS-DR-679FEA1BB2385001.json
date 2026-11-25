@@ -1,0 +1,1973 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-DR-679FEA1BB2385001",
+  "event_rank": 2,
+  "event_metadata": {
+    "event_name": "Drought in Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador, United States",
+    "disaster_type": "extreme_weather",
+    "disaster_type_code": "DR",
+    "event_start_time": "2026-04-21T00:00:00+00:00",
+    "event_end_time": "2026-11-11T00:00:00+00:00",
+    "locations": [
+      "Belize",
+      "Costa Rica",
+      "Cuba",
+      "Dominican Republic",
+      "Guatemala",
+      "Honduras",
+      "Haiti",
+      "Mexico",
+      "Nicaragua",
+      "El Salvador",
+      "United States"
+    ],
+    "latitude": 18.563,
+    "longitude": -95.396,
+    "place_names_in_reports": [
+      "Caribbean",
+      "Eastern Caribbean",
+      "Guianas",
+      "Lesser Antilles",
+      "Greater Antilles",
+      "Windward Islands",
+      "Leeward Islands",
+      "Aruba",
+      "Bonaire",
+      "Curaçao",
+      "Jamaica",
+      "Hispaniola",
+      "The Bahamas",
+      "Belize",
+      "Panama Canal",
+      "Dominica",
+      "Gulf of Mexico",
+      "North Atlantic",
+      "Barbados"
+    ],
+    "gdacs_id": "1027449",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "三篇同日刊发。2026 年 10—11 月和 2027 年初的描述多为预测窗口，未作实际旱情记录处理。"
+    ],
+    "dataset_place_name": "Drought in Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador, United States",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-8593529045B66F4F",
+      "event_id": "DIS-DR-679FEA1BB2385001",
+      "event_rank": 2,
+      "article_rank": 1,
+      "title": "Caribbean urged to prepare for hotter, drier conditions - CNC3",
+      "publisher": "cnc3",
+      "identified_publisher": "CNC3",
+      "source_domain": "cnc3.co.tt",
+      "url": "https://www.cnc3.co.tt/caribbean-urged-to-prepare-for-hotter-drier-conditions/",
+      "published_at": "2026-08-25T14:58:24+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "同日同题，沿用 CMC 稿的论述顺序、机构数据与 Michael Taylor 的直接引语。行文有改写，正文未显示明确电讯署名。",
+      "content": "The Barbados-based Caribbean Institute for Meteorology and Hydrology (CIMH) and the University of the West Indies Climate Studies Group Mona (UWI CSGM) are urging governments, businesses, farmers and households across the region to brace for potentially severe climate extremes as El Niño conditions continue to strengthen.\n\nThe agencies warn that the intensifying El Niño is expected to exacerbate the hot and dry conditions already affecting many Caribbean territories, increasing the risk of drought, extreme heat, wildfires and marine heatwaves.\n\nEl Niño, a climate phenomenon characterised by above-average sea surface temperatures in the central and eastern tropical Pacific Ocean, is known to influence weather patterns worldwide, often triggering droughts, heatwaves and flooding in tropical regions.\n\nCIMH and UWI CSGM said the Caribbean must be particularly vigilant as the period from August to October coincides with the peak of the region’s Heat Season. Unseasonably dry conditions are of particular concern given that the Caribbean is expected to enter its climatological Dry Season around November.\n\nForecasts suggest the dry conditions will persist into 2027, while potentially record-breaking temperatures could emerge during next year’s Heat Season, beginning as early as March.\n\nCIMH climatologist Dr Cedric Van Meerbeeck said El Niño conditions strengthened rapidly from weak to moderate levels between May and July this year. The latest monitoring data indicate further intensification, with highly confident forecasts pointing to a very strong El Niño between October and December 2026.\n\nThose conditions are expected to persist through the peak of the Caribbean Dry Season in March 2027.\n\nDr Van Meerbeeck noted that historically, El Niño has been associated with severe droughts, including those experienced in 2009-10 and 2014-16. It also heightens the risk of extreme humid heat, wildfires and marine heatwaves capable of triggering widespread coral bleaching.\n\nSimilar impacts were observed during the record heat years of 2010, 2023 and 2024. Areas already experiencing drought, particularly in the Eastern Caribbean, may face slower replenishment of water resources during the peak of the Wet Season between September and November this year.\n\nWhile El Niño is typically associated with less active Atlantic hurricane seasons, Dr Van Meerbeeck warned that communities should not become complacent.\n\nAlthough the 2026 Atlantic Hurricane Season has remained relatively quiet, aside from a handful of weak storms, he stressed that a single major hurricane or severe rainfall event could still result in significant loss and damage.\n\nHe cited Tropical Storm Erika in 2015, which caused devastating flooding and landslides in Dominica despite not making direct landfall on the island.\n\nAccording to CIMH, forecasts indicate a broad area of below-normal rainfall extending from the Guianas through the Lesser and Greater Antilles by October. At the same time, the number of days experiencing hot spells is expected to increase significantly.\n\nThe combination of reduced rainfall and higher evaporation rates is likely to lead to drought conditions across much of the Windward and Leeward islands, the ABC islands of Aruba, Bonaire and Curaçao, parts of Jamaica and Hispaniola, and sections of The Bahamas.\n\nThese conditions are expected to persist into early 2027, increasing the likelihood of water shortages and wildfire activity.\n\n“The risks signalled by the science earlier this year are now beginning to materialise,” said Professor Michael Taylor, co-director of UWI CSGM.\n\n“We are seeing an emerging climate disaster whose impacts combine heat, drought and marine extremes. Unlike a hurricane, the impacts will continue to build over months. However, that should not lessen the urgency or scale of our preparations.”\n\nTaylor warned that the region must treat the unfolding crisis with the same seriousness it applies to other major climate threats.\n\nThe agencies said the prolonged dry and hot conditions could have far-reaching consequences for agriculture, public health, energy systems, tourism and trade. Subsistence farmers, particularly those reliant on rain-fed agriculture in countries such as Belize and Jamaica, could face significant losses.\n\nHealth concerns include heat-related illnesses, reduced water quality and increased risks from vector-borne diseases. Energy and water systems could also come under strain as demand for cooling rises.\n\nThe tourism sector may be affected as visitors and workers face prolonged heat exposure and greater demand for freshwater resources.\n\nOfficials also warned that El Niño-related disruptions to global supply chains could affect imports, increase food prices and raise living costs across the Caribbean. Recent drought conditions affecting operations at the Panama Canal illustrate the potential risks to regional trade and logistics.\n\nDr Van Meerbeeck encouraged the public and policymakers to monitor monthly updates from the Caribbean Climate Outlook Forum (CariCOF), which provide guidance on rainfall, drought and heat conditions.\n\nCIMH Principal Dr David Farrell emphasised the importance of timely climate information and proactive planning, noting that strengthening early warning systems remains essential to improving regional preparedness and resilience.\n\nFarrell said the institute has expanded its focus on water resources, marine systems, earth observation and climate services, while continuing research into the socioeconomic impacts of climate-related hazards such as El Niño.\n\nHe stressed that enhancing access to clear, actionable information will remain critical as Caribbean countries confront increasing climate variability and the growing impacts of climate change.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "The Barbados-based Caribbean Institute for Meteorology and Hydrology (CIMH) and the University of the West Indies Climate Studies Group Mona (UWI CSGM) are urging governments, businesses, farmers and households across the region to brace for potentially severe climate extremes as El Niño conditions continue to strengthen.\n\n",
+          "start_offset": 0,
+          "end_offset": 325,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "The agencies warn that the intensifying El Niño is expected to exacerbate the hot and dry conditions already affecting many Caribbean territories, increasing the risk of drought, extreme heat, wildfires and marine heatwaves.\n\n",
+          "start_offset": 325,
+          "end_offset": 551,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "weather",
+            "cause",
+            "uncertainty"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "El Niño, a climate phenomenon characterised by above-average sea surface temperatures in the central and eastern tropical Pacific Ocean, is known to influence weather patterns worldwide, often triggering droughts, heatwaves and flooding in tropical regions.\n\n",
+          "start_offset": 551,
+          "end_offset": 810,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "weather",
+            "cause"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "CIMH and UWI CSGM said the Caribbean must be particularly vigilant as the period from August to October coincides with the peak of the region’s Heat Season. Unseasonably dry conditions are of particular concern given that the Caribbean is expected to enter its climatological Dry Season around November.\n\nForecasts suggest the dry conditions will persist into 2027, while potentially record-breaking temperatures could emerge during next year’s Heat Season, beginning as early as March.\n\n",
+          "start_offset": 810,
+          "end_offset": 1298,
+          "sentence_ids": [
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "weather",
+            "timeline",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "heat_season_peak",
+              "value": "August to October",
+              "unit": null
+            },
+            {
+              "attribute": "dry_season_start",
+              "value": "around November",
+              "unit": null
+            },
+            {
+              "attribute": "dry_forecast_horizon",
+              "value": 2027,
+              "unit": null
+            },
+            {
+              "attribute": "potential_record_heat_start",
+              "value": "as early as March 2027",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "CIMH climatologist Dr Cedric Van Meerbeeck said El Niño conditions strengthened rapidly from weak to moderate levels between May and July this year. The latest monitoring data indicate further intensification, with highly confident forecasts pointing to a very strong El Niño between October and December 2026.\n\nThose conditions are expected to persist through the peak of the Caribbean Dry Season in March 2027.\n\n",
+          "start_offset": 1298,
+          "end_offset": 1712,
+          "sentence_ids": [
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "observed_intensification",
+              "value": "weak in May to moderate by July 2026",
+              "unit": null
+            },
+            {
+              "attribute": "projected_intensity",
+              "value": "very strong",
+              "unit": null
+            },
+            {
+              "attribute": "intensity_forecast_window",
+              "value": "October–December 2026",
+              "unit": null
+            },
+            {
+              "attribute": "dry_season_peak",
+              "value": "March 2027",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Cedric Van Meerbeeck, CIMH",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "Dr Van Meerbeeck noted that historically, El Niño has been associated with severe droughts, including those experienced in 2009-10 and 2014-16. It also heightens the risk of extreme humid heat, wildfires and marine heatwaves capable of triggering widespread coral bleaching.\n\nSimilar impacts were observed during the record heat years of 2010, 2023 and 2024. ",
+          "start_offset": 1712,
+          "end_offset": 2071,
+          "sentence_ids": [
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "historical_droughts",
+              "value": [
+                "2009–2010",
+                "2014–2016"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "record_heat_years",
+              "value": [
+                2010,
+                2023,
+                2024
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "Areas already experiencing drought, particularly in the Eastern Caribbean, may face slower replenishment of water resources during the peak of the Wet Season between September and November this year.\n\n",
+          "start_offset": 2071,
+          "end_offset": 2272,
+          "sentence_ids": [
+            13
+          ],
+          "fact_types": [
+            "weather",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "water_replenishment_forecast",
+              "value": "slower in areas already in drought, particularly Eastern Caribbean",
+              "unit": null
+            },
+            {
+              "attribute": "period",
+              "value": "September–November 2026",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F008",
+          "span_text": "While El Niño is typically associated with less active Atlantic hurricane seasons, Dr Van Meerbeeck warned that communities should not become complacent.\n\nAlthough the 2026 Atlantic Hurricane Season has remained relatively quiet, aside from a handful of weak storms, he stressed that a single major hurricane or severe rainfall event could still result in significant loss and damage.\n\nHe cited Tropical Storm Erika in 2015, which caused devastating flooding and landslides in Dominica despite not making direct landfall on the island.\n\n",
+          "start_offset": 2272,
+          "end_offset": 2809,
+          "sentence_ids": [
+            14,
+            15,
+            16
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard",
+            "damage"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "historical_example",
+              "value": "Tropical Storm Erika, 2015, Dominica",
+              "unit": null
+            },
+            {
+              "attribute": "reported_impacts",
+              "value": [
+                "flooding",
+                "landslides"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F009",
+          "span_text": "According to CIMH, forecasts indicate a broad area of below-normal rainfall extending from the Guianas through the Lesser and Greater Antilles by October. At the same time, the number of days experiencing hot spells is expected to increase significantly.\n\n",
+          "start_offset": 2809,
+          "end_offset": 3065,
+          "sentence_ids": [
+            17,
+            18
+          ],
+          "fact_types": [
+            "weather",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "rainfall_forecast",
+              "value": "below normal by October from Guianas through Lesser and Greater Antilles",
+              "unit": null
+            },
+            {
+              "attribute": "hot_spell_days_forecast",
+              "value": "increase",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F010",
+          "span_text": "The combination of reduced rainfall and higher evaporation rates is likely to lead to drought conditions across much of the Windward and Leeward islands, the ABC islands of Aruba, Bonaire and Curaçao, parts of Jamaica and Hispaniola, and sections of The Bahamas.\n\nThese conditions are expected to persist into early 2027, increasing the likelihood of water shortages and wildfire activity.\n\n",
+          "start_offset": 3065,
+          "end_offset": 3456,
+          "sentence_ids": [
+            19,
+            20
+          ],
+          "fact_types": [
+            "weather",
+            "cause",
+            "location",
+            "secondary_hazard",
+            "humanitarian_needs"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "drought_driver",
+              "value": [
+                "reduced rainfall",
+                "higher evaporation"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "forecast_duration",
+              "value": "through early 2027",
+              "unit": null
+            },
+            {
+              "attribute": "risks",
+              "value": [
+                "water shortages",
+                "wildfires"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F011",
+          "span_text": "“The risks signalled by the science earlier this year are now beginning to materialise,” said Professor Michael Taylor, co-director of UWI CSGM.\n\n“We are seeing an emerging climate disaster whose impacts combine heat, drought and marine extremes. Unlike a hurricane, the impacts will continue to build over months. However, that should not lessen the urgency or scale of our preparations.”\n\nTaylor warned that the region must treat the unfolding crisis with the same seriousness it applies to other major climate threats.\n\n",
+          "start_offset": 3456,
+          "end_offset": 3979,
+          "sentence_ids": [
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "Michael Taylor",
+              "unit": null
+            },
+            {
+              "attribute": "reported_emerging_hazards",
+              "value": [
+                "heat",
+                "drought",
+                "marine extremes"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F012",
+          "span_text": "The agencies said the prolonged dry and hot conditions could have far-reaching consequences for agriculture, public health, energy systems, tourism and trade. Subsistence farmers, particularly those reliant on rain-fed agriculture in countries such as Belize and Jamaica, could face significant losses.\n\n",
+          "start_offset": 3979,
+          "end_offset": 4283,
+          "sentence_ids": [
+            26,
+            27
+          ],
+          "fact_types": [
+            "affected_population",
+            "economic_loss",
+            "uncertainty",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "at_risk_groups",
+              "value": "rain-fed subsistence farmers",
+              "unit": null
+            },
+            {
+              "attribute": "locations",
+              "value": [
+                "Belize",
+                "Jamaica"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F013",
+          "span_text": "Health concerns include heat-related illnesses, reduced water quality and increased risks from vector-borne diseases. Energy and water systems could also come under strain as demand for cooling rises.\n\nThe tourism sector may be affected as visitors and workers face prolonged heat exposure and greater demand for freshwater resources.\n\n",
+          "start_offset": 4283,
+          "end_offset": 4619,
+          "sentence_ids": [
+            28,
+            29,
+            30
+          ],
+          "fact_types": [
+            "infrastructure",
+            "humanitarian_needs",
+            "secondary_hazard",
+            "economic_loss"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F014",
+          "span_text": "Officials also warned that El Niño-related disruptions to global supply chains could affect imports, increase food prices and raise living costs across the Caribbean. Recent drought conditions affecting operations at the Panama Canal illustrate the potential risks to regional trade and logistics.\n\n",
+          "start_offset": 4619,
+          "end_offset": 4918,
+          "sentence_ids": [
+            31,
+            32
+          ],
+          "fact_types": [
+            "economic_loss",
+            "humanitarian_needs",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "historical_example",
+              "value": "drought disruptions at Panama Canal",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F015",
+          "span_text": "Dr Van Meerbeeck encouraged the public and policymakers to monitor monthly updates from the Caribbean Climate Outlook Forum (CariCOF), which provide guidance on rainfall, drought and heat conditions.\n\nCIMH Principal Dr David Farrell emphasised the importance of timely climate information and proactive planning, noting that strengthening early warning systems remains essential to improving regional preparedness and resilience.\n\nFarrell said the institute has expanded its focus on water resources, marine systems, earth observation and climate services, while continuing research into the socioeconomic impacts of climate-related hazards such as El Niño.\n\nHe stressed that enhancing access to clear, actionable information will remain critical as Caribbean countries confront increasing climate variability and the growing impacts of climate change.",
+          "start_offset": 4918,
+          "end_offset": 5770,
+          "sentence_ids": [
+            33,
+            34,
+            35,
+            36
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "guidance",
+              "value": "Follow monthly CariCOF climate updates and strengthen access to early warnings",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "9d7bba4b69b6916264105a030f09ba28bcd11b046dad70295a6760b880bd4d9b",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-C4E6E73A4CCE06ED",
+      "event_id": "DIS-DR-679FEA1BB2385001",
+      "event_rank": 2,
+      "article_rank": 2,
+      "title": "Caribbean urged to prepare for hotter, drier conditions",
+      "publisher": "nationnews",
+      "identified_publisher": "Caribbean Media Corporation",
+      "source_domain": "nationnews.com",
+      "url": "https://nationnews.com/2026/08/25/caribbean-urged-to-prepare-for-hotter-drier-conditions/",
+      "published_at": "2026-08-25T15:08:34+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "加勒比媒体公司 CMC 通稿。A002 末尾标注 (CMC)，A003 电头标注 CMC，正文大段近乎逐字相同。",
+      "content": "The Barbados-based Caribbean Institute of Meteorology and Hydrology (CIMH) and the University of the West Indies Climate Studies Group Mona (UWI CSGM) are urging the region to be fully prepared for potentially severe climate extremes.\n\nThey are calling on governments, businesses, farmers, and households to take the necessary precautions as El Niño is expected to further strengthen, intensifying the hot, dry conditions being experienced in many parts of the region.\n\nEl Niño is a climate pattern that describes the warming of sea surface temperatures in the central and eastern tropical Pacific Ocean. It impacts countries bordering the Pacific Ocean and tropical regions by causing severe droughts, heatwaves, or heavy floods.\n\nCIMH and UWI CSGM say the region must be particularly vigilant regarding extreme heat as August to October marks the peak of the Heat Season. They warn that unseasonably dry conditions during this period are particularly concerning given that the region will enter its climatological Dry Season around November.\n\nForecasts suggest that these dry conditions will extend into 2027, while potentially record-breaking heat may ensue from March, April or May during next year’s Heat Season\n\nCIMH climatologist, Dr. Cedric Van Meerbeeck, said that since around May this year, El Niño conditions in the Pacific rapidly strengthened from weak to moderate by July.\n\nHe said that the latest monitoring information reveals rapid further intensification of these conditions and highly confident forecasts predict very strong El Niño conditions during October to December 2026. These El Niño conditions are highly likely to persist into the peak of the Caribbean Dry Season, in March 2027.\n\nDr. Van Meerbeeck warns that, historically, El Niño is linked to severe droughts, such as those in 2009–2010 and 2014–2016 and also increases the risk of extreme humid heat, wildfires, and marine heatwaves that can trigger coral bleaching.\n\nHe said that similar combined impacts were also observed during the record heat years of 2010, 2023, and 2024. Areas already experiencing drought, particularly in the Eastern Caribbean, may see slower recovery of water resources during the peak of the Wet Season between September and October/November 2026. With rapid El Niño intensification since May, such impacts are highly likely to evolve in the region.\n\nEl Niño is typically associated with quieter Atlantic Hurricane Seasons. This pattern has been evident during the 2026 Hurricane Season thus far, with a quiet start apart from three weak and short-lived named storms in the Gulf of Mexico and one in the North Atlantic far from any land mass.\n\nIn its early-August update, CIMH’s 2026 Atlantic Hurricane Season Activity Outlook found strong evidence that the remainder of the season may see fewer storms than an average year. Dr. Van Meerbeeck, however, stresses that risk remains, as a single major hurricane or intense rainfall event can cause significant loss and damage. This was demonstrated in 2015 when Tropical Storm Erika, considered to be one of the worst natural disasters in Dominica’s history, caused major flooding and landslides across the island, even though the storm did not make direct landfall.\n\nWhat continues to emerge in the forecast until at least October is a broadening area of below normal rainfall from the Guianas in the south, across the Lesser Antilles and into the Greater Antilles.\n\nCIMH said that this is expected to be accompanied by a significant increase in the number of days experiencing hot spells. The combined effect of reduced rainfall and increased evaporation rates will likely translate into drought conditions over most of the Windwards, Leeward and Aruba, Bonnaire and Curacao (ABC Islands), portions of the Greater Antilles including parts of Jamaica and Hispaniola, as well as portions of The Bahamas by October/November 2026.\n\nThese conditions would likely extend into early 2027 and expand across the Caribbean, with accumulated water deficits and wildfires becoming a greater concern in the early months of 2027.\n\n“The risks signalled by the science earlier this year are now beginning to materialise,” said Professor Michael Taylor, Co-Director of UWI CSGM.\n\n“We are seeing an emerging climate disaster whose impacts combine heat, drought, and marine extremes. Unlike a hurricane, the impacts will continue to build over months. However, that should not lessen the urgency or scale of our preparations.\n\n“We must respond to the unfolding slow-moving crisis with the seriousness we bring to other major climate threats, since what we do now determines the options available to us later,” he added.\n\nReduced rainfall combined with elevated temperatures can lead to agricultural losses without appropriate interventions, affecting food security and rural livelihoods especially for subsistence farmers – particularly with rainfed agriculture in areas where more dry spells are being forecast, a particular concern for Belize and Jamaica.\n\nHealth risks may also increase, particularly in relation to water quality and availability, vector-borne diseases, and heat-related illnesses. Water and energy systems may come under strain, as demand for cooling increases, especially in countries that rely on hydroelectric power or freshwater-cooled energy production. These pressures may also impact the tourism sector where the demand for cooling and freshwater are high, and visitors and workers are more exposed to prolonged heat, and dry conditions.\n\nGiven the region’s reliance on imports, global disruptions associated with the El Niño can affect trade, logistics, and the procurement of goods and services. Governments are strongly urged to assess risks to supply chains, transportation networks, and key trade routes.\n\nFor example, recent drought events have disrupted operations at the Panama Canal, a major transit point for goods entering the region and ports along the east coast of the USA. Further, food production in some traditional source markets for the region may be impacted. These disruptions can negatively affect regional food security and increase the cost of living.\n\nDr. Van Meerbeeck is encouraging decision-makers and the public to follow the monthly updates from the Caribbean Climate Outlook Forum (CariCOF) as the Wet Season continues. These outlooks provide critical information on rainfall, drought, heat, and other climate conditions, helping governments, businesses and communities prepare for emerging risks. Attention should be paid to projected rainfall patterns as the region approaches the Dry Season and transitions into the peak of the Heat Season.\n\nPrincipal of the CIMH, Dr. David Farrell reiterates the importance of timely, actionable climate information in supporting decision-making across the region, noting that “proactive measures are vital for mitigating the impacts of extreme weather events on climate sensitive sectors, communities, and national economies.”\n\nFarrell has underscored the CIMH’s commitment to enhancing regional resilience, noting that the Institute has strategically expanded its services to include a sharper focus on water, marine systems, earth observation, and climate, to support and advance all relevant early warning information services.\n\nHe notes that in recent years the CIMH has invested significant effort in examining how weather and climaterelated hazards such as El Niño produce cascading sectoral impacts that lead to socioeconomic consequences across the region. This work helps to risk-inform the region’s climate adaptation programmes, that are key to building the region’s resilience to climate change and increasing climate variability.\n\nFarrell said that strengthening early warning systems and access to clear, actionable information remains key to supporting preparedness across the region. (CMC)",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "The Barbados-based Caribbean Institute of Meteorology and Hydrology (CIMH) and the University of the West Indies Climate Studies Group Mona (UWI CSGM) are urging the region to be fully prepared for potentially severe climate extremes.\n\nThey are calling on governments, businesses, farmers, and households to take the necessary precautions as El Niño is expected to further strengthen, intensifying the hot, dry conditions being experienced in many parts of the region.\n\n",
+          "start_offset": 0,
+          "end_offset": 470,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "response",
+            "weather",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "El Niño is a climate pattern that describes the warming of sea surface temperatures in the central and eastern tropical Pacific Ocean. It impacts countries bordering the Pacific Ocean and tropical regions by causing severe droughts, heatwaves, or heavy floods.\n\n",
+          "start_offset": 470,
+          "end_offset": 732,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "weather",
+            "cause"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "CIMH and UWI CSGM say the region must be particularly vigilant regarding extreme heat as August to October marks the peak of the Heat Season. They warn that unseasonably dry conditions during this period are particularly concerning given that the region will enter its climatological Dry Season around November.\n\nForecasts suggest that these dry conditions will extend into 2027, while potentially record-breaking heat may ensue from March, April or May during next year’s Heat Season\n\n",
+          "start_offset": 732,
+          "end_offset": 1218,
+          "sentence_ids": [
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "weather",
+            "timeline",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "heat_season_peak",
+              "value": "August–October",
+              "unit": null
+            },
+            {
+              "attribute": "dry_season_start",
+              "value": "around November",
+              "unit": null
+            },
+            {
+              "attribute": "potential_record_heat_onset",
+              "value": [
+                "March 2027",
+                "April 2027",
+                "May 2027"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "CIMH climatologist, Dr. Cedric Van Meerbeeck, said that since around May this year, El Niño conditions in the Pacific rapidly strengthened from weak to moderate by July.\n\nHe said that the latest monitoring information reveals rapid further intensification of these conditions and highly confident forecasts predict very strong El Niño conditions during October to December 2026. These El Niño conditions are highly likely to persist into the peak of the Caribbean Dry Season, in March 2027.\n\n",
+          "start_offset": 1218,
+          "end_offset": 1710,
+          "sentence_ids": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "observed_intensification",
+              "value": "weak around May to moderate by July 2026",
+              "unit": null
+            },
+            {
+              "attribute": "projected_intensity",
+              "value": "very strong",
+              "unit": null
+            },
+            {
+              "attribute": "intensity_forecast_window",
+              "value": "October–December 2026",
+              "unit": null
+            },
+            {
+              "attribute": "dry_season_peak",
+              "value": "March 2027",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Cedric Van Meerbeeck, CIMH",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "Dr. Van Meerbeeck warns that, historically, El Niño is linked to severe droughts, such as those in 2009–2010 and 2014–2016 and also increases the risk of extreme humid heat, wildfires, and marine heatwaves that can trigger coral bleaching.\n\nHe said that similar combined impacts were also observed during the record heat years of 2010, 2023, and 2024. ",
+          "start_offset": 1710,
+          "end_offset": 2062,
+          "sentence_ids": [
+            12,
+            13,
+            14
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "historical_droughts",
+              "value": [
+                "2009–2010",
+                "2014–2016"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "record_heat_years",
+              "value": [
+                2010,
+                2023,
+                2024
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "Areas already experiencing drought, particularly in the Eastern Caribbean, may see slower recovery of water resources during the peak of the Wet Season between September and October/November 2026. With rapid El Niño intensification since May, such impacts are highly likely to evolve in the region.\n\n",
+          "start_offset": 2062,
+          "end_offset": 2362,
+          "sentence_ids": [
+            15,
+            16
+          ],
+          "fact_types": [
+            "weather",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "water_recovery",
+              "value": "potentially slow in drought-affected areas, particularly Eastern Caribbean",
+              "unit": null
+            },
+            {
+              "attribute": "wet_season_peak",
+              "value": "September to October/November 2026",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "El Niño is typically associated with quieter Atlantic Hurricane Seasons. This pattern has been evident during the 2026 Hurricane Season thus far, with a quiet start apart from three weak and short-lived named storms in the Gulf of Mexico and one in the North Atlantic far from any land mass.\n\nIn its early-August update, CIMH’s 2026 Atlantic Hurricane Season Activity Outlook found strong evidence that the remainder of the season may see fewer storms than an average year. ",
+          "start_offset": 2362,
+          "end_offset": 2836,
+          "sentence_ids": [
+            17,
+            18,
+            19
+          ],
+          "fact_types": [
+            "weather",
+            "uncertainty"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "weak_named_storms_in_gulf_of_mexico",
+              "value": 3,
+              "unit": "storms"
+            },
+            {
+              "attribute": "additional_storms_in_north_atlantic",
+              "value": 1,
+              "unit": "storm"
+            },
+            {
+              "attribute": "season_remainder_forecast",
+              "value": "possibly fewer storms than average",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "Dr. Van Meerbeeck, however, stresses that risk remains, as a single major hurricane or intense rainfall event can cause significant loss and damage. This was demonstrated in 2015 when Tropical Storm Erika, considered to be one of the worst natural disasters in Dominica’s history, caused major flooding and landslides across the island, even though the storm did not make direct landfall.\n\n",
+          "start_offset": 2836,
+          "end_offset": 3226,
+          "sentence_ids": [
+            20,
+            21,
+            22
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard",
+            "damage"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "historical_example",
+              "value": "Tropical Storm Erika, 2015, Dominica",
+              "unit": null
+            },
+            {
+              "attribute": "reported_impacts",
+              "value": [
+                "flooding",
+                "landslides"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F009",
+          "span_text": "What continues to emerge in the forecast until at least October is a broadening area of below normal rainfall from the Guianas in the south, across the Lesser Antilles and into the Greater Antilles.\n\nCIMH said that this is expected to be accompanied by a significant increase in the number of days experiencing hot spells. ",
+          "start_offset": 3226,
+          "end_offset": 3549,
+          "sentence_ids": [
+            23,
+            24
+          ],
+          "fact_types": [
+            "weather",
+            "location",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "forecast_geography",
+              "value": "Guianas to Lesser and Greater Antilles",
+              "unit": null
+            },
+            {
+              "attribute": "rainfall_forecast",
+              "value": "below normal through at least October",
+              "unit": null
+            },
+            {
+              "attribute": "hot_spell_days_forecast",
+              "value": "increase",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F010",
+          "span_text": "The combined effect of reduced rainfall and increased evaporation rates will likely translate into drought conditions over most of the Windwards, Leeward and Aruba, Bonnaire and Curacao (ABC Islands), portions of the Greater Antilles including parts of Jamaica and Hispaniola, as well as portions of The Bahamas by October/November 2026.\n\nThese conditions would likely extend into early 2027 and expand across the Caribbean, with accumulated water deficits and wildfires becoming a greater concern in the early months of 2027.\n\n",
+          "start_offset": 3549,
+          "end_offset": 4077,
+          "sentence_ids": [
+            25,
+            26
+          ],
+          "fact_types": [
+            "weather",
+            "cause",
+            "location",
+            "secondary_hazard",
+            "humanitarian_needs"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "projected_drought_window",
+              "value": "October/November 2026 into early 2027",
+              "unit": null
+            },
+            {
+              "attribute": "drivers",
+              "value": [
+                "reduced rainfall",
+                "higher evaporation"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "risks",
+              "value": [
+                "water deficits",
+                "wildfires"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F011",
+          "span_text": "“The risks signalled by the science earlier this year are now beginning to materialise,” said Professor Michael Taylor, Co-Director of UWI CSGM.\n\n“We are seeing an emerging climate disaster whose impacts combine heat, drought, and marine extremes. Unlike a hurricane, the impacts will continue to build over months. However, that should not lessen the urgency or scale of our preparations.\n\n“We must respond to the unfolding slow-moving crisis with the seriousness we bring to other major climate threats, since what we do now determines the options available to us later,” he added.\n\n",
+          "start_offset": 4077,
+          "end_offset": 4662,
+          "sentence_ids": [
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "Michael Taylor",
+              "unit": null
+            },
+            {
+              "attribute": "reported_emerging_hazards",
+              "value": [
+                "heat",
+                "drought",
+                "marine extremes"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F012",
+          "span_text": "Reduced rainfall combined with elevated temperatures can lead to agricultural losses without appropriate interventions, affecting food security and rural livelihoods especially for subsistence farmers – particularly with rainfed agriculture in areas where more dry spells are being forecast, a particular concern for Belize and Jamaica.\n\n",
+          "start_offset": 4662,
+          "end_offset": 5000,
+          "sentence_ids": [
+            32
+          ],
+          "fact_types": [
+            "affected_population",
+            "economic_loss",
+            "uncertainty",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "at_risk_groups",
+              "value": "rain-fed subsistence farmers",
+              "unit": null
+            },
+            {
+              "attribute": "locations",
+              "value": [
+                "Belize",
+                "Jamaica"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F013",
+          "span_text": "Health risks may also increase, particularly in relation to water quality and availability, vector-borne diseases, and heat-related illnesses. Water and energy systems may come under strain, as demand for cooling increases, especially in countries that rely on hydroelectric power or freshwater-cooled energy production. These pressures may also impact the tourism sector where the demand for cooling and freshwater are high, and visitors and workers are more exposed to prolonged heat, and dry conditions.\n\n",
+          "start_offset": 5000,
+          "end_offset": 5508,
+          "sentence_ids": [
+            33,
+            34,
+            35
+          ],
+          "fact_types": [
+            "humanitarian_needs",
+            "secondary_hazard",
+            "economic_loss",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F014",
+          "span_text": "Given the region’s reliance on imports, global disruptions associated with the El Niño can affect trade, logistics, and the procurement of goods and services. Governments are strongly urged to assess risks to supply chains, transportation networks, and key trade routes.\n\nFor example, recent drought events have disrupted operations at the Panama Canal, a major transit point for goods entering the region and ports along the east coast of the USA. Further, food production in some traditional source markets for the region may be impacted. These disruptions can negatively affect regional food security and increase the cost of living.\n\n",
+          "start_offset": 5508,
+          "end_offset": 6146,
+          "sentence_ids": [
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "fact_types": [
+            "economic_loss",
+            "humanitarian_needs",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "historical_example",
+              "value": "drought disruption at Panama Canal",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F015",
+          "span_text": "Dr. Van Meerbeeck is encouraging decision-makers and the public to follow the monthly updates from the Caribbean Climate Outlook Forum (CariCOF) as the Wet Season continues. These outlooks provide critical information on rainfall, drought, heat, and other climate conditions, helping governments, businesses and communities prepare for emerging risks. Attention should be paid to projected rainfall patterns as the region approaches the Dry Season and transitions into the peak of the Heat Season.\n\n",
+          "start_offset": 6146,
+          "end_offset": 6645,
+          "sentence_ids": [
+            41,
+            42,
+            43,
+            44
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "guidance",
+              "value": "Follow monthly CariCOF outlook updates",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F016",
+          "span_text": "Principal of the CIMH, Dr. David Farrell reiterates the importance of timely, actionable climate information in supporting decision-making across the region, noting that “proactive measures are vital for mitigating the impacts of extreme weather events on climate sensitive sectors, communities, and national economies.”\n\nFarrell has underscored the CIMH’s commitment to enhancing regional resilience, noting that the Institute has strategically expanded its services to include a sharper focus on water, marine systems, earth observation, and climate, to support and advance all relevant early warning information services.\n\nHe notes that in recent years the CIMH has invested significant effort in examining how weather and climaterelated hazards such as El Niño produce cascading sectoral impacts that lead to socioeconomic consequences across the region. This work helps to risk-inform the region’s climate adaptation programmes, that are key to building the region’s resilience to climate change and increasing climate variability.\n\nFarrell said that strengthening early warning systems and access to clear, actionable information remains key to supporting preparedness across the region. ",
+          "start_offset": 6645,
+          "end_offset": 7839,
+          "sentence_ids": [
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "David Farrell",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F017",
+          "span_text": "(CMC)",
+          "start_offset": 7839,
+          "end_offset": 7844,
+          "sentence_ids": [
+            51
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "cab74a990e3d211047fa10054dfbbc24fcc5a2a232184dae3661f9e4e2b86163",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-57E0A5848D0ACAB1",
+      "event_id": "DIS-DR-679FEA1BB2385001",
+      "event_rank": 2,
+      "article_rank": 3,
+      "title": "Caribbean urged to prepare for hotter, drier conditions",
+      "publisher": "jamaica-gleane",
+      "identified_publisher": "Caribbean Media Corporation",
+      "source_domain": "jamaica-gleaner.com",
+      "url": "https://jamaica-gleaner.com/article/world-news/20260825/caribbean-urged-prepare-hotter-drier-conditions",
+      "published_at": "2026-08-25T20:21:03+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "加勒比媒体公司 CMC 通稿。A002 末尾标注 (CMC)，A003 电头标注 CMC，正文大段近乎逐字相同。",
+      "content": "BRIDGETOWN, Barbados, CMC – The Barbados-based Caribbean Institute of Meteorology and Hydrology (CIMH) and the University of the West Indies Climate Studies Group Mona (UWI CSGM) are urging the region to be fully prepared for potentially severe climate extremes.\n\nThey are calling for governments, businesses, farmers, and households to take the necessary precautions as El Niño is expected to further strengthen, intensifying the hot, dry conditions being experienced in many parts of the region.\n\nEl Niño is a climate pattern that describes the warming of sea surface temperatures in the central and eastern tropical Pacific Ocean.\n\nIt impacts countries bordering the Pacific Ocean and tropical regions by causing severe droughts, heatwaves, or heavy floods.\n\nCIMH and UWI CSGM say the region must be particularly vigilant regarding extreme heat as August to October marks the peak of the Heat Season.\n\nThey warn that unseasonably dry conditions during this period are particularly concerning, given that the region will enter its climatological Dry Season around November.\n\nForecasts suggest that these dry conditions will extend into 2027, while potentially record-breaking heat may ensue from March, April, or May during next year’s Heat Season.\n\nCIMH climatologist, Dr Cedric Van Meerbeeck, said that since around May this year, El Niño conditions in the Pacific rapidly strengthened from weak to moderate by July.\n\nHe said that the latest monitoring information reveals rapid further intensification of these conditions, and highly confident forecasts predict very strong El Niño conditions during October to December 2026.\n\nThese El Niño conditions are highly likely to persist into the peak of the Caribbean Dry Season in March 2027.\n\nVan Meerbeeck warns that, historically, El Niño is linked to severe droughts, such as those in 2009–2010 and 2014–2016, and also increases the risk of extreme humid heat, wildfires, and marine heatwaves that can trigger coral bleaching.\n\nHe said that similar combined impacts were also observed during the record heat years of 2010, 2023, and 2024.\n\nAreas already experiencing drought, particularly in the Eastern Caribbean, may see slower recovery of water resources during the peak of the Wet Season between September and October/November 2026.\n\nWith rapid El Niño intensification since May, such impacts are highly likely to evolve in the region.\n\nEl Niño is typically associated with quieter Atlantic Hurricane Seasons.\n\nThis pattern has been evident during the 2026 Hurricane Season thus far, with a quiet start apart from three weak and short-lived named storms in the Gulf of Mexico and one in the North Atlantic, far from any land mass.\n\nIn its early-August update, CIMH’s 2026 Atlantic Hurricane Season Activity Outlook found strong evidence that the remainder of the season may see fewer storms than an average year.\n\nVan Meerbeeck, however, stresses that risk remains, as a single major hurricane or intense rainfall event can cause significant loss and damage.\n\nThis was demonstrated in 2015 when Tropical Storm Erika, considered to be one of the worst natural disasters in Dominica’s history, caused major flooding and landslides across the island, even though the storm did not make direct landfall.\n\nWhat continues to emerge in the forecast until at least October is a broadening area of below-normal rainfall from the Guianas in the south, across the Lesser Antilles and into the Greater Antilles.\n\nCIMH said that this is expected to be accompanied by a significant increase in the number of days experiencing hot spells.\n\nThe combined effect of reduced rainfall and increased evaporation rates will likely translate into drought conditions over most of the Windwards, Leewards and Aruba, Bonaire and Curaçao (ABC Islands), portions of the Greater Antilles, including parts of Jamaica and Hispaniola, as well as portions of The Bahamas by October/November 2026.\n\nThese conditions would likely extend into early 2027 and expand across the Caribbean, with accumulated water deficits and wildfires becoming a greater concern in the early months of 2027.\n\n“The risks signalled by the science earlier this year are now beginning to materialise,” said Professor Michael Taylor, Co-Director of UWI CSGM.\n\n“We are seeing an emerging climate disaster whose impacts combine heat, drought, and marine extremes. Unlike a hurricane, the impacts will continue to build over months. However, that should not lessen the urgency or scale of our preparations.\n\n“We must respond to the unfolding slow-moving crisis with the seriousness we bring to other major climate threats, since what we do now determines the options available to us later,” he added.\n\nReduced rainfall combined with elevated temperatures can lead to agricultural losses without appropriate interventions, affecting food security and rural livelihoods, especially for subsistence farmers – particularly with rain-fed agriculture in areas where more dry spells are being forecast, a particular concern for Belize and Jamaica.\n\nHealth risks may also increase, particularly in relation to water quality and availability, vector-borne diseases, and heat-related illnesses.\n\nWater and energy systems may come under strain, as demand for cooling increases, especially in countries that rely on hydroelectric power or freshwater-cooled energy production.\n\nThese pressures may also impact the tourism sector, where the demand for cooling and freshwater is high, and visitors and workers are more exposed to prolonged heat and dry conditions.\n\nGiven the region’s reliance on imports, global disruptions associated with El Niño can affect trade, logistics, and the procurement of goods and services.\n\nGovernments are strongly urged to assess risks to supply chains, transportation networks, and key trade routes.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "BRIDGETOWN, Barbados, CMC – The Barbados-based Caribbean Institute of Meteorology and Hydrology (CIMH) and the University of the West Indies Climate Studies Group Mona (UWI CSGM) are urging the region to be fully prepared for potentially severe climate extremes.\n\nThey are calling for governments, businesses, farmers, and households to take the necessary precautions as El Niño is expected to further strengthen, intensifying the hot, dry conditions being experienced in many parts of the region.\n\n",
+          "start_offset": 0,
+          "end_offset": 499,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "response",
+            "weather",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "El Niño is a climate pattern that describes the warming of sea surface temperatures in the central and eastern tropical Pacific Ocean.\n\nIt impacts countries bordering the Pacific Ocean and tropical regions by causing severe droughts, heatwaves, or heavy floods.\n\n",
+          "start_offset": 499,
+          "end_offset": 762,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "weather",
+            "cause"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "CIMH and UWI CSGM say the region must be particularly vigilant regarding extreme heat as August to October marks the peak of the Heat Season.\n\nThey warn that unseasonably dry conditions during this period are particularly concerning, given that the region will enter its climatological Dry Season around November.\n\nForecasts suggest that these dry conditions will extend into 2027, while potentially record-breaking heat may ensue from March, April, or May during next year’s Heat Season.\n\n",
+          "start_offset": 762,
+          "end_offset": 1252,
+          "sentence_ids": [
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "weather",
+            "timeline",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "heat_season_peak",
+              "value": "August–October",
+              "unit": null
+            },
+            {
+              "attribute": "dry_season_start",
+              "value": "around November",
+              "unit": null
+            },
+            {
+              "attribute": "potential_record_heat_onset",
+              "value": [
+                "March 2027",
+                "April 2027",
+                "May 2027"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "CIMH climatologist, Dr Cedric Van Meerbeeck, said that since around May this year, El Niño conditions in the Pacific rapidly strengthened from weak to moderate by July.\n\nHe said that the latest monitoring information reveals rapid further intensification of these conditions, and highly confident forecasts predict very strong El Niño conditions during October to December 2026.\n\nThese El Niño conditions are highly likely to persist into the peak of the Caribbean Dry Season in March 2027.\n\n",
+          "start_offset": 1252,
+          "end_offset": 1744,
+          "sentence_ids": [
+            8,
+            9,
+            10
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "observed_intensification",
+              "value": "weak around May to moderate by July 2026",
+              "unit": null
+            },
+            {
+              "attribute": "projected_intensity",
+              "value": "very strong",
+              "unit": null
+            },
+            {
+              "attribute": "intensity_forecast_window",
+              "value": "October–December 2026",
+              "unit": null
+            },
+            {
+              "attribute": "dry_season_peak",
+              "value": "March 2027",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Cedric Van Meerbeeck, CIMH",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "Van Meerbeeck warns that, historically, El Niño is linked to severe droughts, such as those in 2009–2010 and 2014–2016, and also increases the risk of extreme humid heat, wildfires, and marine heatwaves that can trigger coral bleaching.\n\nHe said that similar combined impacts were also observed during the record heat years of 2010, 2023, and 2024.\n\n",
+          "start_offset": 1744,
+          "end_offset": 2094,
+          "sentence_ids": [
+            11,
+            12
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "historical_droughts",
+              "value": [
+                "2009–2010",
+                "2014–2016"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "record_heat_years",
+              "value": [
+                2010,
+                2023,
+                2024
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "Areas already experiencing drought, particularly in the Eastern Caribbean, may see slower recovery of water resources during the peak of the Wet Season between September and October/November 2026.\n\nWith rapid El Niño intensification since May, such impacts are highly likely to evolve in the region.\n\n",
+          "start_offset": 2094,
+          "end_offset": 2395,
+          "sentence_ids": [
+            13,
+            14
+          ],
+          "fact_types": [
+            "weather",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "water_recovery",
+              "value": "potentially slow in drought-affected areas, particularly Eastern Caribbean",
+              "unit": null
+            },
+            {
+              "attribute": "wet_season_peak",
+              "value": "September to October/November 2026",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "El Niño is typically associated with quieter Atlantic Hurricane Seasons.\n\nThis pattern has been evident during the 2026 Hurricane Season thus far, with a quiet start apart from three weak and short-lived named storms in the Gulf of Mexico and one in the North Atlantic, far from any land mass.\n\nIn its early-August update, CIMH’s 2026 Atlantic Hurricane Season Activity Outlook found strong evidence that the remainder of the season may see fewer storms than an average year.\n\n",
+          "start_offset": 2395,
+          "end_offset": 2872,
+          "sentence_ids": [
+            15,
+            16,
+            17
+          ],
+          "fact_types": [
+            "weather",
+            "uncertainty"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "weak_named_storms_in_gulf_of_mexico",
+              "value": 3,
+              "unit": "storms"
+            },
+            {
+              "attribute": "additional_storms_in_north_atlantic",
+              "value": 1,
+              "unit": "storm"
+            },
+            {
+              "attribute": "season_remainder_forecast",
+              "value": "possibly fewer storms than average",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F008",
+          "span_text": "Van Meerbeeck, however, stresses that risk remains, as a single major hurricane or intense rainfall event can cause significant loss and damage.\n\nThis was demonstrated in 2015 when Tropical Storm Erika, considered to be one of the worst natural disasters in Dominica’s history, caused major flooding and landslides across the island, even though the storm did not make direct landfall.\n\n",
+          "start_offset": 2872,
+          "end_offset": 3259,
+          "sentence_ids": [
+            18,
+            19
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard",
+            "damage"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "historical_example",
+              "value": "Tropical Storm Erika, 2015, Dominica",
+              "unit": null
+            },
+            {
+              "attribute": "reported_impacts",
+              "value": [
+                "flooding",
+                "landslides"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F009",
+          "span_text": "What continues to emerge in the forecast until at least October is a broadening area of below-normal rainfall from the Guianas in the south, across the Lesser Antilles and into the Greater Antilles.\n\nCIMH said that this is expected to be accompanied by a significant increase in the number of days experiencing hot spells.\n\n",
+          "start_offset": 3259,
+          "end_offset": 3583,
+          "sentence_ids": [
+            20,
+            21
+          ],
+          "fact_types": [
+            "weather",
+            "location",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "forecast_geography",
+              "value": "Guianas to Lesser and Greater Antilles",
+              "unit": null
+            },
+            {
+              "attribute": "rainfall_forecast",
+              "value": "below normal through at least October",
+              "unit": null
+            },
+            {
+              "attribute": "hot_spell_days_forecast",
+              "value": "increase",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F010",
+          "span_text": "The combined effect of reduced rainfall and increased evaporation rates will likely translate into drought conditions over most of the Windwards, Leewards and Aruba, Bonaire and Curaçao (ABC Islands), portions of the Greater Antilles, including parts of Jamaica and Hispaniola, as well as portions of The Bahamas by October/November 2026.\n\nThese conditions would likely extend into early 2027 and expand across the Caribbean, with accumulated water deficits and wildfires becoming a greater concern in the early months of 2027.\n\n",
+          "start_offset": 3583,
+          "end_offset": 4112,
+          "sentence_ids": [
+            22,
+            23
+          ],
+          "fact_types": [
+            "weather",
+            "cause",
+            "location",
+            "secondary_hazard",
+            "humanitarian_needs"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "projected_drought_window",
+              "value": "October/November 2026 into early 2027",
+              "unit": null
+            },
+            {
+              "attribute": "drivers",
+              "value": [
+                "reduced rainfall",
+                "higher evaporation"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "risks",
+              "value": [
+                "water deficits",
+                "wildfires"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F011",
+          "span_text": "“The risks signalled by the science earlier this year are now beginning to materialise,” said Professor Michael Taylor, Co-Director of UWI CSGM.\n\n“We are seeing an emerging climate disaster whose impacts combine heat, drought, and marine extremes. Unlike a hurricane, the impacts will continue to build over months. However, that should not lessen the urgency or scale of our preparations.\n\n“We must respond to the unfolding slow-moving crisis with the seriousness we bring to other major climate threats, since what we do now determines the options available to us later,” he added.\n\n",
+          "start_offset": 4112,
+          "end_offset": 4697,
+          "sentence_ids": [
+            24,
+            25,
+            26,
+            27,
+            28
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "Michael Taylor",
+              "unit": null
+            },
+            {
+              "attribute": "reported_emerging_hazards",
+              "value": [
+                "heat",
+                "drought",
+                "marine extremes"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F012",
+          "span_text": "Reduced rainfall combined with elevated temperatures can lead to agricultural losses without appropriate interventions, affecting food security and rural livelihoods, especially for subsistence farmers – particularly with rain-fed agriculture in areas where more dry spells are being forecast, a particular concern for Belize and Jamaica.\n\n",
+          "start_offset": 4697,
+          "end_offset": 5037,
+          "sentence_ids": [
+            29
+          ],
+          "fact_types": [
+            "affected_population",
+            "economic_loss",
+            "uncertainty",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "at_risk_groups",
+              "value": "rain-fed subsistence farmers",
+              "unit": null
+            },
+            {
+              "attribute": "locations",
+              "value": [
+                "Belize",
+                "Jamaica"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F013",
+          "span_text": "Health risks may also increase, particularly in relation to water quality and availability, vector-borne diseases, and heat-related illnesses.\n\nWater and energy systems may come under strain, as demand for cooling increases, especially in countries that rely on hydroelectric power or freshwater-cooled energy production.\n\nThese pressures may also impact the tourism sector, where the demand for cooling and freshwater is high, and visitors and workers are more exposed to prolonged heat and dry conditions.\n\n",
+          "start_offset": 5037,
+          "end_offset": 5546,
+          "sentence_ids": [
+            30,
+            31,
+            32
+          ],
+          "fact_types": [
+            "humanitarian_needs",
+            "secondary_hazard",
+            "economic_loss",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F014",
+          "span_text": "Given the region’s reliance on imports, global disruptions associated with El Niño can affect trade, logistics, and the procurement of goods and services.\n\nGovernments are strongly urged to assess risks to supply chains, transportation networks, and key trade routes.",
+          "start_offset": 5546,
+          "end_offset": 5813,
+          "sentence_ids": [
+            33,
+            34
+          ],
+          "fact_types": [
+            "economic_loss",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "526e4459ae00bec427cfb9b8f08d3e6e3765f290cdcc1ee6aeca01c25a703cd4",
+        "removed_word_count": 33,
+        "removed_word_ratio": 0.035830618892508145
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "预计厄尔尼诺 2026 年 10 至 12 月达到很强水平",
+        "fact_type": "weather",
+        "attribute": "el_nino_predicted_strength",
+        "supporting_spans": [
+          "A001_F005",
+          "A002_F004",
+          "A003_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F005",
+            "value": "very strong",
+            "unit": null,
+            "attribution": "CIMH"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": "very strong",
+            "unit": null,
+            "attribution": "CIMH"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": "very strong",
+            "unit": null,
+            "attribution": "CIMH"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "加勒比地区的旱情风险可能持续至 2027 年初",
+        "fact_type": "weather",
+        "attribute": "drought_forecast_horizon",
+        "supporting_spans": [
+          "A001_F010",
+          "A002_F010",
+          "A003_F010"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F010",
+            "value": "early 2027",
+            "unit": null,
+            "attribution": "CIMH"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F010",
+            "value": "early 2027",
+            "unit": null,
+            "attribution": "CIMH"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F010",
+            "value": "early 2027",
+            "unit": null,
+            "attribution": "CIMH"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "东加勒比局部旱区补水可能放缓",
+        "fact_type": "humanitarian_needs",
+        "attribute": "wet_season_water_replenishment",
+        "supporting_spans": [
+          "A001_F007",
+          "A002_F006",
+          "A003_F006"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F007",
+            "value": "potentially slower in September–November 2026",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F006",
+            "value": "potentially slower from September to October/November 2026",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F006",
+            "value": "potentially slower from September to October/November 2026",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "两个表述对雨季高峰结束月份的精度不同。"
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "农损预测涉及伯利兹和牙买加的雨养生计农业",
+        "fact_type": "economic_loss",
+        "attribute": "rainfed_farming_risk",
+        "supporting_spans": [
+          "A001_F012",
+          "A002_F012",
+          "A003_F012"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F012",
+            "value": [
+              "Belize",
+              "Jamaica"
+            ],
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F012",
+            "value": [
+              "Belize",
+              "Jamaica"
+            ],
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F012",
+            "value": [
+              "Belize",
+              "Jamaica"
+            ],
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC005",
+        "cluster_description": "2027 年热季破纪录高温的可能开始窗口",
+        "fact_type": "weather",
+        "attribute": "heat_forecast_start",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F003",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": "as early as March 2027",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": "March, April, or May 2027",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "March, April, or May 2027",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC006",
+        "cluster_description": "太平洋厄尔尼诺在 2026 年 5 至 7 月增强",
+        "fact_type": "weather",
+        "attribute": "el_nino_observed_strength",
+        "supporting_spans": [
+          "A001_F005",
+          "A002_F004",
+          "A003_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F005",
+            "value": "weak to moderate",
+            "unit": null,
+            "attribution": "Cedric Van Meerbeeck"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": "weak to moderate",
+            "unit": null,
+            "attribution": "Cedric Van Meerbeeck"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": "weak to moderate",
+            "unit": null,
+            "attribution": "Cedric Van Meerbeeck"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC007",
+        "cluster_description": "预警建议关注每月加勒比气候展望",
+        "fact_type": "response",
+        "attribute": "monitoring_guidance",
+        "supporting_spans": [
+          "A001_F015",
+          "A002_F015"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F015",
+            "value": "monthly CariCOF updates",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F015",
+            "value": "monthly CariCOF updates",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "supplementary",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005",
+        "FC006"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004",
+        "FC005",
+        "FC006"
+      ],
+      "supplementary_facts": [
+        "FC007"
+      ],
+      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2026-05/2026-07",
+          "time_precision": "月范围",
+          "description": "CIMH 称厄尔尼诺从弱增强至中等。",
+          "supporting_spans": [
+            "A001_F005",
+            "A002_F004",
+            "A003_F004"
+          ]
+        },
+        {
+          "time": "2026-08-25",
+          "time_precision": "日（刊发）",
+          "description": "三家媒体刊发预警，促请居民、机构和行业准备。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F001",
+            "A003_F001"
+          ]
+        },
+        {
+          "time": "2026-10/2026-12",
+          "time_precision": "月范围（预测）",
+          "description": "预测厄尔尼诺达到很强水平。",
+          "supporting_spans": [
+            "A001_F005",
+            "A002_F004",
+            "A003_F004"
+          ]
+        },
+        {
+          "time": "2027-03",
+          "time_precision": "月（预测）",
+          "description": "预测厄尔尼诺将持续至旱季高峰。",
+          "supporting_spans": [
+            "A001_F005",
+            "A002_F004",
+            "A003_F004"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "CIMH 预计降雨减少与蒸发加大共同推高旱情和用水短缺风险。",
+          "supporting_spans": [
+            "A001_F010",
+            "A002_F010",
+            "A003_F010"
+          ]
+        },
+        {
+          "description": "高温与低降雨使伯利兹和牙买加依赖雨养的农户面临损失。",
+          "supporting_spans": [
+            "A001_F012",
+            "A002_F012",
+            "A003_F012"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "厄尔尼诺增强，机构预计更强的高温与干旱影响将跨年至 2027 年。",
+          "supporting_spans": [
+            "A001_F005",
+            "A001_F010",
+            "A002_F010",
+            "A003_F010"
+          ]
+        },
+        {
+          "description": "潜在影响涉及供水、农业、健康和旅游。",
+          "supporting_spans": [
+            "A001_F012",
+            "A001_F013",
+            "A002_F012",
+            "A002_F013",
+            "A003_F012",
+            "A003_F013"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "limitations": [
+      "A002 与 A003 来自同一 CMC 通稿，A001 高度相似；一致的预测不得计作三个独立观测。"
+    ]
+  }
+}

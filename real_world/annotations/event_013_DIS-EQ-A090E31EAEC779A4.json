@@ -1,0 +1,654 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-A090E31EAEC779A4",
+  "event_rank": 13,
+  "event_metadata": {
+    "event_name": "Earthquake in Myanmar",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2025-03-28T06:20:54+00:00",
+    "event_end_time": "2025-03-28T06:20:54+00:00",
+    "locations": [
+      "Myanmar"
+    ],
+    "latitude": 22.0128,
+    "longitude": 95.9216,
+    "place_names_in_reports": [
+      "Myanmar",
+      "Yangon",
+      "Bangkok"
+    ],
+    "gdacs_id": "1474477",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "星期五为 3 月 28 日，星期一为 3 月 31 日。跨国死亡总数的统计截点未给出。"
+    ],
+    "dataset_place_name": "Earthquake in Myanmar",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-190BB37AB9BBA230",
+      "event_id": "DIS-EQ-A090E31EAEC779A4",
+      "event_rank": 13,
+      "article_rank": 1,
+      "title": "Myanmar-based aid agencies in relief efforts following earthquake: official",
+      "publisher": "xinhuanet-english",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20250331/6bfd7e8ff9a147eaa581db5c33b5388f/c.html",
+      "published_at": "2025-03-31T15:06:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "新华社电头，正文明确 Marie Manrique 直接受访。",
+      "content": "YANGON, March 31 (Xinhua) -- Humanitarian aid agencies based in Myanmar have been in relief efforts since a 7.9-magnitude earthquake rattled the country on Friday, an official told Xinhua on Monday.\n\nThe Myanmar Red Cross Society (MRCS) and the International Federation of Red Cross and Red Crescent Societies (IFRC) have launched a humanitarian response, Marie Manrique, program coordinator of the Myanmar delegation of MRCS, told Xinhua.\n\nMRCS has been providing first aid and pre-hospital care to injured individuals and deploying items including blankets, tarpaulins and hygiene kits, she said.\n\n\"I am really happy to see international rescue teams arriving in Myanmar to help the victims of the earthquake, with China conducting an immediate response,\" she noted. ",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "YANGON, March 31 (Xinhua) -- Humanitarian aid agencies based in Myanmar have been in relief efforts since a 7.9-magnitude earthquake rattled the country on Friday, an official told Xinhua on Monday.\n\n",
+          "start_offset": 0,
+          "end_offset": 200,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "aid",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.9,
+              "unit": null
+            },
+            {
+              "attribute": "quake_day",
+              "value": "Friday",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "The Myanmar Red Cross Society (MRCS) and the International Federation of Red Cross and Red Crescent Societies (IFRC) have launched a humanitarian response, Marie Manrique, program coordinator of the Myanmar delegation of MRCS, told Xinhua.\n\nMRCS has been providing first aid and pre-hospital care to injured individuals and deploying items including blankets, tarpaulins and hygiene kits, she said.\n\n",
+          "start_offset": 200,
+          "end_offset": 600,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "response",
+            "aid",
+            "injuries"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "responders",
+              "value": [
+                "MRCS",
+                "IFRC"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "deliverables",
+              "value": [
+                "first aid",
+                "pre-hospital care",
+                "blankets",
+                "tarpaulins",
+                "hygiene kits"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Marie Manrique",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "\"I am really happy to see international rescue teams arriving in Myanmar to help the victims of the earthquake, with China conducting an immediate response,\" she noted. ",
+          "start_offset": 600,
+          "end_offset": 769,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "aid",
+            "public_reaction"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "response_country",
+              "value": "China",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Marie Manrique",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "717fea0f96a77a75a530ca31f2860cc8bcf2922d0910d1fcf96bf52e274b7359",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-A23E30D1DD6C033C",
+      "event_id": "DIS-EQ-A090E31EAEC779A4",
+      "event_rank": 13,
+      "article_rank": 2,
+      "title": "Desperate Rescue Efforts Amidst Myanmar's Quake Devastation | Business",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/business/3328894-desperate-rescue-efforts-amidst-myanmars-quake-devastation",
+      "published_at": "2025-03-31T15:58:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "综合报道无可核实稿源署名。",
+      "content": "Efforts to rescue survivors continue in Myanmar and Bangkok after a devastating earthquake claimed the lives of at least 2,000 people across Southeast Asia.\n\nChallenges in Myanmar include a civil war complicating access and military airstrikes, while in Bangkok, substandard construction materials are under investigation following the collapse of a skyscraper.\n\nInternational aid pours in, with countries like China and the United States extending support, highlighting the broader humanitarian crisis in the region.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "Efforts to rescue survivors continue in Myanmar and Bangkok after a devastating earthquake claimed the lives of at least 2,000 people across Southeast Asia.\n\n",
+          "start_offset": 0,
+          "end_offset": 158,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "casualties",
+            "response",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 2000,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "scope",
+              "value": "Southeast Asia",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "Challenges in Myanmar include a civil war complicating access and military airstrikes, while in Bangkok, substandard construction materials are under investigation following the collapse of a skyscraper.\n\n",
+          "start_offset": 158,
+          "end_offset": 363,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "cause",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "myanmar_constraints",
+              "value": "civil war and airstrikes",
+              "unit": null
+            },
+            {
+              "attribute": "bangkok_investigation",
+              "value": "possible substandard building materials",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "International aid pours in, with countries like China and the United States extending support, highlighting the broader humanitarian crisis in the region.",
+          "start_offset": 363,
+          "end_offset": 517,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "aid_countries",
+              "value": [
+                "China",
+                "United States"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "bc6b953882593b2647d9ab73037a439f0462b99cdec5f1b12b97842ba53d7cd6",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-E83A3CE2C2665789",
+      "event_id": "DIS-EQ-A090E31EAEC779A4",
+      "event_rank": 13,
+      "article_rank": 3,
+      "title": "China vows all-out efforts to help quake-hit Myanmar",
+      "publisher": "ecns",
+      "identified_publisher": null,
+      "source_domain": "ecns.cn",
+      "url": "http://www.ecns.cn/news/politics/2025-04-01/detail-iheqevhn5353709.shtml",
+      "published_at": "2025-04-01T00:50:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "正文转述 Guo Jiakun 公开吹风会，未保留稿件署名。",
+      "content": "Foreign Ministry spokesman Guo Jiakun said on Monday that the Chinese rescue forces have saved six people in earthquake-hit Myanmar, vowing that China will do its best to search and rescue the survivors, treat the injured, and ensure that aid supplies reach those affected in the disaster zone.\n\n\"After the earthquake, China immediately launched the emergency response mechanism and has done everything possible to provide emergency services and consular protection,\" Guo told a daily news briefing.\n\nAs of now, Guo said around 400 Chinese personnel, including experts, rescuers and medical workers, have been assisting in the disaster relief efforts in various places in Myanmar.\n\nChina has also sent a first batch of relief supplies worth 100 million yuan ($13.78 million) to Myanmar, including tents, first aid kits, food and drinking water, he added.\n\nGuo expressed the belief that with the support of the international community, the government and people of Myanmar will be united as one and rise above the disaster and rebuild their homes.\n\nChinese teams rescue six in quake-hit Myanmar\n\nYunnan sends 7.3 metric tons of disaster relief supplies to Myanmar\n\nChina sends 118 member rescue team to Myanmar",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "Foreign Ministry spokesman Guo Jiakun said on Monday that the Chinese rescue forces have saved six people in earthquake-hit Myanmar, vowing that China will do its best to search and rescue the survivors, treat the injured, and ensure that aid supplies reach those affected in the disaster zone.\n\n\"After the earthquake, China immediately launched the emergency response mechanism and has done everything possible to provide emergency services and consular protection,\" Guo told a daily news briefing.\n\n",
+          "start_offset": 0,
+          "end_offset": 501,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "injuries"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_rescues_by_chinese_teams",
+              "value": 6,
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "Guo Jiakun",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "As of now, Guo said around 400 Chinese personnel, including experts, rescuers and medical workers, have been assisting in the disaster relief efforts in various places in Myanmar.\n\n",
+          "start_offset": 501,
+          "end_offset": 682,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "chinese_relief_personnel",
+              "value": {
+                "value": 400,
+                "qualifier": "around"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "Guo Jiakun",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "China has also sent a first batch of relief supplies worth 100 million yuan ($13.78 million) to Myanmar, including tents, first aid kits, food and drinking water, he added.\n\n",
+          "start_offset": 682,
+          "end_offset": 856,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "first_batch_value",
+              "value": 100000000,
+              "unit": "CNY"
+            },
+            {
+              "attribute": "reported_equivalent",
+              "value": 13780000,
+              "unit": "USD"
+            },
+            {
+              "attribute": "supplies",
+              "value": [
+                "tents",
+                "first-aid kits",
+                "food",
+                "drinking water"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "Guo expressed the belief that with the support of the international community, the government and people of Myanmar will be united as one and rise above the disaster and rebuild their homes.\n\n",
+          "start_offset": 856,
+          "end_offset": 1048,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "recovery",
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "Chinese teams rescue six in quake-hit Myanmar\n\nYunnan sends 7.3 metric tons of disaster relief supplies to Myanmar\n\nChina sends 118 member rescue team to Myanmar",
+          "start_offset": 1048,
+          "end_offset": 1209,
+          "sentence_ids": [
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "99d11df4c2f8bec044c93db8f553b1a90dd89e4b2df115855c4fa12ae88b1db2",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "震级由新华社报道给出",
+        "fact_type": "disaster_magnitude",
+        "attribute": "reported_magnitude",
+        "supporting_spans": [
+          "A001_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 7.9,
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "报道的东南亚死亡下限",
+        "fact_type": "casualties",
+        "attribute": "regional_deaths",
+        "supporting_spans": [
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "value": 2000,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "中国启动搜救与物资援助",
+        "fact_type": "aid",
+        "attribute": "chinese_response",
+        "supporting_spans": [
+          "A001_F003",
+          "A002_F003",
+          "A003_F001",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": "immediate Chinese response",
+            "unit": null,
+            "attribution": "Marie Manrique"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": "China extends support",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": "six rescued by Chinese forces",
+            "unit": null,
+            "attribution": "Guo Jiakun"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "first batch of relief supplies",
+            "unit": null,
+            "attribution": "Guo Jiakun"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "红十字机构提供院前急救和生活用品",
+        "fact_type": "aid",
+        "attribute": "red_cross_response",
+        "supporting_spans": [
+          "A001_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": [
+              "first aid",
+              "pre-hospital care",
+              "blankets",
+              "tarpaulins",
+              "hygiene kits"
+            ],
+            "unit": null,
+            "attribution": "Marie Manrique"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-03-28",
+          "time_precision": "当地日期",
+          "description": "缅甸发生强震。",
+          "supporting_spans": [
+            "A001_F001"
+          ]
+        },
+        {
+          "time": "2025-03-31",
+          "time_precision": "当地日期",
+          "description": "后续搜救持续，红十字组织展开援助，中国发言人通报救出 6 人。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F001",
+            "A003_F001"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "内战等因素使缅甸部分地区的搜救通行变得困难。",
+          "supporting_spans": [
+            "A002_F002"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "地震导致缅甸和曼谷紧急搜救，红十字和国际力量提供救助。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A002_F001",
+            "A002_F003",
+            "A003_F001"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "limitations": [
+      "区域死亡数无法拆分为各国死亡数。曼谷建筑材料问题处于调查阶段。"
+    ]
+  }
+}

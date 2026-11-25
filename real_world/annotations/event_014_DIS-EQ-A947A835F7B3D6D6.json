@@ -1,0 +1,904 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-A947A835F7B3D6D6",
+  "event_rank": 14,
+  "event_metadata": {
+    "event_name": "Earthquake in Afghanistan",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2025-11-02T20:29:02+00:00",
+    "event_end_time": "2025-11-02T20:29:02+00:00",
+    "locations": [
+      "Afghanistan"
+    ],
+    "latitude": 36.5894,
+    "longitude": 67.4843,
+    "place_names_in_reports": [
+      "Northern Afghanistan",
+      "Samangan",
+      "Balkh",
+      "Aybak",
+      "Khulm",
+      "Hazrat Sultan",
+      "Mazar-i-Sharif",
+      "Kabul",
+      "Baghlan",
+      "Sar-i-Pul",
+      "Kunduz"
+    ],
+    "gdacs_id": "1508467",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "CSV 2025-11-02T20:29:02Z 对应阿富汗 11 月 3 日凌晨。A001 的 late Monday night 与其同篇 00:59 及其他报道有出入，保留原文；平台发布时间标为 11 月 2 日午夜 UTC。"
+    ],
+    "dataset_place_name": "Earthquake in Afghanistan",
+    "dataset_event_note": "适合作为时间线任务"
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-EC4DA84A4B6DE196",
+      "event_id": "DIS-EQ-A947A835F7B3D6D6",
+      "event_rank": 14,
+      "article_rank": 1,
+      "title": "Earthquake In Northern Afghanistan Kills 8, Injures Nearly 200",
+      "publisher": "menafn",
+      "identified_publisher": null,
+      "source_domain": "menafn.com",
+      "url": "https://menafn.com/1110283906/Earthquake-In-Northern-Afghanistan-Kills-8-Injures-Nearly-200",
+      "published_at": "2025-11-02T00:00:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "正文引述地方官员与 Radio Rustam Nowin，未显示明确原始稿件署名。",
+      "content": "At least eight people were killed and nearly 200 others injured after a powerful earthquake struck northern Afghanistan late Monday night, local officials said.\n\nQari Lutfullah Habibi, head of the Taliban's Public Health Department in Samangan province, told Radio Rustam Nowin that one person was killed and more than 100 were injured in the provincial capital, Aybak.\n\nIn neighboring Balkh province, six deaths and over 70 injuries were reported in Khulm district, while another fatality and 15 injuries occurred in Samangan's Hazrat Sultan district.\n\nAuthorities said rescue teams are still assessing the damage in remote areas, warning that the casualty toll could rise as communications are restored.\n\nThe earthquake, measuring 6.3 magnitude, struck around 12:59 a.m. local time, shaking several northern provinces and sending residents fleeing from their homes in panic.\n\nTaliban officials said medical and emergency teams have been deployed to affected districts, where hospitals are struggling to accommodate the rising number of injured people.\n\nAfghanistan, frequently hit by deadly quakes due to its mountainous terrain and poor infrastructure, continues to face severe humanitarian challenges that hamper rapid disaster response efforts.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "At least eight people were killed and nearly 200 others injured after a powerful earthquake struck northern Afghanistan late Monday night, local officials said.\n\n",
+          "start_offset": 0,
+          "end_offset": 162,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 8,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injured",
+              "value": {
+                "value": 200,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "Qari Lutfullah Habibi, head of the Taliban's Public Health Department in Samangan province, told Radio Rustam Nowin that one person was killed and more than 100 were injured in the provincial capital, Aybak.\n\nIn neighboring Balkh province, six deaths and over 70 injuries were reported in Khulm district, while another fatality and 15 injuries occurred in Samangan's Hazrat Sultan district.\n\n",
+          "start_offset": 162,
+          "end_offset": 554,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "aybak",
+              "value": [
+                1,
+                {
+                  "value": 100,
+                  "qualifier": "greater_than"
+                }
+              ],
+              "unit": "deaths and injuries"
+            },
+            {
+              "attribute": "khulm",
+              "value": [
+                6,
+                {
+                  "value": 70,
+                  "qualifier": "greater_than"
+                }
+              ],
+              "unit": "deaths and injuries"
+            },
+            {
+              "attribute": "hazrat_sultan",
+              "value": [
+                1,
+                15
+              ],
+              "unit": "deaths and injuries"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "Authorities said rescue teams are still assessing the damage in remote areas, warning that the casualty toll could rise as communications are restored.\n\n",
+          "start_offset": 554,
+          "end_offset": 707,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "response",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "The earthquake, measuring 6.3 magnitude, struck around 12:59 a.m. local time, shaking several northern provinces and sending residents fleeing from their homes in panic.\n\n",
+          "start_offset": 707,
+          "end_offset": 878,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 6.3,
+              "unit": null
+            },
+            {
+              "attribute": "local_time",
+              "value": {
+                "value": "00:59",
+                "qualifier": "around"
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "Taliban officials said medical and emergency teams have been deployed to affected districts, where hospitals are struggling to accommodate the rising number of injured people.\n\nAfghanistan, frequently hit by deadly quakes due to its mountainous terrain and poor infrastructure, continues to face severe humanitarian challenges that hamper rapid disaster response efforts.",
+          "start_offset": 878,
+          "end_offset": 1249,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "b637d2f0dd88f5146e480dc27639d82ffd5579ce2fd77b4f3281da54e7257d42",
+        "removed_word_count": 69,
+        "removed_word_ratio": 0.27165354330708663
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-4B6BE1221A5023F1",
+      "event_id": "DIS-EQ-A947A835F7B3D6D6",
+      "event_rank": 14,
+      "article_rank": 2,
+      "title": "20 killed, 320 injured as powerful quake strikes northern Afghanistan",
+      "publisher": "pajhwok",
+      "identified_publisher": "Pajhwok",
+      "source_domain": "pajhwok.com",
+      "url": "https://pajhwok.com/2025/11/03/20-killed-320-injured-as-powerful-quake-strikes-northern-afghanistan/",
+      "published_at": "2025-11-03T06:34:34+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "Pajhwok 电头，提供独立的医院收治数字。",
+      "content": "KABUL (Pajhwok): At least 20 people have been killed and 320 others injured after a powerful 6.3-magnitude earthquake struck northern Afghanistan overnight.\n\nThe quake, with its epicenter in Khulm district of Balkh province, occurred around 1:00 a.m. local time and was also felt in Kabul, Baghlan, Samangan, Sar-i-Pul and Kunduz provinces.\n\nAccording to local sources, the heaviest casualties and damage were reported in Samangan and Balkh provinces. Rescue teams have been dispatched to the affected areas to search for survivors and assist those in need.\n\nDr. Sharafat Zaman, spokesperson for the Ministry of Public Health, said preliminary reports indicate that more than 20 people have been killed and 320 injured in Samangan province. The victims have been transferred to nearby hospitals for treatment.\n\nHe added that rescue operations are ongoing and that the death toll may rise as more information becomes available. Medical teams have reached the area, and the ministry has ordered all nearby hospitals to remain on high alert.\n\nMeanwhile, Kamal Khan Zadran, spokesperson for Balkh Regional Hospital, reported that three bodies and 110 injured people have been transferred to the Abu Ali Sina Balkhi Hospital in Mazar-i-Sharif.\n\nIn a statement, the Ministry of Defense said that rescue teams and emergency units from the 209th Al-Fath Army Corps have arrived at the affected areas and begun rescue operations, evacuation of the injured, and support for affected families.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "KABUL (Pajhwok): At least 20 people have been killed and 320 others injured after a powerful 6.3-magnitude earthquake struck northern Afghanistan overnight.\n\n",
+          "start_offset": 0,
+          "end_offset": 158,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "casualties",
+            "injuries"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 20,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injured",
+              "value": 320,
+              "unit": "people"
+            },
+            {
+              "attribute": "magnitude",
+              "value": 6.3,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "The quake, with its epicenter in Khulm district of Balkh province, occurred around 1:00 a.m. local time and was also felt in Kabul, Baghlan, Samangan, Sar-i-Pul and Kunduz provinces.\n\n",
+          "start_offset": 158,
+          "end_offset": 342,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "epicenter",
+              "value": "Khulm, Balkh",
+              "unit": null
+            },
+            {
+              "attribute": "time_local",
+              "value": {
+                "value": "01:00",
+                "qualifier": "around"
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "According to local sources, the heaviest casualties and damage were reported in Samangan and Balkh provinces. Rescue teams have been dispatched to the affected areas to search for survivors and assist those in need.\n\n",
+          "start_offset": 342,
+          "end_offset": 559,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "damage",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "Dr. Sharafat Zaman, spokesperson for the Ministry of Public Health, said preliminary reports indicate that more than 20 people have been killed and 320 injured in Samangan province. The victims have been transferred to nearby hospitals for treatment.\n\nHe added that rescue operations are ongoing and that the death toll may rise as more information becomes available. Medical teams have reached the area, and the ministry has ordered all nearby hospitals to remain on high alert.\n\n",
+          "start_offset": 559,
+          "end_offset": 1040,
+          "sentence_ids": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "response",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 20,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injuries",
+              "value": 320,
+              "unit": "people"
+            },
+            {
+              "attribute": "scope",
+              "value": "Samangan Province",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Sharafat Zaman",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "Meanwhile, Kamal Khan Zadran, spokesperson for Balkh Regional Hospital, reported that three bodies and 110 injured people have been transferred to the Abu Ali Sina Balkhi Hospital in Mazar-i-Sharif.\n\n",
+          "start_offset": 1040,
+          "end_offset": 1240,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "response",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "hospital",
+              "value": "Abu Ali Sina Balkhi Hospital",
+              "unit": null
+            },
+            {
+              "attribute": "bodies_transferred",
+              "value": 3,
+              "unit": "people"
+            },
+            {
+              "attribute": "injured_transferred",
+              "value": 110,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "In a statement, the Ministry of Defense said that rescue teams and emergency units from the 209th Al-Fath Army Corps have arrived at the affected areas and begun rescue operations, evacuation of the injured, and support for affected families.",
+          "start_offset": 1240,
+          "end_offset": 1482,
+          "sentence_ids": [
+            10
+          ],
+          "fact_types": [
+            "response",
+            "evacuation"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "responders",
+              "value": "209th Al-Fath Army Corps",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "160c7c4d91de5934c2046a0e97212e94d833a4a88ce17d1e5bcb79aeb50e4ac7",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-980558DF2367C3D6",
+      "event_id": "DIS-EQ-A947A835F7B3D6D6",
+      "event_rank": 14,
+      "article_rank": 3,
+      "title": "Number of casualties soars in N. Afghanistan''s quake as rescue operations continue",
+      "publisher": "xinhuanet-english",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20251103/40bec0a0b5b54cbca3918240b6a05156/c.html",
+      "published_at": "2025-11-03T07:00:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "新华社电头及图片署名；卫生部来源与 Pajhwok 有重合。",
+      "content": "Rescuers work at a quake-hit site in northern Afghanistan on Nov. 3, 2025. The number of quake-related casualties in northern Afghanistan's Samangan and Balkh provinces has gone up as rescue operations continue, said Sharafat Zaman Omarkhil, spokesman for the country's Public Health Ministry. According to the official, more than 20 people lost their lives and over 380 others sustained injuries after a 6.3-magnitude earthquake struck parts of Afghanistan, including the capital city of Kabul, early Monday at 00:58 a.m. local time. (Xinhua)\n\nKABUL, Nov. 3 (Xinhua) -- The number of quake-related casualties in northern Afghanistan's Samangan and Balkh provinces has gone up as rescue operations continue, said Sharafat Zaman Omarkhil, spokesman for the country's Public Health Ministry.\n\nAccording to the official, more than 20 people lost their lives and over 380 others sustained injuries after a 6.3-magnitude earthquake struck parts of Afghanistan, including the capital city of Kabul, early Monday at 00:58 a.m. local time.\n\nRescue teams have been sent to the affected areas to recover dead bodies and help the affected individuals.\n\nThe Bakhtar news agency reported that the defense ministry has also sent rescuers to the quake-affected areas.\n\nIn late August, an earthquake left more than 2,200 dead and 3,500 injured in the country's eastern Kunar province. \n\nAn injured man is treated at a hospital in Samangan province, northern Afghanistan, Nov. 3, 2025.\n\nThe number of quake-related casualties in northern Afghanistan's Samangan and Balkh provinces has gone up as rescue operations continue, said Sharafat Zaman Omarkhil, spokesman for the country's Public Health Ministry.\n\nAccording to the official, more than 20 people lost their lives and over 380 others sustained injuries after a 6.3-magnitude earthquake struck parts of Afghanistan, including the capital city of Kabul, early Monday at 00:58 a.m. local time. (Bakhtar news agency/Handout via Xinhua)\n\nThis photo taken on Nov. 3, 2025 shows a television screen displaying a footage of medical treatment at a hospital in Samangan province, northern Afghanistan.\n\nAccording to the official, more than 20 people lost their lives and over 380 others sustained injuries after a 6.3-magnitude earthquake struck parts of Afghanistan, including the capital city of Kabul, early Monday at 00:58 a.m. local time. (Xinhua/Li Ang)\n\nA rescuer works at a quake-hit site in northern Afghanistan on Nov. 3, 2025.\n\nAccording to the official, more than 20 people lost their lives and over 380 others sustained injuries after a 6.3-magnitude earthquake struck parts of Afghanistan, including the capital city of Kabul, early Monday at 00:58 a.m. local time. (Xinhua)",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "Rescuers work at a quake-hit site in northern Afghanistan on Nov. 3, 2025. The number of quake-related casualties in northern Afghanistan's Samangan and Balkh provinces has gone up as rescue operations continue, said Sharafat Zaman Omarkhil, spokesman for the country's Public Health Ministry. According to the official, more than 20 people lost their lives and over 380 others sustained injuries after a 6.3-magnitude earthquake struck parts of Afghanistan, including the capital city of Kabul, early Monday at 00:58 a.m. local time. (Xinhua)\n\n",
+          "start_offset": 0,
+          "end_offset": 545,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "KABUL, Nov. 3 (Xinhua) -- The number of quake-related casualties in northern Afghanistan's Samangan and Balkh provinces has gone up as rescue operations continue, said Sharafat Zaman Omarkhil, spokesman for the country's Public Health Ministry.\n\nAccording to the official, more than 20 people lost their lives and over 380 others sustained injuries after a 6.3-magnitude earthquake struck parts of Afghanistan, including the capital city of Kabul, early Monday at 00:58 a.m. local time.\n\n",
+          "start_offset": 545,
+          "end_offset": 1033,
+          "sentence_ids": [
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "casualties",
+            "injuries",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 6.3,
+              "unit": null
+            },
+            {
+              "attribute": "time_local",
+              "value": "00:58",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 20,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injuries",
+              "value": {
+                "value": 380,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "scope",
+              "value": [
+                "Samangan",
+                "Balkh"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Sharafat Zaman Omarkhil",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "Rescue teams have been sent to the affected areas to recover dead bodies and help the affected individuals.\n\nThe Bakhtar news agency reported that the defense ministry has also sent rescuers to the quake-affected areas.\n\n",
+          "start_offset": 1033,
+          "end_offset": 1254,
+          "sentence_ids": [
+            9,
+            10
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "In late August, an earthquake left more than 2,200 dead and 3,500 injured in the country's eastern Kunar province. \n\n",
+          "start_offset": 1254,
+          "end_offset": 1371,
+          "sentence_ids": [
+            11
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "injuries"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "separate late-August Kunar earthquake",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 2200,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injuries",
+              "value": 3500,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "An injured man is treated at a hospital in Samangan province, northern Afghanistan, Nov. 3, 2025.\n\nThe number of quake-related casualties in northern Afghanistan's Samangan and Balkh provinces has gone up as rescue operations continue, said Sharafat Zaman Omarkhil, spokesman for the country's Public Health Ministry.\n\nAccording to the official, more than 20 people lost their lives and over 380 others sustained injuries after a 6.3-magnitude earthquake struck parts of Afghanistan, including the capital city of Kabul, early Monday at 00:58 a.m. local time. (Bakhtar news agency/Handout via Xinhua)\n\nThis photo taken on Nov. 3, 2025 shows a television screen displaying a footage of medical treatment at a hospital in Samangan province, northern Afghanistan.\n\nAccording to the official, more than 20 people lost their lives and over 380 others sustained injuries after a 6.3-magnitude earthquake struck parts of Afghanistan, including the capital city of Kabul, early Monday at 00:58 a.m. local time. (Xinhua/Li Ang)\n\nA rescuer works at a quake-hit site in northern Afghanistan on Nov. 3, 2025.\n\nAccording to the official, more than 20 people lost their lives and over 380 others sustained injuries after a 6.3-magnitude earthquake struck parts of Afghanistan, including the capital city of Kabul, early Monday at 00:58 a.m. local time. (Xinhua)",
+          "start_offset": 1371,
+          "end_offset": 2718,
+          "sentence_ids": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "2ea2e022102bbf8f71ad7b8101e65c92c77d5b1b7b279e2afbc5624cfc91e1a5",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "北部地震报道的震级",
+        "fact_type": "disaster_magnitude",
+        "attribute": "magnitude",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F001",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": 6.3,
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 6.3,
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": 6.3,
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "主震当地时刻约凌晨 1 时",
+        "fact_type": "timeline",
+        "attribute": "local_origin_time",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": "around 00:59",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "around 01:00",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "00:58",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "地方与卫生部公布的死亡下限不同",
+        "fact_type": "casualties",
+        "attribute": "death_toll",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F004",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 8,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": "local officials"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": {
+              "value": 20,
+              "qualifier": "greater_than",
+              "scope": "Samangan"
+            },
+            "unit": "people",
+            "attribution": "Sharafat Zaman"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "value": 20,
+              "qualifier": "greater_than",
+              "scope": "Samangan and Balkh"
+            },
+            "unit": "people",
+            "attribution": "Sharafat Zaman Omarkhil"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "已报道的几个下限可以同时成立。"
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "320 与逾 380 名伤者的报道范围不同",
+        "fact_type": "injuries",
+        "attribute": "injury_toll",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F004",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 200,
+              "qualifier": "nearly"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": {
+              "value": 320,
+              "scope": "Samangan"
+            },
+            "unit": "people",
+            "attribution": "Sharafat Zaman"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "value": 380,
+              "qualifier": "greater_than",
+              "scope": "Samangan and Balkh"
+            },
+            "unit": "people",
+            "attribution": "Sharafat Zaman Omarkhil"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "来源范围不一且搜救持续。"
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC003",
+        "FC004"
+      ],
+      "important_facts": [
+        "FC002"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-11-03T00:58+04:30",
+          "time_precision": "当地分钟（按新华社）",
+          "description": "北部凌晨地震，亦震及喀布尔。",
+          "supporting_spans": [
+            "A001_F004",
+            "A002_F002",
+            "A003_F002"
+          ]
+        },
+        {
+          "time": "2025-11-03",
+          "time_precision": "当地日期",
+          "description": "卫生部门公布初步伤亡并安排医疗和搜救。",
+          "supporting_spans": [
+            "A002_F004",
+            "A002_F005",
+            "A003_F002",
+            "A003_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "地方当局称偏远区受损情况仍待评估，通信恢复后可能获得更全的伤亡数字。",
+          "supporting_spans": [
+            "A001_F003"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "6.3 级地震造成 Samangan 和 Balkh 等地伤亡，医疗和搜救单位进场。",
+          "supporting_spans": [
+            "A001_F002",
+            "A001_F004",
+            "A002_F005",
+            "A002_F006",
+            "A003_F002"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "limitations": [
+      "A003 的照片说明重复同一稿件事实，不作为独立证据计数。"
+    ]
+  }
+}

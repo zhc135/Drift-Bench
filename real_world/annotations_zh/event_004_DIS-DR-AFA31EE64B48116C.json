@@ -1,0 +1,1591 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-DR-AFA31EE64B48116C",
+  "event_rank": 4,
+  "event_metadata": {
+    "event_name": "布隆迪、刚果民主共和国、中非共和国、厄立特里亚、埃塞俄比亚、肯尼亚、尼日尔、尼日利亚、卢旺达、苏丹、南苏丹、乍得、坦桑尼亚、乌干达干旱",
+    "disaster_type": "extreme_weather",
+    "disaster_type_code": "DR",
+    "event_start_time": "2026-05-21T00:00:00+00:00",
+    "event_end_time": "2026-11-11T00:00:00+00:00",
+    "locations": [
+      "布隆迪",
+      "刚果民主共和国",
+      "中非共和国",
+      "厄立特里亚",
+      "埃塞俄比亚",
+      "肯尼亚",
+      "尼日尔",
+      "尼日利亚",
+      "卢旺达",
+      "苏丹",
+      "南苏丹",
+      "乍得",
+      "坦桑尼亚",
+      "乌干达"
+    ],
+    "latitude": 9.405,
+    "longitude": 31.76,
+    "place_names_in_reports": [
+      "尼罗河流域",
+      "阿巴伊河流域",
+      "埃塞俄比亚",
+      "亚的斯亚贝巴",
+      "肯尼亚",
+      "肯尼亚西部",
+      "纳罗克镇",
+      "莫西罗",
+      "埃瓦索恩吉罗",
+      "基尔戈里斯",
+      "恩卡雷塔",
+      "索马里",
+      "乌干达",
+      "埃塞俄比亚东部",
+      "非洲之角",
+      "南部非洲",
+      "中美洲",
+      "印度洋",
+      "太平洋"
+    ],
+    "gdacs_id": "1027450",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "FMC 对埃塞俄比亚2017财政年度的引用保留其原始历法。预测时段与已经观测到的干旱状况有所区分。"
+    ],
+    "dataset_place_name": "布隆迪、刚果民主共和国、中非共和国、厄立特里亚、埃塞俄比亚、肯尼亚、尼日尔、尼日利亚、卢旺达、苏丹、南苏丹、乍得、坦桑尼亚、乌干达干旱",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-C66D8AF4B81BE78F",
+      "event_id": "DIS-DR-AFA31EE64B48116C",
+      "event_rank": 4,
+      "article_rank": 1,
+      "title": "尼罗河的绿色屏障：埃塞俄比亚绿色遗产倡议保护流域免受气候威胁",
+      "publisher": "FanaBroadcasting",
+      "identified_publisher": "Fana Media Corporation",
+      "source_domain": "fanamc.com",
+      "url": "https://www.fanamc.com/english/the-green-shield-of-the-nile-ethiopias-green-legacy-initiative-safeguarding-the-basin-from-climate-threats/",
+      "published_at": "2026-07-25T15:12:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "FMC 的发稿地信息表明这篇报道讲述埃塞俄比亚的绿色遗产倡议。其他两家媒体中未发现相同稿件。",
+      "content": "FMC 亚的斯亚贝巴2026年7月25日电——河流流经山谷、穿越国界之前，发源于维系它们的自然景观。森林消失、土壤退化、生态系统恶化时，后果会远远超出其发生地。\n\n在数百万人依赖这一河流系统的尼罗河流域，保护自然与保护生命和生计密不可分。\n\n面对日益严峻的全球气候压力，埃塞俄比亚已开展非洲规模最大的生态恢复工作之一——绿色遗产倡议，将数百万公顷退化土地转变为增强气候韧性和恢复生态系统的基础。\n\n这一倡议体现了埃塞俄比亚的认识，即应对气候挑战需要的不仅是应对后果，还需要恢复调节水资源、保护土壤并帮助社区抵御极端天气事件的自然系统。\n\n气候变化给全球自然资源带来前所未有的压力。干旱、山洪、土地退化和水体泥沙淤积已成为影响可持续发展和水资源管理的主要威胁之一。\n\n在尼罗河流域，生态系统某一部分的环境变化可能产生更广泛的地区影响，因此恢复退化土地仍是增强韧性的关键。\n\n绿色遗产倡议于2019年在总理阿比·艾哈迈德倡议下启动，已从植树发展为一场全国性的环境运动。它是一项旨在重建森林、保护自然资源和增强气候适应能力的综合恢复工作。\n\n在政府的承诺和公众的广泛参与推动下，该倡议动员了数百万埃塞俄比亚人参与共同的环境使命。取得的进展使埃塞俄比亚的恢复工作成为全球认可的气候行动计划。\n\n截至埃塞俄比亚2017财政年度结束，全国已种植超过480亿株树苗。其中，仅阿巴伊河（尼罗河）流域就种植了超过187亿株树苗，约占全国植树总量的40%。\n\n这些数字远不止是统计数据，它们反映了对维系河流、社区和经济的生态系统的长期投资。\n\n在上述成就的基础上，埃塞俄比亚正在推进绿色遗产倡议更具雄心的新阶段。今年雨季，该国计划再种植超过80亿株树苗，使倡议种植的树苗总数超过560亿株。\n\n该国还设定了更广泛的目标，即在2027年主办第32届联合国气候变化大会（COP32）之前，累计种植650亿株树苗，进一步体现其对全球气候行动和生态系统恢复的承诺。\n\n森林是自然的保护屏障。它们减缓地表径流，让雨水渗入地下，增强水源并减少土壤侵蚀。森林固定土壤，还有助于减少流入河流的泥沙并保护水质。\n\n通过这些环境功能，埃塞俄比亚在尼罗河流域开展的恢复工作有助于减少山洪、干旱影响和生态系统退化造成的风险。\n\n这些益处延伸至埃塞俄比亚国界之外。流域上游恢复后的自然景观有助于形成更健康的生态系统，支持更稳定的水循环，并减轻影响下游国家的环境压力。\n\n埃塞俄比亚的绿色遗产倡议表明气候行动可以跨越国界。\n\n该倡议通过恢复自然、保护流域和增强生态系统韧性，将环境保护视为共同责任，以及通往更可持续尼罗河流域的途径。\n\n埃塞俄比亚各地逐渐形成的绿色景观不仅象征恢复，更代表一个更广泛的愿景：在未来，森林成为河流的守护者，生态系统能够承受气候压力，整个尼罗河流域的社区都受益于更具韧性的环境。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "FMC 亚的斯亚贝巴2026年7月25日电——河流流经山谷、穿越国界之前，发源于维系它们的自然景观。森林消失、土壤退化、生态系统恶化时，后果会远远超出其发生地。\n\n在数百万人依赖这一河流系统的尼罗河流域，保护自然与保护生命和生计密不可分。\n\n",
+          "start_offset": 0,
+          "end_offset": 121,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "humanitarian_needs",
+            "location",
+            "affected_population"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "river_dependent_population",
+              "value": "数百万人",
+              "unit": "people"
+            },
+            {
+              "attribute": "scope",
+              "value": "尼罗河流域",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "面对日益严峻的全球气候压力，埃塞俄比亚已开展非洲规模最大的生态恢复工作之一——绿色遗产倡议，将数百万公顷退化土地转变为增强气候韧性和恢复生态系统的基础。\n\n这一倡议体现了埃塞俄比亚的认识，即应对气候挑战需要的不仅是应对后果，还需要恢复调节水资源、保护土壤并帮助社区抵御极端天气事件的自然系统。\n\n",
+          "start_offset": 121,
+          "end_offset": 269,
+          "sentence_ids": [
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "response",
+            "recovery"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "initiative",
+              "value": "绿色遗产倡议",
+              "unit": null
+            },
+            {
+              "attribute": "reported_landscape_extent",
+              "value": "数百万人",
+              "unit": "ha"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "气候变化给全球自然资源带来前所未有的压力。干旱、山洪、土地退化和水体泥沙淤积已成为影响可持续发展和水资源管理的主要威胁之一。\n\n在尼罗河流域，生态系统某一部分的环境变化可能产生更广泛的地区影响，因此恢复退化土地仍是增强韧性的关键。\n\n",
+          "start_offset": 269,
+          "end_offset": 386,
+          "sentence_ids": [
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "weather",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "regional_threats",
+              "value": [
+                "干旱",
+                "山洪",
+                "土地退化",
+                "泥沙淤积"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "绿色遗产倡议于2019年在总理阿比·艾哈迈德倡议下启动，已从植树发展为一场全国性的环境运动。它是一项旨在重建森林、保护自然资源和增强气候适应能力的综合恢复工作。\n\n在政府的承诺和公众的广泛参与推动下，该倡议动员了数百万埃塞俄比亚人参与共同的环境使命。取得的进展使埃塞俄比亚的恢复工作成为全球认可的气候行动计划。\n\n",
+          "start_offset": 386,
+          "end_offset": 543,
+          "sentence_ids": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "fact_types": [
+            "response",
+            "recovery",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "launch_year",
+              "value": 2019,
+              "unit": null
+            },
+            {
+              "attribute": "initiator",
+              "value": "阿比·艾哈迈德",
+              "unit": null
+            },
+            {
+              "attribute": "mobilized_population",
+              "value": "数百万人",
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "截至埃塞俄比亚2017财政年度结束，全国已种植超过480亿株树苗。其中，仅阿巴伊河（尼罗河）流域就种植了超过187亿株树苗，约占全国植树总量的40%。\n\n这些数字远不止是统计数据，它们反映了对维系河流、社区和经济的生态系统的长期投资。\n\n",
+          "start_offset": 543,
+          "end_offset": 662,
+          "sentence_ids": [
+            14,
+            15,
+            16,
+            17
+          ],
+          "fact_types": [
+            "response",
+            "recovery"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "cutoff",
+              "value": "埃塞俄比亚2017财政年度末",
+              "unit": null
+            },
+            {
+              "attribute": "national_seedlings",
+              "value": {
+                "value": 48000000000,
+                "qualifier": "greater_than"
+              },
+              "unit": "seedlings"
+            },
+            {
+              "attribute": "basin_seedlings",
+              "value": {
+                "value": 18700000000,
+                "qualifier": "greater_than"
+              },
+              "unit": "seedlings"
+            },
+            {
+              "attribute": "basin_share",
+              "value": {
+                "value": 40,
+                "qualifier": "about"
+              },
+              "unit": "%"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "在上述成就的基础上，埃塞俄比亚正在推进绿色遗产倡议更具雄心的新阶段。今年雨季，该国计划再种植超过80亿株树苗，使倡议种植的树苗总数超过560亿株。\n\n该国还设定了更广泛的目标，即在2027年主办第32届联合国气候变化大会（COP32）之前，累计种植650亿株树苗，进一步体现其对全球气候行动和生态系统恢复的承诺。\n\n",
+          "start_offset": 662,
+          "end_offset": 820,
+          "sentence_ids": [
+            18,
+            19,
+            20
+          ],
+          "fact_types": [
+            "response",
+            "recovery",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "rainy_season_planting_target",
+              "value": {
+                "value": 8000000000,
+                "qualifier": "greater_than"
+              },
+              "unit": "seedlings"
+            },
+            {
+              "attribute": "resulting_cumulative_target",
+              "value": {
+                "value": 56000000000,
+                "qualifier": "greater_than"
+              },
+              "unit": "seedlings"
+            },
+            {
+              "attribute": "longer_term_cumulative_target",
+              "value": 65000000000,
+              "unit": "seedlings"
+            },
+            {
+              "attribute": "longer_term_cutoff",
+              "value": "2027年 COP32 举办之前",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "森林是自然的保护屏障。它们减缓地表径流，让雨水渗入地下，增强水源并减少土壤侵蚀。森林固定土壤，还有助于减少流入河流的泥沙并保护水质。\n\n通过这些环境功能，埃塞俄比亚在尼罗河流域开展的恢复工作有助于减少山洪、干旱影响和生态系统退化造成的风险。\n\n",
+          "start_offset": 820,
+          "end_offset": 942,
+          "sentence_ids": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "recovery",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "claimed_mechanism",
+              "value": [
+                "径流减缓",
+                "入渗增加",
+                "土壤侵蚀和泥沙流量减少"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F008",
+          "span_text": "这些益处延伸至埃塞俄比亚国界之外。流域上游恢复后的自然景观有助于形成更健康的生态系统，支持更稳定的水循环，并减轻影响下游国家的环境压力。\n\n埃塞俄比亚的绿色遗产倡议表明气候行动可以跨越国界。\n\n该倡议通过恢复自然、保护流域和增强生态系统韧性，将环境保护视为共同责任，以及通往更可持续尼罗河流域的途径。\n\n埃塞俄比亚各地逐渐形成的绿色景观不仅象征恢复，更代表一个更广泛的愿景：在未来，森林成为河流的守护者，生态系统能够承受气候压力，整个尼罗河流域的社区都受益于更具韧性的环境。",
+          "start_offset": 942,
+          "end_offset": 1179,
+          "sentence_ids": [
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "fact_types": [
+            "recovery",
+            "cause",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "ce4e0eec2d8a790d118619553acbc80874df3f7bcb740a935909ad825bc2f6db",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-EBC40C8AF3115ABF",
+      "event_id": "DIS-DR-AFA31EE64B48116C",
+      "event_rank": 4,
+      "article_rank": 2,
+      "title": "专家：非洲或迎来数十年来最强厄尔尼诺事件",
+      "publisher": "english-news-cn",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20260731/d2b90ddfe21043ed904bfcd7c0eb3c2a/c.html",
+      "published_at": "2026-07-31T12:05:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "新华社发稿地信息对应对非洲联盟一次会议及两名专家讲话的报道。",
+      "content": "新华社亚的斯亚贝巴7月31日电——非洲联盟（非盟）气候专家表示，从今年11月开始，非洲可能面临数十年来最强的厄尔尼诺事件，预计其影响将引发整个非洲大陆的极端天气异常。\n\n这一警告是在星期四于埃塞俄比亚首都亚的斯亚贝巴非盟总部举行的农业、农村发展、水资源与环境专门技术委员会特别会议上发出的。\n\n非盟委员会可持续环境与蓝色经济司司长哈尔森·尼扬贝在会上表示，全球气候预测中心指出，今年晚些时候将出现强厄尔尼诺现象，预计峰值强度出现在2026年11月至2027年1月之间。\n\n尼扬贝表示：“非洲需要做好充分准备，以预测、缓解并有效应对其影响。”他指出，预计该厄尔尼诺事件将是1950年以来最强的一次。\n\n他说，经验一再表明，厄尔尼诺对非洲各地区的影响不同，一些地区面临严重干旱和持续干燥天气，而其他地区则经历毁灭性洪水、山体滑坡和气候敏感型疾病暴发。\n\n尼扬贝表示：“这些极端气候对农业、粮食安全、水资源、能源生产、公共卫生、教育、基础设施以及最终数百万非洲人的生计产生深远影响。”\n\n非盟委员会另一位气候专家乔利·瓦桑博表示，非洲越来越多地暴露在厄尔尼诺事件驱动的气候变率和极端天气中。\n\n瓦桑博表示：“预计2026年厄尔尼诺事件将加剧水资源不安全和作物歉收，导致粮食短缺、生计损失、电力短缺、人类与野生动物冲突，以及争夺牧场引发的纠纷。”\n\n召开这次特别会议是为了应对预测中强厄尔尼诺事件发生的较高概率，旨在评估非洲的准备情况，加强早期预警和预先行动，并支持《2063年议程》的实施以及COP31和COP32的筹备工作。 ",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "新华社亚的斯亚贝巴7月31日电——非洲联盟（非盟）气候专家表示，从今年11月开始，非洲可能面临数十年来最强的厄尔尼诺事件，预计其影响将引发整个非洲大陆的极端天气异常。\n\n这一警告是在星期四于埃塞俄比亚首都亚的斯亚贝巴非盟总部举行的农业、农村发展、水资源与环境专门技术委员会特别会议上发出的。\n\n",
+          "start_offset": 0,
+          "end_offset": 147,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "weather",
+            "response",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "非洲",
+              "unit": null
+            },
+            {
+              "attribute": "outlook_start",
+              "value": "2026年11月",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "非洲联盟气候专家",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "非盟委员会可持续环境与蓝色经济司司长哈尔森·尼扬贝在会上表示，全球气候预测中心指出，今年晚些时候将出现强厄尔尼诺现象，预计峰值强度出现在2026年11月至2027年1月之间。\n\n尼扬贝表示：“非洲需要做好充分准备，以预测、缓解并有效应对其影响。”他指出，预计该厄尔尼诺事件将是1950年以来最强的一次。\n\n",
+          "start_offset": 147,
+          "end_offset": 300,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "peak_intensity_window",
+              "value": "2026年11月至2027年1月",
+              "unit": null
+            },
+            {
+              "attribute": "predicted_relative_strength",
+              "value": "1950年以来最强",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "哈尔森·尼扬贝",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "他说，经验一再表明，厄尔尼诺对非洲各地区的影响不同，一些地区面临严重干旱和持续干燥天气，而其他地区则经历毁灭性洪水、山体滑坡和气候敏感型疾病暴发。\n\n尼扬贝表示：“这些极端气候对农业、粮食安全、水资源、能源生产、公共卫生、教育、基础设施以及最终数百万非洲人的生计产生深远影响。”\n\n",
+          "start_offset": 300,
+          "end_offset": 441,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "weather",
+            "affected_population",
+            "secondary_hazard",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "risks",
+              "value": [
+                "严重干旱",
+                "洪水",
+                "山体滑坡",
+                "气候敏感型疾病"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "scope",
+              "value": "因非洲地区而异",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "非盟委员会另一位气候专家乔利·瓦桑博表示，非洲越来越多地暴露在厄尔尼诺事件驱动的气候变率和极端天气中。\n\n瓦桑博表示：“预计2026年厄尔尼诺事件将加剧水资源不安全和作物歉收，导致粮食短缺、生计损失、电力短缺、人类与野生动物冲突，以及争夺牧场引发的纠纷。”\n\n",
+          "start_offset": 441,
+          "end_offset": 571,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "weather",
+            "humanitarian_needs",
+            "cause",
+            "economic_loss"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "expected_impacts",
+              "value": [
+                "水资源不安全",
+                "作物歉收",
+                "粮食短缺",
+                "生计损失",
+                "电力短缺",
+                "人类与野生动物冲突",
+                "牧场纠纷"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "乔利·瓦桑博",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "召开这次特别会议是为了应对预测中强厄尔尼诺事件发生的较高概率，旨在评估非洲的准备情况，加强早期预警和预先行动，并支持《2063年议程》的实施以及COP31和COP32的筹备工作。 ",
+          "start_offset": 571,
+          "end_offset": 661,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "aims",
+              "value": [
+                "评估准备情况",
+                "加强早期预警和预先行动"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "682bd498da933f6ab4f5a4be3916c138f8ff067fa6cebce56e7a93046675139d",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-127D2990A29DE1D9",
+      "event_id": "DIS-DR-AFA31EE64B48116C",
+      "event_rank": 4,
+      "article_rank": 3,
+      "title": "厄尔尼诺临近，肯尼亚气象部门预计10月起降雨增加",
+      "publisher": "thestarkenya",
+      "identified_publisher": "The Star Kenya",
+      "source_domain": "the-star.co.ke",
+      "url": "https://www.the-star.co.ke/news/2026-08-02-kenya-met-predicts-increased-rains-from-october",
+      "published_at": "2026-08-02T05:14:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "该报道采用对肯尼亚官员的采访和若干机构报告。正文未出现具体作者或通讯社署名。",
+      "content": "厄尔尼诺与肯尼亚多次严重洪水事件有关。\n\n2026年4月29日，内罗毕居民冒着清晨降雨和寒冷天气出行。/资料图\n\n肯尼亚气象部门（KMD）指出，随着强厄尔尼诺事件形成，该国从10月开始可能出现高于常年水平的降雨，且较湿润的状况可能延续到2027年初。\n\nKMD 指出，2026年厄尔尼诺现象达到非常强强度的概率为81%，持续到2027年前几个月的概率为97%。\n\n纳罗克县气象服务主管斯坦利·金尤阿表示，预计该国将从未来几周降雨低于常年水平，过渡到10月至12月短雨季降雨高于平均水平的状态。\n\n金尤阿提醒，仅仅厄尔尼诺的强度并不能决定肯尼亚的降雨量。\n\n他解释说，降雨将主要受到印度洋偶极子（IOD）的影响。这是一种由印度洋各地海表温度差异引起的气候现象。\n\n根据 IOD 为正相位或负相位，它可以增强或抑制厄尔尼诺对东非的影响。\n\n在协调纳罗克县应对预计于今年晚些时候出现的中等至强厄尔尼诺降雨的内阁厄尔尼诺准备和响应特别委员会会议上，这名官员指出，该地方行政区的洪水和山体滑坡热点地区包括纳罗克镇、莫西罗、埃瓦索恩吉罗、基尔戈里斯和恩卡雷塔。\n\nKMD 预计8月至10月期间肯尼亚西部大部分地区的降雨低于平均水平。\n\n不过，预计从10月开始状况将发生变化，全国大部分地区直至11月可能出现高于平均水平的降雨。\n\n金尤阿提醒，厄尔尼诺并非降雨本身，而是一种发生在热带太平洋、每两至七年出现一次并影响全球天气的自然气候模式。\n\n厄尔尼诺与肯尼亚多次严重洪水事件有关。该国在1997年至1998年经历了最严重的事件之一，当时大范围洪水造成人员死亡、数千人流离失所并摧毁基础设施。\n\n其他重要厄尔尼诺事件发生在2006年至2007年、2015年至2016年和2023年至2024年，最后一次带来的强降雨、洪水和山体滑坡造成数百人死亡和大范围破坏。\n\n金尤阿表示，印度洋偶极子（IOD）很可能处于正相位。\n\n“2015年的厄尔尼诺非常强，接近1997年的强度，但由于 IOD 为弱正相位，我们并未经历像1997年那样多的降雨。这个雨季的结果主要取决于 IOD 的强度。”\n\n他说，部分地区已经受到干旱影响，使该国粮食安全受到损害。\n\n他说，预计8月和9月该国西半部的降雨量将偏少。\n\n他补充道：“预计10月和11月大部分地区降雨量将高于平均水平。”\n\n预计8月至10月期间该国西半部降雨偏少，而9月至11月期间大部分地区降雨将高于平均水平。\n\n金尤阿表示，厄尔尼诺将影响非正规居民区、洪泛区社区、干旱和半干旱地区（ASAL）社区以及河岸和湿地地区的人们。\n\n农作物、牲畜、道路、供水系统、市场和卫生设施也将受到影响。\n\n他说，洪水之所以演变为灾害，是因为排水能力差、卫生条件差、住房条件差和基础设施薄弱。\n\n在肯尼亚，厄尔尼诺最常与10月至12月短雨季的强降雨有关。\n\n纳罗克北部副县级行政长官约瑟夫·梅里绍向居民保证，多部门小组正在为预计今年10月至12月出现的厄尔尼诺降雨制定充分措施。\n\n这位行政官员解释，由多人共同担任主席的委员会已启动相关国家机构和县级部门，并与特别项目事务部门和人道主义机构合作，确保预测中的降雨发生时能有充分准备。\n\n他表示，他们已经讨论了委员会成员内部可用资源的梳理、缓解措施、向公众传递信息、加强部门间协调以及确定优先干预措施。\n\n科学家认为，厄尔尼诺作为更广泛气候周期的一部分，是一种自然发生的气候现象，其特征是太平洋海表温度异常升高。\n\n世界气象组织警告，厄尔尼诺现象可能在今年晚些时候给世界各地带来干旱、洪水、热浪和人口流离失所。\n\n这一国际气象机构警告，预计的强降雨可能对交通、农业、卫生及基础设施等多个领域产生深远后果。\n\n国家政府还启动了内阁厄尔尼诺准备特别委员会，该委员会也将支持地方政府。\n\n梅里绍表示，及早准备和及时采取行动仍是减轻厄尔尼诺降雨影响的关键，可以避免人道主义危机并保护生计。\n\n多部门小组还将协调面向农民的咨询意见，帮助农业部门缓解潜在损失。\n\n此举旨在加强国家韧性，确保在预期天气扰动之前各政府机构更好地协调。\n\n此次成立特别委员会之际，肯尼亚正在此前毁灭性洪水导致国内部分地区家庭流离失所、基础设施遭到破坏和经济活动中断后继续加强气候防灾准备。\n\n纳罗克中部副县级行政长官肯尼迪·姆旺戈梅指出，早期规划和机构间协调对于在厄尔尼诺季保护生命、保障财产以及确保基本服务持续运行至关重要。\n\n他说，这些措施旨在在预期厄尔尼诺季到来之前加强国家准备，确保协调一致的应对。\n\n肯尼亚是全球可能受到正在形成、且预计未来几个月将增强的强厄尔尼诺严重影响的22个国家之一。\n\n联合国粮食及农业组织（FAO）和世界粮食计划署（WFP）的一份新报告警告，除非政府和援助机构尽早行动，否则数百万人的粮食供应和生计可能面临威胁。\n\n报告称，肯尼亚是2026年末至2027年初面临厄尔尼诺相关气候冲击高风险的国家之一。 人口统计\n\n该报告称：“厄尔尼诺正在形成，数百万粮食不安全人群处于其影响范围内。强厄尔尼诺状况正在形成，将威胁多个地区直至2027年的粮食安全、农业和生计。”\n\n这些机构呼吁捐助方提供2.02亿美元（260亿肯尼亚先令），帮助脆弱社区在灾害到来前做好准备。他们表示，尽早行动可以挽救生命、保护作物并降低未来的人道主义成本。\n\n报告说：“联合国粮食及农业组织（FAO）和世界粮食计划署（WFP）首次共同发出前瞻性呼吁，开展大规模预先行动。”\n\n“两家机构有能力立即支持面临预期厄尔尼诺影响风险的120万人。额外提供1.67亿美元（216亿肯尼亚先令）将使预先援助覆盖另外760万人。”\n\n气候变化和全球变暖\n\n该报告警告，对肯尼亚及东非其他国家而言，最大威胁很可能是异常强降雨和洪水。\n\n报告指出，厄尔尼诺对东非不同地区的影响各不相同。部分地区可能降雨减少，而包括肯尼亚在内的非洲之角国家面临更大的洪水风险。\n\n报告称：“相比之下，10月至12月期间，在非洲之角拥有双雨季的地区，包括索马里、肯尼亚、乌干达和埃塞俄比亚东部，厄尔尼诺与高于平均水平的降雨和洪水风险增加有关。”\n\n“全球模型已经表明，本季出现较常年湿润状况的概率较高。”\n\n洪水可能损坏农田、摧毁基础设施、传播牲畜疾病并迫使家庭离开家园。\n\n东非被识别出的主要风险包括“作物损失和农业基础设施损坏”、“牲畜疾病暴发、产奶量减少和牲畜损失”以及“人口流离失所和生计中断”。\n\n“预计此次厄尔尼诺将给南部非洲、中美洲、亚洲和太平洋部分地区以及东非带来明显更干燥的状况，同时增加非洲之角和亚洲部分地区洪水及风暴发生的可能性。”\n\n肯尼亚出现在 FAO 和 WFP 确定的优先国家名单中，需要在最严重影响出现前获得紧急支持并做好准备。\n\n这两个机构根据历史厄尔尼诺天气模式、气候预测、粮食不安全程度、农业历以及应对准备情况筛选国家。\n\n报告称，肯尼亚是两个联合国机构“根据预测的厄尔尼诺风险加强准备工作，并支持制定或完善预先行动计划”的高风险国家之一。两家机构表示，各国应立即开始准备，因为仍有时间减少预期天气冲击的影响。\n\n建议措施包括向社区发送预警、向脆弱家庭提供现金支持、分发种子和农业投入品、改善蓄水设施、为牲畜接种疫苗以及落实防洪措施。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "厄尔尼诺与肯尼亚多次严重洪水事件有关。\n\n",
+          "start_offset": 0,
+          "end_offset": 21,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "secondary_hazard"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "2026年4月29日，内罗毕居民冒着清晨降雨和寒冷天气出行。/资料图\n\n",
+          "start_offset": 21,
+          "end_offset": 57,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "肯尼亚气象部门（KMD）指出，随着强厄尔尼诺事件形成，该国从10月开始可能出现高于常年水平的降雨，且较湿润的状况可能延续到2027年初。\n\nKMD 指出，2026年厄尔尼诺现象达到非常强强度的概率为81%，持续到2027年前几个月的概率为97%。\n\n纳罗克县气象服务主管斯坦利·金尤阿表示，预计该国将从未来几周降雨低于常年水平，过渡到10月至12月短雨季降雨高于平均水平的状态。\n\n",
+          "start_offset": 57,
+          "end_offset": 248,
+          "sentence_ids": [
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "very_strong_el_nino_probability",
+              "value": 81,
+              "unit": "%"
+            },
+            {
+              "attribute": "persistence_into_early_2027_probability",
+              "value": 97,
+              "unit": "%"
+            },
+            {
+              "attribute": "attribution",
+              "value": "肯尼亚气象部门",
+              "unit": null
+            },
+            {
+              "attribute": "rainfall_transition",
+              "value": "初期低于常年水平，10月至12月短雨季高于平均水平",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "金尤阿提醒，仅仅厄尔尼诺的强度并不能决定肯尼亚的降雨量。\n\n他解释说，降雨将主要受到印度洋偶极子（IOD）的影响。这是一种由印度洋各地海表温度差异引起的气候现象。\n\n根据 IOD 为正相位或负相位，它可以增强或抑制厄尔尼诺对东非的影响。\n\n在协调纳罗克县应对预计于今年晚些时候出现的中等至强厄尔尼诺降雨的内阁厄尔尼诺准备和响应特别委员会会议上，这名官员指出，该地方行政区的洪水和山体滑坡热点地区包括纳罗克镇、莫西罗、埃瓦索恩吉罗、基尔戈里斯和恩卡雷塔。\n\n",
+          "start_offset": 248,
+          "end_offset": 476,
+          "sentence_ids": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "fact_types": [
+            "weather",
+            "cause",
+            "secondary_hazard",
+            "response",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "moderator",
+              "value": "印度洋偶极子",
+              "unit": null
+            },
+            {
+              "attribute": "flood_and_landslide_hotspots",
+              "value": [
+                "纳罗克镇",
+                "莫西罗",
+                "埃瓦索恩吉罗",
+                "基尔戈里斯",
+                "恩卡雷塔"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "斯坦利·金尤阿",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "KMD 预计8月至10月期间肯尼亚西部大部分地区的降雨低于平均水平。\n\n不过，预计从10月开始状况将发生变化，全国大部分地区直至11月可能出现高于平均水平的降雨。\n\n",
+          "start_offset": 476,
+          "end_offset": 559,
+          "sentence_ids": [
+            11,
+            12
+          ],
+          "fact_types": [
+            "weather",
+            "location",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "western_kenya_rainfall",
+              "value": "8月至10月低于平均水平",
+              "unit": null
+            },
+            {
+              "attribute": "most_of_kenya_rainfall",
+              "value": "10月至11月高于平均水平",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "金尤阿提醒，厄尔尼诺并非降雨本身，而是一种发生在热带太平洋、每两至七年出现一次并影响全球天气的自然气候模式。\n\n厄尔尼诺与肯尼亚多次严重洪水事件有关。该国在1997年至1998年经历了最严重的事件之一，当时大范围洪水造成人员死亡、数千人流离失所并摧毁基础设施。\n\n其他重要厄尔尼诺事件发生在2006年至2007年、2015年至2016年和2023年至2024年，最后一次带来的强降雨、洪水和山体滑坡造成数百人死亡和大范围破坏。\n\n",
+          "start_offset": 559,
+          "end_offset": 774,
+          "sentence_ids": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard",
+            "casualties",
+            "affected_population",
+            "damage"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "el_nino_recurrence_interval",
+              "value": [
+                2,
+                7
+              ],
+              "unit": "years"
+            },
+            {
+              "attribute": "historical_events",
+              "value": [
+                "1997–1998",
+                "2006–2007",
+                "2015–2016",
+                "2023–2024"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "2023_2024_deaths",
+              "value": "数百人",
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "金尤阿表示，印度洋偶极子（IOD）很可能处于正相位。\n\n“2015年的厄尔尼诺非常强，接近1997年的强度，但由于 IOD 为弱正相位，我们并未经历像1997年那样多的降雨。这个雨季的结果主要取决于 IOD 的强度。”\n\n",
+          "start_offset": 774,
+          "end_offset": 885,
+          "sentence_ids": [
+            17,
+            18,
+            19
+          ],
+          "fact_types": [
+            "weather",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "predicted_iod",
+              "value": "正相位",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "斯坦利·金尤阿",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F008",
+          "span_text": "他说，部分地区已经受到干旱影响，使该国粮食安全受到损害。\n\n",
+          "start_offset": 885,
+          "end_offset": 915,
+          "sentence_ids": [
+            20
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "humanitarian_needs"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "actual_drought_impact",
+              "value": "肯尼亚部分地区粮食安全受到损害",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "斯坦利·金尤阿",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F009",
+          "span_text": "他说，预计8月和9月该国西半部的降雨量将偏少。\n\n他补充道：“预计10月和11月大部分地区降雨量将高于平均水平。”\n\n预计8月至10月期间该国西半部降雨偏少，而9月至11月期间大部分地区降雨将高于平均水平。\n\n",
+          "start_offset": 915,
+          "end_offset": 1020,
+          "sentence_ids": [
+            21,
+            22,
+            23
+          ],
+          "fact_types": [
+            "weather",
+            "location",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "western_half_rainfall",
+              "value": "8月至9月以及8月至10月时段低于平均水平",
+              "unit": null
+            },
+            {
+              "attribute": "most_areas_rainfall",
+              "value": "10月至11月以及9月至11月时段高于平均水平",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F010",
+          "span_text": "金尤阿表示，厄尔尼诺将影响非正规居民区、洪泛区社区、干旱和半干旱地区（ASAL）社区以及河岸和湿地地区的人们。\n\n农作物、牲畜、道路、供水系统、市场和卫生设施也将受到影响。\n\n他说，洪水之所以演变为灾害，是因为排水能力差、卫生条件差、住房条件差和基础设施薄弱。\n\n在肯尼亚，厄尔尼诺最常与10月至12月短雨季的强降雨有关。\n\n",
+          "start_offset": 1020,
+          "end_offset": 1183,
+          "sentence_ids": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "fact_types": [
+            "affected_population",
+            "infrastructure",
+            "secondary_hazard",
+            "weather",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "at_risk_communities",
+              "value": [
+                "非正规居民区",
+                "洪泛区",
+                "ASAL",
+                "河岸地区和湿地"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "infrastructure_vulnerabilities",
+              "value": [
+                "排水能力差",
+                "卫生条件差",
+                "住房条件差",
+                "基础设施薄弱"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F011",
+          "span_text": "纳罗克北部副县级行政长官约瑟夫·梅里绍向居民保证，多部门小组正在为预计今年10月至12月出现的厄尔尼诺降雨制定充分措施。\n\n这位行政官员解释，由多人共同担任主席的委员会已启动相关国家机构和县级部门，并与特别项目事务部门和人道主义机构合作，确保预测中的降雨发生时能有充分准备。\n\n他表示，他们已经讨论了委员会成员内部可用资源的梳理、缓解措施、向公众传递信息、加强部门间协调以及确定优先干预措施。\n\n",
+          "start_offset": 1183,
+          "end_offset": 1381,
+          "sentence_ids": [
+            28,
+            29,
+            30
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "约瑟夫·梅里绍",
+              "unit": null
+            },
+            {
+              "attribute": "measures",
+              "value": [
+                "启动多部门协作",
+                "梳理资源",
+                "公众沟通",
+                "部门间协调"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F012",
+          "span_text": "科学家认为，厄尔尼诺作为更广泛气候周期的一部分，是一种自然发生的气候现象，其特征是太平洋海表温度异常升高。\n\n世界气象组织警告，厄尔尼诺现象可能在今年晚些时候给世界各地带来干旱、洪水、热浪和人口流离失所。\n\n这一国际气象机构警告，预计的强降雨可能对交通、农业、卫生及基础设施等多个领域产生深远后果。\n\n",
+          "start_offset": 1381,
+          "end_offset": 1532,
+          "sentence_ids": [
+            31,
+            32,
+            33
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard",
+            "infrastructure"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "警告段落中的世界气象组织（WMO）",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F013",
+          "span_text": "国家政府还启动了内阁厄尔尼诺准备特别委员会，该委员会也将支持地方政府。\n\n梅里绍表示，及早准备和及时采取行动仍是减轻厄尔尼诺降雨影响的关键，可以避免人道主义危机并保护生计。\n\n多部门小组还将协调面向农民的咨询意见，帮助农业部门缓解潜在损失。\n\n此举旨在加强国家韧性，确保在预期天气扰动之前各政府机构更好地协调。\n\n此次成立特别委员会之际，肯尼亚正在此前毁灭性洪水导致国内部分地区家庭流离失所、基础设施遭到破坏和经济活动中断后继续加强气候防灾准备。\n\n纳罗克中部副县级行政长官肯尼迪·姆旺戈梅指出，早期规划和机构间协调对于在厄尔尼诺季保护生命、保障财产以及确保基本服务持续运行至关重要。\n\n他说，这些措施旨在在预期厄尔尼诺季到来之前加强国家准备，确保协调一致的应对。\n\n",
+          "start_offset": 1532,
+          "end_offset": 1866,
+          "sentence_ids": [
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "national_committee",
+              "value": "内阁厄尔尼诺准备特别委员会",
+              "unit": null
+            },
+            {
+              "attribute": "planned_measure",
+              "value": "协调面向农民的咨询意见",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F014",
+          "span_text": "肯尼亚是全球可能受到正在形成、且预计未来几个月将增强的强厄尔尼诺严重影响的22个国家之一。\n\n联合国粮食及农业组织（FAO）和世界粮食计划署（WFP）的一份新报告警告，除非政府和援助机构尽早行动，否则数百万人的粮食供应和生计可能面临威胁。\n\n报告称，肯尼亚是2026年末至2027年初面临厄尔尼诺相关气候冲击高风险的国家之一。 ",
+          "start_offset": 1866,
+          "end_offset": 2030,
+          "sentence_ids": [
+            41,
+            42,
+            43
+          ],
+          "fact_types": [
+            "weather",
+            "affected_population",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "countries_at_risk",
+              "value": 22,
+              "unit": "countries"
+            },
+            {
+              "attribute": "food_and_livelihood_threat",
+              "value": "数百万人",
+              "unit": "people"
+            },
+            {
+              "attribute": "high_risk_window",
+              "value": "2026年末至2027年初",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "FAO 和 WFP",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F015",
+          "span_text": "人口统计\n\n",
+          "start_offset": 2030,
+          "end_offset": 2036,
+          "sentence_ids": [
+            44
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F016",
+          "span_text": "该报告称：“厄尔尼诺正在形成，数百万粮食不安全人群处于其影响范围内。强厄尔尼诺状况正在形成，将威胁多个地区直至2027年的粮食安全、农业和生计。”\n\n",
+          "start_offset": 2036,
+          "end_offset": 2111,
+          "sentence_ids": [
+            45,
+            46
+          ],
+          "fact_types": [
+            "weather",
+            "affected_population",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "FAO 和 WFP",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F017",
+          "span_text": "这些机构呼吁捐助方提供2.02亿美元（260亿肯尼亚先令），帮助脆弱社区在灾害到来前做好准备。他们表示，尽早行动可以挽救生命、保护作物并降低未来的人道主义成本。\n\n报告说：“联合国粮食及农业组织（FAO）和世界粮食计划署（WFP）首次共同发出前瞻性呼吁，开展大规模预先行动。”\n\n“两家机构有能力立即支持面临预期厄尔尼诺影响风险的120万人。额外提供1.67亿美元（216亿肯尼亚先令）将使预先援助覆盖另外760万人。”\n\n",
+          "start_offset": 2111,
+          "end_offset": 2323,
+          "sentence_ids": [
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "fact_types": [
+            "aid",
+            "humanitarian_needs",
+            "affected_population"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "joint_appeal",
+              "value": 202000000,
+              "unit": "USD"
+            },
+            {
+              "attribute": "joint_appeal_reported_equivalent",
+              "value": 26000000000,
+              "unit": "Sh"
+            },
+            {
+              "attribute": "immediately_supportable",
+              "value": 1200000,
+              "unit": "people"
+            },
+            {
+              "attribute": "additional_funding",
+              "value": 167000000,
+              "unit": "USD"
+            },
+            {
+              "attribute": "additional_funding_reported_equivalent",
+              "value": 21600000000,
+              "unit": "Sh"
+            },
+            {
+              "attribute": "additional_reach",
+              "value": 7600000,
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "FAO 和 WFP",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F018",
+          "span_text": "气候变化和全球变暖\n\n",
+          "start_offset": 2323,
+          "end_offset": 2334,
+          "sentence_ids": [
+            52
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F019",
+          "span_text": "该报告警告，对肯尼亚及东非其他国家而言，最大威胁很可能是异常强降雨和洪水。\n\n报告指出，厄尔尼诺对东非不同地区的影响各不相同。部分地区可能降雨减少，而包括肯尼亚在内的非洲之角国家面临更大的洪水风险。\n\n报告称：“相比之下，10月至12月期间，在非洲之角拥有双雨季的地区，包括索马里、肯尼亚、乌干达和埃塞俄比亚东部，厄尔尼诺与高于平均水平的降雨和洪水风险增加有关。”\n\n“全球模型已经表明，本季出现较常年湿润状况的概率较高。”\n\n",
+          "start_offset": 2334,
+          "end_offset": 2548,
+          "sentence_ids": [
+            53,
+            54,
+            55,
+            56,
+            57
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "bimodal_horn_wetter_season",
+              "value": "10月至12月",
+              "unit": null
+            },
+            {
+              "attribute": "areas",
+              "value": [
+                "索马里",
+                "肯尼亚",
+                "乌干达",
+                "埃塞俄比亚东部"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "FAO 和 WFP",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F020",
+          "span_text": "洪水可能损坏农田、摧毁基础设施、传播牲畜疾病并迫使家庭离开家园。\n\n东非被识别出的主要风险包括“作物损失和农业基础设施损坏”、“牲畜疾病暴发、产奶量减少和牲畜损失”以及“人口流离失所和生计中断”。\n\n“预计此次厄尔尼诺将给南部非洲、中美洲、亚洲和太平洋部分地区以及东非带来明显更干燥的状况，同时增加非洲之角和亚洲部分地区洪水及风暴发生的可能性。”\n\n",
+          "start_offset": 2548,
+          "end_offset": 2723,
+          "sentence_ids": [
+            58,
+            59,
+            60
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard",
+            "damage",
+            "affected_population",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "risk_outcomes",
+              "value": [
+                "作物损失",
+                "基础设施损坏",
+                "牲畜疾病",
+                "产奶量降低",
+                "人口流离失所"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "FAO 和 WFP",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F021",
+          "span_text": "肯尼亚出现在 FAO 和 WFP 确定的优先国家名单中，需要在最严重影响出现前获得紧急支持并做好准备。\n\n这两个机构根据历史厄尔尼诺天气模式、气候预测、粮食不安全程度、农业历以及应对准备情况筛选国家。\n\n报告称，肯尼亚是两个联合国机构“根据预测的厄尔尼诺风险加强准备工作，并支持制定或完善预先行动计划”的高风险国家之一。两家机构表示，各国应立即开始准备，因为仍有时间减少预期天气冲击的影响。\n\n建议措施包括向社区发送预警、向脆弱家庭提供现金支持、分发种子和农业投入品、改善蓄水设施、为牲畜接种疫苗以及落实防洪措施。",
+          "start_offset": 2723,
+          "end_offset": 2980,
+          "sentence_ids": [
+            61,
+            62,
+            63,
+            64,
+            65
+          ],
+          "fact_types": [
+            "response",
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "FAO 和 WFP",
+              "unit": null
+            },
+            {
+              "attribute": "recommendations",
+              "value": [
+                "早期预警",
+                "现金支持",
+                "种子和农业投入品",
+                "蓄水设施",
+                "牲畜疫苗接种",
+                "防洪措施"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "8c2325574ef0ca1a655c2b131d19eaf946d5454f2cf9ff00059ed1149fc7126b",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "预测2026年末将发生强厄尔尼诺",
+        "fact_type": "weather",
+        "attribute": "el_nino_strength_outlook",
+        "supporting_spans": [
+          "A002_F002",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "峰值预计出现在2026年11月至2027年1月；1950年以来最强",
+            "unit": null,
+            "attribution": "Harsen Nyambe"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": {
+              "very_strong_probability": 81,
+              "persistence_early_2027_probability": 97
+            },
+            "unit": "%",
+            "attribution": "KMD"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "预测机构使用峰值时段、历史排名和概率描述同一气候模式。"
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "因时间和地点不同，区域干旱及洪水风险也有所不同",
+        "fact_type": "weather",
+        "attribute": "regional_rainfall_outlook",
+        "supporting_spans": [
+          "A002_F003",
+          "A003_F005",
+          "A003_F019"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": "非洲各地区可能经历严重干旱或洪水",
+            "unit": null,
+            "attribution": "Harsen Nyambe"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F005",
+            "value": "8月至10月肯尼亚西部降雨低于平均水平；10月至11月肯尼亚大部分地区降雨高于平均水平",
+            "unit": null,
+            "attribution": "KMD"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F019",
+            "value": "10月至12月非洲之角双雨季地区降雨高于平均水平并有洪水风险",
+            "unit": null,
+            "attribution": "FAO and WFP"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "干旱已影响肯尼亚部分地区的粮食安全",
+        "fact_type": "humanitarian_needs",
+        "attribute": "current_kenya_drought_impact",
+        "supporting_spans": [
+          "A003_F008"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F008",
+            "value": "已受干旱影响地区的粮食安全受到损害",
+            "unit": null,
+            "attribution": "Stanley Kinyua"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "据报道，恢复植被可降低尼罗河流域的干旱和洪水风险",
+        "fact_type": "recovery",
+        "attribute": "nile_basin_restoration",
+        "supporting_spans": [
+          "A001_F005",
+          "A001_F007"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F005",
+            "value": {
+              "number": 18700000000,
+              "qualifier": "greater_than",
+              "scope": "阿巴伊河流域"
+            },
+            "unit": "seedlings",
+            "attribution": "FMC"
+          },
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F007",
+            "value": "减缓径流、增加入渗并减少泥沙载量",
+            "unit": null,
+            "attribution": "FMC"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC005",
+        "cluster_description": "肯尼亚利用跨机构委员会为预期天气冲击做好准备",
+        "fact_type": "response",
+        "attribute": "kenya_preparedness",
+        "supporting_spans": [
+          "A003_F011",
+          "A003_F013"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F011",
+            "value": "纳罗克多部门准备工作",
+            "unit": null,
+            "attribution": "Joseph Merisho"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F013",
+            "value": "国家内阁特别委员会",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC003"
+      ],
+      "important_facts": [
+        "FC002",
+        "FC004",
+        "FC005"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2019",
+          "time_precision": "Year",
+          "description": "埃塞俄比亚启动了绿色遗产倡议。",
+          "supporting_spans": [
+            "A001_F004"
+          ]
+        },
+        {
+          "time": "2026-07-31",
+          "time_precision": "Publication date",
+          "description": "新华社报道，非洲联盟一次会议发布了厄尔尼诺风险警告。",
+          "supporting_spans": [
+            "A002_F001"
+          ]
+        },
+        {
+          "time": "2026-08/2026-10",
+          "time_precision": "Month range (forecast)",
+          "description": "肯尼亚气象部门预计肯尼亚西部大部分地区降雨低于平均水平。",
+          "supporting_spans": [
+            "A003_F005"
+          ]
+        },
+        {
+          "time": "2026-10/2026-12",
+          "time_precision": "Month range (forecast)",
+          "description": "FAO 和 WFP 预计非洲之角具有两个雨季的地区将出现湿润天气和洪水风险。",
+          "supporting_spans": [
+            "A003_F019"
+          ]
+        },
+        {
+          "time": "2026-11/2027-01",
+          "time_precision": "Month range (forecast)",
+          "description": "非洲联盟一名官员转述了厄尔尼诺强度峰值的预测时段。",
+          "supporting_spans": [
+            "A002_F002"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "FMC 表示森林可以减缓径流、改善入渗和减少侵蚀，帮助减轻干旱、洪水及生态系统风险。",
+          "supporting_spans": [
+            "A001_F007"
+          ]
+        },
+        {
+          "description": "肯尼亚气象学家指出，印度洋偶极子可以增强或减弱厄尔尼诺对东非降雨的影响。",
+          "supporting_spans": [
+            "A003_F004",
+            "A003_F007"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "肯尼亚部分地区已经遭遇影响粮食安全的干旱。",
+          "supporting_spans": [
+            "A003_F008"
+          ]
+        },
+        {
+          "description": "降雨风险因地区和预测时段而异。非洲联盟和肯尼亚机构正在推进早期预警及准备工作。",
+          "supporting_spans": [
+            "A002_F003",
+            "A002_F005",
+            "A003_F005",
+            "A003_F011",
+            "A003_F013"
+          ]
+        },
+        {
+          "description": "FMC 报道，埃塞俄比亚正通过流域恢复降低干旱和洪水风险。",
+          "supporting_spans": [
+            "A001_F005",
+            "A001_F007"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "这些报道涵盖长期恢复、非洲全境季节性预测及肯尼亚地方规划。它们未提供本次 GDACS 事件的统一受影响人口或干旱面积估计。"
+    ]
+  }
+}

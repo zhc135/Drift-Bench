@@ -1,0 +1,1141 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-066763829BE3ECCB",
+  "event_rank": 6,
+  "event_metadata": {
+    "event_name": "委内瑞拉地震",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2026-06-24T22:05:12+00:00",
+    "event_end_time": "2026-06-24T22:05:12+00:00",
+    "locations": [
+      "委内瑞拉"
+    ],
+    "latitude": 10.453,
+    "longitude": -68.5139,
+    "place_names_in_reports": [
+      "委内瑞拉",
+      "阿拉瓜州",
+      "拉瓜伊拉州",
+      "加拉加斯",
+      "西蒙·玻利瓦尔国际机场",
+      "马德里机场",
+      "伊斯坦布尔"
+    ],
+    "gdacs_id": "1548377",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "三篇报道均于6月27日发布，死亡、受伤和失踪人员统计均未提供共同截止时间。"
+    ],
+    "dataset_place_name": "委内瑞拉地震",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-8A1DBE6809BD21DD",
+      "event_id": "DIS-EQ-066763829BE3ECCB",
+      "event_rank": 6,
+      "article_rank": 1,
+      "title": "委内瑞拉附近再次发生4.8级强烈地震",
+      "publisher": "aljazeera-en",
+      "identified_publisher": "Al Jazeera",
+      "source_domain": "aljazeera.com",
+      "url": "https://www.aljazeera.com/news/2026/6/27/another-powerful-4-8-magnitude-earthquake-hits-near-venezuela",
+      "published_at": "2026-06-27T19:38:14+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "半岛电视台援引 EMSC 和地方当局，正文未显示任何归属于 PA 或 BBC 的采访。",
+      "content": "委内瑞拉近海再次探测到强烈地震。\n\n欧洲地中海地震中心（EMSC）表示，当地时间下午3:20（格林尼治标准时间19:20），在委内瑞拉北部阿拉瓜州附近探测到4.8级地震。\n\n星期三，委内瑞拉遭遇两次大地震，震级分别为7.2级和7.5级，此后已有多次余震和较小地震的报告。\n\n星期六地震活动发生时，救援人员仍争分夺秒地营救前述地震中的潜在幸存者。\n\n截至目前，星期三的地震已确认造成至少1,430人死亡，另有51,000人据报失踪。\n\n有关部门表示，如果在地震发生后的头72小时内没有找到幸存者，救出幸存者的可能性将越来越低。据信许多人被掩埋在倒塌建筑的废墟下，预计死亡人数还会上升。\n\n最新一次地震位于委内瑞拉首都加拉加斯以西70公里（43.4英里）处。目前没有关于该次地震造成损坏的即时报道。\n\n星期三的地震对拉瓜伊拉州造成最严重的破坏，加拉加斯的部分街区也遭受重创。\n\n与此同时，居民抱怨政府的恢复工作缺乏组织，部分地区移动通信和互联网中断使情况更加恶化。\n\n星期六，委内瑞拉政府表示，已有1,600名外国救援队成员抵达该国。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "委内瑞拉近海再次探测到强烈地震。\n\n欧洲地中海地震中心（EMSC）表示，当地时间下午3:20（格林尼治标准时间19:20），在委内瑞拉北部阿拉瓜州附近探测到4.8级地震。\n\n",
+          "start_offset": 0,
+          "end_offset": 87,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 4.8,
+              "unit": null
+            },
+            {
+              "attribute": "time_local",
+              "value": "15:20",
+              "unit": null
+            },
+            {
+              "attribute": "time_gmt",
+              "value": "19:20",
+              "unit": null
+            },
+            {
+              "attribute": "location",
+              "value": "阿拉瓜州附近",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "EMSC",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "星期三，委内瑞拉遭遇两次大地震，震级分别为7.2级和7.5级，此后已有多次余震和较小地震的报告。\n\n",
+          "start_offset": 87,
+          "end_offset": 137,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "secondary_hazard"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "wednesday_quake_magnitudes",
+              "value": [
+                7.2,
+                7.5
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "星期六地震活动发生时，救援人员仍争分夺秒地营救前述地震中的潜在幸存者。\n\n",
+          "start_offset": 137,
+          "end_offset": 174,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "截至目前，星期三的地震已确认造成至少1,430人死亡，另有51,000人据报失踪。\n\n",
+          "start_offset": 174,
+          "end_offset": 217,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "casualties",
+            "missing_persons"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 1430,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "reported_missing",
+              "value": 51000,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "有关部门表示，如果在地震发生后的头72小时内没有找到幸存者，救出幸存者的可能性将越来越低。据信许多人被掩埋在倒塌建筑的废墟下，预计死亡人数还会上升。\n\n",
+          "start_offset": 217,
+          "end_offset": 293,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "response",
+            "casualties",
+            "missing_persons",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "survivor_window",
+              "value": 72,
+              "unit": "hours"
+            },
+            {
+              "attribute": "scope",
+              "value": "当局关于生还可能性下降的评估",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "最新一次地震位于委内瑞拉首都加拉加斯以西70公里（43.4英里）处。目前没有关于该次地震造成损坏的即时报道。\n\n",
+          "start_offset": 293,
+          "end_offset": 349,
+          "sentence_ids": [
+            9,
+            10
+          ],
+          "fact_types": [
+            "location",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "distance_west_of_caracas",
+              "value": 70,
+              "unit": "km"
+            },
+            {
+              "attribute": "latest_quake_damage",
+              "value": "暂无即时报告",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "星期三的地震对拉瓜伊拉州造成最严重的破坏，加拉加斯的部分街区也遭受重创。\n\n",
+          "start_offset": 349,
+          "end_offset": 387,
+          "sentence_ids": [
+            11
+          ],
+          "fact_types": [
+            "damage",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "hardest_hit_areas",
+              "value": [
+                "拉瓜伊拉州",
+                "加拉加斯部分街区"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F008",
+          "span_text": "与此同时，居民抱怨政府的恢复工作缺乏组织，部分地区移动通信和互联网中断使情况更加恶化。\n\n",
+          "start_offset": 387,
+          "end_offset": 432,
+          "sentence_ids": [
+            12
+          ],
+          "fact_types": [
+            "public_reaction",
+            "infrastructure",
+            "response",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F009",
+          "span_text": "星期六，委内瑞拉政府表示，已有1,600名外国救援队成员抵达该国。",
+          "start_offset": 432,
+          "end_offset": 465,
+          "sentence_ids": [
+            13
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "arrived_foreign_rescuers",
+              "value": 1600,
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "委内瑞拉政府",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "ca184d8b6c6d6b3591133878304b21860958dbc20c381266f81913ed6191666c",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-22154581FEE2AB30",
+      "event_id": "DIS-EQ-066763829BE3ECCB",
+      "event_rank": 6,
+      "article_rank": 2,
+      "title": "危机响应团队在前往委内瑞拉参与地震救援途中受阻",
+      "publisher": "news-yahoo-uk",
+      "identified_publisher": "Press Association",
+      "source_domain": "uk.news.yahoo.com",
+      "url": "https://uk.news.yahoo.com/crisis-response-team-stranded-trying-210036815.html",
+      "published_at": "2026-06-27T21:00:36+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "Yahoo 承载了这篇文章，文章明确指出采访来自英国新闻协会（PA），图片署名为 Serve On/PA。",
+      "content": "一支赶赴委内瑞拉、在毁灭性地震后提供帮助的英国专业危机响应志愿者团队已在马德里机场滞留超过24小时。\n\n总部位于英国的慈善机构 Serve On 派出由11人和1只犬组成的队伍，试图抵达委内瑞拉首都加拉加斯。星期三，两场相继发生的高震级地震使该市遭受重创。\n\n委内瑞拉仍在等待救援服务抵达，英国专业危机响应志愿者团队自星期五晚间起滞留在马德里机场（Serve On/PA）\n\n该团队拥有能够感知深埋受害者活动的地震及声学设备，队长弗农·扬告诉英国新闻协会，他们迫切希望“尽快”前往委内瑞拉。\n\n星期六，两次7.2级和7.5级地震的确认死亡人数超过1,430人，至少68,900人据报失踪。\n\n然而，为加拉加斯提供服务的唯一国际机场西蒙·玻利瓦尔国际机场也在地震中遭到严重破坏，因此进入该国的交通受到“严重影响”。\n\n57岁的扬在为 Serve On 做志愿者的14年间，曾前往英属维尔京群岛、土耳其和叙利亚应对灾害。他说：“这些事情总是与时间赛跑。我们是一支轻型团队，能够快速行动。越早抵达，挽救生命的机会就越大。\n\n“每种情况都不同。在土耳其，地震发生14天后还在救出幸存者。我们希望能够前往那里并发挥作用。\n\n“我们是一支技术救援队，有可能仅凭被深埋受害者的活动找到他们。我们仍然相信，如果在未来一两天内抵达，就能作出相当大的贡献。\n\n“英国政府消防队现在正在途中。他们是一支拥有68人的重型队伍，我们与他们有联系。但我们（从委内瑞拉）听到的消息不多，不知道他们的情况如何。”\n\n由于英国没有直飞委内瑞拉的航班，在从伊斯坦布尔出发的转机航班被取消后，该团队自星期五晚上9点起一直滞留在马德里机场。\n\n从马德里起飞的航班也被取消，这些依赖民用交通的志愿者因而滞留。\n\n该团队希望利用搜救经验和设备，寻找委内瑞拉被埋在废墟下的幸存者（Serve On/PA）\n\n扬除了担任建筑项目经理外，还担任 Serve On 的国际行动负责人和培训负责人。他补充道：“我们一直在尝试联系各种其他航班、军用航班，并寻找多种不同方式。\n\n“我们有11人正在外派部署，但英国还有两倍的人数正努力帮助我们前往那里。我们并非唯一受阻的团队，还有一支法国团队和两支西班牙团队面临同样的问题。\n\n“我们已与政府取得联系，知道他们正在尽一切努力，我们也有相关证据。他们在帮助我们。\n\n“挽救生命这件事激励着我。Serve On 作为一个组织已经证明，通过救人，我们能够深刻影响他人的生活。\n\n“我们都理解事情很困难，感到沮丧，希望现在就抵达那里。”\n\n团队中24岁的志愿者马特·哈斯德尔表示：“事态发展得相当快。\n\n“我们做了大量后勤工作，与其他国际团队取得联系，并寻找进入该国的不同方式。\n\n“我们的资金并非无限，所以需要设法管理财务。我们的首要任务是进入危险区域，尽可能多地挽救生命。\n\n“我们的团队一直在尽最大努力让我们抵达现场。”",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "一支赶赴委内瑞拉、在毁灭性地震后提供帮助的英国专业危机响应志愿者团队已在马德里机场滞留超过24小时。\n\n总部位于英国的慈善机构 Serve On 派出由11人和1只犬组成的队伍，试图抵达委内瑞拉首都加拉加斯。星期三，两场相继发生的高震级地震使该市遭受重创。\n\n",
+          "start_offset": 0,
+          "end_offset": 130,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "delay",
+              "value": {
+                "value": 24,
+                "qualifier": "greater_than"
+              },
+              "unit": "hours"
+            },
+            {
+              "attribute": "group",
+              "value": "Serve On",
+              "unit": null
+            },
+            {
+              "attribute": "volunteers",
+              "value": 11,
+              "unit": "people"
+            },
+            {
+              "attribute": "rescue_dogs",
+              "value": 1,
+              "unit": "dog"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "委内瑞拉仍在等待救援服务抵达，英国专业危机响应志愿者团队自星期五晚间起滞留在马德里机场（Serve On/PA）\n\n",
+          "start_offset": 130,
+          "end_offset": 188,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "该团队拥有能够感知深埋受害者活动的地震及声学设备，队长弗农·扬告诉英国新闻协会，他们迫切希望“尽快”前往委内瑞拉。\n\n",
+          "start_offset": 188,
+          "end_offset": 247,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "equipment",
+              "value": "地震和声学探测设备",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "弗农·扬",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "星期六，两次7.2级和7.5级地震的确认死亡人数超过1,430人，至少68,900人据报失踪。\n\n",
+          "start_offset": 247,
+          "end_offset": 296,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "casualties",
+            "missing_persons"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "magnitudes",
+              "value": [
+                7.2,
+                7.5
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 1430,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "reported_missing",
+              "value": {
+                "value": 68900,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "然而，为加拉加斯提供服务的唯一国际机场西蒙·玻利瓦尔国际机场也在地震中遭到严重破坏，因此进入该国的交通受到“严重影响”。\n\n",
+          "start_offset": 296,
+          "end_offset": 358,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "airport",
+              "value": "西蒙·玻利瓦尔国际机场",
+              "unit": null
+            },
+            {
+              "attribute": "impact",
+              "value": "交通受到严重影响",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "57岁的扬在为 Serve On 做志愿者的14年间，曾前往英属维尔京群岛、土耳其和叙利亚应对灾害。他说：“这些事情总是与时间赛跑。我们是一支轻型团队，能够快速行动。越早抵达，挽救生命的机会就越大。\n\n“每种情况都不同。在土耳其，地震发生14天后还在救出幸存者。我们希望能够前往那里并发挥作用。\n\n“我们是一支技术救援队，有可能仅凭被深埋受害者的活动找到他们。我们仍然相信，如果在未来一两天内抵达，就能作出相当大的贡献。\n\n",
+          "start_offset": 358,
+          "end_offset": 570,
+          "sentence_ids": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "fact_types": [
+            "response",
+            "uncertainty"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "turkey_anecdote_days_to_live_rescue",
+              "value": 14,
+              "unit": "days"
+            },
+            {
+              "attribute": "attribution",
+              "value": "弗农·扬",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "“英国政府消防队现在正在途中。他们是一支拥有68人的重型队伍，我们与他们有联系。但我们（从委内瑞拉）听到的消息不多，不知道他们的情况如何。”\n\n",
+          "start_offset": 570,
+          "end_offset": 642,
+          "sentence_ids": [
+            14,
+            15
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "uk_government_fire_service_team_size",
+              "value": 68,
+              "unit": "people"
+            },
+            {
+              "attribute": "deployment_status",
+              "value": "在途中",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "弗农·扬",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "由于英国没有直飞委内瑞拉的航班，在从伊斯坦布尔出发的转机航班被取消后，该团队自星期五晚上9点起一直滞留在马德里机场。\n\n从马德里起飞的航班也被取消，这些依赖民用交通的志愿者因而滞留。\n\n",
+          "start_offset": 642,
+          "end_offset": 735,
+          "sentence_ids": [
+            16,
+            17
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "stranded_since",
+              "value": "星期五21:00",
+              "unit": null
+            },
+            {
+              "attribute": "constraints",
+              "value": "转机航班及后续航班被取消",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F009",
+          "span_text": "该团队希望利用搜救经验和设备，寻找委内瑞拉被埋在废墟下的幸存者（Serve On/PA）\n\n",
+          "start_offset": 735,
+          "end_offset": 781,
+          "sentence_ids": [
+            18
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F010",
+          "span_text": "扬除了担任建筑项目经理外，还担任 Serve On 的国际行动负责人和培训负责人。他补充道：“我们一直在尝试联系各种其他航班、军用航班，并寻找多种不同方式。\n\n“我们有11人正在外派部署，但英国还有两倍的人数正努力帮助我们前往那里。我们并非唯一受阻的团队，还有一支法国团队和两支西班牙团队面临同样的问题。\n\n“我们已与政府取得联系，知道他们正在尽一切努力，我们也有相关证据。他们在帮助我们。\n\n",
+          "start_offset": 781,
+          "end_offset": 978,
+          "sentence_ids": [
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "fact_types": [
+            "response",
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "other_teams_delayed",
+              "value": {
+                "French": 1,
+                "Spanish": 2
+              },
+              "unit": "teams"
+            },
+            {
+              "attribute": "attribution",
+              "value": "弗农·扬",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F011",
+          "span_text": "“挽救生命这件事激励着我。Serve On 作为一个组织已经证明，通过救人，我们能够深刻影响他人的生活。\n\n“我们都理解事情很困难，感到沮丧，希望现在就抵达那里。”\n\n",
+          "start_offset": 978,
+          "end_offset": 1062,
+          "sentence_ids": [
+            24,
+            25,
+            26
+          ],
+          "fact_types": [
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F012",
+          "span_text": "团队中24岁的志愿者马特·哈斯德尔表示：“事态发展得相当快。\n\n“我们做了大量后勤工作，与其他国际团队取得联系，并寻找进入该国的不同方式。\n\n“我们的资金并非无限，所以需要设法管理财务。我们的首要任务是进入危险区域，尽可能多地挽救生命。\n\n“我们的团队一直在尽最大努力让我们抵达现场。”",
+          "start_offset": 1062,
+          "end_offset": 1205,
+          "sentence_ids": [
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "fact_types": [
+            "public_reaction",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "马特·哈斯德尔",
+              "unit": null
+            },
+            {
+              "attribute": "volunteer_age",
+              "value": 24,
+              "unit": "years"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "21f2ab8e1fa17cc31ae3ef1d8f8a0a05e71d98fe0595d08043736651d87926f0",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-000744B67A405441",
+      "event_id": "DIS-EQ-066763829BE3ECCB",
+      "event_rank": 6,
+      "article_rank": 3,
+      "title": "恐慌发作与骨折：委内瑞拉医院救治地震受害者",
+      "publisher": "bbc",
+      "identified_publisher": "BBC",
+      "source_domain": "bbc.co.uk",
+      "url": "https://www.bbc.co.uk/news/videos/cm2d0rjg4l3o?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-06-27T21:43:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "正文注明 BBC 记者瓦妮莎·席尔瓦在加拉加斯一家医院外进行报道。",
+      "content": "星期三在委内瑞拉发生的两次致命地震仍对全国各地产生影响。\n\n官员表示，死亡人数已达到1,430人，3,238人受伤。救援行动仍在进行，但仍有可能找到幸存者的时间窗口正在缩小。\n\nBBC 记者瓦妮莎·席尔瓦在加拉加斯一家医院外报道。失踪人员的亲友纷纷来到这里，希望能够在此找到他们的亲人。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "星期三在委内瑞拉发生的两次致命地震仍对全国各地产生影响。\n\n",
+          "start_offset": 0,
+          "end_offset": 30,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "官员表示，死亡人数已达到1,430人，3,238人受伤。救援行动仍在进行，但仍有可能找到幸存者的时间窗口正在缩小。\n\n",
+          "start_offset": 30,
+          "end_offset": 89,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "response",
+            "uncertainty"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": 1430,
+              "unit": "people"
+            },
+            {
+              "attribute": "injured",
+              "value": 3238,
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "有关官员",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "BBC 记者瓦妮莎·席尔瓦在加拉加斯一家医院外报道。失踪人员的亲友纷纷来到这里，希望能够在此找到他们的亲人。",
+          "start_offset": 89,
+          "end_offset": 143,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "response",
+            "missing_persons",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "reported_location",
+              "value": "加拉加斯的一家医院",
+              "unit": null
+            },
+            {
+              "attribute": "reporter",
+              "value": "瓦妮莎·席尔瓦",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "2ae20d46c46da7ef07b36e693712a7591c75eefdb44da18e99d6841e4e43b0d1",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "星期三两次强烈地震的震级",
+        "fact_type": "disaster_magnitude",
+        "attribute": "wednesday_main_quake_magnitudes",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": [
+              7.2,
+              7.5
+            ],
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": [
+              7.2,
+              7.5
+            ],
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "报道将两次地震的死亡人数列为约1,430人",
+        "fact_type": "casualties",
+        "attribute": "main_quakes_death_toll",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F004",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": {
+              "value": 1430,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": {
+              "value": 1430,
+              "qualifier": "greater_than"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": 1430,
+            "unit": "people",
+            "attribution": "officials"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "具体统计值和随后报道中较高的下限可能反映不同的截止时间。证据不足以确认同一时间存在冲突。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "两篇报道中的失踪人数存在显著差异",
+        "fact_type": "missing_persons",
+        "attribute": "reported_missing",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": 51000,
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": {
+              "value": 68900,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "两篇文章均出现在星期六。底层记录、截止时间及修订历史均未核实，仅凭发布时间顺序无法确定正确数值。"
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "BBC 报道了官方受伤人数",
+        "fact_type": "injuries",
+        "attribute": "reported_injured",
+        "supporting_spans": [
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": 3238,
+            "unit": "people",
+            "attribution": "officials"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC005",
+        "cluster_description": "星期六另有一次4.8级地震",
+        "fact_type": "disaster_magnitude",
+        "attribute": "saturday_tremor_magnitude",
+        "supporting_spans": [
+          "A001_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 4.8,
+            "unit": null,
+            "attribution": "EMSC"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC006",
+        "cluster_description": "部分国际救援人员已抵达，个别队伍遭遇航班中断",
+        "fact_type": "aid",
+        "attribute": "international_response",
+        "supporting_spans": [
+          "A001_F009",
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F009",
+            "value": 1600,
+            "unit": "people",
+            "attribution": "Venezuelan government"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "英国 Serve On 队伍滞留在马德里机场",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "抵达人数总计与某支队伍遭遇延误描述的是不同群体。"
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005",
+        "FC006"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "important_facts": [
+        "FC005",
+        "FC006"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2026-06-24",
+          "time_precision": "Local date",
+          "description": "委内瑞拉相继发生7.2级和7.5级地震。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F004",
+            "A003_F001"
+          ]
+        },
+        {
+          "time": "2026-06-26",
+          "time_precision": "Inferred from weekday and publication date",
+          "description": "Serve On 队伍自星期五晚间起滞留在马德里机场。",
+          "supporting_spans": [
+            "A002_F008"
+          ]
+        },
+        {
+          "time": "2026-06-27T19:20Z",
+          "time_precision": "Minute (GMT)",
+          "description": "EMSC 报告阿拉瓜州附近发生4.8级地震。",
+          "supporting_spans": [
+            "A001_F001"
+          ]
+        },
+        {
+          "time": "2026-06-27",
+          "time_precision": "Publication date",
+          "description": "随着搜救继续，各报道持续更新伤亡和失踪人数。",
+          "supporting_spans": [
+            "A001_F004",
+            "A002_F004",
+            "A003_F002"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "机场受损及航班取消使 Serve On 无法抵达。",
+          "supporting_spans": [
+            "A002_F005",
+            "A002_F008"
+          ]
+        },
+        {
+          "description": "移动通信及互联网中断加剧了居民所述的协调问题。",
+          "supporting_spans": [
+            "A001_F008"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "星期三的地震严重影响拉瓜伊拉州和加拉加斯部分地区。搜救于星期六继续进行，当天又发生一次地震。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A001_F003",
+            "A001_F007"
+          ]
+        },
+        {
+          "description": "死亡人数、官方受伤人数和不同的失踪人数均保留其原始报道范围。",
+          "supporting_spans": [
+            "A001_F004",
+            "A002_F004",
+            "A003_F002"
+          ]
+        },
+        {
+          "description": "部分国际救援人员已经抵达，其他专业队伍面临延误。",
+          "supporting_spans": [
+            "A001_F009",
+            "A002_F001",
+            "A002_F005"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "官方伤亡及失踪人员登记册未经核查，未确定共同的统计截止时间。"
+    ]
+  }
+}

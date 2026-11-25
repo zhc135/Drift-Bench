@@ -1,0 +1,1772 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-061D231B89C06F55",
+  "event_rank": 5,
+  "event_metadata": {
+    "event_name": "印度尼西亚地震",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2026-08-14T21:58:21+00:00",
+    "event_end_time": "2026-08-14T21:58:21+00:00",
+    "locations": [
+      "印度尼西亚"
+    ],
+    "latitude": -8.3101,
+    "longitude": 121.3517,
+    "place_names_in_reports": [
+      "弗洛勒斯岛",
+      "东努沙登加拉省",
+      "恩德",
+      "锡卡",
+      "芒加莱",
+      "东芒加莱",
+      "雷奥",
+      "帕卢埃岛",
+      "鲁滕",
+      "登巴萨",
+      "雅加达"
+    ],
+    "gdacs_id": "1558059",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "CSV 记录为协调世界时8月14日。各报道描述的是当地时间8月15日清晨。持续更新的统计总数没有共同截止时间。"
+    ],
+    "dataset_place_name": "印度尼西亚地震",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-45F36DA2B0E1FF46",
+      "event_id": "DIS-EQ-061D231B89C06F55",
+      "event_rank": 5,
+      "article_rank": 1,
+      "title": "中国愿在印度尼西亚地震后提供援助",
+      "publisher": "xinhuanet-english",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20260817/3b51aafb502e4b2985b3d6ce0e39dfce/c.html",
+      "published_at": "2026-08-17T08:21:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "新华社从北京发稿，报道了中国外交部例行记者会。",
+      "content": "新华社北京8月17日电——中国外交部发言人林剑星期一表示，中方关注印度尼西亚发生的地震，愿根据印尼方面的需要提供援助。\n\n针对8月15日印度尼西亚弗洛勒斯岛发生的7.7级地震，林剑在例行记者会上表示：“我们向遇难者表示深切哀悼，向遇难者家属和伤者表示诚挚慰问。”\n\n林剑说，据了解，一些中国公民在此次地震中受伤，并补充说，中国驻登巴萨总领事馆已启动应急机制，为受影响人员提供帮助。 ",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "新华社北京8月17日电——中国外交部发言人林剑星期一表示，中方关注印度尼西亚发生的地震，愿根据印尼方面的需要提供援助。\n\n",
+          "start_offset": 0,
+          "end_offset": 61,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "assistance_status",
+              "value": "中方愿根据印尼方面需要提供援助",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "林剑",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "针对8月15日印度尼西亚弗洛勒斯岛发生的7.7级地震，林剑在例行记者会上表示：“我们向遇难者表示深切哀悼，向遇难者家属和伤者表示诚挚慰问。”\n\n",
+          "start_offset": 61,
+          "end_offset": 133,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.7,
+              "unit": null
+            },
+            {
+              "attribute": "location",
+              "value": "弗洛勒斯岛",
+              "unit": null
+            },
+            {
+              "attribute": "local_date",
+              "value": "2026-08-15",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "林剑说，据了解，一些中国公民在此次地震中受伤，并补充说，中国驻登巴萨总领事馆已启动应急机制，为受影响人员提供帮助。 ",
+          "start_offset": 133,
+          "end_offset": 191,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "injuries",
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "injured_nationality",
+              "value": "中国公民",
+              "unit": null
+            },
+            {
+              "attribute": "count",
+              "value": "一些",
+              "unit": null
+            },
+            {
+              "attribute": "response",
+              "value": "中国驻登巴萨总领事馆已启动应急机制",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "e0eeee2e29bccd419b963052fbed32ff1ea23fe58ac5e0b01c40b32be0eef53a",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-92C15C1F1542AE8F",
+      "event_id": "DIS-EQ-061D231B89C06F55",
+      "event_rank": 5,
+      "article_rank": 2,
+      "title": "印度尼西亚地震死亡人数升至68人，仍在等待援助的社区再遭强烈余震",
+      "publisher": "news-yahoo-uk",
+      "identified_publisher": null,
+      "source_domain": "uk.news.yahoo.com",
+      "url": "https://uk.news.yahoo.com/powerful-aftershock-hits-indonesian-communities-062707917.html",
+      "published_at": "2026-08-17T10:38:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "由 Yahoo 承载的文章引用美联社对雷奥居民的采访。所引言论及细节与 A003 重叠，完整稿件来源尚未核实。",
+      "content": "印度尼西亚星期六的地震已造成至少68人死亡，强烈余震持续令弗洛勒斯岛社区感到恐慌，那里仍有数千人等待援助。\n\n德国地球科学研究中心（GFZ）星期一记录到一次5.9级地震，震源深度约10公里，不过尚无新增伤亡的即时报道。\n\n该机构自星期六以来已记录到至少995次余震，其中46次强烈到居民能够感受到。在星期一的余震之前，最强余震为6.2级。\n\n星期一是印度尼西亚第81个独立日，弗洛勒斯岛居民在哀悼、寻找亲属及等待物资送达中度过了这一天。\n\n总统普拉博沃·苏比延多呼吁全国为东努沙登加拉省和该国其他地区受灾民众祈祷，并带领全国默哀，纪念印度尼西亚的独立英雄。\n\n该省省长星期日宣布进入为期14天的紧急状态。随着救援人员清理废墟，地震死亡人数仍在上升。官员预计，随着救援人员抵达更多因山体滑坡而与外界隔绝的村庄，死亡人数将进一步增加。死者大多来自锡卡、芒加莱和东芒加莱地区。\n\n据美国地质调查局称，星期六上午发生的7.7级地震，其震中位于弗洛勒斯岛南岸城镇恩德西北约68公里处。\n\n弗洛勒斯岛位于东努沙登加拉省，该省地处印度尼西亚群岛东端，由分散的岛屿构成。\n\n国家抗灾管理机构表示，东努沙登加拉省至少200人受伤、2,000多所房屋受损，仅弗洛勒斯岛就有近250所房屋被毁。约5,000人居住在临时避难所。\n\n东努沙登加拉省纳格克奥的马拉波科特，村民在空旷场地的一顶帐篷里休息（法新社/Getty）\n\n另有数千人星期日夜间待在倒塌房屋旁的防水布下，以免冒险进入室内。\n\n已有超过3,500名军警人员被部署，275吨援助物资已运往灾区，但地形条件使物资运送至受灾最严重社区的速度放缓。\n\n东努沙登加拉省警察局长鲁迪·达尔莫科说：“我们正继续收集有关损失和人员伤亡的报告，但通信存在中断。”他描述了严重的建筑结构损坏和房屋倒塌情况，停电妨碍了通信。\n\n山体滑坡堵塞了恩德县横贯弗洛勒斯岛公路的部分路段。这条公路从拉布安巴焦至拉兰图卡，横贯全岛约435英里。救援官员警告，六个县的村庄被掩埋或与外界隔绝，死亡人数可能上升，抗灾机构已派出一架直升机运送物资，并支持可能开展的人员疏散。\n\n“我的房子如今只剩下一堆瓦砾，”芒加莱县受灾最严重地区雷奥村的服装商拉希德·贾法尔告诉美联社。“我们急需食物、药品和清洁用水。”\n\n幸存者说，已经送达的物资不足以维持生活。雷奥村另一名村民玛丽安娜·特乌对通讯社说：“我们什么都没有了。为什么没有公共厨房？”\n\n当地电视台画面显示，作为预防措施，多家医院将患者用轮椅或推床转移到室外，工作人员将病床和氧气瓶移至室外，设立临时治疗区。\n\n星期六的地震引发海啸预警，沿海居民撤往高地，随后由于未检测到海平面显著变化，预警被解除。 1992年，弗洛勒斯岛曾在一次地震后遭受海啸袭击，约2,500人死亡。\n\n印度尼西亚位于环太平洋火山地震带，即环绕太平洋边缘的地震活动带，经常发生地震和火山喷发。2018年苏拉威西岛地震造成4,400多人死亡，2004年苏门答腊岛附近海域发生的9.1级地震引发海啸，造成十多个国家约23万人死亡。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "印度尼西亚星期六的地震已造成至少68人死亡，强烈余震持续令弗洛勒斯岛社区感到恐慌，那里仍有数千人等待援助。\n\n",
+          "start_offset": 0,
+          "end_offset": 55,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "casualties",
+            "humanitarian_needs",
+            "aid"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 68,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "德国地球科学研究中心（GFZ）星期一记录到一次5.9级地震，震源深度约10公里，不过尚无新增伤亡的即时报道。\n\n",
+          "start_offset": 55,
+          "end_offset": 111,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "secondary_hazard",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "aftershock_magnitude",
+              "value": 5.9,
+              "unit": null
+            },
+            {
+              "attribute": "depth",
+              "value": {
+                "value": 10,
+                "qualifier": "about"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "attribution",
+              "value": "GFZ",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "该机构自星期六以来已记录到至少995次余震，其中46次强烈到居民能够感受到。在星期一的余震之前，最强余震为6.2级。\n\n",
+          "start_offset": 111,
+          "end_offset": 171,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "aftershocks",
+              "value": {
+                "value": 995,
+                "qualifier": "at_least"
+              },
+              "unit": "events"
+            },
+            {
+              "attribute": "felt_aftershocks",
+              "value": 46,
+              "unit": "events"
+            },
+            {
+              "attribute": "strongest_before_monday_magnitude",
+              "value": 6.2,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "星期一是印度尼西亚第81个独立日，弗洛勒斯岛居民在哀悼、寻找亲属及等待物资送达中度过了这一天。\n\n总统普拉博沃·苏比延多呼吁全国为东努沙登加拉省和该国其他地区受灾民众祈祷，并带领全国默哀，纪念印度尼西亚的独立英雄。\n\n",
+          "start_offset": 171,
+          "end_offset": 280,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "public_reaction",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "occasion",
+              "value": "第81个独立日",
+              "unit": null
+            },
+            {
+              "attribute": "speaker",
+              "value": "普拉博沃·苏比延多",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "该省省长星期日宣布进入为期14天的紧急状态。随着救援人员清理废墟，地震死亡人数仍在上升。官员预计，随着救援人员抵达更多因山体滑坡而与外界隔绝的村庄，死亡人数将进一步增加。死者大多来自锡卡、芒加莱和东芒加莱地区。\n\n",
+          "start_offset": 280,
+          "end_offset": 387,
+          "sentence_ids": [
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "casualties",
+            "response",
+            "secondary_hazard",
+            "location",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "emergency_duration",
+              "value": 14,
+              "unit": "days"
+            },
+            {
+              "attribute": "districts_with_most_deaths",
+              "value": [
+                "锡卡",
+                "芒加莱",
+                "东芒加莱"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "据美国地质调查局称，星期六上午发生的7.7级地震，其震中位于弗洛勒斯岛南岸城镇恩德西北约68公里处。\n\n弗洛勒斯岛位于东努沙登加拉省，该省地处印度尼西亚群岛东端，由分散的岛屿构成。\n\n",
+          "start_offset": 387,
+          "end_offset": 479,
+          "sentence_ids": [
+            10,
+            11
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.7,
+              "unit": null
+            },
+            {
+              "attribute": "epicenter_distance",
+              "value": {
+                "value": 68,
+                "qualifier": "about"
+              },
+              "unit": "km"
+            },
+            {
+              "attribute": "epicenter_direction",
+              "value": "恩德西北方向",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "USGS",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "国家抗灾管理机构表示，东努沙登加拉省至少200人受伤、2,000多所房屋受损，仅弗洛勒斯岛就有近250所房屋被毁。约5,000人居住在临时避难所。\n\n",
+          "start_offset": 479,
+          "end_offset": 554,
+          "sentence_ids": [
+            12,
+            13
+          ],
+          "fact_types": [
+            "injuries",
+            "damage",
+            "evacuation",
+            "affected_population"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "injured",
+              "value": {
+                "value": 200,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "damaged_homes",
+              "value": {
+                "value": 2000,
+                "qualifier": "greater_than"
+              },
+              "unit": "homes"
+            },
+            {
+              "attribute": "destroyed_homes_on_flores",
+              "value": {
+                "value": 250,
+                "qualifier": "nearly"
+              },
+              "unit": "homes"
+            },
+            {
+              "attribute": "temporary_shelter_population",
+              "value": {
+                "value": 5000,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "伤亡和损坏数据来源为国家抗灾管理机构",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "东努沙登加拉省纳格克奥的马拉波科特，村民在空旷场地的一顶帐篷里休息（法新社/Getty）\n\n",
+          "start_offset": 554,
+          "end_offset": 600,
+          "sentence_ids": [
+            14
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F009",
+          "span_text": "另有数千人星期日夜间待在倒塌房屋旁的防水布下，以免冒险进入室内。\n\n",
+          "start_offset": 600,
+          "end_offset": 634,
+          "sentence_ids": [
+            15
+          ],
+          "fact_types": [
+            "affected_population",
+            "evacuation"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "people_sheltering_outdoors",
+              "value": "数千人",
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F010",
+          "span_text": "已有超过3,500名军警人员被部署，275吨援助物资已运往灾区，但地形条件使物资运送至受灾最严重社区的速度放缓。\n\n",
+          "start_offset": 634,
+          "end_offset": 692,
+          "sentence_ids": [
+            16
+          ],
+          "fact_types": [
+            "response",
+            "aid",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "deployed_personnel",
+              "value": {
+                "value": 3500,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "aid_sent",
+              "value": 275,
+              "unit": "tonnes"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F011",
+          "span_text": "东努沙登加拉省警察局长鲁迪·达尔莫科说：“我们正继续收集有关损失和人员伤亡的报告，但通信存在中断。”他描述了严重的建筑结构损坏和房屋倒塌情况，停电妨碍了通信。\n\n山体滑坡堵塞了恩德县横贯弗洛勒斯岛公路的部分路段。这条公路从拉布安巴焦至拉兰图卡，横贯全岛约435英里。救援官员警告，六个县的村庄被掩埋或与外界隔绝，死亡人数可能上升，抗灾机构已派出一架直升机运送物资，并支持可能开展的人员疏散。\n\n",
+          "start_offset": 692,
+          "end_offset": 889,
+          "sentence_ids": [
+            17,
+            18,
+            19
+          ],
+          "fact_types": [
+            "response",
+            "damage",
+            "infrastructure",
+            "secondary_hazard",
+            "uncertainty",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "communications_constraints",
+              "value": "停电及通信中断",
+              "unit": null
+            },
+            {
+              "attribute": "main_highway_blocked",
+              "value": "横贯弗洛勒斯岛公路",
+              "unit": null
+            },
+            {
+              "attribute": "main_highway_length",
+              "value": {
+                "value": 435,
+                "qualifier": "about"
+              },
+              "unit": "miles"
+            },
+            {
+              "attribute": "regencies_with_buried_or_cut_off_villages",
+              "value": 6,
+              "unit": "regencies"
+            },
+            {
+              "attribute": "response",
+              "value": "直升机运送物资并支持可能进行的人员疏散",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F012",
+          "span_text": "“我的房子如今只剩下一堆瓦砾，”芒加莱县受灾最严重地区雷奥村的服装商拉希德·贾法尔告诉美联社。“我们急需食物、药品和清洁用水。”\n\n幸存者说，已经送达的物资不足以维持生活。雷奥村另一名村民玛丽安娜·特乌对通讯社说：“我们什么都没有了。为什么没有公共厨房？”\n\n",
+          "start_offset": 889,
+          "end_offset": 1019,
+          "sentence_ids": [
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "fact_types": [
+            "damage",
+            "humanitarian_needs",
+            "public_reaction"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "place",
+              "value": "芒加莱县雷奥",
+              "unit": null
+            },
+            {
+              "attribute": "urgent_needs",
+              "value": [
+                "食物",
+                "药品",
+                "清洁用水"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "美联社援引的居民说法",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F013",
+          "span_text": "当地电视台画面显示，作为预防措施，多家医院将患者用轮椅或推床转移到室外，工作人员将病床和氧气瓶移至室外，设立临时治疗区。\n\n",
+          "start_offset": 1019,
+          "end_offset": 1081,
+          "sentence_ids": [
+            26
+          ],
+          "fact_types": [
+            "response",
+            "evacuation",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "response",
+              "value": "多家医院预防性疏散患者并设立临时治疗区",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F014",
+          "span_text": "星期六的地震引发海啸预警，沿海居民撤往高地，随后由于未检测到海平面显著变化，预警被解除。 ",
+          "start_offset": 1081,
+          "end_offset": 1126,
+          "sentence_ids": [
+            27
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "response",
+            "evacuation"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "tsunami_warning",
+              "value": "发布后解除",
+              "unit": null
+            },
+            {
+              "attribute": "reported_reason",
+              "value": "未检测到显著海平面变化",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F015",
+          "span_text": "1992年，弗洛勒斯岛曾在一次地震后遭受海啸袭击，约2,500人死亡。\n\n印度尼西亚位于环太平洋火山地震带，即环绕太平洋边缘的地震活动带，经常发生地震和火山喷发。2018年苏拉威西岛地震造成4,400多人死亡，2004年苏门答腊岛附近海域发生的9.1级地震引发海啸，造成十多个国家约23万人死亡。",
+          "start_offset": 1126,
+          "end_offset": 1274,
+          "sentence_ids": [
+            28,
+            29,
+            30
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "disaster_occurrence",
+            "casualties",
+            "cause",
+            "disaster_magnitude"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "1992_flores_tsunami_deaths",
+              "value": {
+                "value": 2500,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "2018_sulawesi_deaths",
+              "value": {
+                "value": 4400,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "2004_sumatra_magnitude",
+              "value": 9.1,
+              "unit": null
+            },
+            {
+              "attribute": "2004_tsunami_deaths",
+              "value": {
+                "value": 230000,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "526744da38172a8237c4a6c92870920c58145d21d19dcb1af85c69a96434861c",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-B9338EBB6F3040C6",
+      "event_id": "DIS-EQ-061D231B89C06F55",
+      "event_rank": 5,
+      "article_rank": 3,
+      "title": "印度尼西亚地震致68人死亡，数千人等待援助，独立日蒙上阴影",
+      "publisher": "newsnow-co-uk",
+      "identified_publisher": null,
+      "source_domain": "asiaone.com",
+      "url": "https://www.asiaone.com/asia/thousands-indonesia-await-aid-after-quake-kills-55-overshadowing-independence-day",
+      "published_at": "2026-08-17T10:16:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "由 NewsNow 承载的文章带有雷奥发稿地，且与 A002 共享明确归属于美联社的引语。完整署名缺失。",
+      "content": "印度尼西亚雷奥电——星期一（8月17日），印度尼西亚庆祝第81个独立日，弗洛勒斯岛上数千人等待援助。两天前，一场强烈地震造成至少68人死亡、200多人受伤，数千所房屋受损。\n\n东努沙登加拉省弗洛勒斯岛上的许多居民在哀悼遇难者中度过这一天，与此同时，军方团队试图通过飞机向无法到达的社区运送食物、清洁用水和衣物。\n\n星期六上午的地震造成大范围破坏，建筑倒塌砸到停放的车辆，房屋严重受损，树木和巨石堵塞道路。\n\n芒加莱县受灾最严重地区雷奥村的服装商拉希德·贾法尔说：“我的房子如今只剩下一堆瓦砾。我们急需食物、药品和清洁用水。”\n\n在首都雅加达举行的印度尼西亚独立日仪式上，总统普拉博沃·苏比延多呼吁与会者为东努沙登加拉及该国其他地区受灾民众祈祷，并带领全国默哀，纪念该国独立英雄。\n\n据国家抗灾管理机构（BNPB）称，星期六清晨弗洛勒斯岛发生地震时，超过4,500所房屋受损，约19,000人被迫进入临时避难所，213人受伤。\n\n这场灾害还损坏了122所卫生设施、252所学校以及84处宗教礼拜场所。\n\n该省省长星期日宣布进入为期14天的紧急状态。\n\n美国地质调查局称，地震于星期六上午6时前不久（新加坡时间上午7时前不久）发生，震源深度为10公里。发布海啸预警后，居民惊慌逃离，预警随后解除。\n\n截至星期一，当局已记录1,576次余震，其中仅54次被居民感知。\n\n星期日至星期一夜间，弗洛勒斯岛数千人在倒塌房屋外的防水布帐篷中露宿，因为存在发生更多余震的危险。\n\n对许多居民来说，这场灾害唤起了1992年袭击弗洛勒斯岛的强烈地震和海啸的痛苦回忆，那次灾害造成约2,500人死亡。\n\n数千名幸存者仍需要食物、住所和医疗救治。政府表示，已在灾区部署超过1,800名军警人员，在10架飞机和数艘船只的支持下分发超过100公吨紧急援助物资。\n\n国家抗灾机构副主管阿卜杜勒·穆哈里在视频声明中表示，近5,400份食品包、两顶野战医院帐篷、药品和衣物正在运往灾区各社区，但物流困难使部分重灾社区的物资运送放缓。\n\n穆哈里说，当地医院受损后，有关部门在受灾最严重的鲁滕镇设立了两所紧急野战医院，以救治地震受害者，另有两个危机管理小组监督一个卫生应急行动中心。\n\n他还表示，救援队仍在受灾地区寻找受害者，不过尚未有居民报告仍有家属失踪。\n\n当局表示，星期日晚些时候，救援人员经过艰难的海陆行程，穿过遭遇山体滑坡的地形，抵达小小的帕卢埃岛。该岛是距震中最近的地区之一，数千名居民仍急需援助。\n\n锡卡县警察局副局长马塞卢斯·尤戈·安博罗说：“道路陡峭，许多路段被山体滑坡堵塞。这是一次九死一生的旅程。”他所在团队是首批携带应急物资抵达该岛的队伍之一。\n\n他说，初步评估显示损失广泛，一名村民死亡、两人重伤，近150所房屋被毁。\n\n印度尼西亚是由17,000多个岛屿组成的群岛国家，由于位于太平洋“火环”上，即地震断层和火山组成的马蹄形弧形区域，容易发生地震和火山喷发。\n\n2018年，一场7.5级地震引发苏拉威西岛海啸，导致4,400多人死亡。2004年，苏门答腊岛附近海域9.1级地震引发海啸，造成十多个国家约23万人死亡，仅亚齐省就有近17万人死亡。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "印度尼西亚雷奥电——星期一（8月17日），印度尼西亚庆祝第81个独立日，弗洛勒斯岛上数千人等待援助。两天前，一场强烈地震造成至少68人死亡、200多人受伤，数千所房屋受损。\n\n",
+          "start_offset": 0,
+          "end_offset": 88,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "damage",
+            "humanitarian_needs",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 68,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injured",
+              "value": {
+                "value": 200,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "东努沙登加拉省弗洛勒斯岛上的许多居民在哀悼遇难者中度过这一天，与此同时，军方团队试图通过飞机向无法到达的社区运送食物、清洁用水和衣物。\n\n星期六上午的地震造成大范围破坏，建筑倒塌砸到停放的车辆，房屋严重受损，树木和巨石堵塞道路。\n\n",
+          "start_offset": 88,
+          "end_offset": 204,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "damage",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "芒加莱县受灾最严重地区雷奥村的服装商拉希德·贾法尔说：“我的房子如今只剩下一堆瓦砾。我们急需食物、药品和清洁用水。”\n\n",
+          "start_offset": 204,
+          "end_offset": 264,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "damage",
+            "humanitarian_needs",
+            "public_reaction"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "place",
+              "value": "芒加莱县雷奥",
+              "unit": null
+            },
+            {
+              "attribute": "urgent_needs",
+              "value": [
+                "食物",
+                "药品",
+                "清洁用水"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "拉希德·贾法尔",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "在首都雅加达举行的印度尼西亚独立日仪式上，总统普拉博沃·苏比延多呼吁与会者为东努沙登加拉及该国其他地区受灾民众祈祷，并带领全国默哀，纪念该国独立英雄。\n\n",
+          "start_offset": 264,
+          "end_offset": 341,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "public_reaction",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "speaker",
+              "value": "普拉博沃·苏比延多",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "据国家抗灾管理机构（BNPB）称，星期六清晨弗洛勒斯岛发生地震时，超过4,500所房屋受损，约19,000人被迫进入临时避难所，213人受伤。\n\n这场灾害还损坏了122所卫生设施、252所学校以及84处宗教礼拜场所。\n\n",
+          "start_offset": 341,
+          "end_offset": 451,
+          "sentence_ids": [
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "damage",
+            "injuries",
+            "evacuation",
+            "affected_population"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "damaged_homes",
+              "value": {
+                "value": 4500,
+                "qualifier": "greater_than"
+              },
+              "unit": "homes"
+            },
+            {
+              "attribute": "people_in_temporary_shelters",
+              "value": {
+                "value": 19000,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injured",
+              "value": 213,
+              "unit": "people"
+            },
+            {
+              "attribute": "damaged_health_facilities",
+              "value": 122,
+              "unit": "facilities"
+            },
+            {
+              "attribute": "damaged_schools",
+              "value": 252,
+              "unit": "schools"
+            },
+            {
+              "attribute": "damaged_places_of_worship",
+              "value": 84,
+              "unit": "places"
+            },
+            {
+              "attribute": "injury_and_shelter_attribution",
+              "value": "BNPB",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "该省省长星期日宣布进入为期14天的紧急状态。\n\n",
+          "start_offset": 451,
+          "end_offset": 475,
+          "sentence_ids": [
+            10
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "emergency_duration",
+              "value": 14,
+              "unit": "days"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "美国地质调查局称，地震于星期六上午6时前不久（新加坡时间上午7时前不久）发生，震源深度为10公里。发布海啸预警后，居民惊慌逃离，预警随后解除。\n\n",
+          "start_offset": 475,
+          "end_offset": 548,
+          "sentence_ids": [
+            11
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "timeline",
+            "disaster_magnitude",
+            "secondary_hazard",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "mainshock_depth",
+              "value": 10,
+              "unit": "km"
+            },
+            {
+              "attribute": "local_time",
+              "value": "星期六06:00前不久",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "USGS",
+              "unit": null
+            },
+            {
+              "attribute": "tsunami_warning",
+              "value": "发布后解除",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F008",
+          "span_text": "截至星期一，当局已记录1,576次余震，其中仅54次被居民感知。\n\n",
+          "start_offset": 548,
+          "end_offset": 582,
+          "sentence_ids": [
+            12
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "aftershocks",
+              "value": 1576,
+              "unit": "events"
+            },
+            {
+              "attribute": "felt_aftershocks",
+              "value": 54,
+              "unit": "events"
+            },
+            {
+              "attribute": "attribution",
+              "value": "有关当局",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F009",
+          "span_text": "星期日至星期一夜间，弗洛勒斯岛数千人在倒塌房屋外的防水布帐篷中露宿，因为存在发生更多余震的危险。\n\n对许多居民来说，这场灾害唤起了1992年袭击弗洛勒斯岛的强烈地震和海啸的痛苦回忆，那次灾害造成约2,500人死亡。\n\n",
+          "start_offset": 582,
+          "end_offset": 691,
+          "sentence_ids": [
+            13,
+            14
+          ],
+          "fact_types": [
+            "affected_population",
+            "evacuation",
+            "secondary_hazard",
+            "casualties"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "people_camping_outdoors",
+              "value": "数千人",
+              "unit": "people"
+            },
+            {
+              "attribute": "1992_flores_tsunami_deaths",
+              "value": {
+                "value": 2500,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F010",
+          "span_text": "数千名幸存者仍需要食物、住所和医疗救治。政府表示，已在灾区部署超过1,800名军警人员，在10架飞机和数艘船只的支持下分发超过100公吨紧急援助物资。\n\n国家抗灾机构副主管阿卜杜勒·穆哈里在视频声明中表示，近5,400份食品包、两顶野战医院帐篷、药品和衣物正在运往灾区各社区，但物流困难使部分重灾社区的物资运送放缓。\n\n穆哈里说，当地医院受损后，有关部门在受灾最严重的鲁滕镇设立了两所紧急野战医院，以救治地震受害者，另有两个危机管理小组监督一个卫生应急行动中心。\n\n",
+          "start_offset": 691,
+          "end_offset": 924,
+          "sentence_ids": [
+            15,
+            16,
+            17
+          ],
+          "fact_types": [
+            "response",
+            "humanitarian_needs",
+            "aid",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deployed_personnel",
+              "value": {
+                "value": 1800,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "support_aircraft",
+              "value": 10,
+              "unit": "aircraft"
+            },
+            {
+              "attribute": "aid",
+              "value": {
+                "value": 100,
+                "qualifier": "greater_than"
+              },
+              "unit": "metric tonnes"
+            },
+            {
+              "attribute": "food_packages",
+              "value": {
+                "value": 5400,
+                "qualifier": "nearly"
+              },
+              "unit": "packages"
+            },
+            {
+              "attribute": "field_hospital_tents",
+              "value": 2,
+              "unit": "tents"
+            },
+            {
+              "attribute": "ruteng_field_hospitals",
+              "value": 2,
+              "unit": "hospitals"
+            },
+            {
+              "attribute": "ruteng_crisis_management_teams",
+              "value": 2,
+              "unit": "teams"
+            },
+            {
+              "attribute": "response_attribution",
+              "value": "政府及 BNPB 副主管阿卜杜勒·穆哈里",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F011",
+          "span_text": "他还表示，救援队仍在受灾地区寻找受害者，不过尚未有居民报告仍有家属失踪。\n\n",
+          "start_offset": 924,
+          "end_offset": 962,
+          "sentence_ids": [
+            18
+          ],
+          "fact_types": [
+            "response",
+            "missing_persons"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "missing_persons_status",
+              "value": "穆哈里称，尚未有居民报告家属仍然失踪",
+              "unit": null
+            },
+            {
+              "attribute": "search_status",
+              "value": "进行中",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F012",
+          "span_text": "当局表示，星期日晚些时候，救援人员经过艰难的海陆行程，穿过遭遇山体滑坡的地形，抵达小小的帕卢埃岛。该岛是距震中最近的地区之一，数千名居民仍急需援助。\n\n锡卡县警察局副局长马塞卢斯·尤戈·安博罗说：“道路陡峭，许多路段被山体滑坡堵塞。这是一次九死一生的旅程。”他所在团队是首批携带应急物资抵达该岛的队伍之一。\n\n",
+          "start_offset": 962,
+          "end_offset": 1117,
+          "sentence_ids": [
+            19,
+            20,
+            21,
+            22
+          ],
+          "fact_types": [
+            "aid",
+            "humanitarian_needs",
+            "secondary_hazard",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "place",
+              "value": "帕卢埃岛",
+              "unit": null
+            },
+            {
+              "attribute": "aid_arrival",
+              "value": "星期日晚些时候",
+              "unit": null
+            },
+            {
+              "attribute": "people_still_in_need",
+              "value": "数千人",
+              "unit": "people"
+            },
+            {
+              "attribute": "access_constraints",
+              "value": "陡峭道路及山体滑坡",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F013",
+          "span_text": "他说，初步评估显示损失广泛，一名村民死亡、两人重伤，近150所房屋被毁。\n\n",
+          "start_offset": 1117,
+          "end_offset": 1155,
+          "sentence_ids": [
+            23
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "帕卢埃岛初步评估",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": 1,
+              "unit": "person"
+            },
+            {
+              "attribute": "serious_injuries",
+              "value": 2,
+              "unit": "people"
+            },
+            {
+              "attribute": "destroyed_homes",
+              "value": {
+                "value": 150,
+                "qualifier": "nearly"
+              },
+              "unit": "homes"
+            },
+            {
+              "attribute": "attribution",
+              "value": "马塞卢斯·尤戈·安博罗",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F014",
+          "span_text": "印度尼西亚是由17,000多个岛屿组成的群岛国家，由于位于太平洋“火环”上，即地震断层和火山组成的马蹄形弧形区域，容易发生地震和火山喷发。\n\n2018年，一场7.5级地震引发苏拉威西岛海啸，导致4,400多人死亡。2004年，苏门答腊岛附近海域9.1级地震引发海啸，造成十多个国家约23万人死亡，仅亚齐省就有近17万人死亡。",
+          "start_offset": 1155,
+          "end_offset": 1317,
+          "sentence_ids": [
+            24,
+            25,
+            26
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "disaster_magnitude",
+            "casualties"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "2018_sulawesi_magnitude",
+              "value": 7.5,
+              "unit": null
+            },
+            {
+              "attribute": "2018_sulawesi_deaths",
+              "value": {
+                "value": 4400,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "2004_sumatra_magnitude",
+              "value": 9.1,
+              "unit": null
+            },
+            {
+              "attribute": "2004_tsunami_deaths",
+              "value": {
+                "value": 230000,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "2004_aceh_deaths",
+              "value": {
+                "value": 170000,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "9046fa346cb3d459d96f2d7cfb533fca8eb1bb19b86c657a2e4d5b45f049c780",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "弗洛勒斯岛主震的震级",
+        "fact_type": "disaster_magnitude",
+        "attribute": "mainshock_magnitude",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F006"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 7.7,
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F006",
+            "value": 7.7,
+            "unit": null,
+            "attribution": "USGS"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "两篇报道称至少68人死亡",
+        "fact_type": "casualties",
+        "attribute": "reported_deaths",
+        "supporting_spans": [
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "value": 68,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "value": 68,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "受伤人数的下限和具体统计值",
+        "fact_type": "injuries",
+        "attribute": "reported_injuries",
+        "supporting_spans": [
+          "A002_F007",
+          "A003_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F007",
+            "value": {
+              "value": 200,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": "BNPB"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F005",
+            "value": 213,
+            "unit": "people",
+            "attribution": "BNPB"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "受损房屋数量的范围和下限存在差异",
+        "fact_type": "damage",
+        "attribute": "damaged_homes",
+        "supporting_spans": [
+          "A002_F007",
+          "A003_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F007",
+            "value": {
+              "value": 2000,
+              "qualifier": "greater_than",
+              "scope": "东努沙登加拉省"
+            },
+            "unit": "homes",
+            "attribution": "BNPB"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F005",
+            "value": {
+              "value": 4500,
+              "qualifier": "greater_than",
+              "scope": "弗洛勒斯岛"
+            },
+            "unit": "homes",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "两个下限可以同时成立，实际统计覆盖范围和截止时间未知。"
+      },
+      {
+        "cluster_id": "FC005",
+        "cluster_description": "余震总数和有感余震数量存在差异",
+        "fact_type": "secondary_hazard",
+        "attribute": "aftershock_tallies",
+        "supporting_spans": [
+          "A002_F003",
+          "A003_F008"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": {
+              "total_lower_bound": 995,
+              "felt": 46
+            },
+            "unit": "events",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F008",
+            "value": {
+              "total": 1576,
+              "felt": 54
+            },
+            "unit": "events",
+            "attribution": "authorities"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "监测标准和截止时间不同，估计值也可能已经更新。"
+      },
+      {
+        "cluster_id": "FC006",
+        "cluster_description": "报道中的临时避难所人数存在差异",
+        "fact_type": "evacuation",
+        "attribute": "shelter_population",
+        "supporting_spans": [
+          "A002_F007",
+          "A003_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F007",
+            "value": {
+              "value": 5000,
+              "qualifier": "about"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F005",
+            "value": {
+              "value": 19000,
+              "qualifier": "about"
+            },
+            "unit": "people",
+            "attribution": "BNPB"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "报道未提供足够的避难所覆盖范围和截止时间信息来确定可比性。"
+      },
+      {
+        "cluster_id": "FC007",
+        "cluster_description": "省政府宣布进入14天紧急状态",
+        "fact_type": "response",
+        "attribute": "emergency_duration",
+        "supporting_spans": [
+          "A002_F005",
+          "A003_F006"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F005",
+            "value": 14,
+            "unit": "days",
+            "attribution": "provincial governor"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F006",
+            "value": 14,
+            "unit": "days",
+            "attribution": "provincial governor"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC008",
+        "cluster_description": "震后海啸预警已解除",
+        "fact_type": "response",
+        "attribute": "tsunami_warning",
+        "supporting_spans": [
+          "A002_F014",
+          "A003_F007"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F014",
+            "value": "发布后解除",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F007",
+            "value": "发布后解除",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC009",
+        "cluster_description": "部署及援助数据使用了不同的下限或截止时间",
+        "fact_type": "aid",
+        "attribute": "response_scale",
+        "supporting_spans": [
+          "A002_F010",
+          "A003_F010"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F010",
+            "value": {
+              "personnel_lower_bound_exclusive": 3500,
+              "aid_tonnes": 275
+            },
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F010",
+            "value": {
+              "personnel_lower_bound_exclusive": 1800,
+              "aid_metric_tonnes_lower_bound_exclusive": 100
+            },
+            "unit": null,
+            "attribution": "government"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "部署人员数量的下限相容。援助报道没有提供共同截止时间或物流范围。"
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005",
+        "FC006",
+        "FC007",
+        "FC008",
+        "FC009"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC006"
+      ],
+      "important_facts": [
+        "FC005",
+        "FC007",
+        "FC008",
+        "FC009"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2026-08-15",
+          "time_precision": "Local date",
+          "description": "主震发生于弗洛勒斯岛附近，海啸预警在发布后被解除。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F006",
+            "A002_F014",
+            "A003_F007"
+          ]
+        },
+        {
+          "time": "2026-08-16",
+          "time_precision": "Local date",
+          "description": "省长宣布进入14天紧急状态。",
+          "supporting_spans": [
+            "A002_F005",
+            "A003_F006"
+          ]
+        },
+        {
+          "time": "2026-08-16",
+          "time_precision": "Local date with approximate time of day",
+          "description": "救援人员于星期日晚些时候抵达帕卢埃岛。",
+          "supporting_spans": [
+            "A003_F012"
+          ]
+        },
+        {
+          "time": "2026-08-17",
+          "time_precision": "Local date",
+          "description": "至少68人死亡。部分社区仍在等待援助，GFZ 记录到一次5.9级余震。",
+          "supporting_spans": [
+            "A002_F001",
+            "A002_F002",
+            "A003_F001"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "地形和山体滑坡堵塞部分道路并延迟物资运送。",
+          "supporting_spans": [
+            "A002_F010",
+            "A002_F011",
+            "A003_F012"
+          ]
+        },
+        {
+          "description": "发生余震的风险导致部分居民在室外过夜。",
+          "supporting_spans": [
+            "A002_F009",
+            "A003_F009"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "主震和余震造成人员死亡、受伤及房屋受损。临时安置规模仍未得到核实。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F001",
+            "A002_F007",
+            "A003_F005"
+          ]
+        },
+        {
+          "description": "该省启动了应急行动。部分偏远社区仍缺乏食物、水和医疗物资。",
+          "supporting_spans": [
+            "A002_F005",
+            "A002_F012",
+            "A003_F006",
+            "A003_F010",
+            "A003_F012"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "转载链尚未得到独立核实。较晚发布的文章可能重复较早的统计数据。"
+    ]
+  }
+}

@@ -1,0 +1,816 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-TC-0D9AD02EDD032B2F",
+  "event_rank": 26,
+  "event_metadata": {
+    "event_name": "热带气旋 BERYL-24（贝丽尔）",
+    "disaster_type": "tropical_cyclone",
+    "disaster_type_code": "TC",
+    "event_start_time": "2024-06-28T21:00:00+00:00",
+    "event_end_time": "2024-07-09T09:00:00+00:00",
+    "locations": [
+      "海地",
+      "格林纳达",
+      "牙买加",
+      "特立尼达和多巴哥",
+      "圣文森特和格林纳丁斯",
+      "墨西哥",
+      "伯利兹",
+      "美国"
+    ],
+    "latitude": 33.9,
+    "longitude": -93.7,
+    "place_names_in_reports": [
+      "加勒比地区",
+      "牙买加",
+      "得克萨斯州",
+      "路易斯安那州",
+      "格林纳达",
+      "委内瑞拉",
+      "圣文森特和格林纳丁斯",
+      "塔毛利帕斯州",
+      "坦皮科",
+      "马德罗城",
+      "阿尔塔米拉",
+      "波特兰教区",
+      "圣玛丽教区",
+      "圣伊丽莎白教区"
+    ],
+    "gdacs_id": "1001067",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "死亡人数没有共同统计截止时间。墨西哥鳄鱼数据涵盖阿尔贝托和贝丽尔两场风暴。"
+    ],
+    "dataset_place_name": "热带气旋 BERYL-24（贝丽尔）",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-BB14BFC123826F27",
+      "event_id": "DIS-TC-0D9AD02EDD032B2F",
+      "event_rank": 26,
+      "article_rank": 1,
+      "title": "得克萨斯州附近墨西哥北部遭遇强降雨，至少200条鳄鱼爬入城市",
+      "publisher": "usnews",
+      "identified_publisher": "Associated Press",
+      "source_domain": "usnews.com",
+      "url": "https://www.usnews.com/news/world/articles/2024-07-11/at-least-200-crocodiles-crawl-into-cities-as-heavy-rains-hit-northern-mexico-near-texas",
+      "published_at": "2024-07-11T00:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "正文有明确的美联社发稿地信息。US News 是承载网站。",
+      "content": "墨西哥城（美联社）——墨西哥州级和联邦当局本周表示，与飓风贝丽尔和此前热带风暴阿尔贝托有关的强降雨，导致至少200条鳄鱼进入与得克萨斯州相邻的墨西哥北部塔毛利帕斯州城区。当局称，自阿尔贝托6月给该地区带来强降雨以来，他们迄今已捕获并重新安置约200条大型爬行动物。贝丽尔在本周早些时候登陆得克萨斯州南部前掠过同一地区。当局称，强降雨抬高了沿海潟湖水位，导致这些动物爬入坦皮科及邻近的马德罗城和阿尔塔米拉等城市，当地至少已捕获并重新安置165条鳄鱼。塔毛利帕斯州环境部门负责人卡丽娜·莉泽特·萨尔迪瓦尔在声明中表示：“最近的降雨使潟湖系统水位上升，导致鳄鱼目击次数增加。”联邦环境保护总检察长办公室表示，6月，该地区还捕获约40条鳄鱼，并将其重新安置到人口聚居区之外合适的栖息地。该办公室表示，问题可能持续，并指出“随着曾被淹没的街道、排水沟等地方水位下降，鳄鱼将会出现，目击次数肯定会增加”。本周，社交媒体用户发布了多条鳄鱼在城区被捆住的视频，问题由此引起关注。该部门表示，这“引起了社交媒体上的轩然大波”。鳄鱼是墨西哥的受保护物种。墨西哥发生鳄鱼袭击事件的情况很少，但确实出现过。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "墨西哥城（美联社）——墨西哥州级和联邦当局本周表示，与飓风贝丽尔和此前热带风暴阿尔贝托有关的强降雨，导致至少200条鳄鱼进入与得克萨斯州相邻的墨西哥北部塔毛利帕斯州城区。当局称，自阿尔贝托6月给该地区带来强降雨以来，他们迄今已捕获并重新安置约200条大型爬行动物。贝丽尔在本周早些时候登陆得克萨斯州南部前掠过同一地区。",
+          "start_offset": 0,
+          "end_offset": 159,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "secondary_hazard",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "crocodiles_entering_urban_areas",
+              "value": {
+                "value": 200,
+                "qualifier": "at_least"
+              },
+              "unit": "animals"
+            },
+            {
+              "attribute": "relocated_since_alberto",
+              "value": {
+                "value": 200,
+                "qualifier": "around"
+              },
+              "unit": "animals"
+            },
+            {
+              "attribute": "drivers",
+              "value": [
+                "贝丽尔",
+                "阿尔贝托"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "当局称，强降雨抬高了沿海潟湖水位，导致这些动物爬入坦皮科及邻近的马德罗城和阿尔塔米拉等城市，当地至少已捕获并重新安置165条鳄鱼。塔毛利帕斯州环境部门负责人卡丽娜·莉泽特·萨尔迪瓦尔在声明中表示：“最近的降雨使潟湖系统水位上升，导致鳄鱼目击次数增加。”联邦环境保护总检察长办公室表示，6月，该地区还捕获约40条鳄鱼，并将其重新安置到人口聚居区之外合适的栖息地。该办公室表示，问题可能持续，并指出“随着曾被淹没的街道、排水沟等地方水位下降，鳄鱼将会出现，目击次数肯定会增加”。",
+          "start_offset": 159,
+          "end_offset": 396,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "cause",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "captured_in_three_cities",
+              "value": {
+                "value": 165,
+                "qualifier": "at_least"
+              },
+              "unit": "animals"
+            },
+            {
+              "attribute": "additional_captured_in_june",
+              "value": {
+                "value": 40,
+                "qualifier": "about"
+              },
+              "unit": "animals"
+            },
+            {
+              "attribute": "mechanism",
+              "value": "潟湖水位升高",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "本周，社交媒体用户发布了多条鳄鱼在城区被捆住的视频，问题由此引起关注。该部门表示，这“引起了社交媒体上的轩然大波”。鳄鱼是墨西哥的受保护物种。墨西哥发生鳄鱼袭击事件的情况很少，但确实出现过。",
+          "start_offset": 396,
+          "end_offset": 491,
+          "sentence_ids": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "106c93fe2e4e852101e5d689d9d6677a65a468382196311950ca3c99ad0647c0",
+        "removed_word_count": 32,
+        "removed_word_ratio": 0.10631229235880399
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-DA0E8CAC32B0D714",
+      "event_id": "DIS-TC-0D9AD02EDD032B2F",
+      "event_rank": 26,
+      "article_rank": 2,
+      "title": "CSU 专家警告：飓风贝丽尔预示一个极其活跃的飓风季",
+      "publisher": "stvincenttimes",
+      "identified_publisher": null,
+      "source_domain": "stvincenttimes.com",
+      "url": "https://www.stvincenttimes.com/hurricane-beryl-sets-tone-for-hyperactive-season-csu-experts-warn/",
+      "published_at": "2024-07-12T00:07:25+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "转述 CSU、WMO 及政府通报，没有原始署名。",
+      "content": "在飓风贝丽尔肆虐加勒比地区及美国部分地方之后，科罗拉多州立大学（CSU）气象专家更新了2024年大西洋飓风季预测。\n\nCSU 高级研究科学家菲尔·克洛茨巴赫博士及其团队目前预测将出现25场命名风暴，其中12场将达到飓风强度，6场将成为大型飓风。\n\n最初的预测为23场命名风暴、11场飓风及5场大型飓风。\n\n研究人员在本周一份声明中表示：“我们略微上调了预测，继续认为2024年大西洋飓风季将极其活跃。”\n\n飓风贝丽尔是一场深入热带地区的五级飓风，也可能预示飓风季将极其活跃。\n\n“贝丽尔上周成为一场打破纪录的早季飓风，它仅用42小时就从热带低压增强为大型飓风。世界气象组织专家表示，此前从未在一年中如此早的时段出现过五级大西洋飓风，多数大型风暴在更接近9月时形成。贝丽尔的迅速发展被一些人称为‘历史性’事件。\n\n尽管贝丽尔肆虐后热带地区一直相对平静，预报人员警告，该地区不应放松警惕，因为飓风季远未达到高峰，且环境条件有利于强烈风暴形成。\n\n预报人员在声明中表示：“热带大西洋及加勒比海飓风主要发展区的平均海表温度仍接近创纪录的高温水平。”\n\n“极高的海表温度为飓风形成和增强提供了更有利的动力和热力学环境。”\n\n他们还预计，飓风季高峰期将出现更凉的中性拉尼娜状态，使热带大西洋垂直风切变水平降低。较高的风切变会阻止风暴发展。\n\n基于这些因素，预报人员表示，大型飓风在美国和加勒比地区登陆的概率已经增加。\n\n他们警告：“我们预计，大型飓风在美国大陆海岸线及加勒比地区登陆的概率将远高于平均水平。”“与所有飓风季一样，提醒沿海居民，仅一场飓风登陆就足以使这个飓风季变得活跃。无论预测活动水平如何，每个飓风季都应该做好充分准备。”\n\n多米尼克躲过了贝丽尔的大部分破坏，但在飓风消散前，它进行了三次毁灭性登陆，留下致命破坏。据报道，加勒比地区至少9人死亡，其中牙买加2人、委内瑞拉3人、格林纳达3人，圣文森特和格林纳丁斯1人。\n\n当局称，这场风暴造成得克萨斯州至少6人死亡，路易斯安那州1人死亡，并补充说数字可能继续上升。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "在飓风贝丽尔肆虐加勒比地区及美国部分地方之后，科罗拉多州立大学（CSU）气象专家更新了2024年大西洋飓风季预测。\n\nCSU 高级研究科学家菲尔·克洛茨巴赫博士及其团队目前预测将出现25场命名风暴，其中12场将达到飓风强度，6场将成为大型飓风。\n\n最初的预测为23场命名风暴、11场飓风及5场大型飓风。\n\n研究人员在本周一份声明中表示：“我们略微上调了预测，继续认为2024年大西洋飓风季将极其活跃。”\n\n",
+          "start_offset": 0,
+          "end_offset": 203,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "weather",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "updated_storms_hurricanes_major",
+              "value": [
+                25,
+                12,
+                6
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "previous_storms_hurricanes_major",
+              "value": [
+                23,
+                11,
+                5
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "CSU",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "飓风贝丽尔是一场深入热带地区的五级飓风，也可能预示飓风季将极其活跃。\n\n“贝丽尔上周成为一场打破纪录的早季飓风，它仅用42小时就从热带低压增强为大型飓风。世界气象组织专家表示，此前从未在一年中如此早的时段出现过五级大西洋飓风，多数大型风暴在更接近9月时形成。贝丽尔的迅速发展被一些人称为‘历史性’事件。\n\n",
+          "start_offset": 203,
+          "end_offset": 356,
+          "sentence_ids": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "disaster_magnitude",
+            "weather",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "peak_category",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "attribute": "intensification_to_major",
+              "value": 42,
+              "unit": "hours"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "尽管贝丽尔肆虐后热带地区一直相对平静，预报人员警告，该地区不应放松警惕，因为飓风季远未达到高峰，且环境条件有利于强烈风暴形成。\n\n预报人员在声明中表示：“热带大西洋及加勒比海飓风主要发展区的平均海表温度仍接近创纪录的高温水平。”\n\n“极高的海表温度为飓风形成和增强提供了更有利的动力和热力学环境。”\n\n他们还预计，飓风季高峰期将出现更凉的中性拉尼娜状态，使热带大西洋垂直风切变水平降低。较高的风切变会阻止风暴发展。\n\n基于这些因素，预报人员表示，大型飓风在美国和加勒比地区登陆的概率已经增加。\n\n他们警告：“我们预计，大型飓风在美国大陆海岸线及加勒比地区登陆的概率将远高于平均水平。”“与所有飓风季一样，提醒沿海居民，仅一场飓风登陆就足以使这个飓风季变得活跃。无论预测活动水平如何，每个飓风季都应该做好充分准备。”\n\n",
+          "start_offset": 356,
+          "end_offset": 715,
+          "sentence_ids": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "fact_types": [
+            "weather",
+            "uncertainty",
+            "cause",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "conditions",
+              "value": [
+                "接近创纪录的高海表温度",
+                "预计垂直风切变减弱"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "多米尼克躲过了贝丽尔的大部分破坏，但在飓风消散前，它进行了三次毁灭性登陆，留下致命破坏。据报道，加勒比地区至少9人死亡，其中牙买加2人、委内瑞拉3人、格林纳达3人，圣文森特和格林纳丁斯1人。\n\n当局称，这场风暴造成得克萨斯州至少6人死亡，路易斯安那州1人死亡，并补充说数字可能继续上升。",
+          "start_offset": 715,
+          "end_offset": 858,
+          "sentence_ids": [
+            19,
+            20,
+            21
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "location",
+            "casualties"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "caribbean_deaths",
+              "value": {
+                "value": 9,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "death_breakdown",
+              "value": {
+                "Jamaica": 2,
+                "Venezuela": 3,
+                "Grenada": 3,
+                "Saint Vincent and the Grenadines": 1,
+                "Texas_lower_bound": 6,
+                "Louisiana": 1
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "3c99a82490c5a1ba68ebca27a9df671840c068fdc2accdfc2383a14107574e71",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-97CEC3C2482D4796",
+      "event_id": "DIS-TC-0D9AD02EDD032B2F",
+      "event_rank": 26,
+      "article_rank": 3,
+      "title": "2024年7月12日 牙买加——飓风贝丽尔摧毁农作物，岛民面临食品短缺。牙买加官员星期一表示，牙买加人将在飓风贝丽尔过后应对食品短缺，据估计这场飓风摧毁了价值超过640万美元的粮食作物及配套基础设施。",
+      "publisher": "agroinsurance",
+      "identified_publisher": "ABC News (attributed by publisher)",
+      "source_domain": "agroinsurance.com",
+      "url": "https://agroinsurance.com/en/News/Jamaica---Hurricane-Bery1",
+      "published_at": "2024-07-12T13:57:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "republished",
+      "source_independence": "syndicated",
+      "source_independence_reason": "结尾署名注明 abcnews.go.com。",
+      "content": "牙买加官员星期一表示，牙买加人将在飓风贝丽尔过后应对食品短缺，据估计这场飓风摧毁了价值超过640万美元的粮食作物及配套基础设施。\n\n牙买加农业部长弗洛伊德·格林表示，初步评估显示，包括蔬菜、山药和木薯等块茎，以及面包果、阿开木果、芒果和香蕉等深受欢迎的食品来源在内的作物遭受严重损坏。\n\n他说，畜牧业和渔业也受到这场破纪录风暴的严重影响。风暴上周沿牙买加南岸近海向西行进，前往开曼群岛、墨西哥和得克萨斯州途中带来猛烈风雨。\n\n格林在视察南部圣伊丽莎白教区的农场后表示：“我们看到波特兰和圣玛丽教区约85%的香蕉和大蕉种植遭到破坏。”\n\n特里洛尼南部的山药种植者报告经营遭受重大损失，并请求援助。\n\n格林说：“我们确实理解此时需要迅速作出响应，也知道我们的农民正在努力，值得庆幸的是，他们具有韧性。他们计划恢复耕种，农业和渔业部门也愿意帮助他们。”\n\n牙买加农业部长表示，克拉伦登、曼彻斯特和圣伊丽莎白教区温室种植者遭到重创。\n\n格林说：“这将给我们的蔬菜作物种植带来巨大打击。”\n\n他说，小型家禽养殖户的鸡舍也遭受严重损坏。\n\n星期一，农民游说组织牙买加农业协会前主席格伦登·哈里斯预测，农业部门遭受的损失将导致岛上食品供应链中断。\n\n哈里斯说：“我们将看到部分基本食品短缺。圣伊丽莎白是公认的粮仓，曼彻斯特紧随其后，因此基于它们受到的打击，全岛市场的现成食品供应将受到影响。”\n\n牙买加政府继续评估飓风贝丽尔造成的损失，飓风主要沿牙买加南部海岸造成广泛破坏。贝丽尔减弱为热带风暴，在袭击墨西哥、牙买加、巴巴多斯及圣文森特和格林纳丁斯之后，于星期一袭击得克萨斯州。据报道，格林纳达3人死亡，圣文森特和格林纳丁斯3人死亡，委内瑞拉3人死亡，牙买加2人死亡。\n\n联合国发言人斯特凡·杜加里克星期一表示，该组织正在向圣文森特和格林纳丁斯、格林纳达及牙买加派遣队伍，支持当地当局帮助民众获得清洁用水、住所、食品和卫生服务。\n\n来源——https://abcnews.go.com/\n\nScaleAgData 项目很高兴邀请您参加我们的第二场利益相关方活动。在第一次网络研讨会所建立的讨论和联系基础上，本次活动将重点促进利益相关方之间协作，提供项目进展更新，并概述未来参与机会。\n\n5月最初几个寒霜夜晚显著恶化了对摩尔多瓦水果行业遭受春霜损失的估计。据水果市场运营商初步评估，该国果园总面积的四分之一至三分之一受到严重影响。\n\n对于商业渔民来说，渔场突然关闭可能意味着失去整季收入，但账单仍不断到来。渔场关闭时，船舶付款、保险、停泊费及其他运营费用并不会消失，而联邦灾害援助可能需要数年才能到达需要它的人手中。\n\n巴特·菲舍尔和乔·奥特洛在 Southern Ag Today 撰文：我们都知道农业生产风险极高，作物保险已成为农业安全网的基石。\n\n这家人工智能驱动作物保险公司的创始人兼首席执行官阿维·巴苏称，农业保险是一个“重要的学习领域”。\n\n更优质的种子、综合虫害管理及机械化在降低资源使用和排放的同时提高生产率。\n\nPremium Ag 合伙人马特·戈斯林表示，今年2%士的宁的紧急登记对惠特兰县作物保护影响甚微。\n\n秘鲁根据与2026至2027年厄尔尼诺有关的降雨预测，在191个省的1,380个地区宣布为期60天的紧急状态。这项于11月3日宣布的措施涵盖普诺、库斯科、胡宁、瓦努科和阿亚库乔等多个马铃薯种植区。\n\n由于野生及饲养鸟类禽流感病例增加，苏格兰全境已设立禽流感预防区（AIPZ）。\n\n为期两天的计划将重点关注有效落实 PMFBY 并快速结算农民索赔。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "牙买加官员星期一表示，牙买加人将在飓风贝丽尔过后应对食品短缺，据估计这场飓风摧毁了价值超过640万美元的粮食作物及配套基础设施。\n\n牙买加农业部长弗洛伊德·格林表示，初步评估显示，包括蔬菜、山药和木薯等块茎，以及面包果、阿开木果、芒果和香蕉等深受欢迎的食品来源在内的作物遭受严重损坏。\n\n他说，畜牧业和渔业也受到这场破纪录风暴的严重影响。风暴上周沿牙买加南岸近海向西行进，前往开曼群岛、墨西哥和得克萨斯州途中带来猛烈风雨。\n\n格林在视察南部圣伊丽莎白教区的农场后表示：“我们看到波特兰和圣玛丽教区约85%的香蕉和大蕉种植遭到破坏。”\n\n",
+          "start_offset": 0,
+          "end_offset": 268,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "damage",
+            "economic_loss",
+            "humanitarian_needs"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "food_crop_and_infrastructure_damage_as_printed",
+              "value": "超过640万美元",
+              "unit": null
+            },
+            {
+              "attribute": "banana_plantain_damage_share_in_portland_and_st_mary",
+              "value": {
+                "value": 85,
+                "qualifier": "about"
+              },
+              "unit": "%"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "特里洛尼南部的山药种植者报告经营遭受重大损失，并请求援助。\n\n格林说：“我们确实理解此时需要迅速作出响应，也知道我们的农民正在努力，值得庆幸的是，他们具有韧性。他们计划恢复耕种，农业和渔业部门也愿意帮助他们。”\n\n牙买加农业部长表示，克拉伦登、曼彻斯特和圣伊丽莎白教区温室种植者遭到重创。\n\n格林说：“这将给我们的蔬菜作物种植带来巨大打击。”\n\n他说，小型家禽养殖户的鸡舍也遭受严重损坏。\n\n",
+          "start_offset": 268,
+          "end_offset": 464,
+          "sentence_ids": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "fact_types": [
+            "response",
+            "aid",
+            "damage",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "affected_groups",
+              "value": [
+                "山药种植者",
+                "温室种植者",
+                "小型家禽养殖户"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "星期一，农民游说组织牙买加农业协会前主席格伦登·哈里斯预测，农业部门遭受的损失将导致岛上食品供应链中断。\n\n哈里斯说：“我们将看到部分基本食品短缺。圣伊丽莎白是公认的粮仓，曼彻斯特紧随其后，因此基于它们受到的打击，全岛市场的现成食品供应将受到影响。”\n\n",
+          "start_offset": 464,
+          "end_offset": 591,
+          "sentence_ids": [
+            11,
+            12,
+            13
+          ],
+          "fact_types": [
+            "economic_loss",
+            "humanitarian_needs",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "supply_forecast",
+              "value": "基本食品短缺",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "格伦登·哈里斯",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "牙买加政府继续评估飓风贝丽尔造成的损失，飓风主要沿牙买加南部海岸造成广泛破坏。贝丽尔减弱为热带风暴，在袭击墨西哥、牙买加、巴巴多斯及圣文森特和格林纳丁斯之后，于星期一袭击得克萨斯州。据报道，格林纳达3人死亡，圣文森特和格林纳丁斯3人死亡，委内瑞拉3人死亡，牙买加2人死亡。\n\n",
+          "start_offset": 591,
+          "end_offset": 729,
+          "sentence_ids": [
+            14,
+            15,
+            16
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "damage",
+            "casualties",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "death_breakdown",
+              "value": {
+                "Grenada": 3,
+                "Saint Vincent and the Grenadines": 3,
+                "Venezuela": 3,
+                "Jamaica": 2
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "联合国发言人斯特凡·杜加里克星期一表示，该组织正在向圣文森特和格林纳丁斯、格林纳达及牙买加派遣队伍，支持当地当局帮助民众获得清洁用水、住所、食品和卫生服务。\n\n",
+          "start_offset": 729,
+          "end_offset": 809,
+          "sentence_ids": [
+            17
+          ],
+          "fact_types": [
+            "aid",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "un_assistance_targets",
+              "value": [
+                "圣文森特和格林纳丁斯",
+                "格林纳达",
+                "牙买加"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "斯特凡·杜加里克",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "来源——https://abcnews.go.com/\n\nScaleAgData 项目很高兴邀请您参加我们的第二场利益相关方活动。在第一次网络研讨会所建立的讨论和联系基础上，本次活动将重点促进利益相关方之间协作，提供项目进展更新，并概述未来参与机会。\n\n5月最初几个寒霜夜晚显著恶化了对摩尔多瓦水果行业遭受春霜损失的估计。据水果市场运营商初步评估，该国果园总面积的四分之一至三分之一受到严重影响。\n\n对于商业渔民来说，渔场突然关闭可能意味着失去整季收入，但账单仍不断到来。渔场关闭时，船舶付款、保险、停泊费及其他运营费用并不会消失，而联邦灾害援助可能需要数年才能到达需要它的人手中。\n\n巴特·菲舍尔和乔·奥特洛在 Southern Ag Today 撰文：我们都知道农业生产风险极高，作物保险已成为农业安全网的基石。\n\n这家人工智能驱动作物保险公司的创始人兼首席执行官阿维·巴苏称，农业保险是一个“重要的学习领域”。\n\n更优质的种子、综合虫害管理及机械化在降低资源使用和排放的同时提高生产率。\n\nPremium Ag 合伙人马特·戈斯林表示，今年2%士的宁的紧急登记对惠特兰县作物保护影响甚微。\n\n秘鲁根据与2026至2027年厄尔尼诺有关的降雨预测，在191个省的1,380个地区宣布为期60天的紧急状态。这项于11月3日宣布的措施涵盖普诺、库斯科、胡宁、瓦努科和阿亚库乔等多个马铃薯种植区。\n\n由于野生及饲养鸟类禽流感病例增加，苏格兰全境已设立禽流感预防区（AIPZ）。\n\n为期两天的计划将重点关注有效落实 PMFBY 并快速结算农民索赔。",
+          "start_offset": 809,
+          "end_offset": 1481,
+          "sentence_ids": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "ddeda1d04fce4724f42e86b7eb34c9b4ba86a22031b95347564ed9243af9184f",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "三个地点的死亡人数一致",
+        "fact_type": "casualties",
+        "attribute": "deaths_jamaica_grenada_venezuela",
+        "supporting_spans": [
+          "A002_F004",
+          "A003_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": {
+              "Jamaica": 2,
+              "Grenada": 3,
+              "Venezuela": 3
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": {
+              "Jamaica": 2,
+              "Grenada": 3,
+              "Venezuela": 3
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "圣文森特和格林纳丁斯报道的死亡人数分别为1人和3人",
+        "fact_type": "casualties",
+        "attribute": "saint_vincent_deaths",
+        "supporting_spans": [
+          "A002_F004",
+          "A003_F004"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": 1,
+            "unit": "person",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": 3,
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "revision_possible",
+        "annotation_note": "统计截止时间、纳入标准及原始公告版本均无法获得。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "牙买加农业损失及食品短缺风险",
+        "fact_type": "humanitarian_needs",
+        "attribute": "jamaica_food_supply_risk",
+        "supporting_spans": [
+          "A003_F001",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": "受损作物及配套基础设施价值超过640万美元",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "预计出现基本食品短缺",
+            "unit": null,
+            "attribution": "Glendon Harris"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "鳄鱼进入墨西哥部分地区城市区域",
+        "fact_type": "secondary_hazard",
+        "attribute": "crocodile_incursions",
+        "supporting_spans": [
+          "A001_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 200,
+              "qualifier": "at_least"
+            },
+            "unit": "animals",
+            "attribution": "state and federal authorities"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "6月至7月初",
+          "time_precision": "Relative time window",
+          "description": "阿尔贝托和贝丽尔先后影响塔毛利帕斯州，贝丽尔继续进入得克萨斯州南部。",
+          "supporting_spans": [
+            "A001_F001"
+          ]
+        },
+        {
+          "time": "2024-07-12",
+          "time_precision": "Publication date",
+          "description": "媒体报道人员伤亡、牙买加作物损失及更新后的大西洋飓风季展望。",
+          "supporting_spans": [
+            "A002_F001",
+            "A002_F004",
+            "A003_F001"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "强降雨使沿海潟湖水位上涨，导致鳄鱼进入城市区域。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002"
+          ]
+        },
+        {
+          "description": "牙买加农业损失可能暂时扰乱食品供应。",
+          "supporting_spans": [
+            "A003_F001",
+            "A003_F003"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "贝丽尔在多地造成人员死亡、次生灾害及农业损失。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F004",
+            "A003_F001",
+            "A003_F004"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "A003 的来源署名之后出现无关网页推荐。它们保留在源文本中，不纳入事件对齐。"
+    ]
+  }
+}

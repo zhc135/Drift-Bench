@@ -1,0 +1,888 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-TC-645431B1C94BA5D5",
+  "event_rank": 28,
+  "event_metadata": {
+    "event_name": "热带气旋 JUDY-23（朱迪）",
+    "disaster_type": "tropical_cyclone",
+    "disaster_type_code": "TC",
+    "event_start_time": "2023-02-27T00:00:00+00:00",
+    "event_end_time": "2023-03-03T06:00:00+00:00",
+    "locations": [
+      "瓦努阿图"
+    ],
+    "latitude": -26.1,
+    "longitude": 179.8,
+    "place_names_in_reports": [
+      "瓦努阿图",
+      "维拉港",
+      "塔纳岛",
+      "桑马省",
+      "埃斯皮里图桑托岛",
+      "卢甘维尔",
+      "奥尔里港"
+    ],
+    "gdacs_id": "1000965",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "朱迪先于凯文。附近地震为同期背景，不同震中的报道分别保留。"
+    ],
+    "dataset_place_name": "热带气旋 JUDY-23（朱迪）",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-4B507DD58395D16D",
+      "event_id": "DIS-TC-645431B1C94BA5D5",
+      "event_rank": 28,
+      "article_rank": 1,
+      "title": "两天内第二场大型气旋逼近维拉港之际，瓦努阿图遭遇6.5级地震 瓦努阿图部分地区星期五上午发生6.5级地震后，首都正为两天内第二场大型气旋做好准备。",
+      "publisher": "radioaustralianews-my",
+      "identified_publisher": null,
+      "source_domain": "abc.net.au",
+      "url": "https://www.abc.net.au/news/2023-03-03/vanuatu-cyclone-kevin-earthquake-hits-north/102049550",
+      "published_at": "2023-03-03T03:29:42+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "引用一名向 ABC 发表谈话的记者。澳大利亚广播电台为已识别的承载网站，原始署名无法获得。",
+      "content": "气旋预计星期五下午6时的移动路径。（供图）\n\n瓦努阿图部分地区星期五上午发生6.5级地震后，首都正为两天内第二场大型热带气旋做好准备。\n\n气旋凯文的风眼预计将于星期五晚经过首都维拉港，预报阵风最高达每小时130公里。\n\n星期六，在经过首都并向东南行进时，该气旋将增强为四级。\n\n仅两天前，该国遭到四级气旋朱迪袭击，造成大范围破坏和洪水。\n\n随着气旋强度增加，瓦努阿图北部地区已经感受到它的全部威力。\n\n瓦努阿图南部塔纳岛已发生山洪，预计未来几天将出现更多洪水。 （Facebook：瓦努阿图商业韧性委员会，原文 Vanutau Business Resilience Council）\n\n北部桑马省应急协调员卡萝尔·罗沃表示，当地正在经历大风和强降雨。\n\n她说：“我们岛的一些地方，尤其是西北部和西海岸，一定遭受了很大损失。”\n\n“但目前，由于网络和通信问题，我们尚未抵达那些地区。”\n\n美国地质调查局报告，当地时间星期五清晨5时刚过，北部埃斯皮里图桑托岛近海发生6.5级地震。\n\n震源深度10公里，未发布海啸预警。\n\n这座人口约为40,000的岛屿有部分地区与外界隔绝，当局表示一些地方的通信有限。但截至目前没有重大的损坏报告。\n\n罗沃女士说：“到目前为止一切都还好。”\n\n罗沃女士表示，应急队伍将在未来几天更全面地了解气旋和地震造成的损坏情况，如确有损坏的话。\n\n驻维拉港记者丹·麦加里告诉 ABC，当地人度过了“忙乱的一上午”，在气旋凯文预计星期五晚抵达之前清理碎片。\n\n他说：“我想我们已经尽可能做好准备了。全城都能听到锤子和链锯的声音。”\n\n麦加里表示，许多人已经停电超过24小时，获得清洁的自来水也是“一项挑战”。\n\n他说：“时间拖得越久，最脆弱群体的处境就越艰难。”",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "气旋预计星期五下午6时的移动路径。（供图）\n\n",
+          "start_offset": 0,
+          "end_offset": 23,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "瓦努阿图部分地区星期五上午发生6.5级地震后，首都正为两天内第二场大型热带气旋做好准备。\n\n气旋凯文的风眼预计将于星期五晚经过首都维拉港，预报阵风最高达每小时130公里。\n\n星期六，在经过首都并向东南行进时，该气旋将增强为四级。\n\n",
+          "start_offset": 23,
+          "end_offset": 139,
+          "sentence_ids": [
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "timeline",
+            "disaster_magnitude"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "kevin_forecast_gust",
+              "value": {
+                "value": 130,
+                "qualifier": "up_to"
+              },
+              "unit": "km/h"
+            },
+            {
+              "attribute": "kevin_forecast_category",
+              "value": 4,
+              "unit": null
+            },
+            {
+              "attribute": "quake_context_magnitude",
+              "value": 6.5,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "仅两天前，该国遭到四级气旋朱迪袭击，造成大范围破坏和洪水。\n\n",
+          "start_offset": 139,
+          "end_offset": 170,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "damage",
+            "secondary_hazard"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "judy_category",
+              "value": 4,
+              "unit": null
+            },
+            {
+              "attribute": "judy_impacts",
+              "value": "大范围破坏和洪水",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "随着气旋强度增加，瓦努阿图北部地区已经感受到它的全部威力。\n\n瓦努阿图南部塔纳岛已发生山洪，预计未来几天将出现更多洪水。 ",
+          "start_offset": 170,
+          "end_offset": 231,
+          "sentence_ids": [
+            7,
+            8
+          ],
+          "fact_types": [
+            "damage",
+            "weather",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "（Facebook：瓦努阿图商业韧性委员会，原文 Vanutau Business Resilience Council）\n\n",
+          "start_offset": 231,
+          "end_offset": 294,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "北部桑马省应急协调员卡萝尔·罗沃表示，当地正在经历大风和强降雨。\n\n她说：“我们岛的一些地方，尤其是西北部和西海岸，一定遭受了很大损失。”\n\n“但目前，由于网络和通信问题，我们尚未抵达那些地区。”\n\n",
+          "start_offset": 294,
+          "end_offset": 394,
+          "sentence_ids": [
+            10,
+            11,
+            12
+          ],
+          "fact_types": [
+            "weather",
+            "damage",
+            "infrastructure",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "attribution",
+              "value": "应急协调员卡萝尔·罗沃",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "美国地质调查局报告，当地时间星期五清晨5时刚过，北部埃斯皮里图桑托岛近海发生6.5级地震。\n\n震源深度10公里，未发布海啸预警。\n\n",
+          "start_offset": 394,
+          "end_offset": 460,
+          "sentence_ids": [
+            13,
+            14,
+            15
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "secondary_hazard",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "另一次近海地震",
+              "unit": null
+            },
+            {
+              "attribute": "magnitude",
+              "value": 6.5,
+              "unit": null
+            },
+            {
+              "attribute": "depth",
+              "value": 10,
+              "unit": "km"
+            },
+            {
+              "attribute": "tsunami_warning",
+              "value": "未发布",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "USGS",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F008",
+          "span_text": "这座人口约为40,000的岛屿有部分地区与外界隔绝，当局表示一些地方的通信有限。但截至目前没有重大的损坏报告。\n\n罗沃女士说：“到目前为止一切都还好。”\n\n罗沃女士表示，应急队伍将在未来几天更全面地了解气旋和地震造成的损坏情况，如确有损坏的话。\n\n",
+          "start_offset": 460,
+          "end_offset": 584,
+          "sentence_ids": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "fact_types": [
+            "affected_population",
+            "damage",
+            "uncertainty"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "espiritu_santo_population",
+              "value": {
+                "value": 40000,
+                "qualifier": "about"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F009",
+          "span_text": "驻维拉港记者丹·麦加里告诉 ABC，当地人度过了“忙乱的一上午”，在气旋凯文预计星期五晚抵达之前清理碎片。\n\n他说：“我想我们已经尽可能做好准备了。全城都能听到锤子和链锯的声音。”\n\n麦加里表示，许多人已经停电超过24小时，获得清洁的自来水也是“一项挑战”。\n\n他说：“时间拖得越久，最脆弱群体的处境就越艰难。”",
+          "start_offset": 584,
+          "end_offset": 740,
+          "sentence_ids": [
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "fact_types": [
+            "recovery",
+            "response",
+            "infrastructure",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "outage_duration_for_many",
+              "value": {
+                "value": 24,
+                "qualifier": "greater_than"
+              },
+              "unit": "hours"
+            },
+            {
+              "attribute": "attribution",
+              "value": "丹·麦加里",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "1b85f49c26b4ecbfacc192eeae4008e272a2c2ca306a8926be8d5b8394e131c7",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-AC8DA9BF3223609F",
+      "event_id": "DIS-TC-645431B1C94BA5D5",
+      "event_rank": 28,
+      "article_rank": 2,
+      "title": "瓦努阿图寻求国际法院作出气候裁决，获100国支持 | PINA",
+      "publisher": "pina",
+      "identified_publisher": null,
+      "source_domain": "pina.com.fj",
+      "url": "https://pina.com.fj/2023/03/03/vanuatu-quest-for-icj-climate-ruling-backed-by-100-nations/",
+      "published_at": "2023-03-03T06:07:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "PINA 引用政府声明及 USGS，无法获得原始署名。",
+      "content": "瓦努阿图官员星期四称，经过“艰巨的”外交努力，已有100多个国家支持瓦努阿图寻求联合国最高法院参与应对气候变化的计划。\n\n海平面上升威胁着瓦努阿图的未来，该国带头推动法院界定各国对气候变化及其影响承担的法律责任。\n\n支持该举措的105个国家将在今年联合国大会上共同提出一项决议。\n\n加拿大、澳大利亚和英国均表示支持，基里巴斯和马绍尔群岛等同样面临海平面上升的太平洋国家也在支持名单之列。\n\n但全球两个最大的二氧化碳排放国中国和美国均未承诺支持。\n\n依赖煤炭的印度尼西亚和印度等较大发展中国家也未承诺支持。\n\n国际法院（ICJ）的意见不具有约束力，但有助于确立法律先例。\n\n星期三，气旋朱迪袭击瓦努阿图，暴雨和猛烈大风连根拔起树木，掀翻建筑屋顶并淹没道路。\n\n拥有320,000人的这一群岛国家在短短几天内面临第二场热带风暴威胁，预计气旋开尔文将于星期五经过瓦努阿图附近。\n\n政府发言人乔·哈里·卡鲁对获得支持表示欢迎，并补充说这些最近的气旋凸显了瓦努阿图面临的威胁。\n\n他说：“看看最近气旋造成的损害，气候变化的影响显而易见。”\n\n与此同时，美国地质调查局（USGS）表示，星期五瓦努阿图地区卢甘维尔以西发生6.8级地震。\n\nUSGS补充说，震中位于卢甘维尔以西95公里（59.03英里）处，震源深度33公里。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "瓦努阿图官员星期四称，经过“艰巨的”外交努力，已有100多个国家支持瓦努阿图寻求联合国最高法院参与应对气候变化的计划。\n\n海平面上升威胁着瓦努阿图的未来，该国带头推动法院界定各国对气候变化及其影响承担的法律责任。\n\n支持该举措的105个国家将在今年联合国大会上共同提出一项决议。\n\n加拿大、澳大利亚和英国均表示支持，基里巴斯和马绍尔群岛等同样面临海平面上升的太平洋国家也在支持名单之列。\n\n但全球两个最大的二氧化碳排放国中国和美国均未承诺支持。\n\n依赖煤炭的印度尼西亚和印度等较大发展中国家也未承诺支持。\n\n国际法院（ICJ）的意见不具有约束力，但有助于确立法律先例。\n\n",
+          "start_offset": 0,
+          "end_offset": 286,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "国际法院气候决议背景",
+              "unit": null
+            },
+            {
+              "attribute": "co_sponsors",
+              "value": 105,
+              "unit": "countries"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "星期三，气旋朱迪袭击瓦努阿图，暴雨和猛烈大风连根拔起树木，掀翻建筑屋顶并淹没道路。\n\n",
+          "start_offset": 286,
+          "end_offset": 329,
+          "sentence_ids": [
+            8
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "damage",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "judy_impact_day",
+              "value": "星期三",
+              "unit": null
+            },
+            {
+              "attribute": "impacts",
+              "value": [
+                "树木被连根拔起",
+                "屋顶受损",
+                "道路被淹"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "拥有320,000人的这一群岛国家在短短几天内面临第二场热带风暴威胁，预计气旋开尔文将于星期五经过瓦努阿图附近。\n\n政府发言人乔·哈里·卡鲁对获得支持表示欢迎，并补充说这些最近的气旋凸显了瓦努阿图面临的威胁。\n\n他说：“看看最近气旋造成的损害，气候变化的影响显而易见。”\n\n",
+          "start_offset": 329,
+          "end_offset": 466,
+          "sentence_ids": [
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "affected_population",
+            "weather",
+            "secondary_hazard",
+            "public_reaction"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "population",
+              "value": 320000,
+              "unit": "people"
+            },
+            {
+              "attribute": "second_storm_name_as_printed",
+              "value": "开尔文",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "与此同时，美国地质调查局（USGS）表示，星期五瓦努阿图地区卢甘维尔以西发生6.8级地震。\n\nUSGS补充说，震中位于卢甘维尔以西95公里（59.03英里）处，震源深度33公里。",
+          "start_offset": 466,
+          "end_offset": 555,
+          "sentence_ids": [
+            12,
+            13
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "据报另一次地震",
+              "unit": null
+            },
+            {
+              "attribute": "magnitude",
+              "value": 6.8,
+              "unit": null
+            },
+            {
+              "attribute": "depth",
+              "value": 33,
+              "unit": "km"
+            },
+            {
+              "attribute": "distance_west_of_luganville",
+              "value": 95,
+              "unit": "km"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "50e6a44ca70c5a44ca8546659ccb48158c409daa901dc5697488cc51dd35d2e6",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-5417B804382EFF5E",
+      "event_id": "DIS-TC-645431B1C94BA5D5",
+      "event_rank": 28,
+      "article_rank": 3,
+      "title": "瓦努阿图宣布紧急状态后为热带气旋凯文作准备——人民网",
+      "publisher": "peopledaily",
+      "identified_publisher": "Xinhua",
+      "source_domain": "en.people.cn",
+      "url": "http://en.people.cn/n3/2023/0303/c90000-10215713.html",
+      "published_at": "2023-03-03T07:18:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "人民网发布新华社苏瓦发稿的报道。",
+      "content": "新华社苏瓦3月3日电——遭受四级热带气旋朱迪肆虐后，瓦努阿图宣布进入紧急状态。这个南太平洋岛国目前正在为第二场热带气旋凯文作准备，凯文已增强至三级。\n\n据新西兰国家广播电台星期五报道，瓦努阿图总理伊什梅尔·卡尔萨考表示，从星期四晚起生效的紧急状态将使受朱迪影响最严重的岛屿立即获得帮助。\n\n热带气旋朱迪给瓦努阿图造成广泛破坏，树木被连根拔起，包括首都维拉港在内的部分地区电信服务中断。\n\n人们还在清理朱迪造成的破坏时，据报热带气旋凯文将带来更多破坏，已发布强风、强降雨和巨浪警告。\n\n恶劣天气导致国内和国际航班均暂停，船只和小型渔筏被建议不要出海。\n\n银行等部分基本服务将于星期五暂时关闭。\n\n与此同时，星期五清晨，瓦努阿图北部埃斯皮里图桑托岛附近发生6.5级地震。\n\n美国地质调查局（USGS）报告，震中位于奥尔里港西南偏西86公里处，震源深度10公里，但未发布海啸预警。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "新华社苏瓦3月3日电——遭受四级热带气旋朱迪肆虐后，瓦努阿图宣布进入紧急状态。这个南太平洋岛国目前正在为第二场热带气旋凯文作准备，凯文已增强至三级。\n\n据新西兰国家广播电台星期五报道，瓦努阿图总理伊什梅尔·卡尔萨考表示，从星期四晚起生效的紧急状态将使受朱迪影响最严重的岛屿立即获得帮助。\n\n",
+          "start_offset": 0,
+          "end_offset": 145,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "judy_category",
+              "value": 4,
+              "unit": null
+            },
+            {
+              "attribute": "emergency_effective",
+              "value": "星期四晚",
+              "unit": null
+            },
+            {
+              "attribute": "kevin_current_category",
+              "value": 3,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "热带气旋朱迪给瓦努阿图造成广泛破坏，树木被连根拔起，包括首都维拉港在内的部分地区电信服务中断。\n\n人们还在清理朱迪造成的破坏时，据报热带气旋凯文将带来更多破坏，已发布强风、强降雨和巨浪警告。\n\n",
+          "start_offset": 145,
+          "end_offset": 242,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "damage",
+            "weather",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "judy_impacts",
+              "value": "树木被连根拔起，电信服务中断，包括维拉港",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "恶劣天气导致国内和国际航班均暂停，船只和小型渔筏被建议不要出海。\n\n银行等部分基本服务将于星期五暂时关闭。\n\n",
+          "start_offset": 242,
+          "end_offset": 297,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "infrastructure",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "flight_status",
+              "value": "国内及国际航班暂停",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "与此同时，星期五清晨，瓦努阿图北部埃斯皮里图桑托岛附近发生6.5级地震。\n\n美国地质调查局（USGS）报告，震中位于奥尔里港西南偏西86公里处，震源深度10公里，但未发布海啸预警。",
+          "start_offset": 297,
+          "end_offset": 387,
+          "sentence_ids": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "secondary_hazard",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "埃斯皮里图桑托岛近海另一次地震",
+              "unit": null
+            },
+            {
+              "attribute": "magnitude",
+              "value": 6.5,
+              "unit": null
+            },
+            {
+              "attribute": "depth",
+              "value": 10,
+              "unit": "km"
+            },
+            {
+              "attribute": "distance_wsw_of_port_olry",
+              "value": 86,
+              "unit": "km"
+            },
+            {
+              "attribute": "tsunami_warning",
+              "value": "未发布",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "75cf0a1310b43cd4647fb07339ad291b589d0b2a6cbb46de1356574d697d6ec4",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "据报道朱迪为四级热带气旋",
+        "fact_type": "disaster_magnitude",
+        "attribute": "judy_category",
+        "supporting_spans": [
+          "A001_F003",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": 4,
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": 4,
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "朱迪引发洪水和基础设施损坏",
+        "fact_type": "damage",
+        "attribute": "judy_impacts",
+        "supporting_spans": [
+          "A001_F003",
+          "A002_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": "大范围破坏和洪水",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "树木被连根拔起、屋顶受损、道路被淹",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "树木被连根拔起及电信服务中断",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "瓦努阿图在朱迪过后宣布进入紧急状态",
+        "fact_type": "response",
+        "attribute": "emergency_declaration",
+        "supporting_spans": [
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": "星期四晚生效",
+            "unit": null,
+            "attribution": "PM Ishmael Kalsakau via RNZ"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "第二场风暴的强度报道涉及观测和预测阶段",
+        "fact_type": "disaster_magnitude",
+        "attribute": "second_cyclone_category",
+        "supporting_spans": [
+          "A001_F002",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": {
+              "category": 4,
+              "scope": "星期六预测"
+            },
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "category": 3,
+              "scope": "发布时的当前强度"
+            },
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "PINA 将第二场风暴称为开尔文。"
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2023-03-01",
+          "time_precision": "Local date",
+          "description": "星期三，朱迪给瓦努阿图带来风雨及基础设施损坏。",
+          "supporting_spans": [
+            "A001_F003",
+            "A002_F002",
+            "A003_F002"
+          ]
+        },
+        {
+          "time": "2023-03-02",
+          "time_precision": "Local date",
+          "description": "针对朱迪的紧急状态于星期四晚生效。",
+          "supporting_spans": [
+            "A003_F001"
+          ]
+        },
+        {
+          "time": "2023-03-03",
+          "time_precision": "Local date",
+          "description": "居民为第二场风暴做准备的同时，清理工作仍在继续。",
+          "supporting_spans": [
+            "A001_F009",
+            "A003_F002"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "朱迪的风雨吹倒树木、淹没道路并中断通信。",
+          "supporting_spans": [
+            "A002_F002",
+            "A003_F002"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "四级气旋朱迪袭击瓦努阿图，促使当局宣布紧急状态。第二场风暴及同期地震使评估和响应更加复杂。",
+          "supporting_spans": [
+            "A001_F003",
+            "A001_F007",
+            "A002_F002",
+            "A003_F001",
+            "A003_F002"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "6.5级和6.8级地震报道给出不同震中及震源深度，分别保留并排除在朱迪的损失之外。"
+    ]
+  }
+}

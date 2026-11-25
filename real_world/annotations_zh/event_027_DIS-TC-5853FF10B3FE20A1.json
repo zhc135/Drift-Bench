@@ -1,0 +1,737 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-TC-5853FF10B3FE20A1",
+  "event_rank": 27,
+  "event_metadata": {
+    "event_name": "热带气旋 FILIPO-24（菲利波）",
+    "disaster_type": "tropical_cyclone",
+    "disaster_type_code": "TC",
+    "event_start_time": "2024-03-03T06:00:00+00:00",
+    "event_end_time": "2024-03-14T12:00:00+00:00",
+    "locations": [
+      "莫桑比克",
+      "南非",
+      "斯威士兰",
+      "津巴布韦",
+      "马拉维"
+    ],
+    "latitude": -33.09,
+    "longitude": 41.87,
+    "place_names_in_reports": [
+      "莫桑比克",
+      "莫金库阿尔",
+      "楠普拉",
+      "加扎",
+      "伊尼扬巴内",
+      "索法拉",
+      "赞比西亚",
+      "因哈索罗",
+      "莫桑比克海峡",
+      "印度洋"
+    ],
+    "gdacs_id": "1001053",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "雷击报道和菲利波登陆的先后顺序遵循来源表述。雷击具体时间未知。"
+    ],
+    "dataset_place_name": "热带气旋 FILIPO-24（菲利波）",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-54646D002AF498B3",
+      "event_id": "DIS-TC-5853FF10B3FE20A1",
+      "event_rank": 27,
+      "article_rank": 1,
+      "title": "莫桑比克雷击造成4人死亡 2分钟",
+      "publisher": "myjoyonline",
+      "identified_publisher": null,
+      "source_domain": "myjoyonline.com",
+      "url": "https://www.myjoyonline.com/lightning-kills-four-people-in-mozambique/",
+      "published_at": "2024-03-11T15:36:34+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "与 Africanews 采用相同的叙述顺序，包括三个几乎完全相同的句子。原始署名未知。",
+      "content": "在正为风暴菲利波做准备的莫桑比克，4人遭雷击身亡，另有3人受伤。\n\n雷击发生于楠普拉省北部城镇莫金库阿尔。\n\n与此同时，位于南部和中部的加扎、伊尼扬巴内、索法拉及赞比西亚各省已对预计星期一晚些时候发生的强雷暴进入警戒状态。\n\n风暴菲利波现已抵达莫桑比克海岸，可能发展为强热带风暴，随后返回海上消散。\n\n当地已记录到降雨增加，人们担心出现泥石流。莫桑比克国家气象研究所（Inam）警告船只采取预防措施。\n\n莫桑比克自然灾害较为常见，尤其是在10月至4月的雨季和气旋季节。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "在正为风暴菲利波做准备的莫桑比克，4人遭雷击身亡，另有3人受伤。\n\n雷击发生于楠普拉省北部城镇莫金库阿尔。\n\n",
+          "start_offset": 0,
+          "end_offset": 55,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "secondary_hazard",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "lightning_deaths",
+              "value": 4,
+              "unit": "people"
+            },
+            {
+              "attribute": "lightning_injuries",
+              "value": 3,
+              "unit": "people"
+            },
+            {
+              "attribute": "location",
+              "value": "楠普拉省莫金库阿尔",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "与此同时，位于南部和中部的加扎、伊尼扬巴内、索法拉及赞比西亚各省已对预计星期一晚些时候发生的强雷暴进入警戒状态。\n\n风暴菲利波现已抵达莫桑比克海岸，可能发展为强热带风暴，随后返回海上消散。\n\n",
+          "start_offset": 55,
+          "end_offset": 151,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "weather_alert_regions",
+              "value": [
+                "加扎",
+                "伊尼扬巴内",
+                "索法拉",
+                "赞比西亚"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "当地已记录到降雨增加，人们担心出现泥石流。莫桑比克国家气象研究所（Inam）警告船只采取预防措施。\n\n",
+          "start_offset": 151,
+          "end_offset": 202,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "莫桑比克自然灾害较为常见，尤其是在10月至4月的雨季和气旋季节。",
+          "start_offset": 202,
+          "end_offset": 234,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "weather",
+            "timeline"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "cyclone_season",
+              "value": "10月至4月",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "2545c1ae7a570cff607a7bbbff5103b33104124c2b4420ff531b20cc283e57b6",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-4C2AE0B2B4AC1A15",
+      "event_id": "DIS-TC-5853FF10B3FE20A1",
+      "event_rank": 27,
+      "article_rank": 2,
+      "title": "莫桑比克雷击造成4人死亡 | Africanews",
+      "publisher": "en-africanews",
+      "identified_publisher": null,
+      "source_domain": "africanews.com",
+      "url": "https://www.africanews.com/2024/03/12/lightning-kills-four-people-in-mozambique/",
+      "published_at": "2024-03-12T10:50:08+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "与 MyJoyOnline 共享若干逐字相同的句子，首发情况未知。",
+      "content": "莫桑比克楠普拉省莫金库阿尔镇遭雷击，4人丧生，另有3人受伤。\n\n该国正为风暴菲利波做好准备，南部和中部各省因强雷暴处于警戒状态。菲利波已登陆，可能增强为强热带风暴，随后在海上消散。\n\n当地已记录到降雨增加，人们担心出现泥石流。莫桑比克国家气象研究所（Inam）警告船只采取预防措施。\n\n莫桑比克自然灾害较为常见，尤其是在10月至4月的雨季和气旋季节。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "莫桑比克楠普拉省莫金库阿尔镇遭雷击，4人丧生，另有3人受伤。\n\n",
+          "start_offset": 0,
+          "end_offset": 32,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "secondary_hazard",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "lightning_deaths",
+              "value": 4,
+              "unit": "people"
+            },
+            {
+              "attribute": "lightning_injuries",
+              "value": 3,
+              "unit": "people"
+            },
+            {
+              "attribute": "location",
+              "value": "楠普拉省莫金库阿尔",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "该国正为风暴菲利波做好准备，南部和中部各省因强雷暴处于警戒状态。菲利波已登陆，可能增强为强热带风暴，随后在海上消散。\n\n",
+          "start_offset": 32,
+          "end_offset": 92,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "typhoon_status",
+              "value": "已登陆",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "当地已记录到降雨增加，人们担心出现泥石流。莫桑比克国家气象研究所（Inam）警告船只采取预防措施。\n\n",
+          "start_offset": 92,
+          "end_offset": 143,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "weather",
+            "secondary_hazard",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "莫桑比克自然灾害较为常见，尤其是在10月至4月的雨季和气旋季节。",
+          "start_offset": 143,
+          "end_offset": 175,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "weather",
+            "timeline"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "cyclone_season",
+              "value": "10月至4月",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "2912f1e9e9be7a818b3c71fb5fdcade3494d52e093d7e985db590f786476c3e7",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-1D27F2EAA499DAA3",
+      "event_id": "DIS-TC-5853FF10B3FE20A1",
+      "event_rank": 27,
+      "article_rank": 3,
+      "title": "莫桑比克海峡的热带气旋菲利波",
+      "publisher": "earth",
+      "identified_publisher": null,
+      "source_domain": "earth.com",
+      "url": "https://www.earth.com/image/tropical-cyclone-filipo-in-the-mozambique-channel/",
+      "published_at": "2024-03-13T12:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "Earth.com 转述 NASA 图像及乐施会声明，没有可核实署名。",
+      "content": "NASA 地球观测站今日图片展示热带气旋菲利波，该气旋于3月12日上午登陆。\n\nNASA 地球观测站今日图片展示热带气旋菲利波，该气旋于3月12日上午在莫桑比克沿海城镇因哈索罗附近登陆。\n\nNASA 表示：“2024年3月，莫桑比克海峡较低的风切变使热带气旋菲利波在非洲东南部近海增强。”\n\n“在拍摄这张图像前后，菲利波的最大风速约为每小时80公里（50英里），在萨菲尔-辛普森飓风风力等级中相当于热带风暴。”\n\n国际乐施会指出，这场风暴发生在气旋弗雷迪影响莫桑比克和马拉维部分地区仅一年后。由于反复遭遇极端天气而失去作物，该地区数百万人除了野生植物根茎几乎没有食物。\n\n乐施会南部非洲项目主任马钦达·马龙韦表示：“连续灾害使受灾社区几乎无法恢复和重建生活。人们本生长季努力种植的少量作物，不是受到厄尔尼诺导致的持续六周干旱天气破坏，就是受到山洪破坏。”\n\n3月12日，菲利波穿越陆地时最终减弱，但仍给伊尼扬巴内和加扎省带来强风及强降雨。\n\n据 NASA 称，预计风暴将向东南方向转弯，于3月14日前返回印度洋。\n\n这张图像由 NASA Terra 卫星上的 MODIS（中分辨率成像光谱仪）拍摄。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "NASA 地球观测站今日图片展示热带气旋菲利波，该气旋于3月12日上午登陆。\n\n",
+          "start_offset": 0,
+          "end_offset": 40,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "NASA 地球观测站今日图片展示热带气旋菲利波，该气旋于3月12日上午在莫桑比克沿海城镇因哈索罗附近登陆。\n\n",
+          "start_offset": 40,
+          "end_offset": 95,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "landfall",
+              "value": "3月12日上午在因哈索罗附近",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "NASA 地球观测站",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "NASA 表示：“2024年3月，莫桑比克海峡较低的风切变使热带气旋菲利波在非洲东南部近海增强。”\n\n“在拍摄这张图像前后，菲利波的最大风速约为每小时80公里（50英里），在萨菲尔-辛普森飓风风力等级中相当于热带风暴。”\n\n",
+          "start_offset": 95,
+          "end_offset": 207,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "maximum_wind",
+              "value": {
+                "value": 80,
+                "qualifier": "about"
+              },
+              "unit": "km/h"
+            },
+            {
+              "attribute": "driver",
+              "value": "低风切变",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "NASA",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "国际乐施会指出，这场风暴发生在气旋弗雷迪影响莫桑比克和马拉维部分地区仅一年后。由于反复遭遇极端天气而失去作物，该地区数百万人除了野生植物根茎几乎没有食物。\n\n乐施会南部非洲项目主任马钦达·马龙韦表示：“连续灾害使受灾社区几乎无法恢复和重建生活。人们本生长季努力种植的少量作物，不是受到厄尔尼诺导致的持续六周干旱天气破坏，就是受到山洪破坏。”\n\n",
+          "start_offset": 207,
+          "end_offset": 379,
+          "sentence_ids": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "humanitarian_needs",
+            "recovery",
+            "damage",
+            "weather"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reference_storm",
+              "value": "前一年的气旋弗雷迪",
+              "unit": null
+            },
+            {
+              "attribute": "dry_spell",
+              "value": 6,
+              "unit": "weeks"
+            },
+            {
+              "attribute": "attribution",
+              "value": "乐施会",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "3月12日，菲利波穿越陆地时最终减弱，但仍给伊尼扬巴内和加扎省带来强风及强降雨。\n\n据 NASA 称，预计风暴将向东南方向转弯，于3月14日前返回印度洋。\n\n",
+          "start_offset": 379,
+          "end_offset": 458,
+          "sentence_ids": [
+            9,
+            10
+          ],
+          "fact_types": [
+            "weather",
+            "timeline",
+            "location"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "affected_provinces",
+              "value": [
+                "伊尼扬巴内",
+                "加扎"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "expected_return_to_indian_ocean",
+              "value": "截至3月14日",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "这张图像由 NASA Terra 卫星上的 MODIS（中分辨率成像光谱仪）拍摄。",
+          "start_offset": 458,
+          "end_offset": 499,
+          "sentence_ids": [
+            11
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "a338a5fd1a4c0132ead58807b252b89044f10634da8ee57209270e6ffc48f6c1",
+        "removed_word_count": 39,
+        "removed_word_ratio": 0.13131313131313133
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "莫金库阿尔雷击造成的死亡及受伤",
+        "fact_type": "casualties",
+        "attribute": "mogincual_lightning_deaths",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 4,
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 4,
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": "报道描述风暴准备工作。菲利波在雷击事件中的作用尚未确认。"
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "莫金库阿尔因雷击受伤人员",
+        "fact_type": "injuries",
+        "attribute": "mogincual_lightning_injuries",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 3,
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 3,
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "风暴抵达莫桑比克海岸并登陆",
+        "fact_type": "disaster_occurrence",
+        "attribute": "filipo_landfall",
+        "supporting_spans": [
+          "A001_F002",
+          "A002_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": "抵达海岸",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "已登陆",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "3月12日上午在因哈索罗附近",
+            "unit": null,
+            "attribution": "NASA Earth Observatory"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "风暴经过时带来强降雨",
+        "fact_type": "weather",
+        "attribute": "rainfall",
+        "supporting_spans": [
+          "A001_F003",
+          "A002_F003",
+          "A003_F005"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": "降雨增加",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": "降雨增加",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F005",
+            "value": "伊尼扬巴内及加扎强降雨",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC003"
+      ],
+      "important_facts": [
+        "FC002",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2024-03-11",
+          "time_precision": "Publication date",
+          "description": "媒体报道雷击伤亡及强雷暴警报。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002"
+          ]
+        },
+        {
+          "time": "2024-03-12",
+          "time_precision": "Local date",
+          "description": "菲利波上午在因哈索罗附近登陆，穿越陆地时减弱。",
+          "supporting_spans": [
+            "A003_F002",
+            "A003_F005"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "NASA 将气旋在海峡上空增强归因于低风切变。",
+          "supporting_spans": [
+            "A003_F003"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "菲利波在莫桑比克登陆，带来强风和强降雨。防灾准备报道还提及其他地方的雷击伤亡。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A003_F002",
+            "A003_F005"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "雷击伤亡不计入已确认由菲利波造成的伤亡数据。"
+    ]
+  }
+}

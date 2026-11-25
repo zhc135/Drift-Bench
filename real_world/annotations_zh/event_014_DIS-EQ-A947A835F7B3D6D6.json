@@ -1,0 +1,904 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-A947A835F7B3D6D6",
+  "event_rank": 14,
+  "event_metadata": {
+    "event_name": "阿富汗地震",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2025-11-02T20:29:02+00:00",
+    "event_end_time": "2025-11-02T20:29:02+00:00",
+    "locations": [
+      "阿富汗"
+    ],
+    "latitude": 36.5894,
+    "longitude": 67.4843,
+    "place_names_in_reports": [
+      "阿富汗北部",
+      "萨曼甘省",
+      "巴尔赫省",
+      "艾巴克",
+      "胡尔姆",
+      "哈兹拉特苏丹",
+      "马扎里沙里夫",
+      "喀布尔",
+      "巴格兰省",
+      "萨尔普勒省",
+      "昆都士省"
+    ],
+    "gdacs_id": "1508467",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "CSV 的时间戳2025-11-02T20:29:02Z对应阿富汗当地时间11月3日清晨。A001 称“星期一深夜”，与其自身提及的00:59及其他报道不同。保留来源表述。平台将发布时间列为11月2日协调世界时午夜。"
+    ],
+    "dataset_place_name": "阿富汗地震",
+    "dataset_event_note": "适合作为时间线任务"
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-EC4DA84A4B6DE196",
+      "event_id": "DIS-EQ-A947A835F7B3D6D6",
+      "event_rank": 14,
+      "article_rank": 1,
+      "title": "阿富汗北部地震造成8人死亡、近200人受伤",
+      "publisher": "menafn",
+      "identified_publisher": null,
+      "source_domain": "menafn.com",
+      "url": "https://menafn.com/1110283906/Earthquake-In-Northern-Afghanistan-Kills-8-Injures-Nearly-200",
+      "published_at": "2025-11-02T00:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "正文引用地方官员和 Radio Rustam Nowin，但没有明确的原始署名。",
+      "content": "地方官员表示，星期一深夜，一场强烈地震袭击阿富汗北部，造成至少8人死亡、近200人受伤。\n\n萨曼甘省塔利班公共卫生部门负责人卡里·卢特富拉·哈比比告诉 Radio Rustam Nowin，省会艾巴克有1人死亡、100多人受伤。\n\n在邻近的巴尔赫省，胡尔姆地区报告6人死亡、70多人受伤，而萨曼甘省哈兹拉特苏丹地区另有1人死亡、15人受伤。\n\n当局表示，救援队仍在评估偏远地区的损失，并警告随着通信恢复，伤亡人数可能上升。\n\n这场6.3级地震发生在当地时间凌晨约12:59，震动了北部数省，使居民惊慌地逃离家园。\n\n塔利班官员表示，医疗和应急队伍已部署至受影响地区，当地医院正努力接纳不断增加的伤者。\n\n阿富汗因地处山区且基础设施薄弱而频繁遭遇致命地震，持续面临阻碍快速灾害响应的严重人道主义挑战。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "地方官员表示，星期一深夜，一场强烈地震袭击阿富汗北部，造成至少8人死亡、近200人受伤。\n\n",
+          "start_offset": 0,
+          "end_offset": 46,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 8,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injured",
+              "value": {
+                "value": 200,
+                "qualifier": "nearly"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "萨曼甘省塔利班公共卫生部门负责人卡里·卢特富拉·哈比比告诉 Radio Rustam Nowin，省会艾巴克有1人死亡、100多人受伤。\n\n在邻近的巴尔赫省，胡尔姆地区报告6人死亡、70多人受伤，而萨曼甘省哈兹拉特苏丹地区另有1人死亡、15人受伤。\n\n",
+          "start_offset": 46,
+          "end_offset": 172,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "aybak",
+              "value": [
+                1,
+                {
+                  "value": 100,
+                  "qualifier": "greater_than"
+                }
+              ],
+              "unit": "deaths and injuries"
+            },
+            {
+              "attribute": "khulm",
+              "value": [
+                6,
+                {
+                  "value": 70,
+                  "qualifier": "greater_than"
+                }
+              ],
+              "unit": "deaths and injuries"
+            },
+            {
+              "attribute": "hazrat_sultan",
+              "value": [
+                1,
+                15
+              ],
+              "unit": "deaths and injuries"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "当局表示，救援队仍在评估偏远地区的损失，并警告随着通信恢复，伤亡人数可能上升。\n\n",
+          "start_offset": 172,
+          "end_offset": 213,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "response",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "这场6.3级地震发生在当地时间凌晨约12:59，震动了北部数省，使居民惊慌地逃离家园。\n\n",
+          "start_offset": 213,
+          "end_offset": 258,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 6.3,
+              "unit": null
+            },
+            {
+              "attribute": "local_time",
+              "value": {
+                "value": "00:59",
+                "qualifier": "around"
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "塔利班官员表示，医疗和应急队伍已部署至受影响地区，当地医院正努力接纳不断增加的伤者。\n\n阿富汗因地处山区且基础设施薄弱而频繁遭遇致命地震，持续面临阻碍快速灾害响应的严重人道主义挑战。",
+          "start_offset": 258,
+          "end_offset": 349,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "response",
+            "infrastructure",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "b637d2f0dd88f5146e480dc27639d82ffd5579ce2fd77b4f3281da54e7257d42",
+        "removed_word_count": 69,
+        "removed_word_ratio": 0.27165354330708663
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-4B6BE1221A5023F1",
+      "event_id": "DIS-EQ-A947A835F7B3D6D6",
+      "event_rank": 14,
+      "article_rank": 2,
+      "title": "阿富汗北部强震造成20人死亡、320人受伤",
+      "publisher": "pajhwok",
+      "identified_publisher": "Pajhwok",
+      "source_domain": "pajhwok.com",
+      "url": "https://pajhwok.com/2025/11/03/20-killed-320-injured-as-powerful-quake-strikes-northern-afghanistan/",
+      "published_at": "2025-11-03T06:34:34+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "帕杰瓦克通讯社发稿地信息伴有独立报道的医院收治数据。",
+      "content": "喀布尔（帕杰瓦克通讯社）：阿富汗北部夜间遭遇6.3级强烈地震，造成至少20人死亡、320人受伤。\n\n地震震中位于巴尔赫省胡尔姆地区，发生于当地时间凌晨约1时。喀布尔、巴格兰、萨曼甘、萨尔普勒和昆都士等省也有震感。\n\n据当地消息来源称，萨曼甘和巴尔赫省报告的伤亡和破坏最严重。救援队已被派往受影响地区搜寻幸存者并帮助有需要的人。\n\n公共卫生部发言人沙拉法特·扎曼博士表示，初步报告显示，萨曼甘省已有超过20人死亡、320人受伤。受害者已被转移到附近医院接受治疗。\n\n他补充说，救援行动正在进行，随着获得更多信息，死亡人数可能增加。医疗队伍已抵达该地区，卫生部已下令附近所有医院保持高度戒备。\n\n与此同时，巴尔赫地区医院发言人卡迈勒·汗·扎德兰报告，有3具遗体和110名伤者被转移至马扎里沙里夫的阿布阿里西纳巴尔希医院。\n\n国防部在声明中表示，第209法塔赫军团的救援队和应急单位已抵达受影响地区，开始救援、撤离伤者并支持受灾家庭。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "喀布尔（帕杰瓦克通讯社）：阿富汗北部夜间遭遇6.3级强烈地震，造成至少20人死亡、320人受伤。\n\n",
+          "start_offset": 0,
+          "end_offset": 50,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "casualties",
+            "injuries"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 20,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injured",
+              "value": 320,
+              "unit": "people"
+            },
+            {
+              "attribute": "magnitude",
+              "value": 6.3,
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "地震震中位于巴尔赫省胡尔姆地区，发生于当地时间凌晨约1时。喀布尔、巴格兰、萨曼甘、萨尔普勒和昆都士等省也有震感。\n\n",
+          "start_offset": 50,
+          "end_offset": 108,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "epicenter",
+              "value": "巴尔赫省胡尔姆",
+              "unit": null
+            },
+            {
+              "attribute": "time_local",
+              "value": {
+                "value": "01:00",
+                "qualifier": "around"
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "据当地消息来源称，萨曼甘和巴尔赫省报告的伤亡和破坏最严重。救援队已被派往受影响地区搜寻幸存者并帮助有需要的人。\n\n",
+          "start_offset": 108,
+          "end_offset": 165,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "damage",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "公共卫生部发言人沙拉法特·扎曼博士表示，初步报告显示，萨曼甘省已有超过20人死亡、320人受伤。受害者已被转移到附近医院接受治疗。\n\n他补充说，救援行动正在进行，随着获得更多信息，死亡人数可能增加。医疗队伍已抵达该地区，卫生部已下令附近所有医院保持高度戒备。\n\n",
+          "start_offset": 165,
+          "end_offset": 296,
+          "sentence_ids": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "response",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 20,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injuries",
+              "value": 320,
+              "unit": "people"
+            },
+            {
+              "attribute": "scope",
+              "value": "萨曼甘省",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "沙拉法特·扎曼",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "与此同时，巴尔赫地区医院发言人卡迈勒·汗·扎德兰报告，有3具遗体和110名伤者被转移至马扎里沙里夫的阿布阿里西纳巴尔希医院。\n\n",
+          "start_offset": 296,
+          "end_offset": 360,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "response",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "hospital",
+              "value": "阿布阿里西纳巴尔希医院",
+              "unit": null
+            },
+            {
+              "attribute": "bodies_transferred",
+              "value": 3,
+              "unit": "people"
+            },
+            {
+              "attribute": "injured_transferred",
+              "value": 110,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "国防部在声明中表示，第209法塔赫军团的救援队和应急单位已抵达受影响地区，开始救援、撤离伤者并支持受灾家庭。",
+          "start_offset": 360,
+          "end_offset": 414,
+          "sentence_ids": [
+            10
+          ],
+          "fact_types": [
+            "response",
+            "evacuation"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "responders",
+              "value": "第209法塔赫军团",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "160c7c4d91de5934c2046a0e97212e94d833a4a88ce17d1e5bcb79aeb50e4ac7",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-980558DF2367C3D6",
+      "event_id": "DIS-EQ-A947A835F7B3D6D6",
+      "event_rank": 14,
+      "article_rank": 3,
+      "title": "阿富汗北部地震伤亡人数不断增加，救援行动持续进行",
+      "publisher": "xinhuanet-english",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20251103/40bec0a0b5b54cbca3918240b6a05156/c.html",
+      "published_at": "2025-11-03T07:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "新华社发稿地信息及照片署名。卫生部消息来源与帕杰瓦克通讯社重合。",
+      "content": "2025年11月3日，救援人员在阿富汗北部一处地震灾区工作。该国公共卫生部发言人沙拉法特·扎曼·奥马尔希尔表示，随着救援行动持续，阿富汗北部萨曼甘省和巴尔赫省的地震相关伤亡人数已增加。据该官员称，当地时间星期一凌晨00:58，6.3级地震袭击包括首都喀布尔在内的阿富汗部分地区，造成超过20人死亡、380多人受伤。（新华社）\n\n新华社喀布尔11月3日电——该国公共卫生部发言人沙拉法特·扎曼·奥马尔希尔表示，随着救援行动持续，阿富汗北部萨曼甘省和巴尔赫省的地震相关伤亡人数已增加。\n\n据该官员称，当地时间星期一凌晨00:58，6.3级地震袭击包括首都喀布尔在内的阿富汗部分地区，造成超过20人死亡、380多人受伤。\n\n救援队已被派往受灾地区搜寻遗体并帮助受影响人员。\n\n巴赫塔尔通讯社报道，国防部也已向地震灾区派遣救援人员。\n\n8月下旬，该国东部库纳尔省地震造成2,200多人死亡、3,500人受伤。 \n\n2025年11月3日，阿富汗北部萨曼甘省的一名伤者在医院接受治疗。\n\n该国公共卫生部发言人沙拉法特·扎曼·奥马尔希尔表示，随着救援行动持续，阿富汗北部萨曼甘省和巴尔赫省的地震相关伤亡人数已增加。\n\n据该官员称，当地时间星期一凌晨00:58，6.3级地震袭击包括首都喀布尔在内的阿富汗部分地区，造成超过20人死亡、380多人受伤。（巴赫塔尔通讯社供图，经新华社发布）\n\n这张摄于2025年11月3日的照片显示，电视屏幕正在播放阿富汗北部萨曼甘省一家医院的治疗画面。\n\n据该官员称，当地时间星期一凌晨00:58，6.3级地震袭击包括首都喀布尔在内的阿富汗部分地区，造成超过20人死亡、380多人受伤。（新华社/李昂）\n\n2025年11月3日，一名救援人员在阿富汗北部一处地震灾区工作。\n\n据该官员称，当地时间星期一凌晨00:58，6.3级地震袭击包括首都喀布尔在内的阿富汗部分地区，造成超过20人死亡、380多人受伤。（新华社）",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "2025年11月3日，救援人员在阿富汗北部一处地震灾区工作。该国公共卫生部发言人沙拉法特·扎曼·奥马尔希尔表示，随着救援行动持续，阿富汗北部萨曼甘省和巴尔赫省的地震相关伤亡人数已增加。据该官员称，当地时间星期一凌晨00:58，6.3级地震袭击包括首都喀布尔在内的阿富汗部分地区，造成超过20人死亡、380多人受伤。（新华社）\n\n",
+          "start_offset": 0,
+          "end_offset": 164,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "新华社喀布尔11月3日电——该国公共卫生部发言人沙拉法特·扎曼·奥马尔希尔表示，随着救援行动持续，阿富汗北部萨曼甘省和巴尔赫省的地震相关伤亡人数已增加。\n\n据该官员称，当地时间星期一凌晨00:58，6.3级地震袭击包括首都喀布尔在内的阿富汗部分地区，造成超过20人死亡、380多人受伤。\n\n",
+          "start_offset": 164,
+          "end_offset": 309,
+          "sentence_ids": [
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "casualties",
+            "injuries",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 6.3,
+              "unit": null
+            },
+            {
+              "attribute": "time_local",
+              "value": "00:58",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 20,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injuries",
+              "value": {
+                "value": 380,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "scope",
+              "value": [
+                "萨曼甘省",
+                "巴尔赫省"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "沙拉法特·扎曼·奥马尔希尔",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "救援队已被派往受灾地区搜寻遗体并帮助受影响人员。\n\n巴赫塔尔通讯社报道，国防部也已向地震灾区派遣救援人员。\n\n",
+          "start_offset": 309,
+          "end_offset": 364,
+          "sentence_ids": [
+            9,
+            10
+          ],
+          "fact_types": [
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "8月下旬，该国东部库纳尔省地震造成2,200多人死亡、3,500人受伤。 \n\n",
+          "start_offset": 364,
+          "end_offset": 403,
+          "sentence_ids": [
+            11
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "casualties",
+            "injuries"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "8月下旬库纳尔省另一次地震",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 2200,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "injuries",
+              "value": 3500,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "2025年11月3日，阿富汗北部萨曼甘省的一名伤者在医院接受治疗。\n\n该国公共卫生部发言人沙拉法特·扎曼·奥马尔希尔表示，随着救援行动持续，阿富汗北部萨曼甘省和巴尔赫省的地震相关伤亡人数已增加。\n\n据该官员称，当地时间星期一凌晨00:58，6.3级地震袭击包括首都喀布尔在内的阿富汗部分地区，造成超过20人死亡、380多人受伤。（巴赫塔尔通讯社供图，经新华社发布）\n\n这张摄于2025年11月3日的照片显示，电视屏幕正在播放阿富汗北部萨曼甘省一家医院的治疗画面。\n\n据该官员称，当地时间星期一凌晨00:58，6.3级地震袭击包括首都喀布尔在内的阿富汗部分地区，造成超过20人死亡、380多人受伤。（新华社/李昂）\n\n2025年11月3日，一名救援人员在阿富汗北部一处地震灾区工作。\n\n据该官员称，当地时间星期一凌晨00:58，6.3级地震袭击包括首都喀布尔在内的阿富汗部分地区，造成超过20人死亡、380多人受伤。（新华社）",
+          "start_offset": 403,
+          "end_offset": 815,
+          "sentence_ids": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "2ea2e022102bbf8f71ad7b8101e65c92c77d5b1b7b279e2afbc5624cfc91e1a5",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "报道的阿富汗北部地震震级",
+        "fact_type": "disaster_magnitude",
+        "attribute": "magnitude",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F001",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": 6.3,
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 6.3,
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": 6.3,
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "主震发生于当地时间凌晨约1时",
+        "fact_type": "timeline",
+        "attribute": "local_origin_time",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": "约00:59",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "约01:00",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "00:58",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "地方当局和卫生部给出不同死亡人数下限",
+        "fact_type": "casualties",
+        "attribute": "death_toll",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F004",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 8,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": "local officials"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": {
+              "value": 20,
+              "qualifier": "greater_than",
+              "scope": "萨曼甘省"
+            },
+            "unit": "people",
+            "attribution": "Sharafat Zaman"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "value": 20,
+              "qualifier": "greater_than",
+              "scope": "萨曼甘省和巴尔赫省"
+            },
+            "unit": "people",
+            "attribution": "Sharafat Zaman Omarkhil"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "公布的各个下限可以同时成立。"
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "320人和380多人受伤的报道涵盖不同人群",
+        "fact_type": "injuries",
+        "attribute": "injury_toll",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F004",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": {
+              "value": 200,
+              "qualifier": "nearly"
+            },
+            "unit": "people",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F004",
+            "value": {
+              "value": 320,
+              "scope": "萨曼甘省"
+            },
+            "unit": "people",
+            "attribution": "Sharafat Zaman"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "value": 380,
+              "qualifier": "greater_than",
+              "scope": "萨曼甘省和巴尔赫省"
+            },
+            "unit": "people",
+            "attribution": "Sharafat Zaman Omarkhil"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "消息来源的覆盖范围不同，且搜救仍在进行。"
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC003",
+        "FC004"
+      ],
+      "important_facts": [
+        "FC002"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-11-03T00:58+04:30",
+          "time_precision": "Local time to the minute (per Xinhua)",
+          "description": "一场地震于清晨袭击阿富汗北部，喀布尔有震感。",
+          "supporting_spans": [
+            "A001_F004",
+            "A002_F002",
+            "A003_F002"
+          ]
+        },
+        {
+          "time": "2025-11-03",
+          "time_precision": "Local date",
+          "description": "卫生官员发布初步伤亡数据，并安排医疗和救援行动。",
+          "supporting_spans": [
+            "A002_F004",
+            "A002_F005",
+            "A003_F002",
+            "A003_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "地方官员表示，偏远地区的损失尚待评估。通信恢复可能产生更完整的统计数字。",
+          "supporting_spans": [
+            "A001_F003"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "6.3级地震造成萨曼甘省、巴尔赫省及其他地区的人员伤亡，医疗和救援队伍已部署。",
+          "supporting_spans": [
+            "A001_F002",
+            "A001_F004",
+            "A002_F005",
+            "A002_F006",
+            "A003_F002"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "A003 的照片说明重复同一篇文章中的事实，不计为独立证据。"
+    ]
+  }
+}

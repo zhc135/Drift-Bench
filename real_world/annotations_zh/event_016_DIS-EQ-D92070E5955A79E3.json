@@ -1,0 +1,813 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-D92070E5955A79E3",
+  "event_rank": 16,
+  "event_metadata": {
+    "event_name": "土耳其地震",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2023-02-06T01:17:35+00:00",
+    "event_end_time": "2023-02-06T01:17:35+00:00",
+    "locations": [
+      "土耳其"
+    ],
+    "latitude": 37.1736,
+    "longitude": 37.032,
+    "place_names_in_reports": [
+      "土耳其",
+      "叙利亚",
+      "卡赫拉曼马拉什",
+      "帕扎尔哲克",
+      "马拉蒂亚",
+      "巴库"
+    ],
+    "gdacs_id": "1357372",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "2月6日发生两次强烈地震。伤亡时间线区分星期五的通报与其他文章中的较晚统计数据。"
+    ],
+    "dataset_place_name": "土耳其地震",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-F433E9E1135681E2",
+      "event_id": "DIS-EQ-D92070E5955A79E3",
+      "event_rank": 16,
+      "article_rank": 1,
+      "title": "联合国救援负责人：土耳其—叙利亚地震死亡人数将超过50,000人",
+      "publisher": "aawsat",
+      "identified_publisher": null,
+      "source_domain": "english.aawsat.com",
+      "url": "https://english.aawsat.com/home/article/4153121/un-relief-chief-t%C3%BCrkiye-syria-quake-deaths-top-50000",
+      "published_at": "2023-02-12T00:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "republished",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "正文主要转述法新社、天空新闻台及官方数据。",
+      "content": "联合国救援负责人马丁·格里菲思表示，土耳其和叙利亚大地震造成的死亡人数将从目前28,000人的水平“翻倍甚至更多”。\n\n据法新社报道，格里菲思星期六抵达土耳其南部城市卡赫拉曼马拉什，这是星期一黎明前颠覆数百万人生活的第一次7.8级地震震中所在地。\n\n星期六接受天空新闻台采访时，他谈及死亡人数说：“我认为难以准确估计，因为我们还需要深入废墟下方，但我确信会翻倍甚至更多。”\n\n他说：“我们实际上还没有开始统计死者人数。”\n\n官员和医务人员表示，土耳其有24,617人死亡，叙利亚有3,574人死亡。已确认的总死亡人数目前为28,191人。\n\n数万名救援人员正在搜寻被夷为平地的街区，尽管严寒天气加深了数百万急需援助者的苦难。\n\n联合国警告，土耳其和叙利亚至少有870,000人急需热食，仅叙利亚就可能有多达530万人无家可归。\n\n世界卫生组织（WHO）星期六发起4,280万美元紧急募捐呼吁，以应对紧迫医疗需求，并表示近2,600万人受到此次地震影响。\n\n土耳其灾害管理机构表示，来自土耳其各组织的32,000多人正在参与搜救工作，此外还有8,294名国际救援人员。\n\n格里菲思在发布于推特的一段视频中表示：“很快，搜救人员将把工作交给人道主义机构，后者的职责是在未来数月照料数量极其庞大的受影响人群。”",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "联合国救援负责人马丁·格里菲思表示，土耳其和叙利亚大地震造成的死亡人数将从目前28,000人的水平“翻倍甚至更多”。\n\n据法新社报道，格里菲思星期六抵达土耳其南部城市卡赫拉曼马拉什，这是星期一黎明前颠覆数百万人生活的第一次7.8级地震震中所在地。\n\n星期六接受天空新闻台采访时，他谈及死亡人数说：“我认为难以准确估计，因为我们还需要深入废墟下方，但我确信会翻倍甚至更多。”\n\n他说：“我们实际上还没有开始统计死者人数。”\n\n",
+          "start_offset": 0,
+          "end_offset": 212,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "casualties",
+            "uncertainty",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "first_quake_magnitude",
+              "value": 7.8,
+              "unit": null
+            },
+            {
+              "attribute": "baseline_deaths_rounded",
+              "value": 28000,
+              "unit": "people"
+            },
+            {
+              "attribute": "forecast_deaths_multiplier",
+              "value": {
+                "value": 2,
+                "qualifier": "at_least"
+              },
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "马丁·格里菲思提供的预测",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "官员和医务人员表示，土耳其有24,617人死亡，叙利亚有3,574人死亡。已确认的总死亡人数目前为28,191人。\n\n",
+          "start_offset": 212,
+          "end_offset": 271,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "casualties",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "turkiye_deaths",
+              "value": 24617,
+              "unit": "people"
+            },
+            {
+              "attribute": "syria_deaths",
+              "value": 3574,
+              "unit": "people"
+            },
+            {
+              "attribute": "confirmed_total",
+              "value": 28191,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "数万名救援人员正在搜寻被夷为平地的街区，尽管严寒天气加深了数百万急需援助者的苦难。\n\n联合国警告，土耳其和叙利亚至少有870,000人急需热食，仅叙利亚就可能有多达530万人无家可归。\n\n",
+          "start_offset": 271,
+          "end_offset": 365,
+          "sentence_ids": [
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "response",
+            "humanitarian_needs",
+            "affected_population",
+            "weather"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "urgent_hot_meals",
+              "value": {
+                "value": 870000,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "syria_potentially_homeless",
+              "value": {
+                "value": 5300000,
+                "qualifier": "up_to"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "联合国",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "世界卫生组织（WHO）星期六发起4,280万美元紧急募捐呼吁，以应对紧迫医疗需求，并表示近2,600万人受到此次地震影响。\n\n",
+          "start_offset": 365,
+          "end_offset": 428,
+          "sentence_ids": [
+            10
+          ],
+          "fact_types": [
+            "affected_population",
+            "aid",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "affected",
+              "value": {
+                "value": 26000000,
+                "qualifier": "almost"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "who_appeal",
+              "value": 42800000,
+              "unit": "USD"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "土耳其灾害管理机构表示，来自土耳其各组织的32,000多人正在参与搜救工作，此外还有8,294名国际救援人员。\n\n格里菲思在发布于推特的一段视频中表示：“很快，搜救人员将把工作交给人道主义机构，后者的职责是在未来数月照料数量极其庞大的受影响人群。”",
+          "start_offset": 428,
+          "end_offset": 552,
+          "sentence_ids": [
+            11,
+            12,
+            13
+          ],
+          "fact_types": [
+            "response",
+            "aid",
+            "recovery"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "turkish_search_personnel",
+              "value": {
+                "value": 32000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "international_rescuers",
+              "value": 8294,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "f66ed2183a7848a524ca46af01d874f91f73f1db6c44c3df02b92f8ca6c48ac0",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-88C401317568DBBF",
+      "event_id": "DIS-EQ-D92070E5955A79E3",
+      "event_rank": 16,
+      "article_rank": 2,
+      "title": "阿塞拜疆向地震灾区土耳其运送固定式发电机（图片）",
+      "publisher": "trendnews-az",
+      "identified_publisher": "Trend",
+      "source_domain": "en.trend.az",
+      "url": "https://en.trend.az/azerbaijan/politics/3709241.html",
+      "published_at": "2023-02-12T07:04:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "Trend 通讯社发稿地信息注明，发电机运送信息来自阿塞拜疆国防部。",
+      "content": "阿塞拜疆巴库2月12日电——据 Trend 通讯社援引阿塞拜疆国防部消息，根据阿塞拜疆总统、武装部队最高统帅伊利哈姆·阿利耶夫的指示，援助土耳其地震受害者的措施仍在持续实施。\n\n据该部介绍，已从工程兵部队的库存中向这个兄弟国家运送高压发电机。\n\n用于确保不间断电力供应的发电机已通过车辆运往土耳其。\n\n2023年2月6日，土耳其东南部发生7.7级地震，震源深度7公里，震中位于卡赫拉曼马拉什省帕扎尔哲克地区。\n\n地震造成的死亡人数已达到24,617人，另有80,278人受伤。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "阿塞拜疆巴库2月12日电——据 Trend 通讯社援引阿塞拜疆国防部消息，根据阿塞拜疆总统、武装部队最高统帅伊利哈姆·阿利耶夫的指示，援助土耳其地震受害者的措施仍在持续实施。\n\n据该部介绍，已从工程兵部队的库存中向这个兄弟国家运送高压发电机。\n\n用于确保不间断电力供应的发电机已通过车辆运往土耳其。\n\n",
+          "start_offset": 0,
+          "end_offset": 151,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "aid",
+              "value": "高压发电机",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "阿塞拜疆国防部",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "2023年2月6日，土耳其东南部发生7.7级地震，震源深度7公里，震中位于卡赫拉曼马拉什省帕扎尔哲克地区。\n\n",
+          "start_offset": 151,
+          "end_offset": 206,
+          "sentence_ids": [
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.7,
+              "unit": null
+            },
+            {
+              "attribute": "date",
+              "value": "2023-02-06",
+              "unit": null
+            },
+            {
+              "attribute": "depth",
+              "value": 7,
+              "unit": "km"
+            },
+            {
+              "attribute": "reported_location",
+              "value": "帕扎尔哲克",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "地震造成的死亡人数已达到24,617人，另有80,278人受伤。",
+          "start_offset": 206,
+          "end_offset": 238,
+          "sentence_ids": [
+            8
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "turkiye_deaths",
+              "value": 24617,
+              "unit": "people"
+            },
+            {
+              "attribute": "turkiye_injuries",
+              "value": 80278,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "0ec68f3d7d948a7aecf791caf81c6488f2c94322ce738b0db6ba8835d176fa1b",
+        "removed_word_count": 16,
+        "removed_word_ratio": 0.11510791366906475
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-4F9436425C282840",
+      "event_id": "DIS-EQ-D92070E5955A79E3",
+      "event_rank": 16,
+      "article_rank": 3,
+      "title": "中国救援人员在土耳其地震灾区全力挽救生命——中国网",
+      "publisher": "china.org.cn",
+      "identified_publisher": null,
+      "source_domain": "china.org.cn",
+      "url": "http://www.china.org.cn/world/2023-02/12/content_85101546.htm",
+      "published_at": "2023-02-12T02:57:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "图片署名为新华社摄影记者。报道聚焦中国救援队，正文署名缺失。",
+      "content": "星期一，两场强烈地震袭击土耳其，国际搜救队纷纷赶赴当地协助救援。截至目前，中国救援人员已成功救出4名幸存者。\n\n2023年2月10日，在土耳其马拉蒂亚，中国民间救援队蓝天救援队一名成员参与救援行动。（穆斯塔法·卡亚/新华社 摄）\n\n一支由82人组成的中国救援队于星期三抵达土耳其，加入该国地震救援工作。蓝天救援队及其他中国民间救援队成员也在土耳其参与国际救援工作。星期五，经过三个小时努力，中国救援人员在地震发生96多个小时后，从倒塌建筑废墟中安全救出一名女子，这是中国救援人员救出的第4名幸存者。\n\n土耳其卫生部长法赫雷廷·科贾星期五晚些时候宣布，星期一毁灭性地震造成的土耳其死亡人数已升至20,213人，该国另有80,052人受伤。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "星期一，两场强烈地震袭击土耳其，国际搜救队纷纷赶赴当地协助救援。截至目前，中国救援人员已成功救出4名幸存者。\n\n",
+          "start_offset": 0,
+          "end_offset": 56,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "survivors_saved_by_chinese_rescuers",
+              "value": 4,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "2023年2月10日，在土耳其马拉蒂亚，中国民间救援队蓝天救援队一名成员参与救援行动。（穆斯塔法·卡亚/新华社 摄）\n\n",
+          "start_offset": 56,
+          "end_offset": 116,
+          "sentence_ids": [
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "一支由82人组成的中国救援队于星期三抵达土耳其，加入该国地震救援工作。蓝天救援队及其他中国民间救援队成员也在土耳其参与国际救援工作。星期五，经过三个小时努力，中国救援人员在地震发生96多个小时后，从倒塌建筑废墟中安全救出一名女子，这是中国救援人员救出的第4名幸存者。\n\n",
+          "start_offset": 116,
+          "end_offset": 251,
+          "sentence_ids": [
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "response",
+            "aid",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "chinese_sar_team",
+              "value": 82,
+              "unit": "people"
+            },
+            {
+              "attribute": "fourth_save_time",
+              "value": {
+                "value": 96,
+                "qualifier": "greater_than"
+              },
+              "unit": "hours after earthquake"
+            },
+            {
+              "attribute": "rescue_effort",
+              "value": 3,
+              "unit": "hours"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "土耳其卫生部长法赫雷廷·科贾星期五晚些时候宣布，星期一毁灭性地震造成的土耳其死亡人数已升至20,213人，该国另有80,052人受伤。",
+          "start_offset": 251,
+          "end_offset": 318,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "turkiye_deaths",
+              "value": 20213,
+              "unit": "people"
+            },
+            {
+              "attribute": "turkiye_injuries",
+              "value": 80052,
+              "unit": "people"
+            },
+            {
+              "attribute": "cutoff",
+              "value": "星期五晚些时候",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "法赫雷廷·科贾",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "2830d95ffcb9d1553ee34663b00168a29f5f420440d0daacccdc6247695f3bf8",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "各报道对第一次地震震级的描述存在差异",
+        "fact_type": "disaster_magnitude",
+        "attribute": "first_mainshock_magnitude",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 7.8,
+            "unit": null,
+            "attribution": "AFP"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": 7.7,
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "A002 未提供测定震级的机构、震级标度或公告版本。"
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "土耳其最初报告20,213人死亡，其他报道给出24,617人",
+        "fact_type": "casualties",
+        "attribute": "turkiye_deaths",
+        "supporting_spans": [
+          "A003_F004",
+          "A001_F002",
+          "A002_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": 20213,
+            "unit": "people",
+            "attribution": "Fahrettin Koca, late Friday"
+          },
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 24617,
+            "unit": "people",
+            "attribution": "officials and medics"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": 24617,
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "temporal_update",
+        "temporal_relation": "earlier_later",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "土耳其报告80,000多人受伤",
+        "fact_type": "injuries",
+        "attribute": "turkiye_injuries",
+        "supporting_spans": [
+          "A003_F004",
+          "A002_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": 80052,
+            "unit": "people",
+            "attribution": "Fahrettin Koca, late Friday"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": 80278,
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "temporal_update",
+        "temporal_relation": "earlier_later",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "两国确认的死亡总数和预测估计值",
+        "fact_type": "casualties",
+        "attribute": "two_country_totals",
+        "supporting_spans": [
+          "A001_F001",
+          "A001_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "可能从约28,000人翻倍甚至更多",
+            "unit": null,
+            "attribution": "Martin Griffiths"
+          },
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 28191,
+            "unit": "people",
+            "attribution": "officials and medics"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": "第一个数据是预测，第二个是当时报道的累计统计值。"
+      },
+      {
+        "cluster_id": "FC005",
+        "cluster_description": "国际援助包括救援队和发电设备",
+        "fact_type": "aid",
+        "attribute": "international_assistance",
+        "supporting_spans": [
+          "A001_F005",
+          "A002_F001",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F005",
+            "value": 8294,
+            "unit": "international rescuers",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "阿塞拜疆运送发电机",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "中国派遣救援人员",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "important_facts": [
+        "FC005"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2023-02-06",
+          "time_precision": "Local date",
+          "description": "强烈地震袭击土耳其和叙利亚。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F002",
+            "A003_F001"
+          ]
+        },
+        {
+          "time": "2023-02-08",
+          "time_precision": "Inferred from weekday and publication context",
+          "description": "由82人组成的中国救援队抵达。",
+          "supporting_spans": [
+            "A003_F003"
+          ]
+        },
+        {
+          "time": "2023-02-10",
+          "time_precision": "Local date",
+          "description": "中国救援队救出其第4名幸存者，土耳其卫生部长当天晚间公布伤亡数据。",
+          "supporting_spans": [
+            "A003_F003",
+            "A003_F004"
+          ]
+        },
+        {
+          "time": "2023-02-11",
+          "time_precision": "Local date",
+          "description": "联合国救援负责人抵达，世界卫生组织发起紧急募捐呼吁。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F004"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "寒冷加剧幸存者困境。阿塞拜疆运送发电机以提供电力。",
+          "supporting_spans": [
+            "A001_F003",
+            "A002_F001"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "强烈地震造成两国多人死亡和受伤。搜救和救援设备运送工作仍在继续。",
+          "supporting_spans": [
+            "A001_F002",
+            "A001_F003",
+            "A002_F001",
+            "A003_F003"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "援助需求和可能无家可归的人数为机构估计值。标题中超过50,000人的数字为预测。"
+    ]
+  }
+}

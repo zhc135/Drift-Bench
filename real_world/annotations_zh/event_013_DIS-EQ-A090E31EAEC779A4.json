@@ -1,0 +1,654 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-A090E31EAEC779A4",
+  "event_rank": 13,
+  "event_metadata": {
+    "event_name": "缅甸地震",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2025-03-28T06:20:54+00:00",
+    "event_end_time": "2025-03-28T06:20:54+00:00",
+    "locations": [
+      "缅甸"
+    ],
+    "latitude": 22.0128,
+    "longitude": 95.9216,
+    "place_names_in_reports": [
+      "缅甸",
+      "仰光",
+      "曼谷"
+    ],
+    "gdacs_id": "1474477",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "星期五为3月28日，星期一为3月31日。跨境死亡人数未提供统计截止时间。"
+    ],
+    "dataset_place_name": "缅甸地震",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-190BB37AB9BBA230",
+      "event_id": "DIS-EQ-A090E31EAEC779A4",
+      "event_rank": 13,
+      "article_rank": 1,
+      "title": "官员：缅甸当地援助机构开展地震救援工作",
+      "publisher": "xinhuanet-english",
+      "identified_publisher": "Xinhua",
+      "source_domain": "english.news.cn",
+      "url": "https://english.news.cn/20250331/6bfd7e8ff9a147eaa581db5c33b5388f/c.html",
+      "published_at": "2025-03-31T15:06:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "新华社发稿地信息显示对玛丽·曼里克进行了直接采访。",
+      "content": "新华社仰光3月31日电——一名官员星期一告诉新华社，自星期五7.9级地震袭击缅甸以来，位于缅甸的人道主义援助机构一直在开展救援工作。\n\n缅甸红十字会（MRCS）缅甸代表团项目协调员玛丽·曼里克告诉新华社，缅甸红十字会（MRCS）和红十字会与红新月会国际联合会（IFRC）已启动人道主义响应。\n\n她表示，MRCS 一直在为受伤人员提供急救和院前护理，并调配毯子、防水布和卫生用品包等物资。\n\n她指出：“看到国际救援队抵达缅甸帮助地震受害者，我感到非常高兴，中国也迅速作出了响应。” ",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "新华社仰光3月31日电——一名官员星期一告诉新华社，自星期五7.9级地震袭击缅甸以来，位于缅甸的人道主义援助机构一直在开展救援工作。\n\n",
+          "start_offset": 0,
+          "end_offset": 68,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "aid",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.9,
+              "unit": null
+            },
+            {
+              "attribute": "quake_day",
+              "value": "星期五",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "缅甸红十字会（MRCS）缅甸代表团项目协调员玛丽·曼里克告诉新华社，缅甸红十字会（MRCS）和红十字会与红新月会国际联合会（IFRC）已启动人道主义响应。\n\n她表示，MRCS 一直在为受伤人员提供急救和院前护理，并调配毯子、防水布和卫生用品包等物资。\n\n",
+          "start_offset": 68,
+          "end_offset": 195,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "response",
+            "aid",
+            "injuries"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "responders",
+              "value": [
+                "MRCS",
+                "IFRC"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "deliverables",
+              "value": [
+                "急救",
+                "院前护理",
+                "毯子",
+                "防水布",
+                "卫生用品包"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "玛丽·曼里克",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "她指出：“看到国际救援队抵达缅甸帮助地震受害者，我感到非常高兴，中国也迅速作出了响应。” ",
+          "start_offset": 195,
+          "end_offset": 240,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "aid",
+            "public_reaction"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "response_country",
+              "value": "中国",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "玛丽·曼里克",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "717fea0f96a77a75a530ca31f2860cc8bcf2922d0910d1fcf96bf52e274b7359",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-A23E30D1DD6C033C",
+      "event_id": "DIS-EQ-A090E31EAEC779A4",
+      "event_rank": 13,
+      "article_rank": 2,
+      "title": "缅甸遭受地震重创，紧急搜救持续进行 | 商业",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/business/3328894-desperate-rescue-efforts-amidst-myanmars-quake-devastation",
+      "published_at": "2025-03-31T15:58:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "这篇综合报道没有可核实的消息来源署名。",
+      "content": "一场毁灭性地震在东南亚造成至少2,000人死亡后，缅甸和曼谷的幸存者救援工作仍在继续。\n\n缅甸面临的挑战包括使进入灾区更加困难的内战和军事空袭，而在曼谷，一座摩天大楼倒塌后，可能存在的劣质建筑材料问题正在接受调查。\n\n国际援助纷至沓来，中国和美国等国家伸出援手，也凸显了该地区更广泛的人道主义危机。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "一场毁灭性地震在东南亚造成至少2,000人死亡后，缅甸和曼谷的幸存者救援工作仍在继续。\n\n",
+          "start_offset": 0,
+          "end_offset": 45,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "casualties",
+            "response",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": {
+                "value": 2000,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "scope",
+              "value": "东南亚",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "缅甸面临的挑战包括使进入灾区更加困难的内战和军事空袭，而在曼谷，一座摩天大楼倒塌后，可能存在的劣质建筑材料问题正在接受调查。\n\n",
+          "start_offset": 45,
+          "end_offset": 109,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "damage",
+            "infrastructure",
+            "cause",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "myanmar_constraints",
+              "value": "内战与空袭",
+              "unit": null
+            },
+            {
+              "attribute": "bangkok_investigation",
+              "value": "可能存在劣质建筑材料",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "国际援助纷至沓来，中国和美国等国家伸出援手，也凸显了该地区更广泛的人道主义危机。",
+          "start_offset": 109,
+          "end_offset": 149,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "aid_countries",
+              "value": [
+                "中国",
+                "美国"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "bc6b953882593b2647d9ab73037a439f0462b99cdec5f1b12b97842ba53d7cd6",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-E83A3CE2C2665789",
+      "event_id": "DIS-EQ-A090E31EAEC779A4",
+      "event_rank": 13,
+      "article_rank": 3,
+      "title": "中国承诺全力帮助地震灾区缅甸",
+      "publisher": "ecns",
+      "identified_publisher": null,
+      "source_domain": "ecns.cn",
+      "url": "http://www.ecns.cn/news/politics/2025-04-01/detail-iheqevhn5353709.shtml",
+      "published_at": "2025-04-01T00:50:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "文章转述郭嘉昆的公开简报，署名无法获得。",
+      "content": "外交部发言人郭嘉昆星期一表示，中国救援力量已在地震灾区缅甸救出6人，并承诺中国将尽最大努力搜救幸存者、救治伤者，确保救灾物资送达灾区受灾民众。\n\n郭嘉昆在例行记者会上表示：“地震发生后，中方立即启动应急机制，全力提供应急服务和领事保护。”\n\n郭嘉昆表示，截至目前，约400名中国人员，包括专家、救援人员和医务人员，已在缅甸多地协助开展救灾工作。\n\n他补充说，中国还向缅甸发送了首批价值1亿元人民币（1,378万美元）的救灾物资，包括帐篷、急救包、食品和饮用水。\n\n郭嘉昆表示相信，在国际社会支持下，缅甸政府和人民将团结一致、战胜灾害并重建家园。\n\n中国救援队在地震灾区缅甸救出6人\n\n云南向缅甸运送7.3公吨救灾物资\n\n中国向缅甸派遣118人救援队",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "外交部发言人郭嘉昆星期一表示，中国救援力量已在地震灾区缅甸救出6人，并承诺中国将尽最大努力搜救幸存者、救治伤者，确保救灾物资送达灾区受灾民众。\n\n郭嘉昆在例行记者会上表示：“地震发生后，中方立即启动应急机制，全力提供应急服务和领事保护。”\n\n",
+          "start_offset": 0,
+          "end_offset": 121,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "injuries"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_rescues_by_chinese_teams",
+              "value": 6,
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "郭嘉昆",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "郭嘉昆表示，截至目前，约400名中国人员，包括专家、救援人员和医务人员，已在缅甸多地协助开展救灾工作。\n\n",
+          "start_offset": 121,
+          "end_offset": 174,
+          "sentence_ids": [
+            3
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "chinese_relief_personnel",
+              "value": {
+                "value": 400,
+                "qualifier": "around"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "郭嘉昆",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "他补充说，中国还向缅甸发送了首批价值1亿元人民币（1,378万美元）的救灾物资，包括帐篷、急救包、食品和饮用水。\n\n",
+          "start_offset": 174,
+          "end_offset": 232,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "aid"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "first_batch_value",
+              "value": 100000000,
+              "unit": "CNY"
+            },
+            {
+              "attribute": "reported_equivalent",
+              "value": 13780000,
+              "unit": "USD"
+            },
+            {
+              "attribute": "supplies",
+              "value": [
+                "帐篷",
+                "急救包",
+                "食品",
+                "饮用水"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "郭嘉昆表示相信，在国际社会支持下，缅甸政府和人民将团结一致、战胜灾害并重建家园。\n\n",
+          "start_offset": 232,
+          "end_offset": 274,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "recovery",
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "中国救援队在地震灾区缅甸救出6人\n\n云南向缅甸运送7.3公吨救灾物资\n\n中国向缅甸派遣118人救援队",
+          "start_offset": 274,
+          "end_offset": 324,
+          "sentence_ids": [
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "99d11df4c2f8bec044c93db8f553b1a90dd89e4b2df115855c4fa12ae88b1db2",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "新华社报道的震级",
+        "fact_type": "disaster_magnitude",
+        "attribute": "reported_magnitude",
+        "supporting_spans": [
+          "A001_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 7.9,
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "报道中的东南亚死亡人数下限",
+        "fact_type": "casualties",
+        "attribute": "regional_deaths",
+        "supporting_spans": [
+          "A002_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "value": 2000,
+              "qualifier": "at_least"
+            },
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "中国部署搜救人员和救灾物资",
+        "fact_type": "aid",
+        "attribute": "chinese_response",
+        "supporting_spans": [
+          "A001_F003",
+          "A002_F003",
+          "A003_F001",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": "中国立即作出响应",
+            "unit": null,
+            "attribution": "Marie Manrique"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": "中国提供支持",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": "中国救援力量救出6人",
+            "unit": null,
+            "attribution": "Guo Jiakun"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "首批救灾物资",
+            "unit": null,
+            "attribution": "Guo Jiakun"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "红十字组织提供院前护理和基本物资",
+        "fact_type": "aid",
+        "attribute": "red_cross_response",
+        "supporting_spans": [
+          "A001_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": [
+              "急救",
+              "院前护理",
+              "毯子",
+              "防水布",
+              "卫生用品包"
+            ],
+            "unit": null,
+            "attribution": "Marie Manrique"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003",
+        "FC004"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-03-28",
+          "time_precision": "Local date",
+          "description": "缅甸发生强烈地震。",
+          "supporting_spans": [
+            "A001_F001"
+          ]
+        },
+        {
+          "time": "2025-03-31",
+          "time_precision": "Local date",
+          "description": "搜救仍在继续，红十字组织提供援助，中国发言人报告已救出6人。",
+          "supporting_spans": [
+            "A001_F002",
+            "A002_F001",
+            "A003_F001"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "国内冲突及其他因素使救援队难以抵达缅甸部分地区。",
+          "supporting_spans": [
+            "A002_F002"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "地震促使缅甸和曼谷开展紧急搜救，红十字组织和国际社会提供援助。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F002",
+            "A002_F001",
+            "A002_F003",
+            "A003_F001"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "地区死亡人数无法按国家细分。曼谷建筑材料问题仍在调查中。"
+    ]
+  }
+}

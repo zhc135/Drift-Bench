@@ -1,0 +1,689 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-VO-1232690C92C19F48",
+  "event_rank": 38,
+  "event_metadata": {
+    "event_name": "Eruption  Kanlaon",
+    "disaster_type": "volcanic_eruption",
+    "disaster_type_code": "VO",
+    "event_start_time": "2025-04-07T22:13:00+00:00",
+    "event_end_time": "2025-04-29T15:35:00+00:00",
+    "locations": [
+      "Philippines"
+    ],
+    "latitude": 10.412,
+    "longitude": 123.132,
+    "place_names_in_reports": [
+      "Kanlaon",
+      "Negros island",
+      "Negros Occidental",
+      "Negros Oriental",
+      "Philippines"
+    ],
+    "gdacs_id": "1000112",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "当地 4 月 8 日周二上午；与 CSV 的 4 月 7 日 UTC 起点使用不同表示。"
+    ],
+    "dataset_place_name": "Eruption  Kanlaon",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-6EB8BEE0074AD7F0",
+      "event_id": "DIS-VO-1232690C92C19F48",
+      "event_rank": 38,
+      "article_rank": 1,
+      "title": "Mount Kanlaon''s Fiery Awakening About 3 minutes ago Philippines",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/science-environment/3338331-mount-kanlaons-fiery-awakening",
+      "published_at": "2025-04-08T01:08:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "与 A002 报道结构、Bacolcol 访谈和数字高度相似，无明确底稿署名。",
+      "content": "A significant volcanic eruption occurred on Tuesday morning at Mount Kanlaon in the central Philippines, sending an ash plume soaring 4,000 meters into the sky, as reported by the seismology agency. The Philippine Institute of Volcanology and Seismology (Phivolcs) has maintained an alert level 3 since December 2024 due to previous explosive events at the site.\n\nThis alert level, the third on a five-point scale, indicates heightened dangers of lava flows and a potential hazardous eruption within weeks. Mount Kanlaon, located across the central provinces of Negros Occidental and Negros Oriental, is among 24 active volcanoes in the Philippines, a country familiar with such geological activities.\n\nPhivolcs Director Teresito Bacolcol noted in a radio interview that alert levels could shift based on magma ascension rates. A rapid rise could elevate the alert to level 4, suggesting imminent eruption, while slower magma movements might see it reduced to level 2. The Philippines, part of the Pacific \"Ring of Fire,\" is prone to volcanic eruptions and earthquakes.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "A significant volcanic eruption occurred on Tuesday morning at Mount Kanlaon in the central Philippines, sending an ash plume soaring 4,000 meters into the sky, as reported by the seismology agency. The Philippine Institute of Volcanology and Seismology (Phivolcs) has maintained an alert level 3 since December 2024 due to previous explosive events at the site.\n\n",
+          "start_offset": 0,
+          "end_offset": 364,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "response",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "ash_plume",
+              "value": 4000,
+              "unit": "m"
+            },
+            {
+              "attribute": "alert_level",
+              "value": 3,
+              "unit": null
+            },
+            {
+              "attribute": "alert_since",
+              "value": "December 2024",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "This alert level, the third on a five-point scale, indicates heightened dangers of lava flows and a potential hazardous eruption within weeks. Mount Kanlaon, located across the central provinces of Negros Occidental and Negros Oriental, is among 24 active volcanoes in the Philippines, a country familiar with such geological activities.\n\n",
+          "start_offset": 364,
+          "end_offset": 703,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "response",
+            "secondary_hazard",
+            "location",
+            "disaster_magnitude"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "alert_scale_max",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "attribute": "active_volcanoes_national",
+              "value": 24,
+              "unit": null
+            },
+            {
+              "attribute": "location",
+              "value": [
+                "Negros Occidental",
+                "Negros Oriental"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "Phivolcs Director Teresito Bacolcol noted in a radio interview that alert levels could shift based on magma ascension rates. A rapid rise could elevate the alert to level 4, suggesting imminent eruption, while slower magma movements might see it reduced to level 2. The Philippines, part of the Pacific \"Ring of Fire,\" is prone to volcanic eruptions and earthquakes.",
+          "start_offset": 703,
+          "end_offset": 1069,
+          "sentence_ids": [
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "response",
+            "uncertainty",
+            "secondary_hazard",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "potential_alerts",
+              "value": [
+                2,
+                4
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "determining_factor",
+              "value": "magma ascent rate",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Teresito Bacolcol",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "18e42815c71265ff9f6e48936ca9b7f70541980df008212e1c173c2418d55da9",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-25F4838FFDA596C8",
+      "event_id": "DIS-VO-1232690C92C19F48",
+      "event_rank": 38,
+      "article_rank": 2,
+      "title": "5 Sseismology agency: Philippines'' Kanlaon volcano eruption resumes",
+      "publisher": "chinadailyhk",
+      "identified_publisher": null,
+      "source_domain": "chinadailyhk.com",
+      "url": "https://www.chinadailyhk.com/hk/article/608898",
+      "published_at": "2025-04-08T07:13:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "Manila 电头且与 A001 引用同一 DWPM 采访，稿源链未确认。",
+      "content": "MANILA - A volcano in the central Philippines erupted on Tuesday morning, ejecting an ash-laden plume reaching around 4,000 meters (2.5 miles) high, the seismology agency said.\n\nThe Philippine Institute of Volcanology and Seismology (Phivolcs) said alert level 3 remained in effect over Mount Kanlaon, where it has been since December 2024 after an earlier explosive event.\n\nMount Kanlaon, an active volcano straddling the Southeast Asian country's central provinces of Negros Occidental and Negros Oriental, is one of two dozen active volcanoes in the Philippines.\n\nREAD MORE : Philippines issues health warning as volcanic gas hits capital\n\nPhivolcs director Teresito Bacolcol told DWPM radio there is a possibility the alert level could either be raised or lowered in the coming days, depending on how quickly magma rises to the surface.\n\nA faster ascent could trigger a more intense eruption, prompting an escalation to alert level 4, while a slowdown or pause in magma movement may lead to a downgrade to alert level 2, Bacolcol said.\n\nREAD MORE : Volcanologist: Mayon volcano eruption may last for months\n\nThe Southeast Asian nation is located on the Pacific \" Ring of Fire \" where volcanic activity and earthquakes are common.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "MANILA - A volcano in the central Philippines erupted on Tuesday morning, ejecting an ash-laden plume reaching around 4,000 meters (2.5 miles) high, the seismology agency said.\n\nThe Philippine Institute of Volcanology and Seismology (Phivolcs) said alert level 3 remained in effect over Mount Kanlaon, where it has been since December 2024 after an earlier explosive event.\n\nMount Kanlaon, an active volcano straddling the Southeast Asian country's central provinces of Negros Occidental and Negros Oriental, is one of two dozen active volcanoes in the Philippines.\n\n",
+          "start_offset": 0,
+          "end_offset": 567,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "response",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "ash_plume",
+              "value": {
+                "value": 4000,
+                "qualifier": "around"
+              },
+              "unit": "m"
+            },
+            {
+              "attribute": "current_alert_level",
+              "value": 3,
+              "unit": null
+            },
+            {
+              "attribute": "alert_since",
+              "value": "December 2024",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "READ MORE : Philippines issues health warning as volcanic gas hits capital\n\n",
+          "start_offset": 567,
+          "end_offset": 643,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "Phivolcs director Teresito Bacolcol told DWPM radio there is a possibility the alert level could either be raised or lowered in the coming days, depending on how quickly magma rises to the surface.\n\nA faster ascent could trigger a more intense eruption, prompting an escalation to alert level 4, while a slowdown or pause in magma movement may lead to a downgrade to alert level 2, Bacolcol said.\n\n",
+          "start_offset": 643,
+          "end_offset": 1041,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "response",
+            "uncertainty",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "potential_alerts",
+              "value": [
+                2,
+                4
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "source",
+              "value": "Teresito Bacolcol to DWPM",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "READ MORE : Volcanologist: Mayon volcano eruption may last for months\n\n",
+          "start_offset": 1041,
+          "end_offset": 1112,
+          "sentence_ids": [
+            7
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "The Southeast Asian nation is located on the Pacific \" Ring of Fire \" where volcanic activity and earthquakes are common.",
+          "start_offset": 1112,
+          "end_offset": 1233,
+          "sentence_ids": [
+            8
+          ],
+          "fact_types": [
+            "disaster_occurrence"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "2dc6ca860831193046e9db00e63cefa200f6af236cc60e385243b9d416de10eb",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-4B11CD89E2E954CA",
+      "event_id": "DIS-VO-1232690C92C19F48",
+      "event_rank": 38,
+      "article_rank": 3,
+      "title": "Volcanic eruption of Philippines' Mount Kanlaon rains ash on villages",
+      "publisher": "euronews-en",
+      "identified_publisher": null,
+      "source_domain": "euronews.com",
+      "url": "https://www.euronews.com/2025/04/08/volcanic-eruption-of-philippines-mount-kanlaon-rains-ash-on-villages",
+      "published_at": "2025-04-08T08:37:20+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "Euronews 有邻近村庄灰降及伤亡状态的表述，未明确独立稿件署名。",
+      "content": "One of the Philippines' most active volcanoes erupted on Tuesday, sending ash up to 4,000 metres into the sky.The explosion of Mount Kanlaon on central Negros island, one of the country’s 24 most active volcanoes, has raised health concerns due to ashfall that hit nearby villages. However, there have been no immediate reports of casualties.The 2,435-metre volcano's previous eruption last October sent hundreds of villagers fleeing to emergency shelters.While the volcano is currently on alert level 3, with alert level 5 being the highest, the Philippines is among the countries most prone to natural disasters.It is usually hit by about 20 typhoons and storms a year, and is located in the so-called Pacific “Ring of Fire”, an approximately 40,233km-long chain of volcanoes and seismically active regions surrounding the Pacific Ocean.According to National Geographic, it is where 90% of earthquakes occur, and is home to 75% of the world's volcanoes.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "One of the Philippines' most active volcanoes erupted on Tuesday, sending ash up to 4,000 metres into the sky.The explosion of Mount Kanlaon on central Negros island, one of the country’s 24 most active volcanoes, has raised health concerns due to ashfall that hit nearby villages. However, there have been no immediate reports of casualties.",
+          "start_offset": 0,
+          "end_offset": 342,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "secondary_hazard",
+            "casualties"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "ash_height",
+              "value": {
+                "value": 4000,
+                "qualifier": "up_to"
+              },
+              "unit": "m"
+            },
+            {
+              "attribute": "villages",
+              "value": "ashfall reported",
+              "unit": null
+            },
+            {
+              "attribute": "casualties",
+              "value": "none immediately reported",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "The 2,435-metre volcano's previous eruption last October sent hundreds of villagers fleeing to emergency shelters.",
+          "start_offset": 342,
+          "end_offset": 456,
+          "sentence_ids": [
+            4
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "evacuation"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "historical_scope",
+              "value": "stated previous eruption last October",
+              "unit": null
+            },
+            {
+              "attribute": "volcano_elevation",
+              "value": 2435,
+              "unit": "m"
+            },
+            {
+              "attribute": "evacuees",
+              "value": "hundreds",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "While the volcano is currently on alert level 3, with alert level 5 being the highest, the Philippines is among the countries most prone to natural disasters.It is usually hit by about 20 typhoons and storms a year, and is located in the so-called Pacific “Ring of Fire”, an approximately 40,233km-long chain of volcanoes and seismically active regions surrounding the Pacific Ocean.According to National Geographic, it is where 90% of earthquakes occur, and is home to 75% of the world's volcanoes.",
+          "start_offset": 456,
+          "end_offset": 955,
+          "sentence_ids": [
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "response",
+            "disaster_magnitude",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "alert_level",
+              "value": 3,
+              "unit": null
+            },
+            {
+              "attribute": "alert_scale_max",
+              "value": 5,
+              "unit": null
+            },
+            {
+              "attribute": "typical_annual_typhoons_and_storms",
+              "value": {
+                "value": 20,
+                "qualifier": "about"
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "7f344d8daf7f6a2146c17392a706b241603c87f739b7bb299f0bf5d197fc6fdb",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "三篇报道火山灰柱达约 4000 米",
+        "fact_type": "disaster_magnitude",
+        "attribute": "ash_plume_height",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 4000,
+            "unit": "m",
+            "attribution": "PHIVOLCS"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "value": 4000,
+              "qualifier": "around"
+            },
+            "unit": "m",
+            "attribution": "PHIVOLCS"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": {
+              "value": 4000,
+              "qualifier": "up_to"
+            },
+            "unit": "m",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "当前警戒维持 3 级",
+        "fact_type": "response",
+        "attribute": "current_alert",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F001",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 3,
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": 3,
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": 3,
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "附近村庄灰降与初期伤亡报道",
+        "fact_type": "secondary_hazard",
+        "attribute": "village_ashfall",
+        "supporting_spans": [
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": "ashfall in nearby villages; no immediate casualties reported",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "过往喷发日期描述的指代范围不同",
+        "fact_type": "timeline",
+        "attribute": "historical_eruption_reference",
+        "supporting_spans": [
+          "A002_F001",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "alert maintained since a December 2024 explosive event",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "previous eruption referred to as last October",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "supplementary",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "不能确定前次指同一喷发。"
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003"
+      ],
+      "supplementary_facts": [
+        "FC004"
+      ],
+      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-04-08",
+          "time_precision": "当地日",
+          "description": "Kanlaon 重新喷发，灰柱约 4000 米，警戒维持 3 级。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F001",
+            "A003_F001",
+            "A003_F003"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "PHIVOLCS 人员称岩浆上升速度将影响警戒是否上调或下调。",
+          "supporting_spans": [
+            "A001_F003",
+            "A002_F003"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "Kanlaon 火山周二喷发并在邻近村庄降灰，当前警戒维持第三级。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F001",
+            "A003_F001",
+            "A003_F003"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "limitations": [
+      "文章对此前喷发的指代并未统一，未改写。"
+    ]
+  }
+}

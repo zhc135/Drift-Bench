@@ -1,0 +1,736 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-WF-010B5CE5E018449B",
+  "event_rank": 41,
+  "event_metadata": {
+    "event_name": "希腊森林火灾",
+    "disaster_type": "wildfire",
+    "disaster_type_code": "WF",
+    "event_start_time": "2024-08-11T00:00:00+00:00",
+    "event_end_time": "2024-08-13T00:00:00+00:00",
+    "locations": [
+      "希腊"
+    ],
+    "latitude": 38.1512,
+    "longitude": 23.926,
+    "place_names_in_reports": [
+      "希腊",
+      "瓦尔纳瓦斯",
+      "雅典",
+      "彭特利",
+      "弗里利西亚",
+      "塞浦路斯",
+      "北马其顿"
+    ],
+    "gdacs_id": "1021078",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "希腊火灾始于8月11日。塞浦路斯消防队于8月14日返回。"
+    ],
+    "dataset_place_name": "希腊森林火灾",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-A4A580359D987593",
+      "event_id": "DIS-WF-010B5CE5E018449B",
+      "event_rank": 41,
+      "article_rank": 1,
+      "title": "在北马其顿奋战五天灭火后，塞浦路斯消防员返回",
+      "publisher": "cyprus-mail",
+      "identified_publisher": null,
+      "source_domain": "cyprus-mail.com",
+      "url": "https://cyprus-mail.com/2024/08/14/cypriot-firefighters-return-from-north-macedonia-after-battling-blaze-for-five-days/",
+      "published_at": "2024-08-14T14:11:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "《塞浦路斯邮报》包含对林业部门主任的独立采访。",
+      "content": "塞浦路斯林业部门主任萨瓦斯·耶泽基尔星期三表示，塞浦路斯赴北马其顿应对森林火灾的消防任务已完成，凭借出色的行动表现留下良好印象，队伍正返回塞浦路斯。 关于对希腊的援助，他表示，援助计划被取消，因为无法立即满足派遣携带消防设备人员的请求，通过海路运送地面消防员需要时间，而与此同时，火灾似乎已由希腊消防力量控制，因此没有实际必要再派遣。 具体而言，关于林业部门两架赴北马其顿提供五天灭火援助的 Air Tractor AT-802 消防飞机，以及4名机组人员和5名地面支援人员，耶泽基尔表示任务已经完成。他补充说：“我们取得了很好的成果。”他表示，行动方式令人印象深刻，因为“我们改善了系统，并在欧盟要求的五天期间帮助了北马其顿共和国，今天（8月14日中午后）他们将与机组人员一起返回塞浦路斯”。他接着说，他们在不同地区行动五天，扑灭多个火线。被问及北马其顿的火灾是否已扑灭时，他说那里仍有火灾，因为火灾发生在山毛榉和橡树林中，灭火非常困难，需要大量地面力量而非飞机。他解释说，Air Tractor 飞机将与机组人员一起返回并降落在帕福斯机场，而支援人员稍后将乘坐商业航班从斯科普里经雅典或塞萨洛尼基返回。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "塞浦路斯林业部门主任萨瓦斯·耶泽基尔星期三表示，塞浦路斯赴北马其顿应对森林火灾的消防任务已完成，凭借出色的行动表现留下良好印象，队伍正返回塞浦路斯。 ",
+          "start_offset": 0,
+          "end_offset": 75,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "response",
+            "aid",
+            "weather"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "塞浦路斯向北马其顿提供援助",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "关于对希腊的援助，他表示，援助计划被取消，因为无法立即满足派遣携带消防设备人员的请求，通过海路运送地面消防员需要时间，而与此同时，火灾似乎已由希腊消防力量控制，因此没有实际必要再派遣。 ",
+          "start_offset": 75,
+          "end_offset": 168,
+          "sentence_ids": [
+            2
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "希腊",
+              "unit": null
+            },
+            {
+              "attribute": "assistance_status",
+              "value": "未派遣",
+              "unit": null
+            },
+            {
+              "attribute": "constraint",
+              "value": "地面消防员和设备需要海运",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "具体而言，关于林业部门两架赴北马其顿提供五天灭火援助的 Air Tractor AT-802 消防飞机，以及4名机组人员和5名地面支援人员，耶泽基尔表示任务已经完成。他补充说：“我们取得了很好的成果。”他表示，行动方式令人印象深刻，因为“我们改善了系统，并在欧盟要求的五天期间帮助了北马其顿共和国，今天（8月14日中午后）他们将与机组人员一起返回塞浦路斯”。他接着说，他们在不同地区行动五天，扑灭多个火线。被问及北马其顿的火灾是否已扑灭时，他说那里仍有火灾，因为火灾发生在山毛榉和橡树林中，灭火非常困难，需要大量地面力量而非飞机。他解释说，Air Tractor 飞机将与机组人员一起返回并降落在帕福斯机场，而支援人员稍后将乘坐商业航班从斯科普里经雅典或塞萨洛尼基返回。",
+          "start_offset": 168,
+          "end_offset": 503,
+          "sentence_ids": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "weather"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "北马其顿",
+              "unit": null
+            },
+            {
+              "attribute": "aircraft",
+              "value": 2,
+              "unit": "planes"
+            },
+            {
+              "attribute": "crew",
+              "value": 4,
+              "unit": "people"
+            },
+            {
+              "attribute": "ground_support",
+              "value": 5,
+              "unit": "people"
+            },
+            {
+              "attribute": "duration",
+              "value": 5,
+              "unit": "days"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "ab87cc076a7f91f4cd3ae1d5c72976e11c6787e8947ad6df50493eb7b29e9ddd",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-97C06B551341AC3F",
+      "event_id": "DIS-WF-010B5CE5E018449B",
+      "event_rank": 41,
+      "article_rank": 2,
+      "title": "疑似电缆故障引发希腊最严重野火 | 科学与环境",
+      "publisher": "devdiscourse",
+      "identified_publisher": null,
+      "source_domain": "devdiscourse.com",
+      "url": "https://www.devdiscourse.com/article/science-environment/3053003-faulty-cable-suspected-in-greeces-worst-wildfire",
+      "published_at": "2024-08-15T12:50:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "使用与路透社相同的引语、调查线索及数据。来源链不明。",
+      "content": "接近调查的消息人士表示，调查人员怀疑一根故障电力电缆可能是希腊今年最严重野火的起因。这场8月11日开始的大火造成1名女子死亡，烧毁雅典附近10,000公顷土地。\n\n火灾始于距首都35公里的瓦尔纳瓦斯镇附近一片森林，迅速蔓延至雅典北部郊区。调查人员采访当地居民，其中包括一名76岁男子，他认为其住宅外一根木制电线杆上松动的电缆可能引发火灾。\n\n气候变化、高温和大风加剧希腊野火风险，该国2023年记录到超过8,000起森林火灾。 工程师正在调查，但电网运营商 HEDNO 称未发现故障证据。尽管风势减弱使火势缓和，官员警告仍可能复燃。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "接近调查的消息人士表示，调查人员怀疑一根故障电力电缆可能是希腊今年最严重野火的起因。这场8月11日开始的大火造成1名女子死亡，烧毁雅典附近10,000公顷土地。\n\n",
+          "start_offset": 0,
+          "end_offset": 82,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "cause",
+            "casualties",
+            "damage"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "suspected_cause",
+              "value": "故障电力电缆",
+              "unit": null
+            },
+            {
+              "attribute": "fire_start",
+              "value": "8月11日",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": 1,
+              "unit": "person"
+            },
+            {
+              "attribute": "burned_area",
+              "value": 10000,
+              "unit": "ha"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "火灾始于距首都35公里的瓦尔纳瓦斯镇附近一片森林，迅速蔓延至雅典北部郊区。调查人员采访当地居民，其中包括一名76岁男子，他认为其住宅外一根木制电线杆上松动的电缆可能引发火灾。\n\n",
+          "start_offset": 82,
+          "end_offset": 171,
+          "sentence_ids": [
+            3,
+            4
+          ],
+          "fact_types": [
+            "location",
+            "cause",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "start_location",
+              "value": "瓦尔纳瓦斯附近",
+              "unit": null
+            },
+            {
+              "attribute": "distance_from_athens",
+              "value": 35,
+              "unit": "km"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "气候变化、高温和大风加剧希腊野火风险，该国2023年记录到超过8,000起森林火灾。 ",
+          "start_offset": 171,
+          "end_offset": 214,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_occurrence",
+            "cause"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "greek_2023_fires",
+              "value": {
+                "value": 8000,
+                "qualifier": "greater_than"
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "工程师正在调查，但电网运营商 HEDNO 称未发现故障证据。尽管风势减弱使火势缓和，官员警告仍可能复燃。",
+          "start_offset": 214,
+          "end_offset": 266,
+          "sentence_ids": [
+            6,
+            7
+          ],
+          "fact_types": [
+            "cause",
+            "response",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "power_operator_position",
+              "value": "无故障证据",
+              "unit": null
+            },
+            {
+              "attribute": "flare_up_risk",
+              "value": "仍存在",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "9664915b9f8ed7cc0a5ef74964f94228661913ec8c6448423c011db1d97e982c",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-D73DBD3425159257",
+      "event_id": "DIS-WF-010B5CE5E018449B",
+      "event_rank": 41,
+      "article_rank": 3,
+      "title": "故障电力电缆可能引发希腊今年最严重野火 | Dunya News",
+      "publisher": "dunyanews",
+      "identified_publisher": "Reuters",
+      "source_domain": "dunyanews.tv",
+      "url": "https://dunyanews.tv/en/World/831025-faulty-power-cable-may-have-caused-greeces-worst-wildfire-this-year",
+      "published_at": "2024-08-15T14:03:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "雅典发稿地注明路透社。",
+      "content": "摘要 故障电力电缆可能引发希腊今年最严重野火\n\n雅典（路透社）——接近调查的消息人士表示，调查人员怀疑故障电力电缆可能引发希腊今年最严重野火。这场大火造成1名女子死亡，烧毁雅典附近10,000公顷土地，总面积约相当于巴黎。\n\n大火于8月11日开始，从距首都35公里（22英里）的瓦尔纳瓦斯镇附近森林蔓延，并在一天内进入雅典北部郊区，其中一些地方此前从未发生野火。\n\n作为火灾起因调查的一部分，当局已询问瓦尔纳瓦斯居民。官员表示，一名76岁男子说，其住宅外一根木制电线杆上有一根用挂件固定的松动电缆，可能引发了大火。\n\n一名了解调查情况的官员表示，这是调查中优先考虑的情景，调查应在未来几个月完成。纵火也在考虑范围内。\n\n一名拒绝透露姓名的消防官员表示，电线杆附近的区域已被确定为火灾起点。\n\n多年来，野火一直是希腊夏季常见现象，其中许多归因于故意或非故意纵火、短路，偶尔也由自然原因引起。该国2023年记录到超过8,000起森林火灾。\n\n近年来，气候变化带来更炎热的天气和更少降雨，使此类火灾风险上升。\n\n一名检察官已派工程师调查最近这场野火的原因。\n\n希腊电网运营商 HEDNO 表示，没有发现故障证据。\n\n一名 HEDNO 官员告诉路透社：“我们没有发现发生短路等异常情况的迹象。”他补充说，只有相关当局负责确定火灾起因。\n\n当地媒体援引一些居民称，他们在火灾发生前听到了爆炸声。另一些居民说，最初有两处火点。\n\n风势减弱使火势缓和，大火在抵达雅典郊区彭特利及弗里利西亚前蔓延了40公里（24.85英里），其中一名女子遇难。\n\n官员警告，预计风势将再次增强，因此仍可能复燃。\n\n星期日迅速蔓延的大火发生时，由于高温和大风，持续一周的高火灾风险警报正在生效。\n\n消防员表示，希腊今年经历了有记录以来最温暖的冬季，有望迎来最炎热的夏季，许多地区降雨稀少，这些条件易造成火灾灾难。\n\n78岁的瓦尔纳瓦斯居民扬尼斯·齐米尼斯星期三告诉路透社：“火灾从距离这里很远的地方开始，可能来自一条电力线路，转眼间就把一切烧光了。”",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "摘要 故障电力电缆可能引发希腊今年最严重野火\n\n",
+          "start_offset": 0,
+          "end_offset": 24,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "雅典（路透社）——接近调查的消息人士表示，调查人员怀疑故障电力电缆可能引发希腊今年最严重野火。这场大火造成1名女子死亡，烧毁雅典附近10,000公顷土地，总面积约相当于巴黎。\n\n大火于8月11日开始，从距首都35公里（22英里）的瓦尔纳瓦斯镇附近森林蔓延，并在一天内进入雅典北部郊区，其中一些地方此前从未发生野火。\n\n",
+          "start_offset": 24,
+          "end_offset": 183,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "cause",
+            "casualties",
+            "damage",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "deaths",
+              "value": 1,
+              "unit": "person"
+            },
+            {
+              "attribute": "burned_area",
+              "value": 10000,
+              "unit": "ha"
+            },
+            {
+              "attribute": "start_date",
+              "value": "8月11日",
+              "unit": null
+            },
+            {
+              "attribute": "distance_from_athens",
+              "value": 35,
+              "unit": "km"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "作为火灾起因调查的一部分，当局已询问瓦尔纳瓦斯居民。官员表示，一名76岁男子说，其住宅外一根木制电线杆上有一根用挂件固定的松动电缆，可能引发了大火。\n\n一名了解调查情况的官员表示，这是调查中优先考虑的情景，调查应在未来几个月完成。纵火也在考虑范围内。\n\n一名拒绝透露姓名的消防官员表示，电线杆附近的区域已被确定为火灾起点。\n\n",
+          "start_offset": 183,
+          "end_offset": 346,
+          "sentence_ids": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "response",
+            "uncertainty",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "reported_hypotheses",
+              "value": [
+                "松动的电力电缆",
+                "纵火"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "witness_age",
+              "value": 76,
+              "unit": "years"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "多年来，野火一直是希腊夏季常见现象，其中许多归因于故意或非故意纵火、短路，偶尔也由自然原因引起。该国2023年记录到超过8,000起森林火灾。\n\n近年来，气候变化带来更炎热的天气和更少降雨，使此类火灾风险上升。\n\n",
+          "start_offset": 346,
+          "end_offset": 453,
+          "sentence_ids": [
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_occurrence",
+            "cause"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "greek_2023_fires",
+              "value": {
+                "value": 8000,
+                "qualifier": "greater_than"
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "一名检察官已派工程师调查最近这场野火的原因。\n\n希腊电网运营商 HEDNO 表示，没有发现故障证据。\n\n一名 HEDNO 官员告诉路透社：“我们没有发现发生短路等异常情况的迹象。”他补充说，只有相关当局负责确定火灾起因。\n\n当地媒体援引一些居民称，他们在火灾发生前听到了爆炸声。另一些居民说，最初有两处火点。\n\n",
+          "start_offset": 453,
+          "end_offset": 609,
+          "sentence_ids": [
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "fact_types": [
+            "response",
+            "uncertainty",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "hedno_position",
+              "value": "无故障证据",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "风势减弱使火势缓和，大火在抵达雅典郊区彭特利及弗里利西亚前蔓延了40公里（24.85英里），其中一名女子遇难。\n\n官员警告，预计风势将再次增强，因此仍可能复燃。\n\n星期日迅速蔓延的大火发生时，由于高温和大风，持续一周的高火灾风险警报正在生效。\n\n消防员表示，希腊今年经历了有记录以来最温暖的冬季，有望迎来最炎热的夏季，许多地区降雨稀少，这些条件易造成火灾灾难。\n\n78岁的瓦尔纳瓦斯居民扬尼斯·齐米尼斯星期三告诉路透社：“火灾从距离这里很远的地方开始，可能来自一条电力线路，转眼间就把一切烧光了。”",
+          "start_offset": 609,
+          "end_offset": 858,
+          "sentence_ids": [
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "fact_types": [
+            "weather",
+            "damage",
+            "casualties",
+            "cause",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "spread_distance",
+              "value": 40,
+              "unit": "km"
+            },
+            {
+              "attribute": "fatality_location_scope",
+              "value": "所描述的雅典郊区",
+              "unit": null
+            },
+            {
+              "attribute": "risk",
+              "value": "可能复燃",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "012149106f82ee8a473dbce176d02e62e6cdd994847d6a03244b22222c2fdc2e",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "希腊野火从瓦尔纳瓦斯向雅典北部蔓延",
+        "fact_type": "location",
+        "attribute": "fire_path",
+        "supporting_spans": [
+          "A002_F002",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": "从瓦尔纳瓦斯至雅典北部郊区",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "从瓦尔纳瓦斯至雅典北部郊区",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "报道给出1人死亡及10,000公顷过火面积",
+        "fact_type": "damage",
+        "attribute": "reported_loss",
+        "supporting_spans": [
+          "A002_F001",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": {
+              "deaths": 1,
+              "burned_ha": 10000
+            },
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "deaths": 1,
+              "burned_ha": 10000
+            },
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": "这些报道似乎共享同一来源。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "电力电缆故障是正在调查的假设之一",
+        "fact_type": "cause",
+        "attribute": "ignition_cause",
+        "supporting_spans": [
+          "A002_F001",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "怀疑电力电缆故障",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "松动电缆是主要假设；也考虑纵火",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": "电网运营商报告未发现故障证据。起火原因仍未确认。"
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2024-08-11",
+          "time_precision": "Local date",
+          "description": "瓦尔纳瓦斯附近野火向雅典北部郊区蔓延。",
+          "supporting_spans": [
+            "A002_F001",
+            "A002_F002",
+            "A003_F002"
+          ]
+        },
+        {
+          "time": "2024-08-15",
+          "time_precision": "Publication date",
+          "description": "媒体报道火灾原因调查及持续的复燃风险。",
+          "supporting_spans": [
+            "A002_F004",
+            "A003_F005",
+            "A003_F006"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "更加炎热干燥的天气及大风增加火灾风险。电力电缆假设仍在调查。",
+          "supporting_spans": [
+            "A002_F001",
+            "A002_F003",
+            "A002_F004",
+            "A003_F005",
+            "A003_F006"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "雅典附近野火烧毁大片土地并造成1人死亡，原因仍未确定。",
+          "supporting_spans": [
+            "A002_F001",
+            "A003_F002",
+            "A003_F005"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "A001 聚焦北马其顿另一起火灾，仅涉及对希腊援助的段落被用作本事件证据。"
+    ]
+  }
+}

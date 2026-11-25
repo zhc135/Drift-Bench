@@ -1,0 +1,1188 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-WF-5C7448B3CC211D80",
+  "event_rank": 43,
+  "event_metadata": {
+    "event_name": "西班牙森林火灾",
+    "disaster_type": "wildfire",
+    "disaster_type_code": "WF",
+    "event_start_time": "2026-07-22T00:00:00+00:00",
+    "event_end_time": "2026-07-30T00:00:00+00:00",
+    "locations": [
+      "西班牙"
+    ],
+    "latitude": 40.3594,
+    "longitude": -4.5405,
+    "place_names_in_reports": [
+      "西班牙",
+      "阿维拉",
+      "马德里",
+      "比利亚曼塔",
+      "托莱多",
+      "瓦伦西亚",
+      "卡斯特利翁",
+      "法国",
+      "吉伦特",
+      "波尔多"
+    ],
+    "gdacs_id": "1029643",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "7月27日的报道共享同一来源，与 CBC 7月29日的综合报道分别记录。区域撤离人数不能简单相加。"
+    ],
+    "dataset_place_name": "西班牙森林火灾",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-E0A69982E74F81CB",
+      "event_id": "DIS-WF-5C7448B3CC211D80",
+      "event_rank": 43,
+      "article_rank": 1,
+      "title": "法国、西班牙与“怪物”野火奋战，新一轮高温即将到来",
+      "publisher": "freemalaysiatoday",
+      "identified_publisher": "AFP",
+      "source_domain": "freemalaysiatoday.com",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/07/27/france-spain-battle-monster-wildfires-with-more-heat-on-the-way",
+      "published_at": "2026-07-27T00:54:16+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "Kuwait Times 在结尾注明法新社来源。Free Malaysia Today 共享大量稿件，并明确注明法新社采访。",
+      "content": "在法国西南部马尔什普里姆，法国消防员努力控制野火，持续的大火造成广泛损失。 （EPA Images图片）波尔多：星期一，消防员再次与席卷法国和西班牙森林的大火奋战，预计法国西南部将遭遇另一场热浪，危机可能进一步加深。两国历史上一些最严重的森林火灾正在法国西南部和西班牙中部马德里附近肆虐，超过325,000人已离开家园。 法国全国消防员联合会（FNSPF）称，法国这场火灾是该国二战以来规模最大的火灾之一，已产生前所未有的“火积雨云”，即产生自身风力、并携带会引发更多火灾的闪电的巨大火云。FNSPF 发言人埃里克·布罗卡尔迪说：“这是大卫对歌利亚的情景……在某个时刻，我们会找到薄弱点并从那儿出击。”法国总统埃马纽埃尔·马克龙将在星期一上午举行内阁危机会议，讨论紧急情况。 西班牙首相佩德罗·桑切斯星期一将视察该国东部瓦伦西亚的火灾灾区。当地消防员正在扑救一场新火灾，已有15,000人被迫离开家园。星期日，他在视察马德里以西阿维拉省火区时警告：“艰难的时刻在前方。” 西班牙内政部长费尔南多·格兰德-马拉斯卡星期日晚间表示，火势正在蔓延，但速度较慢。星期日早些时候，民防负责人弗吉尼娅·巴尔科内斯在描述阿维拉附近火灾时说，该国正在与一个“怪物”作斗争。巴尔科内斯告诉国营广播电视机构 TVE：“我们面对的是周长280公里、面积77,000公顷（190,000英亩）的野火。” “极其猛烈” 科学家表示，气候变化正在使此类极端天气事件更加频繁和强烈。正值暑期旅游旺季，这些火灾受到自5月以来接连的热浪及缺乏降雨造成极度干燥、易燃林地的助长。 在法国，野火集中于西南部吉伦特地区，该地区行政长官敦促游客远离当地并寻找“其他目的地”。 该地区约220,000人已撤离，45个露营地被迫关闭，使约40,000人假期计划泡汤。 乔治·克利瓦手持花园水管，沿通往其位于圣让迪拉克的房产的道路喷水，大火在几公里外燃烧。 他告诉法新社：“我们这样做是为了减缓火势推进，我们想保住家园。”尽管村庄星期五已经疏散，克利瓦表示自己和家人仍试图坚守。“但消防员告诉我们，两三个小时后大火就会烧到这里。” 法国内政部长洛朗·努涅斯警告，法国各地“形势仍然十分不利”，全国已有超过250,000人撤离。 他在 X 上表示，位于波尔多所在地吉伦特的主要火灾“极其猛烈且不可预测……产生自身风力并不规则地向波尔多都会区推进”。消防员受伤 根据省政府星期日发布的最新灾情报告，自星期三以来，吉伦特地区火灾已造成84名消防员受伤，其中10人已被撤离。法国工会 CFDT 联邦秘书塞巴斯蒂安·布维耶表示，消防员缺乏足够的防护装备来抵御火灾产生的有毒烟雾。 气象预报人员警告，法国可能自星期二起遭遇另一场热浪，部分地区气温将达40摄氏度。吉伦特地区至少240所住宅被毁，其中许多位于勒波尔日村。 但波尔多市长托马·卡泽纳夫表示，没有计划疏散拥有850,000名居民并收容数千名因火灾流离失所人员的城区。他补充说，地方官员仍保持“警惕”。自星期三以来，大火已摧毁吉伦特地区42,000公顷土地，面积相当于曼哈顿的七倍。 法国国防部表示，已采取特别措施保护波尔多周边工业设施，波尔多是该国航空航天工业的重要中心。波尔多南部主要高速公路和铁路服务已中断。约2,500名消防员、1,500名军事人员和约1,200名警察已部署至吉伦特地区。 “无法估量”的损失 国王费利佩六世在视察马德里西郊比利亚曼塔的一处紧急避难所时表示，野火对西班牙自然遗产造成了“无法估量”的破坏。约75,000名居民从马德里地区、阿维拉、托莱多及瓦伦西亚东部卡斯特利翁地区撤离。 “我们真的吓坏了，”阿苏塞娜·帕瓜达说。她是被撤离至由比利亚曼塔体育馆改建的避难所的人员之一。“国民警卫队来到我们家，要求我们离开，告诉我们处于危险中。” 另一名70岁的撤离者玛格丽塔展示了自己已穿四天的T恤上的污渍。她叹息说：“王后过来问候，而我穿着这么脏的衣服。”官员表示，大风正将马德里附近的野火推向南方，暂时远离首都，但迫使更多位于火灾路径上的村庄撤离。 数百公里之外，中央政府驻瓦伦西亚代表皮拉尔·贝尔纳韦在 X 上写道，瓦伦西亚新发生的火灾正显示出“非常猛烈”的态势。星期六，瓦伦西亚附近另一起规模较小的火灾造成1人死亡，这是迄今野火中唯一据报死亡的平民。 在法国，两名消防员星期二在波尔多附近遇难。教宗利奥四世在星期日祈祷中向所有受“毁灭性”西班牙和法国火灾影响的人们表达声援，呼吁人们为他们和第一响应人员祈祷。意大利也面临自己的火灾。海岸警卫队称，南部普利亚地区佩斯基奇镇附近已有400多名游客和海滩游人通过海路撤离，预计另有300人将获救。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "在法国西南部马尔什普里姆，法国消防员努力控制野火，持续的大火造成广泛损失。 ",
+          "start_offset": 0,
+          "end_offset": 38,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "（EPA Images图片）波尔多：星期一，消防员再次与席卷法国和西班牙森林的大火奋战，预计法国西南部将遭遇另一场热浪，危机可能进一步加深。两国历史上一些最严重的森林火灾正在法国西南部和西班牙中部马德里附近肆虐，超过325,000人已离开家园。 ",
+          "start_offset": 38,
+          "end_offset": 161,
+          "sentence_ids": [
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "france_spain_evacuated",
+              "value": {
+                "value": 325000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "法国全国消防员联合会（FNSPF）称，法国这场火灾是该国二战以来规模最大的火灾之一，已产生前所未有的“火积雨云”，即产生自身风力、并携带会引发更多火灾的闪电的巨大火云。FNSPF 发言人埃里克·布罗卡尔迪说：“这是大卫对歌利亚的情景……在某个时刻，我们会找到薄弱点并从那儿出击。”法国总统埃马纽埃尔·马克龙将在星期一上午举行内阁危机会议，讨论紧急情况。 ",
+          "start_offset": 161,
+          "end_offset": 338,
+          "sentence_ids": [
+            4,
+            5,
+            6
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "weather",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "法国",
+              "unit": null
+            },
+            {
+              "attribute": "fire_cloud",
+              "value": "火积雨云",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "西班牙首相佩德罗·桑切斯星期一将视察该国东部瓦伦西亚的火灾灾区。当地消防员正在扑救一场新火灾，已有15,000人被迫离开家园。星期日，他在视察马德里以西阿维拉省火区时警告：“艰难的时刻在前方。” 西班牙内政部长费尔南多·格兰德-马拉斯卡星期日晚间表示，火势正在蔓延，但速度较慢。星期日早些时候，民防负责人弗吉尼娅·巴尔科内斯在描述阿维拉附近火灾时说，该国正在与一个“怪物”作斗争。巴尔科内斯告诉国营广播电视机构 TVE：“我们面对的是周长280公里、面积77,000公顷（190,000英亩）的野火。” ",
+          "start_offset": 338,
+          "end_offset": 590,
+          "sentence_ids": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "fact_types": [
+            "aid",
+            "evacuation",
+            "location",
+            "damage",
+            "disaster_magnitude"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "valencia_evacuated",
+              "value": 15000,
+              "unit": "people"
+            },
+            {
+              "attribute": "avila_perimeter",
+              "value": 280,
+              "unit": "km"
+            },
+            {
+              "attribute": "avila_burned_area",
+              "value": 77000,
+              "unit": "ha"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "“极其猛烈” 科学家表示，气候变化正在使此类极端天气事件更加频繁和强烈。正值暑期旅游旺季，这些火灾受到自5月以来接连的热浪及缺乏降雨造成极度干燥、易燃林地的助长。 ",
+          "start_offset": 590,
+          "end_offset": 672,
+          "sentence_ids": [
+            12,
+            13
+          ],
+          "fact_types": [
+            "weather",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F006",
+          "span_text": "在法国，野火集中于西南部吉伦特地区，该地区行政长官敦促游客远离当地并寻找“其他目的地”。 该地区约220,000人已撤离，45个露营地被迫关闭，使约40,000人假期计划泡汤。 乔治·克利瓦手持花园水管，沿通往其位于圣让迪拉克的房产的道路喷水，大火在几公里外燃烧。 他告诉法新社：“我们这样做是为了减缓火势推进，我们想保住家园。”尽管村庄星期五已经疏散，克利瓦表示自己和家人仍试图坚守。“但消防员告诉我们，两三个小时后大火就会烧到这里。” 法国内政部长洛朗·努涅斯警告，法国各地“形势仍然十分不利”，全国已有超过250,000人撤离。 他在 X 上表示，位于波尔多所在地吉伦特的主要火灾“极其猛烈且不可预测……产生自身风力并不规则地向波尔多都会区推进”。消防员受伤 根据省政府星期日发布的最新灾情报告，自星期三以来，吉伦特地区火灾已造成84名消防员受伤，其中10人已被撤离。法国工会 CFDT 联邦秘书塞巴斯蒂安·布维耶表示，消防员缺乏足够的防护装备来抵御火灾产生的有毒烟雾。 气象预报人员警告，法国可能自星期二起遭遇另一场热浪，部分地区气温将达40摄氏度。吉伦特地区至少240所住宅被毁，其中许多位于勒波尔日村。 但波尔多市长托马·卡泽纳夫表示，没有计划疏散拥有850,000名居民并收容数千名因火灾流离失所人员的城区。他补充说，地方官员仍保持“警惕”。自星期三以来，大火已摧毁吉伦特地区42,000公顷土地，面积相当于曼哈顿的七倍。 法国国防部表示，已采取特别措施保护波尔多周边工业设施，波尔多是该国航空航天工业的重要中心。波尔多南部主要高速公路和铁路服务已中断。约2,500名消防员、1,500名军事人员和约1,200名警察已部署至吉伦特地区。 ",
+          "start_offset": 672,
+          "end_offset": 1398,
+          "sentence_ids": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "evacuation",
+            "injuries",
+            "damage",
+            "infrastructure",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "法国",
+              "unit": null
+            },
+            {
+              "attribute": "gironde_evacuated",
+              "value": {
+                "value": 220000,
+                "qualifier": "around"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "france_evacuated",
+              "value": {
+                "value": 250000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "gironde_firefighters_injured",
+              "value": 84,
+              "unit": "people"
+            },
+            {
+              "attribute": "gironde_area_burned",
+              "value": 42000,
+              "unit": "ha"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F007",
+          "span_text": "“无法估量”的损失 国王费利佩六世在视察马德里西郊比利亚曼塔的一处紧急避难所时表示，野火对西班牙自然遗产造成了“无法估量”的破坏。约75,000名居民从马德里地区、阿维拉、托莱多及瓦伦西亚东部卡斯特利翁地区撤离。 “我们真的吓坏了，”阿苏塞娜·帕瓜达说。她是被撤离至由比利亚曼塔体育馆改建的避难所的人员之一。“国民警卫队来到我们家，要求我们离开，告诉我们处于危险中。” 另一名70岁的撤离者玛格丽塔展示了自己已穿四天的T恤上的污渍。她叹息说：“王后过来问候，而我穿着这么脏的衣服。”官员表示，大风正将马德里附近的野火推向南方，暂时远离首都，但迫使更多位于火灾路径上的村庄撤离。 ",
+          "start_offset": 1398,
+          "end_offset": 1687,
+          "sentence_ids": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "fact_types": [
+            "public_reaction",
+            "evacuation",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "spain_multi_region_evacuated",
+              "value": {
+                "value": 75000,
+                "qualifier": "around"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F008",
+          "span_text": "数百公里之外，中央政府驻瓦伦西亚代表皮拉尔·贝尔纳韦在 X 上写道，瓦伦西亚新发生的火灾正显示出“非常猛烈”的态势。星期六，瓦伦西亚附近另一起规模较小的火灾造成1人死亡，这是迄今野火中唯一据报死亡的平民。 ",
+          "start_offset": 1687,
+          "end_offset": 1790,
+          "sentence_ids": [
+            39,
+            40
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "location",
+            "casualties"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "valencia_separate_fire_deaths",
+              "value": 1,
+              "unit": "person"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F009",
+          "span_text": "在法国，两名消防员星期二在波尔多附近遇难。教宗利奥四世在星期日祈祷中向所有受“毁灭性”西班牙和法国火灾影响的人们表达声援，呼吁人们为他们和第一响应人员祈祷。意大利也面临自己的火灾。海岸警卫队称，南部普利亚地区佩斯基奇镇附近已有400多名游客和海滩游人通过海路撤离，预计另有300人将获救。",
+          "start_offset": 1790,
+          "end_offset": 1934,
+          "sentence_ids": [
+            41,
+            42,
+            43,
+            44
+          ],
+          "fact_types": [
+            "casualties",
+            "evacuation",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "法国、国际反应及意大利另一起火灾",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "6c38d726f637a8faff7c142336fd5acce1e4353db8252446f46dc692f1b7dc9d",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-E1D2277E42E85E29",
+      "event_id": "DIS-WF-5C7448B3CC211D80",
+      "event_rank": 43,
+      "article_rank": 2,
+      "title": "法国、西班牙与“怪物”野火奋战，新一轮高温即将到来 | Kuwait Times Newspaper",
+      "publisher": "kuwaittimes",
+      "identified_publisher": "AFP",
+      "source_domain": "kuwaittimes.com",
+      "url": "https://kuwaittimes.com/article/47141/world/france-spain-battle-monster-wildfires-with-more-heat-on-the-way/",
+      "published_at": "2026-07-27T06:06:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "Kuwait Times 在结尾注明法新社来源。Free Malaysia Today 共享大量稿件，并明确注明法新社采访。",
+      "content": "波尔多：星期一，消防员与席卷法国和西班牙森林的大火奋战，当局警告，新一轮热浪即将笼罩法国主要城市波尔多周围已经遭火灾破坏的葡萄酒产区。两国历史上一些最严重的森林火灾正在法国西南部和西班牙中部马德里附近肆虐，超过325,000人已离开家园，大部分位于波尔多所在的吉伦特省。\n\n法国全国消防员联合会（FNSPF）称，法国火灾已产生前所未有的“火积雨云”，即产生自身风力、并携带会引发更多火灾的闪电的巨大火云。\n\nFNSPF 发言人埃里克·布罗卡尔迪说：“这是大卫对歌利亚的情景……在某个时刻，我们会找到薄弱点并从那儿出击。”法国总统埃马纽埃尔·马克龙将在星期一上午举行内阁危机会议，讨论紧急情况。\n\n西班牙首相佩德罗·桑切斯星期一将视察该国东部瓦伦西亚的火灾灾区。当地消防员正在扑救一场新火灾，已有15,000人被迫离开家园。星期日，他在视察马德里以西阿维拉省火区时警告：“艰难的时刻在前方。”\n\n西班牙内政部长费尔南多·格兰德-马拉斯卡星期日晚间表示，火势正在蔓延，但速度较慢。星期日早些时候，民防负责人弗吉尼娅·巴尔科内斯在描述阿维拉附近火灾时说，该国正在与一个“怪物”作斗争。巴尔科内斯告诉国营广播电视机构 TVE：“我们面对的是周长280公里、面积77,000公顷（190,000英亩）的野火。”\n\n科学家表示，气候变化正在使此类极端天气事件更加频繁和强烈。正值暑期旅游旺季，这些火灾受到自5月以来接连的热浪及缺乏降雨造成极度干燥、易燃林地的助长。\n\n在法国，野火集中于西南部吉伦特地区，该地区行政长官敦促游客远离当地并寻找“其他目的地”。 一名消防员说：“风向变化太频繁，实际上是火势说了算。我们只能顺势应对。”\n\n该地区约220,000人已撤离，45个露营地被迫关闭，使约40,000人假期计划泡汤。\n\n吉伦特地方当局星期一早些时候表示，已禁止度假营地活动，包括涉及过夜的童军旅行和残障人士度假营。乔治·克利瓦手持花园水管，沿通往其位于圣让迪拉克的房产的道路喷水，大火在几公里外燃烧。\n\n他告诉法新社：“我们这样做是为了减缓火势推进，我们想保住家园。”尽管村庄星期五已经疏散，克利瓦表示自己和家人仍试图坚守。“但消防员告诉我们，两三个小时后大火就会烧到这里。”\n\n法国内政部长洛朗·努涅斯警告，法国各地“形势仍然十分不利”，全国已有超过250,000人撤离。 然而，吉伦特地方当局星期一早些时候表示，夜间火势总体保持“基本稳定”。\n\n根据省政府星期日发布的最新灾情报告，自星期三以来，吉伦特地区火灾已造成84名消防员受伤，其中10人已被撤离。法国工会 CFDT 联邦秘书塞巴斯蒂安·布维耶表示，消防员缺乏足够的防护装备来抵御火灾产生的有毒烟雾。\n\n气象预报人员警告，法国可能自星期二起遭遇另一场热浪，部分地区气温将达40摄氏度。吉伦特地区至少240所住宅被毁，其中许多位于勒波尔日村。\n\n但波尔多市长托马·卡泽纳夫表示，没有计划疏散拥有850,000名居民并收容数千名因火灾流离失所人员的城区。他补充说，地方官员仍保持“警惕”。自星期三以来，大火已摧毁吉伦特地区42,000公顷土地，面积相当于曼哈顿的七倍。\n\n法国国防部表示，已采取特别措施保护波尔多周边工业设施，波尔多是该国航空航天工业的重要中心。波尔多南部主要高速公路和铁路服务已中断。约2,500名消防员、1,500名军事人员和约1,200名警察已部署至吉伦特地区。\n\n国王费利佩六世在视察马德里西郊比利亚曼塔的一处紧急避难所时表示，野火对西班牙自然遗产造成了“无法估量”的破坏。约75,000名居民从马德里地区、阿维拉、托莱多及瓦伦西亚东部卡斯特利翁地区撤离。\n\n“我们真的吓坏了，”阿苏塞娜·帕瓜达说。她是被撤离至由比利亚曼塔体育馆改建的避难所的人员之一。“国民警卫队来到我们家，要求我们离开，告诉我们处于危险中。”\n\n另一名70岁的撤离者玛格丽塔展示了自己已穿四天的T恤上的污渍。她叹息说：“王后过来问候，而我穿着这么脏的衣服。”官员表示，大风正将马德里附近的野火推向南方，暂时远离首都，但迫使更多位于火灾路径上的村庄撤离。\n\n数百公里之外，中央政府驻瓦伦西亚代表皮拉尔·贝尔纳韦在 X 上写道，瓦伦西亚新发生的火灾正显示出“非常猛烈”的态势。星期六，瓦伦西亚附近另一起规模较小的火灾造成1人死亡，这是迄今野火中唯一据报死亡的平民。 在法国，两名消防员星期二在波尔多附近遇难。教宗利奥四世在星期日祈祷中向所有受“毁灭性”西班牙和法国火灾影响的人们表达声援，呼吁人们为他们和第一响应人员祈祷。\n\n意大利也面临自己的火灾。\n\n海岸警卫队称，南部普利亚地区佩斯基奇镇附近已有400多名游客和海滩游人通过海路撤离，预计另有300人将获救。——法新社",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "波尔多：星期一，消防员与席卷法国和西班牙森林的大火奋战，当局警告，新一轮热浪即将笼罩法国主要城市波尔多周围已经遭火灾破坏的葡萄酒产区。两国历史上一些最严重的森林火灾正在法国西南部和西班牙中部马德里附近肆虐，超过325,000人已离开家园，大部分位于波尔多所在的吉伦特省。\n\n",
+          "start_offset": 0,
+          "end_offset": 137,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "france_spain_evacuated",
+              "value": {
+                "value": 325000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "法国全国消防员联合会（FNSPF）称，法国火灾已产生前所未有的“火积雨云”，即产生自身风力、并携带会引发更多火灾的闪电的巨大火云。\n\nFNSPF 发言人埃里克·布罗卡尔迪说：“这是大卫对歌利亚的情景……在某个时刻，我们会找到薄弱点并从那儿出击。”法国总统埃马纽埃尔·马克龙将在星期一上午举行内阁危机会议，讨论紧急情况。\n\n",
+          "start_offset": 137,
+          "end_offset": 298,
+          "sentence_ids": [
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "secondary_hazard",
+            "response",
+            "weather"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "法国",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "西班牙首相佩德罗·桑切斯星期一将视察该国东部瓦伦西亚的火灾灾区。当地消防员正在扑救一场新火灾，已有15,000人被迫离开家园。星期日，他在视察马德里以西阿维拉省火区时警告：“艰难的时刻在前方。”\n\n西班牙内政部长费尔南多·格兰德-马拉斯卡星期日晚间表示，火势正在蔓延，但速度较慢。星期日早些时候，民防负责人弗吉尼娅·巴尔科内斯在描述阿维拉附近火灾时说，该国正在与一个“怪物”作斗争。巴尔科内斯告诉国营广播电视机构 TVE：“我们面对的是周长280公里、面积77,000公顷（190,000英亩）的野火。”\n\n",
+          "start_offset": 298,
+          "end_offset": 552,
+          "sentence_ids": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "fact_types": [
+            "response",
+            "location",
+            "evacuation",
+            "damage",
+            "disaster_magnitude"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "valencia_evacuated",
+              "value": 15000,
+              "unit": "people"
+            },
+            {
+              "attribute": "avila_perimeter",
+              "value": 280,
+              "unit": "km"
+            },
+            {
+              "attribute": "avila_burned_area",
+              "value": 77000,
+              "unit": "ha"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "科学家表示，气候变化正在使此类极端天气事件更加频繁和强烈。正值暑期旅游旺季，这些火灾受到自5月以来接连的热浪及缺乏降雨造成极度干燥、易燃林地的助长。\n\n",
+          "start_offset": 552,
+          "end_offset": 628,
+          "sentence_ids": [
+            11,
+            12
+          ],
+          "fact_types": [
+            "weather",
+            "cause"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "在法国，野火集中于西南部吉伦特地区，该地区行政长官敦促游客远离当地并寻找“其他目的地”。 一名消防员说：“风向变化太频繁，实际上是火势说了算。我们只能顺势应对。”\n\n该地区约220,000人已撤离，45个露营地被迫关闭，使约40,000人假期计划泡汤。\n\n吉伦特地方当局星期一早些时候表示，已禁止度假营地活动，包括涉及过夜的童军旅行和残障人士度假营。乔治·克利瓦手持花园水管，沿通往其位于圣让迪拉克的房产的道路喷水，大火在几公里外燃烧。\n\n他告诉法新社：“我们这样做是为了减缓火势推进，我们想保住家园。”尽管村庄星期五已经疏散，克利瓦表示自己和家人仍试图坚守。“但消防员告诉我们，两三个小时后大火就会烧到这里。”\n\n法国内政部长洛朗·努涅斯警告，法国各地“形势仍然十分不利”，全国已有超过250,000人撤离。 然而，吉伦特地方当局星期一早些时候表示，夜间火势总体保持“基本稳定”。\n\n根据省政府星期日发布的最新灾情报告，自星期三以来，吉伦特地区火灾已造成84名消防员受伤，其中10人已被撤离。法国工会 CFDT 联邦秘书塞巴斯蒂安·布维耶表示，消防员缺乏足够的防护装备来抵御火灾产生的有毒烟雾。\n\n气象预报人员警告，法国可能自星期二起遭遇另一场热浪，部分地区气温将达40摄氏度。吉伦特地区至少240所住宅被毁，其中许多位于勒波尔日村。\n\n但波尔多市长托马·卡泽纳夫表示，没有计划疏散拥有850,000名居民并收容数千名因火灾流离失所人员的城区。他补充说，地方官员仍保持“警惕”。自星期三以来，大火已摧毁吉伦特地区42,000公顷土地，面积相当于曼哈顿的七倍。\n\n法国国防部表示，已采取特别措施保护波尔多周边工业设施，波尔多是该国航空航天工业的重要中心。波尔多南部主要高速公路和铁路服务已中断。约2,500名消防员、1,500名军事人员和约1,200名警察已部署至吉伦特地区。\n\n",
+          "start_offset": 628,
+          "end_offset": 1418,
+          "sentence_ids": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "fact_types": [
+            "weather",
+            "evacuation",
+            "injuries",
+            "damage",
+            "infrastructure",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "法国",
+              "unit": null
+            },
+            {
+              "attribute": "gironde_evacuated",
+              "value": {
+                "value": 220000,
+                "qualifier": "around"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "france_evacuated",
+              "value": {
+                "value": 250000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "gironde_firefighters_injured",
+              "value": 84,
+              "unit": "people"
+            },
+            {
+              "attribute": "gironde_area_burned",
+              "value": 42000,
+              "unit": "ha"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F006",
+          "span_text": "国王费利佩六世在视察马德里西郊比利亚曼塔的一处紧急避难所时表示，野火对西班牙自然遗产造成了“无法估量”的破坏。约75,000名居民从马德里地区、阿维拉、托莱多及瓦伦西亚东部卡斯特利翁地区撤离。\n\n“我们真的吓坏了，”阿苏塞娜·帕瓜达说。她是被撤离至由比利亚曼塔体育馆改建的避难所的人员之一。“国民警卫队来到我们家，要求我们离开，告诉我们处于危险中。”\n\n另一名70岁的撤离者玛格丽塔展示了自己已穿四天的T恤上的污渍。她叹息说：“王后过来问候，而我穿着这么脏的衣服。”官员表示，大风正将马德里附近的野火推向南方，暂时远离首都，但迫使更多位于火灾路径上的村庄撤离。\n\n",
+          "start_offset": 1418,
+          "end_offset": 1700,
+          "sentence_ids": [
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "fact_types": [
+            "public_reaction",
+            "evacuation",
+            "damage"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "spain_multi_region_evacuated",
+              "value": {
+                "value": 75000,
+                "qualifier": "around"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F007",
+          "span_text": "数百公里之外，中央政府驻瓦伦西亚代表皮拉尔·贝尔纳韦在 X 上写道，瓦伦西亚新发生的火灾正显示出“非常猛烈”的态势。星期六，瓦伦西亚附近另一起规模较小的火灾造成1人死亡，这是迄今野火中唯一据报死亡的平民。 ",
+          "start_offset": 1700,
+          "end_offset": 1803,
+          "sentence_ids": [
+            41,
+            42
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "location",
+            "casualties"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "valencia_separate_fire_deaths",
+              "value": 1,
+              "unit": "person"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F008",
+          "span_text": "在法国，两名消防员星期二在波尔多附近遇难。教宗利奥四世在星期日祈祷中向所有受“毁灭性”西班牙和法国火灾影响的人们表达声援，呼吁人们为他们和第一响应人员祈祷。\n\n意大利也面临自己的火灾。\n\n海岸警卫队称，南部普利亚地区佩斯基奇镇附近已有400多名游客和海滩游人通过海路撤离，预计另有300人将获救。——法新社",
+          "start_offset": 1803,
+          "end_offset": 1956,
+          "sentence_ids": [
+            43,
+            44,
+            45,
+            46
+          ],
+          "fact_types": [
+            "casualties",
+            "evacuation",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "法国、国际反应及意大利另一起火灾",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "1206a24945ade4fbdfce350b58cb1955650b3b31f8af4d1a46a304452ed24752",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-D478C875F9787FC3",
+      "event_id": "DIS-WF-5C7448B3CC211D80",
+      "event_rank": 43,
+      "article_rank": 3,
+      "title": "一片人工林处于法国肆虐野火的中心",
+      "publisher": "CBC",
+      "identified_publisher": "CBC",
+      "source_domain": "cbc.ca",
+      "url": "https://www.cbc.ca/news/world/human-made-forest-france-wildfires-9.7287788?cmp=rss",
+      "published_at": "2026-07-29T08:00:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "文章包括 CBC 现场采访和署名记者安娜·坎宁安的图片。",
+      "content": "娜奥米·科尔桑和伴侣从莱日-卡普费雷公寓撤离后的数天里，她和家人一直试图弄清他们在附近勒波尔日住了十年的房子发生了什么，那里森林火灾正在肆虐。\n\n照片和视频陆续传来，主要来自已在努力灭火的消防员。\n\n直到星期日获准访问该社区，这名20岁女子才看到破坏的规模。她抵达时，看到母亲房屋只剩下烧焦的墙壁。\n\n科尔桑星期二告诉 CBC：“我们曾经熟悉的城镇消失了。”\n\n“你甚至无法再辨认方向；我们以前开车经过时看到的房屋，什么都没有剩下，全是灰烬。”\n\n随着波尔多附近火灾以前所未有的速度蔓延，科尔桑和家人是法国超过250,000名从家中撤离的人员之一。 在西班牙，随着当地火灾持续燃烧，超过116,000人不得不离开自己的社区。\n\n科学家称，气候变化是西欧面临异常火灾条件的主要驱动因素，本周该地区正迎来本季第四轮热浪。\n\n但他们也表示，如果不关注人类如何改造景观本身，就无法理解此次火灾规模。\n\n本月早些时候，CBC 记者安娜·坎宁安在干涸河流岸边拍摄的照片中，可见波尔多西北部的拉罗什富科城堡。（Anna Cunningham/CBC）\n\n波尔多西南延伸的松树林长期以来一直被视为法国伟大的工程成就之一。\n\n19世纪中期，拿破仑三世时期，被认为不健康且没有生产力的大片湿地被排干，取而代之的是松树林。新的森林改变当地经济，生产木材和树脂，使这一地区适宜居住。\n\n近两个世纪后，同一片景观正在燃烧。\n\n法国国家科学研究中心环境历史学家拉斐尔·莫雷拉在采访中说：“这不是自然森林中的火灾。这是在为支持工业活动而种植的森林中发生的火灾。”\n\n莫雷拉表示，自然森林通常包含更多样的树种及更多能够减缓火势的间隔。\n\n相比之下，在朗德地区，“没有阻碍火势扩展的自然障碍”，使消防员必须承担几乎全部阻止火势的工作。\n\n伦敦帝国理工学院火灾科学教授吉列尔莫·雷因称，尽管法国消防员的装备在欧洲名列前茅，火灾本身变化的速度却比应急服务适应的速度更快。\n\n此外，欧洲国家在劳动力和设备方面相互依赖，但多国同时遭遇火灾时，这种相互支援变得更加困难，尤其考虑到日益老化的 Canadair 消防机队。\n\n波尔多大学及法国国家农业、食品与环境研究院森林生态生理学家西尔万·德尔宗介绍，在接连热浪及数月异常干燥条件下，景观失去了许多通常有助于限制火灾行为的水分。\n\n“这里是不能保持水分的砂质土壤。因此所有林下植被完全干燥并枯死，成为火灾燃料。”\n\n威尔士斯旺西大学野火科学教授斯特凡·多尔表示，从规模和蔓延来看，法国火灾与2016年促使加拿大艾伯塔省麦克默里堡疏散的霍斯河火灾存在一些相似之处。\n\n无人机视频显示法国西南部野火将房屋化为灰烬和废墟\n\n多尔在视频采访中说：“在这两种情况下，火灾行为都极端异常。”他指出，法国火灾已经形成自身的天气系统，这一现象在麦克默里堡周边也曾发生，火灾产生自身大风和闪电。\n\n本周，一朵位于法国上空的巨大黑云的图像在互联网上传播。这种火积雨云由被烧毁树木和植被蒸发的水分及烟灰颗粒组成。大型森林火灾产生的能量及热量推动空气向天空上升，从而形成这种云。\n\n对于勒波尔日家庭住宅被烧毁的科尔桑及21岁男友马泰奥·马丁斯而言，结果“几乎像世界末日”。\n\n上周，这对情侣不得不离开他们位于莱日-卡普费雷的公寓之前，眼看周围天空变黑。\n\n科尔桑说：“我们所能看到的只有烟雾。灰烬落在阳台上。”“然后晚上，天空变成橙色和红色。可以听到飞机、警笛声，除了其他人的声音以外，一切声音都能听到。”\n\n只有在巨大野火期间才能看到这些火云\n\n特朗普称加拿大应阻止野火烟雾。专家表示事情并没有这么简单\n\n不列颠哥伦比亚省西蒙菲莎大学野火和泥炭地研究人员索菲·威尔金森曾研究艾伯塔野火，那里也存在被排干的湿地。她表示，气候变化正在暴露早期土地利用决策留下的影响。\n\n“否认以及将气候变化推迟当作未来问题的时代确实结束了。”\n\n欧洲野火正在形成自身的天气系统\n\n威尔金森星期二接受电话采访时说，极端高温、干旱和野火是人为气候变化的表现，并补充说保护和恢复泥炭地等生态系统也必须成为应对措施的一部分。\n\n英国莱斯特大学自然地理学教授苏珊·佩奇研究泥炭地数十年，她赞同威尔金森的评论。\n\n佩奇说：“我认为现在我们应该谈论气候崩溃，而不仅仅是气候变化。”\n\n“这就是我们开始看到的，因为法国和西班牙正在发生的火灾规模以前是我们无法想象的。”\n\n娜奥米·科尔桑说，母亲和继父每天都因失去房屋而哭泣，这所房屋也是母亲的工作场所。\n\n在他们镇上，另有约150人的住宅被烧毁。科尔桑和马丁斯知道重建将花费数月时间。他们担心一旦头条报道消失，人们就会忘记这场灾难。\n\n她说：“这一切感觉都不真实。”",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "娜奥米·科尔桑和伴侣从莱日-卡普费雷公寓撤离后的数天里，她和家人一直试图弄清他们在附近勒波尔日住了十年的房子发生了什么，那里森林火灾正在肆虐。\n\n照片和视频陆续传来，主要来自已在努力灭火的消防员。\n\n直到星期日获准访问该社区，这名20岁女子才看到破坏的规模。她抵达时，看到母亲房屋只剩下烧焦的墙壁。\n\n科尔桑星期二告诉 CBC：“我们曾经熟悉的城镇消失了。”\n\n“你甚至无法再辨认方向；我们以前开车经过时看到的房屋，什么都没有剩下，全是灰烬。”\n\n随着波尔多附近火灾以前所未有的速度蔓延，科尔桑和家人是法国超过250,000名从家中撤离的人员之一。 ",
+          "start_offset": 0,
+          "end_offset": 275,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "evacuation",
+            "damage",
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "法国",
+              "unit": null
+            },
+            {
+              "attribute": "france_evacuated",
+              "value": {
+                "value": 250000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "在西班牙，随着当地火灾持续燃烧，超过116,000人不得不离开自己的社区。\n\n",
+          "start_offset": 275,
+          "end_offset": 314,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "evacuation"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "spain_evacuated",
+              "value": {
+                "value": 116000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "科学家称，气候变化是西欧面临异常火灾条件的主要驱动因素，本周该地区正迎来本季第四轮热浪。\n\n但他们也表示，如果不关注人类如何改造景观本身，就无法理解此次火灾规模。\n\n",
+          "start_offset": 314,
+          "end_offset": 397,
+          "sentence_ids": [
+            10,
+            11
+          ],
+          "fact_types": [
+            "weather",
+            "cause",
+            "secondary_hazard"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "本月早些时候，CBC 记者安娜·坎宁安在干涸河流岸边拍摄的照片中，可见波尔多西北部的拉罗什富科城堡。（Anna Cunningham/CBC）\n\n",
+          "start_offset": 397,
+          "end_offset": 470,
+          "sentence_ids": [
+            12,
+            13
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F005",
+          "span_text": "波尔多西南延伸的松树林长期以来一直被视为法国伟大的工程成就之一。\n\n19世纪中期，拿破仑三世时期，被认为不健康且没有生产力的大片湿地被排干，取而代之的是松树林。新的森林改变当地经济，生产木材和树脂，使这一地区适宜居住。\n\n近两个世纪后，同一片景观正在燃烧。\n\n法国国家科学研究中心环境历史学家拉斐尔·莫雷拉在采访中说：“这不是自然森林中的火灾。这是在为支持工业活动而种植的森林中发生的火灾。”\n\n莫雷拉表示，自然森林通常包含更多样的树种及更多能够减缓火势的间隔。\n\n相比之下，在朗德地区，“没有阻碍火势扩展的自然障碍”，使消防员必须承担几乎全部阻止火势的工作。\n\n伦敦帝国理工学院火灾科学教授吉列尔莫·雷因称，尽管法国消防员的装备在欧洲名列前茅，火灾本身变化的速度却比应急服务适应的速度更快。\n\n此外，欧洲国家在劳动力和设备方面相互依赖，但多国同时遭遇火灾时，这种相互支援变得更加困难，尤其考虑到日益老化的 Canadair 消防机队。\n\n波尔多大学及法国国家农业、食品与环境研究院森林生态生理学家西尔万·德尔宗介绍，在接连热浪及数月异常干燥条件下，景观失去了许多通常有助于限制火灾行为的水分。\n\n“这里是不能保持水分的砂质土壤。因此所有林下植被完全干燥并枯死，成为火灾燃料。”\n\n威尔士斯旺西大学野火科学教授斯特凡·多尔表示，从规模和蔓延来看，法国火灾与2016年促使加拿大艾伯塔省麦克默里堡疏散的霍斯河火灾存在一些相似之处。\n\n",
+          "start_offset": 470,
+          "end_offset": 1086,
+          "sentence_ids": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "cause",
+            "damage",
+            "weather",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "法国林业和火灾行为分析",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F006",
+          "span_text": "无人机视频显示法国西南部野火将房屋化为灰烬和废墟\n\n",
+          "start_offset": 1086,
+          "end_offset": 1112,
+          "sentence_ids": [
+            28
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F007",
+          "span_text": "多尔在视频采访中说：“在这两种情况下，火灾行为都极端异常。”他指出，法国火灾已经形成自身的天气系统，这一现象在麦克默里堡周边也曾发生，火灾产生自身大风和闪电。\n\n本周，一朵位于法国上空的巨大黑云的图像在互联网上传播。这种火积雨云由被烧毁树木和植被蒸发的水分及烟灰颗粒组成。大型森林火灾产生的能量及热量推动空气向天空上升，从而形成这种云。\n\n对于勒波尔日家庭住宅被烧毁的科尔桑及21岁男友马泰奥·马丁斯而言，结果“几乎像世界末日”。\n\n上周，这对情侣不得不离开他们位于莱日-卡普费雷的公寓之前，眼看周围天空变黑。\n\n科尔桑说：“我们所能看到的只有烟雾。灰烬落在阳台上。”“然后晚上，天空变成橙色和红色。可以听到飞机、警笛声，除了其他人的声音以外，一切声音都能听到。”\n\n",
+          "start_offset": 1112,
+          "end_offset": 1446,
+          "sentence_ids": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "fact_types": [
+            "cause",
+            "secondary_hazard",
+            "damage",
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "法国火灾与麦克默里堡火灾的比较",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F008",
+          "span_text": "只有在巨大野火期间才能看到这些火云\n\n特朗普称加拿大应阻止野火烟雾。专家表示事情并没有这么简单\n\n",
+          "start_offset": 1446,
+          "end_offset": 1495,
+          "sentence_ids": [
+            39,
+            40,
+            41
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F009",
+          "span_text": "不列颠哥伦比亚省西蒙菲莎大学野火和泥炭地研究人员索菲·威尔金森曾研究艾伯塔野火，那里也存在被排干的湿地。她表示，气候变化正在暴露早期土地利用决策留下的影响。\n\n“否认以及将气候变化推迟当作未来问题的时代确实结束了。”\n\n",
+          "start_offset": 1495,
+          "end_offset": 1605,
+          "sentence_ids": [
+            42,
+            43
+          ],
+          "fact_types": [
+            "cause",
+            "weather"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F010",
+          "span_text": "欧洲野火正在形成自身的天气系统\n\n",
+          "start_offset": 1605,
+          "end_offset": 1622,
+          "sentence_ids": [
+            44
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F011",
+          "span_text": "威尔金森星期二接受电话采访时说，极端高温、干旱和野火是人为气候变化的表现，并补充说保护和恢复泥炭地等生态系统也必须成为应对措施的一部分。\n\n英国莱斯特大学自然地理学教授苏珊·佩奇研究泥炭地数十年，她赞同威尔金森的评论。\n\n佩奇说：“我认为现在我们应该谈论气候崩溃，而不仅仅是气候变化。”\n\n“这就是我们开始看到的，因为法国和西班牙正在发生的火灾规模以前是我们无法想象的。”\n\n",
+          "start_offset": 1622,
+          "end_offset": 1810,
+          "sentence_ids": [
+            45,
+            46,
+            47,
+            48
+          ],
+          "fact_types": [
+            "cause",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F012",
+          "span_text": "娜奥米·科尔桑说，母亲和继父每天都因失去房屋而哭泣，这所房屋也是母亲的工作场所。\n\n在他们镇上，另有约150人的住宅被烧毁。科尔桑和马丁斯知道重建将花费数月时间。他们担心一旦头条报道消失，人们就会忘记这场灾难。\n\n她说：“这一切感觉都不真实。”",
+          "start_offset": 1810,
+          "end_offset": 1932,
+          "sentence_ids": [
+            49,
+            50,
+            51,
+            52,
+            53
+          ],
+          "fact_types": [
+            "damage",
+            "recovery",
+            "public_reaction"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "法国",
+              "unit": null
+            },
+            {
+              "attribute": "local_homes_burned",
+              "value": {
+                "value": 150,
+                "qualifier": "roughly"
+              },
+              "unit": "households reported by resident"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "708fd2e503f1ab8eb54655cc9c9363a41214ff86fabb74641e2c371630a40639",
+        "removed_word_count": 47,
+        "removed_word_ratio": 0.04454976303317536
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "西班牙撤离报道给出的数据为约75,000人和超过116,000人",
+        "fact_type": "evacuation",
+        "attribute": "spanish_evacuations",
+        "supporting_spans": [
+          "A001_F007",
+          "A002_F006",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F007",
+            "value": {
+              "value": 75000,
+              "qualifier": "around",
+              "scope": "所列西班牙地区"
+            },
+            "unit": "people",
+            "attribution": "AFP"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F006",
+            "value": {
+              "value": 75000,
+              "qualifier": "around",
+              "scope": "所列西班牙地区"
+            },
+            "unit": "people",
+            "attribution": "AFP"
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "value": 116000,
+              "qualifier": "greater_than",
+              "scope": "西班牙"
+            },
+            "unit": "people",
+            "attribution": "CBC"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "报道时间及涵盖地区不同。"
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "阿维拉火灾范围来自同一民防官员",
+        "fact_type": "damage",
+        "attribute": "avila_fire_metrics",
+        "supporting_spans": [
+          "A001_F004",
+          "A002_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F004",
+            "value": {
+              "perimeter_km": 280,
+              "area_ha": 77000
+            },
+            "unit": null,
+            "attribution": "Virginia Barcones"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": {
+              "perimeter_km": 280,
+              "area_ha": 77000
+            },
+            "unit": null,
+            "attribution": "Virginia Barcones"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "瓦伦西亚另一起较小火灾造成1人死亡",
+        "fact_type": "casualties",
+        "attribute": "valencia_separate_fire_deaths",
+        "supporting_spans": [
+          "A001_F008",
+          "A002_F007"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F008",
+            "value": 1,
+            "unit": "person",
+            "attribution": "AFP"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F007",
+            "value": 1,
+            "unit": "person",
+            "attribution": "AFP"
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "aligned",
+        "consistency_status": "consistent",
+        "temporal_relation": "same_time",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "important_facts": [
+        "FC003"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2026-07-27",
+          "time_precision": "Publication date",
+          "description": "法新社报道阿维拉及瓦伦西亚的火灾和撤离，法国另有野火。",
+          "supporting_spans": [
+            "A001_F004",
+            "A002_F003",
+            "A002_F005"
+          ]
+        },
+        {
+          "time": "2026-07-29",
+          "time_precision": "Publication date",
+          "description": "CBC 报道西班牙超过116,000人撤离。",
+          "supporting_spans": [
+            "A003_F002"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "报道指出，接连热浪及长时间降雨偏少使林地干燥，增加大型野火风险。",
+          "supporting_spans": [
+            "A001_F005",
+            "A002_F004",
+            "A003_F003"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "野火在西班牙部分地区蔓延，促使大规模撤离。法国同期面临其他野火。",
+          "supporting_spans": [
+            "A001_F004",
+            "A001_F007",
+            "A002_F003",
+            "A003_F002"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "法国和意大利的过火面积、伤亡及撤离数字排除在西班牙总数之外。两篇法新社报道共享同一来源。"
+    ]
+  }
+}

@@ -1,0 +1,703 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-WF-25917D49F1D30A6B",
+  "event_rank": 42,
+  "event_metadata": {
+    "event_name": "阿尔巴尼亚森林火灾",
+    "disaster_type": "wildfire",
+    "disaster_type_code": "WF",
+    "event_start_time": "2025-07-19T00:00:00+00:00",
+    "event_end_time": "2025-07-26T00:00:00+00:00",
+    "locations": [
+      "阿尔巴尼亚"
+    ],
+    "latitude": 40.25,
+    "longitude": 19.5897,
+    "place_names_in_reports": [
+      "阿尔巴尼亚",
+      "菲尼克",
+      "爱尔巴桑",
+      "地拉那",
+      "阿尔巴尼亚—希腊边境",
+      "保加利亚",
+      "土耳其"
+    ],
+    "gdacs_id": "1024313",
+    "gdacs_alert_level": "Orange",
+    "language_scope": [
+      "zh"
+    ],
+    "time_precision_notes": [
+      "报道将希腊的援助描述为当年早些时候发生。保加利亚及土耳其的影响分别记录。"
+    ],
+    "dataset_place_name": "阿尔巴尼亚森林火灾",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-DFA34D2E11393C3B",
+      "event_id": "DIS-WF-25917D49F1D30A6B",
+      "event_rank": 42,
+      "article_rank": 1,
+      "title": "意大利和希腊出动 Canadair 消防飞机帮助阿尔巴尼亚扑救森林火灾",
+      "publisher": "albaniannews",
+      "identified_publisher": null,
+      "source_domain": "albaniandailynews.com",
+      "url": "https://albaniandailynews.com/news/italy-and-greece-help-albania-with-canadair-firefighting-aircraft-to-combat-forest-fires",
+      "published_at": "2025-07-21T22:43:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "Albanian News 概述欧盟机制及响应，没有明确原始署名。",
+      "content": "意大利通过部署两架 Canadair 消防飞机，帮助阿尔巴尼亚扑救当地森林火灾，特别是菲尼克市镇的火灾。此次部署通过欧盟民事保护机制开展。\n\n今年早些时候，希腊也提供过同样的帮助。\n\n部署 Canadair 飞机是响应阿尔巴尼亚政府的请求，通过欧盟民事保护机制启动。\n\nCanadair CL-415 是一种专门消防飞机，被称为“超级铲水机”。\n\n近一个月来，阿尔巴尼亚许多地区遭受火灾，高温天气使所有正在燃烧的火点难以控制。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "意大利通过部署两架 Canadair 消防飞机，帮助阿尔巴尼亚扑救当地森林火灾，特别是菲尼克市镇的火灾。此次部署通过欧盟民事保护机制开展。\n\n今年早些时候，希腊也提供过同样的帮助。\n\n部署 Canadair 飞机是响应阿尔巴尼亚政府的请求，通过欧盟民事保护机制启动。\n\n",
+          "start_offset": 0,
+          "end_offset": 135,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "location",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "italian_aircraft",
+              "value": 2,
+              "unit": "aircraft"
+            },
+            {
+              "attribute": "municipality",
+              "value": "菲尼克",
+              "unit": null
+            },
+            {
+              "attribute": "mechanism",
+              "value": "欧盟民事保护机制",
+              "unit": null
+            },
+            {
+              "attribute": "earlier_assistance",
+              "value": "希腊",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "Canadair CL-415 是一种专门消防飞机，被称为“超级铲水机”。\n\n",
+          "start_offset": 135,
+          "end_offset": 174,
+          "sentence_ids": [
+            5
+          ],
+          "fact_types": [
+            "infrastructure"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "近一个月来，阿尔巴尼亚许多地区遭受火灾，高温天气使所有正在燃烧的火点难以控制。",
+          "start_offset": 174,
+          "end_offset": 213,
+          "sentence_ids": [
+            6
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "uncertainty"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "duration",
+              "value": {
+                "value": 1,
+                "qualifier": "nearly"
+              },
+              "unit": "month"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "a3e572f3761e879481a8eb863d6f955e143322b999cfbafa23b16d70fd268879",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-3C3088CA758EF39C",
+      "event_id": "DIS-WF-25917D49F1D30A6B",
+      "event_rank": 42,
+      "article_rank": 2,
+      "title": "土耳其地中海沿岸陷入火海，政府宣布两个灾害区 | Dunya News",
+      "publisher": "dunyanews",
+      "identified_publisher": "Associated Press",
+      "source_domain": "dunyanews.tv",
+      "url": "https://dunyanews.tv/en/World/896710-fires-engulf-turkeys-mediterranean-coast-as-government-declares-2-d",
+      "published_at": "2025-07-25T13:27:00+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "syndicated",
+      "source_independence": "syndicated",
+      "source_independence_reason": "伊斯坦布尔发稿地注明美联社。",
+      "content": "摘要 土耳其地中海沿岸陷入火海，政府宣布两个灾害区\n\n伊斯坦布尔（美联社）——星期五，土耳其地中海沿岸爆发新的野火，政府宣布该国西部两个省为灾害区。\n\n图像显示，安塔利亚的高层公寓楼附近火焰及烟雾冲天而起，许多本国和外国游客在夏季来到这里。\n\n私人通讯社 DHA 报道，火势蔓延之际，市中心及外围阿克苏区住宅进行了人员疏散。消防员努力在强风进一步蔓延火势前扑灭大火，火灾导致主要沿海道路关闭。\n\n沿海更远的马纳夫加特市住宅也受到威胁。\n\n当地居民带着水管和水桶赶来协助消防员，投水直升机和飞机也在与火焰作斗争。警方水炮和市政洒水车也被调入灭火工作。\n\n内政部长阿里·耶尔利卡亚星期五表示，伊兹密尔省及比莱吉克省已被宣布为“影响公共生活的灾害区”，比最严重紧急级别低一级。\n\n耶尔利卡亚补充说，从6月27日至星期四，全国120个社区的居民被疏散，内政部主管的12,000多名人员，包括警察及救援人员，参与灭火。\n\n部长在社交媒体帖子中表示，在持续一个月的火灾中，311所住宅被毁或严重受损，在西部三个省为无家可归者设立85套临时住房。\n\n自6月下旬以来，土耳其面临大范围森林火灾暴发，13人死亡，其中10名救援志愿者及林业工作人员星期三在土耳其西部埃斯基谢希尔的火灾中遇难。这10人的葬礼于星期四举行。\n\n强风及干燥条件使超出季节正常水平的高温影响加剧，引发数十起野火。\n\n在安塔利亚以东，阿达纳和梅尔辛星期五发生火灾。在该国其他地方，消防员继续扑救埃斯基谢希尔和附近卡拉比克已持续数天的大火。\n\n东地中海地区热浪使阿尔巴尼亚气温达到42摄氏度（107华氏度），1,000名消防员和士兵与火焰奋战。\n\n在阿尔巴尼亚爱尔巴桑市，消防员一直在扑救该国中部山地森林中持续一周的火灾。与希腊接壤的南部边境附近也发生火灾。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "摘要 土耳其地中海沿岸陷入火海，政府宣布两个灾害区\n\n",
+          "start_offset": 0,
+          "end_offset": 27,
+          "sentence_ids": [
+            1
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "伊斯坦布尔（美联社）——星期五，土耳其地中海沿岸爆发新的野火，政府宣布该国西部两个省为灾害区。\n\n图像显示，安塔利亚的高层公寓楼附近火焰及烟雾冲天而起，许多本国和外国游客在夏季来到这里。\n\n私人通讯社 DHA 报道，火势蔓延之际，市中心及外围阿克苏区住宅进行了人员疏散。消防员努力在强风进一步蔓延火势前扑灭大火，火灾导致主要沿海道路关闭。\n\n沿海更远的马纳夫加特市住宅也受到威胁。\n\n当地居民带着水管和水桶赶来协助消防员，投水直升机和飞机也在与火焰作斗争。警方水炮和市政洒水车也被调入灭火工作。\n\n",
+          "start_offset": 27,
+          "end_offset": 276,
+          "sentence_ids": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "evacuation",
+            "response",
+            "weather"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "土耳其",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "内政部长阿里·耶尔利卡亚星期五表示，伊兹密尔省及比莱吉克省已被宣布为“影响公共生活的灾害区”，比最严重紧急级别低一级。\n\n耶尔利卡亚补充说，从6月27日至星期四，全国120个社区的居民被疏散，内政部主管的12,000多名人员，包括警察及救援人员，参与灭火。\n\n部长在社交媒体帖子中表示，在持续一个月的火灾中，311所住宅被毁或严重受损，在西部三个省为无家可归者设立85套临时住房。\n\n自6月下旬以来，土耳其面临大范围森林火灾暴发，13人死亡，其中10名救援志愿者及林业工作人员星期三在土耳其西部埃斯基谢希尔的火灾中遇难。这10人的葬礼于星期四举行。\n\n",
+          "start_offset": 276,
+          "end_offset": 552,
+          "sentence_ids": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "fact_types": [
+            "response",
+            "evacuation",
+            "casualties",
+            "damage"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "土耳其",
+              "unit": null
+            },
+            {
+              "attribute": "deaths",
+              "value": 13,
+              "unit": "people"
+            },
+            {
+              "attribute": "homes_destroyed_or_seriously_damaged",
+              "value": 311,
+              "unit": "homes"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F004",
+          "span_text": "强风及干燥条件使超出季节正常水平的高温影响加剧，引发数十起野火。\n\n在安塔利亚以东，阿达纳和梅尔辛星期五发生火灾。在该国其他地方，消防员继续扑救埃斯基谢希尔和附近卡拉比克已持续数天的大火。\n\n",
+          "start_offset": 552,
+          "end_offset": 648,
+          "sentence_ids": [
+            15,
+            16,
+            17
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_occurrence"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "土耳其",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F005",
+          "span_text": "东地中海地区热浪使阿尔巴尼亚气温达到42摄氏度（107华氏度），1,000名消防员和士兵与火焰奋战。\n\n在阿尔巴尼亚爱尔巴桑市，消防员一直在扑救该国中部山地森林中持续一周的火灾。与希腊接壤的南部边境附近也发生火灾。",
+          "start_offset": 648,
+          "end_offset": 755,
+          "sentence_ids": [
+            18,
+            19,
+            20
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_occurrence",
+            "response",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "albanian_personnel",
+              "value": 1000,
+              "unit": "firefighters and soldiers"
+            },
+            {
+              "attribute": "temperature",
+              "value": 42,
+              "unit": "°C"
+            },
+            {
+              "attribute": "locations",
+              "value": [
+                "爱尔巴桑",
+                "与希腊接壤的南部边境"
+              ],
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "3d3908bc24b1ab5e462dfcc0a03111ad675c03e187a931a53b14d4e69acf3696",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-55F3019069C545EB",
+      "event_id": "DIS-WF-25917D49F1D30A6B",
+      "event_rank": 42,
+      "article_rank": 3,
+      "title": "阿尔巴尼亚和保加利亚请求欧盟帮助应对肆虐野火",
+      "publisher": "euronews-en",
+      "identified_publisher": null,
+      "source_domain": "euronews.com",
+      "url": "https://www.euronews.com/my-europe/2025/07/27/albania-and-bulgaria-ask-eu-for-help-to-deal-with-raging-wildfires",
+      "published_at": "2025-07-27T15:38:58+00:00",
+      "updated_at": null,
+      "language": "zh",
+      "original_language": "en",
+      "detected_language": "zh",
+      "language_label_issue": null,
+      "reporting_type": "undetermined",
+      "source_independence": "unverified",
+      "source_independence_reason": "欧洲新闻台地区综合报道的来源不明确。",
+      "content": "阿尔巴尼亚消防队正面对因纵火与热浪共同作用而肆虐的数十条火线。森林火灾在该国许多地区肆虐，主要问题集中在西南部。损失包括许多住宅，数千英亩土地已被烧焦。1,000多名消防员及应急单位人员正在参与扑救大火。地拉那已请求欧洲民事保护机制协助，匈牙利、克罗地亚和意大利的航空力量正在协助灭火。保加利亚：土耳其边境附近多条火线 保加利亚必须应对230多条火线。欧盟派出4架直升机和2架飞机帮助扑救。由于高温，11个地区已处于红色警报。数十所住宅被烧毁，数千英亩森林起火。最严峻的问题位于与土耳其边境以东。 土耳其本身东南部城市锡洛皮测得创纪录的50.5摄氏度高温。",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "阿尔巴尼亚消防队正面对因纵火与热浪共同作用而肆虐的数十条火线。森林火灾在该国许多地区肆虐，主要问题集中在西南部。损失包括许多住宅，数千英亩土地已被烧焦。",
+          "start_offset": 0,
+          "end_offset": 76,
+          "sentence_ids": [
+            1,
+            2,
+            3
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "cause",
+            "damage",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "reported_drivers",
+              "value": [
+                "纵火",
+                "热浪"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "areas",
+              "value": "尤其是阿尔巴尼亚西南部",
+              "unit": null
+            },
+            {
+              "attribute": "area_burned",
+              "value": "数千",
+              "unit": "acres"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "1,000多名消防员及应急单位人员正在参与扑救大火。地拉那已请求欧洲民事保护机制协助，匈牙利、克罗地亚和意大利的航空力量正在协助灭火。",
+          "start_offset": 76,
+          "end_offset": 143,
+          "sentence_ids": [
+            4,
+            5
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "responders",
+              "value": {
+                "value": 1000,
+                "qualifier": "greater_than"
+              },
+              "unit": "firefighters and emergency units"
+            },
+            {
+              "attribute": "aid_origins",
+              "value": [
+                "匈牙利",
+                "克罗地亚",
+                "意大利"
+              ],
+              "unit": null
+            },
+            {
+              "attribute": "mechanism",
+              "value": "欧洲民事保护机制",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "保加利亚：土耳其边境附近多条火线 保加利亚必须应对230多条火线。欧盟派出4架直升机和2架飞机帮助扑救。由于高温，11个地区已处于红色警报。数十所住宅被烧毁，数千英亩森林起火。最严峻的问题位于与土耳其边境以东。 ",
+          "start_offset": 143,
+          "end_offset": 249,
+          "sentence_ids": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "weather",
+            "aid",
+            "damage",
+            "response"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "保加利亚",
+              "unit": null
+            },
+            {
+              "attribute": "fire_fronts",
+              "value": {
+                "value": 230,
+                "qualifier": "greater_than"
+              },
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "土耳其本身东南部城市锡洛皮测得创纪录的50.5摄氏度高温。",
+          "start_offset": 249,
+          "end_offset": 278,
+          "sentence_ids": [
+            10
+          ],
+          "fact_types": [
+            "weather",
+            "disaster_magnitude"
+          ],
+          "importance": "supplementary",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "scope",
+              "value": "土耳其",
+              "unit": null
+            },
+            {
+              "attribute": "silopi_temperature",
+              "value": 50.5,
+              "unit": "°C"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "427995ba3964668a1ed622e7fa8ea4d2243c4c23858a4df9a48412e1d5b571c5",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "意大利通过欧盟机制提供消防援助",
+        "fact_type": "aid",
+        "attribute": "italian_air_support",
+        "supporting_spans": [
+          "A001_F001",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "两架 Canadair 飞机援助菲尼克",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": "意大利与匈牙利及克罗地亚共同提供航空力量",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "约千名消防及其他应急人员参与行动",
+        "fact_type": "response",
+        "attribute": "response_personnel",
+        "supporting_spans": [
+          "A002_F005",
+          "A003_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F005",
+            "value": 1000,
+            "unit": "firefighters and soldiers",
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F002",
+            "value": {
+              "value": 1000,
+              "qualifier": "greater_than"
+            },
+            "unit": "firefighters and emergency units",
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "报道日期及人员类别不同。"
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "野火影响阿尔巴尼亚多个地区",
+        "fact_type": "disaster_occurrence",
+        "attribute": "fire_extent",
+        "supporting_spans": [
+          "A001_F003",
+          "A002_F005",
+          "A003_F001"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F003",
+            "value": "多个地区发生火灾",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F005",
+            "value": "爱尔巴桑及与希腊接壤的南部边境",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F001",
+            "value": "许多火线，尤其在西南部",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003"
+      ],
+      "critical_facts": [
+        "FC003"
+      ],
+      "important_facts": [
+        "FC001",
+        "FC002"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "标注仅涵盖这三篇报道中的信息，并不声称穷尽有关该事件的所有事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2025-07-21",
+          "time_precision": "Publication date",
+          "description": "媒体报道意大利派遣两架飞机协助菲尼克。",
+          "supporting_spans": [
+            "A001_F001"
+          ]
+        },
+        {
+          "time": "2025-07-25",
+          "time_precision": "Publication date",
+          "description": "美联社报道爱尔巴桑及其他地区正在持续灭火。",
+          "supporting_spans": [
+            "A002_F005"
+          ]
+        },
+        {
+          "time": "2025-07-27",
+          "time_precision": "Publication date",
+          "description": "欧洲新闻台报道数个国家的飞机参与。",
+          "supporting_spans": [
+            "A003_F002"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "媒体称高温使灭火更加困难。欧洲新闻台还将部分火灾归因于纵火。",
+          "supporting_spans": [
+            "A001_F003",
+            "A003_F001"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "野火持续在阿尔巴尼亚多个地区肆虐，地面队伍和欧盟协调的飞机已部署。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F005",
+            "A003_F001",
+            "A003_F002"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode character indices, zero-based, start inclusive and end exclusive.",
+    "limitations": [
+      "美联社报道大部分内容聚焦土耳其，其伤亡数字不计入阿尔巴尼亚总数。"
+    ]
+  }
+}

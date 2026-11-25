@@ -1,0 +1,813 @@
+{
+  "schema_version": "1.0",
+  "event_id": "DIS-EQ-D92070E5955A79E3",
+  "event_rank": 16,
+  "event_metadata": {
+    "event_name": "Earthquake in Türkiye",
+    "disaster_type": "earthquake",
+    "disaster_type_code": "EQ",
+    "event_start_time": "2023-02-06T01:17:35+00:00",
+    "event_end_time": "2023-02-06T01:17:35+00:00",
+    "locations": [
+      "Türkiye"
+    ],
+    "latitude": 37.1736,
+    "longitude": 37.032,
+    "place_names_in_reports": [
+      "Türkiye",
+      "Syria",
+      "Kahramanmaras",
+      "Pazarcik",
+      "Malatya",
+      "Baku"
+    ],
+    "gdacs_id": "1357372",
+    "gdacs_alert_level": "Red",
+    "language_scope": [
+      "en"
+    ],
+    "time_precision_notes": [
+      "2 月 6 日有两次强震。伤亡时间线区分 Friday 通报与其他报道的当前统计。"
+    ],
+    "dataset_place_name": "Earthquake in Türkiye",
+    "dataset_event_note": null
+  },
+  "article_annotations": [
+    {
+      "article_id": "A001",
+      "dataset_article_id": "ART-F433E9E1135681E2",
+      "event_id": "DIS-EQ-D92070E5955A79E3",
+      "event_rank": 16,
+      "article_rank": 1,
+      "title": "UN Relief Chief: Türkiye-Syria Quake Deaths to Top 50,000",
+      "publisher": "aawsat",
+      "identified_publisher": null,
+      "source_domain": "english.aawsat.com",
+      "url": "https://english.aawsat.com/home/article/4153121/un-relief-chief-t%C3%BCrkiye-syria-quake-deaths-top-50000",
+      "published_at": "2023-02-12T00:00:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "republished",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "依据 AFP、Sky News 与官方数据，正文主要为转述。",
+      "content": "The death toll from a massive earthquake in Türkiye and Syria will \"double or more\" from its current level of 28,000, UN relief chief Martin Griffiths has said.\n\nGriffiths arrived on Saturday in Türkiye's southern city of Kahramanmaras, the epicenter of the first 7.8-magnitude tremor that upturned millions of lives in the pre-dawn hours of Monday, AFP said.\n\nHe said of the death toll in an interview with Sky News on Saturday: \"I think it is difficult to estimate precisely as we need to get under the rubble but I'm sure it will double or more.\"\n\n\"We haven't really begun to count the number of dead,\" he said.\n\nOfficials and medics said 24,617 people were killed in Türkiye and 3,574 in Syria. The confirmed total now stands at 28,191.\n\nTens of thousands of rescue workers are scouring flattened neighborhoods despite freezing weather that has deepened the misery of millions now in desperate need of aid.\n\nThe United Nations has warned that at least 870,000 people urgently need hot meals across Türkiye and Syria. Up to 5.3 million people may have been made homeless in Syria alone.\n\nAlmost 26 million people have been affected by the earthquake, the World Health Organization (WHO) said as it launched a flash appeal on Saturday for $42.8 million to cope with immediate health needs.\n\nTürkiye's disaster agency said more than 32,000 people from Turkish organizations are working on search-and-rescue efforts. There are also 8,294 international rescuers.\n\n\"Soon, the search and rescue people will make way for the humanitarian agencies whose job it is to look after the extraordinary numbers of those affected for the next months,\" Griffiths said in a video posted to Twitter.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A001_F001",
+          "span_text": "The death toll from a massive earthquake in Türkiye and Syria will \"double or more\" from its current level of 28,000, UN relief chief Martin Griffiths has said.\n\nGriffiths arrived on Saturday in Türkiye's southern city of Kahramanmaras, the epicenter of the first 7.8-magnitude tremor that upturned millions of lives in the pre-dawn hours of Monday, AFP said.\n\nHe said of the death toll in an interview with Sky News on Saturday: \"I think it is difficult to estimate precisely as we need to get under the rubble but I'm sure it will double or more.\"\n\n\"We haven't really begun to count the number of dead,\" he said.\n\n",
+          "start_offset": 0,
+          "end_offset": 616,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "casualties",
+            "uncertainty",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "first_quake_magnitude",
+              "value": 7.8,
+              "unit": null
+            },
+            {
+              "attribute": "baseline_deaths_rounded",
+              "value": 28000,
+              "unit": "people"
+            },
+            {
+              "attribute": "forecast_deaths_multiplier",
+              "value": {
+                "value": 2,
+                "qualifier": "at_least"
+              },
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Martin Griffiths for forecast",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F002",
+          "span_text": "Officials and medics said 24,617 people were killed in Türkiye and 3,574 in Syria. The confirmed total now stands at 28,191.\n\n",
+          "start_offset": 616,
+          "end_offset": 742,
+          "sentence_ids": [
+            5,
+            6
+          ],
+          "fact_types": [
+            "casualties",
+            "location"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "turkiye_deaths",
+              "value": 24617,
+              "unit": "people"
+            },
+            {
+              "attribute": "syria_deaths",
+              "value": 3574,
+              "unit": "people"
+            },
+            {
+              "attribute": "confirmed_total",
+              "value": 28191,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F003",
+          "span_text": "Tens of thousands of rescue workers are scouring flattened neighborhoods despite freezing weather that has deepened the misery of millions now in desperate need of aid.\n\nThe United Nations has warned that at least 870,000 people urgently need hot meals across Türkiye and Syria. Up to 5.3 million people may have been made homeless in Syria alone.\n\n",
+          "start_offset": 742,
+          "end_offset": 1091,
+          "sentence_ids": [
+            7,
+            8,
+            9
+          ],
+          "fact_types": [
+            "response",
+            "humanitarian_needs",
+            "affected_population",
+            "weather"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "urgent_hot_meals",
+              "value": {
+                "value": 870000,
+                "qualifier": "at_least"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "syria_potentially_homeless",
+              "value": {
+                "value": 5300000,
+                "qualifier": "up_to"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "attribution",
+              "value": "UN",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F004",
+          "span_text": "Almost 26 million people have been affected by the earthquake, the World Health Organization (WHO) said as it launched a flash appeal on Saturday for $42.8 million to cope with immediate health needs.\n\n",
+          "start_offset": 1091,
+          "end_offset": 1293,
+          "sentence_ids": [
+            10
+          ],
+          "fact_types": [
+            "affected_population",
+            "aid",
+            "humanitarian_needs"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "affected",
+              "value": {
+                "value": 26000000,
+                "qualifier": "almost"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "who_appeal",
+              "value": 42800000,
+              "unit": "USD"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A001_F005",
+          "span_text": "Türkiye's disaster agency said more than 32,000 people from Turkish organizations are working on search-and-rescue efforts. There are also 8,294 international rescuers.\n\n\"Soon, the search and rescue people will make way for the humanitarian agencies whose job it is to look after the extraordinary numbers of those affected for the next months,\" Griffiths said in a video posted to Twitter.",
+          "start_offset": 1293,
+          "end_offset": 1683,
+          "sentence_ids": [
+            11,
+            12,
+            13
+          ],
+          "fact_types": [
+            "response",
+            "aid",
+            "recovery"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "turkish_search_personnel",
+              "value": {
+                "value": 32000,
+                "qualifier": "greater_than"
+              },
+              "unit": "people"
+            },
+            {
+              "attribute": "international_rescuers",
+              "value": 8294,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "f66ed2183a7848a524ca46af01d874f91f73f1db6c44c3df02b92f8ca6c48ac0",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    },
+    {
+      "article_id": "A002",
+      "dataset_article_id": "ART-88C401317568DBBF",
+      "event_id": "DIS-EQ-D92070E5955A79E3",
+      "event_rank": 16,
+      "article_rank": 2,
+      "title": "Azerbaijan sends stationary generators to earthquake-hit Türkiye (PHOTO)",
+      "publisher": "trendnews-az",
+      "identified_publisher": "Trend",
+      "source_domain": "en.trend.az",
+      "url": "https://en.trend.az/azerbaijan/politics/3709241.html",
+      "published_at": "2023-02-12T07:04:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "original",
+      "source_independence": "independent",
+      "source_independence_reason": "Trend 电头并说明由阿塞拜疆国防部获得发电机运输消息。",
+      "content": "BAKU, Azerbaijan, February 12. Upon instructions of President of Azerbaijan, Supreme Commander-in-Chief of the Armed Forces Ilham Aliyev, the implementation of measures to assist victims of the earthquake in Türkiye continues, Trend reports via the Ministry of Defense of Azerbaijan.\n\nAccording to the ministry, high-voltage generators were sent from the supply of Engineering Troops to the fraternal country.\n\nGenerators to ensure uninterrupted power supply were dispatched to Türkiye by vehicles.\n\nAn earthquake with a magnitude of 7.7 hit southeastern Türkiye on Feb. 6, 2023. The earthquake occurred at a depth of seven kilometers in the Pazarcik region of Kahramanmaras Province.\n\nThe number of people who died as a result of the earthquake has reached 24,617, and 80,278 people were injured.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A002_F001",
+          "span_text": "BAKU, Azerbaijan, February 12. Upon instructions of President of Azerbaijan, Supreme Commander-in-Chief of the Armed Forces Ilham Aliyev, the implementation of measures to assist victims of the earthquake in Türkiye continues, Trend reports via the Ministry of Defense of Azerbaijan.\n\nAccording to the ministry, high-voltage generators were sent from the supply of Engineering Troops to the fraternal country.\n\nGenerators to ensure uninterrupted power supply were dispatched to Türkiye by vehicles.\n\n",
+          "start_offset": 0,
+          "end_offset": 500,
+          "sentence_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "fact_types": [
+            "aid",
+            "response",
+            "infrastructure"
+          ],
+          "importance": "important",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "aid",
+              "value": "high-voltage generators",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Azerbaijan Ministry of Defense",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F002",
+          "span_text": "An earthquake with a magnitude of 7.7 hit southeastern Türkiye on Feb. 6, 2023. The earthquake occurred at a depth of seven kilometers in the Pazarcik region of Kahramanmaras Province.\n\n",
+          "start_offset": 500,
+          "end_offset": 686,
+          "sentence_ids": [
+            5,
+            6,
+            7
+          ],
+          "fact_types": [
+            "disaster_occurrence",
+            "disaster_magnitude",
+            "location",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "magnitude",
+              "value": 7.7,
+              "unit": null
+            },
+            {
+              "attribute": "date",
+              "value": "2023-02-06",
+              "unit": null
+            },
+            {
+              "attribute": "depth",
+              "value": 7,
+              "unit": "km"
+            },
+            {
+              "attribute": "reported_location",
+              "value": "Pazarcik",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A002_F003",
+          "span_text": "The number of people who died as a result of the earthquake has reached 24,617, and 80,278 people were injured.",
+          "start_offset": 686,
+          "end_offset": 797,
+          "sentence_ids": [
+            8
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries"
+          ],
+          "importance": "critical",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "turkiye_deaths",
+              "value": 24617,
+              "unit": "people"
+            },
+            {
+              "attribute": "turkiye_injuries",
+              "value": 80278,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": true,
+        "original_content_hash": "0ec68f3d7d948a7aecf791caf81c6488f2c94322ce738b0db6ba8835d176fa1b",
+        "removed_word_count": 16,
+        "removed_word_ratio": 0.11510791366906475
+      }
+    },
+    {
+      "article_id": "A003",
+      "dataset_article_id": "ART-4F9436425C282840",
+      "event_id": "DIS-EQ-D92070E5955A79E3",
+      "event_rank": 16,
+      "article_rank": 3,
+      "title": "Chinese rescuers spare no effort to save lives in quake-hit Türkiye - China.org.cn",
+      "publisher": "china.org.cn",
+      "identified_publisher": null,
+      "source_domain": "china.org.cn",
+      "url": "http://www.china.org.cn/world/2023-02/12/content_85101546.htm",
+      "published_at": "2023-02-12T02:57:00+00:00",
+      "updated_at": null,
+      "language": "en",
+      "original_language": "en",
+      "detected_language": "en",
+      "language_label_issue": null,
+      "reporting_type": "likely_syndicated",
+      "source_independence": "likely_syndicated",
+      "source_independence_reason": "图片署名新华社摄影者，正文高度聚焦中国团队，正文署名未保留。",
+      "content": "International search and rescue teams have rushed to Türkiye to assist in rescue efforts after two massive earthquakes jolted the country Monday. Chinese rescuers have successfully saved four survivors so far.\n\nA member from the Blue Sky Rescue Team, a Chinese civil relief squad, participates in rescue operation in Malatya, Türkiye, Feb. 10, 2023. (Photo by Mustafa Kaya/Xinhua)\n\nAn 82-member China Search and Rescue Team arrived in Türkiye on Wednesday to join earthquake relief efforts in the country. Members of the Blue Sky Rescue Team and other Chinese civil relief squads were also in Türkiye to join the international rescue work. On Friday, following a three-hour effort, a woman, the fourth survivor saved by Chinese rescuers, was pulled out to safety from the rubble of collapsed buildings over 96 hours after the earthquake.\n\nThe death toll from Monday's devastating earthquakes climbed to 20,213 in Türkiye, while another 80,052 injuries were reported in the country, Turkish Health Minister Fahrettin Koca announced late Friday.",
+      "fact_spans": [
+        {
+          "fact_span_id": "A003_F001",
+          "span_text": "International search and rescue teams have rushed to Türkiye to assist in rescue efforts after two massive earthquakes jolted the country Monday. Chinese rescuers have successfully saved four survivors so far.\n\n",
+          "start_offset": 0,
+          "end_offset": 211,
+          "sentence_ids": [
+            1,
+            2
+          ],
+          "fact_types": [
+            "aid",
+            "response"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "survivors_saved_by_chinese_rescuers",
+              "value": 4,
+              "unit": "people"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F002",
+          "span_text": "A member from the Blue Sky Rescue Team, a Chinese civil relief squad, participates in rescue operation in Malatya, Türkiye, Feb. 10, 2023. (Photo by Mustafa Kaya/Xinhua)\n\n",
+          "start_offset": 211,
+          "end_offset": 382,
+          "sentence_ids": [
+            3,
+            4,
+            5
+          ],
+          "fact_types": [
+            "non_factual_boilerplate"
+          ],
+          "importance": "not_applicable",
+          "evidence_status": "non_factual_source_text",
+          "structured_attributes": [],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F003",
+          "span_text": "An 82-member China Search and Rescue Team arrived in Türkiye on Wednesday to join earthquake relief efforts in the country. Members of the Blue Sky Rescue Team and other Chinese civil relief squads were also in Türkiye to join the international rescue work. On Friday, following a three-hour effort, a woman, the fourth survivor saved by Chinese rescuers, was pulled out to safety from the rubble of collapsed buildings over 96 hours after the earthquake.\n\n",
+          "start_offset": 382,
+          "end_offset": 839,
+          "sentence_ids": [
+            6,
+            7,
+            8
+          ],
+          "fact_types": [
+            "response",
+            "aid",
+            "timeline"
+          ],
+          "importance": "important",
+          "evidence_status": "explicitly_reported",
+          "structured_attributes": [
+            {
+              "attribute": "chinese_sar_team",
+              "value": 82,
+              "unit": "people"
+            },
+            {
+              "attribute": "fourth_save_time",
+              "value": {
+                "value": 96,
+                "qualifier": "greater_than"
+              },
+              "unit": "hours after earthquake"
+            },
+            {
+              "attribute": "rescue_effort",
+              "value": 3,
+              "unit": "hours"
+            }
+          ],
+          "annotation_note": null
+        },
+        {
+          "fact_span_id": "A003_F004",
+          "span_text": "The death toll from Monday's devastating earthquakes climbed to 20,213 in Türkiye, while another 80,052 injuries were reported in the country, Turkish Health Minister Fahrettin Koca announced late Friday.",
+          "start_offset": 839,
+          "end_offset": 1043,
+          "sentence_ids": [
+            9
+          ],
+          "fact_types": [
+            "casualties",
+            "injuries",
+            "timeline"
+          ],
+          "importance": "critical",
+          "evidence_status": "attributed_claim",
+          "structured_attributes": [
+            {
+              "attribute": "turkiye_deaths",
+              "value": 20213,
+              "unit": "people"
+            },
+            {
+              "attribute": "turkiye_injuries",
+              "value": 80052,
+              "unit": "people"
+            },
+            {
+              "attribute": "cutoff",
+              "value": "late Friday",
+              "unit": null
+            },
+            {
+              "attribute": "attribution",
+              "value": "Fahrettin Koca",
+              "unit": null
+            }
+          ],
+          "annotation_note": null
+        }
+      ],
+      "editing_metadata": {
+        "content_edited": false,
+        "original_content_hash": "2830d95ffcb9d1553ee34663b00168a29f5f420440d0daacccdc6247695f3bf8",
+        "removed_word_count": 0,
+        "removed_word_ratio": 0
+      }
+    }
+  ],
+  "cross_source_alignment": {
+    "fact_clusters": [
+      {
+        "cluster_id": "FC001",
+        "cluster_description": "首场地震震级的报道有别",
+        "fact_type": "disaster_magnitude",
+        "attribute": "first_mainshock_magnitude",
+        "supporting_spans": [
+          "A001_F001",
+          "A002_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": 7.8,
+            "unit": null,
+            "attribution": "AFP"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F002",
+            "value": 7.7,
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "not_comparable",
+        "temporal_relation": "unknown",
+        "annotation_note": "A002 没有列震级发布机构、量表或公告版本。"
+      },
+      {
+        "cluster_id": "FC002",
+        "cluster_description": "土耳其死亡数先报 20213，其他报道统计达到 24617",
+        "fact_type": "casualties",
+        "attribute": "turkiye_deaths",
+        "supporting_spans": [
+          "A003_F004",
+          "A001_F002",
+          "A002_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": 20213,
+            "unit": "people",
+            "attribution": "Fahrettin Koca, late Friday"
+          },
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 24617,
+            "unit": "people",
+            "attribution": "officials and medics"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": 24617,
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "temporal_update",
+        "temporal_relation": "earlier_later",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC003",
+        "cluster_description": "土耳其报告伤者超过 8 万",
+        "fact_type": "injuries",
+        "attribute": "turkiye_injuries",
+        "supporting_spans": [
+          "A003_F004",
+          "A002_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F004",
+            "value": 80052,
+            "unit": "people",
+            "attribution": "Fahrettin Koca, late Friday"
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F003",
+            "value": 80278,
+            "unit": "people",
+            "attribution": null
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "aligned",
+        "consistency_status": "temporal_update",
+        "temporal_relation": "earlier_later",
+        "annotation_note": null
+      },
+      {
+        "cluster_id": "FC004",
+        "cluster_description": "双国死亡已确认数量与前瞻估算",
+        "fact_type": "casualties",
+        "attribute": "two_country_totals",
+        "supporting_spans": [
+          "A001_F001",
+          "A001_F002"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F001",
+            "value": "could double or more from about 28,000",
+            "unit": null,
+            "attribution": "Martin Griffiths"
+          },
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F002",
+            "value": 28191,
+            "unit": "people",
+            "attribution": "officials and medics"
+          }
+        ],
+        "importance": "critical",
+        "alignment_status": "single_source",
+        "consistency_status": "single_source_unverified",
+        "temporal_relation": "unknown",
+        "annotation_note": "第一项是展望，第二项是当时的累计报告。"
+      },
+      {
+        "cluster_id": "FC005",
+        "cluster_description": "国际救灾包括搜救和供电设备援助",
+        "fact_type": "aid",
+        "attribute": "international_assistance",
+        "supporting_spans": [
+          "A001_F005",
+          "A002_F001",
+          "A003_F003"
+        ],
+        "source_values": [
+          {
+            "article_id": "A001",
+            "fact_span_id": "A001_F005",
+            "value": 8294,
+            "unit": "international rescuers",
+            "attribution": null
+          },
+          {
+            "article_id": "A002",
+            "fact_span_id": "A002_F001",
+            "value": "Azerbaijan sent generators",
+            "unit": null,
+            "attribution": null
+          },
+          {
+            "article_id": "A003",
+            "fact_span_id": "A003_F003",
+            "value": "China dispatched rescue personnel",
+            "unit": null,
+            "attribution": null
+          }
+        ],
+        "importance": "important",
+        "alignment_status": "partially_aligned",
+        "consistency_status": "compatible_vague_vs_specific",
+        "temporal_relation": "unknown",
+        "annotation_note": null
+      }
+    ]
+  },
+  "event_level_annotations": {
+    "information_completeness": {
+      "key_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004",
+        "FC005"
+      ],
+      "critical_facts": [
+        "FC001",
+        "FC002",
+        "FC003",
+        "FC004"
+      ],
+      "important_facts": [
+        "FC005"
+      ],
+      "supplementary_facts": [],
+      "scope_note": "仅标注该事件这三篇报道中的信息，不声称穷尽事件的全部真实事实。"
+    },
+    "logical_coherence": {
+      "timeline": [
+        {
+          "time": "2023-02-06",
+          "time_precision": "当地日期",
+          "description": "土耳其和叙利亚发生强震。",
+          "supporting_spans": [
+            "A001_F001",
+            "A002_F002",
+            "A003_F001"
+          ]
+        },
+        {
+          "time": "2023-02-08",
+          "time_precision": "星期和报道上下文推定",
+          "description": "中国 82 人搜救队抵达。",
+          "supporting_spans": [
+            "A003_F003"
+          ]
+        },
+        {
+          "time": "2023-02-10",
+          "time_precision": "当地日期",
+          "description": "中国队救出第四名幸存者，土耳其卫生部长晚间通报伤亡。",
+          "supporting_spans": [
+            "A003_F003",
+            "A003_F004"
+          ]
+        },
+        {
+          "time": "2023-02-11",
+          "time_precision": "当地日期",
+          "description": "联合国救援负责人抵达灾区，WHO 发起紧急呼吁。",
+          "supporting_spans": [
+            "A001_F001",
+            "A001_F004"
+          ]
+        }
+      ],
+      "causal_relations": [
+        {
+          "description": "低温加剧受灾者困境；阿塞拜疆援助发电机用于保障供电。",
+          "supporting_spans": [
+            "A001_F003",
+            "A002_F001"
+          ]
+        }
+      ],
+      "event_mainline": [
+        {
+          "description": "强震造成两国大量人员死伤，仍在搜救并调运救援设备。",
+          "supporting_spans": [
+            "A001_F002",
+            "A001_F003",
+            "A002_F001",
+            "A003_F003"
+          ]
+        }
+      ]
+    },
+    "conflict_annotation": {
+      "has_conflict": false,
+      "total_conflicts": 0,
+      "conflicts": [],
+      "unresolved_conflicts": []
+    }
+  },
+  "annotation_metadata": {
+    "annotator_model": "OpenAI Codex (GPT-6)",
+    "annotation_version": "1.0-draft",
+    "human_verified": false,
+    "reviewer": null,
+    "review_time": null,
+    "offset_convention": "Python Unicode 字符索引；0-based；起点包含、终点不包含",
+    "limitations": [
+      "援助需求与潜在无家可归为机构估计。标题中的超过五万属于预期。"
+    ]
+  }
+}
